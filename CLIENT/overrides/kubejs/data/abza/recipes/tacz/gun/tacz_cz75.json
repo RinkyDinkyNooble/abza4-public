@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "superbwarfare:common_material_pack"
+    },
+    {
+      "item": "superbwarfare:iron_action"
+    },
+    {
+      "item": "superbwarfare:iron_trigger"
+    },
+    {
+      "item": "superbwarfare:iron_barrel"
+    },
+    {
+      "item": "superbwarfare:iron_barrel"
+    },
+    {
+      "item": "superbwarfare:iron_spring"
+    }
+  ],
+  "result": {
+    "item": "tacz:modern_kinetic_gun",
+    "nbt": "{GunId:\"tacz:cz75\",GunFireMode:\"AUTO\",GunCurrentAmmoCount:0,HideFlags:61}"
+  }
+}

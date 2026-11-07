@@ -1,0 +1,1 @@
+{"type": "mekanism:reaction", "duration": 100, "energyRequired": 1000, "itemInput": {"ingredient": {"tag": "forge:sand"}}, "fluidInput": {"amount": 250, "tag": "minecraft:water"}, "gasInput": {"amount": 10, "gas": "mekanism:sodium"}, "itemOutput": {"item": "minecraft:quartz"}}

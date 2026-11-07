@@ -1,0 +1,10 @@
+{
+  "dimension": "abza:cinder",
+  "gravity": 3.7,
+  "oxygen": false,
+  "orbit": "abza:cinder_orbit",
+  "solar_power": 0,
+  "solar_system": "abza:halcyon",
+  "temperature": 150,
+  "tier": 2
+}

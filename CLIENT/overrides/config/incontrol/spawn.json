@@ -1,0 +1,161 @@
+[
+  {
+    "when": "position",
+    "mod": "entomophobia",
+    "spawner": false,
+    "minlight": 1,
+    "result": "deny"
+  },
+  {
+    "when": "position",
+    "mod": "the_eyes_are_back",
+    "spawner": false,
+    "minlight": 1,
+    "result": "deny"
+  },
+  {
+    "when": "position",
+    "mod": "phayriosisreborn",
+    "spawner": false,
+    "minlight": 1,
+    "result": "deny"
+  },
+  {
+    "when": "position",
+    "mod": "spore",
+    "spawner": false,
+    "minlight": 1,
+    "result": "deny"
+  },
+  {
+    "when": "onjoin",
+    "mob": "entomophobia:myiatic_cow",
+    "biometags": "abza:tier3",
+    "spawntype": [
+      "command",
+      "spawn_egg"
+    ],
+    "result": "allow"
+  },
+  {
+    "when": "onjoin",
+    "mob": "entomophobia:myiatic_cow",
+    "result": "deny"
+  },
+  {
+    "when": "onjoin",
+    "mod": "infectious",
+    "biometags": "abza:tier1",
+    "result": "allow"
+  },
+  {
+    "when": "onjoin",
+    "mod": "infectious",
+    "result": "deny"
+  },
+  {
+    "when": "onjoin",
+    "mod": "undead_revamp2",
+    "biometags": "abza:tier1",
+    "result": "allow"
+  },
+  {
+    "when": "onjoin",
+    "mod": "undead_revamp2",
+    "result": "deny"
+  },
+  {
+    "when": "onjoin",
+    "mod": "prionmod",
+    "biometags": "abza:tier2",
+    "result": "allow"
+  },
+  {
+    "when": "onjoin",
+    "mod": "prionmod",
+    "result": "deny"
+  },
+  {
+    "when": "onjoin",
+    "mod": "entomophobia",
+    "biometags": "abza:tier3",
+    "result": "allow"
+  },
+  {
+    "when": "onjoin",
+    "mod": "entomophobia",
+    "result": "deny"
+  },
+  {
+    "when": "onjoin",
+    "mod": "the_eyes_are_back",
+    "dimension": "abza:cinder",
+    "result": "allow"
+  },
+  {
+    "when": "onjoin",
+    "mod": "the_eyes_are_back",
+    "result": "deny"
+  },
+  {
+    "when": "onjoin",
+    "mod": "the_flesh_that_hates",
+    "dimension": "abza:eden",
+    "result": "allow"
+  },
+  {
+    "when": "onjoin",
+    "mod": "the_flesh_that_hates",
+    "result": "deny"
+  },
+  {
+    "when": "onjoin",
+    "mod": "phayriosisreborn",
+    "dimension": "abza:umbra",
+    "result": "allow"
+  },
+  {
+    "when": "onjoin",
+    "mod": "phayriosisreborn",
+    "result": "deny"
+  },
+  {
+    "when": "onjoin",
+    "mod": "spore",
+    "dimension": "abza:interloper",
+    "result": "allow"
+  },
+  {
+    "when": "onjoin",
+    "mod": "spore",
+    "result": "deny"
+  },
+  {
+    "when": "onjoin",
+    "mod": "hordes",
+    "biometags": "abza:tier1",
+    "result": "allow"
+  },
+  {
+    "when": "onjoin",
+    "mod": "hordes",
+    "result": "deny"
+  },
+  {
+    "when": "onjoin",
+    "mob": [
+      "minecraft:zombie",
+      "minecraft:zombie_horse"
+    ],
+    "biometags": "abza:tier1",
+    "result": "allow"
+  },
+  {
+    "when": "onjoin",
+    "mob": [
+      "minecraft:zombie",
+      "minecraft:zombie_horse"
+    ],
+    "result": "deny"
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "superbwarfare:virtual_material_pack"
+    },
+    {
+      "item": "superbwarfare:crystal_action"
+    },
+    {
+      "item": "superbwarfare:crystal_trigger"
+    },
+    {
+      "item": "ad_astra:calorite_plate"
+    },
+    {
+      "item": "superbwarfare:crystal_spring"
+    },
+    {
+      "item": "superbwarfare:crystal_spring"
+    },
+    {
+      "item": "superbwarfare:crystal_spring"
+    },
+    {
+      "item": "superbwarfare:crystal_spring"
+    }
+  ],
+  "result": {
+    "item": "tacz:modern_kinetic_gun",
+    "nbt": "{GunId:\"tacz:minigun\",GunFireMode:\"AUTO\",GunCurrentAmmoCount:0,HideFlags:61}"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "required_mods": [
+    "ad_astra"
+  ],
+  "dimensions": [
+    "ad_astra:earth_orbit",
+    "ad_astra:moon_orbit",
+    "abza:cinder_orbit",
+    "abza:eden_orbit",
+    "abza:umbra_orbit",
+    "abza:interloper_orbit"
+  ],
+  "temperature": 0,
+  "units": "c",
+  "is_offset": true
+}

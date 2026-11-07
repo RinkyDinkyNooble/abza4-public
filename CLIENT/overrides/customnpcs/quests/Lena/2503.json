@@ -1,0 +1,61 @@
+{
+    "Id": 2503,
+    "ModRev": 18,
+    "Type": 0,
+    "Title": "The Hive's heart",
+    "Text": "Lena wants Element 120, the core of the Hive, the Snow's final boss.",
+    "CompleteText": "The Hive wasn't many things. It was one thing, in many rooms. (She doesn't put it down.) I need to think.",
+    "CompleterNpc": "Lena",
+    "NextQuestId": -1,
+    "RewardExp": 0,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "saros__money_mod:euro_500",
+                "Count": 1b
+            },
+            {
+                "Slot": 1b,
+                "id": "saros__money_mod:euro_100",
+                "Count": 1b
+            }
+        ]
+    },
+    "QuestCommand": "",
+    "RandomReward": 0b,
+    "QuestCompletion": 0,
+    "QuestRepeat": 0,
+    "QuestFactionPoints": {
+        "OptionFactions1": 1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction1Points": 0b,
+        "OptionFactions2": -1,
+        "OptionFaction2Points": 0,
+        "DecreaseFaction2Points": 0b
+    },
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 0L
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "prionmod:element_120",
+                "Count": 1b
+            }
+        ]
+    },
+    "LeaveItems": 0b,
+    "IgnoreDamage": 1b,
+    "IgnoreNBT": 0b
+}

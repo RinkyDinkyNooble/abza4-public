@@ -1,0 +1,168 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "guide_combat"
+	group: "2823A29698F90E67"
+	icon: {
+		id: "tacz:modern_kinetic_gun"
+		Count: 1b
+		tag: {
+			GunId: "tacz:glock_17"
+		}
+	}
+	id: "506D3EF526389F03"
+	order_index: 3
+	images: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"A gun one tier behind needs &e2×&r the shots. Headshots do &e2×&r damage."
+			]
+			disable_toast: true
+			icon: {
+				id: "tacz:modern_kinetic_gun"
+				Count: 1b
+				tag: {
+					GunId: "tacz:glock_17"
+				}
+			}
+			id: "1E50AE7E0562F8D8"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "6D9141DD18770022"
+					title: "Got it"
+					type: "checkmark"
+					disable_toast: true
+				}
+			]
+			title: "Guns"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1E50AE7E0562F8D8"
+			]
+			description: [
+				"Creatures drop rounds for &eyour gun&r first. &cExplosion kills drop nothing.&r"
+			]
+			disable_toast: true
+			icon: "minecraft:gunpowder"
+			id: "4A1EDA283278C2FE"
+			tasks: [
+				{
+					id: "01005296D9B87365"
+					title: "Got it"
+					type: "checkmark"
+					disable_toast: true
+				}
+			]
+			title: "Rounds"
+			x: 3.5d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"4A1EDA283278C2FE"
+			]
+			description: [
+				"Holds one round type. &aRight-click rounds&r with it to fill it, an &aempty slot&r to take rounds out."
+			]
+			disable_toast: true
+			icon: {
+				id: "tacz:ammo_box"
+				Count: 1b
+				tag: {
+					Level: 0
+				}
+			}
+			id: "006BDB1B446D917B"
+			tasks: [
+				{
+					id: "1C896E9822BBCDDF"
+					title: "Got it"
+					type: "checkmark"
+					disable_toast: true
+				}
+			]
+			title: "Ammo Boxes"
+			x: 7.0d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"1E50AE7E0562F8D8"
+			]
+			description: [
+				"Guns &cjam&r as they wear. There's no anvil: &etraders repair&r gear."
+			]
+			disable_toast: true
+			icon: "minecraft:iron_ingot"
+			id: "096CD5FE8D16161A"
+			tasks: [
+				{
+					id: "257F447AB7FFB01A"
+					title: "Got it"
+					type: "checkmark"
+					disable_toast: true
+				}
+			]
+			title: "Wear and Repairs"
+			x: 3.5d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"096CD5FE8D16161A"
+			]
+			description: [
+				"A destroyed vehicle &ckills everyone aboard&r. Helicopters take damage landing faster than &e8 m/s&r."
+			]
+			disable_toast: true
+			icon: "superbwarfare:container"
+			id: "5130F4F2A831E76D"
+			tasks: [
+				{
+					id: "1B5A09C34006408B"
+					title: "Got it"
+					type: "checkmark"
+					disable_toast: true
+				}
+			]
+			title: "Vehicles"
+			x: 7.0d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"006BDB1B446D917B"
+				"5130F4F2A831E76D"
+			]
+			description: [
+				"&cFinal bosses take 10% from plain bullets.&r Use &earmour-piercing rounds&r, &eexplosives&r or &evehicle weapons&r."
+				""
+				"Bosses &cheal&r when left alone."
+			]
+			disable_toast: true
+			icon: "minecraft:zombie_head"
+			id: "6B939335729472EC"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "3A17CA36F9DF403F"
+					title: "Got it"
+					type: "checkmark"
+					disable_toast: true
+				}
+			]
+			title: "Final Bosses"
+			x: 10.5d
+			y: 0.0d
+		}
+	]
+	title: "Combat"
+}

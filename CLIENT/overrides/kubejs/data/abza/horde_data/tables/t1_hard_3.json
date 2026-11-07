@@ -1,0 +1,403 @@
+[
+  {
+    "entity": "infectious:acid_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:angry_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:armless_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:balloon_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:barrel_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:baseball_bat_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:beehive_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:beekeeper_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:big_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:blind_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:bodyless_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:bouncer_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:brain_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:bucket_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:burned_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:burning_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:chained_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:claw_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:construction_worker_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:crawling_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:deep_sea_diver_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:disco_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:door_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:fat_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:fire_fighter_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:firework_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:football_player_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:frozen_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:fungal_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:golden_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:hazmat_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:headless_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:infectious_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:iron_door_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:maggot_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:muddy_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:mummy",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:old_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:pool_tube_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:psycho_zombie",
+    "weight": 2
+  },
+  {
+    "entity": "infectious:pumpkin_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:pylon_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:robotic_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:security_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:spore_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:tower_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:withered_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:zombie_agent",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:zombie_astronaut",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:zombie_bomber",
+    "weight": 2
+  },
+  {
+    "entity": "infectious:zombie_boxer",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:zombie_climber",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:zombie_clown",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:zombie_cook",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:zombie_dancer",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:zombie_diver",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:zombie_doctor",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:zombie_farmer",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:zombie_fisherman",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:zombie_girl",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:zombie_head",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:zombie_horseman",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:zombie_lumberjack",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:zombie_miner",
+    "weight": 2
+  },
+  {
+    "entity": "infectious:zombie_on_stelts",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:zombie_painter",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:zombie_police",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:zombie_prisoner",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:zombie_runner",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:zombie_scientist",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:zombie_screamer",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:zombie_spiter",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:zombified_bird",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:zombified_boar",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:zombified_spider",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:zombified_wolf",
+    "weight": 20
+  },
+  {
+    "entity": "minecraft:zombie",
+    "weight": 20
+  },
+  {
+    "entity": "minecraft:zombie_horse",
+    "weight": 5
+  },
+  {
+    "entity": "undead_revamp2:bomber",
+    "weight": 20
+  },
+  {
+    "entity": "undead_revamp2:thebeartamer",
+    "weight": 20
+  },
+  {
+    "entity": "undead_revamp2:thelurker",
+    "weight": 20
+  },
+  {
+    "entity": "undead_revamp2:therod",
+    "weight": 20
+  },
+  {
+    "entity": "undead_revamp2:thesmoker",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:mecha_zombie",
+    "weight": 7,
+    "max_spawns": 1
+  },
+  {
+    "entity": "infectious:muscular_zombie",
+    "weight": 7,
+    "max_spawns": 1
+  },
+  {
+    "entity": "infectious:mutant_zombie",
+    "weight": 7,
+    "max_spawns": 1
+  },
+  {
+    "entity": "infectious:radioactive_zombie",
+    "weight": 7,
+    "max_spawns": 1
+  },
+  {
+    "entity": "infectious:screamer",
+    "weight": 7,
+    "max_spawns": 1
+  },
+  {
+    "entity": "infectious:swat_zombie",
+    "weight": 7,
+    "max_spawns": 1
+  },
+  {
+    "entity": "infectious:zombie_breeder",
+    "weight": 7,
+    "max_spawns": 1
+  },
+  {
+    "entity": "infectious:zombie_soldier",
+    "weight": 7,
+    "max_spawns": 1
+  },
+  {
+    "entity": "infectious:zombified_bear",
+    "weight": 7,
+    "max_spawns": 1
+  },
+  {
+    "entity": "undead_revamp2:smokesmitter",
+    "weight": 7,
+    "max_spawns": 1
+  },
+  {
+    "entity": "undead_revamp2:theheavy",
+    "weight": 7,
+    "max_spawns": 1
+  },
+  {
+    "entity": "undead_revamp2:thepregnant",
+    "weight": 7,
+    "max_spawns": 1
+  },
+  {
+    "entity": "undead_revamp2:thewolf",
+    "weight": 7,
+    "max_spawns": 1
+  }
+]

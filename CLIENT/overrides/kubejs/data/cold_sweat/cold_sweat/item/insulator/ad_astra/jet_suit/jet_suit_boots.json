@@ -1,0 +1,24 @@
+{
+  "type": "armor",
+  "item": {
+    "items": [
+      "ad_astra:jet_suit_boots"
+    ]
+  },
+  "attributes": {
+    "cold_sweat:freezing_point": [
+      {
+        "name": "abza:jet_suit_boots_cold",
+        "amount": -0.45,
+        "operation": "addition"
+      }
+    ],
+    "cold_sweat:burning_point": [
+      {
+        "name": "abza:jet_suit_boots_heat",
+        "amount": 0.3,
+        "operation": "addition"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "superbwarfare:he_head"
+    },
+    {
+      "item": "mekanism:ingot_steel"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "mekanism:fluorite_gem"
+    }
+  ],
+  "result": {
+    "item": "tacz:ammo",
+    "count": 2,
+    "nbt": "{AmmoId:\"tacz:rpg_rocket\"}"
+  }
+}

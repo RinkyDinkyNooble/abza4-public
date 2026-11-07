@@ -1,0 +1,1180 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bestiary_t2"
+	group: "182E303C40AEF1E1"
+	icon: "prionmod:hive_spawn_egg"
+	id: "4D22F84A4F253B38"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"It lives in the boss buildings of the Tier 2 region."
+				""
+				"Reward: +10 max health (5 hearts), kept for good, for everyone who dealt at least a tenth of its health. It's given at the kill; this quest then checks itself."
+			]
+			icon: "prionmod:hive_spawn_egg"
+			id: "199EB2FA66A6C853"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "+10 max health (5 hearts)"
+			tasks: [
+				{
+					icon: "prionmod:hive_spawn_egg"
+					id: "369E14F87A86D1B9"
+					stage: "abza_final_t2"
+					title: "Defeat the Hive"
+					type: "gamestage"
+				}
+			]
+			title: "Defeat the Hive"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "111904A2281FA5C9"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:boomer"
+					id: "5BC12307BD854DAA"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Boomer"
+			x: 0.0d
+			y: 0.0d
+			icon: "prionmod:boomer_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "25188F25F9A1279B"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:cannibal"
+					id: "16931D366584AFC8"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Cannibal"
+			x: 1.3d
+			y: 0.0d
+			icon: "prionmod:cannibal_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "4784483A7A841CA6"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:crawler"
+					id: "31FF147C72F447C4"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Crawler"
+			x: 2.6d
+			y: 0.0d
+			icon: "prionmod:crawler_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "52317D5EF1740DB7"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:deathworm"
+					id: "4371D223FB7EB783"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Deathworm"
+			x: 3.9d
+			y: 0.0d
+			icon: "prionmod:deathworm_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "49F4380854B0D8C9"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:bloodseeker"
+					id: "52BCC92086B778DF"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Decaying Leach"
+			x: 5.2d
+			y: 0.0d
+			icon: "prionmod:bloodseeker_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "6E4B3AEA1E68B3C9"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:envoy"
+					id: "0406B715B294D874"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Envoy"
+			x: 6.5d
+			y: 0.0d
+			icon: "prionmod:envoy_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "391277B5DA60B85F"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:fhuman"
+					id: "15168B0ECCD1C633"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Failed Human Infection"
+			x: 7.8d
+			y: 0.0d
+			icon: "prionmod:fhuman_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "712406E4F3A7FE0A"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:impaler"
+					id: "1BF65B4070BDBB52"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Impaler"
+			x: 9.1d
+			y: 0.0d
+			icon: "prionmod:impaler_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "4642FCAF4DFBA2B1"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:infectedcow"
+					id: "7AF331D5AE8409CE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Infected Cow"
+			x: 10.4d
+			y: 0.0d
+			icon: "prionmod:infectedcow_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "5B55945ADC9BA3E2"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:infectedhorse"
+					id: "42466450E4B2CDCA"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Infected Horse"
+			x: 11.7d
+			y: 0.0d
+			icon: "prionmod:infectedhorse_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "672E77F3ED4C7829"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:infectedpig"
+					id: "0B6CA5AA99761D8E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Infected Pig"
+			x: 0.0d
+			y: 1.3d
+			icon: "prionmod:infectedpig_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "4E8672A334859A40"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:infectedsheep"
+					id: "77E59713780DEED8"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Infected Sheep"
+			x: 1.3d
+			y: 1.3d
+			icon: "prionmod:infectedsheep_spawn_egg"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "0DEB848B60FA9267"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "741E21DF42F79E7D"
+					stage: "abza_bestiary_t2_1"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "prionmod:boomer"
+					id: "6126E9809ADA3C0D"
+					title: "Boomer"
+					type: "kill"
+					value: 1L
+					icon: "prionmod:boomer_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "prionmod:cannibal"
+					id: "3845FC495D409D48"
+					title: "Cannibal"
+					type: "kill"
+					value: 1L
+					icon: "prionmod:cannibal_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "prionmod:crawler"
+					id: "4A8A8D669BEDA1A0"
+					title: "Crawler"
+					type: "kill"
+					value: 1L
+					icon: "prionmod:crawler_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "prionmod:deathworm"
+					id: "50DDD055266E8137"
+					title: "Deathworm"
+					type: "kill"
+					value: 1L
+					icon: "prionmod:deathworm_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "prionmod:bloodseeker"
+					id: "37ACF5A775F9027C"
+					title: "Decaying Leach"
+					type: "kill"
+					value: 1L
+					icon: "prionmod:bloodseeker_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "prionmod:envoy"
+					id: "711142980B3039E6"
+					title: "Envoy"
+					type: "kill"
+					value: 1L
+					icon: "prionmod:envoy_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "prionmod:fhuman"
+					id: "12F894FA83461C14"
+					title: "Failed Human Infection"
+					type: "kill"
+					value: 1L
+					icon: "prionmod:fhuman_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "prionmod:impaler"
+					id: "08BB56BEC2F0636F"
+					title: "Impaler"
+					type: "kill"
+					value: 1L
+					icon: "prionmod:impaler_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "prionmod:infectedcow"
+					id: "57A3E12F28EEDE18"
+					title: "Infected Cow"
+					type: "kill"
+					value: 1L
+					icon: "prionmod:infectedcow_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "prionmod:infectedhorse"
+					id: "4AD323CF14D16DB4"
+					title: "Infected Horse"
+					type: "kill"
+					value: 1L
+					icon: "prionmod:infectedhorse_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "prionmod:infectedpig"
+					id: "6F18414416745A0A"
+					title: "Infected Pig"
+					type: "kill"
+					value: 1L
+					icon: "prionmod:infectedpig_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "prionmod:infectedsheep"
+					id: "5ECE519A4FB3396E"
+					title: "Infected Sheep"
+					type: "kill"
+					value: 1L
+					icon: "prionmod:infectedsheep_spawn_egg"
+				}
+			]
+			title: "Bestiary 1 to 12"
+			x: 13.5d
+			y: 0.65d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "3D19CA53CD756417"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:nightwalker"
+					id: "3F0E5A7A5F832738"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Infected Spider"
+			x: 0.0d
+			y: 3.6d
+			icon: "prionmod:nightwalker_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "72ECA885119E20B5"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:infectedwolf"
+					id: "0B91CDDEA2961F29"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Infected Wolf"
+			x: 1.3d
+			y: 3.6d
+			icon: "prionmod:infectedwolf_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "48C9E551FF74F461"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:lacerator"
+					id: "184DFEE0B9F4C0A8"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Lacerator"
+			x: 2.6d
+			y: 3.6d
+			icon: "prionmod:lacerator_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "6CC65852B94A5E79"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:necro"
+					id: "72DB754951DCB331"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Necro"
+			x: 3.9d
+			y: 3.6d
+			icon: "prionmod:necro_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "7B3CE5D6067A9F6C"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:rooted"
+					id: "113F0DB96F688579"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Rooted"
+			x: 5.2d
+			y: 3.6d
+			icon: "prionmod:rooted_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "13007C6B615F014A"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:slasher"
+					id: "5C783EE920AFE5DE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Slasher"
+			x: 6.5d
+			y: 3.6d
+			icon: "prionmod:slasher_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "3717503CBF2EC2ED"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:starved"
+					id: "6164B567CEEA9057"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Starved"
+			x: 7.8d
+			y: 3.6d
+			icon: "prionmod:starved_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "4AE51D8566C94BED"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:thrall"
+					id: "3F149EFD25D714E6"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Thrall"
+			x: 9.1d
+			y: 3.6d
+			icon: "prionmod:thrall_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "1B4AF3EF36693281"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:tumor"
+					id: "74D6F9A08A142AAE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Tumor"
+			x: 10.4d
+			y: 3.6d
+			icon: "abza:bestiary_prionmod_tumor"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "44A2A533296B1F16"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:vile"
+					id: "2406410A946E431E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Vile Entity"
+			x: 11.7d
+			y: 3.6d
+			icon: "prionmod:vile_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "0714F2B0CB5423F8"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:vulture"
+					id: "1CDBAF9352CFA34D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Vulture"
+			x: 0.0d
+			y: 4.9d
+			icon: "abza:bestiary_prionmod_vulture"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "5548AEE5BFCD0440"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "4209AD2CA374880B"
+					stage: "abza_bestiary_t2_2"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "prionmod:nightwalker"
+					id: "20E93C9B02D9AF38"
+					title: "Infected Spider"
+					type: "kill"
+					value: 1L
+					icon: "prionmod:nightwalker_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "prionmod:infectedwolf"
+					id: "41C6D0F3793B8F1C"
+					title: "Infected Wolf"
+					type: "kill"
+					value: 1L
+					icon: "prionmod:infectedwolf_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "prionmod:lacerator"
+					id: "003E590B406563E2"
+					title: "Lacerator"
+					type: "kill"
+					value: 1L
+					icon: "prionmod:lacerator_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "prionmod:necro"
+					id: "33EBED7E17ADB256"
+					title: "Necro"
+					type: "kill"
+					value: 1L
+					icon: "prionmod:necro_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "prionmod:rooted"
+					id: "42FFC0F911F53AFC"
+					title: "Rooted"
+					type: "kill"
+					value: 1L
+					icon: "prionmod:rooted_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "prionmod:slasher"
+					id: "51586C61334365FD"
+					title: "Slasher"
+					type: "kill"
+					value: 1L
+					icon: "prionmod:slasher_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "prionmod:starved"
+					id: "71F4B01DD599879A"
+					title: "Starved"
+					type: "kill"
+					value: 1L
+					icon: "prionmod:starved_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "prionmod:thrall"
+					id: "21B561E9828C767F"
+					title: "Thrall"
+					type: "kill"
+					value: 1L
+					icon: "prionmod:thrall_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "prionmod:tumor"
+					id: "5316E1477DCF15BA"
+					title: "Tumor"
+					type: "kill"
+					value: 1L
+					icon: "abza:bestiary_prionmod_tumor"
+				}
+				{
+					disable_toast: true
+					entity: "prionmod:vile"
+					id: "057F80AF9CDE7FA9"
+					title: "Vile Entity"
+					type: "kill"
+					value: 1L
+					icon: "prionmod:vile_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "prionmod:vulture"
+					id: "2F322F657F8A597B"
+					title: "Vulture"
+					type: "kill"
+					value: 1L
+					icon: "abza:bestiary_prionmod_vulture"
+				}
+			]
+			title: "Bestiary 13 to 23"
+			x: 13.5d
+			y: 4.25d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "07C4FD93485A8C98"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:expletor"
+					id: "2F6FB7C8E1769823"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Expletor"
+			x: 0.0d
+			y: 7.2d
+			icon: "prionmod:expletor_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "0E41BDFB1333AB4B"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:hellhound"
+					id: "655A96A0F1AAF5F2"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Hellhound"
+			x: 1.3d
+			y: 7.2d
+			icon: "prionmod:hellhound_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "2521181008B8534F"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:lure"
+					id: "4E366EA8021D5164"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Lure"
+			x: 2.6d
+			y: 7.2d
+			icon: "prionmod:lure_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "1E730D3BA9AD9DA6"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:nephthys"
+					id: "39D514574A73D399"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Nephthys"
+			x: 3.9d
+			y: 7.2d
+			icon: "prionmod:nephthys_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "707E084F4A80F2F0"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:slammer"
+					id: "04B218963F2A3457"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Slammer"
+			x: 5.2d
+			y: 7.2d
+			icon: "prionmod:slammer_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "372961C8ED066057"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:smoker"
+					id: "337DE46A71FE5701"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Smoker"
+			x: 6.5d
+			y: 7.2d
+			icon: "prionmod:smoker_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "79EAC500F886E1EE"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:strangler"
+					id: "0E18BA04AF7531DB"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Strangler"
+			x: 7.8d
+			y: 7.2d
+			icon: "prionmod:strangler_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "5BA2284D5162493B"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:vicoiousturret"
+					id: "4DA063D944984362"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Vicious Turret"
+			x: 9.1d
+			y: 7.2d
+			icon: "prionmod:viciousturret_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "2F9B22571321E1E3"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:wendigo"
+					id: "7C73B9677EF648CC"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Wendigo"
+			x: 10.4d
+			y: 7.2d
+			icon: "prionmod:wendigo_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "06142BC2932A2725"
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "Boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:breacher"
+					id: "21CB88732BF42237"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Breacher"
+			x: 11.7d
+			y: 7.2d
+			icon: "prionmod:breacher_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "65415ED94EC86DEE"
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "Boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:tank"
+					id: "168CE31E4B633161"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Tank"
+			x: 0.0d
+			y: 8.5d
+			icon: "abza:bestiary_prionmod_tank"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "41FA2900A7948775"
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "Boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "prionmod:vomiter"
+					id: "0801A3D350C7769B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Vomiter"
+			x: 1.3d
+			y: 8.5d
+			icon: "prionmod:vomiter_spawn_egg"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "3FA6EA65F42AE075"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "061B035545252A4E"
+					stage: "abza_bestiary_t2_3"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "prionmod:expletor"
+					id: "6BE87D6C426A0C37"
+					title: "Expletor"
+					type: "kill"
+					value: 1L
+					icon: "prionmod:expletor_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "prionmod:hellhound"
+					id: "555AC2D60FECD3C9"
+					title: "Hellhound"
+					type: "kill"
+					value: 1L
+					icon: "prionmod:hellhound_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "prionmod:lure"
+					id: "1244A95C44998CDC"
+					title: "Lure"
+					type: "kill"
+					value: 1L
+					icon: "prionmod:lure_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "prionmod:nephthys"
+					id: "4ECFBCA3DEC263F4"
+					title: "Nephthys"
+					type: "kill"
+					value: 1L
+					icon: "prionmod:nephthys_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "prionmod:slammer"
+					id: "175DF2ACA75033D1"
+					title: "Slammer"
+					type: "kill"
+					value: 1L
+					icon: "prionmod:slammer_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "prionmod:smoker"
+					id: "469F374C70D1DACE"
+					title: "Smoker"
+					type: "kill"
+					value: 1L
+					icon: "prionmod:smoker_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "prionmod:strangler"
+					id: "11C5A12A4E27B98C"
+					title: "Strangler"
+					type: "kill"
+					value: 1L
+					icon: "prionmod:strangler_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "prionmod:vicoiousturret"
+					id: "357D2139CFCDE1A7"
+					title: "Vicious Turret"
+					type: "kill"
+					value: 1L
+					icon: "prionmod:viciousturret_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "prionmod:wendigo"
+					id: "004CAB20681BF675"
+					title: "Wendigo"
+					type: "kill"
+					value: 1L
+					icon: "prionmod:wendigo_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "prionmod:breacher"
+					id: "55C72CC52D030E56"
+					title: "Breacher"
+					type: "kill"
+					value: 1L
+					icon: "prionmod:breacher_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "prionmod:tank"
+					id: "3FBDC7ACE1D43D16"
+					title: "Tank"
+					type: "kill"
+					value: 1L
+					icon: "abza:bestiary_prionmod_tank"
+				}
+				{
+					disable_toast: true
+					entity: "prionmod:vomiter"
+					id: "6F691A159BF3BA99"
+					title: "Vomiter"
+					type: "kill"
+					value: 1L
+					icon: "prionmod:vomiter_spawn_egg"
+				}
+			]
+			title: "Bestiary 24 to 35"
+			x: 13.5d
+			y: 7.85d
+		}
+	]
+	title: "Tier 2: The Snow"
+}

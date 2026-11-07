@@ -1,0 +1,79 @@
+{
+    "Id": 7503,
+    "ModRev": 18,
+    "Type": 0,
+    "Title": "Lena's research: the nursery",
+    "Text": "Lena wants a scarlet egg, a perennial membrane and pestilent marrow from Umbra's creatures.",
+    "CompleteText": "(She sits with the egg for a long time.) I know where they come from now. It's all in here. Read it.",
+    "CompleterNpc": "Lena",
+    "NextQuestId": -1,
+    "RewardExp": 0,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "saros__money_mod:euro_100",
+                "Count": 1b
+            },
+            {
+                "Slot": 1b,
+                "id": "minecraft:written_book",
+                "Count": 1b,
+                "tag": {
+                    "title": "Field Notes: Umbra",
+                    "author": "Lena",
+                    "pages": [
+                        "{\"text\":\"I have all twelve cores' readings at last. They don't point here.\\n\\nThey point home: to the bright thing in our own sky. It answered us. It came to collect.\"}"
+                    ],
+                    "resolved": 1b
+                }
+            }
+        ]
+    },
+    "QuestCommand": "",
+    "RandomReward": 0b,
+    "QuestCompletion": 0,
+    "QuestRepeat": 0,
+    "QuestFactionPoints": {
+        "OptionFactions1": 1,
+        "OptionFaction1Points": 50,
+        "DecreaseFaction1Points": 0b,
+        "OptionFactions2": -1,
+        "OptionFaction2Points": 0,
+        "DecreaseFaction2Points": 0b
+    },
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 0L
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "phayriosisreborn:scarlet_egg",
+                "Count": 1b
+            },
+            {
+                "Slot": 1b,
+                "id": "phayriosisreborn:perennial_membrane",
+                "Count": 1b
+            },
+            {
+                "Slot": 2b,
+                "id": "phayriosisreborn:pestilent_marrow",
+                "Count": 1b
+            }
+        ]
+    },
+    "LeaveItems": 0b,
+    "IgnoreDamage": 1b,
+    "IgnoreNBT": 0b
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mekanism:purifying",
+  "chemicalInput": {
+    "amount": 1,
+    "gas": "mekanism:oxygen"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "abza:ostrum_shard"
+    }
+  },
+  "output": {
+    "item": "abza:ostrum_clump"
+  }
+}

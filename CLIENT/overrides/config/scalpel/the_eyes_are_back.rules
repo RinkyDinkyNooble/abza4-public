@@ -1,0 +1,77 @@
+# The eYes Are Back
+
+# Entities
+keep entity the_eyes_are_back:*
+
+# Advancements
+remove advancement the_eyes_are_back:*
+
+# Spawn items and projectiles
+keep item the_eyes_are_back:*_spawn
+keep item the_eyes_are_back:*_spawn_egg
+hide item the_eyes_are_back:eyeshots
+
+# Tools, weapons and armour
+remove item the_eyes_are_back:eyeliuma_*
+remove item the_eyes_are_back:nervilium_*
+remove item the_eyes_are_back:eye_poker
+remove item the_eyes_are_back:prime_snapper
+remove item the_eyes_are_back:eye_upgrade
+
+# Metals
+remove item the_eyes_are_back:eyelium
+remove item the_eyes_are_back:raw_eyelium
+remove item the_eyes_are_back:organic_ingot_base
+redact any the_eyes_are_back:eyelium_ore
+redact any the_eyes_are_back:deepslate_eyelium_ore
+redact any the_eyes_are_back:block_of_eyeliuma
+redact any the_eyes_are_back:base_ingot_block
+redact any the_eyes_are_back:cut_organelle
+
+# Food and drinks
+remove item the_eyes_are_back:cooked_eye
+remove item the_eyes_are_back:*_eye_stew
+remove item the_eyes_are_back:e_ye_candy
+remove item the_eyes_are_back:fermented_eye
+remove item the_eyes_are_back:prickly_pear_margarita
+remove item the_eyes_are_back:sightful_cactus_jucie
+remove item the_eyes_are_back:tearberry
+
+# Unfinished and other items
+remove item the_eyes_are_back:bacterium_bottle
+remove item the_eyes_are_back:eye_drops
+remove item the_eyes_are_back:survivor_scrapbook
+remove item the_eyes_are_back:tainted_bone_meal
+
+# Unfinished blocks
+redact any the_eyes_are_back:eye_jar
+redact any the_eyes_are_back:organic_unifier
+
+# Terrain and growths
+hide any the_eyes_are_back:dead_eye_bush
+hide any the_eyes_are_back:eyeflower
+hide any the_eyes_are_back:eyesoil
+hide any the_eyes_are_back:short_eye_nerves
+hide any the_eyes_are_back:tall_eye_nerves
+hide any the_eyes_are_back:hive_core
+hide any the_eyes_are_back:eye_earth
+hide any the_eyes_are_back:no_tick_sand
+hide any the_eyes_are_back:no_tick_soil
+hide any the_eyes_are_back:e_ye_growth
+hide any the_eyes_are_back:eye_roots_plant
+hide any the_eyes_are_back:potted_sightful_cactus
+hide any the_eyes_are_back:prickly_pear
+hide any the_eyes_are_back:prickly_pear_fruit
+hide any the_eyes_are_back:schight_button
+hide any the_eyes_are_back:schight_pressure_plate
+hide any the_eyes_are_back:short_withered_bush
+hide any the_eyes_are_back:squidbeakopen
+hide any the_eyes_are_back:tall_withered_bush
+
+# Eye tree sapling
+hide any the_eyes_are_back:eye_tree_sapling
+remove recipe the_eyes_are_back:sapling
+
+# Eye plushie
+hide any the_eyes_are_back:eye_plushie
+remove recipe the_eyes_are_back:eye_plush_recipe

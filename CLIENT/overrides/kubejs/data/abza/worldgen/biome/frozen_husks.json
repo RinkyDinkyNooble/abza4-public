@@ -1,0 +1,108 @@
+{
+  "has_precipitation": false,
+  "temperature": -0.7,
+  "downfall": 0.0,
+  "effects": {
+    "sky_color": 12109016,
+    "fog_color": 9082024,
+    "water_color": 10137800,
+    "water_fog_color": 329011,
+    "grass_color": 10528944,
+    "foliage_color": 9476256,
+    "particle": {
+      "options": {
+        "type": "minecraft:white_ash"
+      },
+      "probability": 0.03
+    },
+    "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
+    "mood_sound": {
+      "sound": "minecraft:ambient.soul_sand_valley.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.soul_sand_valley.additions",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "minecraft:music.nether.soul_sand_valley",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    }
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "abza:planet/interloper/cave",
+      "abza:planet/interloper/cave_deep",
+      "abza:planet/interloper/canyon"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [
+      "abza:planet/interloper/ice_spike"
+    ],
+    [],
+    [],
+    [],
+    [
+      "abza:planet/interloper/ore_ancient_debris",
+      "abza:planet/interloper/ore_coal",
+      "abza:planet/interloper/ore_copper",
+      "abza:planet/interloper/ore_diamond",
+      "abza:planet/interloper/ore_emerald",
+      "abza:planet/interloper/ore_fluorite",
+      "abza:planet/interloper/ore_glowstone",
+      "abza:planet/interloper/ore_gold",
+      "abza:planet/interloper/ore_gold_rich",
+      "abza:planet/interloper/ore_iron",
+      "abza:planet/interloper/ore_lapis",
+      "abza:planet/interloper/ore_lead",
+      "abza:planet/interloper/ore_osmium",
+      "abza:planet/interloper/ore_redstone",
+      "abza:planet/interloper/ore_scheelite",
+      "abza:planet/interloper/ore_silver",
+      "abza:planet/interloper/ore_tin",
+      "abza:planet/interloper/ore_uranium",
+      "abza:planet/interloper/outcrop_ancient_debris",
+      "abza:planet/interloper/outcrop_coal",
+      "abza:planet/interloper/outcrop_copper",
+      "abza:planet/interloper/outcrop_diamond",
+      "abza:planet/interloper/outcrop_emerald",
+      "abza:planet/interloper/outcrop_fluorite",
+      "abza:planet/interloper/outcrop_glowstone",
+      "abza:planet/interloper/outcrop_gold",
+      "abza:planet/interloper/outcrop_gold_rich",
+      "abza:planet/interloper/outcrop_iron",
+      "abza:planet/interloper/outcrop_lapis",
+      "abza:planet/interloper/outcrop_lead",
+      "abza:planet/interloper/outcrop_osmium",
+      "abza:planet/interloper/outcrop_redstone",
+      "abza:planet/interloper/outcrop_scheelite",
+      "abza:planet/interloper/outcrop_silver",
+      "abza:planet/interloper/outcrop_tin",
+      "abza:planet/interloper/outcrop_uranium"
+    ],
+    [],
+    [],
+    [
+      "abza:planet/interloper/frozen_growths"
+    ],
+    []
+  ]
+}

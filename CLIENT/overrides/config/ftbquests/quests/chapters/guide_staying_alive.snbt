@@ -1,0 +1,112 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "guide_staying_alive"
+	group: "2823A29698F90E67"
+	icon: "abza:vaccine_t1"
+	id: "6DCCB82CDB0B6FCF"
+	order_index: 1
+	images: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Each region has an affliction that &cstops healing&r there. Its &evaccine&r ends it for you, for good."
+				""
+				"Vaccinated, you heal by &aresting with 18+ food&r in that region."
+			]
+			disable_toast: true
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "abza:textures/mob_effect/affliction_t1.png"
+				}
+			}
+			id: "0E954035BE8ED033"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "54CD56C6F8306096"
+					title: "Got it"
+					type: "checkmark"
+					disable_toast: true
+				}
+			]
+			title: "Afflictions"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0E954035BE8ED033"
+			]
+			description: [
+				"Starts from an &eInfected Gland&r, dropped by the Plains' mini-bosses. JEI shows the rest."
+			]
+			icon: "abza:vaccine_t1"
+			id: "6C5D088E52E7A48D"
+			tasks: [
+				{
+					id: "50BB60BC204380F6"
+					item: "abza:vaccine_t1"
+					type: "item"
+				}
+			]
+			title: "Grave Fever Vaccine"
+			x: 3.5d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"0E954035BE8ED033"
+			]
+			description: [
+				"Outside &e10 to 38 °C&r you take damage."
+				""
+				"Armour with &ecold&r or &eheat protection&r widens that range. The Snow needs &ecold 1&r, the Badlands &eheat 1&r."
+			]
+			disable_toast: true
+			icon: "cold_sweat:thermolith"
+			id: "2D1D1D4460EB8115"
+			tasks: [
+				{
+					id: "26C60BB84060F599"
+					title: "Got it"
+					type: "checkmark"
+					disable_toast: true
+				}
+			]
+			title: "Temperature"
+			x: 3.5d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"6C5D088E52E7A48D"
+				"2D1D1D4460EB8115"
+			]
+			description: [
+				"&cNo recipe makes food.&r Find it, buy it, or farm it and eat it raw."
+				""
+				"A &eNutritional Liquifier&r turns any food into paste for a &eCanteen&r."
+			]
+			disable_toast: true
+			icon: "minecraft:bread"
+			id: "604F1847191D820D"
+			tasks: [
+				{
+					id: "24A186DE40B9EF75"
+					title: "Got it"
+					type: "checkmark"
+					disable_toast: true
+				}
+			]
+			title: "Food"
+			x: 7.0d
+			y: 0.0d
+		}
+	]
+	title: "Staying Alive"
+}

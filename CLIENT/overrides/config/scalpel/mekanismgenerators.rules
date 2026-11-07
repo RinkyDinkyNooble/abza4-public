@@ -1,0 +1,11 @@
+# Mekanism Generators
+
+# Advancements
+remove advancement mekanismgenerators:*
+
+# MekaSuit modules
+remove item mekanismgenerators:module_solar_recharging_unit
+remove item mekanismgenerators:module_geothermal_generator_unit
+
+# Bioethanol bucket
+hide any mekanismgenerators:bioethanol_bucket

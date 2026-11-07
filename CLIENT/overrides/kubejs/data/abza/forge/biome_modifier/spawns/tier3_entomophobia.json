@@ -1,0 +1,42 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#abza:tier3",
+  "spawners": [
+    {
+      "type": "entomophobia:myiatic_zombie",
+      "weight": 100,
+      "minCount": 2,
+      "maxCount": 4
+    },
+    {
+      "type": "entomophobia:myiatic_spider",
+      "weight": 80,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "entomophobia:myiatic_creeper",
+      "weight": 60,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "entomophobia:myiatic_sheep",
+      "weight": 30,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "entomophobia:myiatic_pig",
+      "weight": 30,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "entomophobia:myiatic_chicken",
+      "weight": 30,
+      "minCount": 1,
+      "maxCount": 3
+    }
+  ]
+}

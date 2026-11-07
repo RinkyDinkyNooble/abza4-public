@@ -1,0 +1,21 @@
+# Dyairdrop
+
+# Advancements
+remove advancement dyairdrop:*
+
+# Safes
+redact any dyairdrop:safe
+redact any dyairdrop:safe_2
+redact any dyairdrop:safeopen
+
+# Flare guns 4 and 5 and the plain flare gun
+hide item dyairdrop:flaregun0
+hide item dyairdrop:flaregun4
+hide item dyairdrop:flaregun5
+
+# Crates
+hide any dyairdrop:airdrop*
+hide any dyairdrop:lockedairdrop*
+
+# Recipes
+remove recipe dyairdrop:*

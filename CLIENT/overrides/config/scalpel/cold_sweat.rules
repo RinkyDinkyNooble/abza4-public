@@ -1,0 +1,49 @@
+# Cold Sweat
+
+# Entities
+keep entity cold_sweat:*
+
+# Advancements
+remove advancement cold_sweat:*
+
+# Spawn eggs
+hide item cold_sweat:chameleon_spawn_egg
+
+# Hoglin, goat fur and chameleon armour
+remove item cold_sweat:*_helmet
+remove item cold_sweat:*_chestplate
+remove item cold_sweat:*_leggings
+remove item cold_sweat:*_boots
+
+# Sewing table
+hide any cold_sweat:sewing_table
+remove recipe cold_sweat:sewing_table
+
+# Goat fur, hoglin hide and chameleon molt
+remove item cold_sweat:goat_fur
+remove item cold_sweat:hoglin_hide
+remove item cold_sweat:chameleon_molt
+
+# Waterskins
+remove item cold_sweat:waterskin
+remove item cold_sweat:filled_waterskin
+
+# Thermometer, soul sprout and soulspring lamp
+remove item cold_sweat:thermometer
+remove item cold_sweat:soul_sprout
+remove item cold_sweat:soulspring_lamp
+
+# Insulated minecart
+remove item cold_sweat:insulated_minecart
+redact any cold_sweat:minecart_insulation
+
+# Boiler and icebox
+hide any cold_sweat:boiler
+hide any cold_sweat:icebox
+remove recipe cold_sweat:boiler
+remove recipe cold_sweat:icebox
+
+# Hearth, smokestack and thermolith recipes
+remove recipe cold_sweat:hearth
+remove recipe cold_sweat:smokestack
+remove recipe cold_sweat:thermolith

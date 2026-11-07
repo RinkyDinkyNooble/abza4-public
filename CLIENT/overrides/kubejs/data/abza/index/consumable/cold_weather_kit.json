@@ -1,0 +1,24 @@
+{
+  "name": "item.abza.cold_weather_kit",
+  "tooltip": "item.abza.cold_weather_kit.desc",
+  "base_item": "lrtactical:consumable",
+  "data": {
+    "use_duration": 121,
+    "cooldown": 60,
+    "cooldown_category": "lrtactical:medical",
+    "stack_size": 4,
+    "max_durability": 0,
+    "draw_time": 12,
+    "put_away_time": 6,
+    "use_mode": "toggle",
+    "heal": 14.0,
+    "effects": [
+      {
+        "id": "cold_sweat:warmth",
+        "duration": 1200,
+        "amplifier": 0,
+        "chance": 1.0
+      }
+    ]
+  }
+}

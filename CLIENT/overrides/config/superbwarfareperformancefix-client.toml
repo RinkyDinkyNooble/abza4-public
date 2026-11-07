@@ -1,0 +1,3 @@
+#Hide Superb Warfare's ammo count overlay, shown while holding ammo or an ammo box.
+hideAmmoCountOverlay = true
+

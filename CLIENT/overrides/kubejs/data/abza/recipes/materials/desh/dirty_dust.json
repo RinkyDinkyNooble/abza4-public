@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "abza:desh_clump"
+    }
+  },
+  "output": {
+    "item": "abza:desh_dirty_dust"
+  }
+}

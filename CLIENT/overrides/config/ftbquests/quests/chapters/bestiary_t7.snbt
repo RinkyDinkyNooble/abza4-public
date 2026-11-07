@@ -1,0 +1,2748 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bestiary_t7"
+	group: "182E303C40AEF1E1"
+	icon: "phayriosisreborn:spawn_dreadmind"
+	id: "13C47E956E88FE8A"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"It lives in the boss buildings of the Tier 7 region."
+				""
+				"Reward: +35 max health (17.5 hearts), kept for good, for everyone who dealt at least a tenth of its health. It's given at the kill; this quest then checks itself."
+			]
+			icon: "phayriosisreborn:spawn_dreadmind"
+			id: "271359A4D0871926"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "+35 max health (17.5 hearts)"
+			tasks: [
+				{
+					icon: "phayriosisreborn:spawn_dreadmind"
+					id: "095E5EFE0D0260C0"
+					stage: "abza_final_t7"
+					title: "Defeat the Dreadmind"
+					type: "gamestage"
+				}
+			]
+			title: "Defeat the Dreadmind"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "6ABD06ED93C2D119"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:bomb"
+					id: "531DD158C486D7E7"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Bomb"
+			x: 0.0d
+			y: 0.0d
+			icon: "phayriosisreborn:spawn_bomb"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "43633396157B1EFB"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:bulb"
+					id: "63942A8563830A59"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Bulb"
+			x: 1.3d
+			y: 0.0d
+			icon: "phayriosisreborn:spawn_bulb"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "05609E073A8A81B8"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:carrier"
+					id: "5F794CF234F213A2"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Carrier"
+			x: 2.6d
+			y: 0.0d
+			icon: "phayriosisreborn:spawn_carrier"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "4F3E900640C86840"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:converted_allay"
+					id: "1A7715F0DF5B9275"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Converted Allay"
+			x: 3.9d
+			y: 0.0d
+			icon: "phayriosisreborn:spawn_converted_allay"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "2972C5AE0648B004"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:converted_bear"
+					id: "0177425F91E06C02"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Converted Bear"
+			x: 5.2d
+			y: 0.0d
+			icon: "phayriosisreborn:spawn_converted_bear"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "07D8CBF49AC67099"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:converted_camel"
+					id: "7BF4BBE726F9E3D6"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Converted Camel"
+			x: 6.5d
+			y: 0.0d
+			icon: "phayriosisreborn:spawn_converted_camel"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "3A5D5DE32B8B1DC5"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:converted_chicken"
+					id: "04F337E1542EBD0E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Converted Chicken"
+			x: 7.8d
+			y: 0.0d
+			icon: "phayriosisreborn:spawn_converted_chicken"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "4DDDB32B807AFAA5"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "78C61C596E17484D"
+					stage: "abza_bestiary_t7_1"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:bomb"
+					id: "3320B0F7A63072B8"
+					title: "Bomb"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_bomb"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:bulb"
+					id: "55C1711DBC3A37FC"
+					title: "Bulb"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_bulb"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:carrier"
+					id: "2040894F4B44AE79"
+					title: "Carrier"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_carrier"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:converted_allay"
+					id: "03EA4F94D5226E3B"
+					title: "Converted Allay"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_converted_allay"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:converted_bear"
+					id: "76F6D7C82B6153D4"
+					title: "Converted Bear"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_converted_bear"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:converted_camel"
+					id: "34CC8E6A29CFA421"
+					title: "Converted Camel"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_converted_camel"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:converted_chicken"
+					id: "6C2725B7362E96BE"
+					title: "Converted Chicken"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_converted_chicken"
+				}
+			]
+			title: "Bestiary 1 to 7"
+			x: 9.6d
+			y: 0.0d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "6B2711330057D9B8"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:converted_dolphin"
+					id: "22AB6F53C1066DE4"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Converted Dolphin"
+			x: 0.0d
+			y: 2.3d
+			icon: "phayriosisreborn:spawn_converted_dolphin"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "2BAFEDD4A43C662B"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:converted_drowned"
+					id: "42F9FBED77956785"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Converted Drowned"
+			x: 1.3d
+			y: 2.3d
+			icon: "phayriosisreborn:spawn_converted_drowned"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "6749132A60276172"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:converted_enderman"
+					id: "0FCF6A1ECD47016D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Converted Enderman"
+			x: 2.6d
+			y: 2.3d
+			icon: "phayriosisreborn:spawn_converted_enderman"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "3B4A2404C8046A43"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:converted_evoker"
+					id: "244EEB0A4AD29284"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Converted Evoker"
+			x: 3.9d
+			y: 2.3d
+			icon: "phayriosisreborn:spawn_converted_evoker"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "605191F0E45AE604"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:converted_fish"
+					id: "427C15282AA0E4E9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Converted Fish"
+			x: 5.2d
+			y: 2.3d
+			icon: "phayriosisreborn:spawn_converted_fish"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "6ABDECB49879112A"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:converted_goat"
+					id: "7603CDEDB21F32FC"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Converted Goat"
+			x: 6.5d
+			y: 2.3d
+			icon: "phayriosisreborn:spawn_converted_goat"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "5581ABE9B8B1DECC"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:converted_golem"
+					id: "3E945815C5B5BDA0"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Converted Golem"
+			x: 7.8d
+			y: 2.3d
+			icon: "phayriosisreborn:spawn_converted_golem"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "2D6B3B4CF218F399"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "7B6E050FDC5B5946"
+					stage: "abza_bestiary_t7_2"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:converted_dolphin"
+					id: "566B2FB5BFA1BE6B"
+					title: "Converted Dolphin"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_converted_dolphin"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:converted_drowned"
+					id: "335ECC64DABD2F64"
+					title: "Converted Drowned"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_converted_drowned"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:converted_enderman"
+					id: "10EF3FD0CC5083C8"
+					title: "Converted Enderman"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_converted_enderman"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:converted_evoker"
+					id: "3BA088134F9F7967"
+					title: "Converted Evoker"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_converted_evoker"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:converted_fish"
+					id: "7A1C6742DB23F5FF"
+					title: "Converted Fish"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_converted_fish"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:converted_goat"
+					id: "6CAB2DBBB2BD9801"
+					title: "Converted Goat"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_converted_goat"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:converted_golem"
+					id: "03F673070B49248F"
+					title: "Converted Golem"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_converted_golem"
+				}
+			]
+			title: "Bestiary 8 to 14"
+			x: 9.6d
+			y: 2.3d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "04323526E81ACE9F"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:converted_horse"
+					id: "58CA1DF427E2CB4D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Converted Horse"
+			x: 0.0d
+			y: 4.6d
+			icon: "phayriosisreborn:spawn_converted_horse"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "34BB0EDE52A28559"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:converted_human"
+					id: "7E1CE6426FB4EA7E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Converted Human"
+			x: 1.3d
+			y: 4.6d
+			icon: "phayriosisreborn:spawn_converted_human"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "54B7FF642FBE4063"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:converted_husk"
+					id: "52F2031D576C14E7"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Converted Husk"
+			x: 2.6d
+			y: 4.6d
+			icon: "phayriosisreborn:spawn_converted_husk"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "37EB94D8F4148CA3"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:converted_llama"
+					id: "23365D360E39D1E8"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Converted Llama"
+			x: 3.9d
+			y: 4.6d
+			icon: "phayriosisreborn:spawn_converted_llama"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "53FB2FA17AA30B26"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:converted_phantom"
+					id: "4794B766362EA76D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Converted Phantom"
+			x: 5.2d
+			y: 4.6d
+			icon: "phayriosisreborn:spawn_converted_phantom"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "616CA3DB07018F55"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:converted_pig"
+					id: "0304677DECAE1383"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Converted Pig"
+			x: 6.5d
+			y: 4.6d
+			icon: "phayriosisreborn:spawn_converted_pig"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "761080DE0EF75368"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:converted_pillager"
+					id: "60787AAD4CC3999E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Converted Pillager"
+			x: 7.8d
+			y: 4.6d
+			icon: "phayriosisreborn:spawn_converted_pillager"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "4AD3AEAF9AB4E0D7"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:converted_rabbit"
+					id: "5422F4AB3489AE75"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Converted Rabbit"
+			x: 9.1d
+			y: 4.6d
+			icon: "phayriosisreborn:spawn_converted_rabbit"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "4E53C3EDA4D18133"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "2F842C9559AA68FE"
+					stage: "abza_bestiary_t7_3"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:converted_horse"
+					id: "3D94D28650F7DE9F"
+					title: "Converted Horse"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_converted_horse"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:converted_human"
+					id: "25797766A3B3C631"
+					title: "Converted Human"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_converted_human"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:converted_husk"
+					id: "4A1438F83EBEB509"
+					title: "Converted Husk"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_converted_husk"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:converted_llama"
+					id: "6D1CDB47493E7487"
+					title: "Converted Llama"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_converted_llama"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:converted_phantom"
+					id: "0D340A01F682C60D"
+					title: "Converted Phantom"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_converted_phantom"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:converted_pig"
+					id: "1AA24C6572932730"
+					title: "Converted Pig"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_converted_pig"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:converted_pillager"
+					id: "45FCE963ED45556C"
+					title: "Converted Pillager"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_converted_pillager"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:converted_rabbit"
+					id: "4247DBD1FAFF52B3"
+					title: "Converted Rabbit"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_converted_rabbit"
+				}
+			]
+			title: "Bestiary 15 to 22"
+			x: 10.9d
+			y: 4.6d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "061A628F9F0572E0"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:converted_ravager"
+					id: "306EDF020DF59EB1"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Converted Ravager"
+			x: 0.0d
+			y: 6.9d
+			icon: "phayriosisreborn:spawn_converted_ravager"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "0EB3AA8093BA249A"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:converted_sheep"
+					id: "30950BA67891CF8F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Converted Sheep"
+			x: 1.3d
+			y: 6.9d
+			icon: "phayriosisreborn:spawn_converted_sheep"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "58A73BFE0D593AD6"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:converted_skeleton"
+					id: "6600EB4543FAA85C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Converted Skeleton"
+			x: 2.6d
+			y: 6.9d
+			icon: "phayriosisreborn:spawn_converted_skeleton"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "32D327BD26BF612D"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:converted_sniffer"
+					id: "159C7D0C5484F21C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Converted Sniffer"
+			x: 3.9d
+			y: 6.9d
+			icon: "phayriosisreborn:spawn_converted_sniffer"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "4FCA5CAA7591F6CC"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:converted_spider"
+					id: "00338B68BE8581F2"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Converted Spider"
+			x: 5.2d
+			y: 6.9d
+			icon: "phayriosisreborn:spawn_converted_spider"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "3F321DDFF86D34D6"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:converted_squid"
+					id: "0BCF0B30ADE1FEAD"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Converted Squid"
+			x: 6.5d
+			y: 6.9d
+			icon: "phayriosisreborn:spawn_converted_squid"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "6F06C2A3C48CC1E5"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:converted_villager"
+					id: "3019C4128DFBDFED"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Converted Villager"
+			x: 7.8d
+			y: 6.9d
+			icon: "phayriosisreborn:spawnconvertedvillager"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "412D3535243E1FB6"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "666204AA416DA997"
+					stage: "abza_bestiary_t7_4"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:converted_ravager"
+					id: "49EF6B0165682624"
+					title: "Converted Ravager"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_converted_ravager"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:converted_sheep"
+					id: "3301C7D88272ABD9"
+					title: "Converted Sheep"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_converted_sheep"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:converted_skeleton"
+					id: "225DA6BC9B226EA2"
+					title: "Converted Skeleton"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_converted_skeleton"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:converted_sniffer"
+					id: "1FC8B71ADE6CA0BF"
+					title: "Converted Sniffer"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_converted_sniffer"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:converted_spider"
+					id: "78684B14FB601349"
+					title: "Converted Spider"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_converted_spider"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:converted_squid"
+					id: "09C92C2B52203B39"
+					title: "Converted Squid"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_converted_squid"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:converted_villager"
+					id: "2076F963E842175E"
+					title: "Converted Villager"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawnconvertedvillager"
+				}
+			]
+			title: "Bestiary 23 to 29"
+			x: 9.6d
+			y: 6.9d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "64500A32A8B5F2EA"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:converted_vindicator"
+					id: "3E7F0491DC1E2683"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Converted Vindicator"
+			x: 0.0d
+			y: 9.2d
+			icon: "phayriosisreborn:spawn_converted_vindicator"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "4A5C21EEA2786AE6"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:converted_wandering_trader"
+					id: "0EB99B64F08A67D9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Converted Wandering Trader"
+			x: 1.3d
+			y: 9.2d
+			icon: "phayriosisreborn:spawn_converted_wandering_trader"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "203DECB785C28870"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:converted_witch"
+					id: "70DFD2952858CC3B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Converted Witch"
+			x: 2.6d
+			y: 9.2d
+			icon: "phayriosisreborn:spawn_converted_witch"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "173F61C9C8B9AD76"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:converted_wolf"
+					id: "24A035862E2C1EF0"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Converted Wolf"
+			x: 3.9d
+			y: 9.2d
+			icon: "phayriosisreborn:spawn_converted_wolf"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "6A283637635A3FE4"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:decayed_human"
+					id: "49707314854B7783"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Decayed Human"
+			x: 5.2d
+			y: 9.2d
+			icon: "abza:bestiary_phayriosisreborn_decayed_human"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "239702728E3AAD29"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:dome"
+					id: "67943A10A1B770CD"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Dome"
+			x: 6.5d
+			y: 9.2d
+			icon: "phayriosisreborn:spawn_dome"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "66006DA3F07F5C2A"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:ensnaring"
+					id: "14C3569836ADDE99"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Ensnaring"
+			x: 7.8d
+			y: 9.2d
+			icon: "phayriosisreborn:spawn_ensaring"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "1C980CF05B1622D9"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "2A5C2B5D3C9C4678"
+					stage: "abza_bestiary_t7_5"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:converted_vindicator"
+					id: "63D78C2AF935E3E9"
+					title: "Converted Vindicator"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_converted_vindicator"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:converted_wandering_trader"
+					id: "137FAF0FFE67F962"
+					title: "Converted Wandering Trader"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_converted_wandering_trader"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:converted_witch"
+					id: "2CF09A509917144A"
+					title: "Converted Witch"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_converted_witch"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:converted_wolf"
+					id: "74C0BF7E958BD421"
+					title: "Converted Wolf"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_converted_wolf"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:decayed_human"
+					id: "7DA9237DD2697C4A"
+					title: "Decayed Human"
+					type: "kill"
+					value: 1L
+					icon: "abza:bestiary_phayriosisreborn_decayed_human"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:dome"
+					id: "6BE3A399488248D4"
+					title: "Dome"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_dome"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:ensnaring"
+					id: "1C0513AE2C2A56DF"
+					title: "Ensnaring"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_ensaring"
+				}
+			]
+			title: "Bestiary 30 to 36"
+			x: 9.6d
+			y: 9.2d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "1475B765C56A0E98"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:reinforcement_explosive"
+					id: "242C8D5D1BA8C034"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Explosive Reinforcement"
+			x: 0.0d
+			y: 11.5d
+			icon: "phayriosisreborn:spawn_reinforcement_explosive"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "719067DDD0371D1F"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:worm_explosive"
+					id: "00F46DBFEDE876DE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Explosive Worm"
+			x: 1.3d
+			y: 11.5d
+			icon: "phayriosisreborn:spawn_worm_explosive"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "0C489D61EECAF240"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:gory_mass"
+					id: "2412BDC34A03D26D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Gory Mass"
+			x: 2.6d
+			y: 11.5d
+			icon: "phayriosisreborn:spawn_gory_mass"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "1303EBE20616C5D1"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:nextbeacon_stage_2"
+					id: "413115C1EDA06C1D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Hivebeacon"
+			x: 3.9d
+			y: 11.5d
+			icon: "phayriosisreborn:spawn_nestbeacon_stage_2"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "399A97E36BDF2A02"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:nestnetwork_stage_2"
+					id: "31C5306FA328A25A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Hivenetwork"
+			x: 5.2d
+			y: 11.5d
+			icon: "phayriosisreborn:spawn_nestnetwork_stage_2"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "673F2F63E3A4AD96"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:nestwarden_stage_2"
+					id: "429651477CC47023"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Hivewarden"
+			x: 6.5d
+			y: 11.5d
+			icon: "phayriosisreborn:spawn_nestwarden_stage_2"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "618398C43836B743"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:reinforcement_infestation"
+					id: "5842339B7815454D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Infestation Reinforcement"
+			x: 7.8d
+			y: 11.5d
+			icon: "phayriosisreborn:spawn_reinforcement_infestation"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "02A691DA86A8D00B"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "38227FB9B389354D"
+					stage: "abza_bestiary_t7_6"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:reinforcement_explosive"
+					id: "0E5D5DC37BACA76A"
+					title: "Explosive Reinforcement"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_reinforcement_explosive"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:worm_explosive"
+					id: "4A288D13154B8029"
+					title: "Explosive Worm"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_worm_explosive"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:gory_mass"
+					id: "4442F8E92D299F18"
+					title: "Gory Mass"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_gory_mass"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:nextbeacon_stage_2"
+					id: "29801DC089B28C2C"
+					title: "Hivebeacon"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_nestbeacon_stage_2"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:nestnetwork_stage_2"
+					id: "6564E7BBCE8509BB"
+					title: "Hivenetwork"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_nestnetwork_stage_2"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:nestwarden_stage_2"
+					id: "4847C97AEADD74CB"
+					title: "Hivewarden"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_nestwarden_stage_2"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:reinforcement_infestation"
+					id: "253564E25A5930D3"
+					title: "Infestation Reinforcement"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_reinforcement_infestation"
+				}
+			]
+			title: "Bestiary 37 to 43"
+			x: 9.6d
+			y: 11.5d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "3E272007E97C749A"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:infestation_root"
+					id: "5A6C5410E815A74C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Infestation Root"
+			x: 0.0d
+			y: 13.8d
+			icon: "abza:bestiary_phayriosisreborn_infestation_root"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "2AF2F6CF9A6EA5ED"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:worm_infestation"
+					id: "047822D06F66F4BE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Infestation Worm"
+			x: 1.3d
+			y: 13.8d
+			icon: "phayriosisreborn:spawn_worm_infestation"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "0AC0C6B9ACD49B9F"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:infester"
+					id: "00B5C79CB2A2C694"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Infester"
+			x: 2.6d
+			y: 13.8d
+			icon: "phayriosisreborn:spawn_infester"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "6265A099DE22CC03"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:hivebeacon"
+					id: "53546E283F6B6C26"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Nestbeacon"
+			x: 3.9d
+			y: 13.8d
+			icon: "phayriosisreborn:spawn_hivebeacon"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "06CB7657991E7662"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:hivenetwork"
+					id: "2AFECFEB86355DF9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Nestnetwork"
+			x: 5.2d
+			y: 13.8d
+			icon: "phayriosisreborn:spawn_hivenetwork"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "5C34F475FFAE70CE"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:hivewarden"
+					id: "2CAC20EE2A10D08C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Nestwarden"
+			x: 6.5d
+			y: 13.8d
+			icon: "phayriosisreborn:spawn_hivewarden"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "73715009413A2856"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:nucleus"
+					id: "45AF98A87FEDB5FF"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Nucleus"
+			x: 7.8d
+			y: 13.8d
+			icon: "phayriosisreborn:spawn_nucleus"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "542CA88B47ED7A26"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "42918E69114F6BD2"
+					stage: "abza_bestiary_t7_7"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:infestation_root"
+					id: "2485913373A4F063"
+					title: "Infestation Root"
+					type: "kill"
+					value: 1L
+					icon: "abza:bestiary_phayriosisreborn_infestation_root"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:worm_infestation"
+					id: "3E08F9AEE9A42D6D"
+					title: "Infestation Worm"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_worm_infestation"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:infester"
+					id: "2F29DCF40A206CB8"
+					title: "Infester"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_infester"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:hivebeacon"
+					id: "19B393C6FBD735B1"
+					title: "Nestbeacon"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_hivebeacon"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:hivenetwork"
+					id: "0F1E8C97126EEB38"
+					title: "Nestnetwork"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_hivenetwork"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:hivewarden"
+					id: "2E144E3D48D853DA"
+					title: "Nestwarden"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_hivewarden"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:nucleus"
+					id: "340D539077191A45"
+					title: "Nucleus"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_nucleus"
+				}
+			]
+			title: "Bestiary 44 to 50"
+			x: 9.6d
+			y: 13.8d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "690B7B8ED11116D1"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:patroller"
+					id: "62F9244EF86C9983"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Patroller"
+			x: 0.0d
+			y: 16.1d
+			icon: "phayriosisreborn:spawn_patroller"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "049E0B948C146D4C"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:phayrector"
+					id: "07A1595779774070"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Phayrector"
+			x: 1.3d
+			y: 16.1d
+			icon: "phayriosisreborn:spawn_phayrector"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "34EB8E54F3A0251A"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:primal_assaulter"
+					id: "35AEE13BD86FE001"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Primal Assaulter"
+			x: 2.6d
+			y: 16.1d
+			icon: "phayriosisreborn:spawn_primal_assaulter"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "73CA35E07791FD85"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:primal_hatchery"
+					id: "5D39D13323C26A75"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Primal Hatchery"
+			x: 3.9d
+			y: 16.1d
+			icon: "phayriosisreborn:spawn_primal_hatchery"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "6F89BE550B41016F"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:primal_hunter"
+					id: "002419B514A7FF64"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Primal Hunter"
+			x: 5.2d
+			y: 16.1d
+			icon: "phayriosisreborn:spawn_primal_hunter"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "0C2730DD96CA0388"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:primal_injector"
+					id: "4F87CABEA4C82D7E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Primal Injector"
+			x: 6.5d
+			y: 16.1d
+			icon: "phayriosisreborn:spawn_primal_injector"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "172BDABB9E221820"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:primal_spitter"
+					id: "1B35E92C1E880A1B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Primal Spitter"
+			x: 7.8d
+			y: 16.1d
+			icon: "phayriosisreborn:spawn_primal_spitter"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "0E214279C4CF6EFB"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "52DCCAD64716564B"
+					stage: "abza_bestiary_t7_8"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:patroller"
+					id: "7785766375AFC540"
+					title: "Patroller"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_patroller"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:phayrector"
+					id: "788612E469EEBA16"
+					title: "Phayrector"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_phayrector"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:primal_assaulter"
+					id: "3B3D5CAC0806F1A9"
+					title: "Primal Assaulter"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_primal_assaulter"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:primal_hatchery"
+					id: "2A5E8DB71CDEAED7"
+					title: "Primal Hatchery"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_primal_hatchery"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:primal_hunter"
+					id: "36A0B1FA6F340E37"
+					title: "Primal Hunter"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_primal_hunter"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:primal_injector"
+					id: "4F32DB7EB4F6F184"
+					title: "Primal Injector"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_primal_injector"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:primal_spitter"
+					id: "4701084F4175FAA8"
+					title: "Primal Spitter"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_primal_spitter"
+				}
+			]
+			title: "Bestiary 51 to 57"
+			x: 9.6d
+			y: 16.1d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "0A15AB7C10BD0A6C"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:scent_engulfer"
+					id: "2B4BD6CF670B99CB"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Scent Engulfer"
+			x: 0.0d
+			y: 18.4d
+			icon: "phayriosisreborn:spawn_scent_engulfer"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "040E128C748444BE"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:scent_spewer"
+					id: "02F09EC1E0FA325F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Scent Spewer"
+			x: 1.3d
+			y: 18.4d
+			icon: "phayriosisreborn:spawn_scent_spewer"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "4BBD00CCE0E8B605"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:seeder"
+					id: "3638DAEDD01C2ACE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Seeder"
+			x: 2.6d
+			y: 18.4d
+			icon: "phayriosisreborn:spawn_seeder"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "56B7930694A0A5BC"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:reinforcement_transportation"
+					id: "09B5F02059B977F0"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Transportation Reinforcement"
+			x: 3.9d
+			y: 18.4d
+			icon: "phayriosisreborn:spawn_reinforcement_transportation"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "29AE402DF07D2682"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:worm_transportation"
+					id: "695A074BDF0F6995"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Transportation Worm"
+			x: 5.2d
+			y: 18.4d
+			icon: "phayriosisreborn:spawn_worm_transportation"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "44FF0FC2CA7EC3ED"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:nestbeacon_stage_3"
+					id: "20FE5CDDC5D36863"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Dreadbeacon"
+			x: 6.5d
+			y: 18.4d
+			icon: "phayriosisreborn:spawn_nestbeacon_stage_3"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "7E3788F0E6A17E07"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:nestnetwork_stage_3"
+					id: "2AD463FC90E4B1FF"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Dreadnetwork"
+			x: 7.8d
+			y: 18.4d
+			icon: "phayriosisreborn:spawn_nestnetwork_stage_3"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "192A2DCECCABEC93"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:nestwarden_stage_3"
+					id: "28F3E0AAC8F2CEBE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Dreadwarden"
+			x: 9.1d
+			y: 18.4d
+			icon: "phayriosisreborn:spawn_nestwarden_stage_3"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "27F4A22BB099A73E"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "75DC8EC6F3341032"
+					stage: "abza_bestiary_t7_9"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:scent_engulfer"
+					id: "35BAD88F0E030FA6"
+					title: "Scent Engulfer"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_scent_engulfer"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:scent_spewer"
+					id: "2F051468B87ACD3D"
+					title: "Scent Spewer"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_scent_spewer"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:seeder"
+					id: "1BEC3875454BBC43"
+					title: "Seeder"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_seeder"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:reinforcement_transportation"
+					id: "7556D49A86999A42"
+					title: "Transportation Reinforcement"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_reinforcement_transportation"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:worm_transportation"
+					id: "21E35F32EF68F6BD"
+					title: "Transportation Worm"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_worm_transportation"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:nestbeacon_stage_3"
+					id: "6255CAF7B83E620B"
+					title: "Dreadbeacon"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_nestbeacon_stage_3"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:nestnetwork_stage_3"
+					id: "3FB3A86EAADA1BC3"
+					title: "Dreadnetwork"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_nestnetwork_stage_3"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:nestwarden_stage_3"
+					id: "7B10FCDB1B746C07"
+					title: "Dreadwarden"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_nestwarden_stage_3"
+				}
+			]
+			title: "Bestiary 58 to 65"
+			x: 10.9d
+			y: 18.4d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "05DD044DC758A794"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:gory_beast"
+					id: "1AF156A687D4D145"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Gory Beast"
+			x: 0.0d
+			y: 20.7d
+			icon: "phayriosisreborn:spawn_gory_beast"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "33CDD9CDBC2E898F"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:immaculate_blightlord"
+					id: "0463DD88FB7762FE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Immaculate Blightlord"
+			x: 1.3d
+			y: 20.7d
+			icon: "phayriosisreborn:spawnimmaculateblightlord"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "648D3FEB7AA2F8CC"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:immaculate_bomber"
+					id: "00725C656F332E06"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Immaculate Bomber"
+			x: 2.6d
+			y: 20.7d
+			icon: "phayriosisreborn:spawnimmaculatebomber"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "72B39C6260D9E986"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:immaculate_multiplier"
+					id: "25824DDE4A897176"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Immaculate Multiplier"
+			x: 3.9d
+			y: 20.7d
+			icon: "phayriosisreborn:spawn_immaculate_multiplier"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "1B713098AFBDD526"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:immaculate_stalker"
+					id: "100CB5B9E52A8410"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Immaculate Stalker"
+			x: 5.2d
+			y: 20.7d
+			icon: "phayriosisreborn:spawn_immaculate_stalker"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "01A4A4B4CFF4982F"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:immaculate_strangulator"
+					id: "5D955723ED3A7AC4"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Immaculate Strangulator"
+			x: 6.5d
+			y: 20.7d
+			icon: "phayriosisreborn:spawn_immaculate_strangulator"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "00DFC8F6F4A541D8"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:immaculate_whisperer"
+					id: "21D82D38CAC19196"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Immaculate Whisperer"
+			x: 7.8d
+			y: 20.7d
+			icon: "phayriosisreborn:spawn_immaculate_whisperer"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "5907929339EFC474"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "59031F7EB7036F81"
+					stage: "abza_bestiary_t7_10"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:gory_beast"
+					id: "5468F18E6687E071"
+					title: "Gory Beast"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_gory_beast"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:immaculate_blightlord"
+					id: "2FFD02E80E6C9984"
+					title: "Immaculate Blightlord"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawnimmaculateblightlord"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:immaculate_bomber"
+					id: "619891E6492A82A4"
+					title: "Immaculate Bomber"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawnimmaculatebomber"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:immaculate_multiplier"
+					id: "56115B2F5A87DBA5"
+					title: "Immaculate Multiplier"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_immaculate_multiplier"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:immaculate_stalker"
+					id: "1511A18AEC8C0B9A"
+					title: "Immaculate Stalker"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_immaculate_stalker"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:immaculate_strangulator"
+					id: "30B90A02796DCD44"
+					title: "Immaculate Strangulator"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_immaculate_strangulator"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:immaculate_whisperer"
+					id: "4581D6674547CE1B"
+					title: "Immaculate Whisperer"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_immaculate_whisperer"
+				}
+			]
+			title: "Bestiary 66 to 72"
+			x: 9.6d
+			y: 20.7d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "2591FCD01CFE1575"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:monstrosity"
+					id: "2B9F0156A8500F12"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Monstrosity"
+			x: 0.0d
+			y: 23.0d
+			icon: "phayriosisreborn:spawn_monstrosity"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "6C6C600088AA9C71"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:primal_tank"
+					id: "74240D5DBBF27413"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Primal Tank"
+			x: 1.3d
+			y: 23.0d
+			icon: "phayriosisreborn:spawn_primal_tank"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "4104A8E05639AABC"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:scent_erupter"
+					id: "1DA00B6BC4CC5E60"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Scent Erupter"
+			x: 2.6d
+			y: 23.0d
+			icon: "phayriosisreborn:spawn_scenteruptor"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "3ADBF99B4814CCDF"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:victim"
+					id: "02170C03E217E17C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Victim"
+			x: 3.9d
+			y: 23.0d
+			icon: "phayriosisreborn:spawn_victim"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "0567237B29C41C84"
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "Boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:gory_titan"
+					id: "6C41DB706B328240"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Gory Titan"
+			x: 5.2d
+			y: 23.0d
+			icon: "phayriosisreborn:spawn_gory_titan"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "18C7E8CDCE9712ED"
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "Boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:immaculate_kingdom"
+					id: "471CF90B5D34C3F4"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Immaculate Kingdom"
+			x: 6.5d
+			y: 23.0d
+			icon: "phayriosisreborn:spawn_immaculate_kingdom"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "66CE1AC39EB69ED3"
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "Boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "phayriosisreborn:immaculate_resistor"
+					id: "7F30034318A0F0CB"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Immaculate Resistor"
+			x: 7.8d
+			y: 23.0d
+			icon: "phayriosisreborn:spawn_immaculate_resistor"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "0DBFC1F97187EC67"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "4738CAD24592B932"
+					stage: "abza_bestiary_t7_11"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:monstrosity"
+					id: "049BD3A80636CF9D"
+					title: "Monstrosity"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_monstrosity"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:primal_tank"
+					id: "06A08719EF87EE9E"
+					title: "Primal Tank"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_primal_tank"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:scent_erupter"
+					id: "4460A41E2D0EEE1A"
+					title: "Scent Erupter"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_scenteruptor"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:victim"
+					id: "3DBE61430A300914"
+					title: "Victim"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_victim"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:gory_titan"
+					id: "718F5513D22B643D"
+					title: "Gory Titan"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_gory_titan"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:immaculate_kingdom"
+					id: "71B3F5666422ECDA"
+					title: "Immaculate Kingdom"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_immaculate_kingdom"
+				}
+				{
+					disable_toast: true
+					entity: "phayriosisreborn:immaculate_resistor"
+					id: "39E332621AC62DFA"
+					title: "Immaculate Resistor"
+					type: "kill"
+					value: 1L
+					icon: "phayriosisreborn:spawn_immaculate_resistor"
+				}
+			]
+			title: "Bestiary 73 to 79"
+			x: 9.6d
+			y: 23.0d
+		}
+	]
+	title: "Tier 7: Umbra"
+}

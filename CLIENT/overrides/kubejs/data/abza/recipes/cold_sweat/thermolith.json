@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SCS",
+    "STS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:smooth_stone"
+    },
+    "C": {
+      "item": "mekanism:basic_control_circuit"
+    },
+    "T": {
+      "item": "mekanism:basic_thermodynamic_conductor"
+    }
+  },
+  "result": {
+    "item": "cold_sweat:thermolith",
+    "count": 1
+  }
+}

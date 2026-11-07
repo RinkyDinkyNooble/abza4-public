@@ -1,0 +1,15 @@
+{
+  "type": "mekanism:chemical_infusing",
+  "leftInput": {
+    "amount": 1,
+    "gas": "crafttweaker:neural_extract"
+  },
+  "rightInput": {
+    "amount": 1,
+    "gas": "mekanism:antimatter"
+  },
+  "output": {
+    "amount": 1,
+    "gas": "crafttweaker:mycelial_solution"
+  }
+}

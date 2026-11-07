@@ -1,0 +1,57 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"idel": {
+			"animation_length": 0.125,
+			"bones": {
+				"bone11": {
+					"position": {
+						"0.0": {
+							"vector": [
+								0,
+								0,
+								0
+							]
+						},
+						"0.0417": {
+							"pre": [
+								0,
+								0,
+								0
+							],
+							"post": [
+								0,
+								0,
+								-0.1
+							]
+						},
+						"0.0833": {
+							"vector": [
+								0,
+								0,
+								-0.1
+							]
+						},
+						"0.125": {
+							"pre": [
+								0,
+								0,
+								-0.1
+							],
+							"post": [
+								0,
+								0,
+								0
+							]
+						}
+					}
+				}
+			}
+		},
+		"null": {
+			"loop": true,
+			"animation_length": 0.125
+		}
+	},
+	"geckolib_format_version": 2
+}

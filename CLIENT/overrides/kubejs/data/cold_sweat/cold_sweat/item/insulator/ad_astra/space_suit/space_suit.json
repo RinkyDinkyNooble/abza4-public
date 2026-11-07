@@ -1,0 +1,24 @@
+{
+  "type": "armor",
+  "item": {
+    "items": [
+      "ad_astra:space_suit"
+    ]
+  },
+  "attributes": {
+    "cold_sweat:freezing_point": [
+      {
+        "name": "abza:space_suit_cold",
+        "amount": -0.3,
+        "operation": "addition"
+      }
+    ],
+    "cold_sweat:burning_point": [
+      {
+        "name": "abza:space_suit_heat",
+        "amount": 0.15,
+        "operation": "addition"
+      }
+    ]
+  }
+}

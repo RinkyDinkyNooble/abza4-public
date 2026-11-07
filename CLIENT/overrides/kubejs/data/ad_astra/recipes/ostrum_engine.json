@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#E#",
+    "CFC"
+  ],
+  "key": {
+    "#": {
+      "tag": "ad_astra:ostrum_plates"
+    },
+    "E": {
+      "item": "ad_astra:desh_engine"
+    },
+    "F": {
+      "item": "ad_astra:fan"
+    },
+    "C": {
+      "item": "abza:ostrum_crystal"
+    }
+  },
+  "result": {
+    "item": "ad_astra:ostrum_engine"
+  }
+}

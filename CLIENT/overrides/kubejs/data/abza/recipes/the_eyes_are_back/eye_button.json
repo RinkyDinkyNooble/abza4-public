@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [{"item": "the_eyes_are_back:eye_planks"}],
+  "result": {"item": "the_eyes_are_back:eye_button"}
+}

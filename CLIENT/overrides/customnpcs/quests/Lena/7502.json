@@ -1,0 +1,89 @@
+{
+    "Id": 7502,
+    "ModRev": 18,
+    "Type": 0,
+    "Title": "Lena's research: the tending",
+    "Text": "Lena wants two bundles of veins, two elastic tendons and a converted heart from Umbra's creatures.",
+    "CompleteText": "These kept the seeds warm. That's all they were for. (Notes.) Here.",
+    "CompleterNpc": "Lena",
+    "NextQuestId": 7503,
+    "RewardExp": 0,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "saros__money_mod:euro_50",
+                "Count": 1b
+            },
+            {
+                "Slot": 1b,
+                "id": "saros__money_mod:euro_20",
+                "Count": 1b
+            },
+            {
+                "Slot": 2b,
+                "id": "saros__money_mod:euro_10",
+                "Count": 1b
+            },
+            {
+                "Slot": 3b,
+                "id": "minecraft:written_book",
+                "Count": 1b,
+                "tag": {
+                    "title": "Field Notes: Umbra",
+                    "author": "Lena",
+                    "pages": [
+                        "{\"text\":\"Every seed that fell on Cinder and Eden was grown on worlds like this one.\\n\\nAnd ours? I think ours was too. I think it came from somewhere close.\"}"
+                    ],
+                    "resolved": 1b
+                }
+            }
+        ]
+    },
+    "QuestCommand": "",
+    "RandomReward": 0b,
+    "QuestCompletion": 0,
+    "QuestRepeat": 0,
+    "QuestFactionPoints": {
+        "OptionFactions1": 1,
+        "OptionFaction1Points": 50,
+        "DecreaseFaction1Points": 0b,
+        "OptionFactions2": -1,
+        "OptionFaction2Points": 0,
+        "DecreaseFaction2Points": 0b
+    },
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 0L
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "phayriosisreborn:bundle_of_veins",
+                "Count": 2b
+            },
+            {
+                "Slot": 1b,
+                "id": "phayriosisreborn:elastic_tendon",
+                "Count": 2b
+            },
+            {
+                "Slot": 2b,
+                "id": "phayriosisreborn:converted_heart",
+                "Count": 1b
+            }
+        ]
+    },
+    "LeaveItems": 0b,
+    "IgnoreDamage": 1b,
+    "IgnoreNBT": 0b
+}

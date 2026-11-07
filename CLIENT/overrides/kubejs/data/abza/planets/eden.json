@@ -1,0 +1,10 @@
+{
+  "dimension": "abza:eden",
+  "gravity": 9.807,
+  "oxygen": true,
+  "orbit": "abza:eden_orbit",
+  "solar_power": 16,
+  "solar_system": "abza:halcyon",
+  "temperature": 30,
+  "tier": 3
+}

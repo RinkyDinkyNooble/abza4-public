@@ -1,0 +1,21 @@
+# Infectious
+
+# Entities
+keep entity infectious:*
+
+# Advancements
+remove advancement infectious:*
+
+# Items and blocks
+remove item infectious:*
+keep item infectious:*_spawn_egg
+hide any infectious:teddy_bear
+redact any infectious:mine
+redact any infectious:blueprint_workbench
+redact any infectious:butchers_table
+keep any infectious:bear_trap_*
+keep any infectious:barbed_wire
+keep any infectious:wooden_barricades
+
+# Sprung bear trap
+hide any infectious:bear_trap_close

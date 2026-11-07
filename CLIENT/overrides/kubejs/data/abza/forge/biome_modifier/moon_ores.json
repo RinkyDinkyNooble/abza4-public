@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_features",
+  "biomes": "ad_astra:lunar_wastelands",
+  "step": "underground_ores",
+  "features": [
+    "abza:planet/moon/ore_desh",
+    "abza:planet/moon/ore_ice_shard",
+    "abza:planet/moon/ore_iron",
+    "abza:planet/moon/outcrop_desh",
+    "abza:planet/moon/outcrop_ice_shard",
+    "abza:planet/moon/outcrop_iron"
+  ]
+}

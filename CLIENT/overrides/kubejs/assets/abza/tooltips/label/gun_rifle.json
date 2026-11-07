@@ -1,0 +1,88 @@
+{
+  "priority": 10,
+  "provider": {
+    "type": "obscure_tooltips:literal",
+    "text": "Rifle"
+  },
+  "filter": {
+    "type": "obscure_tooltips:any_of",
+    "terms": [
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"applied_armorer:moritz_rifle_ar77\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"applied_armorer:niklas_lever_vigenere\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:ak47\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:aug\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:fn_fal\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:g36k\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:hk416d\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:hk_g3\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:m16a1\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:m16a4\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:m4a1\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:mk14\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:qbz_191\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:qbz_95\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:scar_h\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:scar_l\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:sks_tactical\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:spr15hb\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:type_81\"}"
+      }
+    ]
+  }
+}

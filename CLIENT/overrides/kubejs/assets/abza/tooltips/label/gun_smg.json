@@ -1,0 +1,36 @@
+{
+  "priority": 10,
+  "provider": {
+    "type": "obscure_tooltips:literal",
+    "text": "Submachine Gun"
+  },
+  "filter": {
+    "type": "obscure_tooltips:any_of",
+    "terms": [
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"applied_armorer:niklas_smg_freedom\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:hk_mp5a5\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:p90\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:ump45\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:uzi\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:vector45\"}"
+      }
+    ]
+  }
+}

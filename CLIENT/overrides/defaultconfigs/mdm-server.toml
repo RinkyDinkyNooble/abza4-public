@@ -1,0 +1,225 @@
+#Breaking any part of furniture that fills more than one block breaks the whole piece.
+#When false, each part breaks on its own, and only the part the furniture was placed from
+#drops the item.
+breakWholePiece = true
+
+#Storage size of each piece of furniture with storage, in rows of 9 slots (1 to 6).
+#When a size is lowered, items in slots that no longer exist drop on the ground the next time the block loads.
+[storageRows]
+	#Range: 1 ~ 6
+	black_modern_fridge_1 = 4
+	#Range: 1 ~ 6
+	steel_shelf = 3
+	#Range: 1 ~ 6
+	bathroom_sink_with_shelf = 2
+	#Range: 1 ~ 6
+	white_bathroom_shelf = 2
+	#Range: 1 ~ 6
+	bathroom_stand = 2
+	#Range: 1 ~ 6
+	black_office_desk = 3
+	#Range: 1 ~ 6
+	black_desk_extension_1 = 3
+	#Range: 1 ~ 6
+	black_desk_extension_2 = 3
+	#Range: 1 ~ 6
+	black_desk_extension_3 = 3
+	#Range: 1 ~ 6
+	office_cabinet_1 = 3
+	#Range: 1 ~ 6
+	office_cabinet_2 = 2
+	#Range: 1 ~ 6
+	office_cabinet_3 = 2
+	#Range: 1 ~ 6
+	office_shelf = 3
+	#Range: 1 ~ 6
+	shelf = 2
+	#Range: 1 ~ 6
+	hanging_shelf = 2
+	#Range: 1 ~ 6
+	set_1_cabinet = 3
+	#Range: 1 ~ 6
+	set_1_cabinet_with_drawers = 3
+	#Range: 1 ~ 6
+	set_1_corner_cabinet_1 = 3
+	#Range: 1 ~ 6
+	set_1_corner_cabinet_2 = 3
+	#Range: 1 ~ 6
+	set_1_oven_microwave = 3
+	#Range: 1 ~ 6
+	set_1_fridge = 4
+	#Range: 1 ~ 6
+	set_1_cabinet_2 = 3
+	#Range: 1 ~ 6
+	set_1_hanging_cabinet = 3
+	#Range: 1 ~ 6
+	set_1_corner_hanging_cabinet = 3
+	#Range: 1 ~ 6
+	set_2_cabinet_1 = 3
+	#Range: 1 ~ 6
+	set_2_cabinet_2 = 3
+	#Range: 1 ~ 6
+	set_2_cabinet_3 = 2
+	#Range: 1 ~ 6
+	set_2_cabinet_with_drawers = 3
+	#Range: 1 ~ 6
+	tv_stand_mid = 2
+	#Range: 1 ~ 6
+	tv_stand_left = 2
+	#Range: 1 ~ 6
+	tv_stand_right = 2
+	#Range: 1 ~ 6
+	tv_stand_mid_decorated = 2
+	#Range: 1 ~ 6
+	set_1_night_table = 3
+	#Range: 1 ~ 6
+	set_3_coffe_table = 2
+	#Range: 1 ~ 6
+	set_3_coffe_table_decorated = 2
+	#Range: 1 ~ 6
+	set_3tv_stand = 1
+	#Range: 1 ~ 6
+	set_1_tv_stand = 3
+	#Range: 1 ~ 6
+	set_1_tv_stand_middle = 2
+	#Range: 1 ~ 6
+	set_1_livingroom_cabinet = 3
+	#Range: 1 ~ 6
+	set_1_livingroom_cabinet_2 = 3
+	#Range: 1 ~ 6
+	set_1_livingroom_hanging_cabinet = 3
+	#Range: 1 ~ 6
+	kitchen_set_3_corner_counter = 3
+	#Range: 1 ~ 6
+	kitchen_set_3_corner_counter_with_sink = 3
+	#Range: 1 ~ 6
+	kitchen_set_3_counter = 3
+	#Range: 1 ~ 6
+	kitchen_set_3_counter_2 = 3
+	#Range: 1 ~ 6
+	kitchen_set_3_counter_3 = 3
+	#Range: 1 ~ 6
+	kitchen_set_3_dishwasher = 3
+	#Range: 1 ~ 6
+	kitchen_set_3_fridge_bottom = 3
+	#Range: 1 ~ 6
+	kitchen_set_3_fridge_top = 3
+	#Range: 1 ~ 6
+	kitchen_set_3_hanging_cabinet = 3
+	#Range: 1 ~ 6
+	kitchen_set_3_oven_bottom = 3
+	#Range: 1 ~ 6
+	kitchen_set_3_oven_top = 3
+	#Range: 1 ~ 6
+	kitchen_set_3_small_corner_hanging_cabinet = 2
+	#Range: 1 ~ 6
+	kitchen_set_3_small_hanging_cabinet = 2
+	#Range: 1 ~ 6
+	kitchen_set_3_hanging_corner_cabinet = 3
+	#Range: 1 ~ 6
+	bedroom_set_1greydresserleft = 3
+	#Range: 1 ~ 6
+	bedroom_set_1greydressermid = 3
+	#Range: 1 ~ 6
+	bedroom_set_1greydresserright = 3
+	#Range: 1 ~ 6
+	bedroom_set_1grey_single_bed = 3
+	#Range: 1 ~ 6
+	bedroom_set_1grey_double_bed = 3
+	#Range: 1 ~ 6
+	bedroom_set_1grey_bunk_bed = 3
+	#Range: 1 ~ 6
+	bedroom_set_1greywardrobe = 4
+	#Range: 1 ~ 6
+	bedroom_set_1grey_nightstand_1 = 3
+	#Range: 1 ~ 6
+	bedroom_set_1grey_nightstand_2 = 3
+	#Range: 1 ~ 6
+	bedroom_set_1wengebunkbed = 3
+	#Range: 1 ~ 6
+	bedroom_set_1wenge_double_bed = 3
+	#Range: 1 ~ 6
+	bedroom_set_1wenge_single_bed = 3
+	#Range: 1 ~ 6
+	bedroom_set_1wengedressermid = 3
+	#Range: 1 ~ 6
+	bedroom_set_1wengedresserleft = 3
+	#Range: 1 ~ 6
+	bedroom_set_1wengedresserright = 3
+	#Range: 1 ~ 6
+	bedroom_set_1wengewardrobe = 4
+	#Range: 1 ~ 6
+	bedroom_set_1wengenightstand_1 = 3
+	#Range: 1 ~ 6
+	bedroom_set_1wengenighstand_2 = 3
+	#Range: 1 ~ 6
+	bedroom_set_1whitebunkbed = 3
+	#Range: 1 ~ 6
+	bedroom_set_1white_doublebed = 3
+	#Range: 1 ~ 6
+	bedroom_set_1white_singlebed = 3
+	#Range: 1 ~ 6
+	bedroom_set_1whitedresserleft = 3
+	#Range: 1 ~ 6
+	bedroom_set_1whitedressermid = 3
+	#Range: 1 ~ 6
+	bedroom_set_1whitedresserright = 3
+	#Range: 1 ~ 6
+	bedroom_set_1whitewardrobe = 4
+	#Range: 1 ~ 6
+	bedroom_set_1whitenightstand_1 = 3
+	#Range: 1 ~ 6
+	bedroom_set_1whitenighstand_2 = 3
+	#Range: 1 ~ 6
+	office_set_1_desk_2_side_var_2 = 3
+	#Range: 1 ~ 6
+	office_set_1_shelf_var_1_bottom = 3
+	#Range: 1 ~ 6
+	office_set_1_shelf_var_1_top = 3
+	#Range: 1 ~ 6
+	office_set_1_shelf_var_2_bottom = 3
+	#Range: 1 ~ 6
+	office_set_1_shelf_var_2_top = 3
+	#Range: 1 ~ 6
+	office_set_1_desk_1_cabinet = 3
+	#Range: 1 ~ 6
+	office_set_1_desk_1_cabinet_var_2 = 2
+	#Range: 1 ~ 6
+	office_set_1_desk_1_cabinet_var_3 = 2
+	#Range: 1 ~ 6
+	office_set_1_desk_1_cabinet_var_4 = 3
+	#Range: 1 ~ 6
+	office_set_1_desk_1_left = 2
+	#Range: 1 ~ 6
+	office_set_1_desk_1_left_var_2 = 3
+	#Range: 1 ~ 6
+	office_set_1_desk_1_left_var_3 = 3
+	#Range: 1 ~ 6
+	office_set_1_desk_1_middle = 2
+	#Range: 1 ~ 6
+	office_set_1_desk_1_right = 2
+	#Range: 1 ~ 6
+	office_set_1_desk_1_right_var_2 = 3
+	#Range: 1 ~ 6
+	office_set_1_desk_1_right_var_3 = 3
+	#Range: 1 ~ 6
+	foyer_wall_unit_bottom = 3
+	#Range: 1 ~ 6
+	white_wood_foyer_wall_unit = 3
+	#Range: 1 ~ 6
+	black_foyer_wall_unit = 3
+	#Range: 1 ~ 6
+	bathroom_shelf_02 = 3
+	#Range: 1 ~ 6
+	seasoning_rack = 1
+	#Range: 1 ~ 6
+	boxes = 1
+	#Range: 1 ~ 6
+	foyer_bench = 2
+	#Range: 1 ~ 6
+	foyer_bench_dark = 2
+	#Range: 1 ~ 6
+	foyer_bench_white = 2
+	#Range: 1 ~ 6
+	foyer_bench_wenge = 2
+

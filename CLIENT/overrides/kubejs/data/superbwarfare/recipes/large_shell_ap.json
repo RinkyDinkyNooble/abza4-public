@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "a": {
+      "item": "superbwarfare:ap_head"
+    },
+    "b": {
+      "item": "superbwarfare:grain"
+    },
+    "u": {
+      "item": "mekanism:nugget_uranium"
+    }
+  },
+  "pattern": [
+    "a",
+    "b",
+    "u"
+  ],
+  "result": {
+    "item": "superbwarfare:large_shell_ap"
+  },
+  "show_notification": true
+}

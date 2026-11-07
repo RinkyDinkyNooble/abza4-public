@@ -1,0 +1,24 @@
+{
+  "type": "armor",
+  "item": {
+    "items": [
+      "trol_armor:lowexo_boots"
+    ]
+  },
+  "attributes": {
+    "cold_sweat:freezing_point": [
+      {
+        "name": "abza:lowexo_boots_cold",
+        "amount": -0.45,
+        "operation": "addition"
+      }
+    ],
+    "cold_sweat:burning_point": [
+      {
+        "name": "abza:lowexo_boots_heat",
+        "amount": 0.45,
+        "operation": "addition"
+      }
+    ]
+  }
+}

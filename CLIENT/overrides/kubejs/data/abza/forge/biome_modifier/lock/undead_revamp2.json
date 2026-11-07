@@ -1,0 +1,8 @@
+{
+  "type": "forge:remove_spawns",
+  "biomes": {
+    "type": "forge:not",
+    "value": "#abza:tier1"
+  },
+  "entity_types": "#abza:locked/undead_revamp2"
+}

@@ -1,0 +1,8 @@
+{
+  "slot": "abza:ammo/slot/cinder_heavy",
+  "tracer_color": "#C77DFF",
+  "shell": {
+    "model": "tacz:shell/308_shell",
+    "texture": "tacz:shell/308_shell"
+  }
+}

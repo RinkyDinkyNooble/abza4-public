@@ -1,0 +1,43 @@
+{
+  "ID": "superbwarfare:ah_6",
+  "Pools": [
+    {
+      "Entries": [
+        {
+          "Name": "mekanism:block_steel"
+        },
+        {
+          "Chance": 0.5,
+          "Name": "superbwarfare:light_armament_module"
+        },
+        {
+          "Chance": 0.5,
+          "Name": "mekanism:advanced_energy_cube"
+        },
+        {
+          "Chance": 0.5,
+          "Name": "superbwarfare:large_propeller"
+        },
+        {
+          "Chance": 0.5,
+          "Name": "superbwarfare:propeller"
+        },
+        {
+          "Chance": 0.5,
+          "Name": "superbwarfare:large_motor"
+        }
+      ],
+      "Source": "superbwarfare:repair_tool",
+      "Type": "complete"
+    },
+    {
+      "Entries": [
+        {
+          "Chance": 0.5,
+          "Name": "mekanism:block_steel"
+        }
+      ],
+      "Type": "complete"
+    }
+  ]
+}

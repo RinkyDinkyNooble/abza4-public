@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:combining",
+  "mainInput": {
+    "ingredient": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "extraInput": {
+    "ingredient": {
+      "item": "the_eyes_are_back:eye"
+    }
+  },
+  "output": {
+    "item": "abza:eye_lens"
+  }
+}

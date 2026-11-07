@@ -1,0 +1,79 @@
+{
+    "Id": 8501,
+    "ModRev": 18,
+    "Type": 0,
+    "Title": "Lena's research: Interloper",
+    "Text": "Lena wants The Eye of the Vigil, two organoid membranes and two hyperbolized livers from Interloper's creatures.",
+    "CompleteText": "The last list. (She closes the notebook and hands you a page.) I've written everything I know.",
+    "CompleterNpc": "Lena",
+    "NextQuestId": -1,
+    "RewardExp": 0,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "saros__money_mod:euro_100",
+                "Count": 1b
+            },
+            {
+                "Slot": 1b,
+                "id": "minecraft:written_book",
+                "Count": 1b,
+                "tag": {
+                    "title": "Field Notes: Interloper",
+                    "author": "Lena",
+                    "pages": [
+                        "{\"text\":\"It isn't a planet. It's a nest the size of one.\\n\\nEverything we've fought, on every world, came from something like this.\"}"
+                    ],
+                    "resolved": 1b
+                }
+            }
+        ]
+    },
+    "QuestCommand": "",
+    "RandomReward": 0b,
+    "QuestCompletion": 0,
+    "QuestRepeat": 0,
+    "QuestFactionPoints": {
+        "OptionFactions1": 1,
+        "OptionFaction1Points": 50,
+        "DecreaseFaction1Points": 0b,
+        "OptionFactions2": -1,
+        "OptionFaction2Points": 0,
+        "DecreaseFaction2Points": 0b
+    },
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 0L
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "spore:vigil_eye",
+                "Count": 1b
+            },
+            {
+                "Slot": 1b,
+                "id": "spore:organoid_membrane",
+                "Count": 2b
+            },
+            {
+                "Slot": 2b,
+                "id": "spore:hyperbolized_liver",
+                "Count": 2b
+            }
+        ]
+    },
+    "LeaveItems": 0b,
+    "IgnoreDamage": 1b,
+    "IgnoreNBT": 0b
+}

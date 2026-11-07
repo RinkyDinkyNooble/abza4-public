@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#E#",
+    "CFC"
+  ],
+  "key": {
+    "#": {
+      "tag": "ad_astra:desh_plates"
+    },
+    "E": {
+      "item": "ad_astra:steel_engine"
+    },
+    "F": {
+      "item": "ad_astra:fan"
+    },
+    "C": {
+      "item": "abza:desh_crystal"
+    }
+  },
+  "result": {
+    "item": "ad_astra:desh_engine"
+  }
+}

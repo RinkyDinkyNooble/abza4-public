@@ -1,0 +1,92 @@
+# Mekanism
+
+# Advancements
+remove advancement mekanism:*
+
+# Items and blocks
+redact any mekanism:cardboard_box
+remove item mekanism:hdpe_elytra
+remove item mekanism:module_elytra_unit
+remove item mekanism:module_teleportation_unit
+remove item mekanism:electric_bow
+remove item mekanism:flamethrower
+
+# Jetpacks, free runners and the modules made from them
+remove item mekanism:jetpack
+remove item mekanism:jetpack_armored
+remove item mekanism:free_runners
+remove item mekanism:free_runners_armored
+remove item mekanism:module_jetpack_unit
+remove item mekanism:module_hydraulic_propulsion_unit
+
+# MekaSuit and its modules
+remove item mekanism:mekasuit_helmet
+remove item mekanism:mekasuit_bodyarmor
+remove item mekanism:mekasuit_pants
+remove item mekanism:mekasuit_boots
+remove item mekanism:module_color_modulation_unit
+remove item mekanism:module_laser_dissipation_unit
+remove item mekanism:module_radiation_shielding_unit
+remove item mekanism:module_electrolytic_breathing_unit
+remove item mekanism:module_inhalation_purification_unit
+remove item mekanism:module_vision_enhancement_unit
+remove item mekanism:module_nutritional_injection_unit
+remove item mekanism:module_gravitational_modulating_unit
+remove item mekanism:module_charge_distribution_unit
+remove item mekanism:module_dosimeter_unit
+remove item mekanism:module_geiger_unit
+remove item mekanism:module_locomotive_boosting_unit
+remove item mekanism:module_gyroscopic_stabilization_unit
+remove item mekanism:module_hydrostatic_repulsor_unit
+remove item mekanism:module_motorized_servo_unit
+remove item mekanism:module_magnetic_attraction_unit
+remove item mekanism:module_frost_walker_unit
+
+# Meka-Tool, its modules and the modification station
+remove item mekanism:meka_tool
+redact any mekanism:modification_station
+remove item mekanism:module_attack_amplification_unit
+remove item mekanism:module_excavation_escalation_unit
+remove item mekanism:module_farming_unit
+remove item mekanism:module_shearing_unit
+remove item mekanism:module_silk_touch_unit
+remove item mekanism:module_fortune_unit
+remove item mekanism:module_blasting_unit
+remove item mekanism:module_vein_mining_unit
+
+# Shared module parts
+remove item mekanism:module_energy_unit
+remove item mekanism:module_base
+
+# Quartz ore processing
+remove recipe mekanism:processing/quartz/from_ore
+
+# Chunk loaders: no recipes
+remove recipe mekanism:upgrade/anchor
+remove recipe mekanism:dimensional_stabilizer
+
+# Bounding block
+hide any mekanism:bounding_block
+
+# PlaStick and the Oredictionificator: hidden, no recipes
+hide item mekanism:hdpe_stick
+remove recipe mekanism:hdpe_stick
+hide any mekanism:oredictionificator
+remove recipe mekanism:oredictionificator
+
+# The Dictionary: no recipe
+remove recipe mekanism:dictionary
+
+# Radiation gear: hidden, no recipes
+hide item mekanism:geiger_counter
+remove recipe mekanism:geiger_counter
+hide item mekanism:dosimeter
+remove recipe mekanism:dosimeter
+hide item mekanism:hazmat_mask
+remove recipe mekanism:hazmat_mask
+hide item mekanism:hazmat_gown
+remove recipe mekanism:hazmat_gown
+hide item mekanism:hazmat_pants
+remove recipe mekanism:hazmat_pants
+hide item mekanism:hazmat_boots
+remove recipe mekanism:hazmat_boots

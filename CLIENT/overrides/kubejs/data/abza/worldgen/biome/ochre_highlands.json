@@ -1,0 +1,62 @@
+{
+  "has_precipitation": true,
+  "temperature": 1.2,
+  "downfall": 0.9,
+  "effects": {
+    "sky_color": 8372424,
+    "fog_color": 13160624,
+    "water_color": 2792090,
+    "water_fog_color": 329011,
+    "grass_color": 9416544,
+    "foliage_color": 10121136,
+    "music": {
+      "sound": "minecraft:music.overworld.jungle",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    }
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "abza:planet/eden/cave",
+      "abza:planet/eden/cave_deep",
+      "abza:planet/eden/canyon"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "abza:planet/eden/ore_biometal",
+      "abza:planet/eden/ore_calorite",
+      "abza:planet/eden/ore_coal",
+      "abza:planet/eden/outcrop_biometal",
+      "abza:planet/eden/outcrop_calorite",
+      "abza:planet/eden/outcrop_coal"
+    ],
+    [],
+    [
+      "abza:planet/eden/water_spring"
+    ],
+    [
+      "abza:planet/eden/grass",
+      "abza:planet/eden/highland_bushes"
+    ],
+    []
+  ]
+}

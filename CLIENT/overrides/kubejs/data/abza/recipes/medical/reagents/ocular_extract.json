@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:oxidizing",
+  "input": {
+    "ingredient": {
+      "item": "the_eyes_are_back:eye"
+    }
+  },
+  "output": {
+    "gas": "crafttweaker:ocular_extract",
+    "amount": 200
+  }
+}

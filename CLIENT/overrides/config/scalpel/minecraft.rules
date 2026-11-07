@@ -1,0 +1,227 @@
+# Minecraft
+
+# Advancements
+remove advancement minecraft:*
+
+# Entities
+keep entity minecraft:*
+
+# Spawn eggs
+hide item minecraft:*_spawn_egg
+
+# Enchanting, experience and repairs
+redact any minecraft:enchanting_table
+redact any minecraft:experience_bottle
+redact any minecraft:enchanted_book
+redact any minecraft:*anvil
+redact any minecraft:grindstone
+remove recipe minecraft:repair_item
+
+# Smithing
+redact any minecraft:smithing_table
+redact any minecraft:*_smithing_template
+
+# Armour, swords and tools
+redact any minecraft:*_helmet
+redact any minecraft:*_chestplate
+redact any minecraft:*_leggings
+redact any minecraft:*_boots
+redact any minecraft:*_horse_armor
+redact any minecraft:*_sword
+redact any minecraft:golden_*
+redact any minecraft:enchanted_golden_apple
+redact any minecraft:glistering_melon_slice
+redact any minecraft:shield
+
+# Ranged weapons
+redact any minecraft:bow
+redact any minecraft:crossbow
+redact any minecraft:arrow
+redact any minecraft:spectral_arrow
+redact any minecraft:tipped_arrow
+redact any minecraft:firework_*
+remove recipe minecraft:firework_rocket
+remove recipe minecraft:firework_star
+remove recipe minecraft:firework_star_fade
+remove recipe minecraft:tipped_arrow
+
+# Brewing
+redact any minecraft:brewing_stand
+redact any minecraft:splash_potion
+redact any minecraft:potion
+redact any minecraft:lingering_potion
+redact any minecraft:fermented_spider_eye
+remove recipe minecraft:suspicious_stew
+redact any minecraft:poisonous_potato
+redact any minecraft:spider_eye
+
+# The Nether
+redact any minecraft:*nether*
+keep any minecraft:netherite_scrap
+keep any minecraft:netherite_ingot
+keep any minecraft:netherite_block
+remove recipe minecraft:netherite_ingot
+keep block minecraft:nether_portal
+redact any minecraft:*crimson*
+redact any minecraft:*warped*
+redact any minecraft:soul_*
+redact any minecraft:twisting_vines*
+redact any minecraft:weeping_vines*
+redact any minecraft:shroomlight
+redact any minecraft:crying_obsidian
+redact any minecraft:gilded_blackstone
+redact any minecraft:magma_*
+redact any minecraft:blaze_*
+redact any minecraft:ghast_tear
+redact any minecraft:fire_charge
+redact any minecraft:*wither_rose
+redact any minecraft:respawn_anchor
+redact any minecraft:lodestone
+redact any minecraft:beacon
+
+# The End
+redact any minecraft:end_stone*
+redact any minecraft:end_rod
+redact any minecraft:end_crystal
+redact any minecraft:end_portal_frame
+redact any minecraft:ender_*
+redact any minecraft:purpur_*
+redact any minecraft:*chorus*
+redact any minecraft:dragon_*
+redact any minecraft:elytra
+redact any minecraft:*shulker_*
+
+# Sculk
+redact any minecraft:*sculk*
+redact any minecraft:echo_shard
+redact any minecraft:recovery_compass
+
+# The sea
+redact any minecraft:*prismarine*
+redact any minecraft:sea_lantern
+redact any minecraft:heart_of_the_sea
+redact any minecraft:conduit
+redact any minecraft:nautilus_shell
+redact any minecraft:trident
+redact any minecraft:scute
+redact any minecraft:*sponge
+
+# Mob heads
+redact any minecraft:zombie_*head
+redact any minecraft:creeper_*head
+redact any minecraft:piglin_*head
+redact any minecraft:*skeleton_*skull
+
+# Music, maps and signals
+redact any minecraft:jukebox
+redact any minecraft:music_disc_*
+redact any minecraft:disc_fragment_5
+redact any minecraft:map
+redact any minecraft:filled_map
+redact any minecraft:cartography_table
+redact any minecraft:spyglass
+remove recipe minecraft:map_cloning
+remove recipe minecraft:map_extending
+redact any minecraft:goat_horn
+redact any minecraft:bell
+
+# Decoration and workstations
+redact any minecraft:*candle*
+redact any minecraft:*banner*
+redact any minecraft:loom
+redact any minecraft:fletching_table
+redact any minecraft:*_pottery_sherd
+redact any minecraft:brush
+redact any minecraft:suspicious_*
+redact any minecraft:mycelium
+redact any minecraft:podzol
+redact any minecraft:*mushroom_block
+redact any minecraft:mushroom_stem
+remove recipe minecraft:banner_duplicate
+remove recipe minecraft:shield_decoration
+
+# Slime and honey
+redact any minecraft:slime_ball
+redact any minecraft:slime_block
+redact any minecraft:honey_block
+
+# Leads, eggs, milk and the smoker
+redact any minecraft:lead
+redact any minecraft:egg
+redact any minecraft:milk_bucket
+hide any minecraft:smoker
+
+# Redstone machines, rails and minecarts
+redact any minecraft:piston
+redact any minecraft:sticky_piston
+redact any minecraft:dispenser
+redact any minecraft:dropper
+redact any minecraft:hopper
+redact any minecraft:observer
+redact any minecraft:target
+redact any minecraft:tripwire_hook
+redact any minecraft:trapped_chest
+redact any minecraft:lectern
+redact any minecraft:*cauldron
+redact any minecraft:*rail
+redact any minecraft:minecart
+redact any minecraft:chest_minecart
+redact any minecraft:furnace_minecart
+redact any minecraft:hopper_minecart
+redact any minecraft:tnt_minecart
+
+# Fishing
+redact any minecraft:fishing_rod
+redact any minecraft:carrot_on_a_stick
+redact any minecraft:cod_bucket
+redact any minecraft:salmon_bucket
+redact any minecraft:pufferfish_bucket
+redact any minecraft:tropical_fish_bucket
+
+# Boats
+redact any minecraft:*_boat
+redact any minecraft:*_raft
+
+# Name tags and saddles
+redact any minecraft:name_tag
+redact any minecraft:saddle
+
+# Illagers
+redact any minecraft:totem_of_undying
+
+# Mobs, biomes and structures the world doesn't have
+redact any minecraft:infested_*
+redact any minecraft:phantom_membrane
+redact any minecraft:budding_amethyst
+redact any minecraft:*amethyst_bud
+redact any minecraft:reinforced_deepslate
+redact any minecraft:*froglight
+redact any minecraft:frogspawn
+redact any minecraft:sniffer_egg
+redact any minecraft:*torchflower*
+redact any minecraft:pitcher_*
+redact any minecraft:axolotl_bucket
+redact any minecraft:tadpole_bucket
+redact any minecraft:*mud*
+redact any minecraft:azalea
+redact any minecraft:flowering_azalea
+redact any minecraft:big_dripleaf
+redact any minecraft:small_dripleaf
+redact any minecraft:spore_blossom
+redact any minecraft:hanging_roots
+redact any minecraft:rooted_dirt
+redact any minecraft:dripstone_block
+redact any minecraft:pointed_dripstone
+redact any minecraft:turtle_egg
+redact any minecraft:rabbit_foot
+redact any minecraft:rabbit_hide
+
+# Bee nests
+hide item minecraft:bee_nest
+
+# Paths, farmland, tall plants and the petrified slab
+hide any minecraft:petrified_oak_slab
+hide any minecraft:dirt_path
+hide any minecraft:farmland
+hide any minecraft:tall_grass
+hide any minecraft:large_fern

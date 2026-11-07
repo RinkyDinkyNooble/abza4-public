@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 9,
+    "discard_chance_on_air_exposure": 0.0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ad_astra:glacio_stone"
+        },
+        "state": {
+          "Name": "phayriosisreborn:unrefined_dravarium_495"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ad_astra:permafrost"
+        },
+        "state": {
+          "Name": "phayriosisreborn:unrefined_dravarium_495"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:snow_block"
+        },
+        "state": {
+          "Name": "phayriosisreborn:unrefined_dravarium_495"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "phayriosisreborn:dead_phayrilesh"
+        },
+        "state": {
+          "Name": "phayriosisreborn:unrefined_dravarium_495"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "phayriosisreborn:deadphayrium"
+        },
+        "state": {
+          "Name": "phayriosisreborn:unrefined_dravarium_495"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "phayriosisreborn:deadphayross"
+        },
+        "state": {
+          "Name": "phayriosisreborn:unrefined_dravarium_495"
+        }
+      }
+    ]
+  }
+}

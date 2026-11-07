@@ -1,0 +1,24 @@
+{
+  "type": "armor",
+  "item": {
+    "items": [
+      "trol_armor:exo_leggings"
+    ]
+  },
+  "attributes": {
+    "cold_sweat:freezing_point": [
+      {
+        "name": "abza:exo_leggings_cold",
+        "amount": -0.45,
+        "operation": "addition"
+      }
+    ],
+    "cold_sweat:burning_point": [
+      {
+        "name": "abza:exo_leggings_heat",
+        "amount": 0.45,
+        "operation": "addition"
+      }
+    ]
+  }
+}

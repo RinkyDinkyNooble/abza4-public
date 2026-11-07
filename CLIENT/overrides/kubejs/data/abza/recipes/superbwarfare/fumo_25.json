@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ada",
+    " c ",
+    "beb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_bars"
+    },
+    "b": {
+      "tag": "forge:ingots/iron"
+    },
+    "c": {
+      "item": "superbwarfare:motor"
+    },
+    "d": {
+      "item": "superbwarfare:monitor"
+    },
+    "e": {
+      "item": "mekanism:energy_tablet"
+    }
+  },
+  "result": {
+    "item": "superbwarfare:fumo_25"
+  }
+}

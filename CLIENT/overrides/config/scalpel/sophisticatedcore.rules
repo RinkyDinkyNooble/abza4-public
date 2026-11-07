@@ -1,0 +1,7 @@
+# Sophisticated Core
+
+# Advancements
+remove advancement sophisticatedcore:*
+
+# Experience bucket
+remove item sophisticatedcore:xp_bucket

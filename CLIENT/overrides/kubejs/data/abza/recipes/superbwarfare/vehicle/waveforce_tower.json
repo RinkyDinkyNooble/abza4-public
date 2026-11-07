@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "UFU",
+    "r3r",
+    "cMc"
+  ],
+  "key": {
+    "3": {
+      "item": "mekanism:elite_energy_cube"
+    },
+    "F": {
+      "item": "phayriosisreborn:dravarium_495_ingot"
+    },
+    "M": {
+      "item": "superbwarfare:large_motor"
+    },
+    "U": {
+      "item": "superbwarfare:laser_unit"
+    },
+    "c": {
+      "item": "superbwarfare:cemented_carbide_block"
+    },
+    "r": {
+      "tag": "forge:storage_blocks/redstone"
+    }
+  },
+  "result": {
+    "item": "superbwarfare:container",
+    "nbt": "{BlockEntityTag:{EntityType:\"superbwarfare:waveforce_tower\",id:\"superbwarfare:container\"}}"
+  }
+}

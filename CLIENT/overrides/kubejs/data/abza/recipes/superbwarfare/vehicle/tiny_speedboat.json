@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "I I",
+    "ICI",
+    "pm1"
+  ],
+  "key": {
+    "1": {
+      "item": "mekanism:basic_energy_cube"
+    },
+    "C": {
+      "tag": "forge:circuits/elite"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "m": {
+      "item": "superbwarfare:motor"
+    },
+    "p": {
+      "item": "superbwarfare:propeller"
+    }
+  },
+  "result": {
+    "item": "superbwarfare:container",
+    "nbt": "{BlockEntityTag:{EntityType:\"superbwarfare:tiny_speedboat\",id:\"superbwarfare:container\"}}"
+  }
+}

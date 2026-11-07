@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SVS",
+    "HMH",
+    "SVS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:string"
+    },
+    "V": {
+      "item": "abza:mycelial_extract"
+    },
+    "H": {
+      "item": "abza:mycelial_extract"
+    },
+    "M": {
+      "type": "forge:partial_nbt",
+      "item": "lrtactical:consumable",
+      "nbt": {
+        "ConsumableId": "abza:umbral_stimulants"
+      }
+    }
+  },
+  "result": {
+    "item": "lrtactical:consumable",
+    "nbt": {
+      "ConsumableId": "abza:regenerative_gel"
+    }
+  }
+}

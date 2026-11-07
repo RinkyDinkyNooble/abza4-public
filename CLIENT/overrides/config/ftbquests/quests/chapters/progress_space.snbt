@@ -1,0 +1,278 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progress_space"
+	group: "556BB4E0704CB043"
+	icon: "ad_astra:tier_2_rocket"
+	id: "775B4A50BE5F9C81"
+	order_index: 3
+	images: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&cOnly Eden has air.&r"
+				""
+				"Flare guns and horde nights work only on Earth."
+			]
+			disable_toast: true
+			icon: "ad_astra:space_suit"
+			id: "0FB57F3E84BA5BAC"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "55202F9FB2D7775C"
+					title: "Got it"
+					type: "checkmark"
+					disable_toast: true
+				}
+			]
+			title: "Off Earth"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0FB57F3E84BA5BAC"
+			]
+			description: [
+				"{image:ad_astra:textures/environment/moon.png width:48 height:48}"
+				""
+				"No creatures, no affliction. &cFreezing at night.&r"
+			]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ad_astra:textures/environment/moon.png"
+				}
+			}
+			id: "2983A91EE6EE327D"
+			tasks: [
+				{
+					dimension: "ad_astra:moon"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "ad_astra:textures/environment/moon.png"
+						}
+					}
+					id: "085AEF317330D2F7"
+					title: "Reach the Moon"
+					type: "dimension"
+				}
+			]
+			title: "The Moon"
+			x: 3.5d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"2983A91EE6EE327D"
+			]
+			description: [
+				"Built with &edesh&r. Reaches Cinder."
+			]
+			icon: "ad_astra:tier_2_rocket"
+			id: "706A025FA7BE69BE"
+			tasks: [
+				{
+					id: "1E43A25D058A466A"
+					item: "ad_astra:tier_2_rocket"
+					type: "item"
+				}
+			]
+			title: "Level 2 Rocket"
+			x: 7.0d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"706A025FA7BE69BE"
+			]
+			description: [
+				"{image:abza:textures/environment/cinder.png width:48 height:48}"
+				""
+				"&cHot (2), no air.&r A level 3 rocket reaches Eden."
+			]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "abza:textures/environment/cinder.png"
+				}
+			}
+			id: "424DC6F523133033"
+			tasks: [
+				{
+					dimension: "abza:cinder"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "abza:textures/environment/cinder.png"
+						}
+					}
+					id: "6A02C8822893D12E"
+					title: "Reach Cinder"
+					type: "dimension"
+				}
+			]
+			title: "Cinder"
+			x: 10.5d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"424DC6F523133033"
+			]
+			description: [
+				"{image:abza:textures/environment/eden.png width:48 height:48}"
+				""
+				"Air. A level 4 rocket reaches Umbra."
+			]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "abza:textures/environment/eden.png"
+				}
+			}
+			id: "088DA9B9BB27BEF7"
+			tasks: [
+				{
+					dimension: "abza:eden"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "abza:textures/environment/eden.png"
+						}
+					}
+					id: "0FB928DDC22D853A"
+					title: "Reach Eden"
+					type: "dimension"
+				}
+			]
+			title: "Eden"
+			x: 14.0d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"088DA9B9BB27BEF7"
+			]
+			description: [
+				"{image:abza:textures/environment/umbra.png width:48 height:48}"
+				""
+				"&cCold (3), dark, no air.&r"
+			]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "abza:textures/environment/umbra.png"
+				}
+			}
+			id: "4E41EC65ADC277C6"
+			tasks: [
+				{
+					dimension: "abza:umbra"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "abza:textures/environment/umbra.png"
+						}
+					}
+					id: "4770EA5FF0E5697A"
+					title: "Reach Umbra"
+					type: "dimension"
+				}
+			]
+			title: "Umbra"
+			x: 17.5d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"4E41EC65ADC277C6"
+			]
+			description: [
+				"{image:abza:textures/environment/interloper.png width:48 height:48}"
+				""
+				"A level 1 rocket reaches it. &cIt kills anyone who comes early.&r"
+			]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "abza:textures/environment/interloper.png"
+				}
+			}
+			id: "7E353A3C329256A8"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					dimension: "abza:interloper"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "abza:textures/environment/interloper.png"
+						}
+					}
+					id: "1E8AD26940EB5F6F"
+					title: "Reach Interloper"
+					type: "dimension"
+				}
+			]
+			title: "Interloper"
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"424DC6F523133033"
+			]
+			description: [
+				"Each world with creatures has its own."
+			]
+			icon: "abza:vaccine_t5"
+			id: "263F645B363F3567"
+			optional: true
+			tasks: [
+				{
+					id: "45EDC02945261487"
+					item: "abza:vaccine_t5"
+					type: "item"
+				}
+			]
+			title: "Vaccines Beyond Earth"
+			x: 10.5d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"4E41EC65ADC277C6"
+			]
+			icon: "mekanismgenerators:fusion_reactor_controller"
+			id: "5C3177374608E7D1"
+			optional: true
+			tasks: [
+				{
+					id: "5813FA389A1153DC"
+					item: "mekanismgenerators:fusion_reactor_controller"
+					type: "item"
+				}
+			]
+			title: "Fusion"
+			x: 17.5d
+			y: 1.75d
+		}
+	]
+	title: "Space"
+}

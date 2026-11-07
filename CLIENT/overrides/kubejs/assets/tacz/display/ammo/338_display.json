@@ -1,0 +1,19 @@
+{
+  "slot": "tacz:ammo/slot/338",
+  "tracer_color": "#FFAAAA",
+  "shell": {
+    "model": "tacz:shell/30_06_shell",
+    "texture": "tacz:shell/30_06_shell"
+  },
+  "particle": {
+    "name": "mycelium",
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "speed": 0.0,
+    "life_time": 50,
+    "count": 25
+  }
+}

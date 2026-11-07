@@ -1,0 +1,60 @@
+{
+  "values": [
+    {
+      "id": "entomophobia:celestial_carrion",
+      "required": false
+    },
+    {
+      "id": "entomophobia:centipede_pest",
+      "required": false
+    },
+    {
+      "id": "entomophobia:cockroach_pest",
+      "required": false
+    },
+    {
+      "id": "entomophobia:grub_pest",
+      "required": false
+    },
+    {
+      "id": "entomophobia:myiatic_chicken",
+      "required": false
+    },
+    {
+      "id": "entomophobia:myiatic_cow",
+      "required": false
+    },
+    {
+      "id": "entomophobia:myiatic_creeper",
+      "required": false
+    },
+    {
+      "id": "entomophobia:myiatic_pig",
+      "required": false
+    },
+    {
+      "id": "entomophobia:myiatic_sheep",
+      "required": false
+    },
+    {
+      "id": "entomophobia:myiatic_spider",
+      "required": false
+    },
+    {
+      "id": "entomophobia:myiatic_zombie",
+      "required": false
+    },
+    {
+      "id": "entomophobia:pheromone_null/frenzy",
+      "required": false
+    },
+    {
+      "id": "entomophobia:pheromone_prey/hunt",
+      "required": false
+    },
+    {
+      "id": "entomophobia:spider_pest",
+      "required": false
+    }
+  ]
+}

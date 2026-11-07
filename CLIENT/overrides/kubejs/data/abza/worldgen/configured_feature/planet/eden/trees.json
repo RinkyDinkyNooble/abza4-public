@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "abza:planet/eden/jungle_tree_placed",
+    "features": [
+      {
+        "chance": 0.3,
+        "feature": "abza:planet/eden/mega_jungle_tree_placed"
+      },
+      {
+        "chance": 0.35,
+        "feature": "abza:planet/eden/jungle_bush_placed"
+      }
+    ]
+  }
+}

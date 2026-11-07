@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "B B",
+    "S S",
+    "B B"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bricks"
+    },
+    "S": {
+      "item": "mekanism:ingot_steel"
+    }
+  },
+  "result": {
+    "item": "cold_sweat:smokestack",
+    "count": 4
+  }
+}

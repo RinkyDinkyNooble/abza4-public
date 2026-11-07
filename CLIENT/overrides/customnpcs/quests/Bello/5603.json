@@ -1,0 +1,56 @@
+{
+    "Id": 5603,
+    "ModRev": 18,
+    "Type": 0,
+    "Title": "Bounty: a flesh brain",
+    "Text": "Major Bello pays for the Flesh Brain of the Flesh Community, Eden's final boss.",
+    "CompleteText": "(He looks at it a long time.) One brain for a whole crowd. Here. You've earned it.",
+    "CompleterNpc": "Bello",
+    "NextQuestId": -1,
+    "RewardExp": 0,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "saros__money_mod:euro_500",
+                "Count": 20b
+            }
+        ]
+    },
+    "QuestCommand": "",
+    "RandomReward": 0b,
+    "QuestCompletion": 0,
+    "QuestRepeat": 1,
+    "QuestFactionPoints": {
+        "OptionFactions1": 2,
+        "OptionFaction1Points": 50,
+        "DecreaseFaction1Points": 0b,
+        "OptionFactions2": -1,
+        "OptionFaction2Points": 0,
+        "DecreaseFaction2Points": 0b
+    },
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 0L
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "the_flesh_that_hates:brain",
+                "Count": 1b
+            }
+        ]
+    },
+    "LeaveItems": 0b,
+    "IgnoreDamage": 1b,
+    "IgnoreNBT": 0b
+}

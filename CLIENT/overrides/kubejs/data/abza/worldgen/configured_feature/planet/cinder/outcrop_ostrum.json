@@ -1,0 +1,90 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 9,
+    "discard_chance_on_air_exposure": 0.0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ad_astra:mars_sand"
+        },
+        "state": {
+          "Name": "ad_astra:mars_ostrum_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ad_astra:mars_stone"
+        },
+        "state": {
+          "Name": "ad_astra:mars_ostrum_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:gravel"
+        },
+        "state": {
+          "Name": "ad_astra:mars_ostrum_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:tuff"
+        },
+        "state": {
+          "Name": "ad_astra:mars_ostrum_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "the_eyes_are_back:eye_sand"
+        },
+        "state": {
+          "Name": "ad_astra:mars_ostrum_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "the_eyes_are_back:eyesoil"
+        },
+        "state": {
+          "Name": "ad_astra:mars_ostrum_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "the_eyes_are_back:irislate"
+        },
+        "state": {
+          "Name": "ad_astra:mars_ostrum_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "the_eyes_are_back:lush_eye_earth"
+        },
+        "state": {
+          "Name": "ad_astra:mars_ostrum_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "the_eyes_are_back:seeping_moss"
+        },
+        "state": {
+          "Name": "ad_astra:mars_ostrum_ore"
+        }
+      }
+    ]
+  }
+}

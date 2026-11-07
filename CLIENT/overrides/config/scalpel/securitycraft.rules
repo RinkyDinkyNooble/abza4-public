@@ -1,0 +1,119 @@
+# SecurityCraft
+
+# Entities
+keep entity securitycraft:*
+
+# Advancements
+remove advancement securitycraft:*
+
+# Recipes
+remove recipe securitycraft:*
+
+# Universal Block Modifier
+hide item securitycraft:universal_block_modifier
+
+# Mine remote access tool
+redact item securitycraft:remote_access_mine
+
+# Security sea boats
+remove item securitycraft:*_security_sea_boat
+remove item securitycraft:bamboo_security_sea_raft
+
+# Ore mines
+hide any securitycraft:*coal_mine
+hide any securitycraft:*copper_mine
+hide any securitycraft:*diamond_mine
+hide any securitycraft:*emerald_mine
+hide any securitycraft:*gold_mine
+hide any securitycraft:*iron_mine
+hide any securitycraft:*lapis_mine
+hide any securitycraft:*redstone_mine
+hide any securitycraft:ancient_debris_mine
+hide any securitycraft:quartz_mine
+
+# Mines disguised as cut blocks
+hide any securitycraft:end_stone_mine
+hide any securitycraft:netherrack_mine
+hide any securitycraft:gilded_blackstone_mine
+hide any securitycraft:suspicious_sand_mine
+hide any securitycraft:suspicious_gravel_mine
+
+# Furnace, smoker and blast furnace mines
+hide any securitycraft:furnace_mine
+hide any securitycraft:smoker_mine
+hide any securitycraft:blast_furnace_mine
+
+# Crimson and warped secret signs
+hide any securitycraft:secret_crimson_*
+hide any securitycraft:secret_warped_*
+
+# Modules
+redact item securitycraft:speed_module
+redact item securitycraft:smart_module
+redact item securitycraft:harming_module
+redact item securitycraft:disguise_module
+redact item securitycraft:whitelist_module
+redact item securitycraft:blacklist_module
+redact item securitycraft:redstone_module
+redact item securitycraft:storage_module
+
+# Inventory scanner, claymore, IMS, track mine and bouncing betty
+redact any securitycraft:inventory_scanner
+redact any securitycraft:inventory_scanner_field
+redact any securitycraft:claymore
+redact any securitycraft:ims
+redact any securitycraft:track_mine
+redact any securitycraft:bouncing_betty
+
+# Laser block, laser and lens
+redact any securitycraft:laser_block
+redact any securitycraft:laser
+hide item securitycraft:lens
+
+# Cameras and sentries
+redact any securitycraft:security_camera
+redact item securitycraft:camera_monitor
+redact item securitycraft:sentry
+redact item securitycraft:remote_access_sentry
+
+# Scanners and detectors
+redact any securitycraft:retinal_scanner
+redact any securitycraft:scanner_door
+redact item securitycraft:scanner_door_item
+redact any securitycraft:scanner_trapdoor
+redact any securitycraft:username_logger
+redact any securitycraft:portable_radar
+redact any securitycraft:block_change_detector
+redact any securitycraft:protecto
+redact any securitycraft:trophy_system
+redact any securitycraft:rift_stabilizer
+
+# Traps and fences
+redact any securitycraft:cage_trap
+redact any securitycraft:floor_trap
+redact any securitycraft:electrified_iron_fence
+redact any securitycraft:reinforced_fence_gate
+
+# Block pocket
+redact any securitycraft:block_pocket_manager
+redact any securitycraft:block_pocket_wall
+
+# Keypad furnace, smoker and blast furnace
+redact any securitycraft:keypad_furnace
+redact any securitycraft:keypad_smoker
+redact any securitycraft:keypad_blast_furnace
+
+# Sonic security system, tune player, redstone interface, trading station and projector
+redact any securitycraft:sonic_security_system
+redact item securitycraft:portable_tune_player
+hide any securitycraft:secure_redstone_interface
+redact any securitycraft:secure_trading_station
+redact any securitycraft:projector
+
+# Taser, incognito mask, fake liquid buckets and manual
+redact item securitycraft:taser
+redact item securitycraft:taser_powered
+redact item securitycraft:incognito_mask
+redact item securitycraft:bucket_f_water
+redact item securitycraft:bucket_f_lava
+redact item securitycraft:sc_manual

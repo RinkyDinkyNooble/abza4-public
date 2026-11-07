@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "abza:flesh_culture"
+    },
+    {
+      "item": "abza:flesh_culture"
+    },
+    {
+      "item": "abza:flesh_culture"
+    },
+    {
+      "item": "abza:flesh_culture"
+    },
+    {
+      "item": "phayriosisreborn:bar_of_rubber"
+    },
+    {
+      "item": "phayriosisreborn:bar_of_rubber"
+    },
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "item": "lrtactical:consumable",
+    "nbt": {
+      "ConsumableId": "abza:blood_pack"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "superbwarfare:rare_material_pack"
+    },
+    {
+      "item": "superbwarfare:cemented_carbide_action"
+    },
+    {
+      "item": "superbwarfare:cemented_carbide_trigger"
+    },
+    {
+      "item": "superbwarfare:cemented_carbide_barrel"
+    },
+    {
+      "item": "superbwarfare:cemented_carbide_barrel"
+    },
+    {
+      "item": "superbwarfare:cemented_carbide_spring"
+    }
+  ],
+  "result": {
+    "item": "tacz:modern_kinetic_gun",
+    "nbt": "{GunId:\"tacz:m4a1\",GunFireMode:\"AUTO\",GunCurrentAmmoCount:0,HideFlags:61}"
+  }
+}

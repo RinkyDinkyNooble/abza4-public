@@ -1,0 +1,141 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "guide_first_steps"
+	group: "2823A29698F90E67"
+	icon: "minecraft:compass"
+	id: "78682FA5FA04571D"
+	order_index: 0
+	images: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The world is split into &etiers&r. Each region has its own climate, cities and creatures, and it gets &charder&r the further you go."
+			]
+			disable_toast: true
+			icon: "minecraft:compass"
+			id: "035CF443C7A612F3"
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "59EAC740FA04C2EC"
+					title: "Got it"
+					type: "checkmark"
+					disable_toast: true
+				}
+			]
+			title: "Welcome to ABZA"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"035CF443C7A612F3"
+			]
+			description: [
+				"&aNo kit yet?&r Run &e/sk choose&r."
+			]
+			disable_toast: true
+			icon: "minecraft:bundle"
+			id: "27A27ED20F0C3344"
+			tasks: [
+				{
+					id: "5AF5601D657FEEAE"
+					title: "Got it"
+					type: "checkmark"
+					disable_toast: true
+				}
+			]
+			title: "Starter Kit"
+			x: 3.5d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"035CF443C7A612F3"
+			]
+			description: [
+				"&cHealth doesn't regenerate.&r Heal with &emedicine&r."
+			]
+			disable_toast: true
+			icon: {
+				id: "lrtactical:consumable"
+				Count: 1b
+				tag: {
+					ConsumableId: "abza:field_dressing"
+				}
+			}
+			id: "6D8818F5FE8DEB4C"
+			tasks: [
+				{
+					id: "66B621E4D6997980"
+					title: "Got it"
+					type: "checkmark"
+					disable_toast: true
+				}
+			]
+			title: "No Natural Healing"
+			x: 3.5d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"27A27ED20F0C3344"
+			]
+			description: [
+				"&cEvery 4th night&r of your play time, at midnight, a horde comes for you. &cThe first is tonight.&r"
+				""
+				"Light won't stop it. &aWalls will.&r"
+			]
+			disable_toast: true
+			icon: "minecraft:zombie_head"
+			id: "2F7AAE650D38C26A"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "0D76611A5ADA00D1"
+					title: "Got it"
+					type: "checkmark"
+					disable_toast: true
+				}
+			]
+			title: "Horde Nights"
+			x: 7.0d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"6D8818F5FE8DEB4C"
+			]
+			description: [
+				"Final bosses and &eBestiary&r milestones raise your max health for good."
+				""
+				"Each death costs &c5%&r of what you've earned, never below half. &eBlood Packs&r give it back."
+			]
+			disable_toast: true
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/mob_effect/health_boost.png"
+				}
+			}
+			id: "25CE4A2072C59920"
+			tasks: [
+				{
+					id: "76EBC25C2DF7055D"
+					title: "Got it"
+					type: "checkmark"
+					disable_toast: true
+				}
+			]
+			title: "Max Health"
+			x: 7.0d
+			y: 1.75d
+		}
+	]
+	title: "First Steps"
+}

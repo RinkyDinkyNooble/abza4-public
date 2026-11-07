@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "abza:ostrum_clump"
+    }
+  },
+  "output": {
+    "item": "abza:ostrum_dirty_dust"
+  }
+}

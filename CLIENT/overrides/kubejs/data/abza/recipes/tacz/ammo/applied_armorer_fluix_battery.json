@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "phayriosisreborn:refined_plasma"
+    }
+  ],
+  "result": {
+    "item": "tacz:ammo",
+    "count": 8,
+    "nbt": "{AmmoId:\"applied_armorer:fluix_battery\"}"
+  }
+}

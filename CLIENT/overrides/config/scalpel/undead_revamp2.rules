@@ -1,0 +1,11 @@
+# The Undead Revamped
+
+# Entities
+keep entity undead_revamp2:*
+
+# Advancements
+remove advancement undead_revamp2:*
+
+# Items and blocks
+redact item undead_revamp2:*
+keep item undead_revamp2:*_spawn_egg

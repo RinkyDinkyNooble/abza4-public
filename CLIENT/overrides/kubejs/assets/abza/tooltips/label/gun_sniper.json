@@ -1,0 +1,40 @@
+{
+  "priority": 10,
+  "provider": {
+    "type": "obscure_tooltips:literal",
+    "text": "Sniper Rifle"
+  },
+  "filter": {
+    "type": "obscure_tooltips:any_of",
+    "terms": [
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"applied_armorer:moritz_sniper_semi_k30\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:ai_awp\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:kar98\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:m107\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:m700\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:m95\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:springfield1873\"}"
+      }
+    ]
+  }
+}

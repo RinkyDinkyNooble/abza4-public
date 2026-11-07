@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "spore:nerves"
+    }
+  },
+  "output": {
+    "item": "minecraft:string",
+    "count": 2
+  }
+}

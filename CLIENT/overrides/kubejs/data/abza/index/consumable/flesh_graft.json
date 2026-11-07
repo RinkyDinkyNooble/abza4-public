@@ -1,0 +1,24 @@
+{
+  "name": "item.abza.flesh_graft",
+  "tooltip": "item.abza.flesh_graft.desc",
+  "base_item": "lrtactical:consumable",
+  "data": {
+    "use_duration": 145,
+    "cooldown": 60,
+    "cooldown_category": "lrtactical:medical",
+    "stack_size": 4,
+    "max_durability": 0,
+    "draw_time": 20,
+    "put_away_time": 14,
+    "use_mode": "toggle",
+    "heal": 45.0,
+    "effects": [
+      {
+        "id": "minecraft:regeneration",
+        "duration": 300,
+        "amplifier": 2,
+        "chance": 1.0
+      }
+    ]
+  }
+}

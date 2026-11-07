@@ -1,0 +1,1902 @@
+{
+    "TransformHasDisplay": 0b,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "AttackInvisible": 0b,
+    "pRender3D": 1b,
+    "IsStatue": 0b,
+    "AbsorptionAmount": 0.0f,
+    "SpawnCycle": 3,
+    "Accuracy": 95,
+    "MovingPatern": 0,
+    "HideBodyWhenKilled": 0b,
+    "GroundSound": "superbwarfare:melee_hit",
+    "ReturnToStart": 1b,
+    "CloakTexture": "",
+    "ActiveRange": 32,
+    "TransformHasAdvanced": 0b,
+    "Resistances": {
+        "Knockback": 1.0f,
+        "Explosion": 1.0f,
+        "Melee": 1.0f,
+        "Arrow": 1.0f
+    },
+    "FactionPoints": {
+        "DecreaseFaction2Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "OptionFactions1": -1,
+        "DecreaseFaction1Points": 0b
+    },
+    "ForgeCaps": {
+        "mekanism:radiation": {
+            "radiation": 1.0E-7d
+        },
+        "curios:inventory": {
+            "Curios": [
+            ]
+        },
+        "tacz:synced_entity_data": [
+        ],
+        "hordes:hordespawn": "",
+        "superbwarfare:phosphorus_fire_capability": {
+            "SbwPhosphorusFire": 0b
+        }
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "OverlayGlowing": 1b,
+    "Weapons": [
+        {
+            "Slot": 0b,
+            "id": "tacz:modern_kinetic_gun",
+            "Count": 1b,
+            "tag": {
+                "Damage": 0,
+                "GunFireMode": "AUTO",
+                "HasBulletInBarrel": 1b,
+                "HideFlags": 61,
+                "GunId": "tacz:hk_mp5a5",
+                "GunCurrentAmmoCount": 30
+            }
+        },
+        {
+            "Slot": 1b,
+            "id": "minecraft:polished_blackstone_button",
+            "Count": 1b
+        }
+    ],
+    "pSize": 1,
+    "BossColor": 0,
+    "BossBar": 0b,
+    "MovingState": 0,
+    "pArea": 0,
+    "FireRate": 1,
+    "BalmData": {
+    },
+    "NPCDialogOptions": [
+    ],
+    "OnAttack": 0,
+    "TacticalVariant": 0,
+    "MovingPause": 1b,
+    "FiringSound": "superbwarfare:hk_416_fire_3p",
+    "Scripts": [
+    ],
+    "ShowName": 0,
+    "LinkedNpcName": "",
+    "ReactsToFire": 0b,
+    "Armor": [
+    ],
+    "CanSprint": 0b,
+    "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        }
+    },
+    "LootMode": 0,
+    "PotionEffect": 2,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
+    "SkinUrl": "",
+    "IgnoreCobweb": 0b,
+    "PositionOffsetZ": 5.0f,
+    "TraderMarket": "",
+    "Orientation": 0,
+    "StandingState": 0,
+    "MoveSpeed": 5,
+    "ModRev": 18,
+    "Fire": -1s,
+    "CombatRegen": 0,
+    "KilledTime": 0L,
+    "WalkingRange": 10,
+    "DeathTime": 0s,
+    "CanDrown": 1b,
+    "pStick": 0b,
+    "pDamage": 5,
+    "DropChance": [
+        {
+            "Slot": 0,
+            "Integer": 100.0f
+        },
+        {
+            "Slot": 1,
+            "Integer": 100.0f
+        },
+        {
+            "Slot": 2,
+            "Integer": 100.0f
+        },
+        {
+            "Slot": 3,
+            "Integer": 100.0f
+        },
+        {
+            "Slot": 4,
+            "Integer": 100.0f
+        },
+        {
+            "Slot": 5,
+            "Integer": 100.0f
+        },
+        {
+            "Slot": 6,
+            "Integer": 100.0f
+        },
+        {
+            "Slot": 7,
+            "Integer": 100.0f
+        },
+        {
+            "Slot": 8,
+            "Integer": 100.0f
+        }
+    ],
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "TransformHasRole": 0b,
+    "HitSound": "minecraft:entity.player.hurt",
+    "AggroRange": 32,
+    "OnGround": 1b,
+    "MaxFiringRange": 32,
+    "pEffect": 0,
+    "pPhysics": 0b,
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "CanLeap": 0b,
+    "Attributes": [
+        {
+            "Name": "phayriosisreborn:radiation",
+            "Base": 0.0d
+        },
+        {
+            "Name": "minecraft:generic.max_health",
+            "Base": 40.0d
+        },
+        {
+            "Name": "phayriosisreborn:phayriava",
+            "Base": 0.0d
+        },
+        {
+            "Name": "minecraft:generic.movement_speed",
+            "Base": 0.25d
+        },
+        {
+            "Name": "forge:swim_speed",
+            "Base": 8.0d
+        },
+        {
+            "Name": "reach-entity-attributes:reach",
+            "Base": 0.0d
+        },
+        {
+            "Name": "minecraft:generic.flying_speed",
+            "Base": 0.5d
+        },
+        {
+            "Name": "minecraft:generic.attack_knockback",
+            "Base": 0.0d
+        },
+        {
+            "Name": "minecraft:generic.follow_range",
+            "Base": 32.0d
+        },
+        {
+            "Name": "forge:entity_gravity",
+            "Base": 0.08d
+        },
+        {
+            "Name": "minecraft:generic.attack_damage",
+            "Base": 5.0d
+        },
+        {
+            "Name": "forge:step_height_addition",
+            "Base": 0.0d
+        }
+    ],
+    "FactionID": 0,
+    "TransformHasJob": 0b,
+    "Name": "Survivor",
+    "NpcAngrySound": "",
+    "VisibleAvailability": {
+        "AvailabilityScoreboardObjective": "",
+        "AvailabilityDialog3Id": -1,
+        "AvailabilityFaction2Stance": 0,
+        "AvailabilityDialog4": 0,
+        "AvailabilityQuest2": 0,
+        "AvailabilityFaction": 0,
+        "AvailabilityDialog2Id": -1,
+        "AvailabilityQuest3Id": -1,
+        "AvailabilityQuest": 0,
+        "AvailabilityMinPlayerLevel": 0,
+        "AvailabilityQuest4Id": -1,
+        "AvailabilityQuest2Id": -1,
+        "AvailabilityDialog3": 0,
+        "AvailabilityDayTime": 0,
+        "AvailabilityScoreboard2Type": 1,
+        "AvailabilityScoreboard2Objective": "",
+        "AvailabilityDialog": 0,
+        "AvailabilityDialog4Id": -1,
+        "AvailabilityQuestId": -1,
+        "AvailabilityDialogId": -1,
+        "AvailabilityScoreboardType": 1,
+        "AvailabilityDialog2": 0,
+        "AvailabilityQuest3": 0,
+        "AvailabilityQuest4": 0,
+        "AvailabilityFactionId": -1,
+        "AvailabilityFactionStance": 0,
+        "AvailabilityFaction2": 0,
+        "AvailabilityFaction2Id": -1,
+        "AvailabilityScoreboardValue": 1,
+        "AvailabilityScoreboard2Value": 1,
+        "ModRev": 18
+    },
+    "npcInteracting": 1b,
+    "FindShelter": 2,
+    "Role": 0,
+    "HurtByTimestamp": 19881,
+    "AttackStrenght": 5,
+    "ScriptEnabled": 0b,
+    "HealthRegen": 2,
+    "pXlr8": 0b,
+    "NpcStepSound": "",
+    "FireIndirect": 0,
+    "MovementType": 0,
+    "Size": 5.0f,
+    "TraderIgnoreNBT": 0b,
+    "DoorInteract": 1,
+    "DirectLOS": 1b,
+    "TransformIsActive": 0b,
+    "SkinColor": 16777215,
+    "PositionOffsetX": 5.0f,
+    "NoFallDamage": 0b,
+    "BurstCount": 31,
+    "pTrail": 0,
+    "TransformHasAI": 0b,
+    "AttackRange": 2.0f,
+    "pSpeed": 100,
+    "minDelay": 35,
+    "id": "customnpcs:customnpc",
+    "AttackSpeed": 20,
+    "Title": "",
+    "pGlows": 0b,
+    "GuardTargets": [
+        {
+            "Line": "entity.ad_astra.corrupted_lunarian"
+        },
+        {
+            "Line": "entity.ad_astra.martian_raptor"
+        },
+        {
+            "Line": "entity.ad_astra.mogler"
+        },
+        {
+            "Line": "entity.ad_astra.pygro"
+        },
+        {
+            "Line": "entity.ad_astra.pygro_brute"
+        },
+        {
+            "Line": "entity.ad_astra.star_crawler"
+        },
+        {
+            "Line": "entity.ad_astra.zombified_mogler"
+        },
+        {
+            "Line": "entity.ad_astra.zombified_pygro"
+        },
+        {
+            "Line": "entity.entomophobia.celestial_carrion"
+        },
+        {
+            "Line": "entity.entomophobia.centipede_pest"
+        },
+        {
+            "Line": "entity.entomophobia.cockroach_pest"
+        },
+        {
+            "Line": "entity.entomophobia.grub_pest"
+        },
+        {
+            "Line": "entity.entomophobia.hive_heart"
+        },
+        {
+            "Line": "entity.entomophobia.myiatic_chicken"
+        },
+        {
+            "Line": "entity.entomophobia.myiatic_cow"
+        },
+        {
+            "Line": "entity.entomophobia.myiatic_creeper"
+        },
+        {
+            "Line": "entity.entomophobia.myiatic_pig"
+        },
+        {
+            "Line": "entity.entomophobia.myiatic_sheep"
+        },
+        {
+            "Line": "entity.entomophobia.myiatic_spider"
+        },
+        {
+            "Line": "entity.entomophobia.myiatic_zombie"
+        },
+        {
+            "Line": "entity.entomophobia.spider_pest"
+        },
+        {
+            "Line": "entity.hordes.drowned_player"
+        },
+        {
+            "Line": "entity.hordes.husk_player"
+        },
+        {
+            "Line": "entity.hordes.zombie_player"
+        },
+        {
+            "Line": "entity.infectious.acid_zombie"
+        },
+        {
+            "Line": "entity.infectious.ancient_zombie_boss"
+        },
+        {
+            "Line": "entity.infectious.angry_zombie"
+        },
+        {
+            "Line": "entity.infectious.armless_zombie"
+        },
+        {
+            "Line": "entity.infectious.balloon_zombie"
+        },
+        {
+            "Line": "entity.infectious.balloon_zombie_no_balloon"
+        },
+        {
+            "Line": "entity.infectious.barrel_zombie"
+        },
+        {
+            "Line": "entity.infectious.baseball_bat_zombie"
+        },
+        {
+            "Line": "entity.infectious.beehive_zombie"
+        },
+        {
+            "Line": "entity.infectious.beekeeper_zombie"
+        },
+        {
+            "Line": "entity.infectious.bees"
+        },
+        {
+            "Line": "entity.infectious.big_zombie"
+        },
+        {
+            "Line": "entity.infectious.blind_zombie"
+        },
+        {
+            "Line": "entity.infectious.bodyless_zombie"
+        },
+        {
+            "Line": "entity.infectious.bouncer_zombie"
+        },
+        {
+            "Line": "entity.infectious.brain_zombie"
+        },
+        {
+            "Line": "entity.infectious.bucket_zombie"
+        },
+        {
+            "Line": "entity.infectious.burned_zombie"
+        },
+        {
+            "Line": "entity.infectious.burning_zombie"
+        },
+        {
+            "Line": "entity.infectious.chained_zombie"
+        },
+        {
+            "Line": "entity.infectious.claw_zombie"
+        },
+        {
+            "Line": "entity.infectious.construction_worker_zombie"
+        },
+        {
+            "Line": "entity.infectious.crawling_zombie"
+        },
+        {
+            "Line": "entity.infectious.deep_sea_diver_zombie"
+        },
+        {
+            "Line": "entity.infectious.disco_zombie"
+        },
+        {
+            "Line": "entity.infectious.doom_zombie"
+        },
+        {
+            "Line": "entity.infectious.door_zombie"
+        },
+        {
+            "Line": "entity.infectious.enchanted_zombie"
+        },
+        {
+            "Line": "entity.infectious.fat_zombie"
+        },
+        {
+            "Line": "entity.infectious.fire_fighter_zombie"
+        },
+        {
+            "Line": "entity.infectious.firework_zombie"
+        },
+        {
+            "Line": "entity.infectious.football_player_zombie"
+        },
+        {
+            "Line": "entity.infectious.franklin_zombie"
+        },
+        {
+            "Line": "entity.infectious.frozen_zombie"
+        },
+        {
+            "Line": "entity.infectious.fungal_zombie"
+        },
+        {
+            "Line": "entity.infectious.giant_zombie"
+        },
+        {
+            "Line": "entity.infectious.glitched_zombie"
+        },
+        {
+            "Line": "entity.infectious.golden_zombie"
+        },
+        {
+            "Line": "entity.infectious.hazmat_zombie"
+        },
+        {
+            "Line": "entity.infectious.headless_zombie"
+        },
+        {
+            "Line": "entity.infectious.infectious_zombie"
+        },
+        {
+            "Line": "entity.infectious.iron_door_zombie"
+        },
+        {
+            "Line": "entity.infectious.maggot_zombie"
+        },
+        {
+            "Line": "entity.infectious.mc_donalds_worker_zombie"
+        },
+        {
+            "Line": "entity.infectious.mecha_zombie"
+        },
+        {
+            "Line": "entity.infectious.muddy_zombie"
+        },
+        {
+            "Line": "entity.infectious.mummy"
+        },
+        {
+            "Line": "entity.infectious.muscular_zombie"
+        },
+        {
+            "Line": "entity.infectious.mutant_zombie"
+        },
+        {
+            "Line": "entity.infectious.old_zombie"
+        },
+        {
+            "Line": "entity.infectious.pool_tube_zombie"
+        },
+        {
+            "Line": "entity.infectious.psycho_zombie"
+        },
+        {
+            "Line": "entity.infectious.pumpkin_zombie"
+        },
+        {
+            "Line": "entity.infectious.pylon_zombie"
+        },
+        {
+            "Line": "entity.infectious.radioactive_zombie"
+        },
+        {
+            "Line": "entity.infectious.robotic_zombie"
+        },
+        {
+            "Line": "entity.infectious.screamer"
+        },
+        {
+            "Line": "entity.infectious.security_zombie"
+        },
+        {
+            "Line": "entity.infectious.sleepy_zombie"
+        },
+        {
+            "Line": "entity.infectious.spore_zombie"
+        },
+        {
+            "Line": "entity.infectious.swat_zombie"
+        },
+        {
+            "Line": "entity.infectious.tower_zombie"
+        },
+        {
+            "Line": "entity.infectious.tower_zombie_1"
+        },
+        {
+            "Line": "entity.infectious.tower_zombie_2"
+        },
+        {
+            "Line": "entity.infectious.tower_zombie_3"
+        },
+        {
+            "Line": "entity.infectious.tower_zombie_4"
+        },
+        {
+            "Line": "entity.infectious.withered_zombie"
+        },
+        {
+            "Line": "entity.infectious.zombie"
+        },
+        {
+            "Line": "entity.infectious.zombie_agent"
+        },
+        {
+            "Line": "entity.infectious.zombie_archer"
+        },
+        {
+            "Line": "entity.infectious.zombie_astronaut"
+        },
+        {
+            "Line": "entity.infectious.zombie_batman"
+        },
+        {
+            "Line": "entity.infectious.zombie_bomber"
+        },
+        {
+            "Line": "entity.infectious.zombie_boxer"
+        },
+        {
+            "Line": "entity.infectious.zombie_breeder"
+        },
+        {
+            "Line": "entity.infectious.zombie_climber"
+        },
+        {
+            "Line": "entity.infectious.zombie_clown"
+        },
+        {
+            "Line": "entity.infectious.zombie_cook"
+        },
+        {
+            "Line": "entity.infectious.zombie_dancer"
+        },
+        {
+            "Line": "entity.infectious.zombie_diver"
+        },
+        {
+            "Line": "entity.infectious.zombie_doctor"
+        },
+        {
+            "Line": "entity.infectious.zombie_farmer"
+        },
+        {
+            "Line": "entity.infectious.zombie_fisherman"
+        },
+        {
+            "Line": "entity.infectious.zombie_girl"
+        },
+        {
+            "Line": "entity.infectious.zombie_head"
+        },
+        {
+            "Line": "entity.infectious.zombie_hitler"
+        },
+        {
+            "Line": "entity.infectious.zombie_horseman"
+        },
+        {
+            "Line": "entity.infectious.zombie_horseman_no_horse"
+        },
+        {
+            "Line": "entity.infectious.zombie_lumberjack"
+        },
+        {
+            "Line": "entity.infectious.zombie_miner"
+        },
+        {
+            "Line": "entity.infectious.zombie_on_stelts"
+        },
+        {
+            "Line": "entity.infectious.zombie_painter"
+        },
+        {
+            "Line": "entity.infectious.zombie_police"
+        },
+        {
+            "Line": "entity.infectious.zombie_prisoner"
+        },
+        {
+            "Line": "entity.infectious.zombie_runner"
+        },
+        {
+            "Line": "entity.infectious.zombie_scientist"
+        },
+        {
+            "Line": "entity.infectious.zombie_screamer"
+        },
+        {
+            "Line": "entity.infectious.zombie_soldier"
+        },
+        {
+            "Line": "entity.infectious.zombie_spiter"
+        },
+        {
+            "Line": "entity.infectious.zombie_warrior"
+        },
+        {
+            "Line": "entity.infectious.zombified_bear"
+        },
+        {
+            "Line": "entity.infectious.zombified_bird"
+        },
+        {
+            "Line": "entity.infectious.zombified_bird_flying"
+        },
+        {
+            "Line": "entity.infectious.zombified_boar"
+        },
+        {
+            "Line": "entity.infectious.zombified_chicken"
+        },
+        {
+            "Line": "entity.infectious.zombified_spider"
+        },
+        {
+            "Line": "entity.infectious.zombified_wolf"
+        },
+        {
+            "Line": "entity.minecraft.blaze"
+        },
+        {
+            "Line": "entity.minecraft.cave_spider"
+        },
+        {
+            "Line": "entity.minecraft.drowned"
+        },
+        {
+            "Line": "entity.minecraft.elder_guardian"
+        },
+        {
+            "Line": "entity.minecraft.ender_dragon"
+        },
+        {
+            "Line": "entity.minecraft.enderman"
+        },
+        {
+            "Line": "entity.minecraft.endermite"
+        },
+        {
+            "Line": "entity.minecraft.evoker"
+        },
+        {
+            "Line": "entity.minecraft.ghast"
+        },
+        {
+            "Line": "entity.minecraft.giant"
+        },
+        {
+            "Line": "entity.minecraft.guardian"
+        },
+        {
+            "Line": "entity.minecraft.hoglin"
+        },
+        {
+            "Line": "entity.minecraft.husk"
+        },
+        {
+            "Line": "entity.minecraft.illusioner"
+        },
+        {
+            "Line": "entity.minecraft.magma_cube"
+        },
+        {
+            "Line": "entity.minecraft.phantom"
+        },
+        {
+            "Line": "entity.minecraft.piglin"
+        },
+        {
+            "Line": "entity.minecraft.piglin_brute"
+        },
+        {
+            "Line": "entity.minecraft.pillager"
+        },
+        {
+            "Line": "entity.minecraft.ravager"
+        },
+        {
+            "Line": "entity.minecraft.shulker"
+        },
+        {
+            "Line": "entity.minecraft.silverfish"
+        },
+        {
+            "Line": "entity.minecraft.skeleton"
+        },
+        {
+            "Line": "entity.minecraft.slime"
+        },
+        {
+            "Line": "entity.minecraft.spider"
+        },
+        {
+            "Line": "entity.minecraft.stray"
+        },
+        {
+            "Line": "entity.minecraft.vex"
+        },
+        {
+            "Line": "entity.minecraft.vindicator"
+        },
+        {
+            "Line": "entity.minecraft.warden"
+        },
+        {
+            "Line": "entity.minecraft.witch"
+        },
+        {
+            "Line": "entity.minecraft.wither"
+        },
+        {
+            "Line": "entity.minecraft.wither_skeleton"
+        },
+        {
+            "Line": "entity.minecraft.zoglin"
+        },
+        {
+            "Line": "entity.minecraft.zombie"
+        },
+        {
+            "Line": "entity.minecraft.zombie_villager"
+        },
+        {
+            "Line": "entity.minecraft.zombified_piglin"
+        },
+        {
+            "Line": "entity.phayriosisreborn.bomb"
+        },
+        {
+            "Line": "entity.phayriosisreborn.bulb"
+        },
+        {
+            "Line": "entity.phayriosisreborn.carrier"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_allay"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_bear"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_bee"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_camel"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_chicken"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_cow"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_creeper"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_dolphin"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_drowned"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_enderman"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_evoker"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_fish"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_frog"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_goat"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_golem"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_horse"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_human"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_husk"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_llama"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_phantom"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_pig"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_pillager"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_rabbit"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_ravager"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_sheep"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_skeleton"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_sniffer"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_spider"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_squid"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_villager"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_vindicator"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_wandering_trader"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_witch"
+        },
+        {
+            "Line": "entity.phayriosisreborn.converted_wolf"
+        },
+        {
+            "Line": "entity.phayriosisreborn.decayed_human"
+        },
+        {
+            "Line": "entity.phayriosisreborn.dome"
+        },
+        {
+            "Line": "entity.phayriosisreborn.dreadmind"
+        },
+        {
+            "Line": "entity.phayriosisreborn.ensnaring"
+        },
+        {
+            "Line": "entity.phayriosisreborn.gory_beast"
+        },
+        {
+            "Line": "entity.phayriosisreborn.gory_mass"
+        },
+        {
+            "Line": "entity.phayriosisreborn.gory_titan"
+        },
+        {
+            "Line": "entity.phayriosisreborn.hivebeacon"
+        },
+        {
+            "Line": "entity.phayriosisreborn.hivenetwork"
+        },
+        {
+            "Line": "entity.phayriosisreborn.hivewarden"
+        },
+        {
+            "Line": "entity.phayriosisreborn.immaculate_blightlord"
+        },
+        {
+            "Line": "entity.phayriosisreborn.immaculate_bomber"
+        },
+        {
+            "Line": "entity.phayriosisreborn.immaculate_kingdom"
+        },
+        {
+            "Line": "entity.phayriosisreborn.immaculate_multiplier"
+        },
+        {
+            "Line": "entity.phayriosisreborn.immaculate_resistor"
+        },
+        {
+            "Line": "entity.phayriosisreborn.immaculate_stalker"
+        },
+        {
+            "Line": "entity.phayriosisreborn.immaculate_strangulator"
+        },
+        {
+            "Line": "entity.phayriosisreborn.immaculate_whisperer"
+        },
+        {
+            "Line": "entity.phayriosisreborn.infestation_root"
+        },
+        {
+            "Line": "entity.phayriosisreborn.infester"
+        },
+        {
+            "Line": "entity.phayriosisreborn.monstrosity"
+        },
+        {
+            "Line": "entity.phayriosisreborn.nestbeacon_stage_3"
+        },
+        {
+            "Line": "entity.phayriosisreborn.nestnetwork_stage_2"
+        },
+        {
+            "Line": "entity.phayriosisreborn.nestnetwork_stage_3"
+        },
+        {
+            "Line": "entity.phayriosisreborn.nestwarden_stage_2"
+        },
+        {
+            "Line": "entity.phayriosisreborn.nestwarden_stage_3"
+        },
+        {
+            "Line": "entity.phayriosisreborn.nextbeacon_stage_2"
+        },
+        {
+            "Line": "entity.phayriosisreborn.nucleus"
+        },
+        {
+            "Line": "entity.phayriosisreborn.patroller"
+        },
+        {
+            "Line": "entity.phayriosisreborn.phayrector"
+        },
+        {
+            "Line": "entity.phayriosisreborn.primal_assaulter"
+        },
+        {
+            "Line": "entity.phayriosisreborn.primal_hatchery"
+        },
+        {
+            "Line": "entity.phayriosisreborn.primal_hunter"
+        },
+        {
+            "Line": "entity.phayriosisreborn.primal_injector"
+        },
+        {
+            "Line": "entity.phayriosisreborn.primal_spitter"
+        },
+        {
+            "Line": "entity.phayriosisreborn.primal_tank"
+        },
+        {
+            "Line": "entity.phayriosisreborn.reinforcement_explosive"
+        },
+        {
+            "Line": "entity.phayriosisreborn.reinforcement_infestation"
+        },
+        {
+            "Line": "entity.phayriosisreborn.reinforcement_transportation"
+        },
+        {
+            "Line": "entity.phayriosisreborn.scent_engulfer"
+        },
+        {
+            "Line": "entity.phayriosisreborn.scent_erupter"
+        },
+        {
+            "Line": "entity.phayriosisreborn.scent_spewer"
+        },
+        {
+            "Line": "entity.phayriosisreborn.seeder"
+        },
+        {
+            "Line": "entity.phayriosisreborn.victim"
+        },
+        {
+            "Line": "entity.phayriosisreborn.worm_explosive"
+        },
+        {
+            "Line": "entity.phayriosisreborn.worm_infestation"
+        },
+        {
+            "Line": "entity.phayriosisreborn.worm_transportation"
+        },
+        {
+            "Line": "entity.prionmod.boomer"
+        },
+        {
+            "Line": "entity.prionmod.breacher"
+        },
+        {
+            "Line": "entity.prionmod.cannibal"
+        },
+        {
+            "Line": "entity.prionmod.crawler"
+        },
+        {
+            "Line": "entity.prionmod.cyborg"
+        },
+        {
+            "Line": "entity.prionmod.deathworm"
+        },
+        {
+            "Line": "entity.prionmod.envoy"
+        },
+        {
+            "Line": "entity.prionmod.expletor"
+        },
+        {
+            "Line": "entity.prionmod.fhuman"
+        },
+        {
+            "Line": "entity.prionmod.hellhound"
+        },
+        {
+            "Line": "entity.prionmod.hive"
+        },
+        {
+            "Line": "entity.prionmod.impaler"
+        },
+        {
+            "Line": "entity.prionmod.infectedcow"
+        },
+        {
+            "Line": "entity.prionmod.infectedhorse"
+        },
+        {
+            "Line": "entity.prionmod.infectedpig"
+        },
+        {
+            "Line": "entity.prionmod.infectedsheep"
+        },
+        {
+            "Line": "entity.prionmod.infectedwolf"
+        },
+        {
+            "Line": "entity.prionmod.lacerator"
+        },
+        {
+            "Line": "entity.prionmod.lure"
+        },
+        {
+            "Line": "entity.prionmod.necro"
+        },
+        {
+            "Line": "entity.prionmod.nephthys"
+        },
+        {
+            "Line": "entity.prionmod.nightwalker"
+        },
+        {
+            "Line": "entity.prionmod.rooted"
+        },
+        {
+            "Line": "entity.prionmod.slammer"
+        },
+        {
+            "Line": "entity.prionmod.slasher"
+        },
+        {
+            "Line": "entity.prionmod.smoker"
+        },
+        {
+            "Line": "entity.prionmod.starved"
+        },
+        {
+            "Line": "entity.prionmod.strangler"
+        },
+        {
+            "Line": "entity.prionmod.tank"
+        },
+        {
+            "Line": "entity.prionmod.thrall"
+        },
+        {
+            "Line": "entity.prionmod.tumor"
+        },
+        {
+            "Line": "entity.prionmod.vicoiousturret"
+        },
+        {
+            "Line": "entity.prionmod.vile"
+        },
+        {
+            "Line": "entity.prionmod.vomiter"
+        },
+        {
+            "Line": "entity.prionmod.vulture"
+        },
+        {
+            "Line": "entity.prionmod.wendigo"
+        },
+        {
+            "Line": "entity.spore.bairn"
+        },
+        {
+            "Line": "entity.spore.biobloob"
+        },
+        {
+            "Line": "entity.spore.bloater"
+        },
+        {
+            "Line": "entity.spore.braiomil"
+        },
+        {
+            "Line": "entity.spore.braurei"
+        },
+        {
+            "Line": "entity.spore.brot"
+        },
+        {
+            "Line": "entity.spore.brute"
+        },
+        {
+            "Line": "entity.spore.busser"
+        },
+        {
+            "Line": "entity.spore.chemist"
+        },
+        {
+            "Line": "entity.spore.claw"
+        },
+        {
+            "Line": "entity.spore.conductor"
+        },
+        {
+            "Line": "entity.spore.delusioner"
+        },
+        {
+            "Line": "entity.spore.gargoyle"
+        },
+        {
+            "Line": "entity.spore.gastgaber"
+        },
+        {
+            "Line": "entity.spore.gazenbreacher"
+        },
+        {
+            "Line": "entity.spore.gorgon"
+        },
+        {
+            "Line": "entity.spore.griefer"
+        },
+        {
+            "Line": "entity.spore.grober"
+        },
+        {
+            "Line": "entity.spore.hevoker"
+        },
+        {
+            "Line": "entity.spore.hindenburg"
+        },
+        {
+            "Line": "entity.spore.hivetumor"
+        },
+        {
+            "Line": "entity.spore.hohlfresser"
+        },
+        {
+            "Line": "entity.spore.hollen"
+        },
+        {
+            "Line": "entity.spore.howit_arm"
+        },
+        {
+            "Line": "entity.spore.howitzer"
+        },
+        {
+            "Line": "entity.spore.howler"
+        },
+        {
+            "Line": "entity.spore.hvindicator"
+        },
+        {
+            "Line": "entity.spore.illusion"
+        },
+        {
+            "Line": "entity.spore.inebriater"
+        },
+        {
+            "Line": "entity.spore.inf_contruct"
+        },
+        {
+            "Line": "entity.spore.inf_diseased_villager"
+        },
+        {
+            "Line": "entity.spore.inf_drowned"
+        },
+        {
+            "Line": "entity.spore.inf_evoker"
+        },
+        {
+            "Line": "entity.spore.inf_hazmat"
+        },
+        {
+            "Line": "entity.spore.inf_human"
+        },
+        {
+            "Line": "entity.spore.inf_husk"
+        },
+        {
+            "Line": "entity.spore.inf_pillager"
+        },
+        {
+            "Line": "entity.spore.inf_player"
+        },
+        {
+            "Line": "entity.spore.inf_villager"
+        },
+        {
+            "Line": "entity.spore.inf_vindicator"
+        },
+        {
+            "Line": "entity.spore.inf_wanderer"
+        },
+        {
+            "Line": "entity.spore.inf_witch"
+        },
+        {
+            "Line": "entity.spore.inquisitor"
+        },
+        {
+            "Line": "entity.spore.jagd"
+        },
+        {
+            "Line": "entity.spore.knight"
+        },
+        {
+            "Line": "entity.spore.kraken"
+        },
+        {
+            "Line": "entity.spore.lacerator"
+        },
+        {
+            "Line": "entity.spore.leaper"
+        },
+        {
+            "Line": "entity.spore.leviathan"
+        },
+        {
+            "Line": "entity.spore.licker"
+        },
+        {
+            "Line": "entity.spore.mephitic"
+        },
+        {
+            "Line": "entity.spore.mound"
+        },
+        {
+            "Line": "entity.spore.naiad"
+        },
+        {
+            "Line": "entity.spore.nuclea"
+        },
+        {
+            "Line": "entity.spore.ogre"
+        },
+        {
+            "Line": "entity.spore.plagued"
+        },
+        {
+            "Line": "entity.spore.protector"
+        },
+        {
+            "Line": "entity.spore.proto"
+        },
+        {
+            "Line": "entity.spore.reaper"
+        },
+        {
+            "Line": "entity.spore.reconstructor"
+        },
+        {
+            "Line": "entity.spore.saugling"
+        },
+        {
+            "Line": "entity.spore.scamper"
+        },
+        {
+            "Line": "entity.spore.scavenger"
+        },
+        {
+            "Line": "entity.spore.sieger"
+        },
+        {
+            "Line": "entity.spore.sieger_tail"
+        },
+        {
+            "Line": "entity.spore.slasher"
+        },
+        {
+            "Line": "entity.spore.specter"
+        },
+        {
+            "Line": "entity.spore.spitter"
+        },
+        {
+            "Line": "entity.spore.stahl"
+        },
+        {
+            "Line": "entity.spore.stahl_arm"
+        },
+        {
+            "Line": "entity.spore.stalker"
+        },
+        {
+            "Line": "entity.spore.thorn"
+        },
+        {
+            "Line": "entity.spore.umarmed"
+        },
+        {
+            "Line": "entity.spore.usurper"
+        },
+        {
+            "Line": "entity.spore.vanguard"
+        },
+        {
+            "Line": "entity.spore.verfall"
+        },
+        {
+            "Line": "entity.spore.verfall_head"
+        },
+        {
+            "Line": "entity.spore.verva"
+        },
+        {
+            "Line": "entity.spore.vigil"
+        },
+        {
+            "Line": "entity.spore.volatile"
+        },
+        {
+            "Line": "entity.spore.wendigo"
+        },
+        {
+            "Line": "entity.superbwarfare.senpai"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.big_eye_meteor"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.big_flying_eyeling"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.crawling_ender_eyemination"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.crawling_eye_human"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.destroyer"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.e_ye_vedette"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.ender_e_yemination"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.enraged_eye_human"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.extreme_eye_humanoid"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.eye_colony"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.eye_colony_stage_2"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.eye_colony_stage_3"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.eye_human"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.eye_humanoid"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.eye_infected_husk"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.eye_ling"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.eye_protector"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.eye_source_stage_1"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.eye_spida"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.eye_squiggle"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.eye_tree_stage_2"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.eye_tree_stage_3"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.eye_tumor"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.eye_turret"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.eye_vedette_stage_2"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.eyefected_squid"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.flying_eye_ling"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.flying_eye_squid"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.hyper_eye"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.hyper_flying_eye"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.medium_eye_meteor"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.medium_flying_eyeling"
+        },
+        {
+            "Line": "entity.the_eyes_are_back.small_eye_meteor"
+        },
+        {
+            "Line": "entity.the_flesh_that_hates.bruteplaquecreatureone"
+        },
+        {
+            "Line": "entity.the_flesh_that_hates.flesh_boomer"
+        },
+        {
+            "Line": "entity.the_flesh_that_hates.flesh_cocoon"
+        },
+        {
+            "Line": "entity.the_flesh_that_hates.flesh_community"
+        },
+        {
+            "Line": "entity.the_flesh_that_hates.flesh_cow"
+        },
+        {
+            "Line": "entity.the_flesh_that_hates.flesh_dog"
+        },
+        {
+            "Line": "entity.the_flesh_that_hates.flesh_howler"
+        },
+        {
+            "Line": "entity.the_flesh_that_hates.flesh_human"
+        },
+        {
+            "Line": "entity.the_flesh_that_hates.flesh_human_head"
+        },
+        {
+            "Line": "entity.the_flesh_that_hates.flesh_hunter_three"
+        },
+        {
+            "Line": "entity.the_flesh_that_hates.flesh_hunter_two"
+        },
+        {
+            "Line": "entity.the_flesh_that_hates.flesh_justice"
+        },
+        {
+            "Line": "entity.the_flesh_that_hates.flesh_piece"
+        },
+        {
+            "Line": "entity.the_flesh_that_hates.flesh_pig"
+        },
+        {
+            "Line": "entity.the_flesh_that_hates.flesh_pillager"
+        },
+        {
+            "Line": "entity.the_flesh_that_hates.flesh_servant"
+        },
+        {
+            "Line": "entity.the_flesh_that_hates.flesh_sheep"
+        },
+        {
+            "Line": "entity.the_flesh_that_hates.flesh_suffer"
+        },
+        {
+            "Line": "entity.the_flesh_that_hates.flesh_villager"
+        },
+        {
+            "Line": "entity.the_flesh_that_hates.flesh_vindicator"
+        },
+        {
+            "Line": "entity.the_flesh_that_hates.plaquecontaminator"
+        },
+        {
+            "Line": "entity.the_flesh_that_hates.plaquecreaturebaseone"
+        },
+        {
+            "Line": "entity.the_flesh_that_hates.plaquecreatureone"
+        },
+        {
+            "Line": "entity.the_flesh_that_hates.plaquecreaturetwo"
+        },
+        {
+            "Line": "entity.the_flesh_that_hates.plaqueincubatorone"
+        },
+        {
+            "Line": "entity.the_flesh_that_hates.plaqueincubatorstart"
+        },
+        {
+            "Line": "entity.the_flesh_that_hates.plaquethreelegcreature"
+        },
+        {
+            "Line": "entity.undead_revamp2.axestrom"
+        },
+        {
+            "Line": "entity.undead_revamp2.bigsucker"
+        },
+        {
+            "Line": "entity.undead_revamp2.bomber"
+        },
+        {
+            "Line": "entity.undead_revamp2.clogger"
+        },
+        {
+            "Line": "entity.undead_revamp2.crackleball"
+        },
+        {
+            "Line": "entity.undead_revamp2.deadclogger"
+        },
+        {
+            "Line": "entity.undead_revamp2.grounded_clogger"
+        },
+        {
+            "Line": "entity.undead_revamp2.grounded_invisiclogger"
+        },
+        {
+            "Line": "entity.undead_revamp2.invisiblebidy"
+        },
+        {
+            "Line": "entity.undead_revamp2.invisiclogger"
+        },
+        {
+            "Line": "entity.undead_revamp2.invisiimmortal"
+        },
+        {
+            "Line": "entity.undead_revamp2.invisilehcery"
+        },
+        {
+            "Line": "entity.undead_revamp2.lechery"
+        },
+        {
+            "Line": "entity.undead_revamp2.neocrorines"
+        },
+        {
+            "Line": "entity.undead_revamp2.propball_1"
+        },
+        {
+            "Line": "entity.undead_revamp2.slaveman"
+        },
+        {
+            "Line": "entity.undead_revamp2.sucker"
+        },
+        {
+            "Line": "entity.undead_revamp2.the_moonflower"
+        },
+        {
+            "Line": "entity.undead_revamp2.thebeartamer"
+        },
+        {
+            "Line": "entity.undead_revamp2.thebidy"
+        },
+        {
+            "Line": "entity.undead_revamp2.thebidyupside"
+        },
+        {
+            "Line": "entity.undead_revamp2.thedungeon"
+        },
+        {
+            "Line": "entity.undead_revamp2.thegliter"
+        },
+        {
+            "Line": "entity.undead_revamp2.theheavy"
+        },
+        {
+            "Line": "entity.undead_revamp2.thehorrors"
+        },
+        {
+            "Line": "entity.undead_revamp2.thehorrorsdecoys"
+        },
+        {
+            "Line": "entity.undead_revamp2.thehunter"
+        },
+        {
+            "Line": "entity.undead_revamp2.theimmortal"
+        },
+        {
+            "Line": "entity.undead_revamp2.thelurker"
+        },
+        {
+            "Line": "entity.undead_revamp2.theordure"
+        },
+        {
+            "Line": "entity.undead_revamp2.theposessive"
+        },
+        {
+            "Line": "entity.undead_revamp2.thepregnant"
+        },
+        {
+            "Line": "entity.undead_revamp2.therabidus"
+        },
+        {
+            "Line": "entity.undead_revamp2.therod"
+        },
+        {
+            "Line": "entity.undead_revamp2.theskeeper"
+        },
+        {
+            "Line": "entity.undead_revamp2.thesmoker"
+        },
+        {
+            "Line": "entity.undead_revamp2.thesomnolence"
+        },
+        {
+            "Line": "entity.undead_revamp2.thespectre"
+        },
+        {
+            "Line": "entity.undead_revamp2.thespitter"
+        },
+        {
+            "Line": "entity.undead_revamp2.theswarmer"
+        },
+        {
+            "Line": "entity.undead_revamp2.thewolf"
+        },
+        {
+            "Line": "entity.undead_revamp2.weakspot"
+        }
+    ],
+    "HurtTime": 10s,
+    "FallFlying": 0b,
+    "GlowTexture": "",
+    "NpcLines": {
+        "Lines": [
+        ]
+    },
+    "MountControl": 0b,
+    "MaxExp": 0,
+    "ShowLayers": 1b,
+    "CanUpdate": 1b,
+    "AimWhileShooting": 1b,
+    "pImpact": 0,
+    "ImmuneToFire": 0b,
+    "TacticalRadius": 4,
+    "DisablePitch": 0b,
+    "TraderFuzzyMatch": 0b,
+    "LeftHanded": 0b,
+    "TraderSold": {
+        "NpcMiscInv": [
+        ]
+    },
+    "TraderIgnoreDamage": 0b,
+    "MoveState": 0,
+    "NpcInteractLines": {
+        "Lines": [
+        ]
+    },
+    "Invulnerable": 0b,
+    "DefendFaction": 0b,
+    "LineColors": [I;-7522304,-88773,-5352703],
+    "NpcJob": 3,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "NpcIdleSound": "",
+    "NpcInv": [
+    ],
+    "pSpin": 0b,
+    "AttackOtherFactions": 0b,
+    "MovingPos": 0,
+    "pDur": 5,
+    "NpcVisible": 0,
+    "stopAndInteract": 1b,
+    "TransformEditingModus": 0b,
+    "NpcsTimers": [
+    ],
+    "KnockBack": 2,
+    "RespawnTime": 5,
+    "OrderedLines": 0b,
+    "ShotCount": 1,
+    "PotionAmp": 0,
+    "maxDelay": 40,
+    "ScriptLanguage": "ECMAScript",
+    "MarkovGeneratorId": 0,
+    "Motion": [
+        0.0d,
+        0.0d,
+        0.0d
+    ],
+    "CanPickUpLoot": 0b,
+    "PotionImmune": 0b,
+    "PersistenceRequired": 0b,
+    "NpcDeathSound": "minecraft:entity.player.hurt",
+    "NpcModelData": {
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "ScaleY": 1.0f,
+            "TransY": 0.0f,
+            "ScaleZ": 1.0f,
+            "TransX": 0.0f,
+            "ScaleX": 1.0f,
+            "NotShared": 0b,
+            "TransZ": 0.0f
+        },
+        "LastEdited": 1793222508941L,
+        "ArmsConfig": {
+            "ScaleY": 1.0f,
+            "TransY": 0.0f,
+            "ScaleZ": 1.0f,
+            "TransX": 0.0f,
+            "ScaleX": 1.0f,
+            "NotShared": 0b,
+            "TransZ": 0.0f
+        },
+        "Legs2Config": {
+            "ScaleY": 1.0f,
+            "TransY": 0.0f,
+            "ScaleZ": 1.0f,
+            "TransX": 0.0f,
+            "ScaleX": 1.0f,
+            "NotShared": 0b,
+            "TransZ": 0.0f
+        },
+        "MoveAnimation": 16,
+        "ModelType": 0,
+        "BodyConfig": {
+            "ScaleY": 1.0f,
+            "TransY": 0.0f,
+            "ScaleZ": 1.0f,
+            "TransX": 0.0f,
+            "ScaleX": 1.0f,
+            "NotShared": 0b,
+            "TransZ": 0.0f
+        },
+        "NewParts": [
+        ],
+        "Animation": 0,
+        "LegsConfig": {
+            "ScaleY": 1.0f,
+            "TransY": 0.0f,
+            "ScaleZ": 1.0f,
+            "TransX": 0.0f,
+            "ScaleX": 1.0f,
+            "NotShared": 0b,
+            "TransZ": 0.0f
+        },
+        "WingMode": 0,
+        "SimpleRender": 0b,
+        "Arms2Config": {
+            "ScaleY": 1.0f,
+            "TransY": 0.0f,
+            "ScaleZ": 1.0f,
+            "TransX": 0.0f,
+            "ScaleX": 1.0f,
+            "NotShared": 0b,
+            "TransZ": 0.0f
+        },
+        "CustomSkinUrl": "",
+        "DisplayName": "",
+        "Parts": [
+        ]
+    },
+    "BurnInSun": 0b,
+    "NoLivingAnimation": 0b,
+    "TransformHasStats": 0b,
+    "TraderNameCheck": 0b,
+    "CreatureType": 0,
+    "PotionDuration": 5,
+    "pEffAmp": 0,
+    "TotalTicksAlive": 0L,
+    "Brain": {
+        "memories": {
+        }
+    },
+    "TransformHasInv": 0b,
+    "Texture": "customnpcs:textures/entity/humanmale/steve.png",
+    "Rotation": [
+        0.0f,
+        0.0f
+    ],
+    "MinExp": 0,
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "TraderCurrency": {
+        "NpcMiscInv": [
+        ]
+    },
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "DistanceToMelee": 2,
+    "AvoidsSun": 0b,
+    "Air": 300s,
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "PositionOffsetY": 5.0f,
+    "AvoidsWater": 0b,
+    "MarkovGender": 0,
+    "NpcHurtSound": "minecraft:entity.player.hurt",
+    "FallDistance": 0.0f,
+    "CanSwim": 1b,
+    "MaxHealth": 40,
+    "Health": 40.0f,
+    "UsingSkinUrl": 0b,
+    "PortalCooldown": 0
+}

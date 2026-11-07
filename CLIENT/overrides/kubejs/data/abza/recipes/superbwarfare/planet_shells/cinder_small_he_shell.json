@@ -1,0 +1,18 @@
+{
+  "type": "mekanism:combining",
+  "mainInput": {
+    "ingredient": {
+      "item": "superbwarfare:small_shell_he"
+    },
+    "amount": 4
+  },
+  "extraInput": {
+    "ingredient": {
+      "item": "ad_astra:ostrum_ingot"
+    }
+  },
+  "output": {
+    "item": "abza:cinder_small_he_shell",
+    "count": 4
+  }
+}

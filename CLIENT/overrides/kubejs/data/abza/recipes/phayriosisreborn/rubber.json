@@ -1,0 +1,9 @@
+{
+  "type": "mekanism:reaction",
+  "duration": 100,
+  "energyRequired": 400,
+  "itemInput": {"ingredient": {"tag": "forge:dusts/sulfur"}},
+  "fluidInput": {"amount": 100, "tag": "minecraft:water"},
+  "gasInput": {"amount": 100, "gas": "mekanism:ethene"},
+  "itemOutput": {"item": "phayriosisreborn:bar_of_rubber", "count": 2}
+}

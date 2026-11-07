@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "KoK",
+    "KVK",
+    "SoS"
+  ],
+  "key": {
+    "K": {
+      "item": "superbwarfare:cannon_core"
+    },
+    "S": {
+      "tag": "forge:storage_blocks/steel"
+    },
+    "V": {
+      "item": "superbwarfare:legendary_material_pack"
+    },
+    "o": {
+      "tag": "ad_astra:ostrum_plates"
+    }
+  },
+  "result": {
+    "item": "superbwarfare:container",
+    "nbt": "{BlockEntityTag:{EntityType:\"superbwarfare:bl_132\",id:\"superbwarfare:container\"}}"
+  }
+}

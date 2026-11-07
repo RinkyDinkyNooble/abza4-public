@@ -1,0 +1,102 @@
+# Ad Astra
+
+# Entities
+keep entity ad_astra:*
+
+# Advancements
+remove advancement ad_astra:*
+
+# Steel
+redact any ad_astra:steel_ingot
+redact any ad_astra:steel_nugget
+redact any ad_astra:steel_block
+
+# Mercury, Glacio's trees, the planet globes and unused planet blocks and ores
+hide any ad_astra:*mercury_*
+hide any ad_astra:*conglomerate
+hide any ad_astra:infernal_spire_block
+hide any ad_astra:glacian_*
+hide any ad_astra:stripped_glacian_log
+hide any ad_astra:mars_globe
+hide any ad_astra:venus_globe
+hide any ad_astra:glacio_globe
+hide any ad_astra:mars_iron_ore
+hide any ad_astra:mars_diamond_ore
+hide any ad_astra:mars_ice_shard_ore
+hide any ad_astra:venus_gold_ore
+hide any ad_astra:venus_diamond_ore
+hide any ad_astra:glacio_coal_ore
+hide any ad_astra:glacio_copper_ore
+hide any ad_astra:glacio_iron_ore
+hide any ad_astra:glacio_lapis_ore
+hide any ad_astra:glacio_ice_shard_ore
+hide any ad_astra:deepslate_desh_ore
+hide any ad_astra:deepslate_ice_shard_ore
+hide any ad_astra:moon_deepslate
+hide any ad_astra:aeronos_mushroom
+hide any ad_astra:strophar_mushroom
+
+# Spawn eggs
+hide item ad_astra:*_spawn_egg
+
+# Generators, energy storage, cables, pipes and pumps
+redact any ad_astra:coal_generator
+redact any ad_astra:solar_panel
+redact any ad_astra:energizer
+redact any ad_astra:etrionic_blast_furnace
+redact any ad_astra:water_pump
+redact any ad_astra:steel_cable
+redact any ad_astra:desh_cable
+redact any ad_astra:cable_duct
+redact any ad_astra:desh_fluid_pipe
+redact any ad_astra:ostrum_fluid_pipe
+redact any ad_astra:fluid_pipe_duct
+remove item ad_astra:photovoltaic_etrium_cell
+remove item ad_astra:photovoltaic_vesnium_cell
+remove item ad_astra:wrench
+
+# Etrium
+remove item ad_astra:etrium_ingot
+remove item ad_astra:etrium_nugget
+remove item ad_astra:etrium_plate
+remove item ad_astra:etrium_rod
+remove item ad_astra:etrionic_core
+redact any ad_astra:etrium_block
+redact any ad_astra:encased_etrium_block
+redact any ad_astra:etrium_factory_block
+redact any ad_astra:etrium_panel
+redact any ad_astra:etrium_plateblock
+
+# Fuel refinery
+hide any ad_astra:fuel_refinery
+remove recipe ad_astra:fuel_refinery
+remove recipe ad_astra:refining/*
+
+# Radio and moon cheese
+hide any ad_astra:radio
+remove recipe ad_astra:radio
+redact any ad_astra:cheese_block
+redact any ad_astra:moon_cheese_ore
+remove item ad_astra:cheese
+
+# Cryo fuel from vanilla ice
+remove recipe ad_astra:cryo_freezing/cryo_fuel_from_cryo_freezing_ice
+remove recipe ad_astra:cryo_freezing/cryo_fuel_from_cryo_freezing_packed_ice
+remove recipe ad_astra:cryo_freezing/cryo_fuel_from_cryo_freezing_blue_ice
+
+# Zip gun: replaced by abza:ad_astra/zip_gun (desh plates)
+remove recipe ad_astra:zip_gun
+
+# TI-69
+hide item ad_astra:ti_69
+remove recipe ad_astra:ti_69
+
+# One wheel in the pack: the rover takes Superb Warfare's
+hide item ad_astra:wheel
+remove recipe ad_astra:wheel
+
+# Fluid buckets
+hide any ad_astra:oil_bucket
+hide any ad_astra:fuel_bucket
+hide any ad_astra:hydrogen_bucket
+hide any ad_astra:oxygen_bucket

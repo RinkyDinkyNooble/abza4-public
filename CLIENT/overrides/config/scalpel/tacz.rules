@@ -1,0 +1,17 @@
+# TaCZ
+
+# Entities
+keep entity tacz:*
+
+# Gun smith table and workbenches
+hide any tacz:gun_smith_table
+hide any tacz:workbench_a
+hide any tacz:workbench_b
+hide any tacz:workbench_c
+
+# Statue and target minecart
+redact any tacz:statue
+remove item tacz:target_minecart
+
+# Recipes
+remove recipe tacz:*

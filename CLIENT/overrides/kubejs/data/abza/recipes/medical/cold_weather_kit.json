@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SVS",
+    "HMH",
+    "SVS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:string"
+    },
+    "V": {
+      "item": "abza:rendered_fat"
+    },
+    "H": {
+      "item": "abza:silver_dust"
+    },
+    "M": {
+      "type": "forge:partial_nbt",
+      "item": "lrtactical:consumable",
+      "nbt": {
+        "ConsumableId": "abza:field_dressing"
+      }
+    }
+  },
+  "result": {
+    "item": "lrtactical:consumable",
+    "nbt": {
+      "ConsumableId": "abza:cold_weather_kit"
+    }
+  }
+}

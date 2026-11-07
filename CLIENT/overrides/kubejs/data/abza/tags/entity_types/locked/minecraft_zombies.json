@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "minecraft:zombie",
+      "required": false
+    },
+    {
+      "id": "minecraft:zombie_horse",
+      "required": false
+    }
+  ]
+}

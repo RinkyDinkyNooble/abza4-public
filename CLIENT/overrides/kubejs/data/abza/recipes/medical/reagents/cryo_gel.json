@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:combining",
+  "mainInput": {
+    "ingredient": {
+      "item": "abza:chitin_gel"
+    }
+  },
+  "extraInput": {
+    "ingredient": {
+      "item": "ad_astra:ice_shard"
+    }
+  },
+  "output": {
+    "item": "abza:cryo_gel"
+  }
+}

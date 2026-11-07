@@ -1,0 +1,8 @@
+{
+  "slot": "abza:ammo/slot/eden_shell",
+  "shell": {
+    "model": "tacz:shell/12g_shell",
+    "texture": "tacz:shell/12g_shell"
+  },
+  "tracer_color": "#FF4D4D"
+}

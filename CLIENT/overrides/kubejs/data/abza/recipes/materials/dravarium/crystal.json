@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crystallizing",
+  "chemicalType": "gas",
+  "input": {
+    "amount": 200,
+    "gas": "crafttweaker:enriched_dravarium"
+  },
+  "output": {
+    "item": "abza:dravarium_crystal"
+  }
+}

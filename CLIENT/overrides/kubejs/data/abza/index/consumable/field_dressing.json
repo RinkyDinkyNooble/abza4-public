@@ -1,0 +1,16 @@
+{
+  "name": "item.abza.field_dressing",
+  "tooltip": "item.abza.field_dressing.desc",
+  "base_item": "lrtactical:consumable",
+  "data": {
+    "use_duration": 93,
+    "cooldown": 60,
+    "cooldown_category": "lrtactical:medical",
+    "stack_size": 8,
+    "max_durability": 0,
+    "draw_time": 14,
+    "put_away_time": 6,
+    "use_mode": "toggle",
+    "heal": 10.0
+  }
+}

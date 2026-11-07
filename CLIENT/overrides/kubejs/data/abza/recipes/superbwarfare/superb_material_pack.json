@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {"item": "phayriosisreborn:dravarium_495_ingot"},
+    {"item": "phayriosisreborn:dravarium_495_ingot"},
+    {"item": "phayriosisreborn:crimsonscale"},
+    {"item": "phayriosisreborn:crimsonscale"},
+    {"item": "phayriosisreborn:refined_plasma"},
+    {"item": "phayriosisreborn:plasma_ingot"}
+  ],
+  "result": {"item": "superbwarfare:superb_material_pack", "count": 2}
+}

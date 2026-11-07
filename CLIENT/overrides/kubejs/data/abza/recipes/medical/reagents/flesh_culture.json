@@ -1,0 +1,20 @@
+{
+  "type": "mekanism:reaction",
+  "duration": 100,
+  "itemInput": {
+    "ingredient": {
+      "item": "the_flesh_that_hates:piece_of_flesh"
+    }
+  },
+  "fluidInput": {
+    "amount": 100,
+    "tag": "minecraft:water"
+  },
+  "gasInput": {
+    "amount": 50,
+    "gas": "crafttweaker:digestive_acid"
+  },
+  "itemOutput": {
+    "item": "abza:flesh_culture"
+  }
+}

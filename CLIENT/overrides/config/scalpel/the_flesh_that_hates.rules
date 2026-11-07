@@ -1,0 +1,79 @@
+# The Flesh That Hates
+
+# Entities
+keep entity the_flesh_that_hates:*
+
+# Advancements
+remove advancement the_flesh_that_hates:*
+
+# Spawn eggs and projectiles
+keep item the_flesh_that_hates:*_spawn_egg
+hide item the_flesh_that_hates:clay_bomb_ammo
+
+# Tools, weapons and armour
+remove item the_flesh_that_hates:*_helmet
+remove item the_flesh_that_hates:*_chestplate
+remove item the_flesh_that_hates:*_leggings
+remove item the_flesh_that_hates:*_boots
+remove item the_flesh_that_hates:flesh_axe
+remove item the_flesh_that_hates:flesh_sword
+remove item the_flesh_that_hates:scalpel
+remove item the_flesh_that_hates:hysterizer_revenge
+remove item the_flesh_that_hates:clay_bomb
+remove item the_flesh_that_hates:flesh_compass
+
+# Other items
+remove item the_flesh_that_hates:rotten_flesh
+remove item the_flesh_that_hates:bundle_of_flesh
+remove item the_flesh_that_hates:piece_of_flesh_cooked
+
+# Music and icons
+remove item the_flesh_that_hates:fossa_disc
+remove item the_flesh_that_hates:logo
+
+# Flesh terrain, growths and the pus bucket
+hide any the_flesh_that_hates:flesh_foliage
+
+hide any the_flesh_that_hates:pus_bucket
+
+hide any the_flesh_that_hates:flesh_block_bone
+
+hide any the_flesh_that_hates:flesh_boil
+
+hide any the_flesh_that_hates:flesh_boil_phase_two
+
+hide any the_flesh_that_hates:flesh_bricks
+
+hide any the_flesh_that_hates:flesh_canals
+
+hide any the_flesh_that_hates:flesh_coublestone
+
+hide any the_flesh_that_hates:flesh_forge
+
+hide any the_flesh_that_hates:flesh_grass
+
+hide any the_flesh_that_hates:flesh_pile
+
+hide any the_flesh_that_hates:flesh_plank
+
+hide any the_flesh_that_hates:flesh_sand
+
+hide any the_flesh_that_hates:flesh_sapling
+
+hide any the_flesh_that_hates:flesh_small_grass
+
+hide any the_flesh_that_hates:flesh_spike_grass
+
+hide any the_flesh_that_hates:flesh_spikes
+
+hide any the_flesh_that_hates:flesh_terns
+
+hide any the_flesh_that_hates:flesh_tree
+
+hide any the_flesh_that_hates:purulent
+
+hide any the_flesh_that_hates:purulent_tumor
+
+hide any the_flesh_that_hates:tumor
+
+hide any the_flesh_that_hates:testo

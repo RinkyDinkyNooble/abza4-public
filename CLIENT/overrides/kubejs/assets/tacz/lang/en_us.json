@@ -1,0 +1,7 @@
+{
+  "item.tacz.ammo_box.diamond": "Ammo Crate",
+  "item.tacz.ammo_box.gold": "Ammo Box",
+  "item.tacz.ammo_box.iron": "Ammo Can",
+  "tooltip.tacz.ammo_box.usage.deposit": "Holds one type of round.",
+  "tooltip.tacz.ammo_box.usage.remove": "Right-click rounds or an empty slot with it."
+}

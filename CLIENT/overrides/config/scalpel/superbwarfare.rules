@@ -1,0 +1,272 @@
+# Superb Warfare
+
+# Steel, lead and galena
+redact any superbwarfare:steel_ingot
+redact any superbwarfare:steel_block
+redact any superbwarfare:lead_ingot
+redact any superbwarfare:lead_block
+redact any superbwarfare:*galena*
+
+# Artillery indicator's data-clearing recipe
+remove recipe superbwarfare:artillery_indicator_clear
+
+# Steel plate and powders
+remove item superbwarfare:steel_plate
+remove item superbwarfare:iron_powder
+remove item superbwarfare:coal_powder
+remove item superbwarfare:coal_iron_powder
+
+# Advancements
+remove advancement superbwarfare:*
+
+# Spawn eggs
+hide item superbwarfare:*_spawn_egg
+
+# Engineering plastic and slime-covered leather
+remove item superbwarfare:engineering_plastic
+remove item superbwarfare:slime_covered_leather
+
+# Vehicle containers
+hide any superbwarfare:lucky_container
+hide any superbwarfare:small_container
+
+# Guns
+remove item superbwarfare:taser
+remove item superbwarfare:glock_17
+remove item superbwarfare:glock_18
+remove item superbwarfare:mp_443
+remove item superbwarfare:m_1911
+remove item superbwarfare:homemade_shotgun
+remove item superbwarfare:trachelium
+remove item superbwarfare:mp_5
+remove item superbwarfare:vector
+remove item superbwarfare:ak_47
+remove item superbwarfare:ak_12
+remove item superbwarfare:sks
+remove item superbwarfare:m_4
+remove item superbwarfare:hk_416
+remove item superbwarfare:qbz_95
+remove item superbwarfare:qbz_191
+remove item superbwarfare:insidious
+remove item superbwarfare:mk_14
+remove item superbwarfare:ql_1031
+remove item superbwarfare:marlin
+remove item superbwarfare:k_98
+remove item superbwarfare:mosin_nagant
+remove item superbwarfare:svd
+remove item superbwarfare:awm
+remove item superbwarfare:m_98b
+remove item superbwarfare:sentinel
+remove item superbwarfare:hunting_rifle
+remove item superbwarfare:ntw_20
+remove item superbwarfare:m_870
+remove item superbwarfare:aa_12
+remove item superbwarfare:devotion
+remove item superbwarfare:rpk
+remove item superbwarfare:m_60
+remove item superbwarfare:m_2_hb
+remove item superbwarfare:minigun
+remove item superbwarfare:m_79
+remove item superbwarfare:secondary_cataclysm
+remove item superbwarfare:rpg
+remove item superbwarfare:javelin
+remove item superbwarfare:igla_9k38
+remove item superbwarfare:bocek
+remove item superbwarfare:super_star_shooter
+
+# Blueprints
+remove item superbwarfare:*_blueprint
+
+# Perks
+remove item superbwarfare:ap_bullet
+remove item superbwarfare:aqua_bullet
+remove item superbwarfare:backpack_linked_magazine
+remove item superbwarfare:battle_of_wits
+remove item superbwarfare:beast_bullet
+remove item superbwarfare:blade_bullet
+remove item superbwarfare:brain_storm
+remove item superbwarfare:cast_no_shadows
+remove item superbwarfare:cupid_arrow
+remove item superbwarfare:desperado
+remove item superbwarfare:eager_edge
+remove item superbwarfare:fair_means
+remove item superbwarfare:field_doctor
+remove item superbwarfare:firefly
+remove item superbwarfare:fourth_times_charm
+remove item superbwarfare:gutshot_straight
+remove item superbwarfare:he_bullet
+remove item superbwarfare:head_seeker
+remove item superbwarfare:heal_clip
+remove item superbwarfare:high_impact_reserves
+remove item superbwarfare:incendiary_bullet
+remove item superbwarfare:intelligent_chip
+remove item superbwarfare:jhp_bullet
+remove item superbwarfare:kill_clip
+remove item superbwarfare:killing_tally
+remove item superbwarfare:longer_wire
+remove item superbwarfare:magnificent_howl
+remove item superbwarfare:micro_missile
+remove item superbwarfare:monster_hunter
+remove item superbwarfare:one_two_punch
+remove item superbwarfare:phase_penetrating_bullet
+remove item superbwarfare:phosphorus_flame_bullet
+remove item superbwarfare:poisonous_bullet
+remove item superbwarfare:powerful_attraction
+remove item superbwarfare:powerful_cooler
+remove item superbwarfare:regeneration
+remove item superbwarfare:riot_bullet
+remove item superbwarfare:silver_bullet
+remove item superbwarfare:subsistence
+remove item superbwarfare:target_lock
+remove item superbwarfare:turbo_charger
+remove item superbwarfare:volt_overload
+remove item superbwarfare:vorpal_weapon
+remove item superbwarfare:shortcut_pack
+remove item superbwarfare:empty_perk
+remove item superbwarfare:ammo_perk_data_chip
+remove item superbwarfare:damage_perk_data_chip
+remove item superbwarfare:functional_perk_data_chip
+
+# Research modules
+remove item superbwarfare:*_research_module
+
+# Gun ammunition and throwables
+remove item superbwarfare:handgun_ammo
+remove item superbwarfare:shotgun_ammo
+remove item superbwarfare:sniper_ammo
+remove item superbwarfare:*ammo_box
+remove item superbwarfare:taser_electrode
+remove item superbwarfare:hand_grenade
+remove item superbwarfare:rgo_grenade
+remove item superbwarfare:m18_smoke_grenade
+remove item superbwarfare:c4_bomb
+remove item superbwarfare:detonator
+remove item superbwarfare:potion_mortar_shell
+
+# Armour
+remove item superbwarfare:ru_helmet_6b47
+remove item superbwarfare:ru_chest_6b43
+remove item superbwarfare:us_helmet_pasgt
+remove item superbwarfare:us_chest_iotv
+remove item superbwarfare:ge_helmet_m_35
+remove item superbwarfare:armor_plate
+remove item superbwarfare:handsome_goggles
+
+# Tools and melee weapons
+remove item superbwarfare:hammer
+remove item superbwarfare:steel_hammer
+remove item superbwarfare:golden_hammer
+remove item superbwarfare:diamond_hammer
+remove item superbwarfare:netherite_hammer
+remove item superbwarfare:cemented_carbide_hammer
+remove item superbwarfare:cemented_carbide_sword
+remove item superbwarfare:cemented_carbide_pickaxe
+remove item superbwarfare:cemented_carbide_axe
+remove item superbwarfare:cemented_carbide_shovel
+remove item superbwarfare:cemented_carbide_hoe
+remove item superbwarfare:defuser
+remove item superbwarfare:knife
+remove item superbwarfare:military_shovel
+remove item superbwarfare:steel_pipe
+remove item superbwarfare:t_baton
+remove item superbwarfare:electric_baton
+
+# Batteries and electronics
+remove item superbwarfare:battery
+remove item superbwarfare:cell
+remove item superbwarfare:*_battery_pack
+remove item superbwarfare:iff
+remove item superbwarfare:tactical_terminal
+remove item superbwarfare:firing_parameters
+
+# Other items
+remove item superbwarfare:crust
+remove item superbwarfare:dog_tag
+remove item superbwarfare:beast
+remove item superbwarfare:transcript
+remove item superbwarfare:medical_kit
+remove item superbwarfare:vehicle_damage_analyzer
+remove item superbwarfare:vehicle_reset_kit
+remove item superbwarfare:dps_generator_deployer
+remove item superbwarfare:target_deployer
+
+# Blocks
+redact block superbwarfare:charging_station
+redact block superbwarfare:reforging_table
+redact block superbwarfare:vehicle_assembling_table
+redact block superbwarfare:blueprint_research_table
+redact block superbwarfare:barbed_wire
+redact block superbwarfare:jump_pad
+redact block superbwarfare:superb_item_interface
+redact block superbwarfare:biogas_generator
+
+# Cemented carbide is sintered in Mekanism's osmium compressor
+remove recipe superbwarfare:cemented_carbide_ingot_blasting
+
+# Blueprint research
+remove recipe superbwarfare:*_researching
+remove recipe superbwarfare:*_from_blueprint
+
+# Vehicle assembling: vehicles are crafted (abza:superbwarfare/vehicle/*)
+remove recipe superbwarfare:ac_130h
+remove recipe superbwarfare:air_sheep
+remove recipe superbwarfare:kirov
+remove recipe superbwarfare:m_1a_2
+remove recipe superbwarfare:mi_28
+remove recipe superbwarfare:t_90a
+remove recipe superbwarfare:tow
+remove recipe superbwarfare:type_63
+remove recipe superbwarfare:waveforce_tower
+remove recipe superbwarfare:ztz_99a
+remove recipe superbwarfare:vehicle_key_assembling
+
+# Replaced by abza:superbwarfare/large_motor, seeker and medium_anti_ground_missile
+remove recipe superbwarfare:large_motor
+remove recipe superbwarfare:seeker
+remove recipe superbwarfare:medium_anti_ground_missile
+
+# Javelin missile and extra large anti-ground missile
+hide item superbwarfare:javelin_missile
+hide item superbwarfare:extra_large_anti_ground_missile
+remove recipe superbwarfare:javelin_missile
+remove recipe superbwarfare:javelin_missile_convert
+remove recipe superbwarfare:extra_large_anti_ground_missile
+remove recipe superbwarfare:large_anti_ground_missile_from_extra_large_anti_ground_missile
+
+# Towing and the aircraft catapult
+remove item superbwarfare:towline
+remove item superbwarfare:tow_bar
+remove item superbwarfare:catapult_shuttle
+redact any superbwarfare:aircraft_catapult
+redact any superbwarfare:catapult_controller
+
+# Monitor's data-clearing recipe
+remove recipe superbwarfare:monitor_clear
+
+# Aircraft flares, the medium anti-air and grapeshot shells, the large anti-air missile and the data chip substrate
+hide item superbwarfare:flying_flare_ammo
+hide item superbwarfare:medium_shell_aa
+hide item superbwarfare:medium_shell_gs
+hide item superbwarfare:large_anti_air_missile
+hide item superbwarfare:data_chip_substrate
+remove recipe superbwarfare:flying_flare_ammo
+remove recipe superbwarfare:medium_shell_aa
+remove recipe superbwarfare:medium_shell_gs
+remove recipe superbwarfare:large_anti_air_missile
+remove recipe superbwarfare:medium_anti_air_missile_from_large_anti_air_missile
+remove recipe superbwarfare:data_chip_substrate
+
+# Vehicle key
+hide item superbwarfare:vehicle_key
+remove recipe superbwarfare:vehicle_key_reset
+
+# Data chips: loot only
+remove recipe superbwarfare:common_blueprint_data_chip
+remove recipe superbwarfare:rare_blueprint_data_chip
+remove recipe superbwarfare:epic_blueprint_data_chip
+remove recipe superbwarfare:legendary_blueprint_data_chip
+remove recipe superbwarfare:virtual_blueprint_data_chip
+
+# Internal guns
+hide any superbwarfare:empty_gun
+hide any superbwarfare:vehicle_gun

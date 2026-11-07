@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:dissolution",
+  "gasInput": {
+    "amount": 1,
+    "gas": "mekanism:hydrofluoric_acid"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "ad_astra:deepslate_ostrum_ore"
+    }
+  },
+  "output": {
+    "amount": 1000,
+    "chemicalType": "slurry",
+    "slurry": "crafttweaker:dirty_ostrum"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "mekanism:combining",
+  "mainInput": {
+    "ingredient": {
+      "item": "superbwarfare:medium_anti_ground_missile"
+    },
+    "amount": 1
+  },
+  "extraInput": {
+    "ingredient": {
+      "item": "ad_astra:calorite_ingot"
+    }
+  },
+  "output": {
+    "item": "abza:eden_medium_ag_missile",
+    "count": 1
+  }
+}

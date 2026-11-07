@@ -1,0 +1,10 @@
+{
+  "dimension": "abza:interloper",
+  "gravity": 8.5,
+  "oxygen": false,
+  "orbit": "abza:interloper_orbit",
+  "solar_power": 12,
+  "solar_system": "ad_astra:solar_system",
+  "temperature": 20,
+  "tier": 1
+}

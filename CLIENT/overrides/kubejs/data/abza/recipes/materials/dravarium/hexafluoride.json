@@ -1,0 +1,15 @@
+{
+  "type": "mekanism:chemical_infusing",
+  "leftInput": {
+    "gas": "crafttweaker:dravarium_oxide",
+    "amount": 1
+  },
+  "rightInput": {
+    "gas": "mekanism:hydrofluoric_acid",
+    "amount": 1
+  },
+  "output": {
+    "gas": "crafttweaker:dravarium_hexafluoride",
+    "amount": 1
+  }
+}

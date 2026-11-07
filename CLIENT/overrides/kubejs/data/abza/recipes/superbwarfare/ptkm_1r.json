@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " b ",
+    "dad",
+    "ece"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gunpowder"
+    },
+    "b": {
+      "item": "superbwarfare:large_shell_ap"
+    },
+    "c": {
+      "item": "superbwarfare:seeker"
+    },
+    "d": {
+      "tag": "forge:ingots/iron"
+    },
+    "e": {
+      "item": "minecraft:iron_bars"
+    }
+  },
+  "result": {
+    "item": "superbwarfare:ptkm_1r"
+  }
+}

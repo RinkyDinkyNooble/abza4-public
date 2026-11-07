@@ -1,0 +1,340 @@
+{
+  "values": [
+    {
+      "id": "phayriosisreborn:bomb",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:bulb",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:carrier",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_allay",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_bear",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_bee",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_camel",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_chicken",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_cow",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_creeper",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_dolphin",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_drowned",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_enderman",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_evoker",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_fish",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_frog",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_goat",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_golem",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_horse",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_human",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_husk",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_llama",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_phantom",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_pig",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_pillager",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_rabbit",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_ravager",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_sheep",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_skeleton",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_sniffer",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_spider",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_squid",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_villager",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_vindicator",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_wandering_trader",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_witch",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:converted_wolf",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:decayed_human",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:dome",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:dreadmind",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:ensnaring",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:gory_beast",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:gory_mass",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:gory_titan",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:hivebeacon",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:hivenetwork",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:hivewarden",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:immaculate_blightlord",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:immaculate_bomber",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:immaculate_kingdom",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:immaculate_multiplier",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:immaculate_resistor",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:immaculate_stalker",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:immaculate_strangulator",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:immaculate_whisperer",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:infestation_root",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:infester",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:monstrosity",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:nestbeacon_stage_3",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:nestnetwork_stage_2",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:nestnetwork_stage_3",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:nestwarden_stage_2",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:nestwarden_stage_3",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:nextbeacon_stage_2",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:nucleus",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:patroller",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:phayrector",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:primal_assaulter",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:primal_hatchery",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:primal_hunter",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:primal_injector",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:primal_spitter",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:primal_tank",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:reinforcement_explosive",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:reinforcement_infestation",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:reinforcement_transportation",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:scent_engulfer",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:scent_erupter",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:scent_spewer",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:seeder",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:victim",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:worm_explosive",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:worm_infestation",
+      "required": false
+    },
+    {
+      "id": "phayriosisreborn:worm_transportation",
+      "required": false
+    }
+  ]
+}

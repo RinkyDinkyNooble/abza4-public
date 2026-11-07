@@ -1,0 +1,215 @@
+# Spore
+
+# Entities
+keep entity spore:*
+
+# Advancements
+remove advancement spore:*
+
+# Spawn eggs and projectiles
+keep item spore:*_spawnegg
+hide item spore:acid_ball
+
+# Weapons and tools
+remove item spore:acidic_assassin
+remove item spore:armads
+remove item spore:bile_blaster
+remove item spore:boomerang
+remove item spore:cleaver
+remove item spore:combat_pickaxe
+remove item spore:combat_shovel
+remove item spore:greatsword
+remove item spore:halberd
+remove item spore:infected_bow
+remove item spore:infected_crossbow
+remove item spore:infected_spear
+remove item spore:knife
+remove item spore:mace
+remove item spore:maul
+remove item spore:mistmaker
+remove item spore:rapier
+remove item spore:reaver
+remove item spore:saber
+remove item spore:scythe
+remove item spore:shield
+remove item spore:sickle
+remove item spore:syringe_gun
+remove item spore:terroriser
+
+# Armour
+remove item spore:flesh_horse_armor
+remove item spore:gas_mask
+remove item spore:inf_boots
+remove item spore:inf_chest
+remove item spore:inf_helmet
+remove item spore:inf_pants
+remove item spore:inf_up_boots
+remove item spore:inf_up_chest
+remove item spore:inf_up_helmet
+remove item spore:inf_up_pants
+remove item spore:living_boots
+remove item spore:living_chest
+remove item spore:living_helmet
+remove item spore:living_horse_armor
+remove item spore:living_pants
+remove item spore:plated_boots
+remove item spore:plated_chest
+remove item spore:plated_helmet
+remove item spore:plated_horse_armor
+remove item spore:plated_pants
+remove item spore:r_elytron
+remove item spore:r_wing
+remove item spore:respirator
+
+# Food
+remove item spore:amalgamated_roast
+remove item spore:biomass_bacon
+remove item spore:brain_noodles
+remove item spore:eldritch_sushi
+remove item spore:fiber_stew
+remove item spore:fried_wing_membrane
+remove item spore:fungal_burger
+remove item spore:fungal_sauce
+remove item spore:heart_kebab
+remove item spore:meaty_icecream
+remove item spore:organoid_soup
+remove item spore:roasted_heart_kebab
+remove item spore:roasted_tumor
+remove item spore:sausage
+remove item spore:stuffed_abomination
+remove item spore:stuffed_torso
+remove item spore:tendon_gum
+remove item spore:vigil_eye_soup
+
+# Weapon and armour upgrades
+remove item spore:corrosive_reagent
+remove item spore:cryogenic_reagent
+remove item spore:gastric_reagent
+remove item spore:hardening_agent
+remove item spore:integrating_agent
+remove item spore:serrated_reagent
+remove item spore:sharpening_agent
+remove item spore:symbiotic_reagent
+remove item spore:voracious_reagent
+
+# Syringes and vials
+remove item spore:acid_vial
+remove item spore:bezerk_syringe
+remove item spore:bile_vial
+remove item spore:calcified_syringe
+remove item spore:charred_syringe
+remove item spore:drowned_syringe
+remove item spore:reinforced_syringe
+remove item spore:rotten_syringe
+remove item spore:skeletal_syringe
+remove item spore:syringe
+remove item spore:toxic_syringe
+remove item spore:toxin_vial
+remove item spore:vampiric_syringe
+
+# Other items
+remove item spore:corrupted_record
+remove item spore:forgotten_record
+remove item spore:forsaken_record
+remove item spore:fungal_bonemeal
+hide item spore:slice_of_heartpie
+hide item spore:fleshy_bone
+hide item spore:fleshy_ribs
+remove recipe spore:fleshy_bone
+remove recipe spore:fleshy_ribs
+
+# Workstations and food blocks
+hide any spore:surgery_table
+hide any spore:incubator
+hide any spore:heart_pie
+hide any spore:cooked_torso
+hide any spore:skull_soup
+hide any spore:zoaholic
+remove recipe spore:surgery_table
+remove recipe spore:incubator
+remove recipe spore:heart_pie
+remove recipe spore:heart_pie_pieces
+remove recipe spore:cooked_torso
+remove recipe spore:cooked_torso_baking
+remove recipe spore:cooked_torso_smoke
+remove recipe spore:armor_plate_recipe_surgery
+remove recipe spore:spine_recipe_surgery
+remove recipe spore:living_core_recipe_surgery
+remove recipe spore:zoaholic
+
+# Recipes that take specimens, and what only they used
+remove recipe spore:biomass
+remove recipe farmersdelight:organic_compost_from_body_parts
+remove recipe spore:dense_muscle
+remove recipe spore:dense_muscle_from_biomass
+remove recipe spore:claw
+remove recipe spore:fleshy_claw
+remove recipe spore:hardened_bind
+remove recipe spore:spine
+remove recipe spore:milky_sacks
+remove recipe spore:calcified_tumor
+remove recipe spore:sicken_tumor
+
+# Made from specimens or used only with them, with no use left
+hide any spore:claw
+hide any spore:fleshy_claw
+hide any spore:hardened_bind
+hide any spore:spine
+hide any spore:plated_muscle
+hide any spore:milky_sack
+hide any spore:calcified_tumor
+hide any spore:sicken_tumor
+
+# Infested terrain, growths and remains
+hide any spore:acid
+hide any spore:acidic_sack
+hide any spore:bile
+hide any spore:bile_lump
+hide any spore:biomass_bulb
+hide any spore:biomass_lump
+hide any spore:broken_halogen_light
+hide any spore:drowned_lump
+hide any spore:exploding_lump
+hide any spore:fang_lump
+hide any spore:frozen_decayed_biomass
+hide any spore:frozen_remains
+hide any spore:fungal_clamp
+hide any spore:glowshroom
+hide any spore:hand
+hide any spore:hive_spawn
+hide any spore:infested_bricks
+hide any spore:infested_clay
+hide any spore:infested_cobbled_deepslate
+hide any spore:infested_cobblestone
+hide any spore:infested_deepslate
+hide any spore:infested_dirt
+hide any spore:infested_end_stone
+hide any spore:infested_gravel
+hide any spore:infested_laboratory_block
+hide any spore:infested_laboratory_block1
+hide any spore:infested_laboratory_block2
+hide any spore:infested_laboratory_block3
+hide any spore:infested_netherrack
+hide any spore:infested_red_sand
+hide any spore:infested_sand
+hide any spore:infested_soul_sand
+hide any spore:infested_stone
+hide any spore:infested_stone_bricks
+hide any spore:lungs
+hide any spore:organite
+hide any spore:outpost_watcher
+hide any spore:overgrown_spawner
+hide any spore:poisoning_lump
+hide any spore:remains
+hide any spore:rotten_branch
+hide any spore:rotten_bush
+hide any spore:rotten_crops
+hide any spore:rotten_fern
+hide any spore:rotten_grass
+hide any spore:rotten_log
+hide any spore:rotten_planks
+hide any spore:rotten_scraps
+hide any spore:rotten_slab
+hide any spore:rotten_stair
+hide any spore:vocals
+hide any spore:wall_remains

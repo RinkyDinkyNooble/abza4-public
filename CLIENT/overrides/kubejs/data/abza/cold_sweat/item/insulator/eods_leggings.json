@@ -1,0 +1,17 @@
+{
+  "type": "armor",
+  "item": {
+    "items": [
+      "trol_armor:eods_leggings"
+    ]
+  },
+  "attributes": {
+    "cold_sweat:freezing_point": [
+      {
+        "name": "abza:eods_leggings_cold",
+        "amount": -0.15,
+        "operation": "addition"
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SDS",
+    "Q2Q",
+    "WMW"
+  ],
+  "key": {
+    "2": {
+      "item": "mekanism:advanced_energy_cube"
+    },
+    "D": {
+      "item": "superbwarfare:medium_armament_module"
+    },
+    "M": {
+      "item": "superbwarfare:large_motor"
+    },
+    "Q": {
+      "item": "superbwarfare:seeker"
+    },
+    "S": {
+      "tag": "forge:storage_blocks/steel"
+    },
+    "W": {
+      "item": "superbwarfare:wheel"
+    }
+  },
+  "result": {
+    "item": "superbwarfare:container",
+    "nbt": "{BlockEntityTag:{EntityType:\"superbwarfare:lav_ad\",id:\"superbwarfare:container\"}}"
+  }
+}

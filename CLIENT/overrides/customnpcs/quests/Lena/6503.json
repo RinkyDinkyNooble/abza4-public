@@ -1,0 +1,84 @@
+{
+    "Id": 6503,
+    "ModRev": 18,
+    "Type": 0,
+    "Title": "Lena's research: the wiring",
+    "Text": "Lena wants a nervous system, a spinal cord and a damned flesh eye from Eden's creatures.",
+    "CompleteText": "This is how it holds them together. One nerve, every body. (She writes for a long time.) Here.",
+    "CompleterNpc": "Lena",
+    "NextQuestId": -1,
+    "RewardExp": 0,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "saros__money_mod:euro_50",
+                "Count": 1b
+            },
+            {
+                "Slot": 1b,
+                "id": "saros__money_mod:euro_20",
+                "Count": 2b
+            },
+            {
+                "Slot": 2b,
+                "id": "minecraft:written_book",
+                "Count": 1b,
+                "tag": {
+                    "title": "Field Notes: Eden",
+                    "author": "Lena",
+                    "pages": [
+                        "{\"text\":\"Give Earth a hundred years of nobody acting, and it looks like this.\\n\\nI keep writing that down, as if writing it down were acting.\"}"
+                    ],
+                    "resolved": 1b
+                }
+            }
+        ]
+    },
+    "QuestCommand": "",
+    "RandomReward": 0b,
+    "QuestCompletion": 0,
+    "QuestRepeat": 0,
+    "QuestFactionPoints": {
+        "OptionFactions1": 1,
+        "OptionFaction1Points": 50,
+        "DecreaseFaction1Points": 0b,
+        "OptionFactions2": -1,
+        "OptionFaction2Points": 0,
+        "DecreaseFaction2Points": 0b
+    },
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 0L
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "the_flesh_that_hates:nervous_system",
+                "Count": 1b
+            },
+            {
+                "Slot": 1b,
+                "id": "the_flesh_that_hates:spinal_cord",
+                "Count": 1b
+            },
+            {
+                "Slot": 2b,
+                "id": "the_flesh_that_hates:damned_flesh_eye",
+                "Count": 1b
+            }
+        ]
+    },
+    "LeaveItems": 0b,
+    "IgnoreDamage": 1b,
+    "IgnoreNBT": 0b
+}

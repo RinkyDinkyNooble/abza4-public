@@ -1,0 +1,18 @@
+{
+  "type": "mekanism:combining",
+  "mainInput": {
+    "ingredient": {
+      "item": "superbwarfare:medium_anti_air_missile"
+    },
+    "amount": 1
+  },
+  "extraInput": {
+    "ingredient": {
+      "item": "phayriosisreborn:dravarium_495_ingot"
+    }
+  },
+  "output": {
+    "item": "abza:umbra_medium_aa_missile",
+    "count": 1
+  }
+}

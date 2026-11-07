@@ -1,0 +1,40 @@
+{
+  "priority": 10,
+  "provider": {
+    "type": "obscure_tooltips:literal",
+    "text": "Shotgun"
+  },
+  "filter": {
+    "type": "obscure_tooltips:any_of",
+    "terms": [
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"applied_armorer:moritz_shotgun_sg914\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:aa12\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:db_long\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:db_short\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:m1014\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:m870\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:spas_12\"}"
+      }
+    ]
+  }
+}

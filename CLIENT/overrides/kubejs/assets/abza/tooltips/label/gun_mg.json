@@ -1,0 +1,36 @@
+{
+  "priority": 10,
+  "provider": {
+    "type": "obscure_tooltips:literal",
+    "text": "Machine Gun"
+  },
+  "filter": {
+    "type": "obscure_tooltips:any_of",
+    "terms": [
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"applied_armorer:moritz_mg_emg_prototype\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"applied_armorer:moritz_mg_hmg22\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:fn_evolys\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:m249\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:minigun\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:rpk\"}"
+      }
+    ]
+  }
+}

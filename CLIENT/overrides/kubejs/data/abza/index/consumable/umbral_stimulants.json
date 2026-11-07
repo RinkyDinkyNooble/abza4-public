@@ -1,0 +1,24 @@
+{
+  "name": "item.abza.umbral_stimulants",
+  "tooltip": "item.abza.umbral_stimulants.desc",
+  "base_item": "lrtactical:consumable",
+  "data": {
+    "use_duration": 50,
+    "cooldown": 60,
+    "cooldown_category": "lrtactical:medical",
+    "stack_size": 4,
+    "max_durability": 0,
+    "draw_time": 10,
+    "put_away_time": 6,
+    "use_mode": "toggle",
+    "heal": 55.0,
+    "effects": [
+      {
+        "id": "minecraft:regeneration",
+        "duration": 360,
+        "amplifier": 3,
+        "chance": 1.0
+      }
+    ]
+  }
+}

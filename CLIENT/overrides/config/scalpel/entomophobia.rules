@@ -1,0 +1,16 @@
+# Entomophobia
+
+# Entities
+keep entity entomophobia:*
+
+# Spawn items
+keep item entomophobia:*_spawn
+
+# Debug items
+remove item entomophobia:*_wand
+remove item entomophobia:event_reader
+remove item entomophobia:thanks
+
+# Nest blocks
+hide any entomophobia:bloodwax_comb
+hide any entomophobia:congealed_blood

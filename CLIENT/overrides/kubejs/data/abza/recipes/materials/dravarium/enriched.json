@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:centrifuging",
+  "input": {
+    "gas": "crafttweaker:dravarium_hexafluoride",
+    "amount": 1
+  },
+  "output": {
+    "gas": "crafttweaker:enriched_dravarium",
+    "amount": 1
+  }
+}

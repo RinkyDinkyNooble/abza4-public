@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:nucleosynthesizing",
+  "duration": 500,
+  "itemInput": {
+    "ingredient": {
+      "item": "spore:cerebrum"
+    }
+  },
+  "gasInput": {
+    "amount": 2,
+    "gas": "mekanism:antimatter"
+  },
+  "output": {
+    "item": "abza:antigen_t8"
+  }
+}

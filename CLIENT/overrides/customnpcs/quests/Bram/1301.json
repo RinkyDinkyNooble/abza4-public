@@ -1,0 +1,65 @@
+{
+    "Id": 1301,
+    "ModRev": 18,
+    "Type": 0,
+    "Title": "Under the museum",
+    "Text": "Bram thinks Everwell bought museums for their basements. Find what's under one and bring him the paperwork.",
+    "CompleteText": "Hour 33, subject sat up. (He reads it twice.) Somebody knew, before any of it. And now it's on paper.",
+    "CompleterNpc": "Bram",
+    "NextQuestId": -1,
+    "RewardExp": 0,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "saros__money_mod:euro_100",
+                "Count": 1b
+            }
+        ]
+    },
+    "QuestCommand": "",
+    "RandomReward": 0b,
+    "QuestCompletion": 0,
+    "QuestRepeat": 0,
+    "QuestFactionPoints": {
+        "OptionFactions1": 0,
+        "OptionFaction1Points": 50,
+        "DecreaseFaction1Points": 0b,
+        "OptionFactions2": -1,
+        "OptionFaction2Points": 0,
+        "DecreaseFaction2Points": 0b
+    },
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 0L
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "minecraft:written_book",
+                "Count": 1b,
+                "tag": {
+                    "title": "Lab B-2: Final Report",
+                    "author": "Everwell Research",
+                    "pages": [
+                        "{\"text\":\"Subject: preserved adult remains, on loan from the collection upstairs. Regenesis applied at forty times the patient dose.\\n\\nHour 6: tissue repair.\\nHour 31: movement in the hands.\\nHour 33: subject sat up.\"}",
+                        "{\"text\":\"Containment failed at hour 34. Two staff lost. Basement sealed.\\n\\nThis report is not to be filed.\\n\\nSource material: Northern Site N-1. Recommend the launch proceed on schedule.\"}"
+                    ],
+                    "resolved": 1b
+                }
+            }
+        ]
+    },
+    "LeaveItems": 0b,
+    "IgnoreDamage": 1b,
+    "IgnoreNBT": 0b
+}

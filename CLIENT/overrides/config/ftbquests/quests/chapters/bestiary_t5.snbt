@@ -1,0 +1,979 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bestiary_t5"
+	group: "182E303C40AEF1E1"
+	icon: "the_eyes_are_back:destroyer_spawn_egg"
+	id: "20B2FC59D077AD47"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"It lives in the boss buildings of the Tier 5 region."
+				""
+				"Reward: +25 max health (12.5 hearts), kept for good, for everyone who dealt at least a tenth of its health. It's given at the kill; this quest then checks itself."
+			]
+			icon: "the_eyes_are_back:destroyer_spawn_egg"
+			id: "6892E348F8BEB221"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "+25 max health (12.5 hearts)"
+			tasks: [
+				{
+					icon: "the_eyes_are_back:destroyer_spawn_egg"
+					id: "5471C09314911159"
+					stage: "abza_final_t5"
+					title: "Defeat the eYe Destroyer"
+					type: "gamestage"
+				}
+			]
+			title: "Defeat the eYe Destroyer"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "110882D739D8BCED"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_eyes_are_back:big_flying_eyeling"
+					id: "422A761952E5C6A1"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Big Flying eYe Ling"
+			x: 0.0d
+			y: 0.0d
+			icon: "the_eyes_are_back:big_flying_eyeling_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "4DCA97A03683EFC6"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_eyes_are_back:crawling_eye_human"
+					id: "587E35F9575AE23E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Crawling eYe Humanoid"
+			x: 1.3d
+			y: 0.0d
+			icon: "the_eyes_are_back:crawling_eye_human_spawn"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "1C1801E7F88FBACB"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_eyes_are_back:enraged_eye_human"
+					id: "0ED28FA0D9664397"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Enraged eYe Humanoid"
+			x: 2.6d
+			y: 0.0d
+			icon: "the_eyes_are_back:enraged_eye_human_spawn"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "4A0114345CE20D5F"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "4DB3B80AB81C8C5C"
+					stage: "abza_bestiary_t5_1"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "the_eyes_are_back:big_flying_eyeling"
+					id: "27F4E4BAA113617D"
+					title: "Big Flying eYe Ling"
+					type: "kill"
+					value: 1L
+					icon: "the_eyes_are_back:big_flying_eyeling_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "the_eyes_are_back:crawling_eye_human"
+					id: "6FB6977FA322C910"
+					title: "Crawling eYe Humanoid"
+					type: "kill"
+					value: 1L
+					icon: "the_eyes_are_back:crawling_eye_human_spawn"
+				}
+				{
+					disable_toast: true
+					entity: "the_eyes_are_back:enraged_eye_human"
+					id: "3D01173B22C15621"
+					title: "Enraged eYe Humanoid"
+					type: "kill"
+					value: 1L
+					icon: "the_eyes_are_back:enraged_eye_human_spawn"
+				}
+			]
+			title: "Bestiary 1 to 3"
+			x: 4.4d
+			y: 0.0d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "0FE813E9635A2F32"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_eyes_are_back:eye_tumor"
+					id: "6D17C710F2A32156"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Eye Tumor"
+			x: 0.0d
+			y: 2.3d
+			icon: "the_eyes_are_back:eye_tumor_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "5EC0784DA95E2859"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_eyes_are_back:flying_eye_squid"
+					id: "61F378C08E8D39C8"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Flying Eye Squid"
+			x: 1.3d
+			y: 2.3d
+			icon: "the_eyes_are_back:flying_eye_squid_spawn"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "4FE49EF899729B13"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_eyes_are_back:medium_flying_eyeling"
+					id: "2422C25D0ABD997D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Medium Flying eYe Ling"
+			x: 2.6d
+			y: 2.3d
+			icon: "the_eyes_are_back:medium_flying_eyeling_spawn_egg"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "3F1E1A531979A108"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "5A63CC28745533F8"
+					stage: "abza_bestiary_t5_2"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "the_eyes_are_back:eye_tumor"
+					id: "5A36F79C10589F73"
+					title: "Eye Tumor"
+					type: "kill"
+					value: 1L
+					icon: "the_eyes_are_back:eye_tumor_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "the_eyes_are_back:flying_eye_squid"
+					id: "2BE9E7B7046FD1A3"
+					title: "Flying Eye Squid"
+					type: "kill"
+					value: 1L
+					icon: "the_eyes_are_back:flying_eye_squid_spawn"
+				}
+				{
+					disable_toast: true
+					entity: "the_eyes_are_back:medium_flying_eyeling"
+					id: "0D40B68B0CC66BFF"
+					title: "Medium Flying eYe Ling"
+					type: "kill"
+					value: 1L
+					icon: "the_eyes_are_back:medium_flying_eyeling_spawn_egg"
+				}
+			]
+			title: "Bestiary 4 to 6"
+			x: 4.4d
+			y: 2.3d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "160FC03E5B87518E"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_eyes_are_back:flying_eye_ling"
+					id: "7EF3DABFD7633E40"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Small Flying eYe Ling"
+			x: 0.0d
+			y: 4.6d
+			icon: "the_eyes_are_back:flying_eye_spawn"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "6375F1EEF552FB18"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_eyes_are_back:eye_human"
+					id: "30E0D7B8E2A873DD"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "eYe Humanoid"
+			x: 1.3d
+			y: 4.6d
+			icon: "the_eyes_are_back:eye_humanoid_spawn"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "26D7CED904EF2800"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_eyes_are_back:eye_ling"
+					id: "7E9847C7032B47FD"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "eYe Ling"
+			x: 2.6d
+			y: 4.6d
+			icon: "the_eyes_are_back:eye_ling_spawn"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "36A4185B1212C8B3"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "0A8E18C21B7F8960"
+					stage: "abza_bestiary_t5_3"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "the_eyes_are_back:flying_eye_ling"
+					id: "0E9FDC22F49E89BB"
+					title: "Small Flying eYe Ling"
+					type: "kill"
+					value: 1L
+					icon: "the_eyes_are_back:flying_eye_spawn"
+				}
+				{
+					disable_toast: true
+					entity: "the_eyes_are_back:eye_human"
+					id: "102E97E0F035BA24"
+					title: "eYe Humanoid"
+					type: "kill"
+					value: 1L
+					icon: "the_eyes_are_back:eye_humanoid_spawn"
+				}
+				{
+					disable_toast: true
+					entity: "the_eyes_are_back:eye_ling"
+					id: "41522AD36955C84B"
+					title: "eYe Ling"
+					type: "kill"
+					value: 1L
+					icon: "the_eyes_are_back:eye_ling_spawn"
+				}
+			]
+			title: "Bestiary 7 to 9"
+			x: 4.4d
+			y: 4.6d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "659B3871F0E00DE2"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_eyes_are_back:eye_humanoid"
+					id: "3AE5EF257C6CF84E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "eYe Person"
+			x: 0.0d
+			y: 6.9d
+			icon: "the_eyes_are_back:eye_humanoid_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "181F063369F2A6C6"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_eyes_are_back:eye_turret"
+					id: "1FB6A6A69C64B40C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "eYe Sentry"
+			x: 1.3d
+			y: 6.9d
+			icon: "the_eyes_are_back:eye_turret_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "0ACD4EAFFAE20416"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_eyes_are_back:eye_spida"
+					id: "5145DDB3529FA62A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "eYe Spida"
+			x: 2.6d
+			y: 6.9d
+			icon: "the_eyes_are_back:eye_spida_spawn_egg"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "0B940E5E8FEC6693"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "3C76417EE926E60E"
+					stage: "abza_bestiary_t5_4"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "the_eyes_are_back:eye_humanoid"
+					id: "5BA0C77010A1B3CD"
+					title: "eYe Person"
+					type: "kill"
+					value: 1L
+					icon: "the_eyes_are_back:eye_humanoid_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "the_eyes_are_back:eye_turret"
+					id: "4EF8B59C2E777469"
+					title: "eYe Sentry"
+					type: "kill"
+					value: 1L
+					icon: "the_eyes_are_back:eye_turret_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "the_eyes_are_back:eye_spida"
+					id: "3657D7CCF2FED432"
+					title: "eYe Spida"
+					type: "kill"
+					value: 1L
+					icon: "the_eyes_are_back:eye_spida_spawn_egg"
+				}
+			]
+			title: "Bestiary 10 to 12"
+			x: 4.4d
+			y: 6.9d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "4CDD993FCE231DF7"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_eyes_are_back:eye_squiggle"
+					id: "146D12FE33381B12"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "eYe Squiggle"
+			x: 0.0d
+			y: 9.2d
+			icon: "the_eyes_are_back:eye_squiggle_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "231C0F427BC8BB19"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_eyes_are_back:e_ye_vedette"
+					id: "183C77756E6C0A74"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "eYe Vedette"
+			x: 1.3d
+			y: 9.2d
+			icon: "the_eyes_are_back:e_ye_vedette_spawn_egg"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "696FBD56CB32E634"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "5ECFDDBD51D18C0E"
+					stage: "abza_bestiary_t5_5"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "the_eyes_are_back:eye_squiggle"
+					id: "3629D175C2CCEA63"
+					title: "eYe Squiggle"
+					type: "kill"
+					value: 1L
+					icon: "the_eyes_are_back:eye_squiggle_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "the_eyes_are_back:e_ye_vedette"
+					id: "41006C9AD12DBD52"
+					title: "eYe Vedette"
+					type: "kill"
+					value: 1L
+					icon: "the_eyes_are_back:e_ye_vedette_spawn_egg"
+				}
+			]
+			title: "Bestiary 13 to 14"
+			x: 3.1d
+			y: 9.2d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "3BE6555535D9C829"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_eyes_are_back:eye_vedette_stage_2"
+					id: "59B6294D35C55206"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "eYe Vedette Growth"
+			x: 0.0d
+			y: 11.5d
+			icon: "the_eyes_are_back:eye_vedette_stage_2_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "37B11C6F103C8326"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_eyes_are_back:ender_e_yemination"
+					id: "1B3491C6C687F0F3"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Ender eYemination"
+			x: 1.3d
+			y: 11.5d
+			icon: "the_eyes_are_back:endere_yemination_spawn"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "634D8BB2CCFE952E"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_eyes_are_back:hyper_eye"
+					id: "516A36D416BCC22C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Hyper Eye"
+			x: 2.6d
+			y: 11.5d
+			icon: "the_eyes_are_back:hyper_eye_spawn_egg"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "5117C7CB330471C8"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "54389307D18026D7"
+					stage: "abza_bestiary_t5_6"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "the_eyes_are_back:eye_vedette_stage_2"
+					id: "5C2850409B926343"
+					title: "eYe Vedette Growth"
+					type: "kill"
+					value: 1L
+					icon: "the_eyes_are_back:eye_vedette_stage_2_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "the_eyes_are_back:ender_e_yemination"
+					id: "778AB0194DB57454"
+					title: "Ender eYemination"
+					type: "kill"
+					value: 1L
+					icon: "the_eyes_are_back:endere_yemination_spawn"
+				}
+				{
+					disable_toast: true
+					entity: "the_eyes_are_back:hyper_eye"
+					id: "3F650AD01AABD539"
+					title: "Hyper Eye"
+					type: "kill"
+					value: 1L
+					icon: "the_eyes_are_back:hyper_eye_spawn_egg"
+				}
+			]
+			title: "Bestiary 15 to 17"
+			x: 4.4d
+			y: 11.5d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "06DC60409B792B34"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_eyes_are_back:hyper_flying_eye"
+					id: "1133B37E1C104B65"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Hyper Flying eYe"
+			x: 0.0d
+			y: 13.8d
+			icon: "the_eyes_are_back:hyper_flying_eye_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "3B4FE5740232671A"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_eyes_are_back:eye_protector"
+					id: "252AFADAD83F2580"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "eYe Protector"
+			x: 1.3d
+			y: 13.8d
+			icon: "the_eyes_are_back:eye_protector_spawn_egg"
+		}
+		{
+			description: [
+				"Any of its forms counts."
+				""
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "3B67B8AAEC891FDD"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					id: "4C55B8CDE8CE8FC5"
+					stage: "abza_killed_the_eyes_are_back_eye_colony_stage_3"
+					title: "Kill a eYe Satellite in any form"
+					type: "gamestage"
+					icon: "the_eyes_are_back:eye_colony_stage_3_spawn_egg"
+				}
+			]
+			title: "eYe Satellite"
+			x: 2.6d
+			y: 13.8d
+			icon: "the_eyes_are_back:eye_colony_stage_3_spawn_egg"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "10E5F0AA4E8923A1"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "075CA905AD2E73A9"
+					stage: "abza_bestiary_t5_7"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "the_eyes_are_back:hyper_flying_eye"
+					id: "2923A503FD6F39A8"
+					title: "Hyper Flying eYe"
+					type: "kill"
+					value: 1L
+					icon: "the_eyes_are_back:hyper_flying_eye_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "the_eyes_are_back:eye_protector"
+					id: "11DC2A8AD9CA41D0"
+					title: "eYe Protector"
+					type: "kill"
+					value: 1L
+					icon: "the_eyes_are_back:eye_protector_spawn_egg"
+				}
+				{
+					disable_toast: true
+					id: "4B259821280CAC81"
+					stage: "abza_killed_the_eyes_are_back_eye_colony_stage_3"
+					title: "eYe Satellite"
+					type: "gamestage"
+					icon: "the_eyes_are_back:eye_colony_stage_3_spawn_egg"
+				}
+			]
+			title: "Bestiary 18 to 20"
+			x: 4.4d
+			y: 13.8d
+		}
+		{
+			description: [
+				"Any of its forms counts."
+				""
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "2689FD4C039A4047"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					id: "143443ECF402E7ED"
+					stage: "abza_killed_the_eyes_are_back_eye_tree_stage_3"
+					title: "Kill a eYe Tree in any form"
+					type: "gamestage"
+					icon: "the_eyes_are_back:eye_tree_stage_3_spawn"
+				}
+			]
+			title: "eYe Tree"
+			x: 0.0d
+			y: 16.1d
+			icon: "the_eyes_are_back:eye_tree_stage_3_spawn"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "0CF7E065D5742BFE"
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "Boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_eyes_are_back:crawling_ender_eyemination"
+					id: "6A9F62FF6BB5108D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Crawling Ender eYemination"
+			x: 1.3d
+			y: 16.1d
+			icon: "the_eyes_are_back:crawling_endere_yemination_spawn"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "2CF4B7B96F1274F6"
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "Boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_eyes_are_back:extreme_eye_humanoid"
+					id: "7E00D30BECE1DCEE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "EXTREME eYe Humanoid"
+			x: 2.6d
+			y: 16.1d
+			icon: "the_eyes_are_back:extreme_eye_humanoid_spawn_egg"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "5DD3A9DE09894210"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "1F890F775175CC06"
+					stage: "abza_bestiary_t5_8"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					id: "1AA81817E31C174E"
+					stage: "abza_killed_the_eyes_are_back_eye_tree_stage_3"
+					title: "eYe Tree"
+					type: "gamestage"
+					icon: "the_eyes_are_back:eye_tree_stage_3_spawn"
+				}
+				{
+					disable_toast: true
+					entity: "the_eyes_are_back:crawling_ender_eyemination"
+					id: "475FE9F637D589FD"
+					title: "Crawling Ender eYemination"
+					type: "kill"
+					value: 1L
+					icon: "the_eyes_are_back:crawling_endere_yemination_spawn"
+				}
+				{
+					disable_toast: true
+					entity: "the_eyes_are_back:extreme_eye_humanoid"
+					id: "13318BC40A038CE5"
+					title: "EXTREME eYe Humanoid"
+					type: "kill"
+					value: 1L
+					icon: "the_eyes_are_back:extreme_eye_humanoid_spawn_egg"
+				}
+			]
+			title: "Bestiary 21 to 23"
+			x: 4.4d
+			y: 16.1d
+		}
+	]
+	title: "Tier 5: Cinder"
+}

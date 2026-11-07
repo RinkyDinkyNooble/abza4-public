@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["##"],
+  "key": {"#": {"item": "the_eyes_are_back:seeping_moss"}},
+  "result": {"item": "the_eyes_are_back:eye_carpet", "count": 3}
+}

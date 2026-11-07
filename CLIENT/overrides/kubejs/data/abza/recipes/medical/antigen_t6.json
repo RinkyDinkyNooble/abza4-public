@@ -1,0 +1,15 @@
+{
+  "type": "mekanism:injecting",
+  "itemInput": {
+    "ingredient": {
+      "item": "the_flesh_that_hates:mutated_flesh"
+    }
+  },
+  "chemicalInput": {
+    "amount": 1,
+    "gas": "crafttweaker:digestive_acid"
+  },
+  "output": {
+    "item": "abza:antigen_t6"
+  }
+}

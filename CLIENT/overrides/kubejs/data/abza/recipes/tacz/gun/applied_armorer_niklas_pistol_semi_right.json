@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "superbwarfare:superb_material_pack"
+    },
+    {
+      "item": "superbwarfare:crystal_action"
+    },
+    {
+      "item": "superbwarfare:crystal_trigger"
+    },
+    {
+      "item": "phayriosisreborn:refined_plasma"
+    },
+    {
+      "item": "superbwarfare:crystal_barrel"
+    },
+    {
+      "item": "superbwarfare:crystal_spring"
+    }
+  ],
+  "result": {
+    "item": "tacz:modern_kinetic_gun",
+    "nbt": "{GunId:\"applied_armorer:niklas_pistol_semi_right\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:0,HideFlags:61}"
+  }
+}

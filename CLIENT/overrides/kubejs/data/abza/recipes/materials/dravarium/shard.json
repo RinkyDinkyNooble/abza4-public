@@ -1,0 +1,15 @@
+{
+  "type": "mekanism:injecting",
+  "chemicalInput": {
+    "amount": 1,
+    "gas": "mekanism:hydrogen_chloride"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "abza:dravarium_crystal"
+    }
+  },
+  "output": {
+    "item": "abza:dravarium_shard"
+  }
+}

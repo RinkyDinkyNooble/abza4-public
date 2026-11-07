@@ -1,0 +1,12 @@
+
+[hive]
+	#Mobs a Hive never takes into its storage when they despawn, so its swarms never bring them back.
+	#The Hive Heart and the Celestial Carrion are never stored anyway (they can't join swarms).
+	#Example: ["entomophobia:myiatic_cow"]
+	never_stored = []
+	#Ticks between two swarms a hurt Hive Heart sends out (20 ticks = 1 second).
+	#Entomophobia sends one on every hit while the Heart is under a fifth of its health or has fewer than 3 swarmers near it.
+	#0 = no cooldown, like Entomophobia without this patch.
+	#Range: 0 ~ 72000
+	retaliation_cooldown_ticks = 100
+

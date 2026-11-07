@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SDS",
+    "A2S",
+    "TMT"
+  ],
+  "key": {
+    "2": {
+      "item": "mekanism:advanced_energy_cube"
+    },
+    "A": {
+      "item": "superbwarfare:artillery_indicator"
+    },
+    "D": {
+      "item": "superbwarfare:medium_armament_module"
+    },
+    "M": {
+      "item": "superbwarfare:large_motor"
+    },
+    "S": {
+      "tag": "forge:storage_blocks/steel"
+    },
+    "T": {
+      "item": "superbwarfare:track"
+    }
+  },
+  "result": {
+    "item": "superbwarfare:container",
+    "nbt": "{BlockEntityTag:{EntityType:\"superbwarfare:bradley\",id:\"superbwarfare:container\"}}"
+  }
+}

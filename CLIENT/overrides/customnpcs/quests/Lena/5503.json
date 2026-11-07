@@ -1,0 +1,79 @@
+{
+    "Id": 5503,
+    "ModRev": 18,
+    "Type": 0,
+    "Title": "Lena's research: the core",
+    "Text": "Lena wants an Eye Core from one of Cinder's bosses.",
+    "CompleteText": "Warm. Not alive. (She won't hold it long.) I've written down what I think it is. I hope I'm wrong.",
+    "CompleterNpc": "Lena",
+    "NextQuestId": -1,
+    "RewardExp": 0,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "saros__money_mod:euro_50",
+                "Count": 1b
+            },
+            {
+                "Slot": 1b,
+                "id": "saros__money_mod:euro_20",
+                "Count": 1b
+            },
+            {
+                "Slot": 2b,
+                "id": "saros__money_mod:euro_10",
+                "Count": 1b
+            },
+            {
+                "Slot": 3b,
+                "id": "minecraft:written_book",
+                "Count": 1b,
+                "tag": {
+                    "title": "Field Notes: Cinder",
+                    "author": "Lena",
+                    "pages": [
+                        "{\"text\":\"The eye core is warm, and it isn't alive. It's a relay.\\n\\nI wrote 'transmitter' first. Then I crossed it out. I don't want it to be true.\"}"
+                    ],
+                    "resolved": 1b
+                }
+            }
+        ]
+    },
+    "QuestCommand": "",
+    "RandomReward": 0b,
+    "QuestCompletion": 0,
+    "QuestRepeat": 0,
+    "QuestFactionPoints": {
+        "OptionFactions1": 1,
+        "OptionFaction1Points": 50,
+        "DecreaseFaction1Points": 0b,
+        "OptionFactions2": -1,
+        "OptionFaction2Points": 0,
+        "DecreaseFaction2Points": 0b
+    },
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 0L
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "the_eyes_are_back:eye_core",
+                "Count": 1b
+            }
+        ]
+    },
+    "LeaveItems": 0b,
+    "IgnoreDamage": 1b,
+    "IgnoreNBT": 0b
+}

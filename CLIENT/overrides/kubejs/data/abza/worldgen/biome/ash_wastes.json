@@ -1,0 +1,78 @@
+{
+  "has_precipitation": false,
+  "temperature": 2.0,
+  "downfall": 0.0,
+  "effects": {
+    "sky_color": 2756104,
+    "fog_color": 3806218,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color": 6965818,
+    "foliage_color": 5913130,
+    "particle": {
+      "options": {
+        "type": "minecraft:ash"
+      },
+      "probability": 0.05
+    },
+    "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
+    "mood_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.additions",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "minecraft:music.nether.basalt_deltas",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    }
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "abza:planet/cinder/cave",
+      "abza:planet/cinder/cave_deep",
+      "abza:planet/cinder/canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "abza:planet/cinder/lava_lake"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "abza:planet/cinder/ore_ostrum",
+      "abza:planet/cinder/outcrop_ostrum"
+    ],
+    [
+      "abza:planet/cinder/amethyst_geode"
+    ],
+    [
+      "abza:planet/cinder/lava_spring"
+    ],
+    [
+      "abza:planet/cinder/withered"
+    ],
+    []
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "superbwarfare:high_energy_explosives"
+    },
+    {
+      "item": "mekanism:fluorite_gem"
+    }
+  ],
+  "result": {
+    "item": "tacz:ammo",
+    "count": 4,
+    "nbt": "{AmmoId:\"tacz:40mm\"}"
+  }
+}

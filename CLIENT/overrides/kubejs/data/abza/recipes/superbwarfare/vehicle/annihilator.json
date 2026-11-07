@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "UNU",
+    "FGF",
+    "S4S"
+  ],
+  "key": {
+    "4": {
+      "item": "mekanism:ultimate_energy_cube"
+    },
+    "F": {
+      "item": "phayriosisreborn:dravarium_495_ingot"
+    },
+    "G": {
+      "item": "spore:living_core"
+    },
+    "N": {
+      "tag": "forge:storage_blocks/netherite"
+    },
+    "S": {
+      "tag": "forge:storage_blocks/steel"
+    },
+    "U": {
+      "item": "superbwarfare:laser_unit"
+    }
+  },
+  "result": {
+    "item": "superbwarfare:container",
+    "nbt": "{BlockEntityTag:{EntityType:\"superbwarfare:annihilator\",id:\"superbwarfare:container\"}}"
+  }
+}

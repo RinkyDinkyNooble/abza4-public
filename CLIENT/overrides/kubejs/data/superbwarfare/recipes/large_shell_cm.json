@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "a": {
+      "item": "superbwarfare:cm_head"
+    },
+    "b": {
+      "item": "superbwarfare:grain"
+    },
+    "u": {
+      "item": "mekanism:fluorite_gem"
+    }
+  },
+  "pattern": [
+    "a",
+    "b",
+    "u"
+  ],
+  "result": {
+    "item": "superbwarfare:large_shell_cm"
+  },
+  "show_notification": true
+}

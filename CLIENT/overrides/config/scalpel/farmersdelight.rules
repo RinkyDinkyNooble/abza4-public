@@ -1,0 +1,76 @@
+# Farmer's Delight
+
+# Advancements
+remove advancement farmersdelight:*
+
+# Knives
+remove item farmersdelight:golden_knife
+remove item farmersdelight:netherite_knife
+hide item farmersdelight:flint_knife
+hide item farmersdelight:iron_knife
+hide item farmersdelight:diamond_knife
+
+# Kitchen
+hide any farmersdelight:stove
+hide any farmersdelight:cooking_pot
+hide any farmersdelight:skillet
+hide any farmersdelight:cutting_board
+
+# Cooking ingredients
+hide item farmersdelight:wheat_dough
+hide item farmersdelight:raw_pasta
+hide item farmersdelight:pie_crust
+hide item farmersdelight:tomato_sauce
+hide item farmersdelight:minced_beef
+hide item farmersdelight:beef_patty
+hide item farmersdelight:chicken_cuts
+hide item farmersdelight:cooked_chicken_cuts
+hide item farmersdelight:bacon
+hide item farmersdelight:cooked_bacon
+hide item farmersdelight:cod_slice
+hide item farmersdelight:cooked_cod_slice
+hide item farmersdelight:salmon_slice
+hide item farmersdelight:cooked_salmon_slice
+hide item farmersdelight:mutton_chops
+hide item farmersdelight:cooked_mutton_chops
+hide item farmersdelight:ham
+hide item farmersdelight:cabbage_leaf
+hide item farmersdelight:pumpkin_slice
+hide item farmersdelight:fried_egg
+hide item farmersdelight:milk_bottle
+
+# Slices
+hide item farmersdelight:cake_slice
+hide item farmersdelight:apple_pie_slice
+hide item farmersdelight:sweet_berry_cheesecake_slice
+hide item farmersdelight:chocolate_pie_slice
+hide item farmersdelight:pumpkin_pie_slice
+hide item farmersdelight:debug_pumpkin_pie
+
+# Nether salad
+hide item farmersdelight:nether_salad
+
+# Rice
+hide item farmersdelight:rice
+hide item farmersdelight:rice_panicle
+hide any farmersdelight:rice_bag
+hide any farmersdelight:rice_bale
+
+# Wild crops, sandy shrubs and mushroom colonies
+hide any farmersdelight:wild_*
+hide any farmersdelight:sandy_shrub
+hide any farmersdelight:*_mushroom_colony
+
+# Crimson and warped cabinets
+hide any farmersdelight:crimson_cabinet
+hide any farmersdelight:warped_cabinet
+
+# Farmland
+hide any farmersdelight:rich_soil_farmland
+
+# Animal food
+remove item farmersdelight:horse_feed
+remove item farmersdelight:dog_food
+
+# Tree bark
+remove item farmersdelight:tree_bark

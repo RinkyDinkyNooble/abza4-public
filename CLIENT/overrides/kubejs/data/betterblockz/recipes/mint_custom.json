@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "C": {
+      "item": "betterblockz:blockz_core"
+    },
+    "M": {
+      "item": "minecraft:lime_dye"
+    },
+    "S": {
+      "item": "betterblockz:blockz_core"
+    }
+  },
+  "pattern": [
+    "CSC",
+    "SMS",
+    "CSC"
+  ],
+  "result": {
+    "count": 8,
+    "item": "betterblockz:mint_blockz_0"
+  },
+  "show_notification": true
+}

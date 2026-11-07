@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crystallizing",
+  "chemicalType": "gas",
+  "input": {
+    "amount": 200,
+    "gas": "crafttweaker:chitin_extract"
+  },
+  "output": {
+    "item": "abza:chitin_gel"
+  }
+}

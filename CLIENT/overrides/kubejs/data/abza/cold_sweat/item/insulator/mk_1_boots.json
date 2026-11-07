@@ -1,0 +1,24 @@
+{
+  "type": "armor",
+  "item": {
+    "items": [
+      "trol_armor:mk_1_boots"
+    ]
+  },
+  "attributes": {
+    "cold_sweat:freezing_point": [
+      {
+        "name": "abza:mk_1_boots_cold",
+        "amount": -0.15,
+        "operation": "addition"
+      }
+    ],
+    "cold_sweat:burning_point": [
+      {
+        "name": "abza:mk_1_boots_heat",
+        "amount": 0.15,
+        "operation": "addition"
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "PGP",
+    "PLP",
+    " P "
+  ],
+  "key": {
+    "P": {
+      "item": "ad_astra:steel_plate"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "L": {
+      "item": "minecraft:lantern"
+    }
+  },
+  "result": {
+    "item": "lrtactical:flash_shield"
+  }
+}

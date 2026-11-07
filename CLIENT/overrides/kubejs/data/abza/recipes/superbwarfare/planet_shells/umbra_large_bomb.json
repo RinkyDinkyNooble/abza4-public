@@ -1,0 +1,18 @@
+{
+  "type": "mekanism:combining",
+  "mainInput": {
+    "ingredient": {
+      "item": "superbwarfare:large_aerial_bomb"
+    },
+    "amount": 1
+  },
+  "extraInput": {
+    "ingredient": {
+      "item": "phayriosisreborn:dravarium_495_ingot"
+    }
+  },
+  "output": {
+    "item": "abza:umbra_large_bomb",
+    "count": 1
+  }
+}

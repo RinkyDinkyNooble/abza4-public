@@ -1,0 +1,552 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bestiary_t3"
+	group: "182E303C40AEF1E1"
+	icon: "entomophobia:myiatic_cow_spawn"
+	id: "0DE3D1B82F605F8F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"It lives in the boss buildings of the Tier 3 region."
+				""
+				"Reward: +15 max health (7.5 hearts), kept for good, for everyone who dealt at least a tenth of its health. It's given at the kill; this quest then checks itself."
+			]
+			icon: "entomophobia:myiatic_cow_spawn"
+			id: "576C1C9B6F8E117B"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "+15 max health (7.5 hearts)"
+			tasks: [
+				{
+					icon: "entomophobia:myiatic_cow_spawn"
+					id: "4E1645EFFE80D536"
+					stage: "abza_final_t3"
+					title: "Defeat the Myiatic Cow"
+					type: "gamestage"
+				}
+			]
+			title: "Defeat the Myiatic Cow"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "04620877536A8573"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "entomophobia:centipede_pest"
+					id: "191D08F5B1CD6A0F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Centipede"
+			x: 0.0d
+			y: 0.0d
+			icon: "entomophobia:centipede_spawn"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "531F6A6181E1C48C"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "entomophobia:cockroach_pest"
+					id: "0A83BE4774E562FB"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Cockroach"
+			x: 1.3d
+			y: 0.0d
+			icon: "entomophobia:cockroach_spawn"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "4F36413BF01CBDD3"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "4C4EA3B151BB3E43"
+					stage: "abza_bestiary_t3_1"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "entomophobia:centipede_pest"
+					id: "3519EDEBEFB7D0D2"
+					title: "Centipede"
+					type: "kill"
+					value: 1L
+					icon: "entomophobia:centipede_spawn"
+				}
+				{
+					disable_toast: true
+					entity: "entomophobia:cockroach_pest"
+					id: "467AC5530B11E6E7"
+					title: "Cockroach"
+					type: "kill"
+					value: 1L
+					icon: "entomophobia:cockroach_spawn"
+				}
+			]
+			title: "Bestiary 1 to 2"
+			x: 3.1d
+			y: 0.0d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "560CC6A9B226C440"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "entomophobia:grub_pest"
+					id: "5D416EE5405BD621"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Grub"
+			x: 0.0d
+			y: 2.3d
+			icon: "entomophobia:grub_spawn"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "754E2D8344BBBEB9"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "entomophobia:myiatic_chicken"
+					id: "52A6D25B795F707A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Myiatic Chicken"
+			x: 1.3d
+			y: 2.3d
+			icon: "entomophobia:myiatic_chicken_spawn"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "5526E2327281D537"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "entomophobia:myiatic_creeper"
+					id: "165D9458F3314007"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Myiatic Creeper"
+			x: 2.6d
+			y: 2.3d
+			icon: "entomophobia:myiatic_creeper_spawn"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "7320D9CB7207D8C5"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "57EAEDFBDFD053E8"
+					stage: "abza_bestiary_t3_2"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "entomophobia:grub_pest"
+					id: "75AA356FD1925AE6"
+					title: "Grub"
+					type: "kill"
+					value: 1L
+					icon: "entomophobia:grub_spawn"
+				}
+				{
+					disable_toast: true
+					entity: "entomophobia:myiatic_chicken"
+					id: "640110F9FAD4823F"
+					title: "Myiatic Chicken"
+					type: "kill"
+					value: 1L
+					icon: "entomophobia:myiatic_chicken_spawn"
+				}
+				{
+					disable_toast: true
+					entity: "entomophobia:myiatic_creeper"
+					id: "5CFEF0CA14A72D03"
+					title: "Myiatic Creeper"
+					type: "kill"
+					value: 1L
+					icon: "entomophobia:myiatic_creeper_spawn"
+				}
+			]
+			title: "Bestiary 3 to 5"
+			x: 4.4d
+			y: 2.3d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "38E3A178B634F19F"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "entomophobia:myiatic_pig"
+					id: "6415A50196220C9F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Myiatic Pig"
+			x: 0.0d
+			y: 4.6d
+			icon: "entomophobia:myiatic_pig_spawn"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "580BD5EEBBD13200"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "entomophobia:myiatic_sheep"
+					id: "1318470876E2BFD2"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Myiatic Sheep"
+			x: 1.3d
+			y: 4.6d
+			icon: "entomophobia:myiatic_sheep_spawn"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "164D7124507D8879"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "1DB2C419DA6A66FC"
+					stage: "abza_bestiary_t3_3"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "entomophobia:myiatic_pig"
+					id: "6AADEAA1EE74FA84"
+					title: "Myiatic Pig"
+					type: "kill"
+					value: 1L
+					icon: "entomophobia:myiatic_pig_spawn"
+				}
+				{
+					disable_toast: true
+					entity: "entomophobia:myiatic_sheep"
+					id: "54A686AEE03A9A11"
+					title: "Myiatic Sheep"
+					type: "kill"
+					value: 1L
+					icon: "entomophobia:myiatic_sheep_spawn"
+				}
+			]
+			title: "Bestiary 6 to 7"
+			x: 3.1d
+			y: 4.6d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "6FF0834423EC2CCC"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "entomophobia:myiatic_spider"
+					id: "343776ED5DF8895B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Myiatic Spider"
+			x: 0.0d
+			y: 6.9d
+			icon: "entomophobia:myiatic_spider_spawn"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "0146374F0A8DBDD8"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "entomophobia:myiatic_zombie"
+					id: "7ADF8DA62703DCD4"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Myiatic Zombie"
+			x: 1.3d
+			y: 6.9d
+			icon: "entomophobia:myiatic_zombie_spawn"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "0D7E48C7DF203C9E"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "entomophobia:spider_pest"
+					id: "2D50632FF8F77786"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Pest Spider"
+			x: 2.6d
+			y: 6.9d
+			icon: "entomophobia:spider_pest_spawn"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "38959BBB80702106"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "69CD88DF602ADF5D"
+					stage: "abza_bestiary_t3_4"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "entomophobia:myiatic_spider"
+					id: "61254AB39F4EB2BA"
+					title: "Myiatic Spider"
+					type: "kill"
+					value: 1L
+					icon: "entomophobia:myiatic_spider_spawn"
+				}
+				{
+					disable_toast: true
+					entity: "entomophobia:myiatic_zombie"
+					id: "6D184550BFF0D392"
+					title: "Myiatic Zombie"
+					type: "kill"
+					value: 1L
+					icon: "entomophobia:myiatic_zombie_spawn"
+				}
+				{
+					disable_toast: true
+					entity: "entomophobia:spider_pest"
+					id: "68BC441177B3D343"
+					title: "Pest Spider"
+					type: "kill"
+					value: 1L
+					icon: "entomophobia:spider_pest_spawn"
+				}
+			]
+			title: "Bestiary 8 to 10"
+			x: 4.4d
+			y: 6.9d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "02872B9A46E3CCDD"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "entomophobia:celestial_carrion"
+					id: "5E002182C7BC73F9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Celestial Carrion"
+			x: 0.0d
+			y: 9.2d
+			icon: "abza:bestiary_entomophobia_celestial_carrion"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "4B4B59C6C943761D"
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "Boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "entomophobia:hive_heart"
+					id: "541BCF76BC47495F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Hive Heart"
+			x: 1.3d
+			y: 9.2d
+			icon: "abza:bestiary_entomophobia_hive_heart"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "5DF32814679C8AB0"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "48DBAA33A2649844"
+					stage: "abza_bestiary_t3_5"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "entomophobia:celestial_carrion"
+					id: "79FE1BE8CED216DB"
+					title: "Celestial Carrion"
+					type: "kill"
+					value: 1L
+					icon: "abza:bestiary_entomophobia_celestial_carrion"
+				}
+				{
+					disable_toast: true
+					entity: "entomophobia:hive_heart"
+					id: "7D7DAFE6BE6E4FD1"
+					title: "Hive Heart"
+					type: "kill"
+					value: 1L
+					icon: "abza:bestiary_entomophobia_hive_heart"
+				}
+			]
+			title: "Bestiary 11 to 12"
+			x: 3.1d
+			y: 9.2d
+		}
+	]
+	title: "Tier 3: The Badlands"
+}

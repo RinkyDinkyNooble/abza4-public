@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["AFA", "FHF", "AFA"],
+  "key": {
+    "A": {"item": "spore:armor_fragment"},
+    "F": {"item": "spore:mutated_fiber"},
+    "H": {"item": "spore:mutated_heart"}
+  },
+  "result": {"item": "spore:living_core"}
+}

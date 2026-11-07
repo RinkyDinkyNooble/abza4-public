@@ -1,0 +1,20 @@
+{
+  "priority": 10,
+  "provider": {
+    "type": "obscure_tooltips:literal",
+    "text": "§dEpic"
+  },
+  "filter": {
+    "type": "obscure_tooltips:any_of",
+    "terms": [
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{abza_hook:\"abza:rocket\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
+        "nbt": "{abza_hook:\"abza:dual_rocket\"}"
+      }
+    ]
+  }
+}

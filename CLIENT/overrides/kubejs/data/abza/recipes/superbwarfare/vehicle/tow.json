@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RAB",
+    " Y "
+  ],
+  "key": {
+    "A": {
+      "item": "superbwarfare:artillery_indicator"
+    },
+    "B": {
+      "item": "superbwarfare:mortar_barrel"
+    },
+    "R": {
+      "item": "superbwarfare:steel_action"
+    },
+    "Y": {
+      "item": "superbwarfare:mortar_bipod"
+    }
+  },
+  "result": {
+    "item": "superbwarfare:container",
+    "nbt": "{BlockEntityTag:{EntityType:\"superbwarfare:tow\",id:\"superbwarfare:container\"}}"
+  }
+}

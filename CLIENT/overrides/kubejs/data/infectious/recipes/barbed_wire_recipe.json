@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["# #", " # ", "# #"],
+  "key": {"#": {"item": "minecraft:iron_nugget"}},
+  "result": {"item": "infectious:barbed_wire", "count": 4}
+}

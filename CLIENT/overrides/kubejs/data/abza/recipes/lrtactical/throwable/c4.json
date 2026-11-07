@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "superbwarfare:high_energy_explosives"
+    },
+    {
+      "item": "superbwarfare:high_energy_explosives"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "mekanism:fluorite_gem"
+    },
+    {
+      "item": "mekanism:basic_control_circuit"
+    }
+  ],
+  "result": {
+    "item": "lrtactical:throwable",
+    "count": 1,
+    "nbt": "{ThrowableId:\"lrtactical:c4\"}"
+  }
+}

@@ -1,0 +1,238 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "guide_mining"
+	group: "2823A29698F90E67"
+	icon: "minecraft:iron_pickaxe"
+	id: "4DD2D1ECDC6C4DEA"
+	order_index: 4
+	images: [
+		{
+			height: 6.91d
+			image: "abza:textures/quests/ores_earth.png"
+			rotation: 0.0d
+			width: 16.0d
+			x: 7.0d
+			y: 6.0d
+		}
+	]
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Ores grow only on &ecave surfaces&r in the &ewilds&r, never under cities. &cStrip-mining finds little.&r"
+				""
+				"Each ore is richest in its home region, rarer in later ones, and &cabsent from earlier ones&r."
+				""
+				"The chart below this quest shows every Earth ore's heights. &6Gold frame&r: a region's signature ore."
+			]
+			disable_toast: true
+			icon: "minecraft:iron_pickaxe"
+			id: "67F7E8874F1BDDDF"
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "160B5516F7CB930D"
+					title: "Got it"
+					type: "checkmark"
+					disable_toast: true
+				}
+			]
+			title: "Mining"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"67F7E8874F1BDDDF"
+			]
+			description: [
+				"&eCoal&r: y 0 to 192"
+				"&eIron&r: y -24 to 128"
+				"&eCopper&r: y -16 to 112"
+				"&eTin&r: y -16 to 96"
+				"&eOsmium&r: y -24 to 96"
+				"&eRedstone&r: y -64 to 32"
+				"&eLapis&r: y -48 to 32"
+				"&eGold&r: y -48 to 32"
+			]
+			icon: "mekanism:raw_osmium"
+			id: "765BF2AD8609A47E"
+			tasks: [
+				{
+					id: "3DEB0102CD3432F4"
+					item: "mekanism:raw_osmium"
+					type: "item"
+				}
+			]
+			title: "Tier 1: the Plains"
+			x: 3.5d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"67F7E8874F1BDDDF"
+			]
+			description: [
+				"&6&lDiamond&r: y -64 to 0"
+				"&eEmerald&r: y 32 to 256"
+				"&eLead&r: y -32 to 64"
+				"&eSilver&r: y -48 to 48"
+				"&eScheelite&r: y -48 to 48"
+			]
+			icon: "minecraft:diamond"
+			id: "468F8905171B4658"
+			tasks: [
+				{
+					id: "7AA3B152010EAEE3"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			title: "Tier 2: the Snow"
+			x: 7.0d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"67F7E8874F1BDDDF"
+			]
+			description: [
+				"&6&lAncient debris&r: y -64 to -16"
+				"&6&lUranium&r: y -64 to 8"
+				"&eGold&r: y -32 to 96"
+				"&eGlowstone&r: y -48 to 32"
+				"&eFluorite&r: y -48 to 16"
+			]
+			icon: "minecraft:ancient_debris"
+			id: "5D15A8F583ED0BC0"
+			tasks: [
+				{
+					id: "32E31BD0A02AEB12"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+			]
+			title: "Tier 3: the Badlands"
+			x: 10.5d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"67F7E8874F1BDDDF"
+			]
+			description: [
+				"&6&lDesh&r: y -64 to 80"
+				"&eIce shard&r: y -48 to 48"
+				"&eIron&r: y -32 to 96"
+			]
+			icon: "ad_astra:raw_desh"
+			id: "76E1EC44EDD97871"
+			optional: true
+			tasks: [
+				{
+					id: "0468E2B9FA668D45"
+					item: "ad_astra:raw_desh"
+					type: "item"
+				}
+			]
+			title: "Tier 4: the Moon"
+			x: 14.0d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"67F7E8874F1BDDDF"
+			]
+			description: [
+				"&6&lOstrum&r: y -40 to 64"
+				""
+				"Amethyst grows in geodes."
+			]
+			icon: "ad_astra:raw_ostrum"
+			id: "20E332A45F33FC6F"
+			optional: true
+			tasks: [
+				{
+					id: "24CF2AF8AC634AFE"
+					item: "ad_astra:raw_ostrum"
+					type: "item"
+				}
+			]
+			title: "Tier 5: Cinder"
+			x: 3.5d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"67F7E8874F1BDDDF"
+			]
+			description: [
+				"&6&lCalorite&r: y -64 to 32"
+				"&eBiometal&r: y -48 to 96"
+				"&eCoal&r: y 0 to 192"
+			]
+			icon: "ad_astra:raw_calorite"
+			id: "2137C7F96DEF26E3"
+			optional: true
+			tasks: [
+				{
+					id: "01803E150D783755"
+					item: "ad_astra:raw_calorite"
+					type: "item"
+				}
+			]
+			title: "Tier 6: Eden"
+			x: 7.0d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"67F7E8874F1BDDDF"
+			]
+			description: [
+				"&6&lDravarium-495&r: y -64 to 8"
+				"&ePlutonium&r: y -48 to 64"
+				"&ePlasma&r: y -64 to 24"
+				"&eCrimsonscale&r: y -32 to 64"
+				"&eMeteoric rock&r: y -16 to 128"
+			]
+			icon: "phayriosisreborn:unrefined_dravarium_495"
+			id: "17A013DC9169C6DD"
+			optional: true
+			tasks: [
+				{
+					id: "62BCB655BA4DD777"
+					item: "phayriosisreborn:unrefined_dravarium_495"
+					type: "item"
+				}
+			]
+			title: "Tier 7: Umbra"
+			x: 10.5d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"67F7E8874F1BDDDF"
+			]
+			description: [
+				"Every ore of the Plains, the Snow and the Badlands, at &e2×&r Earth's rate. No metal of its own."
+			]
+			icon: "minecraft:raw_iron"
+			id: "73B93913FB059C64"
+			optional: true
+			tasks: [
+				{
+					id: "0009073268D31302"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+			]
+			title: "Tier 8: Interloper"
+			x: 14.0d
+			y: 1.75d
+		}
+	]
+	title: "Mining"
+}

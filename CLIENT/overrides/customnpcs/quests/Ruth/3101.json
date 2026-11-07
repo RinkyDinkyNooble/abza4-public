@@ -1,0 +1,59 @@
+{
+    "Id": 3101,
+    "ModRev": 18,
+    "Type": 0,
+    "Title": "The Badlands' antigen",
+    "Text": "Ruth wants to see the Badlands' antigen, made from a Badlands mini-boss's tissue. Show it to her on Prospero.",
+    "CompleteText": "Three regions, three strains. (She lines the vials up.) It adapts. So do we. That's the only race that matters.",
+    "CompleterNpc": "Ruth",
+    "NextQuestId": -1,
+    "RewardExp": 0,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "lrtactical:consumable",
+                "Count": 1b,
+                "tag": {
+                    "ConsumableId": "abza:blood_pack"
+                }
+            }
+        ]
+    },
+    "QuestCommand": "",
+    "RandomReward": 0b,
+    "QuestCompletion": 0,
+    "QuestRepeat": 0,
+    "QuestFactionPoints": {
+        "OptionFactions1": 0,
+        "OptionFaction1Points": 50,
+        "DecreaseFaction1Points": 0b,
+        "OptionFactions2": -1,
+        "OptionFaction2Points": 0,
+        "DecreaseFaction2Points": 0b
+    },
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 0L
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "abza:antigen_t3",
+                "Count": 1b
+            }
+        ]
+    },
+    "LeaveItems": 1b,
+    "IgnoreDamage": 1b,
+    "IgnoreNBT": 0b
+}

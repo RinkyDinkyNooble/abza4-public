@@ -1,0 +1,7 @@
+# Sophisticated Backpacks
+
+# Advancements
+remove advancement sophisticatedbackpacks:*
+
+# Recipes
+remove recipe sophisticatedbackpacks:iron_backpack

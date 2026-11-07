@@ -1,0 +1,16 @@
+{
+  "type": "forge:remove_spawns",
+  "biomes": "#abza:umbra",
+  "entity_types": [
+    "phayriosisreborn:converted_bee",
+    "phayriosisreborn:converted_chicken",
+    "phayriosisreborn:converted_frog",
+    "phayriosisreborn:converted_pig",
+    "phayriosisreborn:converted_rabbit",
+    "phayriosisreborn:converted_sheep",
+    "phayriosisreborn:converted_cow",
+    "phayriosisreborn:converted_creeper",
+    "phayriosisreborn:converted_skeleton",
+    "phayriosisreborn:converted_wolf"
+  ]
+}

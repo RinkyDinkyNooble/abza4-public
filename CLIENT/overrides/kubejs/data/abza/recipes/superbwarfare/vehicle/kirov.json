@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "wPw",
+    "HSH",
+    "M3M"
+  ],
+  "key": {
+    "3": {
+      "item": "mekanism:elite_energy_cube"
+    },
+    "H": {
+      "item": "superbwarfare:heavy_armament_module"
+    },
+    "M": {
+      "item": "superbwarfare:large_motor"
+    },
+    "P": {
+      "item": "superbwarfare:large_propeller"
+    },
+    "S": {
+      "tag": "forge:storage_blocks/steel"
+    },
+    "w": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "result": {
+    "item": "superbwarfare:container",
+    "nbt": "{BlockEntityTag:{EntityType:\"superbwarfare:kirov\",id:\"superbwarfare:container\"}}"
+  }
+}
