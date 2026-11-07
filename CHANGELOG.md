@@ -1,8 +1,6 @@
 # Changelog
 
-## [4.0.0-prealpha] CLIENT - unreleased
-
-A rebuild of the pack from 3.0.1. **Start a new world.**
+## [4.0.0-prealpha] CLIENT
 
 ### New
 - Eight tiers across Earth, the Moon and four new worlds, each with its own creatures, final boss, ores, climate and affliction.
