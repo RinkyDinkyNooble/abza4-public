@@ -1,3 +1,22 @@
 /research
 .claude
-mods
+
+# Server pack: mods come from CurseForge, never from git
+/SERVER/mods/
+
+# Server pack: what a test run of the server writes
+/SERVER/libraries/
+/SERVER/world/
+/SERVER/logs/
+/SERVER/crash-reports/
+/SERVER/*.jar
+/SERVER/run.bat
+/SERVER/run.sh
+/SERVER/user_jvm_args.txt
+/SERVER/eula.txt
+/SERVER/usercache.json
+/SERVER/usernamecache.json
+/SERVER/ops.json
+/SERVER/whitelist.json
+/SERVER/banned-*.json
+/SERVER/serverconfig/
