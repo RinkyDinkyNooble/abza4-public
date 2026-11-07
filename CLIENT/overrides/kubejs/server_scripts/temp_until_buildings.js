@@ -4,6 +4,8 @@
 // - mini-bosses, bosses and final bosses drop finds from their region's loot; commons sometimes do
 // - the Badlands' final boss drops two Alien Navigation Cores, its bosses sometimes one
 // - Lost Cities' own chests roll each region's loot
+// - the first time a player is in a region (the Moon included), its traders and guards for hire make camp nearby,
+//   once per world, and chat gives everyone its place
 
 const $AbzaTempEntityType = Java.loadClass('net.minecraft.world.entity.EntityType')
 const $AbzaTempMob = Java.loadClass('net.minecraft.world.entity.Mob')
@@ -13,6 +15,7 @@ const $AbzaTempHeightmapTypes = Java.loadClass('net.minecraft.world.level.levelg
 const $AbzaTempItemEntity = Java.loadClass('net.minecraft.world.entity.item.ItemEntity')
 const $AbzaTempBlockPos = Java.loadClass('net.minecraft.core.BlockPos')
 const $AbzaTempDamageTags = Java.loadClass('net.minecraft.tags.DamageTypeTags')
+const $AbzaTempTagParser = Java.loadClass('net.minecraft.nbt.TagParser')
 
 const ABZA_TEMP = {
     encounterSeconds: 900,      // time in a region between encounters
@@ -29,6 +32,42 @@ const ABZA_TEMP = {
     coreBossChance: 0.25,
     regionNames: { 1: 'the Plains', 2: 'the Snow', 3: 'the Badlands', 5: 'Cinder', 6: 'Eden', 7: 'Umbra', 8: 'Interloper' }
 }
+
+// Each region's camp: its chat line, then the /spawnNPC options of each NPC in it
+const ABZA_TEMP_FIELD = (tier) => [
+    { skin: 'survivor', name: 'random', title: 'Trader', faction: 1, market: `survivor_t${tier}`, respawn: 300 },
+    { skin: 'survivor', name: 'random', title: 'Grocer', faction: 1, market: `food_t${tier}`, respawn: 300 },
+    { skin: 'survivor', name: 'random', title: 'Supplier', faction: 1, market: `materials_t${tier}`, respawn: 300 }
+]
+const ABZA_TEMP_JOINT = (planet, lenaPage) => [
+    lenaPage ? { cast: 'lena', dialogs: `lena_${planet}`, lines: 'lena_camp', market: lenaPage } : { cast: 'lena', dialogs: `lena_${planet}`, lines: 'lena_camp' },
+    { cast: 'bello', dialogs: 'bello_camp', lines: 'camp' },
+    { skin: 'corps', name: 'random', title: 'Quartermaster', faction: 2, market: `camp_${planet}`, dialogs: 'quartermaster', lines: 'camp', respawn: 300 },
+    { skin: 'survivor', name: 'random', title: 'Quartermaster', faction: 1, market: `rations_${planet}`, dialogs: 'quartermaster', lines: 'camp', respawn: 300 },
+    { skin: 'corps', name: 'random', faction: 2, kit: 'corps_rifle', hire: 1, dialogs: 'hire_corps', lines: 'camp', respawn: 300 }
+]
+const ABZA_TEMP_CAMPS = {
+    1: { line: 'Survivors are trading nearby', npcs: ABZA_TEMP_FIELD(1) },
+    2: { line: "Lena's camp is nearby", npcs: [
+        { cast: 'lena', dialogs: 'lena', lines: 'lena', market: 'lena_t2' },
+        { skin: 'survivor', name: 'random', title: 'Quartermaster', faction: 1, market: 'camp_t2', dialogs: 'quartermaster', lines: 'survivor_t2', respawn: 300 },
+        { skin: 'survivor', name: 'random', faction: 1, kit: 'survivor_guard', hire: 1, dialogs: 'hire_survivors', lines: 'survivor_t2', respawn: 300 }
+    ].concat(ABZA_TEMP_FIELD(2)) },
+    3: { line: 'The Free Air Corps have landed nearby', npcs: [
+        { cast: 'bello', dialogs: 'bello', lines: 'bello', market: 'bello_arms' },
+        { skin: 'corps', name: 'random', faction: 2, kit: 'corps_rifle', hire: 1, dialogs: 'hire_corps', lines: 'corps', respawn: 300 }
+    ].concat(ABZA_TEMP_FIELD(3)) },
+    4: { line: 'Station Crew are nearby', npcs: [
+        { cast: 'paz', dialogs: 'paz', lines: 'paz', market: 'paz_supplies' },
+        { skin: 'crew', name: 'random', faction: 3, kit: 'crew_guard', hire: 1, dialogs: 'hire_crew', lines: 'crew', respawn: 300 }
+    ] },
+    5: { line: 'A joint camp is nearby', npcs: ABZA_TEMP_JOINT('cinder', null) },
+    6: { line: 'A joint camp is nearby', npcs: ABZA_TEMP_JOINT('eden', 'lena_eden') },
+    7: { line: 'A joint camp is nearby', npcs: ABZA_TEMP_JOINT('umbra', 'lena_umbra') },
+    8: { line: 'A joint camp is nearby', npcs: ABZA_TEMP_JOINT('interloper', 'lena_interloper_1') }
+}
+// Where a camp's NPCs stand around its middle, in blocks
+const ABZA_TEMP_CAMP_SPOTS = [[0, 0], [3, 0], [-3, 0], [0, 3], [0, -3], [3, 3], [-3, -3], [3, -3]]
 
 // A weighted pick from the region's loot categories (ABZA_LOOT), as a stack, or null
 function abzaTempFind(categories, tier) {
@@ -110,10 +149,48 @@ function abzaTempEncounter(player, region, data) {
     return id && abzaTempSpawn(player, id, pos) ? id : null
 }
 
-// Time in each fought region, counted per player every second; an encounter every 15 minutes of it
+// The region a player is in for camps: a fought region, or 4 on the Moon
+function abzaTempCampRegion(player) {
+    var region = abzaPlayerRegion(player)
+    if (region) return region
+    return String(player.level.getDimension()) == 'ad_astra:moon' ? 4 : 0
+}
+
+// A region's camp around a spot near the player, its NPCs as /spawnNPC places them; the spot, or null
+function abzaTempCamp(player, region) {
+    var camp = ABZA_TEMP_CAMPS[region]
+    var middle = camp ? abzaTempSpot(player) : null
+    if (!middle) return null
+    var level = player.serverLevel()
+    camp.npcs.forEach((npc, i) => {
+        var spot = ABZA_TEMP_CAMP_SPOTS[i % ABZA_TEMP_CAMP_SPOTS.length]
+        var x = middle.getX() + spot[0], z = middle.getZ() + spot[1]
+        var y = level.getHeight($AbzaTempHeightmapTypes.MOTION_BLOCKING_NO_LEAVES, x, z)
+        if (!level.getFluidState(new $AbzaTempBlockPos(x, y - 1, z)).isEmpty()) {
+            x = middle.getX(); y = middle.getY(); z = middle.getZ()
+        }
+        var snbt = '{' + Object.keys(npc).map(key => key + ':' + (typeof npc[key] == 'string' ? '"' + npc[key] + '"' : npc[key])).join(',') + '}'
+        var result = abzaSpawnNpcAt(level, x + 0.5, y, z + 0.5, 1, 'template_armed', $AbzaTempTagParser.parseTag(snbt))
+        if (typeof result == 'string') console.warn(`temp_until_buildings.js: camp ${region}: ${result} (${snbt})`)
+    })
+    player.server.runCommandSilent(`tellraw @a {"text":"${camp.line}: ${middle.getX()}, ${middle.getZ()}.","color":"green"}`)
+    return middle
+}
+
+// Time in each fought region, counted per player every second; an encounter every 15 minutes of it. A region's camp
+// is made the first time anyone is there.
 PlayerEvents.tick(event => {
     var player = event.player
     if (player.tickCount % 20 != 0 || player.isCreative() || player.isSpectator()) return
+    var campRegion = abzaTempCampRegion(player)
+    if (ABZA_TEMP_CAMPS[campRegion]) {
+        var world = player.server.persistentData
+        var camps = world.getCompound('abza_temp_camps')
+        if (!camps.contains(String(campRegion)) && abzaTempCamp(player, campRegion)) {
+            camps.putBoolean(String(campRegion), true)
+            world.put('abza_temp_camps', camps)
+        }
+    }
     var region = abzaPlayerRegion(player)
     if (!ABZA_TEMP.regionNames[region]) return
     var root = player.getPersistentData()
@@ -154,7 +231,8 @@ LootJS.modifiers(event => {
         ['explosives', [0, 1]], ['armour', [0, 1]], ['farming', [0, 1]], ['defence', [0, 1]]])
 })
 
-// /abzatemp encounter: an encounter now where the player stands; /abzatemp final: its region's final boss now
+// /abzatemp encounter: an encounter now where the player stands; /abzatemp final: its region's final boss now;
+// /abzatemp camp: the region's camp again, near the player
 ServerEvents.commandRegistry(event => {
     var Commands = event.commands
     var run = (ctx, final) => {
@@ -175,7 +253,19 @@ ServerEvents.commandRegistry(event => {
         player.tell(id ? `Spawned ${id}.` : 'Nothing spawned: no dry, loaded ground 24 to 40 blocks away.')
         return id ? 1 : 0
     }
+    var camp = ctx => {
+        var player = ctx.source.getPlayerOrException()
+        var region = abzaTempCampRegion(player)
+        if (!ABZA_TEMP_CAMPS[region]) {
+            player.tell('No camp here.')
+            return 0
+        }
+        if (abzaTempCamp(player, region)) return 1
+        player.tell('No camp: no dry, loaded ground 24 to 40 blocks away.')
+        return 0
+    }
     event.register(Commands.literal('abzatemp').requires(source => source.hasPermission(2))
         .then(Commands.literal('encounter').executes(ctx => run(ctx, false)))
-        .then(Commands.literal('final').executes(ctx => run(ctx, true))))
+        .then(Commands.literal('final').executes(ctx => run(ctx, true)))
+        .then(Commands.literal('camp').executes(ctx => camp(ctx))))
 })
