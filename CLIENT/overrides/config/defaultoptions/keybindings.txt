@@ -216,7 +216,7 @@ key_key.prionmod.increase_phase:key.keyboard.unknown:NONE
 key_key.tacz.inspect.desc:key.keyboard.h:NONE
 key_key.tacz.reload.desc:key.keyboard.r:NONE
 key_key.tacz.shoot.desc:key.mouse.left:NONE
-key_key.tacz.interact.desc:key.keyboard.unknown:NONE
+key_key.tacz.interact.desc:key.keyboard.left.alt:NONE
 key_key.tacz.fire_select.desc:key.keyboard.l:NONE
 key_key.tacz.aim.desc:key.mouse.right:NONE
 key_key.tacz.crawl.desc:key.keyboard.unknown:NONE
