@@ -524,7 +524,7 @@
     {
       "projectID": 1745261,
       "fileID": 9282983,
-      "required": false,
+      "required": true,
       "isLocked": false
     },
     {
