@@ -265,3 +265,10 @@ ServerEvents.commandRegistry(event => {
         .then(Commands.literal('final').executes(ctx => run(ctx, true)))
         .then(Commands.literal('camp').executes(ctx => camp(ctx))))
 })
+
+// Every chest Lost Cities places
+LootJS.modifiers(event => {
+    abzaRegionLoot(event, /^(lostcities|minecraft):chests\/.*/, [['food', [1, 3]], ['medical', [0, 2]], ['ammo', [1, 2]],
+        ['materials', [1, 3]], ['gear', [0, 1]], ['parts', [0, 1]], ['guns', [0, 1]], ['attachments', [0, 1]],
+        ['explosives', [0, 1]], ['armour', [0, 1]], ['farming', [0, 1]], ['defence', [0, 1]]])
+})
