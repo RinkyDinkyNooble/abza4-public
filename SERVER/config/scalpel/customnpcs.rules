@@ -1,0 +1,5 @@
+# CustomNPCs
+
+# Carpentry bench and mailboxes
+hide any customnpcs:npccarpentybench
+hide any customnpcs:npcmailbox*

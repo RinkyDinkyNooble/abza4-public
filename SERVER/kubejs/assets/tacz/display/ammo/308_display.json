@@ -1,0 +1,8 @@
+{
+  "slot": "tacz:ammo/slot/308",
+  "tracer_color": "#FF9999",
+  "shell": {
+    "model": "tacz:shell/308_shell",
+    "texture": "tacz:shell/308_shell"
+  }
+}

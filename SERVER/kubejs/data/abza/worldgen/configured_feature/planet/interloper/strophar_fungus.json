@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:huge_fungus",
+  "config": {
+    "decor_state": {
+      "Name": "ad_astra:strophar_cap"
+    },
+    "hat_state": {
+      "Name": "ad_astra:strophar_cap"
+    },
+    "stem_state": {
+      "Name": "ad_astra:strophar_stem"
+    },
+    "valid_base_block": {
+      "Name": "spore:biomass_block"
+    },
+    "planted": false,
+    "replaceable_blocks": {
+      "type": "minecraft:matching_blocks",
+      "blocks": [
+        "minecraft:air"
+      ]
+    }
+  }
+}

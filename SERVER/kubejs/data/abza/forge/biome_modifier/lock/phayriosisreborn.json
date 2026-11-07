@@ -1,0 +1,8 @@
+{
+  "type": "forge:remove_spawns",
+  "biomes": {
+    "type": "forge:not",
+    "value": "#abza:umbra"
+  },
+  "entity_types": "#abza:locked/phayriosisreborn"
+}

@@ -1,0 +1,11 @@
+# Saro's Money
+
+# Recipes
+remove recipe saros__money_mod:*
+
+# Wallets
+redact item saros__money_mod:wallet*
+
+# Banker table and the second ATM
+hide any saros__money_mod:banker
+hide any saros__money_mod:atm_2

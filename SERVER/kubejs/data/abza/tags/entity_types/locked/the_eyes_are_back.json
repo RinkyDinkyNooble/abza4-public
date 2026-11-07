@@ -1,0 +1,136 @@
+{
+  "values": [
+    {
+      "id": "the_eyes_are_back:big_eye_meteor",
+      "required": false
+    },
+    {
+      "id": "the_eyes_are_back:big_flying_eyeling",
+      "required": false
+    },
+    {
+      "id": "the_eyes_are_back:crawling_ender_eyemination",
+      "required": false
+    },
+    {
+      "id": "the_eyes_are_back:crawling_eye_human",
+      "required": false
+    },
+    {
+      "id": "the_eyes_are_back:destroyer",
+      "required": false
+    },
+    {
+      "id": "the_eyes_are_back:e_ye_vedette",
+      "required": false
+    },
+    {
+      "id": "the_eyes_are_back:ender_e_yemination",
+      "required": false
+    },
+    {
+      "id": "the_eyes_are_back:enraged_eye_human",
+      "required": false
+    },
+    {
+      "id": "the_eyes_are_back:extreme_eye_humanoid",
+      "required": false
+    },
+    {
+      "id": "the_eyes_are_back:eye_colony",
+      "required": false
+    },
+    {
+      "id": "the_eyes_are_back:eye_colony_stage_2",
+      "required": false
+    },
+    {
+      "id": "the_eyes_are_back:eye_colony_stage_3",
+      "required": false
+    },
+    {
+      "id": "the_eyes_are_back:eye_human",
+      "required": false
+    },
+    {
+      "id": "the_eyes_are_back:eye_humanoid",
+      "required": false
+    },
+    {
+      "id": "the_eyes_are_back:eye_infected_husk",
+      "required": false
+    },
+    {
+      "id": "the_eyes_are_back:eye_ling",
+      "required": false
+    },
+    {
+      "id": "the_eyes_are_back:eye_protector",
+      "required": false
+    },
+    {
+      "id": "the_eyes_are_back:eye_source_stage_1",
+      "required": false
+    },
+    {
+      "id": "the_eyes_are_back:eye_spida",
+      "required": false
+    },
+    {
+      "id": "the_eyes_are_back:eye_squiggle",
+      "required": false
+    },
+    {
+      "id": "the_eyes_are_back:eye_tree_stage_2",
+      "required": false
+    },
+    {
+      "id": "the_eyes_are_back:eye_tree_stage_3",
+      "required": false
+    },
+    {
+      "id": "the_eyes_are_back:eye_tumor",
+      "required": false
+    },
+    {
+      "id": "the_eyes_are_back:eye_turret",
+      "required": false
+    },
+    {
+      "id": "the_eyes_are_back:eye_vedette_stage_2",
+      "required": false
+    },
+    {
+      "id": "the_eyes_are_back:eyefected_squid",
+      "required": false
+    },
+    {
+      "id": "the_eyes_are_back:flying_eye_ling",
+      "required": false
+    },
+    {
+      "id": "the_eyes_are_back:flying_eye_squid",
+      "required": false
+    },
+    {
+      "id": "the_eyes_are_back:hyper_eye",
+      "required": false
+    },
+    {
+      "id": "the_eyes_are_back:hyper_flying_eye",
+      "required": false
+    },
+    {
+      "id": "the_eyes_are_back:medium_eye_meteor",
+      "required": false
+    },
+    {
+      "id": "the_eyes_are_back:medium_flying_eyeling",
+      "required": false
+    },
+    {
+      "id": "the_eyes_are_back:small_eye_meteor",
+      "required": false
+    }
+  ]
+}

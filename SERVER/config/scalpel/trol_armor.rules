@@ -1,0 +1,25 @@
+# TROL Armor
+
+# Advancements
+remove advancement trol_armor:*
+
+# Items and blocks
+redact any trol_armor:sandbags
+remove item trol_armor:vipb
+remove item trol_armor:exodlc
+
+# Materials
+remove item trol_armor:pe
+remove item trol_armor:fabric
+remove item trol_armor:bulletproofglass
+remove item trol_armor:tis
+remove item trol_armor:cable
+remove item trol_armor:carbonsteel
+remove item trol_armor:pan
+remove item trol_armor:tialloy
+
+# Spartan set
+hide item trol_armor:armor_117_*
+
+# Weapon case
+hide any trol_armor:weaponcase

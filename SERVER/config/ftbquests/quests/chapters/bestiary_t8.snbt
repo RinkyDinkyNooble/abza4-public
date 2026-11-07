@@ -1,0 +1,2659 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bestiary_t8"
+	group: "182E303C40AEF1E1"
+	icon: "spore:howitzer_spawnegg"
+	id: "3AE014AFDB1DB5BF"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"It lives in the boss buildings of the Tier 8 region."
+				""
+				"Reward: +140 max health (70 hearts), kept for good, for everyone who dealt at least a tenth of its health. It's given at the kill; this quest then checks itself."
+			]
+			icon: "spore:howitzer_spawnegg"
+			id: "26C5B6D675E5B7C0"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "+140 max health (70 hearts)"
+			tasks: [
+				{
+					icon: "spore:howitzer_spawnegg"
+					id: "47D49BA6D0E0DFD5"
+					stage: "abza_final_t8"
+					title: "Defeat the Howitzer"
+					type: "gamestage"
+				}
+			]
+			title: "Defeat the Howitzer"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "2F3406381042BCB6"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:bairn"
+					id: "7DC8A643519AFF77"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Bairn"
+			x: 0.0d
+			y: 0.0d
+			icon: "spore:bairn_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "62AE428FA04F5875"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:bloater"
+					id: "78A6CDE1BBE07A8A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Bloater"
+			x: 1.3d
+			y: 0.0d
+			icon: "spore:bloater_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "7FC43F52086EAD85"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:braiomil"
+					id: "6EB77CA72FBFD201"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Braiomil"
+			x: 2.6d
+			y: 0.0d
+			icon: "spore:braio_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "7A392B16BDFACB16"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:chemist"
+					id: "4E47D9F64A251F78"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Chemist"
+			x: 3.9d
+			y: 0.0d
+			icon: "spore:chemist_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "0B1DEDEBD4AF1B77"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:conductor"
+					id: "47D24AA2393B0C7A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Conductor"
+			x: 5.2d
+			y: 0.0d
+			icon: "spore:conductor_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "2C0E938017C90F5E"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:delusioner"
+					id: "4E5F7046BD2F314C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Delusioner"
+			x: 6.5d
+			y: 0.0d
+			icon: "spore:delusioner_spawnegg"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "1C91A709FCE5C45A"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "0C26F42E50458011"
+					stage: "abza_bestiary_t8_1"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "spore:bairn"
+					id: "13DAC04A1423EE6D"
+					title: "Bairn"
+					type: "kill"
+					value: 1L
+					icon: "spore:bairn_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:bloater"
+					id: "38D3872652F708E5"
+					title: "Bloater"
+					type: "kill"
+					value: 1L
+					icon: "spore:bloater_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:braiomil"
+					id: "238FC80304F7E132"
+					title: "Braiomil"
+					type: "kill"
+					value: 1L
+					icon: "spore:braio_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:chemist"
+					id: "28D476768E867987"
+					title: "Chemist"
+					type: "kill"
+					value: 1L
+					icon: "spore:chemist_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:conductor"
+					id: "193D2D320C497A6F"
+					title: "Conductor"
+					type: "kill"
+					value: 1L
+					icon: "spore:conductor_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:delusioner"
+					id: "5522B13D49C86428"
+					title: "Delusioner"
+					type: "kill"
+					value: 1L
+					icon: "spore:delusioner_spawnegg"
+				}
+			]
+			title: "Bestiary 1 to 6"
+			x: 8.3d
+			y: 0.0d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "4BC223D2350B84F1"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:claw"
+					id: "29DC347AB4C42467"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Evoker Claw"
+			x: 0.0d
+			y: 2.3d
+			icon: "spore:hevoker_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "474A6059BB985366"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:mound"
+					id: "66C27A889B1BDB56"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Flesh Mound"
+			x: 1.3d
+			y: 2.3d
+			icon: "spore:mound_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "1A39EB813BDE454A"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:gargoyle"
+					id: "7AB9B3A918CFAB14"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Gargoyle"
+			x: 2.6d
+			y: 2.3d
+			icon: "spore:garg_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "029FDCC32880EE6E"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:gorgon"
+					id: "7D229129AA221E14"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Gorgon"
+			x: 3.9d
+			y: 2.3d
+			icon: "spore:gorgon_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "76BF6D5A2490EE53"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:griefer"
+					id: "6905521C15CCD65C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Griefer"
+			x: 5.2d
+			y: 2.3d
+			icon: "spore:griefer_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "6EC1671B8DB4BD40"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:hivetumor"
+					id: "57E2FAFCB6567D59"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Hivetumor"
+			x: 6.5d
+			y: 2.3d
+			icon: "spore:hive_spawnegg"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "2EAF960E43C12A09"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "62516499B258AC72"
+					stage: "abza_bestiary_t8_2"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "spore:claw"
+					id: "5DEC4203767CB1BC"
+					title: "Evoker Claw"
+					type: "kill"
+					value: 1L
+					icon: "spore:hevoker_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:mound"
+					id: "7B363164AB05E16A"
+					title: "Flesh Mound"
+					type: "kill"
+					value: 1L
+					icon: "spore:mound_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:gargoyle"
+					id: "79303BE3D6602EAF"
+					title: "Gargoyle"
+					type: "kill"
+					value: 1L
+					icon: "spore:garg_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:gorgon"
+					id: "01EE6BE8B4B30942"
+					title: "Gorgon"
+					type: "kill"
+					value: 1L
+					icon: "spore:gorgon_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:griefer"
+					id: "082DA7DE19C0812B"
+					title: "Griefer"
+					type: "kill"
+					value: 1L
+					icon: "spore:griefer_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:hivetumor"
+					id: "1284A034A766E541"
+					title: "Hivetumor"
+					type: "kill"
+					value: 1L
+					icon: "spore:hive_spawnegg"
+				}
+			]
+			title: "Bestiary 7 to 12"
+			x: 8.3d
+			y: 2.3d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "4CACEF8F8BD4FEE3"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:hollen"
+					id: "754D716D9E199AB9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Hollenhund"
+			x: 0.0d
+			y: 4.6d
+			icon: "spore:hollen_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "1E08C74EB100E0E2"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:howler"
+					id: "5EFD1AA6AC9F2644"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Howler"
+			x: 1.3d
+			y: 4.6d
+			icon: "spore:howler_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "2E187E2E2F2C7B8D"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:inebriater"
+					id: "68D5E88AE04F7DFF"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Inebriater"
+			x: 2.6d
+			y: 4.6d
+			icon: "spore:inebriater_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "47194D62EA938FBA"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:inf_player"
+					id: "22D863C4D4562E8F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Infected Adventurer"
+			x: 3.9d
+			y: 4.6d
+			icon: "spore:inf_player_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "75251AB2D501EEC5"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:inf_diseased_villager"
+					id: "203C64FF8B95E320"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Infected Diseased Villager"
+			x: 5.2d
+			y: 4.6d
+			icon: "spore:inf_diseased_villager_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "1061E464C7E54C59"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:inf_drowned"
+					id: "27EE06E5539E3907"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Infected Drowned"
+			x: 6.5d
+			y: 4.6d
+			icon: "spore:inf_drowned_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "5105A6EF592B926D"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:inf_evoker"
+					id: "5EC7D1A984528F69"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Infected Evoker"
+			x: 7.8d
+			y: 4.6d
+			icon: "spore:inf_evo_spawnegg"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "14F1188E15846327"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "067DA4C75ECB2D3A"
+					stage: "abza_bestiary_t8_3"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "spore:hollen"
+					id: "17D0CAC4342FFE1F"
+					title: "Hollenhund"
+					type: "kill"
+					value: 1L
+					icon: "spore:hollen_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:howler"
+					id: "0190248B62CA0565"
+					title: "Howler"
+					type: "kill"
+					value: 1L
+					icon: "spore:howler_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:inebriater"
+					id: "16FECC5701D1C5EB"
+					title: "Inebriater"
+					type: "kill"
+					value: 1L
+					icon: "spore:inebriater_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:inf_player"
+					id: "18F121EDB8E91238"
+					title: "Infected Adventurer"
+					type: "kill"
+					value: 1L
+					icon: "spore:inf_player_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:inf_diseased_villager"
+					id: "1A61BF86DA723080"
+					title: "Infected Diseased Villager"
+					type: "kill"
+					value: 1L
+					icon: "spore:inf_diseased_villager_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:inf_drowned"
+					id: "2B02D35D962E16CC"
+					title: "Infected Drowned"
+					type: "kill"
+					value: 1L
+					icon: "spore:inf_drowned_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:inf_evoker"
+					id: "615563AE161C299C"
+					title: "Infected Evoker"
+					type: "kill"
+					value: 1L
+					icon: "spore:inf_evo_spawnegg"
+				}
+			]
+			title: "Bestiary 13 to 19"
+			x: 9.6d
+			y: 4.6d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "7FB5A02F56C1A372"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:inf_human"
+					id: "03A2C20E104BAAA9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Infected Human"
+			x: 0.0d
+			y: 6.9d
+			icon: "spore:infected_human_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "3BD8FCFC91CECC39"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:inf_husk"
+					id: "68C2BB5F4B8AF7B9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Infected Husk"
+			x: 1.3d
+			y: 6.9d
+			icon: "spore:inf_husk_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "068D7F8D8D6B526D"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:inf_pillager"
+					id: "6E73A4C2910EE9F6"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Infected Pillager"
+			x: 2.6d
+			y: 6.9d
+			icon: "spore:inf_pillager_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "03537B248C46B579"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:inf_hazmat"
+					id: "5E38757E4750DB79"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Infected Scientist"
+			x: 3.9d
+			y: 6.9d
+			icon: "spore:inf_hazmat_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "05626EA53665E405"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:inf_villager"
+					id: "79DB6F823C4FDF33"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Infected Villager"
+			x: 5.2d
+			y: 6.9d
+			icon: "spore:inf_villager_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "780FF6D2A551A5D4"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:inf_vindicator"
+					id: "232850945040B016"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Infected Vindicator"
+			x: 6.5d
+			y: 6.9d
+			icon: "spore:inf_vind_spawnegg"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "0DEAF0AB879D81DA"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "0E5E17ABEF313248"
+					stage: "abza_bestiary_t8_4"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "spore:inf_human"
+					id: "41EFE77BAE11A75A"
+					title: "Infected Human"
+					type: "kill"
+					value: 1L
+					icon: "spore:infected_human_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:inf_husk"
+					id: "32E5D3B2F3033242"
+					title: "Infected Husk"
+					type: "kill"
+					value: 1L
+					icon: "spore:inf_husk_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:inf_pillager"
+					id: "6F5089654B9F32CD"
+					title: "Infected Pillager"
+					type: "kill"
+					value: 1L
+					icon: "spore:inf_pillager_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:inf_hazmat"
+					id: "5E9086C495338133"
+					title: "Infected Scientist"
+					type: "kill"
+					value: 1L
+					icon: "spore:inf_hazmat_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:inf_villager"
+					id: "48D5E5500955BF91"
+					title: "Infected Villager"
+					type: "kill"
+					value: 1L
+					icon: "spore:inf_villager_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:inf_vindicator"
+					id: "2776D890F3B164AB"
+					title: "Infected Vindicator"
+					type: "kill"
+					value: 1L
+					icon: "spore:inf_vind_spawnegg"
+				}
+			]
+			title: "Bestiary 20 to 25"
+			x: 8.3d
+			y: 6.9d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "64B398F953429198"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:inf_wanderer"
+					id: "20E87430EBA733BD"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Infected Wandering Trader"
+			x: 0.0d
+			y: 9.2d
+			icon: "spore:inf_wanderer_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "403F2702444B1ABD"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:inf_witch"
+					id: "140DBFE6EABDE5AF"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Infected Witch"
+			x: 1.3d
+			y: 9.2d
+			icon: "spore:inf_witch_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "6FB1EEEC05725F09"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:jagd"
+					id: "04163D3644FB6C25"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Jagdhund"
+			x: 2.6d
+			y: 9.2d
+			icon: "spore:jagd_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "33F2B400CC4A69A8"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:knight"
+					id: "669AC64F32072401"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Knight"
+			x: 3.9d
+			y: 9.2d
+			icon: "spore:knight_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "24B10C86C3E17920"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:lacerator"
+					id: "1263FCE03FC61A9F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Lacerator"
+			x: 5.2d
+			y: 9.2d
+			icon: "spore:lacerator_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "7B3BD1DCB6063D37"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:leaper"
+					id: "4EAE28EFAB1A3D8A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Leaper"
+			x: 6.5d
+			y: 9.2d
+			icon: "spore:leaper_spawnegg"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "3A0F7A2008570243"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "6E436820A531E300"
+					stage: "abza_bestiary_t8_5"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "spore:inf_wanderer"
+					id: "7DD9643B15DDE7C7"
+					title: "Infected Wandering Trader"
+					type: "kill"
+					value: 1L
+					icon: "spore:inf_wanderer_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:inf_witch"
+					id: "6F2B1EE3B8D990EE"
+					title: "Infected Witch"
+					type: "kill"
+					value: 1L
+					icon: "spore:inf_witch_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:jagd"
+					id: "16C1EC628CE3F260"
+					title: "Jagdhund"
+					type: "kill"
+					value: 1L
+					icon: "spore:jagd_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:knight"
+					id: "6B96B03B58D5E835"
+					title: "Knight"
+					type: "kill"
+					value: 1L
+					icon: "spore:knight_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:lacerator"
+					id: "444C63FED6D9AEEA"
+					title: "Lacerator"
+					type: "kill"
+					value: 1L
+					icon: "spore:lacerator_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:leaper"
+					id: "4BE9277AFE14D1DA"
+					title: "Leaper"
+					type: "kill"
+					value: 1L
+					icon: "spore:leaper_spawnegg"
+				}
+			]
+			title: "Bestiary 26 to 31"
+			x: 8.3d
+			y: 9.2d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "52E84A88FF87EF0D"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:mephitic"
+					id: "6B6744E5422303BE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Mephitic"
+			x: 0.0d
+			y: 11.5d
+			icon: "spore:meph_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "3D2F532E48265A48"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:naiad"
+					id: "34D68BB054979C8C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Naiad"
+			x: 1.3d
+			y: 11.5d
+			icon: "spore:naiad_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "65FDF219B734368C"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:nuclea"
+					id: "4B7E6737AA750C10"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Nuckelavee"
+			x: 2.6d
+			y: 11.5d
+			icon: "spore:nuclea_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "5E58016E4B70C340"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:busser"
+					id: "4413A6A7D9274AB5"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Phayres"
+			x: 3.9d
+			y: 11.5d
+			icon: "spore:busser_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "4262BA2807ADD85B"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:plagued"
+					id: "1B16AC4549AEC8B0"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Plagued"
+			x: 5.2d
+			y: 11.5d
+			icon: "spore:plagued_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "10823A9FF0400369"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:protector"
+					id: "79617C5B18B85C13"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Protector"
+			x: 6.5d
+			y: 11.5d
+			icon: "spore:prot_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "0A120360EA4DFFDC"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:saugling"
+					id: "57A02A20EEDFF19C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Saugling"
+			x: 7.8d
+			y: 11.5d
+			icon: "spore:saugling_spawnegg"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "6014261AA4909D0D"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "0716AF93B6FCE1DE"
+					stage: "abza_bestiary_t8_6"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "spore:mephitic"
+					id: "11E43F87D8D5F38C"
+					title: "Mephitic"
+					type: "kill"
+					value: 1L
+					icon: "spore:meph_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:naiad"
+					id: "16E78DDE2775455D"
+					title: "Naiad"
+					type: "kill"
+					value: 1L
+					icon: "spore:naiad_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:nuclea"
+					id: "310CAB6DC3A8B2F3"
+					title: "Nuckelavee"
+					type: "kill"
+					value: 1L
+					icon: "spore:nuclea_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:busser"
+					id: "2EAEFCBF2720E7D5"
+					title: "Phayres"
+					type: "kill"
+					value: 1L
+					icon: "spore:busser_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:plagued"
+					id: "618F79C2BE2D3829"
+					title: "Plagued"
+					type: "kill"
+					value: 1L
+					icon: "spore:plagued_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:protector"
+					id: "1876A7E6D0CA739D"
+					title: "Protector"
+					type: "kill"
+					value: 1L
+					icon: "spore:prot_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:saugling"
+					id: "2359994B53AC0544"
+					title: "Saugling"
+					type: "kill"
+					value: 1L
+					icon: "spore:saugling_spawnegg"
+				}
+			]
+			title: "Bestiary 32 to 38"
+			x: 9.6d
+			y: 11.5d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "45F1A0A2ADFFD275"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:scamper"
+					id: "57AB558DDA063A78"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Scamper"
+			x: 0.0d
+			y: 13.8d
+			icon: "spore:scamper_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "757607505F9BEC72"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:scavenger"
+					id: "7C19106427480DDA"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Scavenger"
+			x: 1.3d
+			y: 13.8d
+			icon: "spore:scavenger_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "1CCC26594FE5407B"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:slasher"
+					id: "5B41C5812089785E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Slasher"
+			x: 2.6d
+			y: 13.8d
+			icon: "spore:slasher_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "5EF4FB18194400B5"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:spitter"
+					id: "23B78D7C6AC62328"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Spitter"
+			x: 3.9d
+			y: 13.8d
+			icon: "spore:spitter_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "2CEE467673F0536D"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:stalker"
+					id: "0629996C9152290F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Stalker"
+			x: 5.2d
+			y: 13.8d
+			icon: "spore:stalker_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "6BCC2E717B122244"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:tentacle"
+					id: "1E01219F88850BF0"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Tentacle"
+			x: 6.5d
+			y: 13.8d
+			icon: "abza:bestiary_spore_tentacle"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "4E6FD9108F85B0EA"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "16812024D2CFD958"
+					stage: "abza_bestiary_t8_7"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "spore:scamper"
+					id: "6C2BB08105188A8C"
+					title: "Scamper"
+					type: "kill"
+					value: 1L
+					icon: "spore:scamper_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:scavenger"
+					id: "57C1AA5D55117C57"
+					title: "Scavenger"
+					type: "kill"
+					value: 1L
+					icon: "spore:scavenger_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:slasher"
+					id: "2F7BA4C89FD21976"
+					title: "Slasher"
+					type: "kill"
+					value: 1L
+					icon: "spore:slasher_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:spitter"
+					id: "6B934FADB5EB9FE6"
+					title: "Spitter"
+					type: "kill"
+					value: 1L
+					icon: "spore:spitter_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:stalker"
+					id: "083C434497EA1ED4"
+					title: "Stalker"
+					type: "kill"
+					value: 1L
+					icon: "spore:stalker_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:tentacle"
+					id: "62625E43F81025A5"
+					title: "Tentacle"
+					type: "kill"
+					value: 1L
+					icon: "abza:bestiary_spore_tentacle"
+				}
+			]
+			title: "Bestiary 39 to 44"
+			x: 8.3d
+			y: 13.8d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "3D919AEA0517C5BA"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:usurper"
+					id: "2DEA1F8089EEB2F7"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Usurper"
+			x: 0.0d
+			y: 16.1d
+			icon: "spore:usurper_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "3AFD3712F065AD6C"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:thorn"
+					id: "271213ECD2F4CA09"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Verdathorn"
+			x: 1.3d
+			y: 16.1d
+			icon: "spore:thorn_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "1D12FDBA54A91D55"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:verva"
+					id: "628430FC76100AA7"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Verwahrung"
+			x: 2.6d
+			y: 16.1d
+			icon: "spore:verva_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "01046E45CBE23E72"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:vigil"
+					id: "70915864FFBAA888"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Vigil"
+			x: 3.9d
+			y: 16.1d
+			icon: "spore:vigil_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "2092F7156FDEAE5A"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:volatile"
+					id: "433A3CB1C18CAB77"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Volatile"
+			x: 5.2d
+			y: 16.1d
+			icon: "spore:volatile_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "0B59260AA8833C65"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:reconstructor"
+					id: "62D82EFE238690CB"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Womb"
+			x: 6.5d
+			y: 16.1d
+			icon: "spore:reconstructor_spawnegg"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "1D0B31F3947DF57B"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "326815536CA1A7EB"
+					stage: "abza_bestiary_t8_8"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "spore:usurper"
+					id: "4F6F1BA17F5A7D0D"
+					title: "Usurper"
+					type: "kill"
+					value: 1L
+					icon: "spore:usurper_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:thorn"
+					id: "5FABDEEFDC919D57"
+					title: "Verdathorn"
+					type: "kill"
+					value: 1L
+					icon: "spore:thorn_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:verva"
+					id: "25C3C60FA0EC3360"
+					title: "Verwahrung"
+					type: "kill"
+					value: 1L
+					icon: "spore:verva_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:vigil"
+					id: "6C0ADFD44D739290"
+					title: "Vigil"
+					type: "kill"
+					value: 1L
+					icon: "spore:vigil_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:volatile"
+					id: "7F9B8E73F3FFC7F0"
+					title: "Volatile"
+					type: "kill"
+					value: 1L
+					icon: "spore:volatile_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:reconstructor"
+					id: "7960E98958B5B197"
+					title: "Womb"
+					type: "kill"
+					value: 1L
+					icon: "spore:reconstructor_spawnegg"
+				}
+			]
+			title: "Bestiary 45 to 50"
+			x: 8.3d
+			y: 16.1d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "7BD017C4D7E1A315"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:hvindicator"
+					id: "5EEE6929C347AB2A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Axtwerfer"
+			x: 0.0d
+			y: 18.4d
+			icon: "spore:hvindicator_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "2B4111811E0AE245"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:biobloob"
+					id: "0788BF4EE05C8DCE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Bioblob"
+			x: 1.3d
+			y: 18.4d
+			icon: "spore:biobloob_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "3456A08B1452593E"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:braurei"
+					id: "0C99D4555F9F1C74"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Braurei"
+			x: 2.6d
+			y: 18.4d
+			icon: "spore:braurei_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "58397E40608042FA"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:brot"
+					id: "6F3CD851F11A7F49"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Brotkatze"
+			x: 3.9d
+			y: 18.4d
+			icon: "spore:brotkatze_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "141CF14C8B91F14D"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:brute"
+					id: "3FB3BFE631B92EA9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Brute"
+			x: 5.2d
+			y: 18.4d
+			icon: "spore:brute_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "52E20B321D13228A"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:gastgaber"
+					id: "2FB1162DC92BD1E6"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Gastgeber"
+			x: 6.5d
+			y: 18.4d
+			icon: "spore:gastgaber_spawnegg"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "7CB7E0F48011B082"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "3DC511D207E85F74"
+					stage: "abza_bestiary_t8_9"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "spore:hvindicator"
+					id: "1BDC7B1A8E801282"
+					title: "Axtwerfer"
+					type: "kill"
+					value: 1L
+					icon: "spore:hvindicator_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:biobloob"
+					id: "76B75EFD5D308332"
+					title: "Bioblob"
+					type: "kill"
+					value: 1L
+					icon: "spore:biobloob_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:braurei"
+					id: "5B1F1D9582718A95"
+					title: "Braurei"
+					type: "kill"
+					value: 1L
+					icon: "spore:braurei_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:brot"
+					id: "163D9CFFA43256B2"
+					title: "Brotkatze"
+					type: "kill"
+					value: 1L
+					icon: "spore:brotkatze_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:brute"
+					id: "07727F1D29DB6409"
+					title: "Brute"
+					type: "kill"
+					value: 1L
+					icon: "spore:brute_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:gastgaber"
+					id: "100DEF5BA2C91DB8"
+					title: "Gastgeber"
+					type: "kill"
+					value: 1L
+					icon: "spore:gastgaber_spawnegg"
+				}
+			]
+			title: "Bestiary 51 to 56"
+			x: 8.3d
+			y: 18.4d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "41DE3CFC8172FA45"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:grober"
+					id: "6EB3DFBBA46520AA"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Groberfub"
+			x: 0.0d
+			y: 20.7d
+			icon: "spore:groberfub_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "13FDDCD4D6D27CDC"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:hevoker"
+					id: "1B2650D5040A1BDD"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Hexenmeister"
+			x: 1.3d
+			y: 20.7d
+			icon: "spore:hevoker_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "1404F6AA1F81D3BE"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:inf_contruct"
+					id: "19A1D09605DC8B01"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Infested Construct"
+			x: 2.6d
+			y: 20.7d
+			icon: "spore:construct_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "2B072ECD6531612A"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:inquisitor"
+					id: "5A514765BF8BC05F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Inquisitor"
+			x: 3.9d
+			y: 20.7d
+			icon: "spore:inquisitor_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "7EA8A24546923045"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:ogre"
+					id: "76C5511FA2A79808"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Ogre"
+			x: 5.2d
+			y: 20.7d
+			icon: "spore:ogre_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "4B8C34965D7F6783"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:reaper"
+					id: "601F74CEE91FEE25"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Reaper"
+			x: 6.5d
+			y: 20.7d
+			icon: "spore:reaper_spawnegg"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "6BEDA3C2B2028481"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "5D96E43C4430FE3C"
+					stage: "abza_bestiary_t8_10"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "spore:grober"
+					id: "179AA1C7A7651412"
+					title: "Groberfub"
+					type: "kill"
+					value: 1L
+					icon: "spore:groberfub_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:hevoker"
+					id: "58F7F168C428C9A1"
+					title: "Hexenmeister"
+					type: "kill"
+					value: 1L
+					icon: "spore:hevoker_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:inf_contruct"
+					id: "19F2E68F5C279C95"
+					title: "Infested Construct"
+					type: "kill"
+					value: 1L
+					icon: "spore:construct_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:inquisitor"
+					id: "1C44D91C05059BA8"
+					title: "Inquisitor"
+					type: "kill"
+					value: 1L
+					icon: "spore:inquisitor_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:ogre"
+					id: "45563B9810971625"
+					title: "Ogre"
+					type: "kill"
+					value: 1L
+					icon: "spore:ogre_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:reaper"
+					id: "056E4D8BBA46B473"
+					title: "Reaper"
+					type: "kill"
+					value: 1L
+					icon: "spore:reaper_spawnegg"
+				}
+			]
+			title: "Bestiary 57 to 62"
+			x: 8.3d
+			y: 20.7d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "38001408B1FF629C"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:specter"
+					id: "446AC89DD619E390"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Specter"
+			x: 0.0d
+			y: 23.0d
+			icon: "spore:specter_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "6101CA8182FCF8C4"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:umarmed"
+					id: "651BE967C3921AF2"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Umarmer"
+			x: 1.3d
+			y: 23.0d
+			icon: "spore:umarmed_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "7096B3696D6817B2"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:vanguard"
+					id: "3DB9C346D8070C0B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Vanguard"
+			x: 2.6d
+			y: 23.0d
+			icon: "spore:vanguard_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "622D46E68D47B9FC"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:wendigo"
+					id: "42EDE2DFAB44A814"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Wendigo"
+			x: 3.9d
+			y: 23.0d
+			icon: "spore:wendigo_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "3EE9208DB31709E5"
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "Boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:gazenbreacher"
+					id: "3A482B11392F19BE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "GazenBreacher"
+			x: 5.2d
+			y: 23.0d
+			icon: "spore:gazen_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "6A0972BD39CB7EB4"
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "Boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:kraken"
+					id: "0E348AC5316824AA"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Grakensenker"
+			x: 6.5d
+			y: 23.0d
+			icon: "spore:kraken_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "2BA52CE5E6F52406"
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "Boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:hindenburg"
+					id: "0A5CEDC9BFA3CEBD"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Hindenburg"
+			x: 7.8d
+			y: 23.0d
+			icon: "spore:hinden_spawnegg"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "7B97A309F3EC3949"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "70D36BE6BE58AF1E"
+					stage: "abza_bestiary_t8_11"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "spore:specter"
+					id: "297695586CE310CC"
+					title: "Specter"
+					type: "kill"
+					value: 1L
+					icon: "spore:specter_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:umarmed"
+					id: "6100D2680A0B25B4"
+					title: "Umarmer"
+					type: "kill"
+					value: 1L
+					icon: "spore:umarmed_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:vanguard"
+					id: "23007EC1DA6FDF0C"
+					title: "Vanguard"
+					type: "kill"
+					value: 1L
+					icon: "spore:vanguard_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:wendigo"
+					id: "215C929C3B9AB99E"
+					title: "Wendigo"
+					type: "kill"
+					value: 1L
+					icon: "spore:wendigo_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:gazenbreacher"
+					id: "776791926915E1BB"
+					title: "GazenBreacher"
+					type: "kill"
+					value: 1L
+					icon: "spore:gazen_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:kraken"
+					id: "0AA76A37DB0F8CCF"
+					title: "Grakensenker"
+					type: "kill"
+					value: 1L
+					icon: "spore:kraken_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:hindenburg"
+					id: "305F2845D06AC4DC"
+					title: "Hindenburg"
+					type: "kill"
+					value: 1L
+					icon: "spore:hinden_spawnegg"
+				}
+			]
+			title: "Bestiary 63 to 69"
+			x: 9.6d
+			y: 23.0d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "14904C336E8A0B3F"
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "Boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:hohlfresser"
+					id: "33EAA2BA9B8C2F82"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Hohlfresser"
+			x: 0.0d
+			y: 25.3d
+			icon: "spore:hohlfresser_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "2DA44DC381A343A9"
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "Boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:leviathan"
+					id: "6CCCC55721E364F9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Leviathan"
+			x: 1.3d
+			y: 25.3d
+			icon: "spore:levi_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "75BBC3535FE7F073"
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "Boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:proto"
+					id: "7AB7B08B617DEBFE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Proto Hivemind"
+			x: 2.6d
+			y: 25.3d
+			icon: "spore:proto_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "046931C5C285747F"
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "Boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:sieger"
+					id: "2DA3DC548082C7D4"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Sieger"
+			x: 3.9d
+			y: 25.3d
+			icon: "spore:sieger_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "7ADB977D3BD9B59A"
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "Boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:stahl"
+					id: "417F633C2F433716"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Stahlmorder"
+			x: 5.2d
+			y: 25.3d
+			icon: "spore:stahl_spawnegg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "584A2BA531186E66"
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "Boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "spore:verfall"
+					id: "3AEF4DE0FDB45926"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Verfalldrache"
+			x: 6.5d
+			y: 25.3d
+			icon: "spore:verfall_spawnegg"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "11FC2438429393A6"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "0B00A35A8B96B09C"
+					stage: "abza_bestiary_t8_12"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "spore:hohlfresser"
+					id: "7A54FD6B13561A69"
+					title: "Hohlfresser"
+					type: "kill"
+					value: 1L
+					icon: "spore:hohlfresser_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:leviathan"
+					id: "395419B4F38BA341"
+					title: "Leviathan"
+					type: "kill"
+					value: 1L
+					icon: "spore:levi_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:proto"
+					id: "76EDC463539DEDCE"
+					title: "Proto Hivemind"
+					type: "kill"
+					value: 1L
+					icon: "spore:proto_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:sieger"
+					id: "0C0B15B927331FD7"
+					title: "Sieger"
+					type: "kill"
+					value: 1L
+					icon: "spore:sieger_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:stahl"
+					id: "6BD93C54CF459F57"
+					title: "Stahlmorder"
+					type: "kill"
+					value: 1L
+					icon: "spore:stahl_spawnegg"
+				}
+				{
+					disable_toast: true
+					entity: "spore:verfall"
+					id: "24911E3E1655C345"
+					title: "Verfalldrache"
+					type: "kill"
+					value: 1L
+					icon: "spore:verfall_spawnegg"
+				}
+			]
+			title: "Bestiary 70 to 75"
+			x: 8.3d
+			y: 25.3d
+		}
+	]
+	title: "Tier 8: Interloper"
+}

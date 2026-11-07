@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crystallizing",
+  "chemicalType": "gas",
+  "input": {
+    "amount": 200,
+    "gas": "crafttweaker:ocular_solution"
+  },
+  "output": {
+    "item": "abza:ocular_serum"
+  }
+}

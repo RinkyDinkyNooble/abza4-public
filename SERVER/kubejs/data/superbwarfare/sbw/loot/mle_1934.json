@@ -1,0 +1,30 @@
+{
+  "ID": "superbwarfare:mle_1934",
+  "Pools": [
+    {
+      "Entries": [
+        {
+          "Count": 4,
+          "Name": "mekanism:block_steel"
+        },
+        {
+          "Chance": 0.5,
+          "Count": 2,
+          "Name": "superbwarfare:cannon_core"
+        }
+      ],
+      "Source": "superbwarfare:repair_tool",
+      "Type": "complete"
+    },
+    {
+      "Entries": [
+        {
+          "Chance": 0.5,
+          "Count": 4,
+          "Name": "mekanism:block_steel"
+        }
+      ],
+      "Type": "complete"
+    }
+  ]
+}

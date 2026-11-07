@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "abza:infected_gland"
+    }
+  },
+  "output": {
+    "item": "abza:antigen_t1"
+  }
+}

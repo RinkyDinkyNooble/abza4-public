@@ -1,0 +1,50 @@
+{
+    "Id": 1401,
+    "ModRev": 18,
+    "Type": 2,
+    "Title": "Thin them out",
+    "Text": "Raiders have been taking from the Survivors. Kill five of them.",
+    "CompleteText": "",
+    "CompleterNpc": "",
+    "NextQuestId": -1,
+    "RewardExp": 0,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "saros__money_mod:euro_20",
+                "Count": 1b
+            }
+        ]
+    },
+    "QuestCommand": "",
+    "RandomReward": 0b,
+    "QuestCompletion": 1,
+    "QuestRepeat": 1,
+    "QuestFactionPoints": {
+        "OptionFactions1": 1,
+        "OptionFaction1Points": 50,
+        "DecreaseFaction1Points": 0b,
+        "OptionFactions2": -1,
+        "OptionFaction2Points": 0,
+        "DecreaseFaction2Points": 0b
+    },
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 0L
+    },
+    "QuestDialogs": [
+        {
+            "Slot": "Raider",
+            "Value": 5
+        }
+    ]
+}

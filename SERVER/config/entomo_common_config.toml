@@ -1,0 +1,41 @@
+
+["Entomophobia Config"]
+
+	["Entomophobia Config"."Mob Targeting"]
+		"Mobs (and mods) the Myiatics Ignore" = ["minecraft:squid", "minecraft:bat", "minecraft:armor_stand"]
+		"Mobs and their Myiatic forms [key = \"Base>Myiatic\"]" = ["minecraft:zombie>entomophobia:myiatic_zombie", "minecraft:creeper>entomophobia:myiatic_creeper", "minecraft:spider>entomophobia:myiatic_spider", "minecraft:cow>entomophobia:myiatic_cow", "minecraft:sheep>entomophobia:myiatic_sheep", "minecraft:pig>entomophobia:myiatic_pig", "minecraft:chicken>entomophobia:myiatic_chicken"]
+
+	["Entomophobia Config"."General Infection values"]
+		#Range: > 0
+		"Time, in ticks, until the infestation starts" = 2147483647
+		#Range: > 0
+		"How far from each player the Myiasis effect will spread once the infection starts" = 200
+		#Range: > 0
+		"Max amount of mobs allowed in the world at once until encouraged despawning (Note! Setting this value too low could break or completely disable some mechanics)" = 50
+		#Range: > 0
+		"Distance from the closest player until despawning is encouraged" = 128
+		"Time (in ticks) for Myiasis to convert mobs" = 600
+		#Range: > 0
+		"On which night the infection will begin (days are counted up from 0, so day 1 is represented as 0, etc) [CURRENTLY UNUSED]" = 2147483647
+
+	["Entomophobia Config"."Pest configuration"]
+		#Range: > 0
+		"The amount of pests that can spawn from pestification in a given area" = 96
+		#Range: > 0
+		"The \"range\" of the pest cap, how far it searches for nearby pests" = 128
+
+	["Entomophobia Config"."Swarm Configuration"]
+		#Range: > 1
+		"Maximum amount of members inside of an unmodified swarm" = 20
+
+	["Entomophobia Config"."Pheromone Values"]
+		#Range: > 1
+		"Pheromone Prey/Hunt bonus search range" = 64
+
+	["Entomophobia Config"."Unique Myiatic Stats"]
+		#Range: > 1
+		"Myiatic Creeper explosion range" = 3
+
+	["Entomophobia Config".Other]
+		"Does eggman have an announcement to make?" = false
+

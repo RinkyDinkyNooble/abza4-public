@@ -1,0 +1,10 @@
+{
+  "dimension": "abza:umbra",
+  "gravity": 6.0,
+  "oxygen": false,
+  "orbit": "abza:umbra_orbit",
+  "solar_power": 0,
+  "solar_system": "abza:halcyon",
+  "temperature": -220,
+  "tier": 4
+}

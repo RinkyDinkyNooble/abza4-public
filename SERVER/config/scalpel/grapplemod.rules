@@ -1,0 +1,13 @@
+# Grappling Hook
+
+# Modifier block
+hide any grapplemod:block_grapple_modifier
+
+# Upgrades, the ender staff, the forcefield and long fall boots
+remove item grapplemod:*upgradeitem
+remove item grapplemod:launcheritem
+remove item grapplemod:repeller
+remove item grapplemod:longfallboots
+
+# Hook recipe
+remove recipe grapplemod:grapplebow

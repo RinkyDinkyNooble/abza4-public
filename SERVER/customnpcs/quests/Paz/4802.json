@@ -1,0 +1,61 @@
+{
+    "Id": 4802,
+    "ModRev": 18,
+    "Type": 0,
+    "Title": "Power",
+    "Text": "The Moon station's crew decks need two advanced solar generators.",
+    "CompleteText": "Lights in the crew decks. The wing never noticed they were off.",
+    "CompleterNpc": "Paz",
+    "NextQuestId": 4803,
+    "RewardExp": 0,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "saros__money_mod:euro_50",
+                "Count": 1b
+            },
+            {
+                "Slot": 1b,
+                "id": "saros__money_mod:euro_10",
+                "Count": 1b
+            }
+        ]
+    },
+    "QuestCommand": "",
+    "RandomReward": 0b,
+    "QuestCompletion": 0,
+    "QuestRepeat": 0,
+    "QuestFactionPoints": {
+        "OptionFactions1": 3,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction1Points": 0b,
+        "OptionFactions2": -1,
+        "OptionFaction2Points": 0,
+        "DecreaseFaction2Points": 0b
+    },
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 0L
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "mekanismgenerators:advanced_solar_generator",
+                "Count": 2b
+            }
+        ]
+    },
+    "LeaveItems": 0b,
+    "IgnoreDamage": 1b,
+    "IgnoreNBT": 0b
+}

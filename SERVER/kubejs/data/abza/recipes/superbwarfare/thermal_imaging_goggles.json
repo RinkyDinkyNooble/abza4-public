@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "cfc",
+    "ede"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:emerald"
+    },
+    "b": {
+      "tag": "forge:glass_panes"
+    },
+    "c": {
+      "tag": "forge:gems/fluorite"
+    },
+    "d": {
+      "item": "mekanism:energy_tablet"
+    },
+    "e": {
+      "item": "superbwarfare:monitor"
+    },
+    "f": {
+      "item": "minecraft:daylight_detector"
+    }
+  },
+  "result": {
+    "item": "superbwarfare:thermal_imaging_goggles"
+  }
+}

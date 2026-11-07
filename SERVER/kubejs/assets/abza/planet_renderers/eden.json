@@ -1,0 +1,82 @@
+{
+  "custom_clouds": false,
+  "custom_sky": true,
+  "custom_weather": false,
+  "dimension": "abza:eden",
+  "has_fog": true,
+  "has_thick_fog": false,
+  "render_in_rain": true,
+  "sky_renderables": [
+    {
+      "back_light_color": -750495,
+      "back_light_scale": 30.0,
+      "blend": true,
+      "global_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_type": "TIME_OF_DAY",
+      "scale": 10.0,
+      "texture": "ad_astra:textures/environment/red_sun.png"
+    },
+    {
+      "back_light_color": -5223894,
+      "back_light_scale": 2.7,
+      "blend": true,
+      "global_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_rotation": [
+        0.0,
+        30.0,
+        0.0
+      ],
+      "movement_type": "TIME_OF_DAY",
+      "scale": 0.9,
+      "texture": "abza:textures/environment/cinder.png"
+    },
+    {
+      "back_light_color": -6310968,
+      "back_light_scale": 1.7999999999999998,
+      "blend": true,
+      "global_rotation": [
+        20.0,
+        0.0,
+        170.0
+      ],
+      "local_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_type": "TIME_OF_DAY_REVERSED",
+      "scale": 0.6,
+      "texture": "abza:textures/environment/umbra.png"
+    }
+  ],
+  "star_colors": [
+    {
+      "data": -1,
+      "weight": 6
+    },
+    {
+      "data": -726785,
+      "weight": 2
+    },
+    {
+      "data": -464897,
+      "weight": 1
+    }
+  ],
+  "stars": 1500,
+  "sunrise_angle": 0,
+  "sunrise_color": 16026721
+}

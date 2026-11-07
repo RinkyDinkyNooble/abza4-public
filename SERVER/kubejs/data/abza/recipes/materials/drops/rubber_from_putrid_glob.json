@@ -1,0 +1,21 @@
+{
+  "type": "mekanism:reaction",
+  "duration": 100,
+  "itemInput": {
+    "ingredient": {
+      "item": "phayriosisreborn:putrid_glob"
+    }
+  },
+  "fluidInput": {
+    "amount": 50,
+    "tag": "minecraft:water"
+  },
+  "gasInput": {
+    "amount": 50,
+    "gas": "mekanism:ethene"
+  },
+  "itemOutput": {
+    "item": "phayriosisreborn:bar_of_rubber",
+    "count": 2
+  }
+}

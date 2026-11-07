@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "spore:mutated_fiber"
+    }
+  },
+  "output": {
+    "item": "minecraft:string",
+    "count": 3
+  }
+}

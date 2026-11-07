@@ -1,0 +1,74 @@
+{
+  "custom_clouds": false,
+  "custom_sky": true,
+  "custom_weather": false,
+  "dimension": "minecraft:overworld",
+  "has_fog": true,
+  "has_thick_fog": false,
+  "render_in_rain": false,
+  "sky_renderables": [
+    {
+      "back_light_color": 16777215,
+      "back_light_scale": 0.0,
+      "blend": true,
+      "global_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_type": "TIME_OF_DAY",
+      "scale": 30.0,
+      "texture": "ad_astra:textures/environment/sun.png"
+    },
+    {
+      "back_light_color": 16777215,
+      "back_light_scale": 0.0,
+      "blend": true,
+      "global_rotation": [
+        0.0,
+        0.0,
+        180.0
+      ],
+      "local_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_type": "TIME_OF_DAY",
+      "scale": 20.0,
+      "texture": "ad_astra:textures/environment/moon.png"
+    },
+    {
+      "back_light_color": -6665606,
+      "back_light_scale": 7.5,
+      "blend": true,
+      "global_rotation": [
+        50.0,
+        0.0,
+        -40.0
+      ],
+      "local_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_type": "STATIC",
+      "scale": 2.5,
+      "texture": "abza:textures/environment/interloper.png"
+    }
+  ],
+  "star_colors": [
+    {
+      "data": -1,
+      "weight": 1
+    }
+  ],
+  "stars": 1500,
+  "sunrise_angle": 0,
+  "sunrise_color": 14180147
+}

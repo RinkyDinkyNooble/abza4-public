@@ -1,0 +1,112 @@
+{
+  "values": [
+    {
+      "id": "the_flesh_that_hates:bruteplaquecreatureone",
+      "required": false
+    },
+    {
+      "id": "the_flesh_that_hates:flesh_boomer",
+      "required": false
+    },
+    {
+      "id": "the_flesh_that_hates:flesh_cocoon",
+      "required": false
+    },
+    {
+      "id": "the_flesh_that_hates:flesh_community",
+      "required": false
+    },
+    {
+      "id": "the_flesh_that_hates:flesh_cow",
+      "required": false
+    },
+    {
+      "id": "the_flesh_that_hates:flesh_dog",
+      "required": false
+    },
+    {
+      "id": "the_flesh_that_hates:flesh_howler",
+      "required": false
+    },
+    {
+      "id": "the_flesh_that_hates:flesh_human",
+      "required": false
+    },
+    {
+      "id": "the_flesh_that_hates:flesh_human_head",
+      "required": false
+    },
+    {
+      "id": "the_flesh_that_hates:flesh_hunter_three",
+      "required": false
+    },
+    {
+      "id": "the_flesh_that_hates:flesh_hunter_two",
+      "required": false
+    },
+    {
+      "id": "the_flesh_that_hates:flesh_justice",
+      "required": false
+    },
+    {
+      "id": "the_flesh_that_hates:flesh_piece",
+      "required": false
+    },
+    {
+      "id": "the_flesh_that_hates:flesh_pig",
+      "required": false
+    },
+    {
+      "id": "the_flesh_that_hates:flesh_pillager",
+      "required": false
+    },
+    {
+      "id": "the_flesh_that_hates:flesh_servant",
+      "required": false
+    },
+    {
+      "id": "the_flesh_that_hates:flesh_sheep",
+      "required": false
+    },
+    {
+      "id": "the_flesh_that_hates:flesh_suffer",
+      "required": false
+    },
+    {
+      "id": "the_flesh_that_hates:flesh_villager",
+      "required": false
+    },
+    {
+      "id": "the_flesh_that_hates:flesh_vindicator",
+      "required": false
+    },
+    {
+      "id": "the_flesh_that_hates:plaquecontaminator",
+      "required": false
+    },
+    {
+      "id": "the_flesh_that_hates:plaquecreaturebaseone",
+      "required": false
+    },
+    {
+      "id": "the_flesh_that_hates:plaquecreatureone",
+      "required": false
+    },
+    {
+      "id": "the_flesh_that_hates:plaquecreaturetwo",
+      "required": false
+    },
+    {
+      "id": "the_flesh_that_hates:plaqueincubatorone",
+      "required": false
+    },
+    {
+      "id": "the_flesh_that_hates:plaqueincubatorstart",
+      "required": false
+    },
+    {
+      "id": "the_flesh_that_hates:plaquethreelegcreature",
+      "required": false
+    }
+  ]
+}

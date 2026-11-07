@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:badlands",
+    "minecraft:plains",
+    "minecraft:snowy_plains"
+  ]
+}

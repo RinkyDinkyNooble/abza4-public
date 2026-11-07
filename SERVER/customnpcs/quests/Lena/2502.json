@@ -1,0 +1,79 @@
+{
+    "Id": 2502,
+    "ModRev": 18,
+    "Type": 0,
+    "Title": "Lena's research: deeper",
+    "Text": "Lena wants more from the Snow's infected: intestines, a preserved bone and an organ mixture.",
+    "CompleteText": "Every one of these remembers the others. I don't know how else to put it. (More notes.) Read them later.",
+    "CompleterNpc": "Lena",
+    "NextQuestId": -1,
+    "RewardExp": 0,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "saros__money_mod:euro_20",
+                "Count": 2b
+            },
+            {
+                "Slot": 1b,
+                "id": "minecraft:written_book",
+                "Count": 1b,
+                "tag": {
+                    "title": "Field Notes",
+                    "author": "Lena",
+                    "pages": [
+                        "{\"text\":\"Cut one sample and the others in the dish close the same wound.\\n\\nThey share. No. They don't share. They're one sample, in many dishes.\"}"
+                    ],
+                    "resolved": 1b
+                }
+            }
+        ]
+    },
+    "QuestCommand": "",
+    "RandomReward": 0b,
+    "QuestCompletion": 0,
+    "QuestRepeat": 0,
+    "QuestFactionPoints": {
+        "OptionFactions1": 1,
+        "OptionFaction1Points": 50,
+        "DecreaseFaction1Points": 0b,
+        "OptionFactions2": -1,
+        "OptionFaction2Points": 0,
+        "DecreaseFaction2Points": 0b
+    },
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 0L
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "prionmod:intestines",
+                "Count": 1b
+            },
+            {
+                "Slot": 1b,
+                "id": "prionmod:preservedbone",
+                "Count": 1b
+            },
+            {
+                "Slot": 2b,
+                "id": "prionmod:organ_mixture",
+                "Count": 1b
+            }
+        ]
+    },
+    "LeaveItems": 0b,
+    "IgnoreDamage": 1b,
+    "IgnoreNBT": 0b
+}

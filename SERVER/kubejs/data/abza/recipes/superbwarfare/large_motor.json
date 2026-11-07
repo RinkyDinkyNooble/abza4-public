@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " C ",
+    "bcd",
+    "bcd"
+  ],
+  "key": {
+    "C": {
+      "tag": "forge:circuits/elite"
+    },
+    "b": {
+      "tag": "forge:storage_blocks/lapis"
+    },
+    "c": {
+      "tag": "forge:storage_blocks/copper"
+    },
+    "d": {
+      "tag": "forge:storage_blocks/redstone"
+    }
+  },
+  "result": {
+    "item": "superbwarfare:large_motor"
+  }
+}

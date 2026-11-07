@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "mekanism:nugget_lead"
+    },
+    {
+      "item": "mekanism:nugget_lead"
+    },
+    {
+      "item": "mekanism:nugget_lead"
+    },
+    {
+      "item": "mekanism:nugget_uranium"
+    }
+  ],
+  "result": {
+    "item": "tacz:ammo",
+    "count": 12,
+    "nbt": "{AmmoId:\"abza:12g_magnum\"}"
+  }
+}

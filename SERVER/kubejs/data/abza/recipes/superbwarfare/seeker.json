@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:gems/fluorite"
+    },
+    "b": {
+      "tag": "forge:ingots/iron"
+    },
+    "c": {
+      "item": "minecraft:compass"
+    },
+    "d": {
+      "tag": "forge:gems/quartz"
+    },
+    "e": {
+      "item": "minecraft:comparator"
+    }
+  },
+  "result": {
+    "item": "superbwarfare:seeker",
+    "count": 4
+  }
+}

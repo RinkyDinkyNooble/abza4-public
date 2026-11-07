@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["ANA", "FFF", "ANA"],
+  "key": {
+    "A": {"item": "spore:armor_fragment"},
+    "N": {"item": "spore:nerves"},
+    "F": {"item": "spore:mutated_fiber"}
+  },
+  "result": {"item": "spore:armor_plate"}
+}

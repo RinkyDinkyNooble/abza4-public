@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:injecting",
+  "itemInput": {
+    "ingredient": {
+      "item": "the_flesh_that_hates:piece_of_flesh"
+    }
+  },
+  "chemicalInput": {
+    "amount": 1,
+    "gas": "crafttweaker:digestive_acid"
+  },
+  "output": {
+    "item": "minecraft:string",
+    "count": 2
+  }
+}

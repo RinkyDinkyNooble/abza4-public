@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "prionmod:meat"
+    }
+  },
+  "output": {
+    "item": "abza:rendered_fat"
+  }
+}

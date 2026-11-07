@@ -1,0 +1,251 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progress_t1"
+	group: "556BB4E0704CB043"
+	icon: "mekanism:enrichment_chamber"
+	id: "681AFB1BCA56DCD5"
+	order_index: 0
+	images: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:grass_block"
+			id: "6AA7F1CCE70FA336"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					icon: "minecraft:grass_block"
+					id: "1C42B3C616A7B085"
+					stage: "abza_reached_t1"
+					title: "Stand in the Plains"
+					type: "gamestage"
+				}
+			]
+			title: "The Plains"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6AA7F1CCE70FA336"
+			]
+			description: [
+				"In every machine."
+			]
+			icon: "mekanism:ingot_osmium"
+			id: "325D8F8FE18948C0"
+			tasks: [
+				{
+					id: "3772A9F4CE6200BB"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+			]
+			title: "Osmium"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6AA7F1CCE70FA336"
+			]
+			icon: {
+				id: "tacz:modern_kinetic_gun"
+				Count: 1b
+				tag: {
+					GunId: "tacz:glock_17"
+				}
+			}
+			id: "1062E1DE43358FFF"
+			optional: true
+			tasks: [
+				{
+					icon: {
+						id: "tacz:modern_kinetic_gun"
+						Count: 1b
+						tag: {
+							GunId: "tacz:taurus943"
+						}
+					}
+					id: "353A42A7BAE85426"
+					item: {
+						id: "ftbfiltersystem:smart_filter"
+						Count: 1b
+						tag: {
+							"ftbfiltersystem:filter": "item(tacz:modern_kinetic_gun)or(nbt(fuzzy:{GunId:\"tacz:taurus943\"})nbt(fuzzy:{GunId:\"tacz:glock_17\"})nbt(fuzzy:{GunId:\"tacz:cz75\"})nbt(fuzzy:{GunId:\"tacz:m1911\"})nbt(fuzzy:{GunId:\"tacz:uzi\"})nbt(fuzzy:{GunId:\"tacz:hk_mp5a5\"})nbt(fuzzy:{GunId:\"tacz:m870\"})nbt(fuzzy:{GunId:\"tacz:db_short\"})nbt(fuzzy:{GunId:\"tacz:springfield1873\"}))"
+						}
+					}
+					title: "Any Tier 1 gun"
+					type: "item"
+				}
+			]
+			title: "A Tier 1 Gun"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"325D8F8FE18948C0"
+			]
+			description: [
+				"&e2×&r ore."
+			]
+			icon: "mekanism:enrichment_chamber"
+			id: "5DACE37A97E924F1"
+			tasks: [
+				{
+					id: "001627B2E46E90EE"
+					item: "mekanism:enrichment_chamber"
+					type: "item"
+				}
+			]
+			title: "Enrichment Chamber"
+			x: 7.0d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"325D8F8FE18948C0"
+			]
+			description: [
+				"Burns bio fuel, crushed from plants."
+			]
+			icon: "mekanismgenerators:bio_generator"
+			id: "3301065627A0F7D3"
+			tasks: [
+				{
+					id: "50E36DB3435750BB"
+					item: "mekanismgenerators:bio_generator"
+					type: "item"
+				}
+			]
+			title: "Bio-Generator"
+			x: 7.0d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"5DACE37A97E924F1"
+			]
+			icon: "mekanism:alloy_infused"
+			id: "1075D3B4702B1142"
+			tasks: [
+				{
+					id: "3F5D59478D9CEBE0"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+			]
+			title: "Infused Alloy"
+			x: 10.5d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"3301065627A0F7D3"
+			]
+			icon: "mekanism:basic_control_circuit"
+			id: "55135B902D7FA1DD"
+			tasks: [
+				{
+					id: "2CE81F014D0D898D"
+					item: "mekanism:basic_control_circuit"
+					type: "item"
+				}
+			]
+			title: "Basic Control Circuit"
+			x: 10.5d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"1075D3B4702B1142"
+				"55135B902D7FA1DD"
+			]
+			description: [
+				"Every Tier 1 gun and vehicle needs some."
+			]
+			icon: "superbwarfare:common_material_pack"
+			id: "4E3FE1396CE556F0"
+			tasks: [
+				{
+					id: "260A3A74BFE7F716"
+					item: "superbwarfare:common_material_pack"
+					type: "item"
+				}
+			]
+			title: "Tier 1 Material Pack"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4E3FE1396CE556F0"
+			]
+			icon: "abza:vaccine_t1"
+			id: "6DD232F1C9634D89"
+			optional: true
+			tasks: [
+				{
+					id: "5C0FA53D789AE705"
+					item: "abza:vaccine_t1"
+					type: "item"
+				}
+			]
+			title: "Grave Fever Vaccine"
+			x: 17.5d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"4E3FE1396CE556F0"
+			]
+			description: [
+				"In the Plains' boss buildings. Its quest is in the Bestiary."
+			]
+			disable_toast: true
+			icon: "minecraft:zombie_head"
+			id: "5E533A7A26FD74B2"
+			optional: true
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5943D68E27B974A9"
+					title: "Got it"
+					type: "checkmark"
+					disable_toast: true
+				}
+			]
+			title: "Final Boss"
+			x: 17.5d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"4E3FE1396CE556F0"
+			]
+			description: [
+				"Needs &ecold protection 1&r and a way across the &ewater channel&r between regions."
+			]
+			icon: "minecraft:snowball"
+			id: "0F5B53E7B15E1373"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					icon: "minecraft:snowball"
+					id: "15BA6B9E57FB9461"
+					stage: "abza_reached_t2"
+					title: "Reach the Snow"
+					type: "gamestage"
+				}
+			]
+			title: "Onward: the Snow"
+			x: 21.0d
+			y: 0.0d
+		}
+	]
+	title: "Tier 1: The Plains"
+}

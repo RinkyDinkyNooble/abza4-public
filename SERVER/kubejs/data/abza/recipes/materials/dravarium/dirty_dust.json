@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "abza:dravarium_clump"
+    }
+  },
+  "output": {
+    "item": "abza:dravarium_dirty_dust"
+  }
+}

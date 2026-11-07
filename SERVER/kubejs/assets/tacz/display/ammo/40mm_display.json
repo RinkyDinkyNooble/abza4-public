@@ -1,0 +1,22 @@
+{
+  "shell": {
+    "model": "tacz:shell/40mm_shell",
+    "texture": "tacz:shell/40mm_shell"
+  },
+  "slot": "tacz:ammo/slot/40mm",
+  "entity": {
+    "model": "tacz:ammo_entity/40mm_grenade",
+    "texture": "tacz:ammo_entity/40mm_grenade"
+  },
+  "particle": {
+    "name": "smoke",
+    "delta": [
+      0,
+      0,
+      0
+    ],
+    "speed": 0,
+    "life_time": 50,
+    "count": 5
+  }
+}

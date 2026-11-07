@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:oxidizing",
+  "input": {
+    "ingredient": {
+      "item": "entomophobia:lustrous_tissue"
+    }
+  },
+  "output": {
+    "gas": "crafttweaker:chitin_extract",
+    "amount": 200
+  }
+}

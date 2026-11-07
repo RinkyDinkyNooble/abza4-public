@@ -1,0 +1,26 @@
+[
+  {
+    "entity": "entomophobia:myiatic_chicken",
+    "weight": 20
+  },
+  {
+    "entity": "entomophobia:myiatic_creeper",
+    "weight": 8
+  },
+  {
+    "entity": "entomophobia:myiatic_pig",
+    "weight": 20
+  },
+  {
+    "entity": "entomophobia:myiatic_sheep",
+    "weight": 20
+  },
+  {
+    "entity": "entomophobia:myiatic_spider",
+    "weight": 20
+  },
+  {
+    "entity": "entomophobia:myiatic_zombie",
+    "weight": 20
+  }
+]

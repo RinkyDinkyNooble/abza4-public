@@ -1,0 +1,40 @@
+{
+  "ID": "superbwarfare:sodayo_pick_up_rocket",
+  "Pools": [
+    {
+      "Entries": [
+        {
+          "Name": "mekanism:block_steel"
+        },
+        {
+          "Count": 6,
+          "Name": "superbwarfare:mortar_barrel"
+        },
+        {
+          "Chance": 0.5,
+          "Count": 2,
+          "Name": "superbwarfare:wheel"
+        },
+        {
+          "Chance": 0.5,
+          "Name": "superbwarfare:large_motor"
+        },
+        {
+          "Chance": 0.2,
+          "Name": "mekanism:advanced_energy_cube"
+        }
+      ],
+      "Source": "superbwarfare:repair_tool",
+      "Type": "complete"
+    },
+    {
+      "Entries": [
+        {
+          "Chance": 0.5,
+          "Name": "mekanism:block_steel"
+        }
+      ],
+      "Type": "complete"
+    }
+  ]
+}

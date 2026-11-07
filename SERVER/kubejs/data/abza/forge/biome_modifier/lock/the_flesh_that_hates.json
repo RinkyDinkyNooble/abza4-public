@@ -1,0 +1,8 @@
+{
+  "type": "forge:remove_spawns",
+  "biomes": {
+    "type": "forge:not",
+    "value": "#abza:eden"
+  },
+  "entity_types": "#abza:locked/the_flesh_that_hates"
+}

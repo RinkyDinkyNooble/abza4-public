@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "mekanism:dust_iron"
+    }
+  ],
+  "result": {
+    "item": "lrtactical:throwable",
+    "count": 3,
+    "nbt": "{ThrowableId:\"lrtactical:flash_grenade\"}"
+  }
+}

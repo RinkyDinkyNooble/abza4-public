@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SHS",
+    "g2S",
+    "TMT"
+  ],
+  "key": {
+    "2": {
+      "item": "mekanism:advanced_energy_cube"
+    },
+    "H": {
+      "item": "superbwarfare:heavy_armament_module"
+    },
+    "M": {
+      "item": "superbwarfare:large_motor"
+    },
+    "S": {
+      "tag": "forge:storage_blocks/steel"
+    },
+    "T": {
+      "item": "superbwarfare:track"
+    },
+    "g": {
+      "tag": "forge:dyes/green"
+    }
+  },
+  "result": {
+    "item": "superbwarfare:container",
+    "nbt": "{BlockEntityTag:{EntityType:\"superbwarfare:t_90a\",id:\"superbwarfare:container\"}}"
+  }
+}

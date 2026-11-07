@@ -1,0 +1,15 @@
+{
+  "name": "item.abza.blood_pack",
+  "tooltip": "item.abza.blood_pack.desc",
+  "base_item": "lrtactical:consumable",
+  "data": {
+    "use_duration": 93,
+    "cooldown": 60,
+    "cooldown_category": "lrtactical:medical",
+    "stack_size": 4,
+    "max_durability": 0,
+    "draw_time": 5,
+    "put_away_time": 8,
+    "use_mode": "toggle"
+  }
+}

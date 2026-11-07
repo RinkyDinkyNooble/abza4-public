@@ -1,0 +1,144 @@
+{
+  "values": [
+    {
+      "id": "prionmod:bloodseeker",
+      "required": false
+    },
+    {
+      "id": "prionmod:boomer",
+      "required": false
+    },
+    {
+      "id": "prionmod:breacher",
+      "required": false
+    },
+    {
+      "id": "prionmod:cannibal",
+      "required": false
+    },
+    {
+      "id": "prionmod:crawler",
+      "required": false
+    },
+    {
+      "id": "prionmod:cyborg",
+      "required": false
+    },
+    {
+      "id": "prionmod:deathworm",
+      "required": false
+    },
+    {
+      "id": "prionmod:envoy",
+      "required": false
+    },
+    {
+      "id": "prionmod:expletor",
+      "required": false
+    },
+    {
+      "id": "prionmod:fhuman",
+      "required": false
+    },
+    {
+      "id": "prionmod:hellhound",
+      "required": false
+    },
+    {
+      "id": "prionmod:hive",
+      "required": false
+    },
+    {
+      "id": "prionmod:impaler",
+      "required": false
+    },
+    {
+      "id": "prionmod:infectedcow",
+      "required": false
+    },
+    {
+      "id": "prionmod:infectedhorse",
+      "required": false
+    },
+    {
+      "id": "prionmod:infectedpig",
+      "required": false
+    },
+    {
+      "id": "prionmod:infectedsheep",
+      "required": false
+    },
+    {
+      "id": "prionmod:infectedwolf",
+      "required": false
+    },
+    {
+      "id": "prionmod:lacerator",
+      "required": false
+    },
+    {
+      "id": "prionmod:lure",
+      "required": false
+    },
+    {
+      "id": "prionmod:necro",
+      "required": false
+    },
+    {
+      "id": "prionmod:nephthys",
+      "required": false
+    },
+    {
+      "id": "prionmod:nightwalker",
+      "required": false
+    },
+    {
+      "id": "prionmod:rooted",
+      "required": false
+    },
+    {
+      "id": "prionmod:slammer",
+      "required": false
+    },
+    {
+      "id": "prionmod:slasher",
+      "required": false
+    },
+    {
+      "id": "prionmod:smoker",
+      "required": false
+    },
+    {
+      "id": "prionmod:starved",
+      "required": false
+    },
+    {
+      "id": "prionmod:strangler",
+      "required": false
+    },
+    {
+      "id": "prionmod:thrall",
+      "required": false
+    },
+    {
+      "id": "prionmod:tumor",
+      "required": false
+    },
+    {
+      "id": "prionmod:vicoiousturret",
+      "required": false
+    },
+    {
+      "id": "prionmod:vile",
+      "required": false
+    },
+    {
+      "id": "prionmod:vomiter",
+      "required": false
+    },
+    {
+      "id": "prionmod:wendigo",
+      "required": false
+    }
+  ]
+}

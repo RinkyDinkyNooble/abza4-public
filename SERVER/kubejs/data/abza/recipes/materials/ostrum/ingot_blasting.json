@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "abza:ostrum_dust"
+  },
+  "result": "ad_astra:ostrum_ingot",
+  "experience": 0.0,
+  "cookingtime": 100
+}

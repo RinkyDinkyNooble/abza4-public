@@ -1,0 +1,8 @@
+{
+  "type": "forge:remove_spawns",
+  "biomes": {
+    "type": "forge:not",
+    "value": "#abza:tier2"
+  },
+  "entity_types": "#abza:locked/prionmod"
+}

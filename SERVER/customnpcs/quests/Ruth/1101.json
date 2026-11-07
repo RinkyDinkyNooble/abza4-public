@@ -1,0 +1,61 @@
+{
+    "Id": 1101,
+    "ModRev": 18,
+    "Type": 0,
+    "Title": "The Plains' antigen",
+    "Text": "Ruth wants to see the Plains' antigen before you use it. It's made from a Plains mini-boss's tissue. Show it to her on Prospero.",
+    "CompleteText": "That's it. Load it in a syringe and it's yours, but it only knows this air. Go north and you'll need another.
+
+I gave four thousand people that shot. You're the first one I've been able to fix.",
+    "CompleterNpc": "Ruth",
+    "NextQuestId": -1,
+    "RewardExp": 0,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "lrtactical:consumable",
+                "Count": 1b,
+                "tag": {
+                    "ConsumableId": "abza:blood_pack"
+                }
+            }
+        ]
+    },
+    "QuestCommand": "",
+    "RandomReward": 0b,
+    "QuestCompletion": 0,
+    "QuestRepeat": 0,
+    "QuestFactionPoints": {
+        "OptionFactions1": 0,
+        "OptionFaction1Points": 50,
+        "DecreaseFaction1Points": 0b,
+        "OptionFactions2": -1,
+        "OptionFaction2Points": 0,
+        "DecreaseFaction2Points": 0b
+    },
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 0L
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "abza:antigen_t1",
+                "Count": 1b
+            }
+        ]
+    },
+    "LeaveItems": 1b,
+    "IgnoreDamage": 1b,
+    "IgnoreNBT": 0b
+}

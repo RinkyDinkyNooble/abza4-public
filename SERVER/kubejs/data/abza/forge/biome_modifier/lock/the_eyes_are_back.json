@@ -1,0 +1,8 @@
+{
+  "type": "forge:remove_spawns",
+  "biomes": {
+    "type": "forge:not",
+    "value": "#abza:cinder"
+  },
+  "entity_types": "#abza:locked/the_eyes_are_back"
+}

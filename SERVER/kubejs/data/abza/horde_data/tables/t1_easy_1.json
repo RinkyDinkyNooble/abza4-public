@@ -1,0 +1,42 @@
+[
+  {
+    "entity": "minecraft:zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:crawling_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:armless_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:headless_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:blind_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:old_zombie",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:zombie_girl",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:zombie_prisoner",
+    "weight": 20
+  },
+  {
+    "entity": "infectious:mummy",
+    "weight": 20
+  }
+]

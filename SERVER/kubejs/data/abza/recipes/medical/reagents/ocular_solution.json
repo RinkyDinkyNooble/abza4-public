@@ -1,0 +1,15 @@
+{
+  "type": "mekanism:chemical_infusing",
+  "leftInput": {
+    "amount": 1,
+    "gas": "crafttweaker:ocular_extract"
+  },
+  "rightInput": {
+    "amount": 1,
+    "gas": "mekanism:hydrofluoric_acid"
+  },
+  "output": {
+    "amount": 1,
+    "gas": "crafttweaker:ocular_solution"
+  }
+}

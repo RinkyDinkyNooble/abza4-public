@@ -1,0 +1,3155 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bestiary_t1"
+	group: "182E303C40AEF1E1"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "minecraft:textures/mob_effect/health_boost.png"
+		}
+	}
+	id: "24794F6C0ECA53D4"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"It lives in the boss buildings of the Tier 1 region."
+				""
+				"Reward: +5 max health (2.5 hearts), kept for good, for everyone who dealt at least a tenth of its health. It's given at the kill; this quest then checks itself."
+			]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/mob_effect/health_boost.png"
+				}
+			}
+			id: "512E56FD31190EFE"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "+5 max health (2.5 hearts)"
+			tasks: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "102EC23A590BD145"
+					stage: "abza_final_t1"
+					title: "Defeat the Ancient Zombie"
+					type: "gamestage"
+				}
+			]
+			title: "Defeat the Ancient Zombie"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "0C28A78ED03CBE54"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "undead_revamp2:thelurker"
+					id: "7FC70B1F03886625"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: " The Lurker"
+			x: 0.0d
+			y: 0.0d
+			icon: "undead_revamp2:thelurker_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "06F402641B041FC0"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:acid_zombie"
+					id: "47187865CA051080"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Acid Zombie"
+			x: 1.3d
+			y: 0.0d
+			icon: "infectious:acid_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "176B65758F4B32E4"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:angry_zombie"
+					id: "09D9AD4A208BCCBC"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Angry Zombie"
+			x: 2.6d
+			y: 0.0d
+			icon: "infectious:angry_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "001598EDA6ED8325"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:armless_zombie"
+					id: "57F6E179E0CFDC0B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Armless Zombie"
+			x: 3.9d
+			y: 0.0d
+			icon: "infectious:armless_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"Any of its forms counts."
+				""
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "56EB1139C1572F90"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					id: "164F6F04D25296B4"
+					stage: "abza_killed_infectious_balloon_zombie"
+					title: "Kill a Balloon Zombie in any form"
+					type: "gamestage"
+					icon: "infectious:balloon_zombie_spawn_egg"
+				}
+			]
+			title: "Balloon Zombie"
+			x: 5.2d
+			y: 0.0d
+			icon: "infectious:balloon_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "2E87CD8FC5FC16BC"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:barrel_zombie"
+					id: "59E86090DF7BE214"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Barrel Zombie"
+			x: 6.5d
+			y: 0.0d
+			icon: "infectious:barrel_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "014991DE4DCA13A4"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:baseball_bat_zombie"
+					id: "03FAE5DF1A9782C1"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Baseball Bat Zombie"
+			x: 7.8d
+			y: 0.0d
+			icon: "infectious:baseball_bat_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "3C2CD5A8FEE18431"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:beehive_zombie"
+					id: "58F99347A67876FC"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Beehive Zombie"
+			x: 9.1d
+			y: 0.0d
+			icon: "infectious:beehive_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "518DB2BE32C25B63"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:bees"
+					id: "0A8757018A2A1DAC"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Beehive Zombie's Bees"
+			x: 10.4d
+			y: 0.0d
+			icon: "infectious:beehive_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "74697C7ADE8AAB5D"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:beekeeper_zombie"
+					id: "4A6C876DC591CC14"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Beekeeper Zombie"
+			x: 11.7d
+			y: 0.0d
+			icon: "infectious:beekeeper_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "2FB51FB0B0B77265"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:big_zombie"
+					id: "6B77A69BCF8D5CD4"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Big Zombie"
+			x: 0.0d
+			y: 1.3d
+			icon: "infectious:big_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "3410C54A3EBFDC17"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:blind_zombie"
+					id: "6884441F7441626C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Blind Zombie"
+			x: 1.3d
+			y: 1.3d
+			icon: "infectious:blind_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "689C5D0FAF15C022"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:bodyless_zombie"
+					id: "43859712A8B80F18"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Bodyless Zombie"
+			x: 2.6d
+			y: 1.3d
+			icon: "infectious:bodyless_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "3D7FD5EABCCB8E12"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:bouncer_zombie"
+					id: "3D17D1E56B9655EE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Bouncer Zombie"
+			x: 3.9d
+			y: 1.3d
+			icon: "infectious:bouncer_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "7AA93FFA0B72602B"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:brain_zombie"
+					id: "4EEB6678B07DBDF2"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Brain Zombie"
+			x: 5.2d
+			y: 1.3d
+			icon: "infectious:brain_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "3FAF2B16BFB35DE7"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:bucket_zombie"
+					id: "25B98C0834109561"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Bucket Zombie"
+			x: 6.5d
+			y: 1.3d
+			icon: "infectious:bucket_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "5D076A0E06F3666F"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:burned_zombie"
+					id: "2798FF102CEDD01E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Burned Zombie"
+			x: 7.8d
+			y: 1.3d
+			icon: "infectious:burned_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "343B4E0E64107914"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:burning_zombie"
+					id: "421ED8DF866C6358"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Burning Zombie"
+			x: 9.1d
+			y: 1.3d
+			icon: "infectious:burning_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "78FC43E8AE631005"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:chained_zombie"
+					id: "0C829EF599B90D5E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Chained Zombie"
+			x: 10.4d
+			y: 1.3d
+			icon: "infectious:chained_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "02FDDFCDBC4F5E89"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:claw_zombie"
+					id: "5E6F13DC8ED3BBF5"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Claw Zombie"
+			x: 11.7d
+			y: 1.3d
+			icon: "infectious:claw_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "6FA490892245FB6A"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:construction_worker_zombie"
+					id: "26DBB8C70C0B5916"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Construction Worker Zombie"
+			x: 0.0d
+			y: 2.6d
+			icon: "infectious:construction_worker_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "35E6C3B98C7ED1DD"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:crawling_zombie"
+					id: "29200AACE935CB5A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Crawling Zombie"
+			x: 1.3d
+			y: 2.6d
+			icon: "infectious:crawling_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "0DBACE433F6EACA9"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:deep_sea_diver_zombie"
+					id: "1274BC098A7E67BF"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Deep Sea Diver Zombie"
+			x: 2.6d
+			y: 2.6d
+			icon: "infectious:deep_sea_diver_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "517AFEEF5E4590DB"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:disco_zombie"
+					id: "0B51C700775737BD"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Disco Zombie"
+			x: 3.9d
+			y: 2.6d
+			icon: "infectious:disco_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "5CAB64C3A27B2FB8"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:door_zombie"
+					id: "0514CE888667FF22"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Door Zombie"
+			x: 5.2d
+			y: 2.6d
+			icon: "infectious:door_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "46A2CDFEDD89C54A"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:fat_zombie"
+					id: "634C69690CB257EC"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Fat Zombie"
+			x: 6.5d
+			y: 2.6d
+			icon: "infectious:fat_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "01D3082339598F4F"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:fire_fighter_zombie"
+					id: "0877CD0161993B76"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Firefighter Zombie"
+			x: 7.8d
+			y: 2.6d
+			icon: "infectious:fire_fighter_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "563CBE847B506BDF"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:firework_zombie"
+					id: "31643B8E14CE66CF"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Firework Zombie"
+			x: 9.1d
+			y: 2.6d
+			icon: "infectious:firework_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "25339E219F3FFAA0"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:football_player_zombie"
+					id: "62D89D5DE8DCA89E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Football Player Zombie"
+			x: 10.4d
+			y: 2.6d
+			icon: "infectious:football_player_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "72FBAF4780AD112A"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:frozen_zombie"
+					id: "38B5DEB1488C7499"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Frozen Zombie"
+			x: 11.7d
+			y: 2.6d
+			icon: "infectious:frozen_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "5B1FE228812C4661"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:fungal_zombie"
+					id: "413EE6BB18F4619F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Fungal Zombie"
+			x: 0.0d
+			y: 3.9d
+			icon: "infectious:fungal_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "735ECD3AC33E54C0"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:golden_zombie"
+					id: "18A7190B41FDFFA0"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Golden Zombie"
+			x: 1.3d
+			y: 3.9d
+			icon: "infectious:golden_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "75E8D78417B39F53"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:hazmat_zombie"
+					id: "439BEC9324971AB3"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Hazmat Zombie"
+			x: 2.6d
+			y: 3.9d
+			icon: "infectious:hazmat_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "47DDF98FDF01C7A4"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:headless_zombie"
+					id: "30AFD962CCFE47A7"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Headless Zombie"
+			x: 3.9d
+			y: 3.9d
+			icon: "infectious:headless_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "6644C7452174F42A"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:infectious_zombie"
+					id: "4C04B8C5DB3C7459"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Infectious Zombie"
+			x: 5.2d
+			y: 3.9d
+			icon: "infectious:infectious_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "07ED1FE9F2927086"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:iron_door_zombie"
+					id: "10CB1FEAF59D65E1"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Iron Door Zombie"
+			x: 6.5d
+			y: 3.9d
+			icon: "infectious:iron_door_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "5AE535F1FC475343"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:zombie_lumberjack"
+					id: "7AAF540A447773F4"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Lumberjack Zombie"
+			x: 7.8d
+			y: 3.9d
+			icon: "infectious:zombie_lumberjack_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "49DF6A3605470AF5"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:maggot_zombie"
+					id: "1F5843243ADE27CF"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Maggot Zombie"
+			x: 9.1d
+			y: 3.9d
+			icon: "infectious:maggot_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "4BD7D9E56566CBBE"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:muddy_zombie"
+					id: "173E44771010EB6C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Muddy Zombie"
+			x: 10.4d
+			y: 3.9d
+			icon: "infectious:muddy_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "3356F21084AE7711"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:mummy"
+					id: "1D98ED2965C0AD7C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Mummy"
+			x: 11.7d
+			y: 3.9d
+			icon: "infectious:mummy_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "65D09332D15E8F1A"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:old_zombie"
+					id: "1C1CCAE3B9EBA89F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Old Zombie"
+			x: 0.0d
+			y: 5.2d
+			icon: "infectious:old_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "207466BEC2977F04"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:pool_tube_zombie"
+					id: "44F99ADECFA3EA50"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Pool Tube Zombie"
+			x: 1.3d
+			y: 5.2d
+			icon: "infectious:pool_tube_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "7DDBD67D02799264"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:psycho_zombie"
+					id: "06B2421AA387E49A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Psycho Zombie"
+			x: 2.6d
+			y: 5.2d
+			icon: "infectious:psycho_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "66E45709B1BC9FC2"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:pumpkin_zombie"
+					id: "0335E58F363A29DE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Pumpkin Zombie"
+			x: 3.9d
+			y: 5.2d
+			icon: "infectious:pumpkin_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "03DD38596B644AD8"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:pylon_zombie"
+					id: "675DD57A6E3CEEDB"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Pylon Zombie"
+			x: 5.2d
+			y: 5.2d
+			icon: "infectious:pylon_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "498016DD7A38B0E9"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:robotic_zombie"
+					id: "36FD73FFD0723839"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Robotic Zombie"
+			x: 6.5d
+			y: 5.2d
+			icon: "infectious:robotic_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "253497F577773A62"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:zombie_screamer"
+					id: "20C482955C774EED"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Screaming Zombie"
+			x: 7.8d
+			y: 5.2d
+			icon: "infectious:screamer_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "24E68B39E3F76F6A"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:security_zombie"
+					id: "0DA934BEB43A3178"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Security Zombie"
+			x: 9.1d
+			y: 5.2d
+			icon: "infectious:security_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "641028E115170065"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:spore_zombie"
+					id: "4A084D51E23275F9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Spore Zombie"
+			x: 10.4d
+			y: 5.2d
+			icon: "infectious:spore_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "670AB2C30D140625"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "undead_revamp2:bomber"
+					id: "1F6C368BF13764EC"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "The Bomber"
+			x: 11.7d
+			y: 5.2d
+			icon: "undead_revamp2:bomber_spawn_egg"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "7C82D727148A4DF2"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "4CE5A31C59BA7209"
+					stage: "abza_bestiary_t1_1"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "undead_revamp2:thelurker"
+					id: "347DC4592D65E279"
+					title: " The Lurker"
+					type: "kill"
+					value: 1L
+					icon: "undead_revamp2:thelurker_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:acid_zombie"
+					id: "1436D4CD09041A95"
+					title: "Acid Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:acid_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:angry_zombie"
+					id: "2D4DDDB6756D9DC8"
+					title: "Angry Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:angry_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:armless_zombie"
+					id: "468900BA6272136A"
+					title: "Armless Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:armless_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					id: "328092795CB0D22A"
+					stage: "abza_killed_infectious_balloon_zombie"
+					title: "Balloon Zombie"
+					type: "gamestage"
+					icon: "infectious:balloon_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:barrel_zombie"
+					id: "1A10197AD46B37AD"
+					title: "Barrel Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:barrel_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:baseball_bat_zombie"
+					id: "2AEE492629C61A65"
+					title: "Baseball Bat Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:baseball_bat_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:beehive_zombie"
+					id: "26243DE82E73D26F"
+					title: "Beehive Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:beehive_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:bees"
+					id: "67A615AE3EC90234"
+					title: "Beehive Zombie's Bees"
+					type: "kill"
+					value: 1L
+					icon: "infectious:beehive_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:beekeeper_zombie"
+					id: "23EF87C022D26916"
+					title: "Beekeeper Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:beekeeper_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:big_zombie"
+					id: "7AB47951806F4DA9"
+					title: "Big Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:big_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:blind_zombie"
+					id: "43FFB40E8DBBE64F"
+					title: "Blind Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:blind_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:bodyless_zombie"
+					id: "44185180238F426C"
+					title: "Bodyless Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:bodyless_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:bouncer_zombie"
+					id: "1050C0C9653855CD"
+					title: "Bouncer Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:bouncer_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:brain_zombie"
+					id: "712EC5D67BC3B1A2"
+					title: "Brain Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:brain_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:bucket_zombie"
+					id: "7D6587693E4BA4C4"
+					title: "Bucket Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:bucket_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:burned_zombie"
+					id: "14912B2A7324ABAC"
+					title: "Burned Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:burned_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:burning_zombie"
+					id: "62701C8C3808DBFE"
+					title: "Burning Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:burning_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:chained_zombie"
+					id: "0DABA897A07ABADF"
+					title: "Chained Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:chained_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:claw_zombie"
+					id: "151EC16BF8AE84E5"
+					title: "Claw Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:claw_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:construction_worker_zombie"
+					id: "1F34D7500ACBE833"
+					title: "Construction Worker Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:construction_worker_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:crawling_zombie"
+					id: "43D0C174C61DA670"
+					title: "Crawling Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:crawling_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:deep_sea_diver_zombie"
+					id: "22DF2096645A686F"
+					title: "Deep Sea Diver Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:deep_sea_diver_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:disco_zombie"
+					id: "3F4926C3DEF6EF38"
+					title: "Disco Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:disco_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:door_zombie"
+					id: "460622EAB5635AC2"
+					title: "Door Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:door_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:fat_zombie"
+					id: "30C268913DE4AE75"
+					title: "Fat Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:fat_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:fire_fighter_zombie"
+					id: "7671DB7C4E0ACEB3"
+					title: "Firefighter Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:fire_fighter_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:firework_zombie"
+					id: "13BBB3A9DCD458CD"
+					title: "Firework Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:firework_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:football_player_zombie"
+					id: "3095F294F2469610"
+					title: "Football Player Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:football_player_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:frozen_zombie"
+					id: "0D613DD64FFF253E"
+					title: "Frozen Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:frozen_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:fungal_zombie"
+					id: "4613C8A236552914"
+					title: "Fungal Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:fungal_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:golden_zombie"
+					id: "2FDDA50C8EAA73E2"
+					title: "Golden Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:golden_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:hazmat_zombie"
+					id: "36E36A8B1FB4B486"
+					title: "Hazmat Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:hazmat_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:headless_zombie"
+					id: "084F518E4CD4A03C"
+					title: "Headless Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:headless_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:infectious_zombie"
+					id: "3E26E2705D49956D"
+					title: "Infectious Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:infectious_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:iron_door_zombie"
+					id: "0E0BA0EF53B0EB6C"
+					title: "Iron Door Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:iron_door_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:zombie_lumberjack"
+					id: "4C22B580F0ADE326"
+					title: "Lumberjack Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:zombie_lumberjack_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:maggot_zombie"
+					id: "62599D924C957554"
+					title: "Maggot Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:maggot_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:muddy_zombie"
+					id: "54FB29C4F4D92AA9"
+					title: "Muddy Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:muddy_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:mummy"
+					id: "3E9278C1D996965B"
+					title: "Mummy"
+					type: "kill"
+					value: 1L
+					icon: "infectious:mummy_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:old_zombie"
+					id: "35EF059CE622FB12"
+					title: "Old Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:old_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:pool_tube_zombie"
+					id: "0DA2ADF6BF19B43C"
+					title: "Pool Tube Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:pool_tube_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:psycho_zombie"
+					id: "5E152968509400F0"
+					title: "Psycho Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:psycho_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:pumpkin_zombie"
+					id: "0EB2B5CF0382EDFC"
+					title: "Pumpkin Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:pumpkin_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:pylon_zombie"
+					id: "36DC7B986A2F8039"
+					title: "Pylon Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:pylon_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:robotic_zombie"
+					id: "7CFBD107AD1333C4"
+					title: "Robotic Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:robotic_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:zombie_screamer"
+					id: "536D96D5785CAC50"
+					title: "Screaming Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:screamer_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:security_zombie"
+					id: "5F1AEED4481F36E7"
+					title: "Security Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:security_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:spore_zombie"
+					id: "25B494DEAA360A7A"
+					title: "Spore Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:spore_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "undead_revamp2:bomber"
+					id: "66CD715EF95C21E8"
+					title: "The Bomber"
+					type: "kill"
+					value: 1L
+					icon: "undead_revamp2:bomber_spawn_egg"
+				}
+			]
+			title: "Bestiary 1 to 50"
+			x: 13.5d
+			y: 2.6d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "0CFD9BAD39171CFA"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "undead_revamp2:thebeartamer"
+					id: "71788EF422605AC4"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "The Bruin"
+			x: 0.0d
+			y: 7.5d
+			icon: "undead_revamp2:thebeartamer_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "39BB4C3B30ED4192"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "undead_revamp2:therod"
+					id: "7D3DCD7535319BF4"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "The Rod"
+			x: 1.3d
+			y: 7.5d
+			icon: "undead_revamp2:therod_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "7EC96B32E38E5D4A"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "undead_revamp2:thesmoker"
+					id: "346291FC739AEE38"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "The Wheezer"
+			x: 2.6d
+			y: 7.5d
+			icon: "undead_revamp2:thesmoker_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "1BC19F366EEA6E7A"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:zombie"
+					id: "5FD8B4578EE21933"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Wandering Zombie"
+			x: 3.9d
+			y: 7.5d
+			icon: "infectious:zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "23D3F799A4147C6F"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:withered_zombie"
+					id: "1064E99DD3513B23"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Withered Zombie"
+			x: 5.2d
+			y: 7.5d
+			icon: "infectious:withered_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "2E778040A2689714"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "199E7DF77D568FD7"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zombie"
+			x: 6.5d
+			y: 7.5d
+			icon: "minecraft:zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "70C778B67212C954"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:zombie_agent"
+					id: "17A23D1C2D4CDA81"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zombie Agent"
+			x: 7.8d
+			y: 7.5d
+			icon: "infectious:zombie_agent_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "2DCF34BD6DC3EED2"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:zombie_astronaut"
+					id: "6ABE59A8A14052F8"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zombie Astronaut"
+			x: 9.1d
+			y: 7.5d
+			icon: "infectious:zombie_astronaut_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "018BE9B4EB2588E1"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:zombie_bomber"
+					id: "215B7F0EDEBB7680"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zombie Bomber"
+			x: 10.4d
+			y: 7.5d
+			icon: "infectious:zombie_bomber_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "3CB6D559A46B182F"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:zombie_boxer"
+					id: "226BC470EAF80CFA"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zombie Boxer"
+			x: 11.7d
+			y: 7.5d
+			icon: "infectious:zombie_boxer_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "016BD3A61F29C6B9"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:zombie_climber"
+					id: "2AF2A9FDCA0286CF"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zombie Climber"
+			x: 0.0d
+			y: 8.8d
+			icon: "infectious:zombie_climber_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "27FFFD77FF549BEB"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:zombie_clown"
+					id: "3434DE4329549D03"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zombie Clown"
+			x: 1.3d
+			y: 8.8d
+			icon: "infectious:zombie_clown_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "257135E8FCE93E28"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:zombie_cook"
+					id: "06B277B199066E0D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zombie Cook"
+			x: 2.6d
+			y: 8.8d
+			icon: "infectious:zombie_cook_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "373430DE3DE75823"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:zombie_dancer"
+					id: "1C1B1D2C54368F98"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zombie Dancer"
+			x: 3.9d
+			y: 8.8d
+			icon: "infectious:zombie_dancer_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "049D0BB883AE4724"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:zombie_diver"
+					id: "02277DDF32742679"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zombie Diver"
+			x: 5.2d
+			y: 8.8d
+			icon: "infectious:zombie_diver_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "40C7BCEAE367E8B5"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:zombie_doctor"
+					id: "6899B47CAFAB2FB0"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zombie Doctor"
+			x: 6.5d
+			y: 8.8d
+			icon: "infectious:zombie_doctor_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "5230331065E9983C"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:zombie_farmer"
+					id: "075813150B9DF3CD"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zombie Farmer"
+			x: 7.8d
+			y: 8.8d
+			icon: "infectious:zombie_farmer_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "538353321A60168C"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:zombie_fisherman"
+					id: "7BF29F401E68E4DD"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zombie Fisherman"
+			x: 9.1d
+			y: 8.8d
+			icon: "infectious:zombie_fisherman_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "7E53D3DEBE1F45D8"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:zombie_girl"
+					id: "1F65811C49BBB888"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zombie Girl"
+			x: 10.4d
+			y: 8.8d
+			icon: "infectious:zombie_girl_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "1C6F8E8D539FD866"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:zombie_head"
+					id: "10FF09A06B0A2B57"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zombie Head"
+			x: 11.7d
+			y: 8.8d
+			icon: "infectious:zombie_head_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "2667C0A1719BCBEE"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "minecraft:zombie_horse"
+					id: "6937570FF5BA5325"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zombie Horse"
+			x: 0.0d
+			y: 10.1d
+			icon: "minecraft:zombie_horse_spawn_egg"
+		}
+		{
+			description: [
+				"Any of its forms counts."
+				""
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "787D88A85C5BBBBB"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					id: "601C168C28540878"
+					stage: "abza_killed_infectious_zombie_horseman"
+					title: "Kill a Zombie Horseman in any form"
+					type: "gamestage"
+					icon: "infectious:zombie_horseman_spawn_egg"
+				}
+			]
+			title: "Zombie Horseman"
+			x: 1.3d
+			y: 10.1d
+			icon: "infectious:zombie_horseman_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "7183DC7392B4A00A"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:zombie_miner"
+					id: "6BD1F8D9E649BE0B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zombie Miner"
+			x: 2.6d
+			y: 10.1d
+			icon: "infectious:zombie_miner_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "56E6A09EF5BA7D7B"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:zombie_painter"
+					id: "243752961675E418"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zombie Painter"
+			x: 3.9d
+			y: 10.1d
+			icon: "infectious:zombie_painter_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "697D6310B2751330"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:zombie_police"
+					id: "6922E36D65010252"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zombie Police"
+			x: 5.2d
+			y: 10.1d
+			icon: "infectious:zombie_police_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "42B74C22D6B7E357"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:zombie_prisoner"
+					id: "204A567C643CAF06"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zombie Prisoner"
+			x: 6.5d
+			y: 10.1d
+			icon: "infectious:zombie_prisoner_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "3B40C64AD863615C"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:zombie_runner"
+					id: "4EA9403A7D9A2A9A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zombie Runner"
+			x: 7.8d
+			y: 10.1d
+			icon: "infectious:zombie_runner_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "495289A34A5DC578"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:zombie_scientist"
+					id: "030CC7139ECB290F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zombie Scientist"
+			x: 9.1d
+			y: 10.1d
+			icon: "infectious:zombie_scientist_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "762591CD6DC67CF7"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:zombie_spiter"
+					id: "0204F3212AAB9470"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zombie Spitter"
+			x: 10.4d
+			y: 10.1d
+			icon: "infectious:zombie_spiter_spawn_egg"
+		}
+		{
+			description: [
+				"Any of its forms counts."
+				""
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "3D42AE0083E0E580"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					id: "6543EB493870B209"
+					stage: "abza_killed_infectious_tower_zombie"
+					title: "Kill a Zombie Tower in any form"
+					type: "gamestage"
+					icon: "infectious:tower_zombie_spawn_egg"
+				}
+			]
+			title: "Zombie Tower"
+			x: 11.7d
+			y: 10.1d
+			icon: "infectious:tower_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "7BDB01540BFCFBB8"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:zombie_on_stelts"
+					id: "33056219E7DC93FE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zombie on Stelts"
+			x: 0.0d
+			y: 11.4d
+			icon: "infectious:zombie_on_stelts_spawn_egg"
+		}
+		{
+			description: [
+				"Any of its forms counts."
+				""
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "2EEABCFEAFA47744"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					id: "4B3C7FDD60A0422E"
+					stage: "abza_killed_infectious_zombified_bird"
+					title: "Kill a Zombified Bird in any form"
+					type: "gamestage"
+					icon: "infectious:zombified_bird_spawn_egg"
+				}
+			]
+			title: "Zombified Bird"
+			x: 1.3d
+			y: 11.4d
+			icon: "infectious:zombified_bird_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "2181663B55F0D3FD"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:zombified_boar"
+					id: "37B9FCC697CF8A88"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zombified Boar"
+			x: 2.6d
+			y: 11.4d
+			icon: "infectious:zombified_boar_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "0C6E7DECE04A7B10"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:zombified_spider"
+					id: "3AEE51BFB64BBC45"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zombified Spider"
+			x: 3.9d
+			y: 11.4d
+			icon: "infectious:zombified_spider_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "7C663E6B33647B54"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:zombified_wolf"
+					id: "7B931D59CBC9813B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zombified Wolf"
+			x: 5.2d
+			y: 11.4d
+			icon: "infectious:zombified_wolf_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "085EA12507208727"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:mecha_zombie"
+					id: "7DDA5F79A9424DA9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Mecha Zombie"
+			x: 6.5d
+			y: 11.4d
+			icon: "infectious:mecha_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "0E18561360DAA0CD"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:muscular_zombie"
+					id: "06F539E035F2B52F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Muscular Zombie"
+			x: 7.8d
+			y: 11.4d
+			icon: "infectious:muscular_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "3A536DFC3AE2EDE3"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:mutant_zombie"
+					id: "2265848F9CB71035"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Mutant Zombie"
+			x: 9.1d
+			y: 11.4d
+			icon: "infectious:mutant_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "062E5A624478814E"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:radioactive_zombie"
+					id: "63337BA282A997D1"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Radioactive Zombie"
+			x: 10.4d
+			y: 11.4d
+			icon: "infectious:radioactive_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "0762707727E96544"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:swat_zombie"
+					id: "1A9250A2F339A0A6"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "S.W.A.T. Zombie"
+			x: 11.7d
+			y: 11.4d
+			icon: "infectious:swat_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "480C71883B0C2CB8"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:screamer"
+					id: "35111354A5819802"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Screamer"
+			x: 0.0d
+			y: 12.7d
+			icon: "infectious:screamer_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "43262B88173C8538"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "undead_revamp2:smokesmitter"
+					id: "3F7B046879846BB1"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Smoke Emitter"
+			x: 1.3d
+			y: 12.7d
+			icon: "undead_revamp2:smokesmitter_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "0495F96B7C27C28C"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "undead_revamp2:theheavy"
+					id: "3CA2D99282A51D5F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "The Heavy"
+			x: 2.6d
+			y: 12.7d
+			icon: "undead_revamp2:theheavy_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "62FE318AB979F9EF"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "undead_revamp2:thepregnant"
+					id: "75289CDD66FECE5B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "The Pregnant"
+			x: 3.9d
+			y: 12.7d
+			icon: "undead_revamp2:thepregnant_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "1219340239D78115"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "undead_revamp2:thewolf"
+					id: "603BBADDEFB9B303"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "The Wolf"
+			x: 5.2d
+			y: 12.7d
+			icon: "undead_revamp2:thewolf_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "32CFEF51A6D15AFD"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:zombie_breeder"
+					id: "761333ED4503E7F6"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zombie Breeder"
+			x: 6.5d
+			y: 12.7d
+			icon: "infectious:zombie_breeder_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "15D4641EB149F5A2"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:zombie_soldier"
+					id: "3481620B3BE83317"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zombie Soldier"
+			x: 7.8d
+			y: 12.7d
+			icon: "infectious:zombie_soldier_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "6570664290D325CF"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:zombified_bear"
+					id: "0781AC26C37FE0A3"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zombified Bear"
+			x: 9.1d
+			y: 12.7d
+			icon: "infectious:zombified_bear_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "660DE21B1F06C947"
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "Boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:giant_zombie"
+					id: "35F94D22F0E45FDD"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Giant Zombie"
+			x: 10.4d
+			y: 12.7d
+			icon: "infectious:giant_zombie_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "44C9442205577977"
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "Boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "undead_revamp2:clogger"
+					id: "68294F68087502CD"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "The Clogger"
+			x: 11.7d
+			y: 12.7d
+			icon: "undead_revamp2:clogger_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "7B23C9FD49139A29"
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "Boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "infectious:zombified_rex"
+					id: "338A65C9F0903AD6"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Zombified Rex"
+			x: 0.0d
+			y: 14.0d
+			icon: "infectious:zombified_rex_spawn_egg"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "15D61BE53A6A3A95"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "2D27706207D8EC8C"
+					stage: "abza_bestiary_t1_2"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "undead_revamp2:thebeartamer"
+					id: "7D403A2C14D5A3E6"
+					title: "The Bruin"
+					type: "kill"
+					value: 1L
+					icon: "undead_revamp2:thebeartamer_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "undead_revamp2:therod"
+					id: "277AA9D1D14A57C6"
+					title: "The Rod"
+					type: "kill"
+					value: 1L
+					icon: "undead_revamp2:therod_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "undead_revamp2:thesmoker"
+					id: "04A22EE44D188F36"
+					title: "The Wheezer"
+					type: "kill"
+					value: 1L
+					icon: "undead_revamp2:thesmoker_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:zombie"
+					id: "25CAE32215EE7A1E"
+					title: "Wandering Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:withered_zombie"
+					id: "6A2922309757D7F3"
+					title: "Withered Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:withered_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "minecraft:zombie"
+					id: "5514BA4B1190DAE4"
+					title: "Zombie"
+					type: "kill"
+					value: 1L
+					icon: "minecraft:zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:zombie_agent"
+					id: "0C6275D1863818D9"
+					title: "Zombie Agent"
+					type: "kill"
+					value: 1L
+					icon: "infectious:zombie_agent_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:zombie_astronaut"
+					id: "07A6C17472F97409"
+					title: "Zombie Astronaut"
+					type: "kill"
+					value: 1L
+					icon: "infectious:zombie_astronaut_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:zombie_bomber"
+					id: "2C0E0F4AA632F6E5"
+					title: "Zombie Bomber"
+					type: "kill"
+					value: 1L
+					icon: "infectious:zombie_bomber_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:zombie_boxer"
+					id: "14C573AF9358B8F9"
+					title: "Zombie Boxer"
+					type: "kill"
+					value: 1L
+					icon: "infectious:zombie_boxer_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:zombie_climber"
+					id: "6C9901F228C1913C"
+					title: "Zombie Climber"
+					type: "kill"
+					value: 1L
+					icon: "infectious:zombie_climber_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:zombie_clown"
+					id: "2866A03D5297AEE2"
+					title: "Zombie Clown"
+					type: "kill"
+					value: 1L
+					icon: "infectious:zombie_clown_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:zombie_cook"
+					id: "42524398A83760E2"
+					title: "Zombie Cook"
+					type: "kill"
+					value: 1L
+					icon: "infectious:zombie_cook_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:zombie_dancer"
+					id: "340BCD7735A7DA62"
+					title: "Zombie Dancer"
+					type: "kill"
+					value: 1L
+					icon: "infectious:zombie_dancer_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:zombie_diver"
+					id: "4AD15295D2D5A215"
+					title: "Zombie Diver"
+					type: "kill"
+					value: 1L
+					icon: "infectious:zombie_diver_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:zombie_doctor"
+					id: "2DDB10C26E2E4A73"
+					title: "Zombie Doctor"
+					type: "kill"
+					value: 1L
+					icon: "infectious:zombie_doctor_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:zombie_farmer"
+					id: "5F764DA70B5DDFD2"
+					title: "Zombie Farmer"
+					type: "kill"
+					value: 1L
+					icon: "infectious:zombie_farmer_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:zombie_fisherman"
+					id: "2CAF883599D400FB"
+					title: "Zombie Fisherman"
+					type: "kill"
+					value: 1L
+					icon: "infectious:zombie_fisherman_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:zombie_girl"
+					id: "3A8F8C25F39FD31B"
+					title: "Zombie Girl"
+					type: "kill"
+					value: 1L
+					icon: "infectious:zombie_girl_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:zombie_head"
+					id: "0F2F98D62DA5B0A1"
+					title: "Zombie Head"
+					type: "kill"
+					value: 1L
+					icon: "infectious:zombie_head_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "minecraft:zombie_horse"
+					id: "1F39B3D300874534"
+					title: "Zombie Horse"
+					type: "kill"
+					value: 1L
+					icon: "minecraft:zombie_horse_spawn_egg"
+				}
+				{
+					disable_toast: true
+					id: "1828DCFF8EE93E11"
+					stage: "abza_killed_infectious_zombie_horseman"
+					title: "Zombie Horseman"
+					type: "gamestage"
+					icon: "infectious:zombie_horseman_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:zombie_miner"
+					id: "6C64918EBF4A7DF6"
+					title: "Zombie Miner"
+					type: "kill"
+					value: 1L
+					icon: "infectious:zombie_miner_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:zombie_painter"
+					id: "2C4F9FF25D2AC1CD"
+					title: "Zombie Painter"
+					type: "kill"
+					value: 1L
+					icon: "infectious:zombie_painter_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:zombie_police"
+					id: "0F99F1968C3C48D3"
+					title: "Zombie Police"
+					type: "kill"
+					value: 1L
+					icon: "infectious:zombie_police_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:zombie_prisoner"
+					id: "577E75CD5D633DAE"
+					title: "Zombie Prisoner"
+					type: "kill"
+					value: 1L
+					icon: "infectious:zombie_prisoner_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:zombie_runner"
+					id: "3B71761973F74794"
+					title: "Zombie Runner"
+					type: "kill"
+					value: 1L
+					icon: "infectious:zombie_runner_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:zombie_scientist"
+					id: "5CB70211C429DAF3"
+					title: "Zombie Scientist"
+					type: "kill"
+					value: 1L
+					icon: "infectious:zombie_scientist_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:zombie_spiter"
+					id: "329ED7E24CCA394B"
+					title: "Zombie Spitter"
+					type: "kill"
+					value: 1L
+					icon: "infectious:zombie_spiter_spawn_egg"
+				}
+				{
+					disable_toast: true
+					id: "2552AF9871E425D8"
+					stage: "abza_killed_infectious_tower_zombie"
+					title: "Zombie Tower"
+					type: "gamestage"
+					icon: "infectious:tower_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:zombie_on_stelts"
+					id: "22106F1602B544EB"
+					title: "Zombie on Stelts"
+					type: "kill"
+					value: 1L
+					icon: "infectious:zombie_on_stelts_spawn_egg"
+				}
+				{
+					disable_toast: true
+					id: "25D747E9CFF0D169"
+					stage: "abza_killed_infectious_zombified_bird"
+					title: "Zombified Bird"
+					type: "gamestage"
+					icon: "infectious:zombified_bird_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:zombified_boar"
+					id: "53CB1D48669FF1D2"
+					title: "Zombified Boar"
+					type: "kill"
+					value: 1L
+					icon: "infectious:zombified_boar_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:zombified_spider"
+					id: "704CC78487C79CCB"
+					title: "Zombified Spider"
+					type: "kill"
+					value: 1L
+					icon: "infectious:zombified_spider_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:zombified_wolf"
+					id: "005B3AB596595808"
+					title: "Zombified Wolf"
+					type: "kill"
+					value: 1L
+					icon: "infectious:zombified_wolf_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:mecha_zombie"
+					id: "5FAE13FC0A2FB84D"
+					title: "Mecha Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:mecha_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:muscular_zombie"
+					id: "7BD60AE253046C8E"
+					title: "Muscular Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:muscular_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:mutant_zombie"
+					id: "1FE9BC328AEB8964"
+					title: "Mutant Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:mutant_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:radioactive_zombie"
+					id: "0D6341315CD819DA"
+					title: "Radioactive Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:radioactive_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:swat_zombie"
+					id: "7A03F0A0053E4901"
+					title: "S.W.A.T. Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:swat_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:screamer"
+					id: "0DBC814AD5FC74EF"
+					title: "Screamer"
+					type: "kill"
+					value: 1L
+					icon: "infectious:screamer_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "undead_revamp2:smokesmitter"
+					id: "10C4E7B014C77601"
+					title: "Smoke Emitter"
+					type: "kill"
+					value: 1L
+					icon: "undead_revamp2:smokesmitter_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "undead_revamp2:theheavy"
+					id: "5F98C35B3D9538F2"
+					title: "The Heavy"
+					type: "kill"
+					value: 1L
+					icon: "undead_revamp2:theheavy_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "undead_revamp2:thepregnant"
+					id: "3016BAA4426B2CEC"
+					title: "The Pregnant"
+					type: "kill"
+					value: 1L
+					icon: "undead_revamp2:thepregnant_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "undead_revamp2:thewolf"
+					id: "01D9E6F9D464E9AD"
+					title: "The Wolf"
+					type: "kill"
+					value: 1L
+					icon: "undead_revamp2:thewolf_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:zombie_breeder"
+					id: "04A71907D520270C"
+					title: "Zombie Breeder"
+					type: "kill"
+					value: 1L
+					icon: "infectious:zombie_breeder_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:zombie_soldier"
+					id: "4FF5076A88F7713C"
+					title: "Zombie Soldier"
+					type: "kill"
+					value: 1L
+					icon: "infectious:zombie_soldier_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:zombified_bear"
+					id: "6AFFC58B62C0B32D"
+					title: "Zombified Bear"
+					type: "kill"
+					value: 1L
+					icon: "infectious:zombified_bear_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:giant_zombie"
+					id: "3829CC655C631F72"
+					title: "Giant Zombie"
+					type: "kill"
+					value: 1L
+					icon: "infectious:giant_zombie_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "undead_revamp2:clogger"
+					id: "4A8B52BDD4D69C4B"
+					title: "The Clogger"
+					type: "kill"
+					value: 1L
+					icon: "undead_revamp2:clogger_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "infectious:zombified_rex"
+					id: "4869D961AD21050E"
+					title: "Zombified Rex"
+					type: "kill"
+					value: 1L
+					icon: "infectious:zombified_rex_spawn_egg"
+				}
+			]
+			title: "Bestiary 51 to 101"
+			x: 13.5d
+			y: 10.75d
+		}
+	]
+	title: "Tier 1: The Plains"
+}

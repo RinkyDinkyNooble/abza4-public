@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SVS",
+    "HMH",
+    "SVS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:string"
+    },
+    "V": {
+      "item": "abza:ocular_serum"
+    },
+    "H": {
+      "item": "abza:ocular_serum"
+    },
+    "M": {
+      "type": "forge:partial_nbt",
+      "item": "lrtactical:consumable",
+      "nbt": {
+        "ConsumableId": "abza:lunar_surgical_kit"
+      }
+    }
+  },
+  "result": {
+    "item": "lrtactical:consumable",
+    "nbt": {
+      "ConsumableId": "abza:nerve_suture_kit"
+    }
+  }
+}

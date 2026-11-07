@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aUa",
+    "a2a",
+    "SmS"
+  ],
+  "key": {
+    "2": {
+      "item": "mekanism:advanced_energy_cube"
+    },
+    "S": {
+      "tag": "forge:storage_blocks/steel"
+    },
+    "U": {
+      "item": "superbwarfare:laser_unit"
+    },
+    "a": {
+      "tag": "ad_astra:calorite_plates"
+    },
+    "m": {
+      "item": "superbwarfare:motor"
+    }
+  },
+  "result": {
+    "item": "superbwarfare:container",
+    "nbt": "{BlockEntityTag:{EntityType:\"superbwarfare:laser_tower\",id:\"superbwarfare:container\"}}"
+  }
+}

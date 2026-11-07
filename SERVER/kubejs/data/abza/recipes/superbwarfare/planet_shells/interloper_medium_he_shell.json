@@ -1,0 +1,18 @@
+{
+  "type": "mekanism:combining",
+  "mainInput": {
+    "ingredient": {
+      "item": "superbwarfare:medium_shell_he"
+    },
+    "amount": 2
+  },
+  "extraInput": {
+    "ingredient": {
+      "item": "spore:biomass"
+    }
+  },
+  "output": {
+    "item": "abza:interloper_medium_he_shell",
+    "count": 2
+  }
+}

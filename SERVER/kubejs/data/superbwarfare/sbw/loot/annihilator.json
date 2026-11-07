@@ -1,0 +1,42 @@
+{
+  "ID": "superbwarfare:annihilator",
+  "Pools": [
+    {
+      "Entries": [
+        {
+          "Count": 12,
+          "Name": "mekanism:block_steel"
+        },
+        {
+          "Chance": 0.5,
+          "Count": 16,
+          "Name": "superbwarfare:laser_unit"
+        },
+        {
+          "Chance": 0.5,
+          "Name": "mekanism:ultimate_energy_cube"
+        },
+        {
+          "Count": 3,
+          "Name": "minecraft:netherite_block"
+        }
+      ],
+      "Source": "superbwarfare:repair_tool",
+      "Type": "complete"
+    },
+    {
+      "Entries": [
+        {
+          "Chance": 0.5,
+          "Count": 12,
+          "Name": "mekanism:block_steel"
+        },
+        {
+          "Chance": 0.25,
+          "Name": "minecraft:netherite_block"
+        }
+      ],
+      "Type": "complete"
+    }
+  ]
+}

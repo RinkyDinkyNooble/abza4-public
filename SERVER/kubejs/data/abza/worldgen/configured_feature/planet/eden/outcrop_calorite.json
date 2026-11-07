@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 9,
+    "discard_chance_on_air_exposure": 0.0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ad_astra:venus_sand"
+        },
+        "state": {
+          "Name": "ad_astra:venus_calorite_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ad_astra:venus_sandstone"
+        },
+        "state": {
+          "Name": "ad_astra:venus_calorite_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ad_astra:venus_stone"
+        },
+        "state": {
+          "Name": "ad_astra:venus_calorite_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:dirt"
+        },
+        "state": {
+          "Name": "ad_astra:venus_calorite_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:grass_block"
+        },
+        "state": {
+          "Name": "ad_astra:venus_calorite_ore"
+        }
+      }
+    ]
+  }
+}

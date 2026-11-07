@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "superbwarfare:legendary_material_pack"
+    },
+    {
+      "item": "superbwarfare:crystal_action"
+    },
+    {
+      "item": "superbwarfare:crystal_trigger"
+    },
+    {
+      "item": "ad_astra:ostrum_plate"
+    },
+    {
+      "item": "ad_astra:ostrum_plate"
+    },
+    {
+      "item": "superbwarfare:crystal_spring"
+    },
+    {
+      "item": "superbwarfare:crystal_spring"
+    },
+    {
+      "item": "superbwarfare:crystal_spring"
+    },
+    {
+      "item": "superbwarfare:crystal_spring"
+    }
+  ],
+  "result": {
+    "item": "tacz:modern_kinetic_gun",
+    "nbt": "{GunId:\"tacz:m249\",GunFireMode:\"AUTO\",GunCurrentAmmoCount:0,HideFlags:61}"
+  }
+}

@@ -1,0 +1,61 @@
+{
+    "Id": 3601,
+    "ModRev": 18,
+    "Type": 0,
+    "Title": "Fuel for the Corps",
+    "Text": "Major Bello needs four buckets of ethene for the Corps' planes. Bring them to the airfield.",
+    "CompleteText": "That's four more flights. Four more flares answered.",
+    "CompleterNpc": "Bello",
+    "NextQuestId": 3602,
+    "RewardExp": 0,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "saros__money_mod:euro_50",
+                "Count": 1b
+            },
+            {
+                "Slot": 1b,
+                "id": "saros__money_mod:euro_10",
+                "Count": 1b
+            }
+        ]
+    },
+    "QuestCommand": "",
+    "RandomReward": 0b,
+    "QuestCompletion": 0,
+    "QuestRepeat": 0,
+    "QuestFactionPoints": {
+        "OptionFactions1": 2,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction1Points": 0b,
+        "OptionFactions2": -1,
+        "OptionFaction2Points": 0,
+        "DecreaseFaction2Points": 0b
+    },
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 0L
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "mekanism:ethene_bucket",
+                "Count": 4b
+            }
+        ]
+    },
+    "LeaveItems": 0b,
+    "IgnoreDamage": 1b,
+    "IgnoreNBT": 0b
+}

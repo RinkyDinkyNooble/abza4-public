@@ -1,0 +1,61 @@
+{
+    "Id": 8201,
+    "ModRev": 18,
+    "Type": 0,
+    "Title": "Bounty: the Amalgamated Heart",
+    "Text": "Teddy posted his biggest bounty for the Amalgamated Heart, once Lena is done with it. Bring it to Prospero.",
+    "CompleteText": "(He doesn't make a joke. He puts it in the safe and locks it twice.) Pleasure doing business, friend.",
+    "CompleterNpc": "Teddy",
+    "NextQuestId": -1,
+    "RewardExp": 0,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "saros__money_mod:euro_500",
+                "Count": 64b
+            },
+            {
+                "Slot": 1b,
+                "id": "saros__money_mod:euro_500",
+                "Count": 16b
+            }
+        ]
+    },
+    "QuestCommand": "",
+    "RandomReward": 0b,
+    "QuestCompletion": 0,
+    "QuestRepeat": 0,
+    "QuestFactionPoints": {
+        "OptionFactions1": -1,
+        "OptionFaction1Points": 0,
+        "DecreaseFaction1Points": 0b,
+        "OptionFactions2": -1,
+        "OptionFaction2Points": 0,
+        "DecreaseFaction2Points": 0b
+    },
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 0L
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "spore:amalgamated_heart",
+                "Count": 1b
+            }
+        ]
+    },
+    "LeaveItems": 0b,
+    "IgnoreDamage": 1b,
+    "IgnoreNBT": 0b
+}

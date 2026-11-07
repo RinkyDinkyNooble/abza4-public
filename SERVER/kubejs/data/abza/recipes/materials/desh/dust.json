@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "abza:desh_dirty_dust"
+    }
+  },
+  "output": {
+    "item": "abza:desh_dust"
+  }
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "entity": "prionmod:bloodseeker",
+    "weight": 20
+  },
+  {
+    "entity": "prionmod:boomer",
+    "weight": 20
+  },
+  {
+    "entity": "prionmod:cannibal",
+    "weight": 20
+  },
+  {
+    "entity": "prionmod:crawler",
+    "weight": 20
+  },
+  {
+    "entity": "prionmod:fhuman",
+    "weight": 20
+  },
+  {
+    "entity": "prionmod:impaler",
+    "weight": 20
+  },
+  {
+    "entity": "prionmod:infectedcow",
+    "weight": 20
+  },
+  {
+    "entity": "prionmod:infectedhorse",
+    "weight": 20
+  },
+  {
+    "entity": "prionmod:infectedpig",
+    "weight": 20
+  },
+  {
+    "entity": "prionmod:infectedsheep",
+    "weight": 20
+  },
+  {
+    "entity": "prionmod:infectedwolf",
+    "weight": 20
+  },
+  {
+    "entity": "prionmod:lacerator",
+    "weight": 20
+  },
+  {
+    "entity": "prionmod:necro",
+    "weight": 20
+  },
+  {
+    "entity": "prionmod:nightwalker",
+    "weight": 20
+  },
+  {
+    "entity": "prionmod:rooted",
+    "weight": 20
+  },
+  {
+    "entity": "prionmod:slasher",
+    "weight": 20
+  },
+  {
+    "entity": "prionmod:starved",
+    "weight": 20
+  },
+  {
+    "entity": "prionmod:thrall",
+    "weight": 20
+  },
+  {
+    "entity": "prionmod:vile",
+    "weight": 20
+  },
+  {
+    "entity": "prionmod:vulture",
+    "weight": 20
+  },
+  {
+    "entity": "prionmod:expletor",
+    "weight": 6,
+    "max_spawns": 1
+  },
+  {
+    "entity": "prionmod:hellhound",
+    "weight": 6,
+    "max_spawns": 1
+  },
+  {
+    "entity": "prionmod:slammer",
+    "weight": 6,
+    "max_spawns": 1
+  },
+  {
+    "entity": "prionmod:wendigo",
+    "weight": 6,
+    "max_spawns": 1
+  }
+]

@@ -1,0 +1,84 @@
+{
+    "Id": 6501,
+    "ModRev": 18,
+    "Type": 0,
+    "Title": "Lena's research: Eden",
+    "Text": "Lena wants two rotten eyes, two rotten jaws and a mutant hand from Eden's creatures.",
+    "CompleteText": "Look at the jaw. Human, mostly. (She stops.) My notes. Take them.",
+    "CompleterNpc": "Lena",
+    "NextQuestId": 6502,
+    "RewardExp": 0,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "saros__money_mod:euro_50",
+                "Count": 1b
+            },
+            {
+                "Slot": 1b,
+                "id": "saros__money_mod:euro_20",
+                "Count": 1b
+            },
+            {
+                "Slot": 2b,
+                "id": "minecraft:written_book",
+                "Count": 1b,
+                "tag": {
+                    "title": "Field Notes: Eden",
+                    "author": "Lena",
+                    "pages": [
+                        "{\"text\":\"Air, rain, day and night. If I squint, it's home.\\n\\nThat's the frightening part. Nothing here looks wrong until it moves.\"}"
+                    ],
+                    "resolved": 1b
+                }
+            }
+        ]
+    },
+    "QuestCommand": "",
+    "RandomReward": 0b,
+    "QuestCompletion": 0,
+    "QuestRepeat": 0,
+    "QuestFactionPoints": {
+        "OptionFactions1": 1,
+        "OptionFaction1Points": 50,
+        "DecreaseFaction1Points": 0b,
+        "OptionFactions2": -1,
+        "OptionFaction2Points": 0,
+        "DecreaseFaction2Points": 0b
+    },
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 0L
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "the_flesh_that_hates:rotten_eye",
+                "Count": 2b
+            },
+            {
+                "Slot": 1b,
+                "id": "the_flesh_that_hates:rotten_jaw",
+                "Count": 2b
+            },
+            {
+                "Slot": 2b,
+                "id": "the_flesh_that_hates:mutant_hand",
+                "Count": 1b
+            }
+        ]
+    },
+    "LeaveItems": 0b,
+    "IgnoreDamage": 1b,
+    "IgnoreNBT": 0b
+}

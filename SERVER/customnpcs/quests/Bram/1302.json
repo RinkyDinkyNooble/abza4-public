@@ -1,0 +1,65 @@
+{
+    "Id": 1302,
+    "ModRev": 18,
+    "Type": 0,
+    "Title": "Paper for Bram",
+    "Text": "Bram pays for Everwell paperwork nobody was meant to find.",
+    "CompleteText": "Not reportable. They had it from every clinic, in writing, and stamped it shut. This one's worth paying for.",
+    "CompleterNpc": "Bram",
+    "NextQuestId": -1,
+    "RewardExp": 0,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "saros__money_mod:euro_100",
+                "Count": 1b
+            }
+        ]
+    },
+    "QuestCommand": "",
+    "RandomReward": 0b,
+    "QuestCompletion": 0,
+    "QuestRepeat": 0,
+    "QuestFactionPoints": {
+        "OptionFactions1": -1,
+        "OptionFaction1Points": 0,
+        "DecreaseFaction1Points": 0b,
+        "OptionFactions2": -1,
+        "OptionFaction2Points": 0,
+        "DecreaseFaction2Points": 0b
+    },
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 0L
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "minecraft:written_book",
+                "Count": 1b,
+                "tag": {
+                    "title": "Adverse Events, Q3",
+                    "author": "Everwell Clinics",
+                    "pages": [
+                        "{\"text\":\"Patient, 91: knee cartilage fully regrown in eight days.\\n\\nPatient, 34: no sleep for nineteen days, no fatigue reported.\\n\\nPatient, 52: body temperature 31 degrees. Alert. Asking for food.\"}",
+                        "{\"text\":\"Forwarded to Head Office as required.\\n\\nReply: NOT REPORTABLE.\\n\\nFile with standard records. Do not discuss with patients.\"}"
+                    ],
+                    "resolved": 1b
+                }
+            }
+        ]
+    },
+    "LeaveItems": 0b,
+    "IgnoreDamage": 1b,
+    "IgnoreNBT": 0b
+}

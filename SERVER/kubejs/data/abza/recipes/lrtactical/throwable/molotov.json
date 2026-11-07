@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "mekanism:bio_fuel"
+    },
+    {
+      "item": "mekanism:bio_fuel"
+    },
+    {
+      "item": "farmersdelight:canvas"
+    }
+  ],
+  "result": {
+    "item": "lrtactical:throwable",
+    "count": 1,
+    "nbt": "{ThrowableId:\"lrtactical:molotov\"}"
+  }
+}

@@ -1,0 +1,87 @@
+
+#DO NOT PROCEED UNLESS YOU KNOW WHAT YOU ARE DOING
+#IT IS VERY EASY TO ENTIRELY BREAK THE NEST SYSTEM OR CAUSE A LOT OF PERFORMANCE ISSUES IF YOU ARE NOT CAREFUL
+["Entomophobia Nest Config"]
+
+	["Entomophobia Nest Config"."General Nest Configuration"]
+		"Blocks nests are built out of (key: \"modid:block;weight\") NOTE! Weights are how commonly that block appears, it is NOT X out of 100, a weight of 50 is NOT 50%, it's a fraction of the total cumulative weights (Ergo weight 10 out of a total of 50 is 20% [1/total * weight = chance as decimal])" = ["entomophobia:myiatic_flesh;95", "entomophobia:rooted_myiatic_flesh;7", "entomophobia:infested_myiatic_flesh;2", "entomophobia:waxy_myiatic_flesh;2"]
+		#Range: > 1
+		"The frequency at which nests tick (lower = faster, 1 is every tick, 2 is every other, etc)" = 100
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"The rate at which the nests build per build tick (Supports decimals but any decimal position higher than point 5 will be rounded up)" = 60.0
+		#Range: > 0
+		"Maximum hardness of blocks that the nest can replace while building" = 10
+		#Range: > 1
+		"The maximum amount of layers a given branch of a nest can generate (manages max size)" = 2
+		#Range: -64 ~ 320
+		"The Y level at which nests will prioritize building up or down if below or above, respectfully" = 0
+
+		["Entomophobia Nest Config"."General Nest Configuration"."Nest Message Configuration"]
+			"Messages displayed in chat when a nest is formed" = ["§4You feel the world pulse as if something alive is buried nearby...", "§4Something foul takes root...", "§4The sickly-sweet smell of rot emanates from the ground.", "§4It grows.", "§4A faint yet aggressive rustling permeates throughout the area...", "§4A dull heartbeat resonates from below."]
+			"should there be a a small chance to select and display joke messages for nests forming?" = false
+			#Range: 0.0 ~ 1.0
+			"Chance for a joke message to be displayed instead of a normal one (if enabled)" = 0.05
+			"Messages with a very small chance to be displayed in chat when a nest is formed (joke messages)" = ["It's Joever", "Endure...", "Erm what the sigma", "*Gulp* it's right behind me, isn't it?", "Mr. President a second nest has hit the overworld"]
+
+	["Entomophobia Nest Config"."Chamber Configuration"]
+
+		["Entomophobia Nest Config"."Chamber Configuration"."Small Chamber Configuration"]
+			#Range: > 0
+			"Minimum radius size for small chambers" = 7
+			#Range: > 0
+			"Maximum radius size for small chambers" = 9
+			#Range: > 1
+			"Thickness of the walls for small chambers" = 1
+
+		["Entomophobia Nest Config"."Chamber Configuration"."Medium Chamber Configuration"]
+			#Range: > 0
+			"Minimum radius size for medium chambers" = 8
+			#Range: > 0
+			"Maximum radius size for medium chambers" = 10
+			#Range: > 1
+			"Thickness of the walls for medium chambers" = 2
+
+		["Entomophobia Nest Config"."Chamber Configuration"."Large Chamber Configuration"]
+			#Range: > 0
+			"Minimum radius size for large chambers" = 10
+			#Range: > 0
+			"Maximum radius size for large chambers" = 12
+			#Range: > 1
+			"Thickness of the walls for large chambers" = 3
+
+	["Entomophobia Nest Config"."Corridor Configuration"]
+
+		["Entomophobia Nest Config"."Corridor Configuration"."General Corridor Configuration"]
+			#Range: > 1
+			"Minimum length of corridors" = 16
+			#Range: > 1
+			"Maximum length of corridors" = 48
+			#Range: > 1
+			"Max amount of corridor extensions one corridor can have" = 3
+			#Range: 0.0 ~ 1.0
+			"Chance for a corridor to get an extension" = 0.4
+
+		["Entomophobia Nest Config"."Corridor Configuration"."Small Corridor Configuration"]
+			#Range: > 0
+			"Minimum diameter for small corridors" = 9
+			#Range: > 0
+			"Maximum diameter for small corridors" = 10
+			#Range: > 1
+			"Thickness of the walls for small corridors" = 2
+
+		["Entomophobia Nest Config"."Corridor Configuration"."Medium Chamber Configuration"]
+			#Range: > 0
+			"Minimum diameter for medium corridors" = 9
+			#Range: > 0
+			"Maximum diameter for medium corridors" = 11
+			#Range: > 1
+			"Thickness of the walls for medium corridors" = 2
+
+		["Entomophobia Nest Config"."Corridor Configuration"."Large Chamber Configuration"]
+			#Range: > 0
+			"Minimum diameter for large corridors" = 11
+			#Range: > 0
+			"Maximum diameter for large corridors" = 13
+			#Range: > 1
+			"Thickness of the walls for large corridors" = 3
+

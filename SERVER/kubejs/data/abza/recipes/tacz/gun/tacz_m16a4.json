@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "superbwarfare:epic_material_pack"
+    },
+    {
+      "item": "superbwarfare:netherite_action"
+    },
+    {
+      "item": "superbwarfare:netherite_trigger"
+    },
+    {
+      "item": "superbwarfare:netherite_barrel"
+    },
+    {
+      "item": "superbwarfare:netherite_barrel"
+    },
+    {
+      "item": "superbwarfare:netherite_barrel"
+    },
+    {
+      "item": "superbwarfare:netherite_spring"
+    },
+    {
+      "item": "superbwarfare:netherite_spring"
+    },
+    {
+      "item": "superbwarfare:netherite_spring"
+    }
+  ],
+  "result": {
+    "item": "tacz:modern_kinetic_gun",
+    "nbt": "{GunId:\"tacz:m16a4\",GunFireMode:\"BURST\",GunCurrentAmmoCount:0,HideFlags:61}"
+  }
+}

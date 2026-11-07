@@ -1,0 +1,334 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progress_t3"
+	group: "556BB4E0704CB043"
+	icon: "ad_astra:tier_1_rocket"
+	id: "634B996130F0DEA2"
+	order_index: 2
+	images: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:red_sand"
+			id: "76E8C8629BD906D6"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					icon: "minecraft:red_sand"
+					id: "3B0944EEA29B2BB6"
+					stage: "abza_reached_t3"
+					title: "Reach the Badlands"
+					type: "gamestage"
+				}
+			]
+			title: "The Badlands"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"76E8C8629BD906D6"
+			]
+			description: [
+				"Smelted from ancient debris."
+			]
+			icon: "minecraft:ancient_debris"
+			id: "7D1CF66FE524E5A3"
+			tasks: [
+				{
+					id: "09277D503865200E"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			title: "Netherite Scrap"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"76E8C8629BD906D6"
+			]
+			icon: {
+				id: "tacz:modern_kinetic_gun"
+				Count: 1b
+				tag: {
+					GunId: "tacz:m700"
+				}
+			}
+			id: "1569B72AC00DC5CB"
+			optional: true
+			tasks: [
+				{
+					icon: {
+						id: "tacz:modern_kinetic_gun"
+						Count: 1b
+						tag: {
+							GunId: "tacz:timeless50"
+						}
+					}
+					id: "70AE50525971B134"
+					item: {
+						id: "ftbfiltersystem:smart_filter"
+						Count: 1b
+						tag: {
+							"ftbfiltersystem:filter": "item(tacz:modern_kinetic_gun)or(nbt(fuzzy:{GunId:\"tacz:timeless50\"})nbt(fuzzy:{GunId:\"tacz:fn_fal\"})nbt(fuzzy:{GunId:\"tacz:hk_g3\"})nbt(fuzzy:{GunId:\"tacz:mk14\"})nbt(fuzzy:{GunId:\"tacz:m700\"})nbt(fuzzy:{GunId:\"tacz:fn_evolys\"})nbt(fuzzy:{GunId:\"tacz:m1014\"})nbt(fuzzy:{GunId:\"tacz:m320\"})nbt(fuzzy:{GunId:\"tacz:rpg7\"})nbt(fuzzy:{GunId:\"tacz:b93r\"})nbt(fuzzy:{GunId:\"tacz:m16a4\"}))"
+						}
+					}
+					title: "Any Tier 3 gun"
+					type: "item"
+				}
+			]
+			title: "A Tier 3 Gun"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"7D1CF66FE524E5A3"
+			]
+			description: [
+				"&e4×&r ore, with hydrogen chloride."
+			]
+			icon: "mekanism:chemical_injection_chamber"
+			id: "701FAAEBB936CDC0"
+			tasks: [
+				{
+					id: "778A1DC19BBE94DC"
+					item: "mekanism:chemical_injection_chamber"
+					type: "item"
+				}
+			]
+			title: "Chemical Injection Chamber"
+			x: 7.0d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"7D1CF66FE524E5A3"
+			]
+			icon: "mekanismgenerators:fission_reactor_port"
+			id: "76CE743608643EC4"
+			optional: true
+			tasks: [
+				{
+					id: "163A8776F9E31500"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+			]
+			title: "Fission"
+			x: 7.0d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"701FAAEBB936CDC0"
+			]
+			icon: "mekanism:alloy_atomic"
+			id: "7DF6F00B86F879E4"
+			tasks: [
+				{
+					id: "34ED085B06162F60"
+					item: "mekanism:alloy_atomic"
+					type: "item"
+				}
+			]
+			title: "Atomic Alloy"
+			x: 10.5d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"701FAAEBB936CDC0"
+			]
+			icon: "mekanism:elite_control_circuit"
+			id: "538730CFCC1D4D1F"
+			tasks: [
+				{
+					id: "36B7FF3769607001"
+					item: "mekanism:elite_control_circuit"
+					type: "item"
+				}
+			]
+			title: "Elite Control Circuit"
+			x: 10.5d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"538730CFCC1D4D1F"
+			]
+			icon: "mekanism:digital_miner"
+			id: "495985744C788A84"
+			optional: true
+			tasks: [
+				{
+					id: "4FA814EA85B1096A"
+					item: "mekanism:digital_miner"
+					type: "item"
+				}
+			]
+			title: "Digital Miner"
+			x: 14.0d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"7DF6F00B86F879E4"
+			]
+			icon: "superbwarfare:epic_material_pack"
+			id: "4D51FB4A634FF567"
+			tasks: [
+				{
+					id: "3F0645EC54B6C92E"
+					item: "superbwarfare:epic_material_pack"
+					type: "item"
+				}
+			]
+			title: "Tier 3 Material Pack"
+			x: 14.0d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"4D51FB4A634FF567"
+			]
+			description: [
+				"Starts from &eBottled Corpsedew&r."
+			]
+			icon: "abza:vaccine_t3"
+			id: "47A4227B7964D3EC"
+			optional: true
+			tasks: [
+				{
+					id: "04D1309E97932D6C"
+					item: "abza:vaccine_t3"
+					type: "item"
+				}
+			]
+			title: "Brood Fever Vaccine"
+			x: 17.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"538730CFCC1D4D1F"
+			]
+			description: [
+				"In the Badlands' boss buildings."
+			]
+			disable_toast: true
+			icon: "minecraft:zombie_head"
+			id: "0A030F0CFA8F64E6"
+			optional: true
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0A3FBF87F3DBF587"
+					title: "Got it"
+					type: "checkmark"
+					disable_toast: true
+				}
+			]
+			title: "Final Boss"
+			x: 17.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"4D51FB4A634FF567"
+				"538730CFCC1D4D1F"
+			]
+			icon: "ad_astra:nasa_workbench"
+			id: "45DCD3A2D3A64478"
+			tasks: [
+				{
+					id: "779B7D4F1470965C"
+					item: "ad_astra:nasa_workbench"
+					type: "item"
+				}
+			]
+			title: "Rocket Workbench"
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"45DCD3A2D3A64478"
+			]
+			description: [
+				"Fill it at an &eOxygen Loader&r."
+			]
+			icon: "ad_astra:space_suit"
+			id: "3A5D9EA765A532C0"
+			tasks: [
+				{
+					id: "6D587A884D309D4C"
+					item: "ad_astra:space_suit"
+					type: "item"
+				}
+			]
+			title: "Space Suit"
+			x: 21.0d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"45DCD3A2D3A64478"
+			]
+			description: [
+				"Each rocket level burns its own fuel."
+			]
+			icon: "ad_astra:tier_1_rocket"
+			id: "17B64AC131EE0A2E"
+			tasks: [
+				{
+					id: "4370DEEDE4D95357"
+					item: "ad_astra:tier_1_rocket"
+					type: "item"
+				}
+			]
+			title: "Level 1 Rocket"
+			x: 21.0d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"3A5D9EA765A532C0"
+				"17B64AC131EE0A2E"
+			]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ad_astra:textures/environment/moon.png"
+				}
+			}
+			id: "1F1C04D3A9EF0619"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					dimension: "ad_astra:moon"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "ad_astra:textures/environment/moon.png"
+						}
+					}
+					id: "75ABA94F71169FA2"
+					title: "Reach the Moon"
+					type: "dimension"
+				}
+			]
+			title: "Onward: the Moon"
+			x: 24.5d
+			y: 0.0d
+		}
+	]
+	title: "Tier 3: The Badlands"
+}

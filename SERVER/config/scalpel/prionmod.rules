@@ -1,0 +1,26 @@
+# Prion
+
+# Entities
+keep entity prionmod:*
+
+# Items and blocks
+hide item prionmod:bone_boots
+hide item prionmod:bone_bow
+hide item prionmod:bone_chestplate
+hide item prionmod:bone_helmet
+hide item prionmod:bone_leggings
+hide item prionmod:severator
+hide item prionmod:meat_sword
+hide item prionmod:stackedpreservedbone
+hide item prionmod:bundledpreservedbone
+hide item prionmod:cyst
+hide item prionmod:eggs_block
+hide item prionmod:entrails_block
+hide item prionmod:living_block
+hide item prionmod:nox_block
+hide item prionmod:root_block
+keep item prionmod:*_spawn_egg
+
+# Recipes and loot
+remove recipe prionmod:*
+remove loot prionmod:*

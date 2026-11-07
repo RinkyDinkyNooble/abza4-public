@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:oxidizing",
+  "input": {
+    "ingredient": {
+      "item": "phayriosisreborn:crimsonscale_fragment"
+    }
+  },
+  "output": {
+    "gas": "crafttweaker:crimson_oxide",
+    "amount": 200
+  }
+}

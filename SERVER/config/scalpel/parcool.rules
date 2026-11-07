@@ -1,0 +1,7 @@
+# ParCool
+
+# Zipline rope recipe
+remove recipe parcool:zipline_rope
+
+# Guide book
+hide any parcool:parcool_guide

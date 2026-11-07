@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:badlands",
+    "minecraft:deep_lukewarm_ocean",
+    "minecraft:desert",
+    "minecraft:warm_ocean"
+  ]
+}

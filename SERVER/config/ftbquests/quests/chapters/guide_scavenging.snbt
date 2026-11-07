@@ -1,0 +1,106 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "guide_scavenging"
+	group: "2823A29698F90E67"
+	icon: "minecraft:chest"
+	id: "3D7F01850A779765"
+	order_index: 2
+	images: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Containers &cnever refill&r. Each player gets their own loot, and &can explosion destroys it&r."
+			]
+			disable_toast: true
+			icon: "minecraft:chest"
+			id: "49908EC2A6B5C476"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5A59D2069D1C0DAB"
+					title: "Got it"
+					type: "checkmark"
+					disable_toast: true
+				}
+			]
+			title: "Loot"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"49908EC2A6B5C476"
+			]
+			description: [
+				"Spawners &ccan't be broken&r. They stop after &e3 waves&r."
+			]
+			disable_toast: true
+			icon: "minecraft:spawner"
+			id: "330EA99AFD128729"
+			tasks: [
+				{
+					id: "1210DADD1BFDF2CB"
+					title: "Got it"
+					type: "checkmark"
+					disable_toast: true
+				}
+			]
+			title: "Spawners"
+			x: 3.5d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"49908EC2A6B5C476"
+			]
+			description: [
+				"A keypad's code is written down &esomewhere in the same building&r. Every building and every world has its own codes."
+				""
+				"A keycard reader takes its level &eor higher&r. The rare &eCodebreaker&r sometimes opens a keypad."
+			]
+			disable_toast: true
+			icon: "securitycraft:keypad"
+			id: "09AC004C94D8E42D"
+			tasks: [
+				{
+					id: "0DBBD7AF3A75DC31"
+					title: "Got it"
+					type: "checkmark"
+					disable_toast: true
+				}
+			]
+			title: "Codes and Keycards"
+			x: 3.5d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"330EA99AFD128729"
+				"09AC004C94D8E42D"
+			]
+			description: [
+				"Fire a flare gun into &eopen sky&r on Earth."
+				""
+				"A crate left unopened for &c5 minutes&r with nobody within 32 blocks is &cstolen&r."
+			]
+			disable_toast: true
+			icon: "dyairdrop:flaregun1"
+			id: "0E5AA53E74D9A417"
+			tasks: [
+				{
+					id: "40F5DE3A2567BB94"
+					title: "Got it"
+					type: "checkmark"
+					disable_toast: true
+				}
+			]
+			title: "Air Drops"
+			x: 7.0d
+			y: 0.0d
+		}
+	]
+	title: "Scavenging"
+}

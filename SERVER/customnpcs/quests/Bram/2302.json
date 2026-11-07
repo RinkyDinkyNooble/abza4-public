@@ -1,0 +1,70 @@
+{
+    "Id": 2302,
+    "ModRev": 18,
+    "Type": 0,
+    "Title": "Paper for Bram",
+    "Text": "Bram pays for Everwell paperwork nobody was meant to find.",
+    "CompleteText": "Animals first, then people. Some changed, most didn't, and they launched anyway. (A pause.) There's a field biologist on the staff list. Ask your friend at the camp what she signed.",
+    "CompleterNpc": "Bram",
+    "NextQuestId": -1,
+    "RewardExp": 0,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "saros__money_mod:euro_100",
+                "Count": 1b
+            },
+            {
+                "Slot": 1b,
+                "id": "saros__money_mod:euro_50",
+                "Count": 1b
+            }
+        ]
+    },
+    "QuestCommand": "",
+    "RandomReward": 0b,
+    "QuestCompletion": 0,
+    "QuestRepeat": 0,
+    "QuestFactionPoints": {
+        "OptionFactions1": -1,
+        "OptionFaction1Points": 0,
+        "DecreaseFaction1Points": 0b,
+        "OptionFactions2": -1,
+        "OptionFaction2Points": 0,
+        "DecreaseFaction2Points": 0b
+    },
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 0L
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "minecraft:written_book",
+                "Count": 1b,
+                "tag": {
+                    "title": "Trial Summary: N-1",
+                    "author": "Everwell Northern Site",
+                    "pages": [
+                        "{\"text\":\"Animal arm: 31% anomalous. Regrowth, no sleep, cold tolerance.\\nHuman arm: 9% anomalous.\\nRemainder: no change detected.\\n\\nHead Office: seal the results. The launch proceeds.\"}",
+                        "{\"text\":\"Staff briefed:\\nA. Moreau, site lead\\nL. Sato, field biology\\nK. Brandt, security\\n\\nSignatures on file.\"}"
+                    ],
+                    "resolved": 1b
+                }
+            }
+        ]
+    },
+    "LeaveItems": 0b,
+    "IgnoreDamage": 1b,
+    "IgnoreNBT": 0b
+}

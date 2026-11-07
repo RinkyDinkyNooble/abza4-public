@@ -1,0 +1,24 @@
+{
+  "name": "item.abza.cooling_balm",
+  "tooltip": "item.abza.cooling_balm.desc",
+  "base_item": "lrtactical:consumable",
+  "data": {
+    "use_duration": 112,
+    "cooldown": 60,
+    "cooldown_category": "lrtactical:medical",
+    "stack_size": 4,
+    "max_durability": 0,
+    "draw_time": 19,
+    "put_away_time": 17,
+    "use_mode": "toggle",
+    "heal": 20.0,
+    "effects": [
+      {
+        "id": "cold_sweat:frigidness",
+        "duration": 1200,
+        "amplifier": 0,
+        "chance": 1.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "item.abza.nerve_suture_kit",
+  "tooltip": "item.abza.nerve_suture_kit.desc",
+  "base_item": "lrtactical:consumable",
+  "data": {
+    "use_duration": 160,
+    "cooldown": 60,
+    "cooldown_category": "lrtactical:medical",
+    "stack_size": 4,
+    "max_durability": 0,
+    "draw_time": 12,
+    "put_away_time": 6,
+    "use_mode": "toggle",
+    "heal": 36.0,
+    "effects": [
+      {
+        "id": "minecraft:regeneration",
+        "duration": 240,
+        "amplifier": 1,
+        "chance": 1.0
+      }
+    ]
+  }
+}

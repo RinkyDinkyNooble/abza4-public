@@ -1,0 +1,42 @@
+{
+  "ID": "superbwarfare:prism_tank",
+  "Pools": [
+    {
+      "Entries": [
+        {
+          "Count": 4,
+          "Name": "mekanism:block_steel"
+        },
+        {
+          "Chance": 0.5,
+          "Name": "superbwarfare:track"
+        },
+        {
+          "Chance": 0.5,
+          "Count": 8,
+          "Name": "superbwarfare:laser_unit"
+        },
+        {
+          "Chance": 0.5,
+          "Name": "superbwarfare:large_motor"
+        },
+        {
+          "Chance": 0.2,
+          "Name": "mekanism:elite_energy_cube"
+        }
+      ],
+      "Source": "superbwarfare:repair_tool",
+      "Type": "complete"
+    },
+    {
+      "Entries": [
+        {
+          "Chance": 0.5,
+          "Count": 4,
+          "Name": "mekanism:block_steel"
+        }
+      ],
+      "Type": "complete"
+    }
+  ]
+}

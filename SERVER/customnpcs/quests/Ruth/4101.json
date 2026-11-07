@@ -1,0 +1,59 @@
+{
+    "Id": 4101,
+    "ModRev": 18,
+    "Type": 0,
+    "Title": "Platinum care",
+    "Text": "The residents' clinic on the Moon kept a treatment for its own. Ruth wants its protocol.",
+    "CompleteText": "(She reads it twice.) This is what medicine looks like when it's for you. I can make this. Roll up your sleeve.",
+    "CompleterNpc": "Ruth",
+    "NextQuestId": -1,
+    "RewardExp": 0,
+    "Rewards": {
+        "NpcMiscInv": [
+        ]
+    },
+    "QuestCommand": "abza reward @dp 4",
+    "RandomReward": 0b,
+    "QuestCompletion": 0,
+    "QuestRepeat": 0,
+    "QuestFactionPoints": {
+        "OptionFactions1": 0,
+        "OptionFaction1Points": 50,
+        "DecreaseFaction1Points": 0b,
+        "OptionFactions2": -1,
+        "OptionFaction2Points": 0,
+        "DecreaseFaction2Points": 0b
+    },
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 0L
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "minecraft:written_book",
+                "Count": 1b,
+                "tag": {
+                    "title": "Platinum Care",
+                    "author": "Residents' Clinic",
+                    "pages": [
+                        "{\"text\":\"Resident protocol.\\n\\nGene-matched repair, given in clinic. Not Regenesis.\\n\\nNot for general release.\\nCost per course: on request.\"}"
+                    ],
+                    "resolved": 1b
+                }
+            }
+        ]
+    },
+    "LeaveItems": 1b,
+    "IgnoreDamage": 1b,
+    "IgnoreNBT": 0b
+}

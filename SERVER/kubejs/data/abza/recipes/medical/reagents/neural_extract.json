@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:oxidizing",
+  "input": {
+    "ingredient": {
+      "item": "spore:nerves"
+    }
+  },
+  "output": {
+    "gas": "crafttweaker:neural_extract",
+    "amount": 200
+  }
+}

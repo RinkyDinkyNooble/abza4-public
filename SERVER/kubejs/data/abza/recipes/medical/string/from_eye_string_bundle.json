@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "the_eyes_are_back:eye_string_bundle"
+    }
+  },
+  "output": {
+    "item": "minecraft:string",
+    "count": 18
+  }
+}

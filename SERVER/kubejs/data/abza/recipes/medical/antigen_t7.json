@@ -1,0 +1,15 @@
+{
+  "type": "mekanism:injecting",
+  "itemInput": {
+    "ingredient": {
+      "item": "phayriosisreborn:primordial_carapace_fragment"
+    }
+  },
+  "chemicalInput": {
+    "amount": 1,
+    "gas": "crafttweaker:enriched_dravarium"
+  },
+  "output": {
+    "item": "abza:antigen_t7"
+  }
+}

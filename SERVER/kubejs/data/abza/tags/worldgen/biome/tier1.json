@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:beach",
+    "minecraft:cherry_grove",
+    "minecraft:deep_ocean",
+    "minecraft:ocean",
+    "minecraft:plains",
+    "minecraft:river"
+  ]
+}

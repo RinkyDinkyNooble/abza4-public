@@ -1,0 +1,64 @@
+{
+    "Id": 4301,
+    "ModRev": 18,
+    "Type": 0,
+    "Title": "The cold room",
+    "Text": "Bram wants to know whether the residents on the Moon took Regenesis. Bring him their clinic's cold room inventory.",
+    "CompleteText": "Two hundred and fourteen doses. A name on every one, a seal on every one. The people who sold it never took it.",
+    "CompleterNpc": "Bram",
+    "NextQuestId": -1,
+    "RewardExp": 0,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "saros__money_mod:euro_100",
+                "Count": 1b
+            }
+        ]
+    },
+    "QuestCommand": "",
+    "RandomReward": 0b,
+    "QuestCompletion": 0,
+    "QuestRepeat": 0,
+    "QuestFactionPoints": {
+        "OptionFactions1": 0,
+        "OptionFaction1Points": 50,
+        "DecreaseFaction1Points": 0b,
+        "OptionFactions2": -1,
+        "OptionFaction2Points": 0,
+        "DecreaseFaction2Points": 0b
+    },
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 0L
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "minecraft:written_book",
+                "Count": 1b,
+                "tag": {
+                    "title": "Cold Room Inventory",
+                    "author": "Residents' Clinic",
+                    "pages": [
+                        "{\"text\":\"Regenesis, resident allocation: 214 doses, each named.\\n\\nSeals: all intact.\\n\\nNote: residents opted for Platinum care.\"}"
+                    ],
+                    "resolved": 1b
+                }
+            }
+        ]
+    },
+    "LeaveItems": 0b,
+    "IgnoreDamage": 1b,
+    "IgnoreNBT": 0b
+}

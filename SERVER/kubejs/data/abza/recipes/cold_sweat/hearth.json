@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " K ",
+    "BHB",
+    "BBB"
+  ],
+  "key": {
+    "K": {
+      "item": "cold_sweat:smokestack"
+    },
+    "B": {
+      "item": "minecraft:bricks"
+    },
+    "H": {
+      "item": "mekanism:fuelwood_heater"
+    }
+  },
+  "result": {
+    "item": "cold_sweat:hearth",
+    "count": 1
+  }
+}

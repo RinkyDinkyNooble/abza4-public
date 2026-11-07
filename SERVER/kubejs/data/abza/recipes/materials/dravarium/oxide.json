@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:oxidizing",
+  "input": {
+    "ingredient": {
+      "item": "phayriosisreborn:unrefined_dravarium_495"
+    }
+  },
+  "output": {
+    "gas": "crafttweaker:dravarium_oxide",
+    "amount": 1000
+  }
+}

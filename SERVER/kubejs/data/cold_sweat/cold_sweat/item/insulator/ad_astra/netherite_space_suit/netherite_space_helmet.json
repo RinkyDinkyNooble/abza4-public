@@ -1,0 +1,24 @@
+{
+  "type": "armor",
+  "item": {
+    "items": [
+      "ad_astra:netherite_space_helmet"
+    ]
+  },
+  "attributes": {
+    "cold_sweat:freezing_point": [
+      {
+        "name": "abza:netherite_space_helmet_cold",
+        "amount": -0.3,
+        "operation": "addition"
+      }
+    ],
+    "cold_sweat:burning_point": [
+      {
+        "name": "abza:netherite_space_helmet_heat",
+        "amount": 0.3,
+        "operation": "addition"
+      }
+    ]
+  }
+}

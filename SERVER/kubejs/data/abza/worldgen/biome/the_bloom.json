@@ -1,0 +1,82 @@
+{
+  "has_precipitation": false,
+  "temperature": -1.0,
+  "downfall": 0.0,
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 656648,
+    "water_color": 4020182,
+    "water_fog_color": 329011,
+    "grass_color": 5913162,
+    "foliage_color": 4860474,
+    "particle": {
+      "options": {
+        "type": "phayriosisreborn:scent_cloud"
+      },
+      "probability": 0.004
+    },
+    "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
+    "mood_sound": {
+      "sound": "minecraft:ambient.soul_sand_valley.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.soul_sand_valley.additions",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "minecraft:music.nether.soul_sand_valley",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    }
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "abza:planet/umbra/cave",
+      "abza:planet/umbra/cave_deep",
+      "abza:planet/umbra/canyon"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "abza:planet/umbra/ore_crimsonscale",
+      "abza:planet/umbra/ore_dravarium",
+      "abza:planet/umbra/ore_meteoric_rock",
+      "abza:planet/umbra/ore_plasma",
+      "abza:planet/umbra/ore_plutonium",
+      "abza:planet/umbra/outcrop_crimsonscale",
+      "abza:planet/umbra/outcrop_dravarium",
+      "abza:planet/umbra/outcrop_plasma",
+      "abza:planet/umbra/outcrop_plutonium"
+    ],
+    [
+      "abza:planet/umbra/glow_lichen",
+      "abza:planet/umbra/surface_lichen"
+    ],
+    [],
+    [
+      "abza:planet/umbra/bloom_plants"
+    ],
+    []
+  ]
+}

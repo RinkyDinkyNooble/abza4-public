@@ -1,0 +1,79 @@
+{
+    "Id": 5501,
+    "ModRev": 18,
+    "Type": 0,
+    "Title": "Lena's research: Cinder",
+    "Text": "Lena wants four eyes and four eye strings from Cinder's creatures. Bring them to Cinder's camp.",
+    "CompleteText": "They're all looking the same way. Even now. (She turns the jar.) Here. My notes.",
+    "CompleterNpc": "Lena",
+    "NextQuestId": 5502,
+    "RewardExp": 0,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "saros__money_mod:euro_50",
+                "Count": 1b
+            },
+            {
+                "Slot": 1b,
+                "id": "saros__money_mod:euro_10",
+                "Count": 1b
+            },
+            {
+                "Slot": 2b,
+                "id": "minecraft:written_book",
+                "Count": 1b,
+                "tag": {
+                    "title": "Field Notes: Cinder",
+                    "author": "Lena",
+                    "pages": [
+                        "{\"text\":\"The murals show it arriving as rain. People kneel in it with their hands open.\\n\\nNobody here was afraid. It came as a healer. It always comes as a healer.\"}"
+                    ],
+                    "resolved": 1b
+                }
+            }
+        ]
+    },
+    "QuestCommand": "",
+    "RandomReward": 0b,
+    "QuestCompletion": 0,
+    "QuestRepeat": 0,
+    "QuestFactionPoints": {
+        "OptionFactions1": 1,
+        "OptionFaction1Points": 50,
+        "DecreaseFaction1Points": 0b,
+        "OptionFactions2": -1,
+        "OptionFaction2Points": 0,
+        "DecreaseFaction2Points": 0b
+    },
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 0L
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "the_eyes_are_back:eye",
+                "Count": 4b
+            },
+            {
+                "Slot": 1b,
+                "id": "the_eyes_are_back:eye_string",
+                "Count": 4b
+            }
+        ]
+    },
+    "LeaveItems": 0b,
+    "IgnoreDamage": 1b,
+    "IgnoreNBT": 0b
+}

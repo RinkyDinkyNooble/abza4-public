@@ -1,0 +1,56 @@
+{
+    "Id": 5302,
+    "ModRev": 18,
+    "Type": 0,
+    "Title": "A data chip",
+    "Text": "Bram wants to see what's on a Virtual Data Chip.",
+    "CompleteText": "Probe survey, Umbra. 'Biomass depleted. Origin of seed traffic: next waypoint.' Then coordinates. Then nothing.",
+    "CompleterNpc": "Bram",
+    "NextQuestId": -1,
+    "RewardExp": 0,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "saros__money_mod:euro_500",
+                "Count": 10b
+            }
+        ]
+    },
+    "QuestCommand": "",
+    "RandomReward": 0b,
+    "QuestCompletion": 0,
+    "QuestRepeat": 0,
+    "QuestFactionPoints": {
+        "OptionFactions1": -1,
+        "OptionFaction1Points": 0,
+        "DecreaseFaction1Points": 0b,
+        "OptionFactions2": -1,
+        "OptionFaction2Points": 0,
+        "DecreaseFaction2Points": 0b
+    },
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 0L
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "superbwarfare:virtual_blueprint_data_chip",
+                "Count": 1b
+            }
+        ]
+    },
+    "LeaveItems": 0b,
+    "IgnoreDamage": 1b,
+    "IgnoreNBT": 0b
+}

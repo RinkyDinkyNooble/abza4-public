@@ -1,0 +1,90 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 10,
+    "discard_chance_on_air_exposure": 0.0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:packed_ice"
+        },
+        "state": {
+          "Name": "minecraft:redstone_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:snow_block"
+        },
+        "state": {
+          "Name": "minecraft:redstone_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "spore:biomass_block"
+        },
+        "state": {
+          "Name": "minecraft:redstone_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "spore:calcified_biomass_block"
+        },
+        "state": {
+          "Name": "minecraft:redstone_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "spore:fungal_shell"
+        },
+        "state": {
+          "Name": "minecraft:redstone_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "spore:gastric_biomass_block"
+        },
+        "state": {
+          "Name": "minecraft:redstone_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "spore:infested_dirt"
+        },
+        "state": {
+          "Name": "minecraft:redstone_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "spore:infested_stone"
+        },
+        "state": {
+          "Name": "minecraft:redstone_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "spore:mycelium_block"
+        },
+        "state": {
+          "Name": "minecraft:redstone_ore"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "a": {
+      "item": "minecraft:tnt"
+    },
+    "b": {
+      "tag": "forge:ingots/iron"
+    },
+    "c": {
+      "item": "superbwarfare:fusee"
+    },
+    "d": {
+      "item": "superbwarfare:high_energy_explosives"
+    },
+    "u": {
+      "item": "mekanism:fluorite_gem"
+    }
+  },
+  "pattern": [
+    "uc ",
+    "dad",
+    " b "
+  ],
+  "result": {
+    "item": "superbwarfare:medium_aerial_bomb"
+  },
+  "show_notification": true
+}

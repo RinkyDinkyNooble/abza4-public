@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "superbwarfare:copper_plate"
+    },
+    {
+      "item": "superbwarfare:high_energy_explosives"
+    },
+    {
+      "item": "mekanism:fluorite_gem"
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    }
+  ],
+  "result": {
+    "item": "lrtactical:throwable",
+    "count": 2,
+    "nbt": "{ThrowableId:\"lrtactical:rgn\"}"
+  }
+}

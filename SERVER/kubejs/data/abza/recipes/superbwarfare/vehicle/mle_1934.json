@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "KSK",
+    "dZd",
+    "SSS"
+  ],
+  "key": {
+    "K": {
+      "item": "superbwarfare:cannon_core"
+    },
+    "S": {
+      "tag": "forge:storage_blocks/steel"
+    },
+    "Z": {
+      "tag": "forge:circuits/ultimate"
+    },
+    "d": {
+      "tag": "ad_astra:desh_plates"
+    }
+  },
+  "result": {
+    "item": "superbwarfare:container",
+    "nbt": "{BlockEntityTag:{EntityType:\"superbwarfare:mle_1934\",id:\"superbwarfare:container\"}}"
+  }
+}

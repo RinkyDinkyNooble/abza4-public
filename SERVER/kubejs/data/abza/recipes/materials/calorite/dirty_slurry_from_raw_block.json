@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:dissolution",
+  "gasInput": {
+    "amount": 2,
+    "gas": "crafttweaker:digestive_acid"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "ad_astra:raw_calorite_block"
+    }
+  },
+  "output": {
+    "amount": 6000,
+    "chemicalType": "slurry",
+    "slurry": "crafttweaker:dirty_calorite"
+  }
+}

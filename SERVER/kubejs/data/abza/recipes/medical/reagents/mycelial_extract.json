@@ -1,0 +1,15 @@
+{
+  "type": "mekanism:injecting",
+  "itemInput": {
+    "ingredient": {
+      "item": "spore:mutated_fiber"
+    }
+  },
+  "chemicalInput": {
+    "amount": 1,
+    "gas": "crafttweaker:mycelial_solution"
+  },
+  "output": {
+    "item": "abza:mycelial_extract"
+  }
+}

@@ -1,0 +1,245 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progress_t2"
+	group: "556BB4E0704CB043"
+	icon: "mekanism:purification_chamber"
+	id: "3D3D8E34173B410B"
+	order_index: 1
+	images: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:snow_block"
+			id: "33903A3651FF43C2"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					icon: "minecraft:snow_block"
+					id: "1F8BCB4ECA0BB15F"
+					stage: "abza_reached_t2"
+					title: "Reach the Snow"
+					type: "gamestage"
+				}
+			]
+			title: "The Snow"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"33903A3651FF43C2"
+			]
+			icon: "minecraft:diamond"
+			id: "73838BAB15D08DC5"
+			tasks: [
+				{
+					id: "7C7B4432CBD4013A"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			title: "Diamonds"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"33903A3651FF43C2"
+			]
+			icon: {
+				id: "tacz:modern_kinetic_gun"
+				Count: 1b
+				tag: {
+					GunId: "tacz:ak47"
+				}
+			}
+			id: "4D40AB7874C3FC4A"
+			optional: true
+			tasks: [
+				{
+					icon: {
+						id: "tacz:modern_kinetic_gun"
+						Count: 1b
+						tag: {
+							GunId: "tacz:rhino357"
+						}
+					}
+					id: "2A613990DA4D685A"
+					item: {
+						id: "ftbfiltersystem:smart_filter"
+						Count: 1b
+						tag: {
+							"ftbfiltersystem:filter": "item(tacz:modern_kinetic_gun)or(nbt(fuzzy:{GunId:\"tacz:rhino357\"})nbt(fuzzy:{GunId:\"tacz:deagle_golden\"})nbt(fuzzy:{GunId:\"tacz:p90\"})nbt(fuzzy:{GunId:\"tacz:ak47\"})nbt(fuzzy:{GunId:\"tacz:type_81\"})nbt(fuzzy:{GunId:\"tacz:sks_tactical\"})nbt(fuzzy:{GunId:\"tacz:rpk\"})nbt(fuzzy:{GunId:\"tacz:m16a1\"})nbt(fuzzy:{GunId:\"tacz:m4a1\"})nbt(fuzzy:{GunId:\"tacz:kar98\"})nbt(fuzzy:{GunId:\"tacz:aa12\"}))"
+						}
+					}
+					title: "Any Tier 2 gun"
+					type: "item"
+				}
+			]
+			title: "A Tier 2 Gun"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"73838BAB15D08DC5"
+			]
+			description: [
+				"&e3×&r ore, with oxygen."
+			]
+			icon: "mekanism:purification_chamber"
+			id: "5FA48C7BBB968486"
+			tasks: [
+				{
+					id: "7F0D8C4D6E46EB8C"
+					item: "mekanism:purification_chamber"
+					type: "item"
+				}
+			]
+			title: "Purification Chamber"
+			x: 7.0d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"73838BAB15D08DC5"
+			]
+			icon: "mekanismgenerators:gas_burning_generator"
+			id: "2C78E5ED69EBBDA0"
+			tasks: [
+				{
+					id: "31F8014A218AB426"
+					item: "mekanismgenerators:gas_burning_generator"
+					type: "item"
+				}
+			]
+			title: "Gas-Burning Generator"
+			x: 7.0d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"5FA48C7BBB968486"
+			]
+			icon: "mekanism:alloy_reinforced"
+			id: "234228675EC869F1"
+			tasks: [
+				{
+					id: "6E4B458EDD510A4F"
+					item: "mekanism:alloy_reinforced"
+					type: "item"
+				}
+			]
+			title: "Reinforced Alloy"
+			x: 10.5d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"2C78E5ED69EBBDA0"
+			]
+			icon: "mekanism:advanced_control_circuit"
+			id: "477DF5445E014311"
+			tasks: [
+				{
+					id: "45528C7B216581AC"
+					item: "mekanism:advanced_control_circuit"
+					type: "item"
+				}
+			]
+			title: "Advanced Control Circuit"
+			x: 10.5d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"234228675EC869F1"
+				"477DF5445E014311"
+			]
+			icon: "superbwarfare:rare_material_pack"
+			id: "35E1FF534EC93ABE"
+			tasks: [
+				{
+					id: "434D507CADC72150"
+					item: "superbwarfare:rare_material_pack"
+					type: "item"
+				}
+			]
+			title: "Tier 2 Material Pack"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"35E1FF534EC93ABE"
+			]
+			description: [
+				"Starts from &eInfected Fat&r."
+			]
+			icon: "abza:vaccine_t2"
+			id: "109D96944424023C"
+			optional: true
+			tasks: [
+				{
+					id: "2A233BD41A8301A2"
+					item: "abza:vaccine_t2"
+					type: "item"
+				}
+			]
+			title: "Whispering Chill Vaccine"
+			x: 17.5d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"35E1FF534EC93ABE"
+			]
+			description: [
+				"In the Snow's boss buildings."
+			]
+			disable_toast: true
+			icon: "minecraft:zombie_head"
+			id: "1DBF219C7434F248"
+			optional: true
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "40B58FDC0B66E5A4"
+					title: "Got it"
+					type: "checkmark"
+					disable_toast: true
+				}
+			]
+			title: "Final Boss"
+			x: 17.5d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"35E1FF534EC93ABE"
+			]
+			description: [
+				"Needs &eheat protection 1&r."
+			]
+			icon: "minecraft:red_sand"
+			id: "335B009047F7D133"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					icon: "minecraft:red_sand"
+					id: "61E5F432C30C6E6A"
+					stage: "abza_reached_t3"
+					title: "Reach the Badlands"
+					type: "gamestage"
+				}
+			]
+			title: "Onward: the Badlands"
+			x: 21.0d
+			y: 0.0d
+		}
+	]
+	title: "Tier 2: The Snow"
+}

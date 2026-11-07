@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "abza:dravarium_dirty_dust"
+    }
+  },
+  "output": {
+    "item": "abza:dravarium_dust"
+  }
+}

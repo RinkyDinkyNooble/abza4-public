@@ -1,0 +1,72 @@
+{
+    "DialogId": 1003,
+    "DialogTitle": "Whose boat",
+    "DialogText": "A man who's somewhere safer now. He told us to wait for him. (She straightens a chart that doesn't need it.) So we waited.",
+    "DialogQuest": -1,
+    "DialogSound": "",
+    "DialogCommand": "",
+    "DialogMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 0L
+    },
+    "DialogHideNPC": 0b,
+    "DialogShowWheel": 0b,
+    "DialogDisableEsc": 0b,
+    "Options": [
+        {
+            "OptionSlot": 0,
+            "Option": {
+                "OptionType": 1,
+                "Title": "[Let it go.]",
+                "Dialog": 1005,
+                "DialogCommand": "",
+                "DialogColor": 14737632
+            }
+        }
+    ],
+    "ModRev": 18,
+    "AvailabilityDayTime": 0,
+    "AvailabilityMinPlayerLevel": 0,
+    "AvailabilityDialog": 0,
+    "AvailabilityDialogId": -1,
+    "AvailabilityQuest": 0,
+    "AvailabilityQuestId": -1,
+    "AvailabilityDialog2": 0,
+    "AvailabilityDialog2Id": -1,
+    "AvailabilityQuest2": 0,
+    "AvailabilityQuest2Id": -1,
+    "AvailabilityDialog3": 0,
+    "AvailabilityDialog3Id": -1,
+    "AvailabilityQuest3": 0,
+    "AvailabilityQuest3Id": -1,
+    "AvailabilityDialog4": 0,
+    "AvailabilityDialog4Id": -1,
+    "AvailabilityQuest4": 0,
+    "AvailabilityQuest4Id": -1,
+    "AvailabilityFaction": 0,
+    "AvailabilityFactionStance": 0,
+    "AvailabilityFactionId": -1,
+    "AvailabilityScoreboardObjective": "",
+    "AvailabilityScoreboardType": 1,
+    "AvailabilityScoreboardValue": 1,
+    "AvailabilityFaction2": 0,
+    "AvailabilityFaction2Stance": 0,
+    "AvailabilityFaction2Id": -1,
+    "AvailabilityScoreboard2Objective": "",
+    "AvailabilityScoreboard2Type": 1,
+    "AvailabilityScoreboard2Value": 1,
+    "OptionFactions1": -1,
+    "OptionFaction1Points": 0,
+    "DecreaseFaction1Points": 0b,
+    "OptionFactions2": -1,
+    "OptionFaction2Points": 0,
+    "DecreaseFaction2Points": 0b
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "entity": "prionmod:cannibal",
+    "weight": 20
+  },
+  {
+    "entity": "prionmod:starved",
+    "weight": 20
+  },
+  {
+    "entity": "prionmod:crawler",
+    "weight": 20
+  },
+  {
+    "entity": "prionmod:lacerator",
+    "weight": 20
+  },
+  {
+    "entity": "prionmod:fhuman",
+    "weight": 20
+  }
+]

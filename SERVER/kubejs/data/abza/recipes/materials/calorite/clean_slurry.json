@@ -1,0 +1,15 @@
+{
+  "type": "mekanism:washing",
+  "fluidInput": {
+    "amount": 5,
+    "tag": "minecraft:water"
+  },
+  "slurryInput": {
+    "amount": 1,
+    "slurry": "crafttweaker:dirty_calorite"
+  },
+  "output": {
+    "amount": 1,
+    "slurry": "crafttweaker:clean_calorite"
+  }
+}

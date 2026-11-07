@@ -1,0 +1,24 @@
+{
+  "name": "item.abza.regenerative_gel",
+  "tooltip": "item.abza.regenerative_gel.desc",
+  "base_item": "lrtactical:consumable",
+  "data": {
+    "use_duration": 57,
+    "cooldown": 60,
+    "cooldown_category": "lrtactical:medical",
+    "stack_size": 4,
+    "max_durability": 0,
+    "draw_time": 14,
+    "put_away_time": 13,
+    "use_mode": "toggle",
+    "heal": 65.0,
+    "effects": [
+      {
+        "id": "minecraft:regeneration",
+        "duration": 400,
+        "amplifier": 4,
+        "chance": 1.0
+      }
+    ]
+  }
+}

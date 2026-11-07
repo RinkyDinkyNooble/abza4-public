@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "phayriosisreborn:empty_syringe"
+    },
+    {
+      "item": "abza:antigen_t8"
+    }
+  ],
+  "result": {
+    "item": "abza:vaccine_t8"
+  }
+}

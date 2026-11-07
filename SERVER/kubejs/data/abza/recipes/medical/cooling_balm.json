@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SVS",
+    "HMH",
+    "SVS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:string"
+    },
+    "V": {
+      "item": "abza:chitin_gel"
+    },
+    "H": {
+      "item": "abza:chitin_gel"
+    },
+    "M": {
+      "type": "forge:partial_nbt",
+      "item": "lrtactical:consumable",
+      "nbt": {
+        "ConsumableId": "abza:cold_weather_kit"
+      }
+    }
+  },
+  "result": {
+    "item": "lrtactical:consumable",
+    "nbt": {
+      "ConsumableId": "abza:cooling_balm"
+    }
+  }
+}

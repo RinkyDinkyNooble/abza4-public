@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "category": "building", "pattern": ["CCC", "CXC", "CCC"], "key": {"C": {"item": "minecraft:cobblestone"}, "X": {"tag": "minecraft:coals"}}, "result": {"item": "minecraft:blackstone", "count": 8}}

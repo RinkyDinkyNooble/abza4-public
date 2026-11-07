@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "eae",
+    "dbd",
+    "dcd"
+  ],
+  "key": {
+    "a": {
+      "item": "abza:eye_lens"
+    },
+    "b": {
+      "item": "minecraft:diamond"
+    },
+    "c": {
+      "item": "minecraft:redstone"
+    },
+    "d": {
+      "tag": "forge:ingots/steel"
+    },
+    "e": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "superbwarfare:laser_unit"
+  }
+}

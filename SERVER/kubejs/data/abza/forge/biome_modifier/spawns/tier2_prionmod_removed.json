@@ -1,0 +1,7 @@
+{
+  "type": "forge:remove_spawns",
+  "biomes": "#abza:tier2",
+  "entity_types": [
+    "prionmod:deathworm"
+  ]
+}

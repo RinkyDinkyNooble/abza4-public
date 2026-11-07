@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "pPp",
+    "SDS",
+    "2M "
+  ],
+  "key": {
+    "2": {
+      "item": "mekanism:advanced_energy_cube"
+    },
+    "D": {
+      "item": "superbwarfare:medium_armament_module"
+    },
+    "M": {
+      "item": "superbwarfare:large_motor"
+    },
+    "P": {
+      "item": "superbwarfare:large_propeller"
+    },
+    "S": {
+      "tag": "forge:storage_blocks/steel"
+    },
+    "p": {
+      "item": "superbwarfare:propeller"
+    }
+  },
+  "result": {
+    "item": "superbwarfare:container",
+    "nbt": "{BlockEntityTag:{EntityType:\"superbwarfare:ju_87\",id:\"superbwarfare:container\"}}"
+  }
+}

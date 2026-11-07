@@ -1,0 +1,40 @@
+{
+  "mob_caps": {
+    "prionmod:cannibal": 25,
+    "prionmod:starved": 25,
+    "prionmod:boomer": 2,
+    "prionmod:envoy": 3,
+    "prionmod:breacher": 3,
+    "prionmod:expletor": 13,
+    "prionmod:hellhound": 8,
+    "prionmod:crawler": 15,
+    "prionmod:fhuman": 15,
+    "prionmod:impaler": 7,
+    "prionmod:infectedcow": 7,
+    "prionmod:infectedhorse": 7,
+    "prionmod:infectedpig": 7,
+    "prionmod:infectedsheep": 7,
+    "prionmod:infectedwolf": 7,
+    "prionmod:lacerator": 25,
+    "prionmod:nightwalker": 5,
+    "prionmod:rooted": 3,
+    "prionmod:slammer": 7,
+    "prionmod:slasher": 7,
+    "prionmod:strangler": 7,
+    "prionmod:thrall": 7,
+    "prionmod:vomiter": 1,
+    "prionmod:wendigo": 5,
+    "prionmod:tank": 2,
+    "prionmod:necro": 7,
+    "prionmod:lure": 6,
+    "prionmod:smoker": 4,
+    "prionmod:nephthys": 4,
+    "prionmod:vicoiousturret": 4
+  },
+  "gameplay_tweaks": {
+    "point_gain_per_kill_decimals_allowed": 0.27,
+    "hive_point_gain_per_kill_no_decimals_allowed": 1,
+    "one_in_x(input_number)_infection_rate(1_for_100%_infection_success_chance)": 3,
+    "armor_bypassing_damage_default_multiplier_decimals_allowed": 0.5
+  }
+}

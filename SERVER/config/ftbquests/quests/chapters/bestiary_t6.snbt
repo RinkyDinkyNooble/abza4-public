@@ -1,0 +1,1096 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bestiary_t6"
+	group: "182E303C40AEF1E1"
+	icon: "the_flesh_that_hates:flesh_community_spawn_egg"
+	id: "1AFE7A581A3E1412"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"It lives in the boss buildings of the Tier 6 region."
+				""
+				"Reward: +30 max health (15 hearts), kept for good, for everyone who dealt at least a tenth of its health. It's given at the kill; this quest then checks itself."
+			]
+			icon: "the_flesh_that_hates:flesh_community_spawn_egg"
+			id: "68F6964A89112C54"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "+30 max health (15 hearts)"
+			tasks: [
+				{
+					icon: "the_flesh_that_hates:flesh_community_spawn_egg"
+					id: "6DD10BFD1AB8ECB6"
+					stage: "abza_final_t6"
+					title: "Defeat the Flesh Community"
+					type: "gamestage"
+				}
+			]
+			title: "Defeat the Flesh Community"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "5D5AD478350E222A"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_flesh_that_hates:flesh_boomer"
+					id: "7F9F7B1E2F3A76A3"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Flesh Boomer"
+			x: 0.0d
+			y: 0.0d
+			icon: "the_flesh_that_hates:flesh_boomer_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "6657D363676D6032"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_flesh_that_hates:flesh_cocoon"
+					id: "11706BE2F94C36A5"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Flesh Cocoon"
+			x: 1.3d
+			y: 0.0d
+			icon: "the_flesh_that_hates:flesh_cocoon_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "4C743BE71601ECFA"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_flesh_that_hates:flesh_cow"
+					id: "0C5B596ECC8F443E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Flesh Cow"
+			x: 2.6d
+			y: 0.0d
+			icon: "the_flesh_that_hates:flesh_cow_spawn_egg"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "13BA73B1F99D4509"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "551C7CFCEBFEAC4A"
+					stage: "abza_bestiary_t6_1"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "the_flesh_that_hates:flesh_boomer"
+					id: "1974F61161C12B14"
+					title: "Flesh Boomer"
+					type: "kill"
+					value: 1L
+					icon: "the_flesh_that_hates:flesh_boomer_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "the_flesh_that_hates:flesh_cocoon"
+					id: "54148CEC4951A632"
+					title: "Flesh Cocoon"
+					type: "kill"
+					value: 1L
+					icon: "the_flesh_that_hates:flesh_cocoon_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "the_flesh_that_hates:flesh_cow"
+					id: "7E536886DB4367B4"
+					title: "Flesh Cow"
+					type: "kill"
+					value: 1L
+					icon: "the_flesh_that_hates:flesh_cow_spawn_egg"
+				}
+			]
+			title: "Bestiary 1 to 3"
+			x: 4.4d
+			y: 0.0d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "7973CC11C94377E4"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_flesh_that_hates:plaquecreaturebaseone"
+					id: "2569EBA3DDF7BECB"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Flesh Distributor"
+			x: 0.0d
+			y: 2.3d
+			icon: "the_flesh_that_hates:plaquecreaturebaseone_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "2D30290BD32B67FB"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_flesh_that_hates:flesh_dog"
+					id: "1BDF311A1A3EAEB6"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Flesh Dog"
+			x: 1.3d
+			y: 2.3d
+			icon: "the_flesh_that_hates:flesh_dog_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "457B58968BD01B8C"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_flesh_that_hates:flesh_howler"
+					id: "3AB699E3E0D10F78"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Flesh Howler"
+			x: 2.6d
+			y: 2.3d
+			icon: "the_flesh_that_hates:flesh_howler_spawn_egg"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "3A174DD7B8DA9B72"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "563BCEB657F9DE50"
+					stage: "abza_bestiary_t6_2"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "the_flesh_that_hates:plaquecreaturebaseone"
+					id: "1BE5A5A4B9EDF5A9"
+					title: "Flesh Distributor"
+					type: "kill"
+					value: 1L
+					icon: "the_flesh_that_hates:plaquecreaturebaseone_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "the_flesh_that_hates:flesh_dog"
+					id: "764B131ECBF8CF9C"
+					title: "Flesh Dog"
+					type: "kill"
+					value: 1L
+					icon: "the_flesh_that_hates:flesh_dog_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "the_flesh_that_hates:flesh_howler"
+					id: "7FA11DAE97D13FDC"
+					title: "Flesh Howler"
+					type: "kill"
+					value: 1L
+					icon: "the_flesh_that_hates:flesh_howler_spawn_egg"
+				}
+			]
+			title: "Bestiary 4 to 6"
+			x: 4.4d
+			y: 2.3d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "404EF29B85C0970F"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_flesh_that_hates:flesh_human"
+					id: "15BAE3FE8749E546"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Flesh Human"
+			x: 0.0d
+			y: 4.6d
+			icon: "the_flesh_that_hates:flesh_human_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "4BF1714F14B6DBEE"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_flesh_that_hates:flesh_human_head"
+					id: "4B228350C754C48D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Flesh Human Head"
+			x: 1.3d
+			y: 4.6d
+			icon: "the_flesh_that_hates:flesh_human_head_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "4933CB898E415379"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_flesh_that_hates:plaquecontaminator"
+					id: "2AE2EA543EA040AF"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Flesh Infector"
+			x: 2.6d
+			y: 4.6d
+			icon: "the_flesh_that_hates:plaquecontaminator_spawn_egg"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "292EF60A020867E0"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "3A42F73E6D372D15"
+					stage: "abza_bestiary_t6_3"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "the_flesh_that_hates:flesh_human"
+					id: "4F952B5DACD8C498"
+					title: "Flesh Human"
+					type: "kill"
+					value: 1L
+					icon: "the_flesh_that_hates:flesh_human_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "the_flesh_that_hates:flesh_human_head"
+					id: "4F824A1D899DA99E"
+					title: "Flesh Human Head"
+					type: "kill"
+					value: 1L
+					icon: "the_flesh_that_hates:flesh_human_head_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "the_flesh_that_hates:plaquecontaminator"
+					id: "7A569268DA58A100"
+					title: "Flesh Infector"
+					type: "kill"
+					value: 1L
+					icon: "the_flesh_that_hates:plaquecontaminator_spawn_egg"
+				}
+			]
+			title: "Bestiary 7 to 9"
+			x: 4.4d
+			y: 4.6d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "08D0545A8B2E3B2F"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_flesh_that_hates:flesh_justice"
+					id: "2BC062AD4E2C4E69"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Flesh Justice"
+			x: 0.0d
+			y: 6.9d
+			icon: "the_flesh_that_hates:flesh_justice_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "617E265565C1AB20"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_flesh_that_hates:plaquecreatureone"
+					id: "7D93DC5922147614"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Flesh Mutant"
+			x: 1.3d
+			y: 6.9d
+			icon: "the_flesh_that_hates:plaquecreatureone_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "08589F6D713831E4"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_flesh_that_hates:flesh_piece"
+					id: "6870473FE3EBCFC3"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Flesh Piece"
+			x: 2.6d
+			y: 6.9d
+			icon: "the_flesh_that_hates:flesh_piece_spawn_egg"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "6F53A2D043D7A941"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "1DB51B23CF30CF90"
+					stage: "abza_bestiary_t6_4"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "the_flesh_that_hates:flesh_justice"
+					id: "13FB9B0C356A2D63"
+					title: "Flesh Justice"
+					type: "kill"
+					value: 1L
+					icon: "the_flesh_that_hates:flesh_justice_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "the_flesh_that_hates:plaquecreatureone"
+					id: "5D35B4BC9AE65B61"
+					title: "Flesh Mutant"
+					type: "kill"
+					value: 1L
+					icon: "the_flesh_that_hates:plaquecreatureone_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "the_flesh_that_hates:flesh_piece"
+					id: "0ED47526C08F7593"
+					title: "Flesh Piece"
+					type: "kill"
+					value: 1L
+					icon: "the_flesh_that_hates:flesh_piece_spawn_egg"
+				}
+			]
+			title: "Bestiary 10 to 12"
+			x: 4.4d
+			y: 6.9d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "2EE1E7761237B105"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_flesh_that_hates:flesh_pig"
+					id: "61C199AE974314D3"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Flesh Pig"
+			x: 0.0d
+			y: 9.2d
+			icon: "the_flesh_that_hates:flesh_pig_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "281712D17B7E5019"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_flesh_that_hates:flesh_pillager"
+					id: "64F6A7AC648400CB"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Flesh Pillager"
+			x: 1.3d
+			y: 9.2d
+			icon: "the_flesh_that_hates:flesh_pillager_spawn_egg"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "6587E391F3FBE7F6"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "421822836033FE26"
+					stage: "abza_bestiary_t6_5"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "the_flesh_that_hates:flesh_pig"
+					id: "6854E8E5354681B8"
+					title: "Flesh Pig"
+					type: "kill"
+					value: 1L
+					icon: "the_flesh_that_hates:flesh_pig_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "the_flesh_that_hates:flesh_pillager"
+					id: "6A2E0149E508D0F8"
+					title: "Flesh Pillager"
+					type: "kill"
+					value: 1L
+					icon: "the_flesh_that_hates:flesh_pillager_spawn_egg"
+				}
+			]
+			title: "Bestiary 13 to 14"
+			x: 3.1d
+			y: 9.2d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "6AB039CD71461743"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_flesh_that_hates:flesh_servant"
+					id: "1FA9E720B0563876"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Flesh Servant"
+			x: 0.0d
+			y: 11.5d
+			icon: "the_flesh_that_hates:flesh_servant_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "73BD9E1659E3C7CE"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_flesh_that_hates:flesh_sheep"
+					id: "6B027F7262132D4B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Flesh Sheep"
+			x: 1.3d
+			y: 11.5d
+			icon: "the_flesh_that_hates:flesh_sheep_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "02649A5A7B24E7D5"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_flesh_that_hates:flesh_villager"
+					id: "57D10B7D02968074"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Flesh Villager"
+			x: 2.6d
+			y: 11.5d
+			icon: "the_flesh_that_hates:flesh_villager_spawn_egg"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "534B2D2047B498F7"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "0DEEC69478BF1FAB"
+					stage: "abza_bestiary_t6_6"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "the_flesh_that_hates:flesh_servant"
+					id: "720C71A3D20392C9"
+					title: "Flesh Servant"
+					type: "kill"
+					value: 1L
+					icon: "the_flesh_that_hates:flesh_servant_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "the_flesh_that_hates:flesh_sheep"
+					id: "2C05F3184A8CE08F"
+					title: "Flesh Sheep"
+					type: "kill"
+					value: 1L
+					icon: "the_flesh_that_hates:flesh_sheep_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "the_flesh_that_hates:flesh_villager"
+					id: "34FFB6AA3216AD6C"
+					title: "Flesh Villager"
+					type: "kill"
+					value: 1L
+					icon: "the_flesh_that_hates:flesh_villager_spawn_egg"
+				}
+			]
+			title: "Bestiary 15 to 17"
+			x: 4.4d
+			y: 11.5d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "5A0DDF70A14D0A34"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Common: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_flesh_that_hates:flesh_vindicator"
+					id: "46061004714B1714"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Flesh Vindicator"
+			x: 0.0d
+			y: 13.8d
+			icon: "the_flesh_that_hates:flesh_vindicator_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "75E0F0BCD572908E"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_flesh_that_hates:bruteplaquecreatureone"
+					id: "36013D1EBB5F4362"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Flesh Brute One"
+			x: 1.3d
+			y: 13.8d
+			icon: "the_flesh_that_hates:bruteplaquecreatureone_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "2B3337446B4D8F31"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_flesh_that_hates:plaquecreaturetwo"
+					id: "65AC869302253681"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Flesh Hunter One"
+			x: 2.6d
+			y: 13.8d
+			icon: "the_flesh_that_hates:plaquecreaturetwo_spawn_egg"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "19074DA43640B836"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "2F3BA2E8DDA02A3B"
+					stage: "abza_bestiary_t6_7"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "the_flesh_that_hates:flesh_vindicator"
+					id: "3EFFD081B793F476"
+					title: "Flesh Vindicator"
+					type: "kill"
+					value: 1L
+					icon: "the_flesh_that_hates:flesh_vindicator_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "the_flesh_that_hates:bruteplaquecreatureone"
+					id: "4AE1D13DAC32F14B"
+					title: "Flesh Brute One"
+					type: "kill"
+					value: 1L
+					icon: "the_flesh_that_hates:bruteplaquecreatureone_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "the_flesh_that_hates:plaquecreaturetwo"
+					id: "4941A4C90A9F9202"
+					title: "Flesh Hunter One"
+					type: "kill"
+					value: 1L
+					icon: "the_flesh_that_hates:plaquecreaturetwo_spawn_egg"
+				}
+			]
+			title: "Bestiary 18 to 20"
+			x: 4.4d
+			y: 13.8d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "15FA4719A9E4FC90"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_flesh_that_hates:flesh_hunter_two"
+					id: "5659AFFC465C0FEA"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Flesh Hunter Two"
+			x: 0.0d
+			y: 16.1d
+			icon: "the_flesh_that_hates:flesh_hunter_two_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "6E99CBC1F51544B2"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_flesh_that_hates:plaqueincubatorone"
+					id: "3C875692244A3C0B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Flesh Incubator Biogenesis Phase"
+			x: 1.3d
+			y: 16.1d
+			icon: "the_flesh_that_hates:plaqueincubatorone_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "4F8502CC03734DE0"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_flesh_that_hates:plaqueincubatorstart"
+					id: "3D9C70F81CCBAF41"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Flesh Incubator Embryo Phase"
+			x: 2.6d
+			y: 16.1d
+			icon: "the_flesh_that_hates:plaqueincubatorstart_spawn_egg"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "42AE41DEAC54D7CC"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "1E3FC9AB390F525C"
+					stage: "abza_bestiary_t6_8"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "the_flesh_that_hates:flesh_hunter_two"
+					id: "498D280978BA5627"
+					title: "Flesh Hunter Two"
+					type: "kill"
+					value: 1L
+					icon: "the_flesh_that_hates:flesh_hunter_two_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "the_flesh_that_hates:plaqueincubatorone"
+					id: "28360807DA19B7C2"
+					title: "Flesh Incubator Biogenesis Phase"
+					type: "kill"
+					value: 1L
+					icon: "the_flesh_that_hates:plaqueincubatorone_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "the_flesh_that_hates:plaqueincubatorstart"
+					id: "0208D118F72EB11B"
+					title: "Flesh Incubator Embryo Phase"
+					type: "kill"
+					value: 1L
+					icon: "the_flesh_that_hates:plaqueincubatorstart_spawn_egg"
+				}
+			]
+			title: "Bestiary 21 to 23"
+			x: 4.4d
+			y: 16.1d
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "1EB5EBB7623AFF82"
+			shape: "hexagon"
+			size: 1.15d
+			subtitle: "Mini-boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_flesh_that_hates:flesh_suffer"
+					id: "4FDCA3C30BE31270"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Flesh Suffer"
+			x: 0.0d
+			y: 18.4d
+			icon: "the_flesh_that_hates:flesh_suffer_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "3AE5687F0B3EDB21"
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "Boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_flesh_that_hates:plaquethreelegcreature"
+					id: "06A8E48087D7FC8D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Flesh Hysterizer"
+			x: 1.3d
+			y: 18.4d
+			icon: "the_flesh_that_hates:plaquethreelegcreature_spawn_egg"
+		}
+		{
+			description: [
+				"No reward of its own: it counts toward its group's milestone (the diamond to the right), which gives +2 max health (1 heart)."
+			]
+			id: "49D74D01CA836ADF"
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "Boss: counts toward its group's milestone"
+			tasks: [
+				{
+					entity: "the_flesh_that_hates:flesh_hunter_three"
+					id: "7F5E12B989528C7E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Flesh Unseen"
+			x: 2.6d
+			y: 18.4d
+			icon: "the_flesh_that_hates:flesh_hunter_three_spawn_egg"
+		}
+		{
+			description: [
+				"Kill each creature in this group once (they're listed here as well)."
+				""
+				"Reward: +2 max health (1 heart), kept for good, given at the group's last kill."
+			]
+			id: "1CA52BBBAE747DD3"
+			rewards: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/mob_effect/health_boost.png"
+						}
+					}
+					id: "173A827C3256C306"
+					stage: "abza_bestiary_t6_9"
+					title: "+2 max health (1 heart)"
+					type: "gamestage"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "+2 max health (1 heart)"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "the_flesh_that_hates:flesh_suffer"
+					id: "73B8086F6D17A36C"
+					title: "Flesh Suffer"
+					type: "kill"
+					value: 1L
+					icon: "the_flesh_that_hates:flesh_suffer_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "the_flesh_that_hates:plaquethreelegcreature"
+					id: "5D051756CF76880C"
+					title: "Flesh Hysterizer"
+					type: "kill"
+					value: 1L
+					icon: "the_flesh_that_hates:plaquethreelegcreature_spawn_egg"
+				}
+				{
+					disable_toast: true
+					entity: "the_flesh_that_hates:flesh_hunter_three"
+					id: "481B7FC2BFF03B92"
+					title: "Flesh Unseen"
+					type: "kill"
+					value: 1L
+					icon: "the_flesh_that_hates:flesh_hunter_three_spawn_egg"
+				}
+			]
+			title: "Bestiary 24 to 26"
+			x: 4.4d
+			y: 18.4d
+		}
+	]
+	title: "Tier 6: Eden"
+}
