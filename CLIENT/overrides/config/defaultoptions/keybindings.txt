@@ -220,7 +220,7 @@ key_key.tacz.interact.desc:key.keyboard.left.alt:NONE
 key_key.tacz.fire_select.desc:key.keyboard.l:NONE
 key_key.tacz.aim.desc:key.mouse.right:NONE
 key_key.tacz.crawl.desc:key.keyboard.unknown:NONE
-key_key.tacz.refit.desc:key.keyboard.unknown:NONE
+key_key.tacz.refit.desc:key.keyboard.comma:NONE
 key_key.tacz.zoom.desc:key.keyboard.y:NONE
 key_key.tacz.melee.desc:key.keyboard.z:NONE
 key_key.tacz.open_config.desc:key.keyboard.unknown:NONE

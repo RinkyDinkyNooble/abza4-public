@@ -1,9 +1,9 @@
 // Encounters, finds and chest loot by region:
 // - each player meets a mini-boss or boss every 15 minutes spent in a fought region, and from the region's first
 //   hour on, its final boss at most once an hour
-// - mini-bosses, bosses and final bosses drop finds from their region's loot; commons sometimes do
+// - mini-bosses, bosses and final bosses drop finds from their region's loot; every common drops a find from what
+//   a city's containers hold (food and materials most often, guns and armour least)
 // - the Badlands' final boss drops two Alien Navigation Cores, its bosses sometimes one
-// - Lost Cities' own chests roll each region's loot
 // - the first time a player is in a region (the Moon included), its traders and guards for hire make camp nearby,
 //   once per world, and chat gives everyone its place
 
@@ -22,9 +22,11 @@ const ABZA_TEMP = {
     finalAfterSeconds: 3600,    // time in a region before its final boss can come, and between two of them
     bossShare: 0.4,             // of encounters that aren't a final boss, the share that are bosses
     distance: [24, 40],         // blocks from the player
-    finds: { common: 0.03, mini: 1, boss: 2, final: 4 },
+    finds: { common: 1, mini: 1, boss: 2, final: 4 },
     findCategories: {
-        common: ['food', 'medical', 'ammo', 'materials'],
+        // a category listed twice comes up twice as often
+        common: ['food', 'food', 'materials', 'materials', 'medical', 'ammo', 'ammo', 'gear', 'parts', 'guns',
+            'attachments', 'explosives', 'armour', 'farming', 'defence'],
         loot: ['guns', 'attachments', 'armour', 'gear', 'explosives', 'medical', 'parts', 'ordnance', 'vehicles', 'intel']
     },
     core: 'superbwarfare:ancient_cpu',
@@ -224,12 +226,6 @@ EntityEvents.death(event => {
     else if (mobClass == 'boss' && Math.random() < ABZA_TEMP.coreBossChance) abzaTempDrop(entity, Item.of(ABZA_TEMP.core))
 })
 
-// Lost Cities' own chests
-LootJS.modifiers(event => {
-    abzaRegionLoot(event, 'lostcities:chests/lostcitychest', [['food', [1, 3]], ['medical', [0, 2]], ['ammo', [1, 2]],
-        ['materials', [1, 3]], ['gear', [0, 1]], ['parts', [0, 1]], ['guns', [0, 1]], ['attachments', [0, 1]],
-        ['explosives', [0, 1]], ['armour', [0, 1]], ['farming', [0, 1]], ['defence', [0, 1]]])
-})
 
 // /abzatemp encounter: an encounter now where the player stands; /abzatemp final: its region's final boss now;
 // /abzatemp camp: the region's camp again, near the player
