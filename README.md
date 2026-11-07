@@ -19,15 +19,8 @@ This repository holds each release's files: `CLIENT/` is the CurseForge pack (it
 - The hub, its traders and the story's characters (written, not yet placed).
 - Boss buildings: until they're built, mini-bosses, bosses and final bosses come to you in their region.
 
-## Requirements
-- Minecraft 1.20.1, Forge 47.4.10.
-- 8 GB of memory recommended.
-
-## Socials
-Join the [**Discord**](https://discord.gg/NRqjmmjFT9) for support or to reach the community. Support the pack with [**GitHub Sponsors**](https://github.com/sponsors/RinkyDinkyNooble?o=esb).
-
 ## License
-You are **free** to copy, modify and distribute at your own discretion (BSD Zero Clause, `LICENSE.txt`). The mods themselves keep their own licenses and are downloaded from CurseForge, not included here.
+You are **free** to copy, modify and distribute at your own discretion (BSD Zero Clause, `LICENSE.txt`). 
 
 ## Inspiration
-**Apocalypse Begins** is **heavily** inspired by [DeceasedCraft](https://www.curseforge.com/minecraft/modpacks/deceasedcraft) (author [TqLxQuanZ](https://www.curseforge.com/members/tqlxquanz/projects)).
+**Apocalypse Begins** is **originally** inspired by [DeceasedCraft](https://www.curseforge.com/minecraft/modpacks/deceasedcraft) (author [TqLxQuanZ](https://www.curseforge.com/members/tqlxquanz/projects)).
