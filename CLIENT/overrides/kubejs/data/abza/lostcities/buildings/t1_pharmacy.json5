@@ -1,7 +1,7 @@
 // t1_pharmacy: 3 or 4 storeys
 {
   "refpalette": "abza:t1_pharmacy",
-  "filler": "ѻ",
+  "filler": "Ҳ",
   "allowDoors": false,
   "allowFillers": false,
   "overrideFloors": true,
