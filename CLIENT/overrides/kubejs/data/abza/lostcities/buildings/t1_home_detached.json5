@@ -1,0 +1,28 @@
+// t1_home_detached: 2 storeys
+{
+  "refpalette": "abza:t1_home_detached",
+  "filler": "ҫ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 2,
+  "maxfloors": 2,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "parts": [
+    {
+      "part": "abza:t1_home_detached_ground",
+      "top": false,
+      "ground": true
+    },
+    {
+      "part": "abza:t1_home_detached_l1",
+      "top": false,
+      "floor": 1
+    },
+    {
+      "part": "abza:t1_home_detached_top",
+      "top": true
+    }
+  ]
+}

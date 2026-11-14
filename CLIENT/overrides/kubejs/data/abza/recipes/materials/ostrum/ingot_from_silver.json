@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:nucleosynthesizing",
+  "duration": 300,
+  "itemInput": {
+    "ingredient": {
+      "tag": "forge:ingots/silver"
+    }
+  },
+  "gasInput": {
+    "amount": 2,
+    "gas": "mekanism:antimatter"
+  },
+  "output": {
+    "item": "ad_astra:ostrum_ingot"
+  }
+}

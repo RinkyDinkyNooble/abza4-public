@@ -3,7 +3,13 @@
 	default_quest_shape: ""
 	filename: "guide_staying_alive"
 	group: "2823A29698F90E67"
-	icon: "abza:vaccine_t1"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "abza:textures/mob_effect/affliction_t1.png"
+		}
+	}
 	id: "6DCCB82CDB0B6FCF"
 	order_index: 1
 	images: [ ]
@@ -11,7 +17,7 @@
 	quests: [
 		{
 			description: [
-				"Each region has an affliction that &cstops healing&r there. Its &evaccine&r ends it for you, for good."
+				"Each region has an affliction that &cstops healing&r there. Its &evaccine&r ends it for you, for good: the &eVaccines&r chapter has each one."
 				""
 				"Vaccinated, you heal by &aresting with 18+ food&r in that region."
 			]
@@ -43,26 +49,6 @@
 				"0E954035BE8ED033"
 			]
 			description: [
-				"Starts from an &eInfected Gland&r, dropped by the Plains' mini-bosses. JEI shows the rest."
-			]
-			icon: "abza:vaccine_t1"
-			id: "6C5D088E52E7A48D"
-			tasks: [
-				{
-					id: "50BB60BC204380F6"
-					item: "abza:vaccine_t1"
-					type: "item"
-				}
-			]
-			title: "Grave Fever Vaccine"
-			x: 3.5d
-			y: -1.75d
-		}
-		{
-			dependencies: [
-				"0E954035BE8ED033"
-			]
-			description: [
 				"Outside &e10 to 38 °C&r you take damage."
 				""
 				"Armour with &ecold&r or &eheat protection&r widens that range. The Snow needs &ecold 1&r, the Badlands &eheat 1&r."
@@ -80,12 +66,11 @@
 			]
 			title: "Temperature"
 			x: 3.5d
-			y: 1.75d
+			y: -1.75d
 		}
 		{
 			dependencies: [
-				"6C5D088E52E7A48D"
-				"2D1D1D4460EB8115"
+				"0E954035BE8ED033"
 			]
 			description: [
 				"&cNo recipe makes food.&r Find it, buy it, or farm it and eat it raw."
@@ -104,8 +89,8 @@
 				}
 			]
 			title: "Food"
-			x: 7.0d
-			y: 0.0d
+			x: 3.5d
+			y: 1.75d
 		}
 	]
 	title: "Staying Alive"

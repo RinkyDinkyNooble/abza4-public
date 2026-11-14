@@ -1,0 +1,25 @@
+# Modern Furniture Forked
+
+# Curtains
+redact any mdm:black_curtain
+redact any mdm:black_curtain_left
+redact any mdm:black_curtain_right
+redact any mdm:blue_curtain
+redact any mdm:blue_curtain_left
+redact any mdm:blue_curtain_right
+redact any mdm:curtain_rack
+redact any mdm:green_curtain
+redact any mdm:green_curtain_left
+redact any mdm:green_curtain_right
+redact any mdm:grey_curtain
+redact any mdm:grey_curtain_left
+redact any mdm:grey_curtain_right
+redact any mdm:red_curtain
+redact any mdm:red_curtain_left
+redact any mdm:red_curtain_right
+redact any mdm:white_curtain
+redact any mdm:white_curtain_left
+redact any mdm:white_curtain_right
+
+# Showers
+redact any mdm:walkin_shower

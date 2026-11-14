@@ -1,0 +1,47 @@
+// Earth's blocks: Lost Cities' palettes, the blob palette and the road palette
+{
+  "randompalettes": [
+    [
+      {
+        "factor": 1.0,
+        "palette": "lostcities:common"
+      }
+    ],
+    [
+      {
+        "factor": 1.0,
+        "palette": "lostcities:default"
+      }
+    ],
+    [
+      {
+        "factor": 1.0,
+        "palette": "lostcities:bricks_standard"
+      }
+    ],
+    [
+      {
+        "factor": 1.0,
+        "palette": "lostcities:glass_full"
+      }
+    ],
+    [
+      {
+        "factor": 1.0,
+        "palette": "lostcities:glass_side_variant_glass"
+      }
+    ],
+    [
+      {
+        "factor": 1.0,
+        "palette": "abza:blob"
+      }
+    ],
+    [
+      {
+        "factor": 1.0,
+        "palette": "abza:earth_roads"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,157 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progress_t7"
+	group: "556BB4E0704CB043"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "abza:textures/environment/umbra.png"
+		}
+	}
+	id: "0DEC09554FBBF2DA"
+	order_index: 6
+	images: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{image:abza:textures/environment/umbra.png width:48 height:48}"
+				""
+				"&cCold (3), dark, no air.&r No sun and no lava: &efission&r is the power here."
+			]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "abza:textures/environment/umbra.png"
+				}
+			}
+			id: "4E8A14F51FD78E1A"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					dimension: "abza:umbra"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "abza:textures/environment/umbra.png"
+						}
+					}
+					id: "7739AA0F63E2FBA7"
+					title: "Reach Umbra"
+					type: "dimension"
+				}
+			]
+			title: "Umbra"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4E8A14F51FD78E1A"
+			]
+			description: [
+				"Unrefined dravarium: &eChemical Oxidizer&r, &eChemical Infuser&r (hydrofluoric acid), &eIsotopic Centrifuge&r, then crystallised."
+			]
+			icon: "phayriosisreborn:dravarium_495_ingot"
+			id: "3880F3DF18D02202"
+			tasks: [
+				{
+					id: "61FC72127C5EB76B"
+					item: "phayriosisreborn:dravarium_495_ingot"
+					type: "item"
+				}
+			]
+			title: "Dravarium-495"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3880F3DF18D02202"
+			]
+			description: [
+				"Its controller needs dravarium-495. Fuel: &edeuterium&r (heavy water, pumped with a Filter Upgrade, through the Electrolytic Separator) and &etritium&r (lithium in a &eSolar Neutron Activator&r, in sunlight)."
+			]
+			icon: "mekanismgenerators:fusion_reactor_controller"
+			id: "471A8D073F790DD2"
+			tasks: [
+				{
+					id: "629F210E651F375C"
+					item: "mekanismgenerators:fusion_reactor_controller"
+					type: "item"
+				}
+			]
+			title: "Fusion Reactor"
+			x: 7.0d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"3880F3DF18D02202"
+			]
+			description: [
+				"Applied Armorer's guns need it."
+			]
+			icon: "superbwarfare:superb_material_pack"
+			id: "5F9057BD3FA1AE4B"
+			tasks: [
+				{
+					id: "7C5455E8D30D6F5C"
+					item: "superbwarfare:superb_material_pack"
+					type: "item"
+				}
+			]
+			title: "Tier 7 Material Pack"
+			x: 7.0d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"5F9057BD3FA1AE4B"
+			]
+			description: [
+				"The last guns, crafted only: the &eTier 7 Material Pack&r, crystal gun parts and &erefined plasma&r."
+			]
+			icon: {
+				id: "tacz:modern_kinetic_gun"
+				Count: 1b
+				tag: {
+					GunId: "applied_armorer:niklas_pistol_semi_right"
+				}
+			}
+			id: "672596C18551E6B2"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					icon: {
+						id: "tacz:modern_kinetic_gun"
+						Count: 1b
+						tag: {
+							GunId: "applied_armorer:niklas_pistol_semi_right"
+						}
+					}
+					id: "7A2343DD58016900"
+					item: {
+						id: "ftbfiltersystem:smart_filter"
+						Count: 1b
+						tag: {
+							"ftbfiltersystem:filter": "item(tacz:modern_kinetic_gun)or(nbt(fuzzy:{GunId:\"applied_armorer:niklas_pistol_semi_right\"})nbt(fuzzy:{GunId:\"applied_armorer:niklas_pistol_semi_pride\"})nbt(fuzzy:{GunId:\"applied_armorer:niklas_pistol_double_win_win\"})nbt(fuzzy:{GunId:\"applied_armorer:niklas_pistol_semi_union\"})nbt(fuzzy:{GunId:\"applied_armorer:niklas_smg_freedom\"})nbt(fuzzy:{GunId:\"applied_armorer:moritz_shotgun_sg914\"})nbt(fuzzy:{GunId:\"applied_armorer:niklas_lever_vigenere\"})nbt(fuzzy:{GunId:\"applied_armorer:moritz_rifle_ar77\"})nbt(fuzzy:{GunId:\"applied_armorer:moritz_sniper_semi_k30\"})nbt(fuzzy:{GunId:\"applied_armorer:moritz_mg_emg_prototype\"})nbt(fuzzy:{GunId:\"applied_armorer:moritz_mg_hmg22\"})nbt(fuzzy:{GunId:\"applied_armorer:moritz_gernade_gl3\"}))"
+						}
+					}
+					title: "Any Tier 8 gun"
+					type: "item"
+				}
+			]
+			title: "Applied Armorer"
+			x: 10.5d
+			y: 1.75d
+		}
+	]
+	title: "Tier 7: Umbra"
+}

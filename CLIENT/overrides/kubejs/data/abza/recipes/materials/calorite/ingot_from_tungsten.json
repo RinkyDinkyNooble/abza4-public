@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:nucleosynthesizing",
+  "duration": 400,
+  "itemInput": {
+    "ingredient": {
+      "tag": "forge:ingots/tungsten"
+    }
+  },
+  "gasInput": {
+    "amount": 3,
+    "gas": "mekanism:antimatter"
+  },
+  "output": {
+    "item": "ad_astra:calorite_ingot"
+  }
+}

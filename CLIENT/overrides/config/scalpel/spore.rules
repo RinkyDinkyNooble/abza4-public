@@ -213,3 +213,6 @@ hide any spore:rotten_slab
 hide any spore:rotten_stair
 hide any spore:vocals
 hide any spore:wall_remains
+
+# Enchantments
+redact enchantment spore:*

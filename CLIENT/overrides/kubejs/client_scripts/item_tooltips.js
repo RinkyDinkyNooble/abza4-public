@@ -2334,7 +2334,6 @@ const VARIANT_TOOLTIPS = {
         "tacz:glock_17": [1, 0],
         "tacz:hk416d": [6, 0],
         "tacz:hk_g3": [3, 2],
-        "tacz:hk_mk23": [5, 0],
         "tacz:hk_mp5a5": [1, 0],
         "tacz:kar98": [2, 1],
         "tacz:lonetrail": [6, 0],

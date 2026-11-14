@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:nucleosynthesizing",
+  "duration": 500,
+  "itemInput": {
+    "ingredient": {
+      "tag": "forge:ingots/uranium"
+    }
+  },
+  "gasInput": {
+    "amount": 4,
+    "gas": "mekanism:antimatter"
+  },
+  "output": {
+    "item": "phayriosisreborn:dravarium_495_ingot"
+  }
+}

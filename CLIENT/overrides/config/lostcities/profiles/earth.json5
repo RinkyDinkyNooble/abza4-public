@@ -1,0 +1,58 @@
+// Earth's cities: the Overworld's profile (T1 to T3)
+// Keys left out keep Lost Cities' defaults.
+{
+  "cities": {
+    // Chance a chunk is a city's centre
+    "cityChance": 0.01,
+    // A city's radius in blocks, rolled between these
+    "cityMinRadius": 50,
+    "cityMaxRadius": 200,
+    // How far from its centre a city still counts as city
+    "cityThreshold": 0.35
+  },
+  "lostcity": {
+    "description": "ABZA's Earth: T1 to T3",
+    // The icon on the world creation screen
+    "icon": "textures/gui/icon_space.png",
+    // The world style
+    "worldStyle": "abza:earth",
+    // Chance a city chunk off the roads holds a building (each city style sets its own)
+    "buildingChance": 0.5,
+    // No Lost Cities parks: T1's parks are one-chunk buildings
+    "parkChance": 0.0,
+    "openLotParkChance": 0.0,
+    // Main roads every 10 chunks, so the largest lots fit between them
+    "primaryRoadSpacingX": 10,
+    "primaryRoadSpacingZ": 10,
+    // No doorways cut between buildings, and no corridors under the streets
+    "buildingDoorwayChance": 0.0,
+    "corridorChance": 0.0,
+    // Subway stations underground only
+    "railwaySurfaceStationsEnabled": false,
+    // No rooms beside the subway
+    "railwayDungeonChance": 0.0,
+    // Storeys: the minimum, the cap, and the random range that grows toward a city's centre
+    "buildingMinFloors": 0,
+    "buildingMaxFloors": 20,
+    "buildingMinFloorsChance": 2,
+    "buildingMaxFloorsChance": 18,
+    // Cellars come from each building's own range (each overrides these)
+    "buildingMinCellars": 0,
+    "buildingMaxCellars": 0,
+    // Every building keeps what it was given
+    "buildingWithoutLootChance": 0.0,
+    // Spawners and loot come from ABZA's buildings, not Lost Cities' defaults
+    "generateSpawners": false,
+    // Whole cities: no ruins, rubble, vines or stray leaves
+    "ruinChance": 0.0,
+    "rubbleLayer": false,
+    "vineChance": 0.0,
+    "randomLeafBlockChance": 0.0
+  },
+  "explosions": {
+    // No explosion damage
+    "explosionChance": 0.0,
+    "miniExplosionChance": 0.0
+  },
+  "public": true
+}

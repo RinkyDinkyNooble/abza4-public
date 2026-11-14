@@ -11,3 +11,6 @@ remove item grapplemod:longfallboots
 
 # Hook recipe
 remove recipe grapplemod:grapplebow
+
+# Enchantments
+redact enchantment grapplemod:*

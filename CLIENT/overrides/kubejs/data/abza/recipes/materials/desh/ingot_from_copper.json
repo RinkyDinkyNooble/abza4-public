@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:nucleosynthesizing",
+  "duration": 200,
+  "itemInput": {
+    "ingredient": {
+      "tag": "forge:ingots/copper"
+    }
+  },
+  "gasInput": {
+    "amount": 1,
+    "gas": "mekanism:antimatter"
+  },
+  "output": {
+    "item": "ad_astra:desh_ingot"
+  }
+}

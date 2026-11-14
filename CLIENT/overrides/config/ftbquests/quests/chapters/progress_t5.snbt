@@ -1,0 +1,173 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progress_t5"
+	group: "556BB4E0704CB043"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "abza:textures/environment/cinder.png"
+		}
+	}
+	id: "2A6C80E934AFE264"
+	order_index: 4
+	images: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{image:abza:textures/environment/cinder.png width:48 height:48}"
+				""
+				"&cHot (2), no air, always night.&r No sun: &eHeat Generators&r on lava give the most here."
+			]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "abza:textures/environment/cinder.png"
+				}
+			}
+			id: "556DB721E1EB3DAA"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					dimension: "abza:cinder"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "abza:textures/environment/cinder.png"
+						}
+					}
+					id: "0B2E22A28D001553"
+					title: "Reach Cinder"
+					type: "dimension"
+				}
+			]
+			title: "Cinder"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"556DB721E1EB3DAA"
+			]
+			description: [
+				"Smelt raw ostrum, or run it through &ehydrofluoric acid&r for the &eOstrum Crystal&r."
+			]
+			icon: "ad_astra:ostrum_ingot"
+			id: "17C1A3A1DE35FD1A"
+			tasks: [
+				{
+					id: "743F0F2C062FE1DA"
+					item: "ad_astra:ostrum_ingot"
+					type: "item"
+				}
+			]
+			title: "Ostrum"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"556DB721E1EB3DAA"
+			]
+			icon: {
+				id: "tacz:modern_kinetic_gun"
+				Count: 1b
+				tag: {
+					GunId: "tacz:m9a4"
+				}
+			}
+			id: "4DC152D7CCEE2CA4"
+			optional: true
+			tasks: [
+				{
+					icon: {
+						id: "tacz:modern_kinetic_gun"
+						Count: 1b
+						tag: {
+							GunId: "tacz:m9a4"
+						}
+					}
+					id: "0CB28408108B44D4"
+					item: {
+						id: "ftbfiltersystem:smart_filter"
+						Count: 1b
+						tag: {
+							"ftbfiltersystem:filter": "item(tacz:modern_kinetic_gun)or(nbt(fuzzy:{GunId:\"tacz:m9a4\"})nbt(fuzzy:{GunId:\"tacz:ump45\"})nbt(fuzzy:{GunId:\"tacz:db_long\"})nbt(fuzzy:{GunId:\"tacz:qbz_95\"})nbt(fuzzy:{GunId:\"tacz:scar_l\"})nbt(fuzzy:{GunId:\"tacz:spr15hb\"})nbt(fuzzy:{GunId:\"tacz:m107\"})nbt(fuzzy:{GunId:\"tacz:m249\"})nbt(fuzzy:{GunId:\"tacz:taurus500\"})nbt(fuzzy:{GunId:\"tacz:scar_h\"})nbt(fuzzy:{GunId:\"tacz:ai_awp\"}))"
+						}
+					}
+					title: "Any Tier 5 gun"
+					type: "item"
+				}
+			]
+			title: "A Tier 5 Gun"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"17C1A3A1DE35FD1A"
+			]
+			description: [
+				"A &eThermal Evaporation Plant&r turns water into brine and brine into lithium (100 water each); a Rotary Condensentrator makes it liquid."
+			]
+			icon: "mekanism:thermal_evaporation_controller"
+			id: "11153C2ECF237C4E"
+			tasks: [
+				{
+					id: "06673C1B0B69D00B"
+					item: "mekanism:thermal_evaporation_controller"
+					type: "item"
+				}
+			]
+			title: "Liquid Lithium"
+			x: 7.0d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"17C1A3A1DE35FD1A"
+			]
+			description: [
+				"Every Tier 5 gun needs some."
+			]
+			icon: "superbwarfare:legendary_material_pack"
+			id: "49FD07A18FE6D721"
+			tasks: [
+				{
+					id: "736A1159BE08DC2B"
+					item: "superbwarfare:legendary_material_pack"
+					type: "item"
+				}
+			]
+			title: "Tier 5 Material Pack"
+			x: 7.0d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"11153C2ECF237C4E"
+			]
+			description: [
+				"Built with ostrum. Burns &eliquid lithium&r, 1 bucket a launch. Reaches Eden."
+			]
+			icon: "ad_astra:tier_3_rocket"
+			id: "265B86E2566AF776"
+			tasks: [
+				{
+					id: "76BD8D5B452DD644"
+					item: "ad_astra:tier_3_rocket"
+					type: "item"
+				}
+			]
+			title: "Level 3 Rocket"
+			x: 10.5d
+			y: 0.0d
+		}
+	]
+	title: "Tier 5: Cinder"
+}

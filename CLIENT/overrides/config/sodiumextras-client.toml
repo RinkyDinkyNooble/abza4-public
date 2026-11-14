@@ -61,12 +61,12 @@
 			#This option overrides 'valueByDefault' state
 			dimensionWhitelist = []
 			#Toggle darkness when dimension has no SkyLight
-			enableOnNoSkyLight = false
+			enableOnNoSkyLight = true
 			#Disables all bright sources of darkness like moon or fog
 			#Only affects darkness effect
 			enableBlockLightOnly = false
 			#Toggles if moon phases affects darkness in the overworld
-			affectedByMoonPhase = true
+			affectedByMoonPhase = false
 			#Configure max moon brightness level with darkness
 			#Range: 0.0 ~ 1.0
 			fullMoonBright = 0.25

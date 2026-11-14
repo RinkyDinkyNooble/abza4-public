@@ -90,3 +90,12 @@ hide item mekanism:hazmat_pants
 remove recipe mekanism:hazmat_pants
 hide item mekanism:hazmat_boots
 remove recipe mekanism:hazmat_boots
+
+# Antiprotonic nucleosynthesizer: no stock conversions
+remove recipe mekanism:nucleosynthesizing/diamond
+remove recipe mekanism:nucleosynthesizing/emerald
+remove recipe mekanism:nucleosynthesizing/iron
+remove recipe mekanism:nucleosynthesizing/quartz_block
+remove recipe mekanism:nucleosynthesizing/lapis_block
+remove recipe mekanism:nucleosynthesizing/glowstone_block
+remove recipe mekanism:nucleosynthesizing/redstone_block

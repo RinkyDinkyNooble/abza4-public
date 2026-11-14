@@ -1,8 +1,8 @@
 // Encounters, finds and chest loot by region:
 // - each player meets a mini-boss or boss every 15 minutes spent in a fought region, and from the region's first
 //   hour on, its final boss at most once an hour
-// - mini-bosses, bosses and final bosses drop finds from their region's loot; every common drops a find from what
-//   a city's containers hold (food and materials most often, guns and armour least)
+// - mini-bosses, bosses and final bosses drop finds from their region's loot; every common outside the Plains drops
+//   a find from what a city's containers hold (food and materials most often, guns and armour least)
 // - the Badlands' final boss drops two Alien Navigation Cores, its bosses sometimes one
 // - the first time a player is in a region (the Moon included), its traders and guards for hire make camp nearby,
 //   once per world, and chat gives everyone its place
@@ -23,6 +23,7 @@ const ABZA_TEMP = {
     bossShare: 0.4,             // of encounters that aren't a final boss, the share that are bosses
     distance: [24, 40],         // blocks from the player
     finds: { common: 1, mini: 1, boss: 2, final: 4 },
+    noCommonFinds: [1],         // regions whose commons drop no find
     findCategories: {
         // a category listed twice comes up twice as often
         common: ['food', 'food', 'materials', 'materials', 'medical', 'ammo', 'ammo', 'gear', 'parts', 'guns',
@@ -212,6 +213,7 @@ EntityEvents.death(event => {
     var tier = Math.min(region, 8)
     var finds = ABZA_TEMP.finds[mobClass]
     if (mobClass == 'common') {
+        if (ABZA_TEMP.noCommonFinds.indexOf(region) >= 0) return
         if (event.source.is($AbzaTempDamageTags.IS_EXPLOSION) || Math.random() >= finds) return
         var common = abzaTempFind(ABZA_TEMP.findCategories.common, tier)
         if (common) abzaTempDrop(entity, common)

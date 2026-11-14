@@ -1,0 +1,109 @@
+// Earth, T1: city styles, highways
+{
+  // Blocks outside cities: highways, bridges, scattered buildings
+  "outsidestyle": "abza:earth",
+  // What stands under a bridge or a highway over lower ground
+  "bridgesupportpart": "abza:earth_highway_support",
+  "highwaysupportpart": "abza:earth_highway_support",
+  "settings": {
+    "railwayavoidance": "ignore",
+    "railpartheight6": 1
+  },
+  // No multibuildings
+  "multisettings": {
+    "areasize": 16,
+    "minimum": 0,
+    "maximum": 0,
+    "correctstylefactor": 0.8,
+    "attempts": 100
+  },
+  // Highways and subways
+  "parts": {
+    "highways": {
+      "tunnel": "abza:earth_highway_tunnel",
+      "tunnel_bend": "abza:earth_highway_tunnel_bend",
+      "tunnel_t": "abza:earth_highway_tunnel_t",
+      "tunnel_bi": "abza:earth_highway_tunnel_bi",
+      "open": "abza:earth_highway_open",
+      "open_bend": "abza:earth_highway_open_bend",
+      "open_t": "abza:earth_highway_open_t",
+      "open_bi": "abza:earth_highway_open_bi",
+      "bridge": "abza:earth_highway_bridge",
+      "bridge_bend": "abza:earth_highway_bridge_bend",
+      "bridge_t": "abza:earth_highway_bridge_t",
+      "bridge_bi": "abza:earth_highway_bridge_bi"
+    },
+    "railways": {
+      "stationunderground": "abza:earth_subway_station",
+      "stationopen": "abza:earth_subway_station",
+      "stationopenroof": "abza:earth_subway_station",
+      "stationundergroundstairs": "abza:earth_subway_station_stairs",
+      "stationstaircase": "abza:earth_subway_stair",
+      "stationstaircasesurface": "abza:earth_subway_entrance",
+      "railshorizontal": "abza:earth_subway_straight",
+      "railshorizontalend": "abza:earth_subway_end",
+      "railshorizontalwater": "abza:earth_subway_tube",
+      "railsvertical": "abza:earth_subway_north_south",
+      "railsverticalwater": "abza:earth_subway_tube_north_south",
+      "rails3split": "abza:earth_subway_crossing",
+      "railsbend": "abza:earth_subway_fork",
+      "railsflat": "abza:earth_subway_straight",
+      "railsdown1": "abza:earth_subway_straight",
+      "railsdown2": "abza:earth_subway_straight"
+    }
+  },
+  // City density by biome: none in the wilds, T2, T3, few on water
+  "citybiomemultipliers": [
+    {
+      "multiplier": 0.0,
+      "biomes": {
+        "if_any": ["#abza:wilds"]
+      }
+    },
+    {
+      "multiplier": 0.0,
+      "biomes": {
+        "if_any": ["#abza:tier2"]
+      }
+    },
+    {
+      "multiplier": 0.0,
+      "biomes": {
+        "if_any": ["#abza:tier3"]
+      }
+    },
+    {
+      "multiplier": 0.1,
+      "biomes": {
+        "if_any": ["#minecraft:is_ocean"]
+      }
+    },
+    {
+      "multiplier": 0.3,
+      "biomes": {
+        "if_any": ["#minecraft:is_river"]
+      }
+    }
+  ],
+  // Each city's style, by the biome at its centre: a city centre or a town per tier
+  "citystyles": [
+    {
+      "factor": 1.0,
+      "biomes": {
+        "if_any": ["#abza:tier1"]
+      },
+      "citystyle": "abza:t1_city"
+    },
+    {
+      "factor": 1.5,
+      "biomes": {
+        "if_any": ["#abza:tier1"]
+      },
+      "citystyle": "abza:t1_town"
+    },
+    {
+      "factor": 0.001,
+      "citystyle": "abza:t1_town"
+    }
+  ]
+}

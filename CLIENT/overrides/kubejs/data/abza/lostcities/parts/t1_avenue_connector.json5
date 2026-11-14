@@ -1,0 +1,25 @@
+// T1 avenue: the kerb dropped where a street joins
+{
+  "xsize": 16,
+  "zsize": 16,
+  "slices": [
+    [
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "Ա               ",
+      "Ա               ",
+      "Ա               ",
+      "Ա               ",
+      "Ա               ",
+      "Ա               ",
+      "Ա               ",
+      "Ա               ",
+      "                ",
+      "                ",
+      "                ",
+      "                "
+    ]
+  ]
+}

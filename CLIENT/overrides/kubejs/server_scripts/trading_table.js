@@ -381,7 +381,6 @@ global.ABZA_MARKETS = {
     ],
     "camp_cinder": [
         [["tacz:modern_kinetic_gun", "{GunId:\"tacz:m9a4\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:0,HideFlags:61}", 1], [["saros__money_mod:euro_500", "", 5]]],
-        [["tacz:modern_kinetic_gun", "{GunId:\"tacz:hk_mk23\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:0,HideFlags:61}", 1], [["saros__money_mod:euro_500", "", 5]]],
         [["tacz:modern_kinetic_gun", "{GunId:\"tacz:ump45\",GunFireMode:\"AUTO\",GunCurrentAmmoCount:0,HideFlags:61}", 1], [["saros__money_mod:euro_500", "", 8]]],
         [["tacz:modern_kinetic_gun", "{GunId:\"tacz:db_long\",GunFireMode:\"SEMI\",GunCurrentAmmoCount:0,HideFlags:61}", 1], [["saros__money_mod:euro_500", "", 8]]],
         [["tacz:modern_kinetic_gun", "{GunId:\"tacz:qbz_95\",GunFireMode:\"AUTO\",GunCurrentAmmoCount:0,HideFlags:61}", 1], [["saros__money_mod:euro_500", "", 10]]],
@@ -500,7 +499,6 @@ global.ABZA_REPAIRS = {
         "gun:tacz:glock_17": 150,
         "gun:tacz:hk416d": 10000,
         "gun:tacz:hk_g3": 1000,
-        "gun:tacz:hk_mk23": 2500,
         "gun:tacz:hk_mp5a5": 250,
         "gun:tacz:kar98": 600,
         "gun:tacz:lonetrail": 5000,

@@ -1,0 +1,5 @@
+# FTB Quests
+
+# Quest blocks and items
+hide any ftbquests:*
+remove recipe ftbquests:*

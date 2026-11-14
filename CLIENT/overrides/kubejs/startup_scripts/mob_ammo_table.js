@@ -71,7 +71,6 @@ global.ABZA_AMMO = {
     "5": {
         "guns": {
             "tacz:m9a4": "abza:cinder_pistol",
-            "tacz:hk_mk23": "abza:cinder_pistol",
             "tacz:ump45": "abza:cinder_pistol",
             "tacz:db_long": "abza:cinder_shell",
             "tacz:qbz_95": "abza:cinder_rifle",

@@ -1,0 +1,177 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progress_vaccines"
+	group: "556BB4E0704CB043"
+	icon: "abza:vaccine_t1"
+	id: "7277A8AF5E891E1C"
+	order_index: 8
+	images: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"One per region with creatures. Each ends that region's affliction for you, &afor good&r."
+				""
+				"Its antigen starts from a drop of the region's &emini-bosses&r; an &eEmpty Syringe&r makes the vaccine."
+			]
+			disable_toast: true
+			icon: "abza:vaccine_t1"
+			id: "7BB40A4029A77F51"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "66B8FF690253F9B5"
+					title: "Got it"
+					type: "checkmark"
+					disable_toast: true
+				}
+			]
+			title: "Vaccines"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Ends &cGrave Fever&r in the Plains."
+				""
+				"&eInfected Gland&r, through a &eEnrichment Chamber&r."
+			]
+			icon: "abza:vaccine_t1"
+			id: "63F2E78906A4FC2E"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "41641002ECF1A994"
+					item: "abza:vaccine_t1"
+					type: "item"
+				}
+			]
+			title: "Grave Fever Vaccine"
+			x: 3.5d
+			y: -1.75d
+		}
+		{
+			description: [
+				"Ends &cWhispering Chill&r in the Snow."
+				""
+				"&eInfected Fat&r, through a &ePurification Chamber&r with &eoxygen&r."
+			]
+			icon: "abza:vaccine_t2"
+			id: "34109AF4C70644E2"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7EA3A756D59E53A6"
+					item: "abza:vaccine_t2"
+					type: "item"
+				}
+			]
+			title: "Whispering Chill Vaccine"
+			x: 7.0d
+			y: -1.75d
+		}
+		{
+			description: [
+				"Ends &cBrood Fever&r in the Badlands."
+				""
+				"&eBottled Corpsedew&r, through a &eChemical Injection Chamber&r with &ehydrogen chloride&r."
+			]
+			icon: "abza:vaccine_t3"
+			id: "18B863FC12E669E0"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7A0C66F4199D32A2"
+					item: "abza:vaccine_t3"
+					type: "item"
+				}
+			]
+			title: "Brood Fever Vaccine"
+			x: 10.5d
+			y: -1.75d
+		}
+		{
+			description: [
+				"Ends &cAshen Gaze&r in Cinder."
+				""
+				"&eeYe Soul Essence&r, through a &eChemical Injection Chamber&r with &ehydrofluoric acid&r."
+			]
+			icon: "abza:vaccine_t5"
+			id: "6701B01B659B151B"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "25BF4E2FBA021327"
+					item: "abza:vaccine_t5"
+					type: "item"
+				}
+			]
+			title: "Ashen Gaze Vaccine"
+			x: 3.5d
+			y: 1.75d
+		}
+		{
+			description: [
+				"Ends &cFlesh Hunger&r in Eden."
+				""
+				"&eMutated Flesh&r, through a &eChemical Injection Chamber&r with &eDigestive Acid&r."
+			]
+			icon: "abza:vaccine_t6"
+			id: "2AAF99EAA9C46B72"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5B8B1ADAB05E57B6"
+					item: "abza:vaccine_t6"
+					type: "item"
+				}
+			]
+			title: "Flesh Hunger Vaccine"
+			x: 7.0d
+			y: 1.75d
+		}
+		{
+			description: [
+				"Ends &cUmbral Blight&r in Umbra."
+				""
+				"&ePrimordial Carapace Fragment&r, through a &eChemical Injection Chamber&r with &eEnriched Dravarium&r."
+			]
+			icon: "abza:vaccine_t7"
+			id: "451DB86BA3484F60"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "1C205EF7A5F582BA"
+					item: "abza:vaccine_t7"
+					type: "item"
+				}
+			]
+			title: "Umbral Blight Vaccine"
+			x: 10.5d
+			y: 1.75d
+		}
+		{
+			description: [
+				"Ends &cSpore Lung&r in Interloper."
+				""
+				"&eCerebrum&r, through a &eAntiprotonic Nucleosynthesizer&r with &eantimatter&r."
+			]
+			icon: "abza:vaccine_t8"
+			id: "69830D8D1261E56C"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "618045452F6A7BBC"
+					item: "abza:vaccine_t8"
+					type: "item"
+				}
+			]
+			title: "Spore Lung Vaccine"
+			x: 14.0d
+			y: 1.75d
+		}
+	]
+	title: "Vaccines"
+}

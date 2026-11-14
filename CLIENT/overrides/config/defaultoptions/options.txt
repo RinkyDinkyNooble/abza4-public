@@ -33,16 +33,16 @@ highContrast:false
 gamma:0.5
 renderDistance:5
 simulationDistance:5
-entityDistanceScaling:1.0
+entityDistanceScaling:0.5
 guiScale:0
-particles:0
+particles:2
 maxFps:120
 graphicsMode:0
 ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"false"
-resourcePacks:["vanilla","tacz_resources","mod_resources","Moonlight Mods Dynamic Assets","fabric","generated/fragmentum_layer","hordes-config","black_icons","file/TZP_1.20.1_2.7.zip"]
+resourcePacks:["vanilla","tacz_resources","mod_resources","Moonlight Mods Dynamic Assets","fabric","generated/fragmentum_layer","hordes-config","scalpel_placeholders","file/TZP_1.20.1_2.7.zip","lathe:generated_resources"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -72,10 +72,10 @@ tutorialStep:movement
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 skipRealms32bitWarning:false
 hideMatchedNames:true
-joinedFirstServer:false
+joinedFirstServer:true
 hideBundleTutorial:false
 syncChunkWrites:true
 showAutosaveIndicator:true
@@ -85,14 +85,14 @@ panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
 soundCategory_master:1.0
-soundCategory_music:0.4
-soundCategory_record:0.1
-soundCategory_weather:0.4
+soundCategory_music:0.40
+soundCategory_record:0.5
+soundCategory_weather:0.5
 soundCategory_block:0.5
-soundCategory_hostile:0.35
-soundCategory_neutral:0.35
-soundCategory_player:0.35
-soundCategory_ambient:0.25
+soundCategory_hostile:0.30
+soundCategory_neutral:0.3
+soundCategory_player:0.50
+soundCategory_ambient:0.3
 soundCategory_voice:1.0
 modelPart_cape:true
 modelPart_jacket:true
@@ -100,4 +100,4 @@ modelPart_left_sleeve:true
 modelPart_right_sleeve:true
 modelPart_left_pants_leg:true
 modelPart_right_pants_leg:true
-modelPart_hat:true
+modelPart_hat:false

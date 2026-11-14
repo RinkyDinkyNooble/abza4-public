@@ -74,3 +74,6 @@ remove item farmersdelight:dog_food
 
 # Tree bark
 remove item farmersdelight:tree_bark
+
+# Enchantments
+redact enchantment farmersdelight:*
