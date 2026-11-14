@@ -203,325 +203,316 @@
     },
     {
       "char": "љ",
+      "block": "mdm:entryway_carpet[facing=east,part=back]"
+    },
+    {
+      "char": "њ",
+      "block": "mdm:entryway_carpet[facing=east,part=front]"
+    },
+    {
+      "char": "ћ",
+      "block": "mdm:entryway_carpet[facing=east,part=main]"
+    },
+    {
+      "char": "ќ",
       "block": "mdm:foyer_bench_white[facing=east]",
       "tag": {
         "LootTable": "abza:chests/home/odds"
       }
     },
     {
-      "char": "њ",
+      "char": "ѝ",
       "block": "mdm:gas_stove[facing=east]"
     },
     {
-      "char": "ћ",
+      "char": "ў",
       "block": "mdm:hand_soap_and_cream_set[facing=north]"
     },
     {
-      "char": "ќ",
+      "char": "џ",
       "block": "mdm:hanging_shelf[facing=south,part=main]",
       "tag": {
         "LootTable": "abza:chests/shop/pharmacy_stock"
       }
     },
     {
-      "char": "ѝ",
+      "char": "А",
       "block": "mdm:hanging_shelf[facing=south,part=right]"
     },
     {
-      "char": "ў",
+      "char": "Б",
       "block": "mdm:kitchen_set_3_corner_counter_with_sink[facing=east,part=main]",
       "tag": {
         "LootTable": "abza:chests/home/kitchen"
       }
     },
     {
-      "char": "џ",
+      "char": "В",
       "block": "mdm:kitchen_set_3_corner_counter_with_sink[facing=east,part=top]"
     },
     {
-      "char": "А",
+      "char": "Г",
       "block": "mdm:kitchen_set_3_counter_2[facing=east]",
       "tag": {
         "LootTable": "abza:chests/home/kitchen"
       }
     },
     {
-      "char": "Б",
+      "char": "Д",
       "block": "mdm:kitchen_set_3_counter_3[facing=east]",
       "tag": {
         "LootTable": "abza:chests/home/kitchen"
       }
     },
     {
-      "char": "В",
+      "char": "Е",
       "block": "mdm:kitchen_set_3_dishwasher[facing=south]",
       "tag": {
         "LootTable": "abza:chests/home/kitchen"
       }
     },
     {
-      "char": "Г",
+      "char": "Ж",
       "block": "mdm:kitchen_set_3_fridge_bottom[facing=south]",
       "tag": {
         "LootTable": "abza:chests/home/fridge"
       }
     },
     {
-      "char": "Д",
+      "char": "З",
       "block": "mdm:kitchen_set_3_fridge_top[facing=south]",
       "tag": {
         "LootTable": "abza:chests/home/fridge"
       }
     },
     {
-      "char": "Е",
+      "char": "К",
       "block": "mdm:kitchen_set_3_hanging_cabinet[facing=east]",
       "tag": {
         "LootTable": "abza:chests/home/kitchen"
       }
     },
     {
-      "char": "Ж",
+      "char": "Л",
       "block": "mdm:kitchen_set_3_oven_bottom[facing=east]",
       "tag": {
         "LootTable": "abza:chests/home/kitchen"
       }
     },
     {
-      "char": "З",
+      "char": "М",
       "block": "mdm:kitchen_set_3_small_hanging_cabinet[facing=south]",
       "tag": {
         "LootTable": "abza:chests/home/kitchen"
       }
     },
     {
-      "char": "К",
+      "char": "Н",
       "block": "mdm:lantern[facing=north]"
     },
     {
-      "char": "Л",
+      "char": "О",
       "block": "mdm:modern_lamp_1[facing=north,part=main]"
     },
     {
-      "char": "М",
+      "char": "Р",
       "block": "mdm:modern_lamp_1[facing=north,part=top]"
     },
     {
-      "char": "Н",
+      "char": "С",
       "block": "mdm:modern_painting_2[facing=west,part=left]"
     },
     {
-      "char": "О",
+      "char": "Т",
       "block": "mdm:modern_painting_2[facing=west,part=main]"
     },
     {
-      "char": "Р",
+      "char": "У",
       "block": "mdm:modern_painting_2[facing=west,part=right]"
     },
     {
-      "char": "С",
+      "char": "Х",
       "block": "mdm:office_cabinet_1[facing=east]",
       "tag": {
         "LootTable": "abza:chests/home/odds"
       }
     },
     {
-      "char": "Т",
+      "char": "Ч",
       "block": "mdm:office_cabinet_1[facing=north]",
       "tag": {
         "LootTable": "abza:chests/shop/pharmacy_stock"
       }
     },
     {
-      "char": "У",
+      "char": "Ъ",
       "block": "mdm:office_set_1_chair[facing=west,part=main]"
     },
     {
-      "char": "Х",
+      "char": "Ы",
       "block": "mdm:office_set_1_chair[facing=west,part=top]"
     },
     {
-      "char": "Ч",
+      "char": "Ь",
       "block": "mdm:office_set_1_desk_1_left[facing=east]",
       "tag": {
         "LootTable": "abza:chests/home/desk"
       }
     },
     {
-      "char": "Ъ",
+      "char": "Э",
       "block": "mdm:office_set_1_desk_1_right[facing=east]",
       "tag": {
         "LootTable": "abza:chests/shop/pharmacy_stock"
       }
     },
     {
-      "char": "Ы",
+      "char": "Ю",
       "block": "mdm:office_set_1_desk_lamp[facing=east]"
     },
     {
-      "char": "Ь",
-      "block": "mdm:office_shelf[facing=east,part=main]",
-      "tag": {
-        "LootTable": "abza:chests/shop/pharmacy"
-      }
-    },
-    {
-      "char": "Э",
-      "block": "mdm:office_shelf[facing=east,part=main]",
-      "tag": {
-        "LootTable": "abza:chests/shop/pharmacy_stock"
-      }
-    },
-    {
-      "char": "Ю",
-      "block": "mdm:office_shelf[facing=east,part=top]"
-    },
-    {
       "char": "Я",
-      "block": "mdm:office_shelf[facing=south,part=main]",
+      "block": "mdm:office_shelf[facing=east,part=main]",
       "tag": {
         "LootTable": "abza:chests/shop/pharmacy"
       }
     },
     {
       "char": "Ѐ",
-      "block": "mdm:office_shelf[facing=south,part=top]"
+      "block": "mdm:office_shelf[facing=east,part=main]",
+      "tag": {
+        "LootTable": "abza:chests/shop/pharmacy_stock"
+      }
     },
     {
       "char": "Ё",
-      "block": "mdm:outdoor_couch[facing=east]"
+      "block": "mdm:office_shelf[facing=east,part=top]"
     },
     {
       "char": "Ђ",
-      "block": "mdm:outdoor_couch[facing=west]"
+      "block": "mdm:office_shelf[facing=south,part=main]",
+      "tag": {
+        "LootTable": "abza:chests/shop/pharmacy"
+      }
     },
     {
       "char": "Ѓ",
-      "block": "mdm:painting_04[facing=east,part=main]"
+      "block": "mdm:office_shelf[facing=south,part=top]"
     },
     {
       "char": "Є",
-      "block": "mdm:painting_04[facing=east,part=top]"
+      "block": "mdm:outdoor_couch[facing=east]"
     },
     {
       "char": "Ѕ",
-      "block": "mdm:painting_05[facing=north,part=left]"
+      "block": "mdm:outdoor_couch[facing=west]"
     },
     {
       "char": "І",
-      "block": "mdm:painting_05[facing=north,part=main]"
+      "block": "mdm:painting_04[facing=east,part=main]"
     },
     {
       "char": "Ї",
-      "block": "mdm:painting_05[facing=north,part=right]"
+      "block": "mdm:painting_04[facing=east,part=top]"
     },
     {
       "char": "Ј",
-      "block": "mdm:plate"
+      "block": "mdm:painting_05[facing=north,part=left]"
     },
     {
       "char": "Љ",
-      "block": "mdm:potted_tree[facing=north,part=main]"
+      "block": "mdm:painting_05[facing=north,part=main]"
     },
     {
       "char": "Њ",
-      "block": "mdm:potted_tree[facing=north,part=top]"
+      "block": "mdm:painting_05[facing=north,part=right]"
     },
     {
       "char": "Ћ",
-      "block": "mdm:ring_lamp"
+      "block": "mdm:plate"
     },
     {
       "char": "Ќ",
-      "block": "mdm:set_1_chair[facing=north,part=main]"
+      "block": "mdm:potted_tree[facing=north,part=main]"
     },
     {
       "char": "Ѝ",
-      "block": "mdm:set_1_chair[facing=north,part=top]"
+      "block": "mdm:potted_tree[facing=north,part=top]"
     },
     {
       "char": "Ў",
-      "block": "mdm:set_1_chair[facing=south,part=main]"
+      "block": "mdm:ring_lamp"
     },
     {
       "char": "Џ",
-      "block": "mdm:set_1_chair[facing=south,part=top]"
+      "block": "mdm:set_1_chair[facing=north,part=main]"
     },
     {
       "char": "Ѡ",
+      "block": "mdm:set_1_chair[facing=north,part=top]"
+    },
+    {
+      "char": "ѡ",
+      "block": "mdm:set_1_chair[facing=south,part=main]"
+    },
+    {
+      "char": "Ѣ",
+      "block": "mdm:set_1_chair[facing=south,part=top]"
+    },
+    {
+      "char": "ѣ",
       "block": "mdm:set_2_cabinet_1[facing=north]",
       "tag": {
         "LootTable": "abza:chests/shop/dispensary"
       }
     },
     {
-      "char": "ѡ",
-      "block": "mdm:set_2_cabinet_1[facing=west]",
-      "tag": {
-        "LootTable": "abza:chests/shop/dispensary"
-      }
-    },
-    {
-      "char": "Ѣ",
+      "char": "Ѥ",
       "block": "mdm:set_2_cabinet_2[facing=north]",
       "tag": {
         "LootTable": "abza:chests/shop/dispensary"
       }
     },
     {
-      "char": "ѣ",
-      "block": "mdm:set_2_cabinet_2[facing=west]",
-      "tag": {
-        "LootTable": "abza:chests/shop/dispensary"
-      }
-    },
-    {
-      "char": "Ѥ",
+      "char": "ѥ",
       "block": "mdm:set_2_cabinet_3[facing=west]",
       "tag": {
         "LootTable": "abza:chests/shop/dispensary"
       }
     },
     {
-      "char": "ѥ",
+      "char": "Ѧ",
       "block": "mdm:set_2_cabinet_with_drawers[facing=north]",
       "tag": {
         "LootTable": "abza:chests/shop/till"
       }
     },
     {
-      "char": "Ѧ",
+      "char": "ѧ",
       "block": "mdm:set_2_cabinet_with_drawers[facing=west]",
       "tag": {
         "LootTable": "abza:chests/shop/dispensary"
       }
     },
     {
-      "char": "ѧ",
+      "char": "Ѩ",
       "block": "mdm:set_2_corner_counter[facing=south]"
     },
     {
-      "char": "Ѩ",
+      "char": "ѩ",
       "block": "mdm:set_2_corner_counter[facing=west]"
     },
     {
-      "char": "ѩ",
+      "char": "Ѫ",
       "block": "mdm:set_2_hanging_shelf[facing=north]"
     },
     {
-      "char": "Ѫ",
+      "char": "ѫ",
       "block": "mdm:set_2_hanging_shelf[facing=south]"
     },
     {
-      "char": "ѫ",
-      "block": "mdm:set_2_hanging_shelf[facing=west]"
-    },
-    {
       "char": "Ѭ",
-      "block": "mdm:set_3_coffe_table[facing=north]",
-      "tag": {
-        "LootTable": "abza:chests/home/odds"
-      }
+      "block": "mdm:set_2_hanging_shelf[facing=west]"
     },
     {
       "char": "ѭ",
