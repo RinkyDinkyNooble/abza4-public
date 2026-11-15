@@ -1,8 +1,8 @@
 // Prospero, the hub:
 // - placed once per world, when the world first loads with its structure (abza:prospero), on the open ocean nearest
 //   the world's spawn, its waterline at sea level
-// - its containers carry their loot tables from the structure; its crew spawned at the structure's markers as soon
-//   as it is placed, and any who didn't the first time a player comes near
+// - its containers carry their loot tables from the structure; its crew spawned at the structure's markers a tick
+//   after it is placed, once CustomNPCs' clones and dialogs are loaded, and any who didn't when a player comes near
 // - Ines's letter, with where the yacht lies, given once to each player
 
 const $AbzaHubLocation = Java.loadClass('net.minecraft.resources.ResourceLocation')
@@ -12,6 +12,8 @@ const $AbzaHubBlockPos = Java.loadClass('net.minecraft.core.BlockPos')
 const $AbzaHubHeightmap = Java.loadClass('net.minecraft.world.level.levelgen.Heightmap$Types')
 const $AbzaHubTagParser = Java.loadClass('net.minecraft.nbt.TagParser')
 const $AbzaHubCompound = Java.loadClass('net.minecraft.nbt.CompoundTag')
+const $AbzaHubNbtUtils = Java.loadClass('net.minecraft.nbt.NbtUtils')
+const $AbzaHubBuiltIn = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries')
 
 const ABZA_HUB = {
     template: 'abza:prospero',
@@ -78,6 +80,33 @@ function abzaHubMarkers(template, origin, settings) {
     return out
 }
 
+// Split furniture's left and right parts set again as the template holds them, then their block entities' data
+// (loot tables) loaded again
+function abzaHubSplitParts(level, template, origin) {
+    var tag = template.save(new $AbzaHubCompound())
+    var palette = tag.contains('palette') ? tag.getList('palette', 10) : tag.getList('palettes', 9).getList(0)
+    var blocks = tag.getList('blocks', 10)
+    var lookup = $AbzaHubBuiltIn.BLOCK.asLookup()
+    var parts = []
+    for (var i = 0; i < blocks.size(); i++) {
+        var block = blocks.getCompound(i)
+        var entry = palette.getCompound(block.getInt('state'))
+        var part = String(entry.getCompound('Properties').getString('part'))
+        if (part != 'left' && part != 'right') continue
+        var p = block.getList('pos', 3)
+        var pos = origin.offset(p.getInt(0), p.getInt(1), p.getInt(2))
+        var state = $AbzaHubNbtUtils.readBlockState(lookup, entry)
+        if (!level.getBlockState(pos).equals(state)) level.setBlock(pos, state, 18)
+        if (block.contains('nbt')) parts.push([pos, block.getCompound('nbt')])
+    }
+    parts.forEach(part => {
+        var entity = level.getBlockEntity(part[0])
+        if (!entity) return
+        entity.load(part[1].copy())
+        entity.setChanged()
+    })
+}
+
 // Finds the open ocean nearest spawn and places the yacht there; what's saved, or null
 function abzaHubPlace(server) {
     var level = server.getOverworld()
@@ -106,6 +135,7 @@ function abzaHubPlace(server) {
                 if (!abzaHubOpenWater(level, box[0], box[1], box[2], box[3], y - ABZA_HUB.depth)) continue
                 var origin = new $AbzaHubBlockPos(x, y, z)
                 template.placeInWorld(level, origin, origin, settings, level.getRandom(), 2)
+                abzaHubSplitParts(level, template, origin)
                 var saved = new $AbzaHubCompound()
                 var crew = []
                 abzaHubMarkers(template, origin, settings).forEach(m => {
@@ -139,10 +169,11 @@ ServerEvents.loaded(event => {
     var saved = abzaHubPlace(event.server)
     if (!saved) return
     data.put('abza_prospero', saved)
-    if (saved.contains('x')) abzaHubBoard(event.server)
+    if (saved.contains('x')) event.server.scheduleInTicks(1, () => abzaHubBoard(event.server))
 })
 
-// The crew at their markers; each one who spawns leaves the list, and the crew is aboard once the list is empty
+// The crew at their markers, each one's chunk loaded first; each one who spawns leaves the list, and the crew is
+// aboard once the list is empty
 function abzaHubBoard(server) {
     var saved = server.persistentData.getCompound('abza_prospero')
     var level = server.getOverworld()
@@ -150,6 +181,7 @@ function abzaHubBoard(server) {
     String(saved.getString('crew')).split(';').filter(s => s).forEach(entry => {
         var p = entry.split(' ')
         var base = ABZA_HUB.crew[p[0]] || ABZA_HUB.crew.crew
+        level.getChunk(Number(p[2]) >> 4, Number(p[4]) >> 4)
         var options = { yaw: Number(p[1]) }
         Object.keys(base).forEach(key => { options[key] = base[key] })
         var snbt = '{' + Object.keys(options).map(key => key + ':' + (typeof options[key] == 'string' ? '"' + options[key] + '"' : options[key])).join(',') + '}'
@@ -179,14 +211,18 @@ PlayerEvents.loggedIn(event => {
     if (saved.contains('x')) abzaHubLetter(event.player, saved)
 })
 
-PlayerEvents.tick(event => {
-    var player = event.player
-    if (player.tickCount % 100 != 0) return
-    var saved = player.server.persistentData.getCompound('abza_prospero')
+// Every 100 ticks while any of the crew isn't aboard: a player near the yacht brings the rest aboard
+ServerEvents.tick(event => {
+    var server = event.server
+    if (server.getTickCount() % 100 != 0) return
+    var saved = server.persistentData.getCompound('abza_prospero')
     if (!saved.contains('x') || saved.getBoolean('aboard')) return
-    if (String(player.level.getDimension()) != 'minecraft:overworld') return
-    var dx = player.getX() - saved.getInt('x'), dz = player.getZ() - saved.getInt('z')
-    if (dx * dx + dz * dz < ABZA_HUB.near * ABZA_HUB.near) abzaHubBoard(player.server)
+    var near = false
+    server.getPlayerList().getPlayers().forEach(player => {
+        var dx = player.getX() - saved.getInt('x'), dz = player.getZ() - saved.getInt('z')
+        if (dx * dx + dz * dz < ABZA_HUB.near * ABZA_HUB.near) near = true
+    })
+    if (near) abzaHubBoard(server)
 })
 
 // /abzahub: where Prospero is (operators)

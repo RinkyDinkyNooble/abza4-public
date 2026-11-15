@@ -14,6 +14,8 @@
 //                                               that spawn anything
 //   /spawnNPC <tab> <name> [options]            a CustomNPCs clone standing in the block, set up by its options
 //                                               (npcs.js), its death permanent unless they give it a respawn
+//   /growPlants [times]                         bone meal on the block under it, as a player's, times over (1 to
+//                                               16): on grass, tall grass and the biome's flowers round it
 const $AbzaBlockProperties = Java.loadClass('net.minecraft.world.level.block.state.properties.BlockStateProperties')
 const $AbzaDoubleBlockHalf = Java.loadClass('net.minecraft.world.level.block.state.properties.DoubleBlockHalf')
 const $AbzaNbtCompound = Java.loadClass('net.minecraft.nbt.CompoundTag')
@@ -23,6 +25,7 @@ const $AbzaSpawnEntityType = Java.loadClass('net.minecraft.world.entity.EntityTy
 const $AbzaSpawnMob = Java.loadClass('net.minecraft.world.entity.Mob')
 const $AbzaSpawnType = Java.loadClass('net.minecraft.world.entity.MobSpawnType')
 const $AbzaSpawnEvents = Java.loadClass('net.minecraftforge.event.ForgeEventFactory')
+const $AbzaBonemealable = Java.loadClass('net.minecraft.world.level.block.BonemealableBlock')
 
 const ABZA_MOB_CLASSES = ['common', 'mini', 'boss', 'final']
 
@@ -173,6 +176,22 @@ function abzaSpawnEntities(source, id, count, nbt) {
     return count
 }
 
+// /growPlants: bone meal on the block under the command block, until it takes no more
+function abzaGrowPlants(source, times) {
+    var level = source.level
+    var pos = BlockPos.containing(source.position)
+    var ground = pos.below()
+    level.removeBlock(pos, false)
+    var block = level.getBlockState(ground).getBlock()
+    if (!(block instanceof $AbzaBonemealable)) return abzaCommandFail(source, `${block.id} under it takes no bone meal`)
+    for (var i = 0; i < times; i++) {
+        var state = level.getBlockState(ground)
+        if (state.getBlock() != block || !block.isValidBonemealTarget(level, ground, state, false)) break
+        block.performBonemeal(level, level.getRandom(), ground, state)
+    }
+    return 1
+}
+
 // /spawnNPC: a clone in the middle of the block (a % in its name is a space)
 function abzaSpawnNpc(source, tab, name, options) {
     name = name.replace(/%/g, ' ')
@@ -219,6 +238,12 @@ ServerEvents.commandRegistry(event => {
                 .then(Commands.argument('nbt', Arguments.NBT_COMPOUND.create(event))
                     .executes(ctx => abzaSpawnEntities(ctx.source, entity(ctx), count(ctx),
                         Arguments.NBT_COMPOUND.getResult(ctx, 'nbt')))))))
+
+    var times = ctx => Math.min(16, Math.max(1, Arguments.INTEGER.getResult(ctx, 'times')))
+    event.register(Commands.literal('growPlants').requires(operator)
+        .executes(ctx => abzaGrowPlants(ctx.source, 1))
+        .then(Commands.argument('times', Arguments.INTEGER.create(event))
+            .executes(ctx => abzaGrowPlants(ctx.source, times(ctx)))))
 
     var tab = ctx => Arguments.INTEGER.getResult(ctx, 'tab')
     var npcName = ctx => String(Arguments.STRING.getResult(ctx, 'name'))

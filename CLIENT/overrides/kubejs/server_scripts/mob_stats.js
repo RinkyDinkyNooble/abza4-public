@@ -282,7 +282,7 @@ FTBQuestsEvents.completed(event => {
 })
 
 PlayerEvents.tick(event => {
-    if (event.player.tickCount % 40 == 0) abzaRebuildHealth(event.player)
+    if (event.server.getTickCount() % 40 == 0) abzaRebuildHealth(event.player)
 })
 
 // /abza reward <players> <region>: gives a region's reward (the Moon's comes from its NPC);

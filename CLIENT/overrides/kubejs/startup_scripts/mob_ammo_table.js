@@ -56,7 +56,8 @@ global.ABZA_AMMO = {
             "tacz:m320": "tacz:40mm",
             "tacz:rpg7": "tacz:rpg_rocket",
             "tacz:b93r": "tacz:9mm",
-            "tacz:m16a4": "tacz:556x45"
+            "tacz:m16a4": "tacz:556x45",
+            "tacz:hk_mk23": "tacz:50ae"
         },
         "ammo": [
             "tacz:50ae",

@@ -277,6 +277,13 @@ const ABZA_BUILDING_LOOT_TABLES = [
     ['shop/dispensary', [['medicine', 1.25], ['toiletries', 2]]],
     ['shop/pharmacy_stock', [['dispensing', 5]]],
     ['shop/pharmacy_office', [['personal', 3], ['household', 1]], null, [['story', 'pharmacy_slip', 0.25, 1]]],
+    // The car park: the attendant's office, the maintenance room, the decks' bins, cages and cabinets, the plant room
+    ['carpark/office', [['household', 3], ['personal', 2], ['parts', 0.5], ['medicine', 0.2]], [1, 6, 0.2]],
+    ['carpark/workshop', [['workshop', 4], ['parts', 1.5], ['supplies', 1], ['tools', 0.1]]],
+    ['carpark/deck', [['household', 3], ['workshop', 2], ['supplies', 1], ['parts', 0.15], ['shelffood', 0.12]]],
+    ['carpark/plant', [['workshop', 5], ['parts', 1], ['supplies', 1]]],
+    // A stash off the main way, in any building: a Lootr chest, a roll for every player
+    ['stash', [['ammo', 3], ['medicine', 1.5], ['shelffood', 1.5], ['personal', 1], ['supplies', 0.5]], [5, 15], [['pool', 'guns', 0.05]]],
     // Prospero, the hub: the galley's and the bars' cupboards, the fridges, berths and wardrobes, nightstands, washbasins,
     // Ruth's cabinets, Bram's workshop and the engine room, the stores, everything else aboard
     ['hub/kitchen', [['kitchenware', 1]]],

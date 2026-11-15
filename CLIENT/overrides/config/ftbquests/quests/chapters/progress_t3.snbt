@@ -77,7 +77,7 @@
 						id: "ftbfiltersystem:smart_filter"
 						Count: 1b
 						tag: {
-							"ftbfiltersystem:filter": "item(tacz:modern_kinetic_gun)or(nbt(fuzzy:{GunId:\"tacz:timeless50\"})nbt(fuzzy:{GunId:\"tacz:fn_fal\"})nbt(fuzzy:{GunId:\"tacz:hk_g3\"})nbt(fuzzy:{GunId:\"tacz:mk14\"})nbt(fuzzy:{GunId:\"tacz:m700\"})nbt(fuzzy:{GunId:\"tacz:fn_evolys\"})nbt(fuzzy:{GunId:\"tacz:m1014\"})nbt(fuzzy:{GunId:\"tacz:m320\"})nbt(fuzzy:{GunId:\"tacz:rpg7\"})nbt(fuzzy:{GunId:\"tacz:b93r\"})nbt(fuzzy:{GunId:\"tacz:m16a4\"}))"
+							"ftbfiltersystem:filter": "item(tacz:modern_kinetic_gun)or(nbt(fuzzy:{GunId:\"tacz:timeless50\"})nbt(fuzzy:{GunId:\"tacz:fn_fal\"})nbt(fuzzy:{GunId:\"tacz:hk_g3\"})nbt(fuzzy:{GunId:\"tacz:mk14\"})nbt(fuzzy:{GunId:\"tacz:m700\"})nbt(fuzzy:{GunId:\"tacz:fn_evolys\"})nbt(fuzzy:{GunId:\"tacz:m1014\"})nbt(fuzzy:{GunId:\"tacz:m320\"})nbt(fuzzy:{GunId:\"tacz:rpg7\"})nbt(fuzzy:{GunId:\"tacz:b93r\"})nbt(fuzzy:{GunId:\"tacz:m16a4\"})nbt(fuzzy:{GunId:\"tacz:hk_mk23\"}))"
 						}
 					}
 					title: "Any Tier 3 gun"

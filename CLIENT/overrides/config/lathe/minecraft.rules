@@ -1,5 +1,7 @@
 # Minecraft: the shapes the cities' buildings use
+slab vslab stairs vstairs minecraft:black_concrete
 slab vslab minecraft:black_stained_glass
-slab vslab stairs vstairs corners minecraft:white_concrete
-slab minecraft:gray_concrete
+slab vslab stairs vstairs minecraft:gray_concrete
+slab vslab stairs vstairs minecraft:light_gray_concrete
 stairs minecraft:orange_concrete
+slab vslab stairs vstairs corners minecraft:white_concrete

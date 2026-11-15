@@ -9,11 +9,11 @@
     "railwayavoidance": "ignore",
     "railpartheight6": 1
   },
-  // No multibuildings
+  // Multibuildings: how many per square of areasize chunks, and tries to fit each
   "multisettings": {
     "areasize": 16,
-    "minimum": 0,
-    "maximum": 0,
+    "minimum": 1,
+    "maximum": 2,
     "correctstylefactor": 0.8,
     "attempts": 100
   },

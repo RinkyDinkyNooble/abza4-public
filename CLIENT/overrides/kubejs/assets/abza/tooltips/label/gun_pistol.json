@@ -45,6 +45,10 @@
       },
       {
         "type": "obscure_tooltips:nbt",
+        "nbt": "{GunId:\"tacz:hk_mk23\"}"
+      },
+      {
+        "type": "obscure_tooltips:nbt",
         "nbt": "{GunId:\"tacz:lonetrail\"}"
       },
       {
