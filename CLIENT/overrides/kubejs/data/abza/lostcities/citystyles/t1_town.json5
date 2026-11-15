@@ -76,6 +76,12 @@
         "factor": 0.4,
         "value": "abza:t1_corner_shop"
       }
+    ],
+    "multibuildings": [
+      {
+        "factor": 0.4,
+        "value": "abza:t1_car_park"
+      }
     ]
   }
 }
