@@ -1,7 +1,7 @@
 // t1_home_detached: 2 storeys
 {
   "refpalette": "abza:t1_home_detached",
-  "filler": "ҫ",
+  "filler": "Ҫ",
   "allowDoors": false,
   "allowFillers": false,
   "overrideFloors": true,

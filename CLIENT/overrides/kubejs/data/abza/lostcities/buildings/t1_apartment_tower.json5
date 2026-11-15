@@ -1,7 +1,7 @@
 // t1_apartment_tower: 6 to 8 storeys
 {
   "refpalette": "abza:t1_apartment_tower",
-  "filler": "ґ",
+  "filler": "ҍ",
   "allowDoors": false,
   "allowFillers": false,
   "overrideFloors": true,

@@ -1,7 +1,8 @@
 // Prospero, the hub:
 // - placed once per world, when the world first loads with its structure (abza:prospero), on the open ocean nearest
 //   the world's spawn, its waterline at sea level
-// - its crew spawned at the structure's markers the first time a player comes near
+// - its containers carry their loot tables from the structure; its crew spawned at the structure's markers as soon
+//   as it is placed, and any who didn't the first time a player comes near
 // - Ines's letter, with where the yacht lies, given once to each player
 
 const $AbzaHubLocation = Java.loadClass('net.minecraft.resources.ResourceLocation')
@@ -136,13 +137,16 @@ ServerEvents.loaded(event => {
     var data = event.server.persistentData
     if (data.contains('abza_prospero')) return
     var saved = abzaHubPlace(event.server)
-    if (saved) data.put('abza_prospero', saved)
+    if (!saved) return
+    data.put('abza_prospero', saved)
+    if (saved.contains('x')) abzaHubBoard(event.server)
 })
 
-// The crew, the first time a player comes near
+// The crew at their markers; each one who spawns leaves the list, and the crew is aboard once the list is empty
 function abzaHubBoard(server) {
     var saved = server.persistentData.getCompound('abza_prospero')
     var level = server.getOverworld()
+    var left = []
     String(saved.getString('crew')).split(';').filter(s => s).forEach(entry => {
         var p = entry.split(' ')
         var base = ABZA_HUB.crew[p[0]] || ABZA_HUB.crew.crew
@@ -151,9 +155,14 @@ function abzaHubBoard(server) {
         var snbt = '{' + Object.keys(options).map(key => key + ':' + (typeof options[key] == 'string' ? '"' + options[key] + '"' : options[key])).join(',') + '}'
         var result = abzaSpawnNpcAt(level, Number(p[2]) + 0.5, Number(p[3]), Number(p[4]) + 0.5, 1, 'template_armed',
             $AbzaHubTagParser.parseTag(snbt))
-        if (typeof result == 'string') console.warn(`prospero.js: ${p[0]}: ${result}`)
+        if (typeof result == 'string') {
+            console.warn(`prospero.js: ${p[0]}: ${result}`)
+            left.push(entry)
+        }
     })
-    saved.putBoolean('aboard', true)
+    saved.putString('crew', left.join(';'))
+    saved.putBoolean('aboard', left.length == 0)
+    console.info(left.length == 0 ? 'prospero.js: the crew is aboard' : `prospero.js: ${left.length} crew still to come aboard`)
 }
 
 // Ines's letter, once per player, its directions filled in

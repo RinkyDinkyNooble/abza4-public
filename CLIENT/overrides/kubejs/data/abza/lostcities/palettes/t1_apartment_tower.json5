@@ -262,42 +262,42 @@
     },
     {
       "char": "Д",
-      "block": "mdm:couch_right[facing=west]"
-    },
-    {
-      "char": "Е",
-      "block": "mdm:couchleft[facing=west]"
-    },
-    {
-      "char": "Ж",
       "block": "mdm:door_mat[facing=south]"
     },
     {
-      "char": "З",
+      "char": "Е",
       "block": "mdm:foyer_bench_dark[facing=west]",
       "tag": {
         "LootTable": "abza:chests/home/odds"
       }
     },
     {
-      "char": "К",
+      "char": "Ж",
       "block": "mdm:gas_stove[facing=south]"
     },
     {
-      "char": "Л",
+      "char": "З",
       "block": "mdm:grey_couch_left[facing=east]"
     },
     {
-      "char": "М",
+      "char": "К",
       "block": "mdm:grey_couch_left[facing=north]"
     },
     {
-      "char": "Н",
+      "char": "Л",
+      "block": "mdm:grey_couch_left[facing=west]"
+    },
+    {
+      "char": "М",
       "block": "mdm:grey_couch_right[facing=east]"
     },
     {
-      "char": "О",
+      "char": "Н",
       "block": "mdm:grey_couch_right[facing=north]"
+    },
+    {
+      "char": "О",
+      "block": "mdm:grey_couch_right[facing=west]"
     },
     {
       "char": "Р",
@@ -541,86 +541,70 @@
     },
     {
       "char": "Ѵ",
-      "block": "mdm:toilet[facing=east,part=main]"
-    },
-    {
-      "char": "ѵ",
-      "block": "mdm:toilet[facing=east,part=top]"
-    },
-    {
-      "char": "Ѷ",
       "block": "mdm:toilet[facing=north,part=main]"
     },
     {
-      "char": "ѷ",
+      "char": "ѵ",
       "block": "mdm:toilet[facing=north,part=top]"
     },
     {
-      "char": "Ѹ",
-      "block": "mdm:toilet[facing=west,part=main]"
-    },
-    {
-      "char": "ѹ",
-      "block": "mdm:toilet[facing=west,part=top]"
-    },
-    {
-      "char": "Ѻ",
+      "char": "Ѷ",
       "block": "mdm:towel_set_1[facing=north]"
     },
     {
-      "char": "ѻ",
+      "char": "ѷ",
       "block": "mdm:tv_stand_left[facing=east]",
       "tag": {
         "LootTable": "abza:chests/home/odds"
       }
     },
     {
-      "char": "Ѽ",
+      "char": "Ѹ",
       "block": "mdm:tv_stand_left[facing=west]",
       "tag": {
         "LootTable": "abza:chests/home/odds"
       }
     },
     {
-      "char": "ѽ",
+      "char": "ѹ",
       "block": "mdm:tv_stand_right[facing=east]",
       "tag": {
         "LootTable": "abza:chests/home/odds"
       }
     },
     {
-      "char": "Ѿ",
+      "char": "Ѻ",
       "block": "mdm:tv_stand_right[facing=west]",
       "tag": {
         "LootTable": "abza:chests/home/odds"
       }
     },
     {
-      "char": "ѿ",
+      "char": "ѻ",
       "block": "mdm:wall_lamp[facing=east]"
     },
     {
-      "char": "Ҁ",
+      "char": "Ѽ",
       "block": "mdm:wall_lamp[facing=north]"
     },
     {
-      "char": "ҁ",
+      "char": "ѽ",
       "block": "mdm:wall_lamp[facing=south]"
     },
     {
-      "char": "Ҋ",
+      "char": "Ѿ",
       "block": "mdm:wall_lamp[facing=west]"
     },
     {
-      "char": "ҋ",
+      "char": "ѿ",
       "block": "mdm:white_bathtub[facing=south,part=back]"
     },
     {
-      "char": "Ҍ",
+      "char": "Ҁ",
       "block": "mdm:white_bathtub[facing=south,part=main]"
     },
     {
-      "char": "ҍ",
+      "char": "ҁ",
       "block": "minecraft:command_block[conditional=false,facing=up]",
       "tag": {
         "Command": "/placeKeypad securitycraft:keypad_chest[facing=south]{LootTable:\"abza:chests/home/safe\"} safe 0.33",
@@ -629,7 +613,7 @@
       }
     },
     {
-      "char": "Ҏ",
+      "char": "Ҋ",
       "block": "minecraft:command_block[conditional=false,facing=up]",
       "tag": {
         "Command": "/setblock ~ ~ ~ minecraft:black_stained_glass_pane",
@@ -638,7 +622,7 @@
       }
     },
     {
-      "char": "ҏ",
+      "char": "ҋ",
       "block": "minecraft:command_block[conditional=false,facing=up]",
       "tag": {
         "Command": "/spawnEntity common 1 {Chance:0.3d}",
@@ -647,7 +631,7 @@
       }
     },
     {
-      "char": "Ґ",
+      "char": "Ҍ",
       "block": "minecraft:command_block[conditional=false,facing=up]",
       "tag": {
         "Command": "/spawnEntity common 1 {Chance:0.5d}",
@@ -656,164 +640,180 @@
       }
     },
     {
-      "char": "ґ",
+      "char": "ҍ",
       "block": "betterblockz:stone_blockz_0"
     },
     {
-      "char": "Ғ",
+      "char": "Ҏ",
       "block": "lathe:betterblockz__stone_blockz_0_stairs[facing=east,half=bottom,shape=straight]"
     },
     {
-      "char": "ғ",
+      "char": "ҏ",
       "block": "lathe:betterblockz__stone_blockz_0_stairs[facing=north,half=bottom,shape=straight]"
     },
     {
-      "char": "Ҕ",
+      "char": "Ґ",
       "block": "lathe:betterblockz__stone_blockz_0_stairs[facing=south,half=bottom,shape=straight]"
     },
     {
-      "char": "ҕ",
+      "char": "ґ",
       "block": "lathe:betterblockz__stone_blockz_0_stairs[facing=west,half=bottom,shape=straight]"
     },
     {
-      "char": "Җ",
+      "char": "Ғ",
       "block": "lathe:betterblockz__stone_blockz_0_vstairs[facing=north]"
     },
     {
-      "char": "җ",
+      "char": "ғ",
       "block": "lathe:betterblockz__stone_blockz_0_vstairs[facing=west]"
     },
     {
-      "char": "Ҙ",
+      "char": "Ҕ",
       "block": "betterblockz:lablink_blockz_0"
     },
     {
-      "char": "ҙ",
+      "char": "ҕ",
       "block": "betterblockz:lablink_blockz_0"
     },
     {
-      "char": "Қ",
+      "char": "Җ",
       "block": "lathe:betterblockz__vect_blockz_4_slab[type=bottom]"
     },
     {
-      "char": "қ",
+      "char": "җ",
       "block": "minecraft:dark_oak_door[facing=east,half=lower,hinge=left,open=false]"
     },
     {
-      "char": "Ҝ",
+      "char": "Ҙ",
       "block": "minecraft:dark_oak_door[facing=east,half=upper,hinge=left,open=false]"
     },
     {
-      "char": "ҝ",
+      "char": "ҙ",
       "block": "minecraft:dark_oak_door[facing=south,half=lower,hinge=left,open=false]"
     },
     {
-      "char": "Ҟ",
+      "char": "Қ",
       "block": "minecraft:dark_oak_door[facing=south,half=lower,hinge=right,open=false]"
     },
     {
-      "char": "ҟ",
+      "char": "қ",
       "block": "minecraft:dark_oak_door[facing=south,half=upper,hinge=left,open=false]"
     },
     {
-      "char": "Ҡ",
+      "char": "Ҝ",
       "block": "minecraft:dark_oak_door[facing=south,half=upper,hinge=right,open=false]"
     },
     {
-      "char": "ҡ",
+      "char": "ҝ",
       "block": "minecraft:dark_oak_door[facing=west,half=lower,hinge=left,open=false]"
     },
     {
-      "char": "Ң",
+      "char": "Ҟ",
       "block": "minecraft:dark_oak_door[facing=west,half=upper,hinge=left,open=false]"
     },
     {
-      "char": "ң",
+      "char": "ҟ",
       "block": "minecraft:oak_planks"
     },
     {
-      "char": "Ҥ",
+      "char": "Ҡ",
       "block": "minecraft:oak_stairs[facing=north,half=bottom,shape=straight]"
     },
     {
-      "char": "ҥ",
+      "char": "ҡ",
       "block": "minecraft:oak_stairs[facing=north,half=top,shape=straight]"
     },
     {
-      "char": "Ҧ",
+      "char": "Ң",
       "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight]"
     },
     {
-      "char": "ҧ",
+      "char": "ң",
       "block": "minecraft:oak_stairs[facing=south,half=top,shape=straight]"
     },
     {
-      "char": "Ҩ",
+      "char": "Ҥ",
       "block": "lathe:betterblockz__tintedglass_blockz_1_vslab[facing=east,type=single]"
     },
     {
-      "char": "ҩ",
+      "char": "ҥ",
       "block": "lathe:betterblockz__tintedglass_blockz_1_vslab[facing=north,type=single]"
     },
     {
-      "char": "Ҫ",
+      "char": "Ҧ",
       "block": "lathe:betterblockz__tintedglass_blockz_1_vslab[facing=south,type=single]"
     },
     {
-      "char": "ҫ",
+      "char": "ҧ",
       "block": "lathe:betterblockz__tintedglass_blockz_1_vslab[facing=west,type=single]"
     },
     {
-      "char": "Ҭ",
+      "char": "Ҩ",
       "block": "minecraft:oak_leaves[persistent=true]"
     },
     {
-      "char": "ҭ",
+      "char": "ҩ",
       "block": "minecraft:birch_door[facing=east,half=lower,hinge=left,open=false]"
     },
     {
-      "char": "Ү",
+      "char": "Ҫ",
       "block": "minecraft:birch_door[facing=east,half=upper,hinge=left,open=false]"
     },
     {
-      "char": "ү",
+      "char": "ҫ",
       "block": "minecraft:birch_door[facing=north,half=lower,hinge=left,open=false]"
     },
     {
-      "char": "Ұ",
+      "char": "Ҭ",
       "block": "minecraft:birch_door[facing=north,half=lower,hinge=right,open=false]"
     },
     {
-      "char": "ұ",
+      "char": "ҭ",
       "block": "minecraft:birch_door[facing=north,half=upper,hinge=left,open=false]"
     },
     {
-      "char": "Ҳ",
+      "char": "Ү",
       "block": "minecraft:birch_door[facing=north,half=upper,hinge=right,open=false]"
     },
     {
-      "char": "ҳ",
+      "char": "ү",
       "block": "minecraft:birch_door[facing=south,half=lower,hinge=left,open=false]"
     },
     {
-      "char": "Ҵ",
+      "char": "Ұ",
       "block": "minecraft:birch_door[facing=south,half=lower,hinge=right,open=false]"
     },
     {
-      "char": "ҵ",
+      "char": "ұ",
       "block": "minecraft:birch_door[facing=south,half=upper,hinge=left,open=false]"
     },
     {
-      "char": "Ҷ",
+      "char": "Ҳ",
       "block": "minecraft:birch_door[facing=south,half=upper,hinge=right,open=false]"
     },
     {
-      "char": "ҷ",
+      "char": "ҳ",
       "block": "minecraft:birch_door[facing=west,half=lower,hinge=right,open=false]"
     },
     {
-      "char": "Ҹ",
+      "char": "Ҵ",
       "block": "minecraft:birch_door[facing=west,half=upper,hinge=right,open=false]"
+    },
+    {
+      "char": "ҵ",
+      "block": "betterblockz:fort_blockz_10"
+    },
+    {
+      "char": "Ҷ",
+      "block": "lathe:betterblockz__fort_blockz_10_vslab[facing=south,type=single]"
+    },
+    {
+      "char": "ҷ",
+      "block": "betterblockz:cyberlight_blockz_0"
+    },
+    {
+      "char": "Ҹ",
+      "block": "betterblockz:mint_blockz_8"
     },
     {
       "char": "ҹ",
@@ -821,198 +821,182 @@
     },
     {
       "char": "Һ",
-      "block": "lathe:betterblockz__fort_blockz_10_vslab[facing=south,type=single]"
-    },
-    {
-      "char": "һ",
-      "block": "betterblockz:cyberlight_blockz_0"
-    },
-    {
-      "char": "Ҽ",
-      "block": "betterblockz:mint_blockz_8"
-    },
-    {
-      "char": "ҽ",
-      "block": "betterblockz:fort_blockz_10"
-    },
-    {
-      "char": "Ҿ",
       "block": "lathe:betterblockz__fort_blockz_10_corner[eighth=bottom_north_east,type=outer_ew]"
     },
     {
-      "char": "ҿ",
+      "char": "һ",
       "block": "lathe:betterblockz__fort_blockz_10_corner[eighth=bottom_north_east,type=outer_ns]"
     },
     {
-      "char": "Ӏ",
+      "char": "Ҽ",
       "block": "lathe:betterblockz__fort_blockz_10_corner[eighth=bottom_north_west,type=outer_ew]"
     },
     {
-      "char": "Ӂ",
+      "char": "ҽ",
       "block": "lathe:betterblockz__fort_blockz_10_corner[eighth=bottom_north_west,type=outer_ns]"
     },
     {
-      "char": "ӂ",
+      "char": "Ҿ",
       "block": "lathe:betterblockz__fort_blockz_10_corner[eighth=bottom_south_east,type=outer_ew]"
     },
     {
-      "char": "Ӄ",
+      "char": "ҿ",
       "block": "lathe:betterblockz__fort_blockz_10_corner[eighth=bottom_south_west,type=outer_ew]"
     },
     {
-      "char": "ӄ",
+      "char": "Ӏ",
       "block": "lathe:betterblockz__fort_blockz_10_corner[eighth=top_north_east,type=outer_ew]"
     },
     {
-      "char": "Ӆ",
+      "char": "Ӂ",
       "block": "lathe:betterblockz__fort_blockz_10_corner[eighth=top_north_east,type=outer_ns]"
     },
     {
-      "char": "ӆ",
+      "char": "ӂ",
       "block": "lathe:betterblockz__fort_blockz_10_corner[eighth=top_north_west,type=outer_ew]"
     },
     {
-      "char": "Ӈ",
+      "char": "Ӄ",
       "block": "lathe:betterblockz__fort_blockz_10_corner[eighth=top_north_west,type=outer_ns]"
     },
     {
-      "char": "ӈ",
+      "char": "ӄ",
       "block": "lathe:betterblockz__fort_blockz_10_corner[eighth=top_south_east,type=outer_ew]"
     },
     {
-      "char": "Ӊ",
+      "char": "Ӆ",
       "block": "lathe:betterblockz__fort_blockz_10_corner[eighth=top_south_west,type=outer_ew]"
     },
     {
-      "char": "ӊ",
+      "char": "ӆ",
       "block": "lathe:betterblockz__fort_blockz_10_stairs[facing=east,half=bottom,shape=straight]"
     },
     {
-      "char": "Ӌ",
+      "char": "Ӈ",
       "block": "lathe:betterblockz__fort_blockz_10_stairs[facing=east,half=top,shape=straight]"
     },
     {
-      "char": "ӌ",
+      "char": "ӈ",
       "block": "lathe:betterblockz__fort_blockz_10_stairs[facing=north,half=bottom,shape=straight]"
     },
     {
-      "char": "Ӎ",
+      "char": "Ӊ",
       "block": "lathe:betterblockz__fort_blockz_10_stairs[facing=south,half=bottom,shape=straight]"
     },
     {
-      "char": "ӎ",
+      "char": "ӊ",
       "block": "lathe:betterblockz__fort_blockz_10_stairs[facing=west,half=bottom,shape=straight]"
     },
     {
-      "char": "ӏ",
+      "char": "Ӌ",
       "block": "lathe:betterblockz__fort_blockz_10_stairs[facing=west,half=top,shape=straight]"
     },
     {
-      "char": "Ӑ",
+      "char": "ӌ",
       "block": "lathe:betterblockz__fort_blockz_10_vslab[facing=south,type=single]"
     },
     {
-      "char": "ӑ",
+      "char": "Ӎ",
       "block": "lathe:betterblockz__fort_blockz_10_vslab[facing=west,type=single]"
     },
     {
-      "char": "Ӓ",
+      "char": "ӎ",
       "block": "minecraft:black_stained_glass_pane"
     },
     {
-      "char": "ӓ",
+      "char": "ӏ",
       "block": "betterblockz:synthalloy_blockz_4"
     },
     {
-      "char": "Ӕ",
+      "char": "Ӑ",
       "block": "lathe:betterblockz__zeno_brown_blockz_4_stairs[facing=east,half=bottom,shape=straight]"
     },
     {
-      "char": "ӕ",
+      "char": "ӑ",
       "block": "lathe:betterblockz__zeno_brown_blockz_4_stairs[facing=north,half=bottom,shape=straight]"
     },
     {
-      "char": "Ӗ",
+      "char": "Ӓ",
       "block": "lathe:betterblockz__zeno_brown_blockz_4_stairs[facing=south,half=bottom,shape=straight]"
     },
     {
-      "char": "ӗ",
+      "char": "ӓ",
       "block": "lathe:betterblockz__zeno_brown_blockz_4_stairs[facing=south,half=top,shape=straight]"
     },
     {
-      "char": "Ә",
+      "char": "Ӕ",
       "block": "lathe:betterblockz__zeno_brown_blockz_4_stairs[facing=west,half=bottom,shape=straight]"
     },
     {
-      "char": "ә",
+      "char": "ӕ",
       "block": "lathe:betterblockz__zeno_brown_blockz_4_vslab[facing=east,type=single]"
     },
     {
-      "char": "Ӛ",
+      "char": "Ӗ",
       "block": "lathe:betterblockz__zeno_brown_blockz_4_vslab[facing=north,type=single]"
     },
     {
-      "char": "ӛ",
+      "char": "ӗ",
       "block": "lathe:betterblockz__zeno_brown_blockz_4_vslab[facing=south,type=single]"
     },
     {
-      "char": "Ӝ",
+      "char": "Ә",
       "block": "lathe:betterblockz__zeno_brown_blockz_4_vslab[facing=west,type=single]"
     },
     {
-      "char": "ӝ",
+      "char": "ә",
       "block": "lathe:betterblockz__zeno_brown_blockz_4_vstairs[facing=north]"
     },
     {
-      "char": "Ӟ",
+      "char": "Ӛ",
       "block": "lathe:betterblockz__zeno_brown_blockz_4_vstairs[facing=west]"
     },
     {
-      "char": "ӟ",
+      "char": "ӛ",
       "block": "lathe:betterblockz__synthalloy_blockz_4_stairs[facing=north,half=top,shape=straight]"
     },
     {
-      "char": "Ӡ",
+      "char": "Ӝ",
       "block": "lathe:betterblockz__synthalloy_blockz_4_stairs[facing=west,half=top,shape=straight]"
     },
     {
-      "char": "ӡ",
+      "char": "ӝ",
       "block": "betterblockz:tank_blockz_19"
     },
     {
-      "char": "Ӣ",
+      "char": "Ӟ",
       "block": "betterblockz:reactor_1_blockz_0"
     },
     {
-      "char": "ӣ",
+      "char": "ӟ",
       "block": "betterblockz:vect_blockz_4"
     },
     {
-      "char": "Ӥ",
+      "char": "Ӡ",
       "block": "lathe:betterblockz__vect_blockz_4_slab[type=top]"
     },
     {
-      "char": "ӥ",
+      "char": "ӡ",
       "block": "lathe:betterblockz__vect_blockz_4_stairs[facing=east,half=top,shape=straight]"
     },
     {
-      "char": "Ӧ",
+      "char": "Ӣ",
       "block": "lathe:betterblockz__vect_blockz_4_stairs[facing=north,half=top,shape=straight]"
     },
     {
-      "char": "ӧ",
+      "char": "ӣ",
       "block": "lathe:betterblockz__vect_blockz_4_stairs[facing=south,half=top,shape=straight]"
     },
     {
-      "char": "Ө",
+      "char": "Ӥ",
       "block": "lathe:betterblockz__vect_blockz_4_stairs[facing=west,half=top,shape=straight]"
     },
     {
-      "char": "ө",
+      "char": "ӥ",
       "block": "betterblockz:lave_blockz_6"
     },
     {
-      "char": "Ӫ",
+      "char": "Ӧ",
       "blocks": [
         {
           "random": 56,
@@ -1029,7 +1013,7 @@
       ]
     },
     {
-      "char": "ӫ",
+      "char": "ӧ",
       "blocks": [
         {
           "random": 48,
@@ -1046,7 +1030,7 @@
       ]
     },
     {
-      "char": "Ӭ",
+      "char": "Ө",
       "blocks": [
         {
           "random": 48,

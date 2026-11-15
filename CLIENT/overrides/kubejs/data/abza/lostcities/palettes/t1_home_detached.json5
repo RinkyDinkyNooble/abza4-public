@@ -369,26 +369,26 @@
     },
     {
       "char": "Ѕ",
-      "block": "mdm:couch_right[facing=east]"
-    },
-    {
-      "char": "І",
-      "block": "mdm:couchleft[facing=east]"
-    },
-    {
-      "char": "Ї",
       "block": "mdm:door_mat[facing=north]"
     },
     {
-      "char": "Ј",
+      "char": "І",
       "block": "mdm:foyer_bench_dark[facing=north]",
       "tag": {
         "LootTable": "abza:chests/home/odds"
       }
     },
     {
-      "char": "Љ",
+      "char": "Ї",
       "block": "mdm:gas_stove[facing=south]"
+    },
+    {
+      "char": "Ј",
+      "block": "mdm:grey_couch_left[facing=east]"
+    },
+    {
+      "char": "Љ",
+      "block": "mdm:grey_couch_right[facing=east]"
     },
     {
       "char": "Њ",
@@ -666,14 +666,10 @@
     },
     {
       "char": "Ҝ",
-      "block": "minecraft:black_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=false]"
-    },
-    {
-      "char": "ҝ",
       "block": "minecraft:black_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]"
     },
     {
-      "char": "Ҟ",
+      "char": "ҝ",
       "block": "minecraft:command_block[conditional=false,facing=up]",
       "tag": {
         "Command": "/placeKeypad securitycraft:keypad_chest[facing=south]{LootTable:\"abza:chests/home/safe\"} safe 0.33",
@@ -682,7 +678,7 @@
       }
     },
     {
-      "char": "ҟ",
+      "char": "Ҟ",
       "block": "minecraft:command_block[conditional=false,facing=up]",
       "tag": {
         "Command": "/setblock ~ ~ ~ minecraft:black_stained_glass_pane",
@@ -691,7 +687,7 @@
       }
     },
     {
-      "char": "Ҡ",
+      "char": "ҟ",
       "block": "minecraft:command_block[conditional=false,facing=up]",
       "tag": {
         "Command": "/spawnEntity common 1 {Chance:0.5d}",
@@ -700,131 +696,131 @@
       }
     },
     {
-      "char": "ҡ",
+      "char": "Ҡ",
       "block": "minecraft:dark_oak_door[facing=east,half=lower,hinge=right,open=false,powered=false]"
     },
     {
-      "char": "Ң",
+      "char": "ҡ",
       "block": "minecraft:dark_oak_door[facing=east,half=upper,hinge=right,open=false,powered=false]"
     },
     {
-      "char": "ң",
+      "char": "Ң",
       "block": "minecraft:dark_oak_door[facing=north,half=lower,hinge=right,open=false,powered=false]"
     },
     {
-      "char": "Ҥ",
+      "char": "ң",
       "block": "minecraft:dark_oak_door[facing=north,half=upper,hinge=right,open=false,powered=false]"
     },
     {
-      "char": "ҥ",
+      "char": "Ҥ",
       "block": "minecraft:dark_oak_door[facing=south,half=lower,hinge=right,open=false,powered=false]"
     },
     {
-      "char": "Ҧ",
+      "char": "ҥ",
       "block": "minecraft:dark_oak_door[facing=south,half=upper,hinge=right,open=false,powered=false]"
     },
     {
-      "char": "ҧ",
+      "char": "Ҧ",
       "block": "minecraft:oak_leaves[distance=7,persistent=true,waterlogged=false]"
     },
     {
-      "char": "Ҩ",
+      "char": "ҧ",
       "block": "minecraft:oak_planks"
     },
     {
-      "char": "ҩ",
+      "char": "Ҩ",
       "block": "minecraft:oak_stairs[facing=north,half=top,shape=straight,waterlogged=false]"
     },
     {
-      "char": "Ҫ",
+      "char": "ҩ",
       "block": "minecraft:white_concrete"
     },
     {
-      "char": "ҫ",
+      "char": "Ҫ",
       "block": "betterblockz:myst_blockz_0"
     },
     {
-      "char": "Ҭ",
+      "char": "ҫ",
       "block": "minecraft:white_concrete"
+    },
+    {
+      "char": "Ҭ",
+      "block": "betterblockz:lairdecay_blockz_0"
     },
     {
       "char": "ҭ",
-      "block": "betterblockz:lairdecay_blockz_0"
-    },
-    {
-      "char": "Ү",
       "block": "minecraft:oak_planks"
     },
     {
-      "char": "ү",
+      "char": "Ү",
       "block": "minecraft:oak_stairs[facing=north,half=bottom,shape=straight]"
     },
     {
-      "char": "Ұ",
+      "char": "ү",
       "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight]"
     },
     {
-      "char": "ұ",
+      "char": "Ұ",
       "block": "betterblockz:tintedglass_blockz_0"
     },
     {
-      "char": "Ҳ",
+      "char": "ұ",
       "block": "lathe:betterblockz__tintedglass_blockz_0_vslab[facing=east,type=single]"
     },
     {
-      "char": "ҳ",
+      "char": "Ҳ",
       "block": "lathe:betterblockz__tintedglass_blockz_0_vslab[facing=north,type=single]"
     },
     {
-      "char": "Ҵ",
+      "char": "ҳ",
       "block": "lathe:betterblockz__tintedglass_blockz_0_vslab[facing=west,type=single]"
     },
     {
-      "char": "ҵ",
+      "char": "Ҵ",
       "block": "minecraft:birch_door[facing=south,half=lower,hinge=left,open=false]"
     },
     {
-      "char": "Ҷ",
+      "char": "ҵ",
       "block": "minecraft:birch_door[facing=south,half=upper,hinge=left,open=false]"
     },
     {
-      "char": "ҷ",
+      "char": "Ҷ",
       "block": "minecraft:white_concrete"
     },
     {
-      "char": "Ҹ",
+      "char": "ҷ",
       "block": "betterblockz:cyberlight_blockz_0"
     },
     {
-      "char": "ҹ",
+      "char": "Ҹ",
       "block": "betterblockz:mint_blockz_8"
     },
     {
-      "char": "Һ",
+      "char": "ҹ",
       "block": "betterblockz:lablink_blockz_0"
     },
     {
-      "char": "һ",
+      "char": "Һ",
       "block": "lathe:betterblockz__lablink_blockz_0_stairs[facing=west,half=top,shape=straight]"
     },
     {
-      "char": "Ҽ",
+      "char": "һ",
       "block": "betterblockz:lairdecay_blockz_0"
     },
     {
-      "char": "ҽ",
+      "char": "Ҽ",
       "block": "lathe:betterblockz__lairdecay_blockz_0_vslab[facing=north,type=single]"
     },
     {
-      "char": "Ҿ",
+      "char": "ҽ",
       "block": "lathe:betterblockz__lablink_blockz_0_vslab[facing=east,type=single]"
     },
     {
-      "char": "ҿ",
+      "char": "Ҿ",
       "block": "betterblockz:mint_blockz_8"
     },
     {
-      "char": "Ӏ",
+      "char": "ҿ",
       "blocks": [
         {
           "random": 56,

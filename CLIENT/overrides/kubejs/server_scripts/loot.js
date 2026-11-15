@@ -273,10 +273,21 @@ const ABZA_BUILDING_LOOT_TABLES = [
     ['shop/till', [['personal', 1]], [8, 20]],
     ['shop/safe', [['ammo', 2], ['medicine', 1], ['gear', 1]], [20, 50], [['pool', 'guns', 0.15]]],
     // The pharmacy: its shelves, the dispensary's cabinets and the counter, the stockroom, the office's chest
-    ['shop/pharmacy', [['toiletries', 4], ['medicine', 0.6], ['household', 1], ['shelffood', 1]]],
-    ['shop/dispensary', [['medicine', 3], ['toiletries', 2]]],
-    ['shop/pharmacy_stock', [['dispensing', 5], ['medicine', 0.2]]],
-    ['shop/pharmacy_office', [['personal', 3], ['household', 1]], null, [['story', 'pharmacy_slip', 0.25, 1]]]
+    ['shop/pharmacy', [['toiletries', 4], ['household', 1], ['shelffood', 1]]],
+    ['shop/dispensary', [['medicine', 1.25], ['toiletries', 2]]],
+    ['shop/pharmacy_stock', [['dispensing', 5]]],
+    ['shop/pharmacy_office', [['personal', 3], ['household', 1]], null, [['story', 'pharmacy_slip', 0.25, 1]]],
+    // Prospero, the hub: the galley's and the bars' cupboards, the fridges, berths and wardrobes, nightstands, washbasins,
+    // Ruth's cabinets, Bram's workshop and the engine room, the stores, everything else aboard
+    ['hub/kitchen', [['kitchenware', 1]]],
+    ['hub/fridge', [['food', 1]]],
+    ['hub/cabin', [['linen', 6], ['personal', 1]]],
+    ['hub/nightstand', [['personal', 5], ['household', 1]]],
+    ['hub/bathroom', [['toiletries', 1]]],
+    ['hub/medical', [['dispensing', 5], ['toiletries', 1]]],
+    ['hub/workshop', [['workshop', 6], ['supplies', 1], ['parts', 0.3]]],
+    ['hub/stores', [['household', 3], ['workshop', 2], ['kitchenware', 1], ['supplies', 1], ['shelffood', 0.3]]],
+    ['hub/office', [['household', 4], ['personal', 2]]]
 ]
 
 // Entries added at a chance: [table, entry, chance, region]
