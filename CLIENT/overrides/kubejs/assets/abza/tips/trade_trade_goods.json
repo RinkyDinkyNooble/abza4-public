@@ -1,0 +1,34 @@
+{
+  "title": {
+    "text": "Trade",
+    "color": "#E3B341",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Specimens",
+        "color": "yellow"
+      },
+      {
+        "text": ", "
+      },
+      {
+        "text": "trophies",
+        "color": "yellow"
+      },
+      {
+        "text": " and "
+      },
+      {
+        "text": "data chips",
+        "color": "yellow"
+      },
+      {
+        "text": " are only for trade, each worth a dangerous kill or place."
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

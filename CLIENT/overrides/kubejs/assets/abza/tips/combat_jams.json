@@ -1,0 +1,30 @@
+{
+  "title": {
+    "text": "Combat",
+    "color": "#FFA657",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Guns "
+      },
+      {
+        "text": "jam",
+        "color": "red"
+      },
+      {
+        "text": " as they wear. There's no anvil: "
+      },
+      {
+        "text": "traders repair",
+        "color": "yellow"
+      },
+      {
+        "text": " gear."
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

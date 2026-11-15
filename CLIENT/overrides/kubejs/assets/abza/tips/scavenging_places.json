@@ -1,0 +1,44 @@
+{
+  "title": {
+    "text": "Scavenging",
+    "color": "#7EE787",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Things are where they'd be kept: "
+      },
+      {
+        "text": "food",
+        "color": "yellow"
+      },
+      {
+        "text": " in fridges, "
+      },
+      {
+        "text": "medicine",
+        "color": "yellow"
+      },
+      {
+        "text": " in bathrooms, "
+      },
+      {
+        "text": "cash",
+        "color": "yellow"
+      },
+      {
+        "text": " in nightstands, "
+      },
+      {
+        "text": "parts",
+        "color": "yellow"
+      },
+      {
+        "text": " in workshops."
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

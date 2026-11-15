@@ -1,0 +1,20 @@
+{
+  "title": {
+    "text": "Survival",
+    "color": "#FF7B72",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "No recipe makes food.",
+        "color": "red"
+      },
+      {
+        "text": " Find it, buy it, or farm it and eat it raw."
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

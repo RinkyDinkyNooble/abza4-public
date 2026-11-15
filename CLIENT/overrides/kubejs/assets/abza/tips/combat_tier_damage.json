@@ -1,0 +1,30 @@
+{
+  "title": {
+    "text": "Combat",
+    "color": "#FFA657",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "A gun one tier behind needs "
+      },
+      {
+        "text": "2×",
+        "color": "yellow"
+      },
+      {
+        "text": " the shots. "
+      },
+      {
+        "text": "Headshots",
+        "color": "green"
+      },
+      {
+        "text": " do 2×."
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

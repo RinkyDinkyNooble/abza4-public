@@ -1,0 +1,37 @@
+{
+  "title": {
+    "text": "Scavenging",
+    "color": "#7EE787",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Fire a flare gun into "
+      },
+      {
+        "text": "open sky",
+        "color": "yellow"
+      },
+      {
+        "text": " on Earth for an air drop. Left unopened for "
+      },
+      {
+        "text": "5 minutes",
+        "color": "red"
+      },
+      {
+        "text": " with nobody within 32 blocks, it's "
+      },
+      {
+        "text": "stolen",
+        "color": "red"
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  "cycleTime": 8000
+}

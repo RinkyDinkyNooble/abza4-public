@@ -1,0 +1,20 @@
+{
+  "title": {
+    "text": "The World",
+    "color": "#79C0FF",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Prospero",
+        "color": "yellow"
+      },
+      {
+        "text": ", a yacht on the ocean nearest spawn, is the hub: traders, repairs, the bank and a medic. Ines's letter says where it lies."
+      }
+    ]
+  },
+  "cycleTime": 8000
+}

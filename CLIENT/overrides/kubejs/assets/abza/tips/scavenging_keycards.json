@@ -1,0 +1,30 @@
+{
+  "title": {
+    "text": "Scavenging",
+    "color": "#7EE787",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "A keycard reader takes its level "
+      },
+      {
+        "text": "or higher",
+        "color": "yellow"
+      },
+      {
+        "text": ". The rare "
+      },
+      {
+        "text": "Codebreaker",
+        "color": "yellow"
+      },
+      {
+        "text": " sometimes opens a keypad."
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

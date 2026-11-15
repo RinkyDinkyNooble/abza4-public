@@ -1,0 +1,23 @@
+{
+  "title": {
+    "text": "Scavenging",
+    "color": "#7EE787",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "A car park sometimes holds a "
+      },
+      {
+        "text": "pickup",
+        "color": "yellow"
+      },
+      {
+        "text": " that still drives."
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

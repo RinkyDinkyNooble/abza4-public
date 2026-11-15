@@ -1,0 +1,1395 @@
+[
+    {
+        "section": "Apocalypse Begins",
+        "disciplines": [
+            {
+                "discipline": "",
+                "titles": [
+                    {
+                        "title": "Created by",
+                        "names": [
+                            "RinkyNooble"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "section": "Mods",
+        "disciplines": [
+            {
+                "discipline": "",
+                "titles": [
+                    {
+                        "title": "[EMF] Entity Model Features [Fabric & Forge]",
+                        "names": [
+                            "Traben"
+                        ]
+                    },
+                    {
+                        "title": "[ETF] Entity Texture Features - [Fabric & Forge]",
+                        "names": [
+                            "Traben"
+                        ]
+                    },
+                    {
+                        "title": "[QAPI] | Quantified API",
+                        "names": [
+                            "Admany",
+                            "BlackRiftStudios"
+                        ]
+                    },
+                    {
+                        "title": "[SBW] Superb Warfare",
+                        "names": [
+                            "Mercurows",
+                            "CrushedBiscuitsPralineCandy",
+                            "Light_Quanta"
+                        ]
+                    },
+                    {
+                        "title": "[TaCZ:Accel] | Timeless and Classics Zero Guns: Accelerated",
+                        "names": [
+                            "Admany",
+                            "BlackRiftStudios"
+                        ]
+                    },
+                    {
+                        "title": "[TACZ] LesRaisins Tactical Equipements",
+                        "names": [
+                            "xjqsh",
+                            "LesRaisinsStudio"
+                        ]
+                    },
+                    {
+                        "title": "[TaCZ] Timeless and Classics Zero Guns",
+                        "names": [
+                            "nekocrane",
+                            "f1zeil",
+                            "maydaymemory",
+                            "TartaricAcid"
+                        ]
+                    },
+                    {
+                        "title": "[Tacz]TROLARMOR",
+                        "names": [
+                            "marshmallowwwwww"
+                        ]
+                    },
+                    {
+                        "title": "[TFTH] Performance Patch",
+                        "names": [
+                            "RinkyNooble"
+                        ]
+                    },
+                    {
+                        "title": "Ad Astra",
+                        "names": [
+                            "terrariumearth",
+                            "AlexNijjar"
+                        ]
+                    },
+                    {
+                        "title": "Ad Astra Flight Expansion",
+                        "names": [
+                            "RinkyNooble"
+                        ]
+                    },
+                    {
+                        "title": "AI Improvements: Performance Tuning",
+                        "names": [
+                            "QueenOfMissiles"
+                        ]
+                    },
+                    {
+                        "title": "AllTheLeaks (Memory Leak Fix)",
+                        "names": [
+                            "Uncandango"
+                        ]
+                    },
+                    {
+                        "title": "Almanac Lib",
+                        "names": [
+                            "frikinjay"
+                        ]
+                    },
+                    {
+                        "title": "Alternate Current",
+                        "names": [
+                            "SpaceWalkerRS"
+                        ]
+                    },
+                    {
+                        "title": "AmbientSounds 6",
+                        "names": [
+                            "CreativeMD"
+                        ]
+                    },
+                    {
+                        "title": "AppleSkin",
+                        "names": [
+                            "squeek502"
+                        ]
+                    },
+                    {
+                        "title": "Architectury API",
+                        "names": [
+                            "shedaniel",
+                            "Juicebus",
+                            "MaxNeedsSnacks",
+                            "st0x0ef"
+                        ]
+                    },
+                    {
+                        "title": "Armor Points ++",
+                        "names": [
+                            "Cheos"
+                        ]
+                    },
+                    {
+                        "title": "Atlas Lib",
+                        "names": [
+                            "smileycorp"
+                        ]
+                    },
+                    {
+                        "title": "AttributeFix",
+                        "names": [
+                            "DarkhaxDev"
+                        ]
+                    },
+                    {
+                        "title": "Bad Mobs",
+                        "names": [
+                            "DarkhaxDev"
+                        ]
+                    },
+                    {
+                        "title": "BadOptimizations",
+                        "names": [
+                            "thosea"
+                        ]
+                    },
+                    {
+                        "title": "BaguetteLib",
+                        "names": [
+                            "Project8gbDeRam"
+                        ]
+                    },
+                    {
+                        "title": "Balm",
+                        "names": [
+                            "BlayTheNinth"
+                        ]
+                    },
+                    {
+                        "title": "Better Compatibility Checker",
+                        "names": [
+                            "Gaz_"
+                        ]
+                    },
+                    {
+                        "title": "Better Ping Display",
+                        "names": [
+                            "Quintinity"
+                        ]
+                    },
+                    {
+                        "title": "Better World Loading ([Neo]Forge)",
+                        "names": [
+                            "h1ggsk"
+                        ]
+                    },
+                    {
+                        "title": "BetterBlockZ",
+                        "names": [
+                            "riciJak"
+                        ]
+                    },
+                    {
+                        "title": "BetterF3",
+                        "names": [
+                            "cominixo"
+                        ]
+                    },
+                    {
+                        "title": "Biome Spawn Point",
+                        "names": [
+                            "Serilum"
+                        ]
+                    },
+                    {
+                        "title": "Bocchium",
+                        "names": [
+                            "_nArUTo_",
+                            "332iBnaiJ"
+                        ]
+                    },
+                    {
+                        "title": "Bookshelf",
+                        "names": [
+                            "DarkhaxDev"
+                        ]
+                    },
+                    {
+                        "title": "Botarium",
+                        "names": [
+                            "terrariumearth",
+                            "ThatGravyBoat",
+                            "CodexAdrian"
+                        ]
+                    },
+                    {
+                        "title": "CameraOverhaul",
+                        "names": [
+                            "Mirsario"
+                        ]
+                    },
+                    {
+                        "title": "Carbon Config",
+                        "names": [
+                            "Speiger",
+                            "Meduris"
+                        ]
+                    },
+                    {
+                        "title": "Chunky (Forge/NeoForge)",
+                        "names": [
+                            "pop4959"
+                        ]
+                    },
+                    {
+                        "title": "Cloth Config API (Fabric/Forge/NeoForge)",
+                        "names": [
+                            "shedaniel",
+                            "LinkieIsBetterThanK9"
+                        ]
+                    },
+                    {
+                        "title": "Cold Sweat",
+                        "names": [
+                            "Mikul"
+                        ]
+                    },
+                    {
+                        "title": "Collective",
+                        "names": [
+                            "Serilum"
+                        ]
+                    },
+                    {
+                        "title": "Configured",
+                        "names": [
+                            "MrCrayfish"
+                        ]
+                    },
+                    {
+                        "title": "Connector Extras",
+                        "names": [
+                            "Su5eD"
+                        ]
+                    },
+                    {
+                        "title": "Controlling",
+                        "names": [
+                            "Jaredlll08"
+                        ]
+                    },
+                    {
+                        "title": "CoroUtil",
+                        "names": [
+                            "Corosus"
+                        ]
+                    },
+                    {
+                        "title": "Corpse",
+                        "names": [
+                            "henkelmax"
+                        ]
+                    },
+                    {
+                        "title": "Corpse x Curios API Compat",
+                        "names": [
+                            "Project8gbDeRam"
+                        ]
+                    },
+                    {
+                        "title": "CraftTweaker",
+                        "names": [
+                            "Jaredlll08",
+                            "TheSilkMiner",
+                            "kindlich"
+                        ]
+                    },
+                    {
+                        "title": "CrashExploitFixer",
+                        "names": [
+                            "drexhd"
+                        ]
+                    },
+                    {
+                        "title": "CreativeCore",
+                        "names": [
+                            "CreativeMD"
+                        ]
+                    },
+                    {
+                        "title": "CullLessLeaves Reforged (Unofficial)",
+                        "names": [
+                            "ccr4ft3r"
+                        ]
+                    },
+                    {
+                        "title": "Cupboard",
+                        "names": [
+                            "someaddon"
+                        ]
+                    },
+                    {
+                        "title": "Curios API",
+                        "names": [
+                            "TheIllusiveC4"
+                        ]
+                    },
+                    {
+                        "title": "Custom Credits",
+                        "names": [
+                            "Serilum"
+                        ]
+                    },
+                    {
+                        "title": "CustomNPCs-Unofficial",
+                        "names": [
+                            "Goodbird"
+                        ]
+                    },
+                    {
+                        "title": "Default Options",
+                        "names": [
+                            "BlayTheNinth"
+                        ]
+                    },
+                    {
+                        "title": "Deimos Lib",
+                        "names": [
+                            "Mars"
+                        ]
+                    },
+                    {
+                        "title": "DisablePortal",
+                        "names": [
+                            "24na7"
+                        ]
+                    },
+                    {
+                        "title": "Distant Horizons: A Level of Detail mod",
+                        "names": [
+                            "James_Seibel"
+                        ]
+                    },
+                    {
+                        "title": "Drippy Loading Screen",
+                        "names": [
+                            "Keksuccino"
+                        ]
+                    },
+                    {
+                        "title": "Durability Tooltip",
+                        "names": [
+                            "SuperMartijn642"
+                        ]
+                    },
+                    {
+                        "title": "Dynamic FPS",
+                        "names": [
+                            "juliand665",
+                            "LostLuma"
+                        ]
+                    },
+                    {
+                        "title": "Embeddium",
+                        "names": [
+                            "FiniteReality"
+                        ]
+                    },
+                    {
+                        "title": "EnhancedVisuals",
+                        "names": [
+                            "CreativeMD"
+                        ]
+                    },
+                    {
+                        "title": "Entity Culling Fabric/Forge",
+                        "names": [
+                            "tr7zw"
+                        ]
+                    },
+                    {
+                        "title": "Entomophobia",
+                        "names": [
+                            "Dr_Pilot_MOO"
+                        ]
+                    },
+                    {
+                        "title": "Entomophobia Patch",
+                        "names": [
+                            "RinkyNooble"
+                        ]
+                    },
+                    {
+                        "title": "EventJS",
+                        "names": [
+                            "ZZZank"
+                        ]
+                    },
+                    {
+                        "title": "ExpandAbility",
+                        "names": [
+                            "florensie",
+                            "ochotonida"
+                        ]
+                    },
+                    {
+                        "title": "FancyMenu",
+                        "names": [
+                            "Keksuccino"
+                        ]
+                    },
+                    {
+                        "title": "Farmer's Delight",
+                        "names": [
+                            "vectorwing"
+                        ]
+                    },
+                    {
+                        "title": "Fast Async World Save[Forge/Neo/Fabric]",
+                        "names": [
+                            "someaddon"
+                        ]
+                    },
+                    {
+                        "title": "Fast IP Ping",
+                        "names": [
+                            "Fallen_Breath"
+                        ]
+                    },
+                    {
+                        "title": "Fast Item Frames",
+                        "names": [
+                            "Fuzs"
+                        ]
+                    },
+                    {
+                        "title": "Fast Leaf Decay",
+                        "names": [
+                            "olafskiii"
+                        ]
+                    },
+                    {
+                        "title": "Fast Paintings",
+                        "names": [
+                            "MehVahdJukaar"
+                        ]
+                    },
+                    {
+                        "title": "FastBoot",
+                        "names": [
+                            "dnlayu"
+                        ]
+                    },
+                    {
+                        "title": "FastFurnace",
+                        "names": [
+                            "Shadows_of_Fire"
+                        ]
+                    },
+                    {
+                        "title": "FastSuite",
+                        "names": [
+                            "Shadows_of_Fire"
+                        ]
+                    },
+                    {
+                        "title": "FastWorkbench",
+                        "names": [
+                            "Shadows_of_Fire"
+                        ]
+                    },
+                    {
+                        "title": "FerriteCore ((Neo)Forge)",
+                        "names": [
+                            "malte0811"
+                        ]
+                    },
+                    {
+                        "title": "Flerovium",
+                        "names": [
+                            "MoePus"
+                        ]
+                    },
+                    {
+                        "title": "Forgified Fabric API",
+                        "names": [
+                            "Su5eD"
+                        ]
+                    },
+                    {
+                        "title": "Fragmentum Forge",
+                        "names": [
+                            "Obscuria"
+                        ]
+                    },
+                    {
+                        "title": "Framework",
+                        "names": [
+                            "MrCrayfish"
+                        ]
+                    },
+                    {
+                        "title": "FTB Filter System",
+                        "names": [
+                            "FTB",
+                            "FTBTeam"
+                        ]
+                    },
+                    {
+                        "title": "FTB Library (NeoForge)",
+                        "names": [
+                            "FTB",
+                            "FTBTeam"
+                        ]
+                    },
+                    {
+                        "title": "FTB Quests (NeoForge)",
+                        "names": [
+                            "FTB",
+                            "FTBTeam"
+                        ]
+                    },
+                    {
+                        "title": "FTB Quests Optimizer",
+                        "names": [
+                            "big_energy"
+                        ]
+                    },
+                    {
+                        "title": "FTB Teams (NeoForge)",
+                        "names": [
+                            "FTB",
+                            "FTBTeam"
+                        ]
+                    },
+                    {
+                        "title": "FTB XMod Compat",
+                        "names": [
+                            "FTB",
+                            "FTBTeam"
+                        ]
+                    },
+                    {
+                        "title": "Fungal Infection: Spore",
+                        "names": [
+                            "the_harbinger69"
+                        ]
+                    },
+                    {
+                        "title": "Fusion (Connected Textures)",
+                        "names": [
+                            "SuperMartijn642"
+                        ]
+                    },
+                    {
+                        "title": "Fzzy Config",
+                        "names": [
+                            "fzzyhmstrs"
+                        ]
+                    },
+                    {
+                        "title": "GeckoLib",
+                        "names": [
+                            "Gecko",
+                            "EliotL"
+                        ]
+                    },
+                    {
+                        "title": "Get It Together, Drops!",
+                        "names": [
+                            "bl4ckscor3"
+                        ]
+                    },
+                    {
+                        "title": "GlitchCore",
+                        "names": [
+                            "TheAdubbz"
+                        ]
+                    },
+                    {
+                        "title": "GPUTape",
+                        "names": [
+                            "MrToad"
+                        ]
+                    },
+                    {
+                        "title": "Grappling Hook - Reforged",
+                        "names": [
+                            "Chummycho"
+                        ]
+                    },
+                    {
+                        "title": "Hardcore Revival",
+                        "names": [
+                            "BlayTheNinth"
+                        ]
+                    },
+                    {
+                        "title": "Iceberg [Neo/Forge]",
+                        "names": [
+                            "Grend_G"
+                        ]
+                    },
+                    {
+                        "title": "ImmediatelyFast",
+                        "names": [
+                            "RaphiMC"
+                        ]
+                    },
+                    {
+                        "title": "Immersive Optimization",
+                        "names": [
+                            "Conczin"
+                        ]
+                    },
+                    {
+                        "title": "Immersive UI",
+                        "names": [
+                            "SSKirillSS",
+                            "catboybinary"
+                        ]
+                    },
+                    {
+                        "title": "In Control!",
+                        "names": [
+                            "McJty"
+                        ]
+                    },
+                    {
+                        "title": "Infectious - Zombie Apocalypse",
+                        "names": [
+                            "Zcoper"
+                        ]
+                    },
+                    {
+                        "title": "Infectious Patch",
+                        "names": [
+                            "RinkyNooble"
+                        ]
+                    },
+                    {
+                        "title": "Jade",
+                        "names": [
+                            "Snownee"
+                        ]
+                    },
+                    {
+                        "title": "Just Enough Items (JEI)",
+                        "names": [
+                            "mezz"
+                        ]
+                    },
+                    {
+                        "title": "Just Enough Mekanism Multiblocks",
+                        "names": [
+                            "gisellevonbingen"
+                        ]
+                    },
+                    {
+                        "title": "Konkrete",
+                        "names": [
+                            "Keksuccino"
+                        ]
+                    },
+                    {
+                        "title": "Kotlin for Forge",
+                        "names": [
+                            "thedarkcolour"
+                        ]
+                    },
+                    {
+                        "title": "Krypton Reno",
+                        "names": [
+                            "default_user"
+                        ]
+                    },
+                    {
+                        "title": "KubeJS",
+                        "names": [
+                            "Lat"
+                        ]
+                    },
+                    {
+                        "title": "Lathe",
+                        "names": [
+                            "RinkyNooble"
+                        ]
+                    },
+                    {
+                        "title": "Let Me Despawn",
+                        "names": [
+                            "frikinjay"
+                        ]
+                    },
+                    {
+                        "title": "Loot Journal: Pickup Notifier Forge",
+                        "names": [
+                            "Obscuria"
+                        ]
+                    },
+                    {
+                        "title": "LootJS: KubeJS Addon",
+                        "names": [
+                            "Lytho"
+                        ]
+                    },
+                    {
+                        "title": "Lootr (Forge & NeoForge)",
+                        "names": [
+                            "Noobanidus",
+                            "ZestyBlaze",
+                            "embeddedt"
+                        ]
+                    },
+                    {
+                        "title": "Max Health Fix",
+                        "names": [
+                            "DarkhaxDev"
+                        ]
+                    },
+                    {
+                        "title": "MCreatorMemFix",
+                        "names": [
+                            "Overcontrol1"
+                        ]
+                    },
+                    {
+                        "title": "Mekanism",
+                        "names": [
+                            "bradyaidanc",
+                            "thommy101",
+                            "pupnewfster",
+                            "Thiakil"
+                        ]
+                    },
+                    {
+                        "title": "Mekanism Generators",
+                        "names": [
+                            "bradyaidanc",
+                            "thommy101",
+                            "pupnewfster",
+                            "Thiakil"
+                        ]
+                    },
+                    {
+                        "title": "Melody",
+                        "names": [
+                            "Keksuccino"
+                        ]
+                    },
+                    {
+                        "title": "Memory Usage Screen [Forge/Fabric]",
+                        "names": [
+                            "morimori0317"
+                        ]
+                    },
+                    {
+                        "title": "MidnightLib",
+                        "names": [
+                            "Motschen"
+                        ]
+                    },
+                    {
+                        "title": "Mobtimizations - Entity Performance Fixes",
+                        "names": [
+                            "Corosus"
+                        ]
+                    },
+                    {
+                        "title": "Modern Furniture Forked [MFF]",
+                        "names": [
+                            "RinkyNooble"
+                        ]
+                    },
+                    {
+                        "title": "ModernFix",
+                        "names": [
+                            "embeddedt"
+                        ]
+                    },
+                    {
+                        "title": "Moonlight Lib",
+                        "names": [
+                            "MehVahdJukaar",
+                            "plantspookable"
+                        ]
+                    },
+                    {
+                        "title": "Mouse Tweaks",
+                        "names": [
+                            "YaLTeR"
+                        ]
+                    },
+                    {
+                        "title": "MRU",
+                        "names": [
+                            "IMB11"
+                        ]
+                    },
+                    {
+                        "title": "NaNny (Fix NaN Health / Absorption)",
+                        "names": [
+                            "qther"
+                        ]
+                    },
+                    {
+                        "title": "Necronomicon API",
+                        "names": [
+                            "ElocinDev"
+                        ]
+                    },
+                    {
+                        "title": "NeonDeco",
+                        "names": [
+                            "Ento"
+                        ]
+                    },
+                    {
+                        "title": "No Chat Reports",
+                        "names": [
+                            "Aizistral"
+                        ]
+                    },
+                    {
+                        "title": "No Experience",
+                        "names": [
+                            "DxEVIL"
+                        ]
+                    },
+                    {
+                        "title": "Not Enough Recipe Book [NERB]",
+                        "names": [
+                            "SSKirillSS"
+                        ]
+                    },
+                    {
+                        "title": "Obscure Tooltips",
+                        "names": [
+                            "Obscuria"
+                        ]
+                    },
+                    {
+                        "title": "Oculus",
+                        "names": [
+                            "Asek3"
+                        ]
+                    },
+                    {
+                        "title": "Packet Fixer",
+                        "names": [
+                            "TonimatasDEV"
+                        ]
+                    },
+                    {
+                        "title": "ParCool! ~ Minecraft Parkour ~",
+                        "names": [
+                            "alRex_U"
+                        ]
+                    },
+                    {
+                        "title": "Particle Core",
+                        "names": [
+                            "fzzyhmstrs"
+                        ]
+                    },
+                    {
+                        "title": "Phayriosis Parasite Infection",
+                        "names": [
+                            "The_Monbox"
+                        ]
+                    },
+                    {
+                        "title": "Placebo",
+                        "names": [
+                            "Shadows_of_Fire"
+                        ]
+                    },
+                    {
+                        "title": "playerAnimator",
+                        "names": [
+                            "KosmX"
+                        ]
+                    },
+                    {
+                        "title": "Presence Footsteps (Forge)",
+                        "names": [
+                            "Paint_Ninja"
+                        ]
+                    },
+                    {
+                        "title": "Prion Infection: Whispers From Within",
+                        "names": [
+                            "Demod"
+                        ]
+                    },
+                    {
+                        "title": "Prion Performance Patch",
+                        "names": [
+                            "RinkyNooble"
+                        ]
+                    },
+                    {
+                        "title": "Prism [Neo/Forge]",
+                        "names": [
+                            "Grend_G"
+                        ]
+                    },
+                    {
+                        "title": "Protect Mobs From Daylight",
+                        "names": [
+                            "AnEngineerMan"
+                        ]
+                    },
+                    {
+                        "title": "Puzzles Lib",
+                        "names": [
+                            "Fuzs"
+                        ]
+                    },
+                    {
+                        "title": "Radium Reforged",
+                        "names": [
+                            "Asek3"
+                        ]
+                    },
+                    {
+                        "title": "Realistic Airdrop",
+                        "names": [
+                            "naughty_keller85"
+                        ]
+                    },
+                    {
+                        "title": "Realistic Nametag",
+                        "names": [
+                            "hikoma0000"
+                        ]
+                    },
+                    {
+                        "title": "Redirected",
+                        "names": [
+                            "Txni"
+                        ]
+                    },
+                    {
+                        "title": "Resourceful Config",
+                        "names": [
+                            "ThatGravyBoat",
+                            "epic_oreo"
+                        ]
+                    },
+                    {
+                        "title": "Resourceful Lib",
+                        "names": [
+                            "ThatGravyBoat",
+                            "epic_oreo"
+                        ]
+                    },
+                    {
+                        "title": "Rhino",
+                        "names": [
+                            "Lat"
+                        ]
+                    },
+                    {
+                        "title": "Saro´s Clearlag",
+                        "names": [
+                            "Sarocesch"
+                        ]
+                    },
+                    {
+                        "title": "Saro´s Money",
+                        "names": [
+                            "Sarocesch"
+                        ]
+                    },
+                    {
+                        "title": "Saturn",
+                        "names": [
+                            "AbdElAziz333"
+                        ]
+                    },
+                    {
+                        "title": "Scalpel (Modpack Utility)",
+                        "names": [
+                            "RinkyNooble"
+                        ]
+                    },
+                    {
+                        "title": "Searchables",
+                        "names": [
+                            "Jaredlll08"
+                        ]
+                    },
+                    {
+                        "title": "Security Craft",
+                        "names": [
+                            "Geforce132",
+                            "bl4ckscor3",
+                            "Redstone_Dubstep"
+                        ]
+                    },
+                    {
+                        "title": "Shaders Companion",
+                        "names": [
+                            "RinkyNooble"
+                        ]
+                    },
+                    {
+                        "title": "ShatterLib | OctoLib",
+                        "names": [
+                            "SSKirillSS",
+                            "catboybinary"
+                        ]
+                    },
+                    {
+                        "title": "Simple Voice Chat",
+                        "names": [
+                            "henkelmax"
+                        ]
+                    },
+                    {
+                        "title": "Sinytra Connector",
+                        "names": [
+                            "Su5eD"
+                        ]
+                    },
+                    {
+                        "title": "Sleepn't (Disable sleep, keep spawnpoints)",
+                        "names": [
+                            "kleiders3010"
+                        ]
+                    },
+                    {
+                        "title": "Smooth Boot (Reloaded)",
+                        "names": [
+                            "AbdElAziz333"
+                        ]
+                    },
+                    {
+                        "title": "Sodium/Embeddium Dynamic Lights",
+                        "names": [
+                            "Txni"
+                        ]
+                    },
+                    {
+                        "title": "Sodium/Embeddium Extras",
+                        "names": [
+                            "Txni"
+                        ]
+                    },
+                    {
+                        "title": "Sodium/Embeddium Options API",
+                        "names": [
+                            "Txni"
+                        ]
+                    },
+                    {
+                        "title": "Sophisticated Backpacks",
+                        "names": [
+                            "P3pp3rF1y"
+                        ]
+                    },
+                    {
+                        "title": "Sophisticated Core",
+                        "names": [
+                            "P3pp3rF1y"
+                        ]
+                    },
+                    {
+                        "title": "Sound Physics Remastered",
+                        "names": [
+                            "henkelmax"
+                        ]
+                    },
+                    {
+                        "title": "Sounds",
+                        "names": [
+                            "IMB11"
+                        ]
+                    },
+                    {
+                        "title": "Starter Kit",
+                        "names": [
+                            "Serilum"
+                        ]
+                    },
+                    {
+                        "title": "Stylish Effects",
+                        "names": [
+                            "Fuzs"
+                        ]
+                    },
+                    {
+                        "title": "Superb Warfare Performance Fix",
+                        "names": [
+                            "RinkyNooble"
+                        ]
+                    },
+                    {
+                        "title": "SuperMartijn642's Config Lib",
+                        "names": [
+                            "SuperMartijn642"
+                        ]
+                    },
+                    {
+                        "title": "TaCZ Ad Astra Arm Fix",
+                        "names": [
+                            "RinkyNooble"
+                        ]
+                    },
+                    {
+                        "title": "TaCZ Tweaks",
+                        "names": [
+                            "MUKSC"
+                        ]
+                    },
+                    {
+                        "title": "TACZ: Durability (Timeless and Classics Guns)",
+                        "names": [
+                            "jeducklet"
+                        ]
+                    },
+                    {
+                        "title": "TenshiLib (Forge/NeoForge)",
+                        "names": [
+                            "flemmli97"
+                        ]
+                    },
+                    {
+                        "title": "The eYes Remastered",
+                        "names": [
+                            "CaliyTheCalico"
+                        ]
+                    },
+                    {
+                        "title": "The eYes Remastered Patch",
+                        "names": [
+                            "RinkyNooble"
+                        ]
+                    },
+                    {
+                        "title": "The Flesh That Hates",
+                        "names": [
+                            "winvicc"
+                        ]
+                    },
+                    {
+                        "title": "The Hordes",
+                        "names": [
+                            "smileycorp"
+                        ]
+                    },
+                    {
+                        "title": "The Lost Cities",
+                        "names": [
+                            "McJty"
+                        ]
+                    },
+                    {
+                        "title": "The Lost Cities - DevTool",
+                        "names": [
+                            "RinkyNooble"
+                        ]
+                    },
+                    {
+                        "title": "THE UNDEAD REVAMPED",
+                        "names": [
+                            "punpanprolol",
+                            "punpannooblol"
+                        ]
+                    },
+                    {
+                        "title": "Tips",
+                        "names": [
+                            "DarkhaxDev"
+                        ]
+                    },
+                    {
+                        "title": "Toast Control",
+                        "names": [
+                            "Shadows_of_Fire"
+                        ]
+                    },
+                    {
+                        "title": "Too Fast",
+                        "names": [
+                            "Noobanidus",
+                            "ZestyBlaze"
+                        ]
+                    },
+                    {
+                        "title": "TrashSlot",
+                        "names": [
+                            "BlayTheNinth"
+                        ]
+                    },
+                    {
+                        "title": "Traveler's Titles (Forge/NeoForge)",
+                        "names": [
+                            "YUNGNICKYOUNG",
+                            "will_bl"
+                        ]
+                    },
+                    {
+                        "title": "TxniLib",
+                        "names": [
+                            "Txni"
+                        ]
+                    },
+                    {
+                        "title": "Unified Xaero Worldmap",
+                        "names": [
+                            "Navrelis"
+                        ]
+                    },
+                    {
+                        "title": "Wabbanode Companion",
+                        "names": [
+                            "wabbanode",
+                            "wabbamarkus"
+                        ]
+                    },
+                    {
+                        "title": "What Are They Up To (Watut)",
+                        "names": [
+                            "Corosus"
+                        ]
+                    },
+                    {
+                        "title": "Xaero's Minimap",
+                        "names": [
+                            "xaero96"
+                        ]
+                    },
+                    {
+                        "title": "Xaero's World Map",
+                        "names": [
+                            "xaero96"
+                        ]
+                    },
+                    {
+                        "title": "Yeetus Experimentus",
+                        "names": [
+                            "Sunekaer"
+                        ]
+                    },
+                    {
+                        "title": "YetAnotherConfigLib",
+                        "names": [
+                            "isXander"
+                        ]
+                    },
+                    {
+                        "title": "YUNG's API (Forge/NeoForge)",
+                        "names": [
+                            "YUNGNICKYOUNG"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "section": "Shaders and Resource Packs",
+        "disciplines": [
+            {
+                "discipline": "",
+                "titles": [
+                    {
+                        "title": "Apocalypse Begins [Sundial Lite Fork]",
+                        "names": [
+                            "RinkyNooble",
+                            "Sundial Lite by GeForceLegend"
+                        ]
+                    },
+                    {
+                        "title": "Complementary Shaders - Unbound",
+                        "names": [
+                            "EminGT"
+                        ]
+                    },
+                    {
+                        "title": "Tissou's Zombie Pack",
+                        "names": [
+                            "Tissou"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "section": "Character Skins",
+        "disciplines": [
+            {
+                "discipline": "",
+                "titles": [
+                    {
+                        "title": "From minecraftskins.com",
+                        "names": [
+                            "Voc Captain Yellliebr",
+                            "Nurse Halloween",
+                            "Security Guard From Fnaf",
+                            "Unsc O D S T Survivalist",
+                            "Female Scientist Purple Hair",
+                            "Ghast Pilot",
+                            "Cleaning Up Sf117",
+                            "Business Man",
+                            "Silver Navel Attire V2",
+                            "Bodyguard",
+                            "Sailor Osomatsu",
+                            "Fisher Boy Cute Skin",
+                            "Camo Coat V2",
+                            "Forest Survivor",
+                            "Lina But Survivor",
+                            "Lee Everett",
+                            "Post Apocalyptic Wastelander",
+                            "American Gothic V2 5",
+                            "Air Force Class A Uniform",
+                            "Australian Air Force Cadets Banner Sash",
+                            "Cadpat",
+                            "Republic Of Korea Air Force Rokaf Honor Guard",
+                            "Tadc Inspired Mimi Jewels Mime Janitor",
+                            "Kyle",
+                            "Janitor Credits Outfit Hjure02 Skindex",
+                            "Janitor Jill",
+                            "Qsmp Donkaaklijn Cowboy Bandit Wild West",
+                            "Bandit",
+                            "Criminal Of Jack A Cash",
+                            "Bank Robber",
+                            "Masked Criminal",
+                            "Pennsylvania Of Dangerous A Criminal",
+                            "Florida Of Dangerous A Criminal",
+                            "Hazard Corporation V1",
+                            "Hazard Corporation V2",
+                            "Hazard Corporation V3",
+                            "Hazmat Suit With Gas Mask",
+                            "Gas Mask And Hazmat Suit With Blood On It",
+                            "Tr 40 Gold Eagle Helldiver Armour",
+                            "Astro 5",
+                            "Scientest"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

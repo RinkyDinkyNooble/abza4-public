@@ -1,0 +1,30 @@
+{
+  "title": {
+    "text": "The World",
+    "color": "#79C0FF",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Each ore is richest in its "
+      },
+      {
+        "text": "home region",
+        "color": "yellow"
+      },
+      {
+        "text": " and "
+      },
+      {
+        "text": "absent from earlier ones",
+        "color": "red"
+      },
+      {
+        "text": ". The questbook's Mining chapter charts them."
+      }
+    ]
+  },
+  "cycleTime": 7000
+}

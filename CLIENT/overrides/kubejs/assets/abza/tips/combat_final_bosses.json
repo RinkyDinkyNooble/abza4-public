@@ -1,0 +1,41 @@
+{
+  "title": {
+    "text": "Combat",
+    "color": "#FFA657",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Final bosses take 10% from plain bullets.",
+        "color": "red"
+      },
+      {
+        "text": " Bring "
+      },
+      {
+        "text": "armour-piercing rounds",
+        "color": "yellow"
+      },
+      {
+        "text": ", "
+      },
+      {
+        "text": "explosives",
+        "color": "yellow"
+      },
+      {
+        "text": " or "
+      },
+      {
+        "text": "vehicle weapons",
+        "color": "yellow"
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

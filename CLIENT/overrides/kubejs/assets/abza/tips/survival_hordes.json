@@ -1,0 +1,24 @@
+{
+  "title": {
+    "text": "Survival",
+    "color": "#FF7B72",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Every 4th night",
+        "color": "red"
+      },
+      {
+        "text": " of your play time, a horde comes for you at midnight. Light won't stop it. "
+      },
+      {
+        "text": "Walls will.",
+        "color": "green"
+      }
+    ]
+  },
+  "cycleTime": 7000
+}

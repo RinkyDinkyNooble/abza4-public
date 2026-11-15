@@ -1,0 +1,34 @@
+{
+  "title": {
+    "text": "Scavenging",
+    "color": "#7EE787",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "An item's "
+      },
+      {
+        "text": "coloured tier line",
+        "color": "yellow"
+      },
+      {
+        "text": " is when it can be crafted; the "
+      },
+      {
+        "text": "grey line",
+        "color": "gray"
+      },
+      {
+        "text": " is how early it can be found. "
+      },
+      {
+        "text": "Finds can run ahead of your tech.",
+        "color": "green"
+      }
+    ]
+  },
+  "cycleTime": 9000
+}

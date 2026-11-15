@@ -1,0 +1,34 @@
+{
+  "title": {
+    "text": "Scavenging",
+    "color": "#7EE787",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Containers "
+      },
+      {
+        "text": "never refill",
+        "color": "red"
+      },
+      {
+        "text": ", but each player gets "
+      },
+      {
+        "text": "their own",
+        "color": "yellow"
+      },
+      {
+        "text": " loot. "
+      },
+      {
+        "text": "An explosion destroys it.",
+        "color": "red"
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

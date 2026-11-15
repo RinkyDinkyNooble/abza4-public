@@ -1,0 +1,27 @@
+{
+  "title": {
+    "text": "Scavenging",
+    "color": "#7EE787",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Some buildings hide a "
+      },
+      {
+        "text": "stash",
+        "color": "yellow"
+      },
+      {
+        "text": " off the main way. "
+      },
+      {
+        "text": "Search the corners.",
+        "color": "green"
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

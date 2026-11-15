@@ -1,0 +1,27 @@
+{
+  "title": {
+    "text": "Survival",
+    "color": "#FF7B72",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Health doesn't regenerate.",
+        "color": "red"
+      },
+      {
+        "text": " Carry "
+      },
+      {
+        "text": "medicine",
+        "color": "yellow"
+      },
+      {
+        "text": ": bathrooms and pharmacies hold it, and Ruth sells it aboard Prospero."
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

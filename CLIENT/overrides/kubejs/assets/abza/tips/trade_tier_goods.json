@@ -1,0 +1,23 @@
+{
+  "title": {
+    "text": "Trade",
+    "color": "#E3B341",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "A trader sells "
+      },
+      {
+        "text": "only their own tier's goods",
+        "color": "yellow"
+      },
+      {
+        "text": ". Better gear means going further out."
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

@@ -1,0 +1,37 @@
+{
+  "title": {
+    "text": "Trade",
+    "color": "#E3B341",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Your "
+      },
+      {
+        "text": "standing",
+        "color": "yellow"
+      },
+      {
+        "text": " with a faction opens more: friendly traders hire out "
+      },
+      {
+        "text": "guards",
+        "color": "yellow"
+      },
+      {
+        "text": " and sell their best stock. Hostile Survivors "
+      },
+      {
+        "text": "shoot on sight",
+        "color": "red"
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  "cycleTime": 8000
+}

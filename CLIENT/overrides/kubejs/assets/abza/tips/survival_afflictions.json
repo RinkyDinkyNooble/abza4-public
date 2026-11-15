@@ -1,0 +1,37 @@
+{
+  "title": {
+    "text": "Survival",
+    "color": "#FF7B72",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Each region has an "
+      },
+      {
+        "text": "affliction",
+        "color": "red"
+      },
+      {
+        "text": " that stops healing there. Its "
+      },
+      {
+        "text": "vaccine",
+        "color": "yellow"
+      },
+      {
+        "text": " ends it for good; vaccinated, you heal by "
+      },
+      {
+        "text": "resting with 18+ food",
+        "color": "green"
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  "cycleTime": 8000
+}

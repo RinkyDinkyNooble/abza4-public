@@ -1,0 +1,30 @@
+{
+  "title": {
+    "text": "Tech",
+    "color": "#D2A8FF",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Every gun and vehicle takes its tier's "
+      },
+      {
+        "text": "Material Pack",
+        "color": "yellow"
+      },
+      {
+        "text": ". Rounds can be "
+      },
+      {
+        "text": "automated",
+        "color": "green"
+      },
+      {
+        "text": " in Mekanism."
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

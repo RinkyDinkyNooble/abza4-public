@@ -1,0 +1,30 @@
+{
+  "title": {
+    "text": "Combat",
+    "color": "#FFA657",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "A destroyed vehicle "
+      },
+      {
+        "text": "kills everyone aboard",
+        "color": "red"
+      },
+      {
+        "text": ". Helicopters take damage landing faster than "
+      },
+      {
+        "text": "8 m/s",
+        "color": "yellow"
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

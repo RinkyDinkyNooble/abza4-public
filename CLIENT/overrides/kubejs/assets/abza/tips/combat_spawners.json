@@ -1,0 +1,30 @@
+{
+  "title": {
+    "text": "Combat",
+    "color": "#FFA657",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Spawners "
+      },
+      {
+        "text": "can't be broken",
+        "color": "red"
+      },
+      {
+        "text": ". Hold out for "
+      },
+      {
+        "text": "3 waves",
+        "color": "yellow"
+      },
+      {
+        "text": " and they stop."
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

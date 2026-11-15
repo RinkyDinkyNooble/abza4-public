@@ -1,0 +1,37 @@
+{
+  "title": {
+    "text": "Tech",
+    "color": "#D2A8FF",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Your tech is "
+      },
+      {
+        "text": "Mekanism",
+        "color": "yellow"
+      },
+      {
+        "text": ". An "
+      },
+      {
+        "text": "Enrichment Chamber",
+        "color": "yellow"
+      },
+      {
+        "text": " turns 3 raw ores into 4 dusts: "
+      },
+      {
+        "text": "a third more metal",
+        "color": "green"
+      },
+      {
+        "text": " than smelting."
+      }
+    ]
+  },
+  "cycleTime": 7000
+}

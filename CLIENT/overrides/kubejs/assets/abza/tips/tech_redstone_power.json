@@ -1,0 +1,23 @@
+{
+  "title": {
+    "text": "Tech",
+    "color": "#D2A8FF",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Before you have power, "
+      },
+      {
+        "text": "redstone",
+        "color": "yellow"
+      },
+      {
+        "text": " in a machine's energy slot runs that machine."
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

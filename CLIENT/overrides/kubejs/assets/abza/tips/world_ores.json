@@ -1,0 +1,34 @@
+{
+  "title": {
+    "text": "The World",
+    "color": "#79C0FF",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Ores grow only on "
+      },
+      {
+        "text": "cave surfaces",
+        "color": "yellow"
+      },
+      {
+        "text": " in the "
+      },
+      {
+        "text": "wilds",
+        "color": "yellow"
+      },
+      {
+        "text": ", never under cities. "
+      },
+      {
+        "text": "Strip-mining finds little.",
+        "color": "red"
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

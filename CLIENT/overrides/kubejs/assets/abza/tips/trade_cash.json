@@ -1,0 +1,27 @@
+{
+  "title": {
+    "text": "Trade",
+    "color": "#E3B341",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Cash is physical",
+        "color": "yellow"
+      },
+      {
+        "text": ": notes in your inventory. An "
+      },
+      {
+        "text": "ATM",
+        "color": "yellow"
+      },
+      {
+        "text": " holds a balance."
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

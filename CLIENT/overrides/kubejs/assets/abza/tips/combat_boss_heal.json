@@ -1,0 +1,27 @@
+{
+  "title": {
+    "text": "Combat",
+    "color": "#FFA657",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Bosses "
+      },
+      {
+        "text": "heal",
+        "color": "red"
+      },
+      {
+        "text": " when left alone. "
+      },
+      {
+        "text": "Keep the pressure on.",
+        "color": "green"
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

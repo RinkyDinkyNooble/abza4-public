@@ -1,0 +1,37 @@
+{
+  "title": {
+    "text": "Survival",
+    "color": "#FF7B72",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Outside "
+      },
+      {
+        "text": "10 to 38 °C",
+        "color": "yellow"
+      },
+      {
+        "text": " you take damage. Armour with "
+      },
+      {
+        "text": "cold",
+        "color": "yellow"
+      },
+      {
+        "text": " or "
+      },
+      {
+        "text": "heat protection",
+        "color": "yellow"
+      },
+      {
+        "text": " widens the range."
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

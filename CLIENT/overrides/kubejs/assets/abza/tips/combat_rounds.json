@@ -1,0 +1,27 @@
+{
+  "title": {
+    "text": "Combat",
+    "color": "#FFA657",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Creatures drop rounds for "
+      },
+      {
+        "text": "your gun",
+        "color": "yellow"
+      },
+      {
+        "text": " first. "
+      },
+      {
+        "text": "Explosion kills drop nothing.",
+        "color": "red"
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

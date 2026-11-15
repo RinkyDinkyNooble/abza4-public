@@ -1,0 +1,30 @@
+{
+  "title": {
+    "text": "Tech",
+    "color": "#D2A8FF",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "A whole "
+      },
+      {
+        "text": "ore block",
+        "color": "yellow"
+      },
+      {
+        "text": " gives 2 dusts. Only the "
+      },
+      {
+        "text": "Digital Miner",
+        "color": "yellow"
+      },
+      {
+        "text": " (Tier 3) digs ore blocks whole."
+      }
+    ]
+  },
+  "cycleTime": 6000
+}
