@@ -2,8 +2,8 @@ type = fancymenu_layout
 
 layout-meta {
   identifier = drippy_loading_overlay
-  render_custom_elements_behind_vanilla = false
-  last_edited_time = 1794796607160
+  render_custom_elements_behind_vanilla = true
+  last_edited_time = 1794797822352
   is_enabled = true
   randommode = false
   randomgroup = 1
@@ -125,11 +125,11 @@ element {
   auto_sizing = false
   sticky_anchor = false
   anchor_point = bottom-centered
-  x = -100
-  y = -22
-  width = 200
-  height = 9
-  stay_on_screen = true
+  x = -103
+  y = -25
+  width = 206
+  height = 16
+  stay_on_screen = false
   element_loading_requirement_container_identifier = abza_load_text_req
   [loading_requirement_container_meta:abza_load_text_req] = [groups:][instances:]
   enable_parallax = false
@@ -154,6 +154,6 @@ element {
   interactable = false
   base_color = #98A5B3FF
   scale = 1.0
-  text_border = 0
+  text_border = 2
   line_spacing = 2
 }

@@ -2,8 +2,8 @@ type = fancymenu_layout
 
 layout-meta {
   identifier = title_screen
-  render_custom_elements_behind_vanilla = false
-  last_edited_time = 1794796607160
+  render_custom_elements_behind_vanilla = true
+  last_edited_time = 1794797822352
   is_enabled = true
   randommode = false
   randomgroup = 1
@@ -28,7 +28,7 @@ decoration_overlay {
   rain_thunder_brightness = 0.45
   rain_puddles = true
   rain_drips = true
-  rain_thunder = true
+  rain_thunder = false
   rain_color_hex = #A3B1FF
 }
 
@@ -292,10 +292,10 @@ element {
   auto_sizing = false
   sticky_anchor = false
   anchor_point = top-left
-  x = 132
-  y = 3
-  width = 4016
-  height = 9
+  x = 129
+  y = 0
+  width = 4022
+  height = 16
   stay_on_screen = false
   element_loading_requirement_container_identifier = abza_crawl_req
   [loading_requirement_container_meta:abza_crawl_req] = [groups:][instances:]
@@ -321,7 +321,7 @@ element {
   interactable = false
   base_color = #E6ECF1FF
   scale = 1.0
-  text_border = 0
+  text_border = 2
   line_spacing = 2
 }
 
@@ -417,11 +417,11 @@ element {
   auto_sizing = false
   sticky_anchor = false
   anchor_point = top-left
-  x = 6
-  y = 3
-  width = 118
-  height = 9
-  stay_on_screen = true
+  x = 3
+  y = 0
+  width = 124
+  height = 16
+  stay_on_screen = false
   element_loading_requirement_container_identifier = abza_label_text_req
   [loading_requirement_container_meta:abza_label_text_req] = [groups:][instances:]
   enable_parallax = false
@@ -446,7 +446,7 @@ element {
   interactable = false
   base_color = #E6ECF1FF
   scale = 1.0
-  text_border = 0
+  text_border = 2
   line_spacing = 2
 }
 
@@ -502,11 +502,11 @@ element {
   auto_sizing = false
   sticky_anchor = false
   anchor_point = mid-left
-  x = 20
-  y = -59
-  width = 150
-  height = 9
-  stay_on_screen = true
+  x = 17
+  y = -62
+  width = 156
+  height = 16
+  stay_on_screen = false
   element_loading_requirement_container_identifier = abza_subtitle_req
   [loading_requirement_container_meta:abza_subtitle_req] = [groups:][instances:]
   enable_parallax = false
@@ -531,7 +531,7 @@ element {
   interactable = false
   base_color = #98A5B3FF
   scale = 1.0
-  text_border = 0
+  text_border = 2
   line_spacing = 2
 }
 
@@ -631,53 +631,6 @@ vanilla_button {
 
 vanilla_button {
   element_type = vanilla_button
-  instance_identifier = forge_titlescreen_mods_button
-  appearance_delay = no_delay
-  appearance_delay_seconds = 1.0
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_in_speed = 1.0
-  fade_out = no_fading
-  auto_sizing = false
-  sticky_anchor = false
-  anchor_point = mid-left
-  x = 20
-  y = 4
-  width = 73
-  height = 20
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = forge_titlescreen_mods_button_req
-  [loading_requirement_container_meta:forge_titlescreen_mods_button_req] = [groups:][instances:]
-  enable_parallax = false
-  invert_parallax = false
-  parallax_intensity_x = 0.5
-  parallax_intensity_y = 0.5
-  stretch_x = false
-  stretch_y = false
-  base_opacity = 1.0
-  should_be_affected_by_decoration_overlays = true
-  load_once_per_session = false
-  layer_hidden_in_editor = false
-  animated_offset_x = 0
-  animated_offset_y = 0
-  button_element_executable_block_identifier = v_forge_titlescreen_mods_button_actions
-  [executable_block:v_forge_titlescreen_mods_button_actions][type:generic] = [executables:]
-  widget_active_state_requirement_container_identifier = v_forge_titlescreen_mods_button_active
-  [loading_requirement_container_meta:v_forge_titlescreen_mods_button_active] = [groups:][instances:]
-  underline_label_on_hover = false
-  transparent_background = false
-  restartbackgroundanimations = true
-  nine_slice_custom_background = false
-  navigatable = true
-  is_template = false
-  label_scale = 1.0
-  label_shadow = true
-  automated_button_clicks = 0
-  is_hidden = false
-}
-
-vanilla_button {
-  element_type = vanilla_button
   instance_identifier = mc_titlescreen_options_button
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
@@ -688,7 +641,7 @@ vanilla_button {
   auto_sizing = false
   sticky_anchor = false
   anchor_point = mid-left
-  x = 97
+  x = 20
   y = 4
   width = 73
   height = 20
@@ -711,6 +664,53 @@ vanilla_button {
   [executable_block:v_mc_titlescreen_options_button_actions][type:generic] = [executables:]
   widget_active_state_requirement_container_identifier = v_mc_titlescreen_options_button_active
   [loading_requirement_container_meta:v_mc_titlescreen_options_button_active] = [groups:][instances:]
+  underline_label_on_hover = false
+  transparent_background = false
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  navigatable = true
+  is_template = false
+  label_scale = 1.0
+  label_shadow = true
+  automated_button_clicks = 0
+  is_hidden = false
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = forge_titlescreen_mods_button
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  auto_sizing = false
+  sticky_anchor = false
+  anchor_point = mid-left
+  x = 97
+  y = 4
+  width = 73
+  height = 20
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = forge_titlescreen_mods_button_req
+  [loading_requirement_container_meta:forge_titlescreen_mods_button_req] = [groups:][instances:]
+  enable_parallax = false
+  invert_parallax = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
+  stretch_x = false
+  stretch_y = false
+  base_opacity = 1.0
+  should_be_affected_by_decoration_overlays = true
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  button_element_executable_block_identifier = v_forge_titlescreen_mods_button_actions
+  [executable_block:v_forge_titlescreen_mods_button_actions][type:generic] = [executables:]
+  widget_active_state_requirement_container_identifier = v_forge_titlescreen_mods_button_active
+  [loading_requirement_container_meta:v_forge_titlescreen_mods_button_active] = [groups:][instances:]
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -970,11 +970,11 @@ element {
   auto_sizing = false
   sticky_anchor = false
   anchor_point = bottom-left
-  x = 20
-  y = -13
-  width = 300
-  height = 9
-  stay_on_screen = true
+  x = 17
+  y = -16
+  width = 306
+  height = 16
+  stay_on_screen = false
   element_loading_requirement_container_identifier = abza_version_req
   [loading_requirement_container_meta:abza_version_req] = [groups:][instances:]
   enable_parallax = false
@@ -999,7 +999,7 @@ element {
   interactable = false
   base_color = #E6ECF1FF
   scale = 1.0
-  text_border = 0
+  text_border = 2
   line_spacing = 2
 }
 
@@ -1056,11 +1056,11 @@ element {
   auto_sizing = false
   sticky_anchor = false
   anchor_point = bottom-right
-  x = -160
-  y = -70
-  width = 138
-  height = 20
-  stay_on_screen = true
+  x = -163
+  y = -73
+  width = 144
+  height = 27
+  stay_on_screen = false
   element_loading_requirement_container_identifier = abza_card_text_req
   [loading_requirement_container_meta:abza_card_text_req] = [groups:][instances:abza_card_text_req_0;]
   [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:abza_card_text_req_0] = ["mode":"equals","text":"{"placeholder":"last_world_server","values":{"type":"both","full_world_path":"false"}}","compare_with":""]$
@@ -1086,7 +1086,7 @@ element {
   interactable = false
   base_color = #E6ECF1FF
   scale = 1.0
-  text_border = 0
+  text_border = 2
   line_spacing = 2
 }
 
