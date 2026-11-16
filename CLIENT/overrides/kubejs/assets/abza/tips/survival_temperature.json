@@ -8,14 +8,21 @@
     "text": "",
     "extra": [
       {
-        "text": "Outside "
+        "text": "You take damage below "
       },
       {
-        "text": "10 to 38 °C",
+        "text": "10 °C",
         "color": "yellow"
       },
       {
-        "text": " you take damage. Armour with "
+        "text": " or above "
+      },
+      {
+        "text": "38 °C",
+        "color": "yellow"
+      },
+      {
+        "text": ". Armour with "
       },
       {
         "text": "cold",
@@ -29,9 +36,9 @@
         "color": "yellow"
       },
       {
-        "text": " widens the range."
+        "text": " lets you handle more."
       }
     ]
   },
-  "cycleTime": 6000
+  "cycleTime": 7000
 }

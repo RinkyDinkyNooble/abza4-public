@@ -15,14 +15,14 @@
         "color": "red"
       },
       {
-        "text": " as they wear. There's no anvil: "
+        "text": " more as they wear out. You can't repair at an anvil, but "
       },
       {
-        "text": "traders repair",
+        "text": "traders",
         "color": "yellow"
       },
       {
-        "text": " gear."
+        "text": " repair gear."
       }
     ]
   },

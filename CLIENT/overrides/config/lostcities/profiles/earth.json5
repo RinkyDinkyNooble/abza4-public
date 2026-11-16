@@ -24,6 +24,8 @@
     "openLotParkChance": 1.0,
     // No ring of the street's block round an open lot's grass
     "parkBorder": false,
+    // An open lot's grass level with the streets: no layer of the park's elevation block under it
+    "parkElevation": false,
     // Main roads every 10 chunks, so the largest lots fit between them
     "primaryRoadSpacingX": 10,
     "primaryRoadSpacingZ": 10,

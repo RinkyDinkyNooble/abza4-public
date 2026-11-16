@@ -8,24 +8,17 @@
     "text": "",
     "extra": [
       {
-        "text": "Ores grow only on "
+        "text": "Ores are only on "
       },
       {
-        "text": "cave surfaces",
+        "text": "cave walls",
         "color": "yellow"
       },
       {
-        "text": " in the "
+        "text": " in the wilds, never under cities. "
       },
       {
-        "text": "wilds",
-        "color": "yellow"
-      },
-      {
-        "text": ", never under cities. "
-      },
-      {
-        "text": "Strip-mining finds little.",
+        "text": "Strip-mining finds very little.",
         "color": "red"
       }
     ]

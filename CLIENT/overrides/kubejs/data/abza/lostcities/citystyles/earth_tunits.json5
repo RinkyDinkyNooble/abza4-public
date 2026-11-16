@@ -3,9 +3,9 @@
   "stuff_tags": [],
   "streetblocks": {
     "border": "Գ",
-    "wall": "Գ",
+    "wall": " ",
     "street": "Գ",
-    "frontchance": 1.0
+    "frontchance": 0.0
   },
   "parkblocks": {
     "elevation": "x"
@@ -23,20 +23,7 @@
     "inner": "b"
   },
   "selectors": {
-    "fronts": [
-      {
-        "factor": 1.0,
-        "value": "abza:earth_front_common"
-      },
-      {
-        "factor": 0.3,
-        "value": "abza:earth_front_mini"
-      },
-      {
-        "factor": 0.06,
-        "value": "abza:earth_front_boss"
-      }
-    ],
+    "fronts": [],
     "parks": [
       {
         "factor": 1.0,

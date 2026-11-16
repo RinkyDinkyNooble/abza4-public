@@ -8,30 +8,30 @@
     "text": "",
     "extra": [
       {
-        "text": "Fire a flare gun into "
+        "text": "An unopened "
       },
       {
-        "text": "open sky",
+        "text": "air drop",
         "color": "yellow"
       },
       {
-        "text": " on Earth for an air drop. Left unopened for "
-      },
-      {
-        "text": "5 minutes",
-        "color": "red"
-      },
-      {
-        "text": " with nobody within 32 blocks, it's "
+        "text": " gets "
       },
       {
         "text": "stolen",
         "color": "red"
       },
       {
-        "text": "."
+        "text": " after "
+      },
+      {
+        "text": "5 minutes",
+        "color": "red"
+      },
+      {
+        "text": " with nobody within 32 blocks."
       }
     ]
   },
-  "cycleTime": 8000
+  "cycleTime": 6000
 }

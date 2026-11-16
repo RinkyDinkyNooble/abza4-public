@@ -10,9 +10,9 @@
   },
   "streetblocks": {
     "border": "Գ",
-    "wall": "Գ",
+    "wall": " ",
     "street": "Գ",
-    "frontchance": 1.0,
+    "frontchance": 0.0,
     "parts": {
       "full": "abza:t1_street_all",
       "straight": "abza:t1_street_straight",

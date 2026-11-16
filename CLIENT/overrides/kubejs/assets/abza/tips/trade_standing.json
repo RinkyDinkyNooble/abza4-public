@@ -8,30 +8,27 @@
     "text": "",
     "extra": [
       {
-        "text": "Your "
+        "text": "Raise your "
       },
       {
         "text": "standing",
         "color": "yellow"
       },
       {
-        "text": " with a faction opens more: friendly traders hire out "
+        "text": " with a faction and its traders sell better stock and hire out "
       },
       {
         "text": "guards",
         "color": "yellow"
       },
       {
-        "text": " and sell their best stock. Hostile Survivors "
+        "text": ". "
       },
       {
-        "text": "shoot on sight",
+        "text": "Hostile Survivors shoot on sight.",
         "color": "red"
-      },
-      {
-        "text": "."
       }
     ]
   },
-  "cycleTime": 8000
+  "cycleTime": 7000
 }

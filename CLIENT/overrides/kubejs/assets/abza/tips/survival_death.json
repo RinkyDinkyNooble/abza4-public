@@ -8,14 +8,14 @@
     "text": "",
     "extra": [
       {
-        "text": "Each death costs "
+        "text": "Dying takes "
       },
       {
         "text": "5%",
         "color": "red"
       },
       {
-        "text": " of the max health you've earned, never below half. "
+        "text": " off your max health, but never below half. "
       },
       {
         "text": "Blood Packs",

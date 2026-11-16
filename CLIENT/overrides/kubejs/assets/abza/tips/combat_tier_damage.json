@@ -8,7 +8,7 @@
     "text": "",
     "extra": [
       {
-        "text": "A gun one tier behind needs "
+        "text": "A gun from one tier below the mobs takes "
       },
       {
         "text": "2×",
@@ -22,7 +22,7 @@
         "color": "green"
       },
       {
-        "text": " do 2×."
+        "text": " do double damage."
       }
     ]
   },

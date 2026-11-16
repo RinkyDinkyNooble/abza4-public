@@ -12,11 +12,14 @@
         "color": "red"
       },
       {
-        "text": " of your play time, a horde comes for you at midnight. Light won't stop it. "
+        "text": " you play, a horde comes for you at midnight. Light doesn't stop it, but "
       },
       {
-        "text": "Walls will.",
+        "text": "walls",
         "color": "green"
+      },
+      {
+        "text": " do."
       }
     ]
   },

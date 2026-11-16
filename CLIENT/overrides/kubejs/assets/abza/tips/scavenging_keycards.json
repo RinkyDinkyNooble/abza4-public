@@ -8,21 +8,21 @@
     "text": "",
     "extra": [
       {
-        "text": "A keycard reader takes its level "
+        "text": "A keycard reader opens with its level "
       },
       {
         "text": "or higher",
         "color": "yellow"
       },
       {
-        "text": ". The rare "
+        "text": ". A rare "
       },
       {
         "text": "Codebreaker",
         "color": "yellow"
       },
       {
-        "text": " sometimes opens a keypad."
+        "text": " can sometimes open a keypad."
       }
     ]
   },

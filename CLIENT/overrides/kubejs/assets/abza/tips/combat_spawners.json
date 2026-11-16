@@ -8,14 +8,14 @@
     "text": "",
     "extra": [
       {
-        "text": "Spawners "
+        "text": "You can't break "
       },
       {
-        "text": "can't be broken",
+        "text": "spawners",
         "color": "red"
       },
       {
-        "text": ". Hold out for "
+        "text": ". Survive "
       },
       {
         "text": "3 waves",

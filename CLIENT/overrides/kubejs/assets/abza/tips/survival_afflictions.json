@@ -15,17 +15,17 @@
         "color": "red"
       },
       {
-        "text": " that stops healing there. Its "
+        "text": " that stops you healing over time. Its "
       },
       {
         "text": "vaccine",
         "color": "yellow"
       },
       {
-        "text": " ends it for good; vaccinated, you heal by "
+        "text": " removes it for good, and then you heal while your food bar is "
       },
       {
-        "text": "resting with 18+ food",
+        "text": "18 or more",
         "color": "green"
       },
       {
@@ -33,5 +33,5 @@
       }
     ]
   },
-  "cycleTime": 8000
+  "cycleTime": 9000
 }

@@ -8,14 +8,14 @@
     "text": "",
     "extra": [
       {
-        "text": "A trader sells "
+        "text": "Traders only sell gear from "
       },
       {
-        "text": "only their own tier's goods",
+        "text": "their own tier",
         "color": "yellow"
       },
       {
-        "text": ". Better gear means going further out."
+        "text": ". For better gear, find traders further out."
       }
     ]
   },

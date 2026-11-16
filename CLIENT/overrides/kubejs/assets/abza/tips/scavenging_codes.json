@@ -15,9 +15,9 @@
         "color": "yellow"
       },
       {
-        "text": ". Every building and every world has its own."
+        "text": ". Each building has its own code, and codes change with every world."
       }
     ]
   },
-  "cycleTime": 7000
+  "cycleTime": 8000
 }

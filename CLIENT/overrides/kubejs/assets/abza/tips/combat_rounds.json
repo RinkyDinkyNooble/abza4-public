@@ -8,17 +8,17 @@
     "text": "",
     "extra": [
       {
-        "text": "Creatures drop rounds for "
+        "text": "Mobs drop "
       },
       {
-        "text": "your gun",
+        "text": "ammo for your gun",
         "color": "yellow"
       },
       {
         "text": " first. "
       },
       {
-        "text": "Explosion kills drop nothing.",
+        "text": "Mobs killed by explosions drop nothing.",
         "color": "red"
       }
     ]

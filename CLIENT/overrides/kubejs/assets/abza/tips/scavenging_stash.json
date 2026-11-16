@@ -8,18 +8,14 @@
     "text": "",
     "extra": [
       {
-        "text": "Some buildings hide a "
+        "text": "Some buildings have a hidden "
       },
       {
         "text": "stash",
         "color": "yellow"
       },
       {
-        "text": " off the main way. "
-      },
-      {
-        "text": "Search the corners.",
-        "color": "green"
+        "text": ". Check the corners."
       }
     ]
   },

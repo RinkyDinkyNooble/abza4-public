@@ -8,11 +8,11 @@
     "text": "",
     "extra": [
       {
-        "text": "Final bosses take 10% from plain bullets.",
+        "text": "Final bosses only take 10% damage from normal bullets.",
         "color": "red"
       },
       {
-        "text": " Bring "
+        "text": " Use "
       },
       {
         "text": "armour-piercing rounds",

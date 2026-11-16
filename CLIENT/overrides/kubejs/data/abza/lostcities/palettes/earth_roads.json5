@@ -145,7 +145,7 @@
       "char": "Ք",
       "block": "minecraft:command_block[conditional=false,facing=up]",
       "tag": {
-        "Command": "/spawnEntity common 1 {Chance:0.4d}",
+        "Command": "/spawnEntity common 1 {Chance:0.35d}",
         "auto": 1,
         "conditionMet": 1
       }
@@ -154,7 +154,7 @@
       "char": "Օ",
       "block": "minecraft:command_block[conditional=false,facing=up]",
       "tag": {
-        "Command": "/spawnEntity mini 1 {Chance:0.3d}",
+        "Command": "/spawnEntity mini 1 {Chance:0.07d}",
         "auto": 1,
         "conditionMet": 1
       }
@@ -163,7 +163,7 @@
       "char": "Ֆ",
       "block": "minecraft:command_block[conditional=false,facing=up]",
       "tag": {
-        "Command": "/spawnEntity boss 1 {Chance:0.15d}",
+        "Command": "/spawnEntity boss 1 {Chance:0.007d}",
         "auto": 1,
         "conditionMet": 1
       }

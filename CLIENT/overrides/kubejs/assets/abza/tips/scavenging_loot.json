@@ -11,21 +11,21 @@
         "text": "Containers "
       },
       {
-        "text": "never refill",
+        "text": "don't refill",
         "color": "red"
       },
       {
-        "text": ", but each player gets "
+        "text": ", but every player gets "
       },
       {
-        "text": "their own",
+        "text": "their own loot",
         "color": "yellow"
       },
       {
-        "text": " loot. "
+        "text": " from each one. "
       },
       {
-        "text": "An explosion destroys it.",
+        "text": "Explosions destroy loot.",
         "color": "red"
       }
     ]

@@ -1,0 +1,20 @@
+{
+  "title": {
+    "text": "Tech",
+    "color": "#D2A8FF",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Rounds",
+        "color": "yellow"
+      },
+      {
+        "text": " can be made in Mekanism machines, so you can automate them."
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

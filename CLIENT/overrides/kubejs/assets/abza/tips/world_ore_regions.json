@@ -8,7 +8,7 @@
     "text": "",
     "extra": [
       {
-        "text": "Each ore is richest in its "
+        "text": "Each ore is most common in its "
       },
       {
         "text": "home region",
@@ -18,11 +18,11 @@
         "text": " and "
       },
       {
-        "text": "absent from earlier ones",
+        "text": "missing from earlier ones",
         "color": "red"
       },
       {
-        "text": ". The questbook's Mining chapter charts them."
+        "text": ". The questbook's Mining chapter shows where."
       }
     ]
   },

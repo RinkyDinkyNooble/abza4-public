@@ -8,14 +8,14 @@
     "text": "",
     "extra": [
       {
-        "text": "A destroyed vehicle "
+        "text": "When a vehicle is destroyed, "
       },
       {
-        "text": "kills everyone aboard",
+        "text": "everyone inside dies",
         "color": "red"
       },
       {
-        "text": ". Helicopters take damage landing faster than "
+        "text": ". Helicopters take damage if you land faster than "
       },
       {
         "text": "8 m/s",

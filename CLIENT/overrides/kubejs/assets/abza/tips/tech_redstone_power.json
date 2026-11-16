@@ -8,14 +8,15 @@
     "text": "",
     "extra": [
       {
-        "text": "Before you have power, "
-      },
-      {
-        "text": "redstone",
+        "text": "Redstone",
         "color": "yellow"
       },
       {
-        "text": " in a machine's energy slot runs that machine."
+        "text": " powers Mekanism machines: put it in the energy slot. "
+      },
+      {
+        "text": "No generator needed.",
+        "color": "green"
       }
     ]
   },

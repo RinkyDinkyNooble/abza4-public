@@ -8,21 +8,28 @@
     "text": "",
     "extra": [
       {
-        "text": "A whole "
-      },
-      {
-        "text": "ore block",
-        "color": "yellow"
-      },
-      {
-        "text": " gives 2 dusts. Only the "
+        "text": "The "
       },
       {
         "text": "Digital Miner",
         "color": "yellow"
       },
       {
-        "text": " (Tier 3) digs ore blocks whole."
+        "text": " (Tier 3) mines "
+      },
+      {
+        "text": "whole ore blocks",
+        "color": "yellow"
+      },
+      {
+        "text": ", and each one makes "
+      },
+      {
+        "text": "2 dust",
+        "color": "green"
+      },
+      {
+        "text": "."
       }
     ]
   },

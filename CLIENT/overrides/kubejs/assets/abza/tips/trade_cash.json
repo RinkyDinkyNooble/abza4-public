@@ -8,18 +8,18 @@
     "text": "",
     "extra": [
       {
-        "text": "Cash is physical",
+        "text": "Cash",
         "color": "yellow"
       },
       {
-        "text": ": notes in your inventory. An "
+        "text": " is notes you carry. An "
       },
       {
         "text": "ATM",
         "color": "yellow"
       },
       {
-        "text": " holds a balance."
+        "text": " can hold it as a balance instead."
       }
     ]
   },

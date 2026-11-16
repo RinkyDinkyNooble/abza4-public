@@ -8,30 +8,23 @@
     "text": "",
     "extra": [
       {
-        "text": "Your tech is "
-      },
-      {
-        "text": "Mekanism",
-        "color": "yellow"
-      },
-      {
-        "text": ". An "
+        "text": "Put raw ore in an "
       },
       {
         "text": "Enrichment Chamber",
         "color": "yellow"
       },
       {
-        "text": " turns 3 raw ores into 4 dusts: "
+        "text": " instead of a furnace to get "
       },
       {
         "text": "a third more metal",
         "color": "green"
       },
       {
-        "text": " than smelting."
+        "text": "."
       }
     ]
   },
-  "cycleTime": 7000
+  "cycleTime": 6000
 }

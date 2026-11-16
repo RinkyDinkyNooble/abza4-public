@@ -8,18 +8,18 @@
     "text": "",
     "extra": [
       {
-        "text": "Health doesn't regenerate.",
+        "text": "You don't heal over time.",
         "color": "red"
       },
       {
-        "text": " Carry "
+        "text": " Use "
       },
       {
         "text": "medicine",
         "color": "yellow"
       },
       {
-        "text": ": bathrooms and pharmacies hold it, and Ruth sells it aboard Prospero."
+        "text": ". Bathrooms and pharmacies have it, and Ruth sells it on Prospero."
       }
     ]
   },
