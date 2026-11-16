@@ -8,11 +8,8 @@
     "text": "",
     "extra": [
       {
-        "text": "You can't cook or craft food.",
+        "text": "You can't cook or craft any food.",
         "color": "red"
-      },
-      {
-        "text": " Find it, buy it, or grow it and eat it raw."
       }
     ]
   },

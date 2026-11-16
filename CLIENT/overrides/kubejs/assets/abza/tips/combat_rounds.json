@@ -15,10 +15,10 @@
         "color": "yellow"
       },
       {
-        "text": " first. "
+        "text": ". "
       },
       {
-        "text": "Mobs killed by explosions drop nothing.",
+        "text": "Explosion kills drop nothing.",
         "color": "red"
       }
     ]

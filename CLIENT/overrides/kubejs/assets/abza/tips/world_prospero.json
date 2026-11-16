@@ -12,9 +12,9 @@
         "color": "yellow"
       },
       {
-        "text": " is a yacht on the ocean near spawn, with traders, repairs, a bank and a medic. Ines's letter tells you where it is."
+        "text": ", the yacht with the traders, is on the ocean nearest spawn."
       }
     ]
   },
-  "cycleTime": 8000
+  "cycleTime": 6000
 }

@@ -8,18 +8,18 @@
     "text": "",
     "extra": [
       {
-        "text": "You don't heal over time.",
+        "text": "You don't heal over time",
         "color": "red"
       },
       {
-        "text": " Use "
+        "text": " until you take your region's "
       },
       {
-        "text": "medicine",
+        "text": "vaccine",
         "color": "yellow"
       },
       {
-        "text": ". Bathrooms and pharmacies have it, and Ruth sells it on Prospero."
+        "text": "."
       }
     ]
   },

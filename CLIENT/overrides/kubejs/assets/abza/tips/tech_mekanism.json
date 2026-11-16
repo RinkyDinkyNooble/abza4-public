@@ -8,21 +8,14 @@
     "text": "",
     "extra": [
       {
-        "text": "Put raw ore in an "
+        "text": "An "
       },
       {
         "text": "Enrichment Chamber",
         "color": "yellow"
       },
       {
-        "text": " instead of a furnace to get "
-      },
-      {
-        "text": "a third more metal",
-        "color": "green"
-      },
-      {
-        "text": "."
+        "text": " gets a third more metal out of raw ore than smelting does."
       }
     ]
   },

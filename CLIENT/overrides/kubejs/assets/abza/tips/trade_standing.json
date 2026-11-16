@@ -8,27 +8,23 @@
     "text": "",
     "extra": [
       {
-        "text": "Raise your "
+        "text": "Better "
       },
       {
         "text": "standing",
         "color": "yellow"
       },
       {
-        "text": " with a faction and its traders sell better stock and hire out "
+        "text": " with a faction unlocks its traders' best stock and "
       },
       {
         "text": "guards",
         "color": "yellow"
       },
       {
-        "text": ". "
-      },
-      {
-        "text": "Hostile Survivors shoot on sight.",
-        "color": "red"
+        "text": " for hire."
       }
     ]
   },
-  "cycleTime": 7000
+  "cycleTime": 6000
 }

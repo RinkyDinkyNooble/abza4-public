@@ -8,24 +8,17 @@
     "text": "",
     "extra": [
       {
-        "text": "Containers "
-      },
-      {
-        "text": "don't refill",
-        "color": "red"
-      },
-      {
-        "text": ", but every player gets "
+        "text": "Each player gets "
       },
       {
         "text": "their own loot",
         "color": "yellow"
       },
       {
-        "text": " from each one. "
+        "text": " from a container, once. "
       },
       {
-        "text": "Explosions destroy loot.",
+        "text": "Explosions destroy it.",
         "color": "red"
       }
     ]

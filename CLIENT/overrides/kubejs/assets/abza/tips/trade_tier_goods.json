@@ -8,14 +8,7 @@
     "text": "",
     "extra": [
       {
-        "text": "Traders only sell gear from "
-      },
-      {
-        "text": "their own tier",
-        "color": "yellow"
-      },
-      {
-        "text": ". For better gear, find traders further out."
+        "text": "Each trader only sells their own tier's gear."
       }
     ]
   },

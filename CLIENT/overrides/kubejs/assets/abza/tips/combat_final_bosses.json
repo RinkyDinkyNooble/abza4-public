@@ -8,32 +8,8 @@
     "text": "",
     "extra": [
       {
-        "text": "Final bosses only take 10% damage from normal bullets.",
+        "text": "Final bosses take only 10% damage from normal bullets.",
         "color": "red"
-      },
-      {
-        "text": " Use "
-      },
-      {
-        "text": "armour-piercing rounds",
-        "color": "yellow"
-      },
-      {
-        "text": ", "
-      },
-      {
-        "text": "explosives",
-        "color": "yellow"
-      },
-      {
-        "text": " or "
-      },
-      {
-        "text": "vehicle weapons",
-        "color": "yellow"
-      },
-      {
-        "text": "."
       }
     ]
   },

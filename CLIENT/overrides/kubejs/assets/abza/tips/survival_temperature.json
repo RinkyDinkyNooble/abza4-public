@@ -22,23 +22,9 @@
         "color": "yellow"
       },
       {
-        "text": ". Armour with "
-      },
-      {
-        "text": "cold",
-        "color": "yellow"
-      },
-      {
-        "text": " or "
-      },
-      {
-        "text": "heat protection",
-        "color": "yellow"
-      },
-      {
-        "text": " lets you handle more."
+        "text": "."
       }
     ]
   },
-  "cycleTime": 7000
+  "cycleTime": 6000
 }

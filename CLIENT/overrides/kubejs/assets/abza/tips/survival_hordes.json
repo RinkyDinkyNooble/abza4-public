@@ -12,16 +12,9 @@
         "color": "red"
       },
       {
-        "text": " you play, a horde comes for you at midnight. Light doesn't stop it, but "
-      },
-      {
-        "text": "walls",
-        "color": "green"
-      },
-      {
-        "text": " do."
+        "text": " you play, a horde comes for you at midnight."
       }
     ]
   },
-  "cycleTime": 7000
+  "cycleTime": 6000
 }

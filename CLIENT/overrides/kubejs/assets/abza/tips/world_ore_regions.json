@@ -8,21 +8,14 @@
     "text": "",
     "extra": [
       {
-        "text": "Each ore is most common in its "
+        "text": "Each ore is missing from the regions before its own. The questbook's "
       },
       {
-        "text": "home region",
+        "text": "Mining",
         "color": "yellow"
       },
       {
-        "text": " and "
-      },
-      {
-        "text": "missing from earlier ones",
-        "color": "red"
-      },
-      {
-        "text": ". The questbook's Mining chapter shows where."
+        "text": " chapter shows where each one is."
       }
     ]
   },
