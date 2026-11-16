@@ -9,9 +9,10 @@
     "buildingchance": 0.55
   },
   "streetblocks": {
-    "border": "Թ",
-    "wall": " ",
+    "border": "Գ",
+    "wall": "Գ",
     "street": "Գ",
+    "frontchance": 1.0,
     "parts": {
       "full": "abza:t1_street_all",
       "straight": "abza:t1_street_straight",

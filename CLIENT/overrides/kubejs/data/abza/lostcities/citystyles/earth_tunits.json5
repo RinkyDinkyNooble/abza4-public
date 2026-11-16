@@ -2,9 +2,10 @@
 {
   "stuff_tags": [],
   "streetblocks": {
-    "border": "Թ",
-    "wall": " ",
-    "street": "Գ"
+    "border": "Գ",
+    "wall": "Գ",
+    "street": "Գ",
+    "frontchance": 1.0
   },
   "parkblocks": {
     "elevation": "x"
@@ -25,15 +26,21 @@
     "fronts": [
       {
         "factor": 1.0,
-        "value": "lostcities:building_front1"
+        "value": "abza:earth_front_common"
       },
       {
-        "factor": 1.0,
-        "value": "lostcities:building_front2"
+        "factor": 0.3,
+        "value": "abza:earth_front_mini"
       },
       {
+        "factor": 0.06,
+        "value": "abza:earth_front_boss"
+      }
+    ],
+    "parks": [
+      {
         "factor": 1.0,
-        "value": "lostcities:building_front3"
+        "value": "abza:earth_open_lot"
       }
     ],
     "stairs": [],

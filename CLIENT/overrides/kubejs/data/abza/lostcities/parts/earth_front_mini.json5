@@ -1,0 +1,25 @@
+// A building's front: command blocks for common, mini mobs
+{
+  "xsize": 1,
+  "zsize": 16,
+  "slices": [
+    [
+      " ",
+      " ",
+      " ",
+      " ",
+      "Ք",
+      " ",
+      " ",
+      " ",
+      "Օ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ]
+  ]
+}

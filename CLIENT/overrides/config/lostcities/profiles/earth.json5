@@ -18,9 +18,12 @@
     "worldStyle": "abza:earth",
     // Chance a city chunk off the roads holds a building (each city style sets its own)
     "buildingChance": 0.5,
-    // No Lost Cities parks: T1's parks are one-chunk buildings
+    // No Lost Cities parks on streets: T1's parks are one-chunk buildings
     "parkChance": 0.0,
-    "openLotParkChance": 0.0,
+    // An open lot (no building, no road) is grass, its park part command blocks that grow it
+    "openLotParkChance": 1.0,
+    // No ring of the street's block round an open lot's grass
+    "parkBorder": false,
     // Main roads every 10 chunks, so the largest lots fit between them
     "primaryRoadSpacingX": 10,
     "primaryRoadSpacingZ": 10,

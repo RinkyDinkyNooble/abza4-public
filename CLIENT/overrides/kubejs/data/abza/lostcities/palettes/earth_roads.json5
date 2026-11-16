@@ -1,4 +1,4 @@
-// Earth's roads: carriageway, pavement, lines, each tier's light, highway structure
+// Earth's roads: carriageway, pavement, lines, each tier's light, highway structure, the fronts' command blocks
 {
   "palette": [
     {
@@ -140,6 +140,42 @@
     {
       "char": "Փ",
       "block": "lathe:betterblockz__tintedglass_blockz_1_vslab[facing=south,type=single]"
+    },
+    {
+      "char": "Ք",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/spawnEntity common 1 {Chance:0.4d}",
+        "auto": 1,
+        "conditionMet": 1
+      }
+    },
+    {
+      "char": "Օ",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/spawnEntity mini 1 {Chance:0.3d}",
+        "auto": 1,
+        "conditionMet": 1
+      }
+    },
+    {
+      "char": "Ֆ",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/spawnEntity boss 1 {Chance:0.15d}",
+        "auto": 1,
+        "conditionMet": 1
+      }
+    },
+    {
+      "char": "ա",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/growPlants 4",
+        "auto": 1,
+        "conditionMet": 1
+      }
     }
   ]
 }
