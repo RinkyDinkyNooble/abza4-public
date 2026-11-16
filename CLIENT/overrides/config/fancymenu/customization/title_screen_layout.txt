@@ -3,7 +3,7 @@ type = fancymenu_layout
 layout-meta {
   identifier = title_screen
   render_custom_elements_behind_vanilla = true
-  last_edited_time = 1794797822352
+  last_edited_time = 1794798275927
   is_enabled = true
   randommode = false
   randomgroup = 1
@@ -56,7 +56,7 @@ element {
   y = 0
   width = 300
   height = 200
-  stay_on_screen = true
+  stay_on_screen = false
   element_loading_requirement_container_identifier = abza_glow_req
   [loading_requirement_container_meta:abza_glow_req] = [groups:][instances:]
   enable_parallax = true
@@ -96,7 +96,7 @@ element {
   y = 0
   width = 40
   height = 28
-  stay_on_screen = true
+  stay_on_screen = false
   element_loading_requirement_container_identifier = abza_strobe_req
   [loading_requirement_container_meta:abza_strobe_req] = [groups:][instances:]
   enable_parallax = true
@@ -176,7 +176,7 @@ element {
   y = 0
   width = 250
   height = 270
-  stay_on_screen = true
+  stay_on_screen = false
   element_loading_requirement_container_identifier = abza_panel_req
   [loading_requirement_container_meta:abza_panel_req] = [groups:][instances:]
   enable_parallax = false
@@ -216,7 +216,7 @@ element {
   y = -56
   width = 480
   height = 56
-  stay_on_screen = true
+  stay_on_screen = false
   element_loading_requirement_container_identifier = abza_fade_req
   [loading_requirement_container_meta:abza_fade_req] = [groups:][instances:]
   enable_parallax = false
@@ -256,7 +256,7 @@ element {
   y = 0
   width = 480
   height = 13
-  stay_on_screen = true
+  stay_on_screen = false
   element_loading_requirement_container_identifier = abza_bar_req
   [loading_requirement_container_meta:abza_bar_req] = [groups:][instances:]
   enable_parallax = false
@@ -381,7 +381,7 @@ element {
   y = 0
   width = 124
   height = 13
-  stay_on_screen = true
+  stay_on_screen = false
   element_loading_requirement_container_identifier = abza_label_req
   [loading_requirement_container_meta:abza_label_req] = [groups:][instances:]
   enable_parallax = false
@@ -466,7 +466,7 @@ element {
   y = -98
   width = 62
   height = 34
-  stay_on_screen = true
+  stay_on_screen = false
   element_loading_requirement_container_identifier = abza_wordmark_req
   [loading_requirement_container_meta:abza_wordmark_req] = [groups:][instances:]
   enable_parallax = false
@@ -1019,7 +1019,7 @@ element {
   y = -76
   width = 150
   height = 58
-  stay_on_screen = true
+  stay_on_screen = false
   element_loading_requirement_container_identifier = abza_card_req
   [loading_requirement_container_meta:abza_card_req] = [groups:][instances:abza_card_req_0;]
   [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if_not][req_id:abza_card_req_0] = ["mode":"equals","text":"{"placeholder":"last_world_server","values":{"type":"both","full_world_path":"false"}}","compare_with":""]$
