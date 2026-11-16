@@ -1,0 +1,23 @@
+{
+  "title": {
+    "text": "Scavenging",
+    "color": "#7EE787",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "A keypad's code is written down "
+      },
+      {
+        "text": "somewhere in the same building",
+        "color": "yellow"
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

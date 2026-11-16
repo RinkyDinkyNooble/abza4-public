@@ -1,6 +1,6 @@
 {
-  "ammo": "abza:cinder_pistol",
-  "rpm": 300,
+  "ammo": "tacz:50ae",
+  "rpm": 50,
   "script": "tacz:hk_mk23_logic",
   "script_param": {
     "bolt_time": 0.8,
@@ -27,7 +27,7 @@
   "bullet": {
     "life": 1,
     "bullet_amount": 1,
-    "damage": 80,
+    "damage": 120,
     "tracer_count_interval": 0,
     "extra_damage": {
       "armor_ignore": 0.2,
@@ -35,15 +35,15 @@
       "damage_adjust": [
         {
           "distance": 20,
-          "damage": 80
+          "damage": 120
         },
         {
           "distance": 50,
-          "damage": 73
+          "damage": 110
         },
         {
           "distance": "infinite",
-          "damage": 60
+          "damage": 90
         }
       ]
     },
@@ -55,7 +55,7 @@
     "pierce": 1,
     "explosion": {
       "explode": false,
-      "damage": 200,
+      "damage": 300,
       "radius": 0.75,
       "knockback": true,
       "delay": 1

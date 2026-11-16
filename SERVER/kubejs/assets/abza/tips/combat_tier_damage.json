@@ -1,0 +1,23 @@
+{
+  "title": {
+    "text": "Combat",
+    "color": "#FFA657",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Mobs take "
+      },
+      {
+        "text": "2×",
+        "color": "yellow"
+      },
+      {
+        "text": " the shots from a gun one tier below them."
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

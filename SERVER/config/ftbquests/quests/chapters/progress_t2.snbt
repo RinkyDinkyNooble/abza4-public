@@ -10,6 +10,9 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"Getting here takes &ecold protection 1&r and a way across the &ewater channel&r between regions."
+			]
 			icon: "minecraft:snow_block"
 			id: "33903A3651FF43C2"
 			shape: "gear"
@@ -30,6 +33,9 @@
 		{
 			dependencies: [
 				"33903A3651FF43C2"
+			]
+			description: [
+				"Only in the Snow."
 			]
 			icon: "minecraft:diamond"
 			id: "73838BAB15D08DC5"
@@ -87,24 +93,31 @@
 				"73838BAB15D08DC5"
 			]
 			description: [
-				"&e3×&r ore, with oxygen."
+				"Splits water into &ehydrogen&r and &eoxygen&r. An &eElectric Pump&r on water feeds it; &eChemical Tanks&r store gases."
+				""
+				"&7Flint in a Purification Chamber's gas slot also gives oxygen."
 			]
-			icon: "mekanism:purification_chamber"
-			id: "5FA48C7BBB968486"
+			icon: "mekanism:electrolytic_separator"
+			id: "7B4E80B2A21B4C79"
 			tasks: [
 				{
-					id: "7F0D8C4D6E46EB8C"
-					item: "mekanism:purification_chamber"
+					id: "360F5AA43BA89032"
+					item: "mekanism:electrolytic_separator"
 					type: "item"
 				}
 			]
-			title: "Purification Chamber"
+			title: "Electrolytic Separator"
 			x: 7.0d
 			y: -1.75d
 		}
 		{
 			dependencies: [
-				"73838BAB15D08DC5"
+				"7B4E80B2A21B4C79"
+			]
+			description: [
+				"Burns &eethene&r from a &ePressurized Reaction Chamber&r: bio fuel, water and hydrogen."
+				""
+				"&eWind Generators&r give the most on high peaks."
 			]
 			icon: "mekanismgenerators:gas_burning_generator"
 			id: "2C78E5ED69EBBDA0"
@@ -116,12 +129,15 @@
 				}
 			]
 			title: "Gas-Burning Generator"
-			x: 7.0d
-			y: 1.75d
+			x: 10.5d
+			y: -1.75d
 		}
 		{
 			dependencies: [
-				"5FA48C7BBB968486"
+				"73838BAB15D08DC5"
+			]
+			description: [
+				"Infused alloy with &ediamond&r."
 			]
 			icon: "mekanism:alloy_reinforced"
 			id: "234228675EC869F1"
@@ -133,12 +149,15 @@
 				}
 			]
 			title: "Reinforced Alloy"
-			x: 10.5d
-			y: -1.75d
+			x: 7.0d
+			y: 1.75d
 		}
 		{
 			dependencies: [
-				"2C78E5ED69EBBDA0"
+				"234228675EC869F1"
+			]
+			description: [
+				"A basic circuit and &ereinforced alloy&r."
 			]
 			icon: "mekanism:advanced_control_circuit"
 			id: "477DF5445E014311"
@@ -155,8 +174,33 @@
 		}
 		{
 			dependencies: [
-				"234228675EC869F1"
+				"7B4E80B2A21B4C79"
 				"477DF5445E014311"
+			]
+			description: [
+				"&e1 raw ore + oxygen → 2 clumps&r. A &eCrusher&r makes them dirty dust, the &eEnrichment Chamber&r dust: &atwice the metal&r of smelting."
+				""
+				"An ore block gives 3."
+			]
+			icon: "mekanism:purification_chamber"
+			id: "5FA48C7BBB968486"
+			tasks: [
+				{
+					id: "7F0D8C4D6E46EB8C"
+					item: "mekanism:purification_chamber"
+					type: "item"
+				}
+			]
+			title: "Purification Chamber"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"477DF5445E014311"
+			]
+			description: [
+				"Every Tier 2 gun and vehicle needs some."
 			]
 			icon: "superbwarfare:rare_material_pack"
 			id: "35E1FF534EC93ABE"
@@ -168,77 +212,8 @@
 				}
 			]
 			title: "Tier 2 Material Pack"
-			x: 14.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"35E1FF534EC93ABE"
-			]
-			description: [
-				"Starts from &eInfected Fat&r."
-			]
-			icon: "abza:vaccine_t2"
-			id: "109D96944424023C"
-			optional: true
-			tasks: [
-				{
-					id: "2A233BD41A8301A2"
-					item: "abza:vaccine_t2"
-					type: "item"
-				}
-			]
-			title: "Whispering Chill Vaccine"
-			x: 17.5d
-			y: -1.75d
-		}
-		{
-			dependencies: [
-				"35E1FF534EC93ABE"
-			]
-			description: [
-				"In the Snow's boss buildings."
-			]
-			disable_toast: true
-			icon: "minecraft:zombie_head"
-			id: "1DBF219C7434F248"
-			optional: true
-			shape: "hexagon"
-			tasks: [
-				{
-					id: "40B58FDC0B66E5A4"
-					title: "Got it"
-					type: "checkmark"
-					disable_toast: true
-				}
-			]
-			title: "Final Boss"
 			x: 17.5d
 			y: 1.75d
-		}
-		{
-			dependencies: [
-				"35E1FF534EC93ABE"
-			]
-			description: [
-				"Needs &eheat protection 1&r."
-			]
-			icon: "minecraft:red_sand"
-			id: "335B009047F7D133"
-			shape: "gear"
-			size: 1.5d
-			tasks: [
-				{
-					icon: "minecraft:red_sand"
-					id: "61E5F432C30C6E6A"
-					stage: "abza_reached_t3"
-					title: "Reach the Badlands"
-					type: "gamestage"
-				}
-			]
-			title: "Onward: the Badlands"
-			x: 21.0d
-			y: 0.0d
 		}
 	]
 	title: "Tier 2: The Snow"

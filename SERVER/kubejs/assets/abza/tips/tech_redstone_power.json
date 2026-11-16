@@ -1,0 +1,24 @@
+{
+  "title": {
+    "text": "Tech",
+    "color": "#D2A8FF",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Redstone",
+        "color": "yellow"
+      },
+      {
+        "text": " powers Mekanism machines: put it in the energy slot. "
+      },
+      {
+        "text": "No generator needed.",
+        "color": "green"
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

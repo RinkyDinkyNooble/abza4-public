@@ -1,0 +1,23 @@
+// t1_home_bungalow: 1 storeys
+{
+  "refpalette": "abza:t1_home_bungalow",
+  "filler": "ѵ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 1,
+  "maxfloors": 1,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "parts": [
+    {
+      "part": "abza:t1_home_bungalow_ground",
+      "top": false,
+      "ground": true
+    },
+    {
+      "part": "abza:t1_home_bungalow_top",
+      "top": true
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "title": {
+    "text": "Scavenging",
+    "color": "#7EE787",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "An unopened "
+      },
+      {
+        "text": "air drop",
+        "color": "yellow"
+      },
+      {
+        "text": " gets "
+      },
+      {
+        "text": "stolen",
+        "color": "red"
+      },
+      {
+        "text": " after "
+      },
+      {
+        "text": "5 minutes",
+        "color": "red"
+      },
+      {
+        "text": " with nobody within 32 blocks."
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

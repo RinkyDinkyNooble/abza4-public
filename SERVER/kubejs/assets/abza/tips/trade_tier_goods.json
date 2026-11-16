@@ -1,0 +1,16 @@
+{
+  "title": {
+    "text": "Trade",
+    "color": "#E3B341",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Each trader only sells their own tier's gear."
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

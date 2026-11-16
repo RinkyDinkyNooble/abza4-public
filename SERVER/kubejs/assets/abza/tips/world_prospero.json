@@ -1,0 +1,20 @@
+{
+  "title": {
+    "text": "The World",
+    "color": "#79C0FF",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Prospero",
+        "color": "yellow"
+      },
+      {
+        "text": ", the yacht with the traders, is on the ocean nearest spawn."
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

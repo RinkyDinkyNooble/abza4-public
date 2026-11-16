@@ -19,8 +19,8 @@ const ABZA_LOCKS = {
     platinum: { parts: ['member'], scope: 'world', label: 'Platinum' }
 }
 
-// The owner every lock is placed with (not a player)
-const ABZA_LOCK_OWNER = { name: 'Unknown', uuid: 'c0de0000-ab2a-4000-8000-000000000000' }
+// The owner every lock is placed with: SecurityCraft's default owner, as on its blocks placed without data
+const ABZA_LOCK_OWNER = { name: 'owner', uuid: 'ownerUUID' }
 
 // A number from the world's seed and a key, below a limit
 function abzaSeededNumber(level, key, limit) {

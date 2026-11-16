@@ -45,23 +45,6 @@ global.devUtilityItems = [
     'customnpcs:npcscripteddoor',
     'customnpcs:scripted_item',
 
-    // FTB Quests
-    'ftbquests:barrier',
-    'ftbquests:stage_barrier',
-    'ftbquests:detector',
-    'ftbquests:progress_detector',
-    'ftbquests:chest',
-    'ftbquests:screen_1',
-    'ftbquests:screen_3',
-    'ftbquests:screen_5',
-    'ftbquests:screen_7',
-    'ftbquests:aux_task_screen',
-    'ftbquests:progress_screen',
-    'ftbquests:task_screen_configurator',
-    'ftbquests:loot_crate_opener',
-    'ftbquests:loot_crate_storage',
-    'ftbquests:custom_icon',
-
     // Mekanism
     'mekanism:creative_energy_cube',
     'mekanism:creative_fluid_tank',

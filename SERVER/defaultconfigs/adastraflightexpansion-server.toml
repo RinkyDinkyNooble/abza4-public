@@ -1,0 +1,6 @@
+#Durability the chestplate loses for each second of jet flight (hovering, flying or gliding).
+#Flight stops when 1 durability is left, so flying never breaks it. 0 makes flight free.
+#Ad Astra's own jet suit runs on energy and isn't affected.
+#Range: 0 ~ 1000
+durabilityPerSecond = 1
+

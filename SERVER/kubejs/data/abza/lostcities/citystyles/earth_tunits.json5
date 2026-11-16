@@ -1,0 +1,59 @@
+// Earth's t-units: streets, bridges, fronts, city stairs, fountains and subway rooms, shared by every Earth city style
+{
+  "stuff_tags": [],
+  "streetblocks": {
+    "border": "Գ",
+    "wall": " ",
+    "street": "Գ",
+    "frontchance": 0.0
+  },
+  "parkblocks": {
+    "elevation": "x"
+  },
+  "corridorblocks": {
+    "roof": "x",
+    "glass": "+"
+  },
+  "railblocks": {
+    "railmain": " "
+  },
+  "sphereblocks": {
+    "glass": "Z",
+    "border": "9",
+    "inner": "b"
+  },
+  "selectors": {
+    "fronts": [],
+    "parks": [
+      {
+        "factor": 1.0,
+        "value": "abza:earth_open_lot"
+      }
+    ],
+    "stairs": [],
+    "fountains": [
+      {
+        "factor": 1.0,
+        "value": "lostcities:fountain1"
+      },
+      {
+        "factor": 1.0,
+        "value": "lostcities:fountain2"
+      },
+      {
+        "factor": 1.0,
+        "value": "lostcities:fountain3"
+      }
+    ],
+    "raildungeons": [
+      {
+        "factor": 1.0,
+        "value": "lostcities:rail_dungeon1"
+      },
+      {
+        "factor": 1.0,
+        "value": "lostcities:rail_dungeon2"
+      }
+    ]
+  }
+}

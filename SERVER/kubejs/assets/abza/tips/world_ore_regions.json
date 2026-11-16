@@ -1,0 +1,23 @@
+{
+  "title": {
+    "text": "The World",
+    "color": "#79C0FF",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Each ore is missing from the regions before its own. The questbook's "
+      },
+      {
+        "text": "Mining",
+        "color": "yellow"
+      },
+      {
+        "text": " chapter shows where each one is."
+      }
+    ]
+  },
+  "cycleTime": 7000
+}

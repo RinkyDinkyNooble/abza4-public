@@ -1,0 +1,173 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progress_t6"
+	group: "556BB4E0704CB043"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "abza:textures/environment/eden.png"
+		}
+	}
+	id: "4B40F67A072EAECA"
+	order_index: 5
+	images: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{image:abza:textures/environment/eden.png width:48 height:48}"
+				""
+				"&aAir.&r Every generator works here, wind and solar too."
+			]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "abza:textures/environment/eden.png"
+				}
+			}
+			id: "544A8D1764B9DC71"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					dimension: "abza:eden"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "abza:textures/environment/eden.png"
+						}
+					}
+					id: "4372325EC8977E2D"
+					title: "Reach Eden"
+					type: "dimension"
+				}
+			]
+			title: "Eden"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"544A8D1764B9DC71"
+			]
+			description: [
+				"Smelt raw calorite, or run it through &eDigestive Acid&r for the &eCalorite Crystal&r."
+			]
+			icon: "ad_astra:calorite_ingot"
+			id: "761777D44F1A81D1"
+			tasks: [
+				{
+					id: "592066FA4BC51522"
+					item: "ad_astra:calorite_ingot"
+					type: "item"
+				}
+			]
+			title: "Calorite"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"544A8D1764B9DC71"
+			]
+			icon: {
+				id: "tacz:modern_kinetic_gun"
+				Count: 1b
+				tag: {
+					GunId: "tacz:p320"
+				}
+			}
+			id: "7125A6CA14A332EF"
+			optional: true
+			tasks: [
+				{
+					icon: {
+						id: "tacz:modern_kinetic_gun"
+						Count: 1b
+						tag: {
+							GunId: "tacz:p320"
+						}
+					}
+					id: "79F7FD9175C1680D"
+					item: {
+						id: "ftbfiltersystem:smart_filter"
+						Count: 1b
+						tag: {
+							"ftbfiltersystem:filter": "item(tacz:modern_kinetic_gun)or(nbt(fuzzy:{GunId:\"tacz:p320\"})nbt(fuzzy:{GunId:\"tacz:deagle\"})nbt(fuzzy:{GunId:\"tacz:lonetrail\"})nbt(fuzzy:{GunId:\"tacz:spas_12\"})nbt(fuzzy:{GunId:\"tacz:aug\"})nbt(fuzzy:{GunId:\"tacz:g36k\"})nbt(fuzzy:{GunId:\"tacz:hk416d\"})nbt(fuzzy:{GunId:\"tacz:m95\"})nbt(fuzzy:{GunId:\"tacz:vector45\"})nbt(fuzzy:{GunId:\"tacz:qbz_191\"})nbt(fuzzy:{GunId:\"tacz:minigun\"}))"
+						}
+					}
+					title: "Any Tier 6 gun"
+					type: "item"
+				}
+			]
+			title: "A Tier 6 Gun"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"761777D44F1A81D1"
+			]
+			description: [
+				"Flies. &eCold protection 3&r: Umbra needs it."
+			]
+			icon: "ad_astra:jet_suit"
+			id: "13D55F7AF24FC798"
+			tasks: [
+				{
+					id: "5F0F0B3B8E174F47"
+					item: "ad_astra:jet_suit"
+					type: "item"
+				}
+			]
+			title: "Jet Suit"
+			x: 7.0d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"761777D44F1A81D1"
+			]
+			description: [
+				"Every Tier 6 gun needs some."
+			]
+			icon: "superbwarfare:virtual_material_pack"
+			id: "52603129ECC01A6A"
+			tasks: [
+				{
+					id: "3EB007F6CED60595"
+					item: "superbwarfare:virtual_material_pack"
+					type: "item"
+				}
+			]
+			title: "Tier 6 Material Pack"
+			x: 7.0d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"761777D44F1A81D1"
+			]
+			description: [
+				"Built with calorite. Burns &eliquid superheated sodium&r: sodium from brine (Electrolytic Separator), heated in a &esodium-cooled&r fission reactor, then condensed. Reaches Umbra."
+			]
+			icon: "ad_astra:tier_4_rocket"
+			id: "057D76DA20F904C1"
+			tasks: [
+				{
+					id: "1ECA40EA7F52699B"
+					item: "ad_astra:tier_4_rocket"
+					type: "item"
+				}
+			]
+			title: "Level 4 Rocket"
+			x: 10.5d
+			y: 0.0d
+		}
+	]
+	title: "Tier 6: Eden"
+}

@@ -15,6 +15,7 @@ redact any minecraft:experience_bottle
 redact any minecraft:enchanted_book
 redact any minecraft:*anvil
 redact any minecraft:grindstone
+redact enchantment minecraft:*
 remove recipe minecraft:repair_item
 
 # Smithing

@@ -1,0 +1,181 @@
+// Earth's roads: carriageway, pavement, lines, each tier's light, highway structure, the fronts' command blocks
+{
+  "palette": [
+    {
+      "char": "Ա",
+      "block": "lathe:betterblockz__eclipse_blockz_0_slab[type=bottom]"
+    },
+    {
+      "char": "Բ",
+      "block": "betterblockz:eclipse_blockz_0"
+    },
+    {
+      "char": "Գ",
+      "block": "betterblockz:mint_blockz_8"
+    },
+    {
+      "char": "Դ",
+      "block": "lathe:betterblockz__lablink_blockz_0_slab[type=bottom]"
+    },
+    {
+      "char": "Ե",
+      "block": "betterblockz:cyberlight_blockz_0[lit=true]"
+    },
+    {
+      "char": "Զ",
+      "block": "betterblockz:cyberlight_blockz_8[lit=true]"
+    },
+    {
+      "char": "Է",
+      "block": "betterblockz:cyberlight_blockz_11[lit=true]"
+    },
+    {
+      "char": "Ը",
+      "block": "betterblockz:cyberlight_blockz_6[lit=true]"
+    },
+    {
+      "char": "Թ",
+      "block": "betterblockz:vect_blockz_5"
+    },
+    {
+      "char": "Ժ",
+      "block": "betterblockz:vect_blockz_4"
+    },
+    {
+      "char": "Ի",
+      "block": "minecraft:oak_leaves[persistent=true]"
+    },
+    {
+      "char": "Լ",
+      "block": "minecraft:black_stained_glass_pane"
+    },
+    {
+      "char": "Խ",
+      "block": "lathe:betterblockz__lablink_blockz_0_stairs[facing=east,half=bottom,shape=straight]"
+    },
+    {
+      "char": "Ծ",
+      "block": "lathe:betterblockz__lablink_blockz_0_stairs[facing=west,half=bottom,shape=straight]"
+    },
+    {
+      "char": "Կ",
+      "block": "betterblockz:tintedglass_blockz_1"
+    },
+    {
+      "char": "Հ",
+      "block": "minecraft:black_stained_glass_pane[east=true,west=true]"
+    },
+    {
+      "char": "Ձ",
+      "block": "minecraft:black_stained_glass_pane[north=true,south=true]"
+    },
+    {
+      "char": "Ղ",
+      "block": "minecraft:black_stained_glass_pane[west=true,south=true]"
+    },
+    {
+      "char": "Ճ",
+      "block": "minecraft:black_stained_glass_pane[north=true,west=true]"
+    },
+    {
+      "char": "Մ",
+      "block": "minecraft:black_stained_glass_pane[east=true]"
+    },
+    {
+      "char": "Յ",
+      "block": "minecraft:black_stained_glass_pane[east=true,south=true]"
+    },
+    {
+      "char": "Ն",
+      "block": "minecraft:black_stained_glass_pane[north=true,east=true]"
+    },
+    {
+      "char": "Շ",
+      "block": "lathe:betterblockz__vect_blockz_4_vslab[facing=north,type=single]"
+    },
+    {
+      "char": "Ո",
+      "block": "lathe:betterblockz__vect_blockz_4_vslab[facing=south,type=single]"
+    },
+    {
+      "char": "Չ",
+      "block": "lathe:betterblockz__vect_blockz_4_vslab[facing=west,type=single]"
+    },
+    {
+      "char": "Պ",
+      "block": "lathe:betterblockz__vect_blockz_4_vslab[facing=east,type=single]"
+    },
+    {
+      "char": "Ջ",
+      "block": "lathe:betterblockz__vect_blockz_4_stairs[facing=north,half=top,shape=straight]"
+    },
+    {
+      "char": "Ռ",
+      "block": "lathe:betterblockz__vect_blockz_4_stairs[facing=south,half=top,shape=straight]"
+    },
+    {
+      "char": "Ս",
+      "block": "lathe:betterblockz__vect_blockz_4_stairs[facing=west,half=top,shape=straight]"
+    },
+    {
+      "char": "Վ",
+      "block": "lathe:betterblockz__vect_blockz_4_stairs[facing=east,half=top,shape=straight]"
+    },
+    {
+      "char": "Տ",
+      "block": "lathe:betterblockz__vect_blockz_4_slab[type=top]"
+    },
+    {
+      "char": "Ր",
+      "block": "lathe:betterblockz__vect_blockz_4_slab[type=bottom]"
+    },
+    {
+      "char": "Ց",
+      "block": "betterblockz:lablink_blockz_0"
+    },
+    {
+      "char": "Ւ",
+      "block": "lathe:betterblockz__tintedglass_blockz_1_vslab[facing=north,type=single]"
+    },
+    {
+      "char": "Փ",
+      "block": "lathe:betterblockz__tintedglass_blockz_1_vslab[facing=south,type=single]"
+    },
+    {
+      "char": "Ք",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/spawnEntity common 1 {Chance:0.35d}",
+        "auto": 1,
+        "conditionMet": 1
+      }
+    },
+    {
+      "char": "Օ",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/spawnEntity mini 1 {Chance:0.07d}",
+        "auto": 1,
+        "conditionMet": 1
+      }
+    },
+    {
+      "char": "Ֆ",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/spawnEntity boss 1 {Chance:0.007d}",
+        "auto": 1,
+        "conditionMet": 1
+      }
+    },
+    {
+      "char": "ա",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/growPlants 4",
+        "auto": 1,
+        "conditionMet": 1
+      }
+    }
+  ]
+}

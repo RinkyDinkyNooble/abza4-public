@@ -3,13 +3,16 @@
 	default_quest_shape: ""
 	filename: "progress_t3"
 	group: "556BB4E0704CB043"
-	icon: "ad_astra:tier_1_rocket"
+	icon: "mekanism:chemical_injection_chamber"
 	id: "634B996130F0DEA2"
 	order_index: 2
 	images: [ ]
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"Getting here takes &eheat protection 1&r."
+			]
 			icon: "minecraft:red_sand"
 			id: "76E8C8629BD906D6"
 			shape: "gear"
@@ -74,7 +77,7 @@
 						id: "ftbfiltersystem:smart_filter"
 						Count: 1b
 						tag: {
-							"ftbfiltersystem:filter": "item(tacz:modern_kinetic_gun)or(nbt(fuzzy:{GunId:\"tacz:timeless50\"})nbt(fuzzy:{GunId:\"tacz:fn_fal\"})nbt(fuzzy:{GunId:\"tacz:hk_g3\"})nbt(fuzzy:{GunId:\"tacz:mk14\"})nbt(fuzzy:{GunId:\"tacz:m700\"})nbt(fuzzy:{GunId:\"tacz:fn_evolys\"})nbt(fuzzy:{GunId:\"tacz:m1014\"})nbt(fuzzy:{GunId:\"tacz:m320\"})nbt(fuzzy:{GunId:\"tacz:rpg7\"})nbt(fuzzy:{GunId:\"tacz:b93r\"})nbt(fuzzy:{GunId:\"tacz:m16a4\"}))"
+							"ftbfiltersystem:filter": "item(tacz:modern_kinetic_gun)or(nbt(fuzzy:{GunId:\"tacz:timeless50\"})nbt(fuzzy:{GunId:\"tacz:fn_fal\"})nbt(fuzzy:{GunId:\"tacz:hk_g3\"})nbt(fuzzy:{GunId:\"tacz:mk14\"})nbt(fuzzy:{GunId:\"tacz:m700\"})nbt(fuzzy:{GunId:\"tacz:fn_evolys\"})nbt(fuzzy:{GunId:\"tacz:m1014\"})nbt(fuzzy:{GunId:\"tacz:m320\"})nbt(fuzzy:{GunId:\"tacz:rpg7\"})nbt(fuzzy:{GunId:\"tacz:b93r\"})nbt(fuzzy:{GunId:\"tacz:m16a4\"})nbt(fuzzy:{GunId:\"tacz:hk_mk23\"}))"
 						}
 					}
 					title: "Any Tier 3 gun"
@@ -90,18 +93,20 @@
 				"7D1CF66FE524E5A3"
 			]
 			description: [
-				"&e4×&r ore, with hydrogen chloride."
+				"A &eChemical Infuser&r joins hydrogen and &echlorine&r. Chlorine comes from &ebrine&r (a &eThermal Evaporation Plant&r) in the Electrolytic Separator."
+				""
+				"&7Salt in a Chemical Injection Chamber's gas slot also gives it."
 			]
-			icon: "mekanism:chemical_injection_chamber"
-			id: "701FAAEBB936CDC0"
+			icon: "mekanism:chemical_infuser"
+			id: "1CDE9DF8DFA620DF"
 			tasks: [
 				{
-					id: "778A1DC19BBE94DC"
-					item: "mekanism:chemical_injection_chamber"
+					id: "49F6BA09F8F19BBD"
+					item: "mekanism:chemical_infuser"
 					type: "item"
 				}
 			]
-			title: "Chemical Injection Chamber"
+			title: "Hydrogen Chloride"
 			x: 7.0d
 			y: -1.75d
 		}
@@ -109,23 +114,8 @@
 			dependencies: [
 				"7D1CF66FE524E5A3"
 			]
-			icon: "mekanismgenerators:fission_reactor_port"
-			id: "76CE743608643EC4"
-			optional: true
-			tasks: [
-				{
-					id: "163A8776F9E31500"
-					item: "mekanismgenerators:fission_reactor_port"
-					type: "item"
-				}
-			]
-			title: "Fission"
-			x: 7.0d
-			y: 1.75d
-		}
-		{
-			dependencies: [
-				"701FAAEBB936CDC0"
+			description: [
+				"Infused from &enetherite scrap&r."
 			]
 			icon: "mekanism:alloy_atomic"
 			id: "7DF6F00B86F879E4"
@@ -137,12 +127,15 @@
 				}
 			]
 			title: "Atomic Alloy"
-			x: 10.5d
-			y: -1.75d
+			x: 7.0d
+			y: 1.75d
 		}
 		{
 			dependencies: [
-				"701FAAEBB936CDC0"
+				"7DF6F00B86F879E4"
+			]
+			description: [
+				"An advanced circuit and &eatomic alloy&r."
 			]
 			icon: "mekanism:elite_control_circuit"
 			id: "538730CFCC1D4D1F"
@@ -159,25 +152,10 @@
 		}
 		{
 			dependencies: [
-				"538730CFCC1D4D1F"
-			]
-			icon: "mekanism:digital_miner"
-			id: "495985744C788A84"
-			optional: true
-			tasks: [
-				{
-					id: "4FA814EA85B1096A"
-					item: "mekanism:digital_miner"
-					type: "item"
-				}
-			]
-			title: "Digital Miner"
-			x: 14.0d
-			y: 1.75d
-		}
-		{
-			dependencies: [
 				"7DF6F00B86F879E4"
+			]
+			description: [
+				"Every Tier 3 gun and vehicle needs some."
 			]
 			icon: "superbwarfare:epic_material_pack"
 			id: "4D51FB4A634FF567"
@@ -189,58 +167,99 @@
 				}
 			]
 			title: "Tier 3 Material Pack"
+			x: 10.5d
+			y: 4.38d
+		}
+		{
+			dependencies: [
+				"1CDE9DF8DFA620DF"
+				"538730CFCC1D4D1F"
+			]
+			description: [
+				"&e3 raw ores + hydrogen chloride → 8 shards&r. Shards go through the Purification Chamber, then the Tier 2 line: &anearly 3× the metal&r."
+				""
+				"An ore block gives 4."
+			]
+			icon: "mekanism:chemical_injection_chamber"
+			id: "701FAAEBB936CDC0"
+			tasks: [
+				{
+					id: "778A1DC19BBE94DC"
+					item: "mekanism:chemical_injection_chamber"
+					type: "item"
+				}
+			]
+			title: "Chemical Injection Chamber"
 			x: 14.0d
 			y: -1.75d
 		}
 		{
 			dependencies: [
-				"4D51FB4A634FF567"
-			]
-			description: [
-				"Starts from &eBottled Corpsedew&r."
-			]
-			icon: "abza:vaccine_t3"
-			id: "47A4227B7964D3EC"
-			optional: true
-			tasks: [
-				{
-					id: "04D1309E97932D6C"
-					item: "abza:vaccine_t3"
-					type: "item"
-				}
-			]
-			title: "Brood Fever Vaccine"
-			x: 17.5d
-			y: -3.5d
-		}
-		{
-			dependencies: [
 				"538730CFCC1D4D1F"
 			]
 			description: [
-				"In the Badlands' boss buildings."
+				"The Badlands' &euranium&r becomes fuel through the &eChemical Oxidizer&r, &eChemical Infuser&r and &eIsotopic Centrifuge&r. An &eIndustrial Turbine&r turns its steam into power."
+				""
+				"&cWithout coolant it melts down and explodes."
 			]
-			disable_toast: true
-			icon: "minecraft:zombie_head"
-			id: "0A030F0CFA8F64E6"
-			optional: true
-			shape: "hexagon"
+			icon: "mekanismgenerators:fission_reactor_port"
+			id: "76CE743608643EC4"
 			tasks: [
 				{
-					id: "0A3FBF87F3DBF587"
-					title: "Got it"
-					type: "checkmark"
-					disable_toast: true
+					id: "163A8776F9E31500"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
 				}
 			]
-			title: "Final Boss"
+			title: "Fission and Turbine"
+			x: 14.0d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"701FAAEBB936CDC0"
+				"76CE743608643EC4"
+			]
+			description: [
+				"Mines whole areas. In &eSilk Touch&r mode it digs &eore blocks&r, which give the full 2×, 3× and 4× (5× from Tier 4), at &c12× the energy&r."
+			]
+			icon: "mekanism:digital_miner"
+			id: "495985744C788A84"
+			tasks: [
+				{
+					id: "4FA814EA85B1096A"
+					item: "mekanism:digital_miner"
+					type: "item"
+				}
+			]
+			title: "Digital Miner"
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"76CE743608643EC4"
+			]
+			description: [
+				"Every stored item in one network. &cIt works only on Earth."
+			]
+			icon: "mekanism:qio_drive_array"
+			id: "4F0C3DA7E1A1A504"
+			optional: true
+			tasks: [
+				{
+					id: "79FCEDF4D090F17F"
+					item: "mekanism:qio_drive_array"
+					type: "item"
+				}
+			]
+			title: "QIO"
 			x: 17.5d
 			y: 3.5d
 		}
 		{
 			dependencies: [
-				"4D51FB4A634FF567"
-				"538730CFCC1D4D1F"
+				"495985744C788A84"
 			]
 			icon: "ad_astra:nasa_workbench"
 			id: "45DCD3A2D3A64478"
@@ -252,7 +271,7 @@
 				}
 			]
 			title: "Rocket Workbench"
-			x: 17.5d
+			x: 21.0d
 			y: 0.0d
 		}
 		{
@@ -272,7 +291,7 @@
 				}
 			]
 			title: "Space Suit"
-			x: 21.0d
+			x: 24.5d
 			y: -1.75d
 		}
 		{
@@ -280,7 +299,9 @@
 				"45DCD3A2D3A64478"
 			]
 			description: [
-				"Each rocket level burns its own fuel."
+				"Burns &eliquid ethene&r: ethene through a &eRotary Condensentrator&r, 3 buckets a launch."
+				""
+				"Reaches the Moon, and Interloper."
 			]
 			icon: "ad_astra:tier_1_rocket"
 			id: "17B64AC131EE0A2E"
@@ -292,42 +313,8 @@
 				}
 			]
 			title: "Level 1 Rocket"
-			x: 21.0d
-			y: 1.75d
-		}
-		{
-			dependencies: [
-				"3A5D9EA765A532C0"
-				"17B64AC131EE0A2E"
-			]
-			icon: {
-				id: "ftbquests:custom_icon"
-				Count: 1b
-				tag: {
-					Icon: "ad_astra:textures/environment/moon.png"
-				}
-			}
-			id: "1F1C04D3A9EF0619"
-			shape: "gear"
-			size: 1.5d
-			tasks: [
-				{
-					dimension: "ad_astra:moon"
-					icon: {
-						id: "ftbquests:custom_icon"
-						Count: 1b
-						tag: {
-							Icon: "ad_astra:textures/environment/moon.png"
-						}
-					}
-					id: "75ABA94F71169FA2"
-					title: "Reach the Moon"
-					type: "dimension"
-				}
-			]
-			title: "Onward: the Moon"
 			x: 24.5d
-			y: 0.0d
+			y: 1.75d
 		}
 	]
 	title: "Tier 3: The Badlands"

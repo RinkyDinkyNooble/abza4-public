@@ -1,0 +1,5 @@
+# FTB Filter System
+
+# The smart filter
+hide any ftbfiltersystem:*
+remove recipe ftbfiltersystem:*

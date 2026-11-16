@@ -1,0 +1,23 @@
+{
+  "title": {
+    "text": "The World",
+    "color": "#79C0FF",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Ores only form on "
+      },
+      {
+        "text": "cave walls",
+        "color": "yellow"
+      },
+      {
+        "text": " outside cities."
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

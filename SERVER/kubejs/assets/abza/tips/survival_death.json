@@ -1,0 +1,30 @@
+{
+  "title": {
+    "text": "Survival",
+    "color": "#FF7B72",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Each death takes "
+      },
+      {
+        "text": "5%",
+        "color": "red"
+      },
+      {
+        "text": " off your max health. "
+      },
+      {
+        "text": "Blood Packs",
+        "color": "yellow"
+      },
+      {
+        "text": " give it back."
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

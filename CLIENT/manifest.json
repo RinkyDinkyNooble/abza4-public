@@ -614,7 +614,7 @@
     {
       "projectID": 367706,
       "fileID": 9002946,
-      "required": false,
+      "required": true,
       "isLocked": true
     },
     {
@@ -1130,7 +1130,7 @@
     {
       "projectID": 511770,
       "fileID": 8552902,
-      "required": false,
+      "required": true,
       "isLocked": true
     },
     {

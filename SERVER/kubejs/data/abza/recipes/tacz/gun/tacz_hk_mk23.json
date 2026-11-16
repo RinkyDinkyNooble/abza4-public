@@ -3,22 +3,16 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "superbwarfare:legendary_material_pack"
+      "item": "superbwarfare:epic_material_pack"
     },
     {
-      "item": "superbwarfare:crystal_action"
+      "item": "superbwarfare:netherite_action"
     },
     {
-      "item": "superbwarfare:crystal_trigger"
+      "item": "superbwarfare:netherite_trigger"
     },
     {
-      "item": "ad_astra:ostrum_plate"
-    },
-    {
-      "item": "superbwarfare:crystal_spring"
-    },
-    {
-      "item": "superbwarfare:crystal_spring"
+      "item": "superbwarfare:netherite_barrel"
     }
   ],
   "result": {

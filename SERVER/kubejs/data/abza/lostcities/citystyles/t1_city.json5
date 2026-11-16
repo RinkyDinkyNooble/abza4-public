@@ -1,0 +1,100 @@
+// T1, the city centre
+{
+  "inherit": "abza:earth_tunits",
+  "style": "abza:earth",
+  "buildingsettings": {
+    "maxfloors": 8,
+    "mincellars": 0,
+    "maxcellars": 2,
+    "buildingchance": 0.6
+  },
+  "streetblocks": {
+    "border": "Գ",
+    "wall": " ",
+    "street": "Գ",
+    "frontchance": 0.0,
+    "parts": {
+      "full": "abza:t1_street_all",
+      "straight": "abza:t1_street_straight",
+      "bend": "abza:t1_street_bend",
+      "t": "abza:t1_street_t",
+      "all": "abza:t1_street_all",
+      "end": "abza:t1_street_end",
+      "none": "abza:t1_street_none",
+      "connector": "abza:t1_avenue_connector",
+      "stair": "abza:t1_street_stair"
+    },
+    "largeparts": {
+      "full": "abza:t1_avenue_all",
+      "straight": "abza:t1_avenue_straight",
+      "bend": "abza:t1_avenue_bend",
+      "t": "abza:t1_avenue_t",
+      "all": "abza:t1_avenue_all",
+      "end": "abza:t1_avenue_end",
+      "none": "abza:t1_avenue_none",
+      "connector": "abza:t1_avenue_connector",
+      "stair": "abza:t1_avenue_stair"
+    },
+    "tertiaryparts": {
+      "full": "abza:t1_lane_all",
+      "straight": "abza:t1_lane_straight",
+      "bend": "abza:t1_lane_bend",
+      "t": "abza:t1_lane_t",
+      "all": "abza:t1_lane_all",
+      "end": "abza:t1_lane_end",
+      "none": "abza:t1_lane_none",
+      "connector": "abza:t1_avenue_connector",
+      "stair": "abza:t1_lane_stair"
+    }
+  },
+  "selectors": {
+    "bridges": [
+      {
+        "factor": 1.0,
+        "value": "abza:t1_bridge"
+      }
+    ],
+    "largebridges": [
+      {
+        "factor": 1.0,
+        "value": "abza:t1_bridge"
+      }
+    ],
+    "buildings": [
+      {
+        "factor": 0.4,
+        "value": "abza:t1_apartment_tower"
+      },
+      {
+        "factor": 1.0,
+        "value": "abza:t1_pharmacy"
+      },
+      {
+        "factor": 1.0,
+        "value": "abza:t1_park_plaza"
+      },
+      {
+        "factor": 1.0,
+        "value": "abza:t1_home_detached"
+      },
+      {
+        "factor": 1.0,
+        "value": "abza:t1_home_townhouse"
+      },
+      {
+        "factor": 1.0,
+        "value": "abza:t1_home_bungalow"
+      },
+      {
+        "factor": 0.4,
+        "value": "abza:t1_corner_shop"
+      }
+    ],
+    "multibuildings": [
+      {
+        "factor": 0.4,
+        "value": "abza:t1_car_park"
+      }
+    ]
+  }
+}

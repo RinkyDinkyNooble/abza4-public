@@ -1,0 +1,30 @@
+{
+  "title": {
+    "text": "Survival",
+    "color": "#FF7B72",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "A "
+      },
+      {
+        "text": "Nutritional Liquifier",
+        "color": "yellow"
+      },
+      {
+        "text": " turns any food into paste you can drink from a "
+      },
+      {
+        "text": "Canteen",
+        "color": "yellow"
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

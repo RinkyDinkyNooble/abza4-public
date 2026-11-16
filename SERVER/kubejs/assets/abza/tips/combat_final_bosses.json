@@ -1,0 +1,17 @@
+{
+  "title": {
+    "text": "Combat",
+    "color": "#FFA657",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Final bosses take only 10% damage from normal bullets.",
+        "color": "red"
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

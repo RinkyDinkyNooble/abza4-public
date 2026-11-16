@@ -1,0 +1,200 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progress_t4"
+	group: "556BB4E0704CB043"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "ad_astra:textures/environment/moon.png"
+		}
+	}
+	id: "13DFDFD0BA6090FA"
+	order_index: 3
+	images: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{image:ad_astra:textures/environment/moon.png width:48 height:48}"
+				""
+				"&cOnly Eden has air.&r Flare guns and horde nights work only on Earth."
+				""
+				"Each world needs its &eown power&r: energy doesn't cross between worlds until Tier 8. &cFreezing at night.&r"
+			]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ad_astra:textures/environment/moon.png"
+				}
+			}
+			id: "72407A8ED6FF16E1"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					dimension: "ad_astra:moon"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "ad_astra:textures/environment/moon.png"
+						}
+					}
+					id: "6AD1C41B263133C7"
+					title: "Reach the Moon"
+					type: "dimension"
+				}
+			]
+			title: "The Moon"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"72407A8ED6FF16E1"
+			]
+			description: [
+				"&eIce shards&r in a &eChemical Oxidizer&r make water vapour; a &eRotary Condensentrator&r makes it water."
+			]
+			icon: "ad_astra:ice_shard"
+			id: "20E58F5DA9B9DABA"
+			tasks: [
+				{
+					id: "6209E9D84B432D54"
+					item: "ad_astra:ice_shard"
+					type: "item"
+				}
+			]
+			title: "Water"
+			x: 3.5d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"72407A8ED6FF16E1"
+			]
+			description: [
+				"Smelt raw desh, or run it through the 5× line."
+			]
+			icon: "ad_astra:desh_ingot"
+			id: "5EE9AAE734C22AF1"
+			tasks: [
+				{
+					id: "3CF44142BA516C21"
+					item: "ad_astra:desh_ingot"
+					type: "item"
+				}
+			]
+			title: "Desh"
+			x: 3.5d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"5EE9AAE734C22AF1"
+			]
+			description: [
+				"The Moon's power: no weather, and the cold helps."
+			]
+			icon: "mekanismgenerators:advanced_solar_generator"
+			id: "44C64F1D7C4CF158"
+			tasks: [
+				{
+					id: "64BC8DAD1D283D4A"
+					item: "mekanismgenerators:advanced_solar_generator"
+					type: "item"
+				}
+			]
+			title: "Advanced Solar Generator"
+			x: 7.0d
+			y: 4.38d
+		}
+		{
+			dependencies: [
+				"5EE9AAE734C22AF1"
+			]
+			description: [
+				"Needs &edesh&r."
+			]
+			icon: "mekanism:ultimate_control_circuit"
+			id: "28BB97F0D0EBA28E"
+			tasks: [
+				{
+					id: "693DDDD5AA58D727"
+					item: "mekanism:ultimate_control_circuit"
+					type: "item"
+				}
+			]
+			title: "Ultimate Control Circuit"
+			x: 7.0d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"28BB97F0D0EBA28E"
+			]
+			description: [
+				"&eChemical Dissolution Chamber&r (sulfuric acid) → &eChemical Washer&r (water) → &eChemical Crystallizer&r: crystals, then the Tier 3 line."
+				""
+				"&a3 raw ores give 10 ingots&r; an ore block, 5. Raw desh gives the &eDesh Crystal&r."
+			]
+			icon: "mekanism:chemical_washer"
+			id: "301CB807644CB9AF"
+			tasks: [
+				{
+					id: "7B31498F5DC2CB06"
+					item: "mekanism:chemical_washer"
+					type: "item"
+				}
+			]
+			title: "5× Ore"
+			x: 10.5d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"20E58F5DA9B9DABA"
+				"5EE9AAE734C22AF1"
+			]
+			description: [
+				"Built with desh. Burns &ecryo fuel&r: ice shards in a &eCryo Freezer&r, 1 bucket a launch. Reaches Cinder."
+			]
+			icon: "ad_astra:tier_2_rocket"
+			id: "3B2E5082E9969AFF"
+			tasks: [
+				{
+					id: "04228E706E7B11DB"
+					item: "ad_astra:tier_2_rocket"
+					type: "item"
+				}
+			]
+			title: "Level 2 Rocket"
+			x: 7.0d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"3B2E5082E9969AFF"
+			]
+			description: [
+				"&eHeat protection 2&r: Cinder needs it."
+			]
+			icon: "ad_astra:netherite_space_suit"
+			id: "0E9EB322FC630479"
+			tasks: [
+				{
+					id: "4F7D13B2C60488A4"
+					item: "ad_astra:netherite_space_suit"
+					type: "item"
+				}
+			]
+			title: "Netherite Space Suit"
+			x: 10.5d
+			y: -1.75d
+		}
+	]
+	title: "Tier 4: The Moon"
+}

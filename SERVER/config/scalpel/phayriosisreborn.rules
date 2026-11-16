@@ -398,3 +398,6 @@ hide any phayriosisreborn:vein_shoots
 hide any phayriosisreborn:vein_sprouts
 hide any phayriosisreborn:veiny_cyst
 hide any phayriosisreborn:warding_node
+
+# Enchantments
+redact enchantment phayriosisreborn:*

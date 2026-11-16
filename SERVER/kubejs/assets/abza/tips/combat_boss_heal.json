@@ -1,0 +1,23 @@
+{
+  "title": {
+    "text": "Combat",
+    "color": "#FFA657",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Bosses "
+      },
+      {
+        "text": "heal",
+        "color": "red"
+      },
+      {
+        "text": " if you stop attacking them."
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

@@ -1,0 +1,30 @@
+{
+  "title": {
+    "text": "Survival",
+    "color": "#FF7B72",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "You take damage below "
+      },
+      {
+        "text": "10 °C",
+        "color": "yellow"
+      },
+      {
+        "text": " or above "
+      },
+      {
+        "text": "38 °C",
+        "color": "yellow"
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

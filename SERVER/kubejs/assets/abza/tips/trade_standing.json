@@ -1,0 +1,30 @@
+{
+  "title": {
+    "text": "Trade",
+    "color": "#E3B341",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Better "
+      },
+      {
+        "text": "standing",
+        "color": "yellow"
+      },
+      {
+        "text": " with a faction unlocks its traders' best stock and "
+      },
+      {
+        "text": "guards",
+        "color": "yellow"
+      },
+      {
+        "text": " for hire."
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

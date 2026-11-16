@@ -1,0 +1,17 @@
+{
+  "title": {
+    "text": "Survival",
+    "color": "#FF7B72",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "You can't cook or craft any food.",
+        "color": "red"
+      }
+    ]
+  },
+  "cycleTime": 6000
+}

@@ -1,0 +1,106 @@
+// t1_park_plaza: its blocks by role
+{
+  "palette": [
+    {
+      "char": "а",
+      "block": "mdm:white_bench[facing=east,part=left]"
+    },
+    {
+      "char": "б",
+      "block": "mdm:white_bench[facing=east,part=main]"
+    },
+    {
+      "char": "в",
+      "block": "mdm:white_bench[facing=east,part=right]"
+    },
+    {
+      "char": "г",
+      "block": "mdm:white_bench[facing=north,part=left]"
+    },
+    {
+      "char": "д",
+      "block": "mdm:white_bench[facing=north,part=main]"
+    },
+    {
+      "char": "е",
+      "block": "mdm:white_bench[facing=north,part=right]"
+    },
+    {
+      "char": "ж",
+      "block": "mdm:white_bench[facing=south,part=left]"
+    },
+    {
+      "char": "з",
+      "block": "mdm:white_bench[facing=south,part=main]"
+    },
+    {
+      "char": "и",
+      "block": "mdm:white_bench[facing=south,part=right]"
+    },
+    {
+      "char": "й",
+      "block": "mdm:white_bench[facing=west,part=left]"
+    },
+    {
+      "char": "к",
+      "block": "mdm:white_bench[facing=west,part=main]"
+    },
+    {
+      "char": "л",
+      "block": "mdm:white_bench[facing=west,part=right]"
+    },
+    {
+      "char": "м",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/growPlants 4",
+        "auto": 1,
+        "conditionMet": 1
+      }
+    },
+    {
+      "char": "н",
+      "block": "betterblockz:ztyl_blockz_0"
+    },
+    {
+      "char": "о",
+      "block": "lathe:betterblockz__ztyl_blockz_0_stairs[facing=east,half=top,shape=straight]"
+    },
+    {
+      "char": "п",
+      "block": "lathe:betterblockz__ztyl_blockz_0_stairs[facing=north,half=top,shape=straight]"
+    },
+    {
+      "char": "р",
+      "block": "lathe:betterblockz__ztyl_blockz_0_stairs[facing=south,half=top,shape=straight]"
+    },
+    {
+      "char": "с",
+      "block": "lathe:betterblockz__ztyl_blockz_0_stairs[facing=west,half=top,shape=straight]"
+    },
+    {
+      "char": "т",
+      "block": "minecraft:oak_log"
+    },
+    {
+      "char": "у",
+      "block": "betterblockz:mint_blockz_8"
+    },
+    {
+      "char": "ф",
+      "block": "minecraft:oak_leaves[persistent=true]"
+    },
+    {
+      "char": "х",
+      "block": "minecraft:grass_block"
+    },
+    {
+      "char": "ц",
+      "block": "betterblockz:cyberlight_blockz_0"
+    },
+    {
+      "char": "ч",
+      "block": "betterblockz:mint_blockz_8"
+    }
+  ]
+}

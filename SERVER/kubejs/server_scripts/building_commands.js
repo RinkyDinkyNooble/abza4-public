@@ -2,13 +2,20 @@
 // and replaces it; a failed command logs why.
 //
 //   /placeBlock <block[state]{nbt}>             the block, as /setblock places it
-//   /placeKeypad <block[state]{nbt}> <lock>     a keypad block with the lock's code (a door's upper half too)
+//   /placeKeypad <block[state]{nbt}> <lock> [share]
+//                                               a keypad block with the lock's code (a door's upper half too); with a
+//                                               share, only in that share of the building's copies, the same ones
+//                                               whose loot holds the lock's note (abzaLockHere)
 //   /placeKeycardReader <block[state]> <lock>   a keycard reader taking the lock's keycards
 //   /spawnEntity <entity|class> [count] [nbt]   mobs in the middle of the block, as /summon spawns them (spawn type
 //                                               command), persistent unless the NBT says otherwise; a class (common,
-//                                               mini, boss, final) picks one of the region's mobs at random for each
+//                                               mini, boss, final) picks one of the region's mobs at random for each;
+//                                               a Chance in the NBT ({Chance:0.5d}) is the share of command blocks
+//                                               that spawn anything
 //   /spawnNPC <tab> <name> [options]            a CustomNPCs clone standing in the block, set up by its options
 //                                               (npcs.js), its death permanent unless they give it a respawn
+//   /growPlants [times]                         bone meal on the block under it, as a player's, times over (1 to
+//                                               16): on grass, tall grass and the biome's flowers round it
 const $AbzaBlockProperties = Java.loadClass('net.minecraft.world.level.block.state.properties.BlockStateProperties')
 const $AbzaDoubleBlockHalf = Java.loadClass('net.minecraft.world.level.block.state.properties.DoubleBlockHalf')
 const $AbzaNbtCompound = Java.loadClass('net.minecraft.nbt.CompoundTag')
@@ -18,6 +25,7 @@ const $AbzaSpawnEntityType = Java.loadClass('net.minecraft.world.entity.EntityTy
 const $AbzaSpawnMob = Java.loadClass('net.minecraft.world.entity.Mob')
 const $AbzaSpawnType = Java.loadClass('net.minecraft.world.entity.MobSpawnType')
 const $AbzaSpawnEvents = Java.loadClass('net.minecraftforge.event.ForgeEventFactory')
+const $AbzaBonemealable = Java.loadClass('net.minecraft.world.level.block.BonemealableBlock')
 
 const ABZA_MOB_CLASSES = ['common', 'mini', 'boss', 'final']
 
@@ -74,13 +82,27 @@ function abzaLockData(lock, code) {
     return tag
 }
 
-// /placeKeypad and /placeKeycardReader: the block, then the lock's data in it
-function abzaPlaceLock(source, input, name, keycard) {
+// Whether a copy of a building has a lock placed in a share of its copies: one roll a chunk from the world's seed
+function abzaLockHere(level, name, pos, share) {
+    if (share >= 1) return true
+    var key = `here:${name}:${level.getDimension()}:${pos.getX() >> 4}:${pos.getZ() >> 4}`
+    return abzaSeededNumber(level, key, 1000) < share * 1000
+}
+
+// /placeKeypad and /placeKeycardReader: the block, then the lock's data in it; nothing in a copy without the lock
+function abzaPlaceLock(source, input, name, keycard, share) {
     var lock = ABZA_LOCKS[name]
     if (!lock) return abzaCommandFail(source, `no lock named ${name}`)
     if (!!lock.keycard != keycard) return abzaCommandFail(source, `${name} is a ${lock.keycard ? 'keycard' : 'keypad'} lock`)
     var level = source.level
     var pos = BlockPos.containing(source.position)
+    if (share != null) {
+        if (!(share > 0 && share <= 1)) return abzaCommandFail(source, `share ${share} isn't above 0 and at most 1`)
+        if (!abzaLockHere(level, name, pos, share)) {
+            level.removeBlock(pos, false)
+            return 1
+        }
+    }
     var block = input.getState().getBlock().id
     if (!abzaPlaceBlock(level, pos, input)) return abzaCommandFail(source, `couldn't place ${block}`)
     var code = abzaLockCode(level, name, pos)
@@ -143,8 +165,31 @@ function abzaSpawnEntities(source, id, count, nbt) {
     }
     if (count < 1) return abzaCommandFail(source, `count ${count} is under 1`)
     level.removeBlock(pos, false)
+    if (nbt && nbt.contains('Chance')) {
+        var chance = nbt.getDouble('Chance')
+        nbt = nbt.copy()
+        nbt.remove('Chance')
+        if (nbt.isEmpty()) nbt = null
+        if (Math.random() >= chance) return 1
+    }
     for (var i = 0; i < count; i++) abzaSpawnOne(level, pos, ids[Math.floor(Math.random() * ids.length)], nbt)
     return count
+}
+
+// /growPlants: bone meal on the block under the command block, until it takes no more
+function abzaGrowPlants(source, times) {
+    var level = source.level
+    var pos = BlockPos.containing(source.position)
+    var ground = pos.below()
+    level.removeBlock(pos, false)
+    var block = level.getBlockState(ground).getBlock()
+    if (!(block instanceof $AbzaBonemealable)) return abzaCommandFail(source, `${block.id} under it takes no bone meal`)
+    for (var i = 0; i < times; i++) {
+        var state = level.getBlockState(ground)
+        if (state.getBlock() != block || !block.isValidBonemealTarget(level, ground, state, false)) break
+        block.performBonemeal(level, level.getRandom(), ground, state)
+    }
+    return 1
 }
 
 // /spawnNPC: a clone in the middle of the block (a % in its name is a space)
@@ -177,7 +222,10 @@ ServerEvents.commandRegistry(event => {
         event.register(Commands.literal(entry[0]).requires(operator)
             .then(Commands.argument('block', Arguments.BLOCK_STATE.create(event))
                 .then(Commands.argument('lock', Arguments.WORD.create(event))
-                    .executes(ctx => abzaPlaceLock(ctx.source, block(ctx), lock(ctx), entry[1])))))
+                    .executes(ctx => abzaPlaceLock(ctx.source, block(ctx), lock(ctx), entry[1], null))
+                    .then(Commands.argument('share', Arguments.WORD.create(event))
+                        .executes(ctx => abzaPlaceLock(ctx.source, block(ctx), lock(ctx), entry[1],
+                            parseFloat(String(Arguments.WORD.getResult(ctx, 'share')))))))))
     })
 
     var entity = ctx => String(Arguments.RESOURCE_LOCATION.getResult(ctx, 'entity'))
@@ -190,6 +238,12 @@ ServerEvents.commandRegistry(event => {
                 .then(Commands.argument('nbt', Arguments.NBT_COMPOUND.create(event))
                     .executes(ctx => abzaSpawnEntities(ctx.source, entity(ctx), count(ctx),
                         Arguments.NBT_COMPOUND.getResult(ctx, 'nbt')))))))
+
+    var times = ctx => Math.min(16, Math.max(1, Arguments.INTEGER.getResult(ctx, 'times')))
+    event.register(Commands.literal('growPlants').requires(operator)
+        .executes(ctx => abzaGrowPlants(ctx.source, 1))
+        .then(Commands.argument('times', Arguments.INTEGER.create(event))
+            .executes(ctx => abzaGrowPlants(ctx.source, times(ctx)))))
 
     var tab = ctx => Arguments.INTEGER.getResult(ctx, 'tab')
     var npcName = ctx => String(Arguments.STRING.getResult(ctx, 'name'))

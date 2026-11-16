@@ -1,0 +1,121 @@
+// Blobs: each tier's family, one colour per concept; glass, lots and parks
+{
+  "palette": [
+    {
+      "char": "Α",
+      "block": "minecraft:yellow_wool"
+    },
+    {
+      "char": "Β",
+      "block": "minecraft:red_wool"
+    },
+    {
+      "char": "Γ",
+      "block": "minecraft:blue_wool"
+    },
+    {
+      "char": "Δ",
+      "block": "minecraft:cyan_wool"
+    },
+    {
+      "char": "Ε",
+      "block": "minecraft:purple_wool"
+    },
+    {
+      "char": "Ζ",
+      "block": "minecraft:green_wool"
+    },
+    {
+      "char": "Η",
+      "block": "minecraft:magenta_wool"
+    },
+    {
+      "char": "α",
+      "block": "minecraft:yellow_concrete"
+    },
+    {
+      "char": "β",
+      "block": "minecraft:red_concrete"
+    },
+    {
+      "char": "γ",
+      "block": "minecraft:blue_concrete"
+    },
+    {
+      "char": "δ",
+      "block": "minecraft:cyan_concrete"
+    },
+    {
+      "char": "ε",
+      "block": "minecraft:purple_concrete"
+    },
+    {
+      "char": "ζ",
+      "block": "minecraft:green_concrete"
+    },
+    {
+      "char": "η",
+      "block": "minecraft:magenta_concrete"
+    },
+    {
+      "char": "И",
+      "block": "minecraft:yellow_terracotta"
+    },
+    {
+      "char": "Й",
+      "block": "minecraft:red_terracotta"
+    },
+    {
+      "char": "П",
+      "block": "minecraft:blue_terracotta"
+    },
+    {
+      "char": "Ф",
+      "block": "minecraft:cyan_terracotta"
+    },
+    {
+      "char": "Ц",
+      "block": "minecraft:purple_terracotta"
+    },
+    {
+      "char": "Ш",
+      "block": "minecraft:green_terracotta"
+    },
+    {
+      "char": "Щ",
+      "block": "minecraft:magenta_terracotta"
+    },
+    {
+      "char": "Θ",
+      "block": "minecraft:black_wool"
+    },
+    {
+      "char": "Ι",
+      "block": "minecraft:glass"
+    },
+    {
+      "char": "Κ",
+      "block": "minecraft:smooth_stone"
+    },
+    {
+      "char": "Λ",
+      "block": "minecraft:grass_block"
+    },
+    {
+      "char": "Μ",
+      "block": "minecraft:stone"
+    },
+    {
+      "char": "Ν",
+      "block": "minecraft:lime_wool"
+    },
+    {
+      "char": "Ξ",
+      "block": "minecraft:oak_leaves[persistent=true]"
+    },
+    {
+      "char": "~",
+      "block": "minecraft:structure_void"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "title": {
+    "text": "Tech",
+    "color": "#D2A8FF",
+    "bold": true
+  },
+  "tip": {
+    "text": "",
+    "extra": [
+      {
+        "text": "An "
+      },
+      {
+        "text": "Enrichment Chamber",
+        "color": "yellow"
+      },
+      {
+        "text": " gets a third more metal out of raw ore than smelting does."
+      }
+    ]
+  },
+  "cycleTime": 6000
+}
