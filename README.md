@@ -1,26 +1,73 @@
-# ABZA: Apocalypse Begins: Zombie Apocalypse
+![ABZA: Apocalypse Begins: Zombie Apocalypse](https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/banner.jpg)
 
-> **Pre-alpha, unfinished.** Most of the pack's systems are in, but its own buildings aren't yet: the cities are Lost Cities' defaults, and some content is stand-in until they're built. Expect changes between versions, and **start a new world for each update**.
+_Explore, Fight, & Conquer apocalyptic worlds with your friends._
 
-Extreme PvE survival on Minecraft 1.20.1 (Forge). The world is split into tiers: each region has its own climate, creatures and gear, and gets harder the further you go, from Earth's cities to the Moon and four worlds beyond it.
+> <span style="color:#ff3347"><strong>Currently in alpha and unfinished.</strong></span> The cities are in development. Expect many changes between versions.
 
-This repository holds each release's files: `CLIENT/` is the CurseForge pack (its `overrides/` is everything the pack adds on top of its mods), and `SERVER/` will hold the server pack. The Apocalypse Begins packs before 4.0.0 live in [abza-legacy](https://github.com/RinkyDinkyNooble/abza-legacy).
+**Extreme PvE survival** on Minecraft 1.20.1 (Forge). The world is split into tiers: each region has its own climate, creatures, weapons and gear. Each tier gets harder the further you go, from <span style="color:#5468ff"><strong>Earth's cities</strong></span> to <span style="color:#5468ff"><strong>the Moon and four worlds beyond it</strong></span>.
 
-## What's in it
-- **Eight tiers:** the Plains, the Snow and the Badlands on Earth, then the Moon, Cinder, Eden, Umbra and Interloper. Each fought region has its own creatures, mini-bosses, bosses and a final boss.
-- **Survival:** no natural healing; each region's affliction, and a vaccine made from its creatures; temperature by region; food is found, bought or farmed, never cooked.
-- **Combat:** guns by tier, each tier with its own rounds; vehicles, helicopters and aircraft; horde nights every fourth night.
-- **Progression:** a tech ladder through Mekanism to rockets; ores by region and depth; max health that grows with every final boss and Bestiary milestone.
-- **Scavenging:** loot by region, locked safes with codes written somewhere nearby, air drops called by flare guns.
-- **A questbook** with the essentials, the progression per tier and a Bestiary.
+|                                                                                                                                                                                                                                                                                              |                                                                                                                                                                                                                                                                                         |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <a href="https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/shot_04.jpg" rel="nofollow"><img src="https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/shot_04.jpg" alt="Everwell's neon sign over the city at night" width="400"></a> | <a href="https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/shot_08.jpg" rel="nofollow"><img src="https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/shot_08.jpg" alt="Zombies in a city street in the rain" width="400"></a>   |
+| <strong>Everwell</strong><br>One dose. Forever well.                                                                                                                                                                                                                                         | <strong>After Dark</strong><br>Stay indoors.                                                                                                                                                                                                                                            |
+| <a href="https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/shot_06.jpg" rel="nofollow"><img src="https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/shot_06.jpg" alt="The Plains' city by day" width="400"></a>                     | <a href="https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/shot_09.jpg" rel="nofollow"><img src="https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/shot_09.jpg" alt="Prospero, the traders' yacht, at night" width="400"></a> |
+| <strong>The Plains' City</strong><br>ABZA's own buildings                                                                                                                                                                                                                                    | <strong>Prospero</strong><br>The traders' yacht                                                                                                                                                                                                                                         |
 
-## Not in yet
-- ABZA's own buildings and districts.
-- The hub, its traders and the story's characters (written, not yet placed).
-- Boss buildings: until they're built, mini-bosses, bosses and final bosses come to you in their region.
+***
 
-## License
-You are **free** to copy, modify and distribute at your own discretion (BSD Zero Clause, `LICENSE.txt`). 
+![01 // What's In It](https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/header_whats_in_it.png)
+
+*   **Eight tiers:** three tiers on Earth and five tiers in space (1 per planet). Each tier has its own **creatures, mini-bosses, bosses and a final boss**.
+*   **Survival:** <span style="color:#ff3347"><strong>no natural healing</strong></span>; each region's affliction and a **vaccine** made from its creatures. Temperature differs by tier. Food is found, bought or sometimes farmed, but not craftable/cookable.
+*   **Combat:** each tier has its own ammunition, vehicles, weapons, and armor. <span style="color:#5468ff"><strong>Hordes attack every fourth night</strong></span>.
+*   **Progression:** a modified **Mekanism** experience changed to integrate Ad Astra and other progression related content. 
+*   **Scavenging:** locked safes with codes written somewhere nearby, **air drops** called by flare guns, and more comming soon.
+*   **PvE Experience:** every player is on one team, with friendly fire off. A unified world map combined with QoL multiplayer mods will enhance cooperation.
+*   **FTB & NPC Quests** with tutorials, story and a bestiary.
+
+***
+
+![02 // This Alpha](https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/header_this_alpha.png)
+
+### Current City Related Progress
+
+*   **Tier 1 city:** detached houses, townhouses, bungalows, a corner shop, an apartment tower, a pharmacy, a car park and a plaza.
+*   **Prospero:** the yacht with the traders, on the ocean nearest spawn.
+
+### Termporary Features Until The Cities Are Complete
+
+*   **Bosses come to you:** mini-bosses, bosses and final bosses find players in their region, and drop finds from its loot.
+*   **Camps:** the first time someone reaches a region past tier 1, its traders and guards for hire make camp nearby.
+*   **The Alien Navigation Core** drops from the Badlands' final boss and other bosses.
+
+***
+
+![03 // Requirements](https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/header_requirements.png)
+
+## RAM Requirements
+
+| Category | Minimum | Recommended | Best Experience |
+|---|---:|---:|---:|
+| DRAM (System RAM) | 4GB | 8GB | 12GB |
+
+## Shader Requirements
+
+| Category | Minimum | Recommended | Best Experience |
+|---|---:|---:|---:|
+| VRAM (Graphics Memory) | 4GB | 6GB | 8GB+ |
+
+**Note:** A server requires a minimum of 4GB of RAM, but 8GB or more is recommended for the best experience.
+
+**Need a server?** Check out Wabbanode:
+
+[![Wabbanode](https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/apocalypse-begins-successor-small.gif)](https://wabbanode.com/affiliate/apocalypsebeginssuccessor)
+
+***
+
+## Licence
+
+You are **free** to copy, modify and distribute at your own discretion (BSD Zero Clause).
 
 ## Inspiration
-**Apocalypse Begins** is **originally** inspired by [DeceasedCraft](https://www.curseforge.com/minecraft/modpacks/deceasedcraft) (author [TqLxQuanZ](https://www.curseforge.com/members/tqlxquanz/projects)).
+
+**Apocalypse Begins** is **originally** inspired by [DeceasedCraft](https://www.curseforge.com/minecraft/modpacks/deceasedcraft) (author [TqLxQuanZ](https://www.curseforge.com/members/tqlxquanz/projects)). 
