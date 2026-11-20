@@ -1,0 +1,9 @@
+// t1_marina_r2: t1_marina turned 180 degrees clockwise
+{
+  "dimx": 2,
+  "dimz": 1,
+  "buildings": [
+    ["abza:t1_marina_r2_00"],
+    ["abza:t1_marina_r2_10"]
+  ]
+}

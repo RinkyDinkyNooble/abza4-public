@@ -1,0 +1,31 @@
+// t1_car_park_dark_r3: t1_car_park_dark turned 270 degrees clockwise
+{
+  "dimx": 4,
+  "dimz": 4,
+  "buildings": [
+    [
+      "abza:t1_car_park_dark_r3_00",
+      "abza:t1_car_park_dark_r3_01",
+      "abza:t1_car_park_dark_r3_02",
+      "abza:t1_car_park_dark_r3_03"
+    ],
+    [
+      "abza:t1_car_park_dark_r3_10",
+      "abza:t1_car_park_dark_r3_11",
+      "abza:t1_car_park_dark_r3_12",
+      "abza:t1_car_park_dark_r3_13"
+    ],
+    [
+      "abza:t1_car_park_dark_r3_20",
+      "abza:t1_car_park_dark_r3_21",
+      "abza:t1_car_park_dark_r3_22",
+      "abza:t1_car_park_dark_r3_23"
+    ],
+    [
+      "abza:t1_car_park_dark_r3_30",
+      "abza:t1_car_park_dark_r3_31",
+      "abza:t1_car_park_dark_r3_32",
+      "abza:t1_car_park_dark_r3_33"
+    ]
+  ]
+}

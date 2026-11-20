@@ -1,0 +1,38 @@
+// t1_raider_block_dark_r1_01: t1_raider_block_dark turned 90 degrees clockwise
+{
+  "refpalette": "abza:t1_raider_block_dark_r1",
+  "filler": "Ѝ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 4,
+  "maxfloors": 4,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "parts": [
+    {
+      "part": "abza:t1_raider_block_dark_r1_01_ground",
+      "top": false,
+      "ground": true
+    },
+    {
+      "part": "abza:t1_raider_block_dark_r1_01_l1",
+      "top": false,
+      "floor": 1
+    },
+    {
+      "part": "abza:t1_raider_block_dark_r1_01_l2",
+      "top": false,
+      "floor": 2
+    },
+    {
+      "part": "abza:t1_raider_block_dark_r1_01_l3",
+      "top": false,
+      "floor": 3
+    },
+    {
+      "part": "abza:t1_raider_block_dark_r1_01_top",
+      "top": true
+    }
+  ]
+}

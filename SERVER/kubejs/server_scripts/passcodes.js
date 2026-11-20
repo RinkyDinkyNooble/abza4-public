@@ -7,12 +7,13 @@ const $AbzaPasscodeUtils = Java.loadClass('net.geforcemods.securitycraft.util.Pa
 
 // Locks by name: a keypad's digits, or a keycard reader's lowest keycard level (its code has 5 digits), or a mystery
 // lock's parts in order; scope "copy" gives each building its own code, "world" one code for the whole world; the
-// label names the lock in its note
+// label names the lock in its note and its keycard
 const ABZA_LOCKS = {
     safe: { digits: 4, scope: 'copy', label: 'Safe' },
     door: { digits: 4, scope: 'copy', label: 'Door' },
     vault: { digits: 6, scope: 'copy', label: 'Vault' },
     security: { keycard: 1, scope: 'copy', label: 'Security' },
+    boss: { keycard: 1, scope: 'copy', label: 'Boss room' },
     records: { parts: ['batch', 'audit_room'], scope: 'world', label: 'Records' },
     field_lab: { parts: ['hq_day', 'headcount'], scope: 'world', label: 'Field lab' },
     uplink: { parts: ['bearing', 'window'], scope: 'world', label: 'Uplink' },
@@ -72,7 +73,8 @@ function abzaLockItem(level, name, pos) {
     var code = abzaLockCode(level, name, pos)
     if (lock.keycard) {
         return Item.of(`securitycraft:keycard_lv${lock.keycard}`, `{linked:1b,signature:${parseInt(code, 10)},` +
-            `ownerName:"${ABZA_LOCK_OWNER.name}",ownerUUID:"${ABZA_LOCK_OWNER.uuid}"}`)
+            `ownerName:"${ABZA_LOCK_OWNER.name}",ownerUUID:"${ABZA_LOCK_OWNER.uuid}",` +
+            `display:{Name:'${JSON.stringify({ text: lock.label + ' keycard', italic: false })}'}}`)
     }
     var wordings = ABZA_LOCK_NOTES[name]
     var note = wordings[parseInt(code, 10) % wordings.length]

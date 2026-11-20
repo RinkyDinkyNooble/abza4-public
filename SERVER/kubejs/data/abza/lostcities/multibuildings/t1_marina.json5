@@ -1,0 +1,13 @@
+// t1_marina: 2 by 1 chunks, 2 storeys, outside cities
+{
+  "dimx": 2,
+  "dimz": 1,
+  "buildings": [
+    [
+      "abza:t1_marina_00"
+    ],
+    [
+      "abza:t1_marina_10"
+    ]
+  ]
+}

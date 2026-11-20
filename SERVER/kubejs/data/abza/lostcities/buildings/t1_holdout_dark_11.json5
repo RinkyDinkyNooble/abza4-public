@@ -1,0 +1,28 @@
+// t1_holdout_dark: one chunk of 2 by 2 chunks, 2 storeys
+{
+  "refpalette": "abza:t1_holdout_dark",
+  "filler": "ґ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 2,
+  "maxfloors": 2,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "parts": [
+    {
+      "part": "abza:t1_holdout_dark_11_ground",
+      "top": false,
+      "ground": true
+    },
+    {
+      "part": "abza:t1_holdout_dark_11_l1",
+      "top": false,
+      "floor": 1
+    },
+    {
+      "part": "abza:t1_holdout_dark_11_top",
+      "top": true
+    }
+  ]
+}

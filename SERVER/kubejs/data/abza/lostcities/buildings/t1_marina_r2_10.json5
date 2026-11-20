@@ -1,0 +1,33 @@
+// t1_marina_r2_10: t1_marina turned 180 degrees clockwise
+{
+  "refpalette": "abza:t1_marina_r2",
+  "filler": "Њ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 3,
+  "maxfloors": 3,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "parts": [
+    {
+      "part": "abza:t1_marina_r2_10_ground",
+      "floor": 0,
+      "top": false
+    },
+    {
+      "part": "abza:t1_marina_r2_10_l1",
+      "floor": 1,
+      "top": false
+    },
+    {
+      "part": "abza:t1_marina_r2_10_top",
+      "floor": 2,
+      "top": false
+    },
+    {
+      "part": "abza:t1_marina_r2_10_cap",
+      "top": true
+    }
+  ]
+}

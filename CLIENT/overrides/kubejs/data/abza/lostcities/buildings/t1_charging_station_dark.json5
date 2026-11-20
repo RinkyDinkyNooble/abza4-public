@@ -1,0 +1,28 @@
+// t1_charging_station_dark: 1 storeys, outside cities
+{
+  "refpalette": "abza:t1_charging_station_dark",
+  "filler": "ќ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 2,
+  "maxfloors": 2,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "parts": [
+    {
+      "part": "abza:t1_charging_station_dark_ground",
+      "floor": 0,
+      "top": false
+    },
+    {
+      "part": "abza:t1_charging_station_dark_top",
+      "floor": 1,
+      "top": false
+    },
+    {
+      "part": "abza:t1_charging_station_dark_cap",
+      "top": true
+    }
+  ]
+}

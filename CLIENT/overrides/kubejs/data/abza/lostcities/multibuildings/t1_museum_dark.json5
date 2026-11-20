@@ -1,0 +1,22 @@
+// t1_museum_dark: 3 by 3 chunks, 3 storeys and 2 cellars
+{
+  "dimx": 3,
+  "dimz": 3,
+  "buildings": [
+    [
+      "abza:t1_museum_dark_00",
+      "abza:t1_museum_dark_01",
+      "abza:t1_museum_dark_02"
+    ],
+    [
+      "abza:t1_museum_dark_10",
+      "abza:t1_museum_dark_11",
+      "abza:t1_museum_dark_12"
+    ],
+    [
+      "abza:t1_museum_dark_20",
+      "abza:t1_museum_dark_21",
+      "abza:t1_museum_dark_22"
+    ]
+  ]
+}

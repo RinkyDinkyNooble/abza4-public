@@ -17,7 +17,12 @@
   },
   "music.game": {
     "replace": true,
-    "sounds": []
+    "sounds": [
+      {
+        "name": "abza:music.other",
+        "type": "event"
+      }
+    ]
   },
   "music.menu": {
     "replace": true,
@@ -45,11 +50,21 @@
   },
   "music.overworld.badlands": {
     "replace": true,
-    "sounds": []
+    "sounds": [
+      {
+        "name": "abza:music.other",
+        "type": "event"
+      }
+    ]
   },
   "music.overworld.bamboo_jungle": {
     "replace": true,
-    "sounds": []
+    "sounds": [
+      {
+        "name": "abza:music.other",
+        "type": "event"
+      }
+    ]
   },
   "music.overworld.cherry_grove": {
     "replace": true,
@@ -57,70 +72,155 @@
   },
   "music.overworld.deep_dark": {
     "replace": true,
-    "sounds": []
+    "sounds": [
+      {
+        "name": "abza:music.other",
+        "type": "event"
+      }
+    ]
   },
   "music.overworld.desert": {
     "replace": true,
-    "sounds": []
+    "sounds": [
+      {
+        "name": "abza:music.other",
+        "type": "event"
+      }
+    ]
   },
   "music.overworld.dripstone_caves": {
     "replace": true,
-    "sounds": []
+    "sounds": [
+      {
+        "name": "abza:music.other",
+        "type": "event"
+      }
+    ]
   },
   "music.overworld.flower_forest": {
     "replace": true,
-    "sounds": []
+    "sounds": [
+      {
+        "name": "abza:music.other",
+        "type": "event"
+      }
+    ]
   },
   "music.overworld.forest": {
     "replace": true,
-    "sounds": []
+    "sounds": [
+      {
+        "name": "abza:music.other",
+        "type": "event"
+      }
+    ]
   },
   "music.overworld.frozen_peaks": {
     "replace": true,
-    "sounds": []
+    "sounds": [
+      {
+        "name": "abza:music.other",
+        "type": "event"
+      }
+    ]
   },
   "music.overworld.grove": {
     "replace": true,
-    "sounds": []
+    "sounds": [
+      {
+        "name": "abza:music.other",
+        "type": "event"
+      }
+    ]
   },
   "music.overworld.jagged_peaks": {
     "replace": true,
-    "sounds": []
+    "sounds": [
+      {
+        "name": "abza:music.other",
+        "type": "event"
+      }
+    ]
   },
   "music.overworld.jungle": {
     "replace": true,
-    "sounds": []
+    "sounds": [
+      {
+        "name": "abza:music.other",
+        "type": "event"
+      }
+    ]
   },
   "music.overworld.lush_caves": {
     "replace": true,
-    "sounds": []
+    "sounds": [
+      {
+        "name": "abza:music.other",
+        "type": "event"
+      }
+    ]
   },
   "music.overworld.meadow": {
     "replace": true,
-    "sounds": []
+    "sounds": [
+      {
+        "name": "abza:music.other",
+        "type": "event"
+      }
+    ]
   },
   "music.overworld.old_growth_taiga": {
     "replace": true,
-    "sounds": []
+    "sounds": [
+      {
+        "name": "abza:music.other",
+        "type": "event"
+      }
+    ]
   },
   "music.overworld.snowy_slopes": {
     "replace": true,
-    "sounds": []
+    "sounds": [
+      {
+        "name": "abza:music.other",
+        "type": "event"
+      }
+    ]
   },
   "music.overworld.sparse_jungle": {
     "replace": true,
-    "sounds": []
+    "sounds": [
+      {
+        "name": "abza:music.other",
+        "type": "event"
+      }
+    ]
   },
   "music.overworld.stony_peaks": {
     "replace": true,
-    "sounds": []
+    "sounds": [
+      {
+        "name": "abza:music.other",
+        "type": "event"
+      }
+    ]
   },
   "music.overworld.swamp": {
     "replace": true,
-    "sounds": []
+    "sounds": [
+      {
+        "name": "abza:music.other",
+        "type": "event"
+      }
+    ]
   },
   "music.under_water": {
     "replace": true,
-    "sounds": []
+    "sounds": [
+      {
+        "name": "abza:music.other",
+        "type": "event"
+      }
+    ]
   }
 }

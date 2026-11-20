@@ -1,7 +1,7 @@
 {
   "title": {
     "text": "Tech",
-    "color": "#D2A8FF",
+    "color": "#A3B1FF",
     "bold": true
   },
   "tip": {
@@ -12,11 +12,7 @@
         "color": "yellow"
       },
       {
-        "text": " powers Mekanism machines: put it in the energy slot. "
-      },
-      {
-        "text": "No generator needed.",
-        "color": "green"
+        "text": " powers Mekanism machines: put it in the energy slot. No generator needed."
       }
     ]
   },

@@ -35,28 +35,6 @@
 				"49908EC2A6B5C476"
 			]
 			description: [
-				"Spawners &ccan't be broken&r. They stop after &e3 waves&r."
-			]
-			disable_toast: true
-			icon: "minecraft:spawner"
-			id: "330EA99AFD128729"
-			tasks: [
-				{
-					id: "1210DADD1BFDF2CB"
-					title: "Got it"
-					type: "checkmark"
-					disable_toast: true
-				}
-			]
-			title: "Spawners"
-			x: 3.5d
-			y: -1.75d
-		}
-		{
-			dependencies: [
-				"49908EC2A6B5C476"
-			]
-			description: [
 				"A keypad's code is written down &esomewhere in the same building&r. Every building and every world has its own codes."
 				""
 				"A keycard reader takes its level &eor higher&r. The rare &eCodebreaker&r sometimes opens a keypad."
@@ -74,11 +52,10 @@
 			]
 			title: "Codes and Keycards"
 			x: 3.5d
-			y: 1.75d
+			y: 0.0d
 		}
 		{
 			dependencies: [
-				"330EA99AFD128729"
 				"09AC004C94D8E42D"
 			]
 			description: [

@@ -1,14 +1,14 @@
 {
   "title": {
     "text": "The World",
-    "color": "#79C0FF",
+    "color": "#A3B1FF",
     "bold": true
   },
   "tip": {
     "text": "",
     "extra": [
       {
-        "text": "Ores only form on "
+        "text": "Ores are usually found on "
       },
       {
         "text": "cave walls",

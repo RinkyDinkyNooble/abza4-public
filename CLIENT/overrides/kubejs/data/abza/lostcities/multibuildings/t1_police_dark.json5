@@ -1,0 +1,15 @@
+// t1_police_dark: 2 by 2 chunks, 3 storeys and 1 cellar
+{
+  "dimx": 2,
+  "dimz": 2,
+  "buildings": [
+    [
+      "abza:t1_police_dark_00",
+      "abza:t1_police_dark_01"
+    ],
+    [
+      "abza:t1_police_dark_10",
+      "abza:t1_police_dark_11"
+    ]
+  ]
+}

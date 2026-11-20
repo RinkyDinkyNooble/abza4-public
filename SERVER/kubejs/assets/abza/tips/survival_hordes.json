@@ -1,15 +1,18 @@
 {
   "title": {
     "text": "Survival",
-    "color": "#FF7B72",
+    "color": "#A3B1FF",
     "bold": true
   },
   "tip": {
     "text": "",
     "extra": [
       {
-        "text": "Every 4th night",
-        "color": "red"
+        "text": "Every "
+      },
+      {
+        "text": "4th night",
+        "color": "yellow"
       },
       {
         "text": " you play, a horde comes for you at midnight."

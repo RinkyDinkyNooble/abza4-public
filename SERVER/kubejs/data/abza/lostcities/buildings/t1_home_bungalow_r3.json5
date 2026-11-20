@@ -1,0 +1,23 @@
+// t1_home_bungalow_r3: t1_home_bungalow turned 270 degrees clockwise
+{
+  "refpalette": "abza:t1_home_bungalow_r3",
+  "filler": "ѵ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 1,
+  "maxfloors": 1,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "parts": [
+    {
+      "part": "abza:t1_home_bungalow_r3_ground",
+      "top": false,
+      "ground": true
+    },
+    {
+      "part": "abza:t1_home_bungalow_r3_top",
+      "top": true
+    }
+  ]
+}

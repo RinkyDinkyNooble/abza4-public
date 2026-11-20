@@ -1,18 +1,14 @@
 {
   "title": {
     "text": "Survival",
-    "color": "#FF7B72",
+    "color": "#A3B1FF",
     "bold": true
   },
   "tip": {
     "text": "",
     "extra": [
       {
-        "text": "You don't heal over time",
-        "color": "red"
-      },
-      {
-        "text": " until you take your region's "
+        "text": "You don't heal over time until you take your region's "
       },
       {
         "text": "vaccine",

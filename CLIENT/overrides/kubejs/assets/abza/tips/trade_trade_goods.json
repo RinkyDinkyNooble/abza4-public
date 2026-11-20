@@ -1,7 +1,7 @@
 {
   "title": {
     "text": "Trade",
-    "color": "#E3B341",
+    "color": "#A3B1FF",
     "bold": true
   },
   "tip": {
@@ -26,7 +26,7 @@
         "color": "yellow"
       },
       {
-        "text": " are only for selling."
+        "text": " sell for a lot of money."
       }
     ]
   },

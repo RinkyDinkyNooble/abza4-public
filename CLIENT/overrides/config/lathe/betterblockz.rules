@@ -1,21 +1,36 @@
 # BetterBlockZ: the shapes the cities' buildings use
+slab vslab stairs vstairs corners betterblockz:agon_blockz_0
+stairs betterblockz:agon_blockz_1
+slab vslab stairs vstairs corners betterblockz:agon_blockz_2
+slab vslab stairs vstairs corners betterblockz:ambercore_blockz_7
 slab vslab stairs vstairs corners betterblockz:copper_blockz_0
 slab vslab stairs vstairs corners betterblockz:cray_blockz_0
-vslab betterblockz:cyberlight_blockz_0
+slab vslab betterblockz:cyberlight_blockz_0
 slab betterblockz:eclipse_blockz_0
 slab vslab stairs vstairs corners betterblockz:fort_blockz_10
+slab vslab stairs vstairs corners betterblockz:ironslate_blockz_1
 slab vslab stairs vstairs corners betterblockz:iszm_blockz_12
+slab vslab stairs vstairs corners betterblockz:iszm_blockz_14
 slab vslab stairs vstairs corners betterblockz:iszm_blockz_2
+slab vslab stairs vstairs corners betterblockz:iszm_blockz_5
+slab vslab stairs vstairs corners betterblockz:iszm_blockz_6
+slab vslab stairs vstairs corners betterblockz:kryp_blockz_11
 slab vslab stairs vstairs corners betterblockz:lablink_blockz_0
 slab vslab stairs vstairs corners betterblockz:lairdecay_blockz_0
 slab vslab stairs vstairs corners betterblockz:myst_blockz_0
+slab vslab stairs vstairs corners betterblockz:myst_blockz_1
 slab vslab stairs vstairs corners betterblockz:myst_blockz_10
 slab vslab stairs vstairs corners betterblockz:stone_blockz_0
 slab vslab stairs vstairs corners betterblockz:synthalloy_blockz_4
 slab vslab stairs vstairs corners betterblockz:tintedglass_blockz_0
 slab vslab stairs vstairs corners betterblockz:tintedglass_blockz_1
+slab vslab stairs vstairs corners betterblockz:tintedglass_blockz_4
 slab vslab stairs vstairs corners betterblockz:vect_blockz_4
 slab vslab stairs vstairs corners betterblockz:zeno_brown_blockz_3
 slab vslab stairs vstairs corners betterblockz:zeno_brown_blockz_4
 slab vslab stairs vstairs corners betterblockz:zeno_light_gray_blockz_2
+slab vslab stairs vstairs corners betterblockz:zeno_orange_blockz_3
+slab vslab stairs vstairs corners betterblockz:zeno_orange_blockz_4
+slab vslab stairs vstairs corners betterblockz:zeno_red_blockz_7
+slab vslab stairs vstairs corners betterblockz:zeno_white_blockz_10
 slab vslab stairs vstairs corners betterblockz:ztyl_blockz_0

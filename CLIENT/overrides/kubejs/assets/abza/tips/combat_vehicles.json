@@ -1,28 +1,21 @@
 {
   "title": {
     "text": "Combat",
-    "color": "#FFA657",
+    "color": "#A3B1FF",
     "bold": true
   },
   "tip": {
     "text": "",
     "extra": [
       {
-        "text": "If a vehicle is destroyed, "
-      },
-      {
-        "text": "everyone inside dies",
-        "color": "red"
-      },
-      {
-        "text": ". Landing a helicopter faster than "
+        "text": "Landing a helicopter faster than "
       },
       {
         "text": "8 m/s",
         "color": "yellow"
       },
       {
-        "text": " damages it."
+        "text": " may damage it."
       }
     ]
   },

@@ -1,0 +1,395 @@
+// t1_charging_station_dark: its blocks by role
+{
+  "palette": [
+    {
+      "char": "а",
+      "block": "mdm:bathroom_mirror[facing=south,part=bottom]"
+    },
+    {
+      "char": "б",
+      "block": "mdm:bathroom_mirror[facing=south,part=main]"
+    },
+    {
+      "char": "в",
+      "block": "mdm:bathroom_sink_with_shelf[facing=south]",
+      "tag": {
+        "LootTable": "abza:chests/home/bathroom"
+      }
+    },
+    {
+      "char": "г",
+      "block": "mdm:black_bench[facing=north,part=left]"
+    },
+    {
+      "char": "д",
+      "block": "mdm:black_bench[facing=north,part=main]"
+    },
+    {
+      "char": "е",
+      "block": "mdm:black_bench[facing=north,part=right]"
+    },
+    {
+      "char": "ж",
+      "block": "mdm:black_desk_lamp[facing=west]"
+    },
+    {
+      "char": "з",
+      "block": "mdm:black_modern_fridge_1[facing=north,part=main]",
+      "tag": {
+        "LootTable": "abza:chests/shop/cooler"
+      }
+    },
+    {
+      "char": "и",
+      "block": "mdm:black_modern_fridge_1[facing=north,part=top]"
+    },
+    {
+      "char": "й",
+      "block": "mdm:black_wall_clock[facing=north]"
+    },
+    {
+      "char": "к",
+      "block": "mdm:cork_board[facing=east,part=left]"
+    },
+    {
+      "char": "л",
+      "block": "mdm:cork_board[facing=east,part=main]"
+    },
+    {
+      "char": "м",
+      "block": "mdm:cork_board[facing=east,part=right]"
+    },
+    {
+      "char": "н",
+      "block": "mdm:document_folders[facing=north]"
+    },
+    {
+      "char": "о",
+      "block": "mdm:kitchen_set_3_bar_chair[facing=west]"
+    },
+    {
+      "char": "п",
+      "block": "mdm:office_cabinet_2[facing=east]",
+      "tag": {
+        "LootTable": "abza:chests/carpark/workshop"
+      }
+    },
+    {
+      "char": "р",
+      "block": "mdm:office_set_1_bookshelf_var_1_bottom[facing=east]"
+    },
+    {
+      "char": "с",
+      "block": "mdm:office_set_1_bookshelf_var_1_top[facing=east]"
+    },
+    {
+      "char": "т",
+      "block": "mdm:set_1_cabinet[facing=west]",
+      "tag": {
+        "LootTable": "abza:chests/carpark/office"
+      }
+    },
+    {
+      "char": "у",
+      "block": "mdm:set_1_cabinet_with_drawers[facing=west]",
+      "tag": {
+        "LootTable": "abza:chests/shop/till"
+      }
+    },
+    {
+      "char": "ф",
+      "block": "mdm:set_2_hanging_shelf[facing=east]"
+    },
+    {
+      "char": "х",
+      "block": "mdm:steel_shelf[facing=east,part=main]",
+      "tag": {
+        "LootTable": "abza:chests/carpark/workshop"
+      }
+    },
+    {
+      "char": "ц",
+      "block": "mdm:steel_shelf[facing=east,part=main]",
+      "tag": {
+        "LootTable": "abza:chests/shop/stock"
+      }
+    },
+    {
+      "char": "ч",
+      "block": "mdm:steel_shelf[facing=east,part=top]"
+    },
+    {
+      "char": "ш",
+      "block": "mdm:steel_shelf[facing=north,part=main]",
+      "tag": {
+        "LootTable": "abza:chests/shop/shelf"
+      }
+    },
+    {
+      "char": "щ",
+      "block": "mdm:steel_shelf[facing=north,part=top]"
+    },
+    {
+      "char": "ъ",
+      "block": "mdm:toilet[facing=south,part=main]"
+    },
+    {
+      "char": "ы",
+      "block": "mdm:toilet[facing=south,part=top]"
+    },
+    {
+      "char": "ь",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/setblock ~ ~ ~ lathe:betterblockz__ironslate_blockz_1_stairs[facing=east,half=top,shape=outer_left]",
+        "auto": 1,
+        "conditionMet": 1
+      }
+    },
+    {
+      "char": "э",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/setblock ~ ~ ~ lathe:betterblockz__ironslate_blockz_1_stairs[facing=east,half=top,shape=outer_right]",
+        "auto": 1,
+        "conditionMet": 1
+      }
+    },
+    {
+      "char": "ю",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/setblock ~ ~ ~ lathe:betterblockz__ironslate_blockz_1_stairs[facing=west,half=top,shape=outer_left]",
+        "auto": 1,
+        "conditionMet": 1
+      }
+    },
+    {
+      "char": "я",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/spawnEntity common 1 {Chance:0.5d}",
+        "auto": 1,
+        "conditionMet": 1
+      }
+    },
+    {
+      "char": "ѐ",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/spawnEntity common 1",
+        "auto": 1,
+        "conditionMet": 1
+      }
+    },
+    {
+      "char": "ё",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/spawnEntity superbwarfare:sodayo_pick_up 1 {Chance:0.17d,Rotation:[180f,0f]}",
+        "auto": 1,
+        "conditionMet": 1
+      }
+    },
+    {
+      "char": "ђ",
+      "block": "minecraft:ladder[facing=east,waterlogged=false]"
+    },
+    {
+      "char": "ѓ",
+      "block": "minecraft:ladder[facing=south,waterlogged=false]"
+    },
+    {
+      "char": "є",
+      "block": "minecraft:ladder[facing=west,waterlogged=false]"
+    },
+    {
+      "char": "ѕ",
+      "block": "neoncraft:a_lime[facing=north]"
+    },
+    {
+      "char": "і",
+      "block": "neoncraft:c_lime[facing=north]"
+    },
+    {
+      "char": "ї",
+      "block": "neoncraft:e_lime[facing=north]"
+    },
+    {
+      "char": "ј",
+      "block": "neoncraft:g_lime[facing=north]"
+    },
+    {
+      "char": "љ",
+      "block": "neoncraft:h_lime[facing=north]"
+    },
+    {
+      "char": "њ",
+      "block": "neoncraft:r_lime[facing=north]"
+    },
+    {
+      "char": "ћ",
+      "block": "betterblockz:eclipse_blockz_0"
+    },
+    {
+      "char": "ќ",
+      "block": "betterblockz:ztyl_blockz_0"
+    },
+    {
+      "char": "ѝ",
+      "block": "lathe:betterblockz__ztyl_blockz_0_slab[type=bottom]"
+    },
+    {
+      "char": "ў",
+      "block": "betterblockz:lablink_blockz_0"
+    },
+    {
+      "char": "џ",
+      "block": "lathe:betterblockz__lablink_blockz_0_slab[type=bottom]"
+    },
+    {
+      "char": "А",
+      "block": "minecraft:oak_door[facing=north,half=lower,hinge=left,open=false]"
+    },
+    {
+      "char": "Б",
+      "block": "minecraft:oak_door[facing=north,half=lower,hinge=right,open=false]"
+    },
+    {
+      "char": "В",
+      "block": "minecraft:oak_door[facing=north,half=upper,hinge=left,open=false]"
+    },
+    {
+      "char": "Г",
+      "block": "minecraft:oak_door[facing=north,half=upper,hinge=right,open=false]"
+    },
+    {
+      "char": "Д",
+      "block": "minecraft:oak_door[facing=south,half=lower,hinge=left,open=false]"
+    },
+    {
+      "char": "Е",
+      "block": "minecraft:oak_door[facing=south,half=upper,hinge=left,open=false]"
+    },
+    {
+      "char": "Ж",
+      "block": "betterblockz:iszm_blockz_2"
+    },
+    {
+      "char": "З",
+      "block": "lathe:betterblockz__tintedglass_blockz_4_vslab[facing=south,type=single]"
+    },
+    {
+      "char": "К",
+      "block": "minecraft:birch_door[facing=east,half=lower,hinge=left,open=false]"
+    },
+    {
+      "char": "Л",
+      "block": "minecraft:birch_door[facing=east,half=upper,hinge=left,open=false]"
+    },
+    {
+      "char": "М",
+      "block": "minecraft:birch_door[facing=west,half=lower,hinge=left,open=false]"
+    },
+    {
+      "char": "Н",
+      "block": "minecraft:birch_door[facing=west,half=upper,hinge=left,open=false]"
+    },
+    {
+      "char": "О",
+      "block": "betterblockz:ironslate_blockz_1"
+    },
+    {
+      "char": "Р",
+      "block": "lathe:betterblockz__ironslate_blockz_1_vslab[facing=east,type=single]"
+    },
+    {
+      "char": "С",
+      "block": "lathe:betterblockz__ironslate_blockz_1_vslab[facing=west,type=single]"
+    },
+    {
+      "char": "Т",
+      "block": "betterblockz:cyberlight_blockz_0"
+    },
+    {
+      "char": "У",
+      "block": "minecraft:structure_void"
+    },
+    {
+      "char": "Х",
+      "block": "betterblockz:mint_blockz_8"
+    },
+    {
+      "char": "Ч",
+      "block": "betterblockz:ironslate_blockz_1"
+    },
+    {
+      "char": "Ъ",
+      "block": "lathe:betterblockz__ironslate_blockz_1_stairs[facing=east,half=top,shape=straight]"
+    },
+    {
+      "char": "Ы",
+      "block": "lathe:betterblockz__ironslate_blockz_1_stairs[facing=north,half=top,shape=straight]"
+    },
+    {
+      "char": "Ь",
+      "block": "lathe:betterblockz__ironslate_blockz_1_stairs[facing=south,half=top,shape=straight]"
+    },
+    {
+      "char": "Э",
+      "block": "lathe:betterblockz__ironslate_blockz_1_stairs[facing=west,half=top,shape=outer_right]"
+    },
+    {
+      "char": "Ю",
+      "block": "lathe:betterblockz__ironslate_blockz_1_stairs[facing=west,half=top,shape=straight]"
+    },
+    {
+      "char": "Я",
+      "block": "betterblockz:iszm_blockz_2"
+    },
+    {
+      "char": "Ѐ",
+      "block": "lathe:betterblockz__iszm_blockz_2_slab[type=bottom]"
+    },
+    {
+      "char": "Ё",
+      "block": "betterblockz:zeno_white_blockz_10"
+    },
+    {
+      "char": "Ђ",
+      "block": "lathe:betterblockz__zeno_white_blockz_10_vslab[facing=east,type=single]"
+    },
+    {
+      "char": "Ѓ",
+      "block": "lathe:betterblockz__zeno_white_blockz_10_vslab[facing=north,type=single]"
+    },
+    {
+      "char": "Є",
+      "block": "lathe:betterblockz__zeno_white_blockz_10_vslab[facing=south,type=single]"
+    },
+    {
+      "char": "Ѕ",
+      "block": "lathe:betterblockz__zeno_white_blockz_10_vslab[facing=west,type=single]"
+    },
+    {
+      "char": "І",
+      "block": "betterblockz:lablink_blockz_1"
+    },
+    {
+      "char": "Ї",
+      "block": "betterblockz:vect_blockz_4"
+    },
+    {
+      "char": "Ј",
+      "block": "lathe:betterblockz__lablink_blockz_0_stairs[facing=north,half=top,shape=straight]"
+    },
+    {
+      "char": "Љ",
+      "block": "lathe:betterblockz__lablink_blockz_0_stairs[facing=south,half=top,shape=straight]"
+    },
+    {
+      "char": "Њ",
+      "block": "betterblockz:lave_blockz_6"
+    }
+  ]
+}

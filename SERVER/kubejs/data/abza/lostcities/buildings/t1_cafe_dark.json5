@@ -1,0 +1,33 @@
+// t1_cafe_dark: 3 storeys
+{
+  "refpalette": "abza:t1_cafe_dark",
+  "filler": "ѻ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 3,
+  "maxfloors": 3,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "parts": [
+    {
+      "part": "abza:t1_cafe_dark_ground",
+      "top": false,
+      "ground": true
+    },
+    {
+      "part": "abza:t1_cafe_dark_l1",
+      "top": false,
+      "floor": 1
+    },
+    {
+      "part": "abza:t1_cafe_dark_l2",
+      "top": false,
+      "floor": 2
+    },
+    {
+      "part": "abza:t1_cafe_dark_top",
+      "top": true
+    }
+  ]
+}

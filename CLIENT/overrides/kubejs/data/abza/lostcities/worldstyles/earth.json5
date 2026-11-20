@@ -1,4 +1,4 @@
-// Earth, T1: city styles, highways
+// Earth, T1: city styles, scattered buildings, highways
 {
   // Blocks outside cities: highways, bridges, scattered buildings
   "outsidestyle": "abza:earth",
@@ -13,7 +13,7 @@
   "multisettings": {
     "areasize": 16,
     "minimum": 4,
-    "maximum": 8,
+    "maximum": 16,
     "correctstylefactor": 0.8,
     "attempts": 100
   },
@@ -51,6 +51,98 @@
       "railsdown1": "abza:earth_subway_straight",
       "railsdown2": "abza:earth_subway_straight"
     }
+  },
+  // Buildings outside cities, at most one per square of areasize chunks
+  "scattered": {
+    "areasize": 8,
+    "chance": 0.7,
+    "weightnone": 30,
+    "list": [
+      {
+        "name": "abza:t1_marina",
+        "weight": 1,
+        "maxheightdiff": 30,
+        "biomes": {
+          "if_any": ["minecraft:beach", "minecraft:ocean"]
+        }
+      },
+      {
+        "name": "abza:t1_marina_r1",
+        "weight": 2,
+        "maxheightdiff": 30,
+        "biomes": {
+          "if_any": ["minecraft:beach", "minecraft:ocean"]
+        }
+      },
+      {
+        "name": "abza:t1_marina_r2",
+        "weight": 1,
+        "maxheightdiff": 30,
+        "biomes": {
+          "if_any": ["minecraft:beach", "minecraft:ocean"]
+        }
+      },
+      {
+        "name": "abza:t1_marina_r3",
+        "weight": 2,
+        "maxheightdiff": 30,
+        "biomes": {
+          "if_any": ["minecraft:beach", "minecraft:ocean"]
+        }
+      },
+      {
+        "name": "abza:t1_charging_station",
+        "weight": 12,
+        "maxheightdiff": 12,
+        "biomes": {
+          "if_any": ["#abza:tier1"],
+          "excluding": ["#minecraft:is_ocean", "#minecraft:is_river", "#minecraft:is_beach"]
+        },
+        "nearhighway": true
+      },
+      {
+        "name": "abza:t1_marina_dark",
+        "weight": 1,
+        "maxheightdiff": 30,
+        "biomes": {
+          "if_any": ["minecraft:beach", "minecraft:ocean"]
+        }
+      },
+      {
+        "name": "abza:t1_marina_dark_r1",
+        "weight": 2,
+        "maxheightdiff": 30,
+        "biomes": {
+          "if_any": ["minecraft:beach", "minecraft:ocean"]
+        }
+      },
+      {
+        "name": "abza:t1_marina_dark_r2",
+        "weight": 1,
+        "maxheightdiff": 30,
+        "biomes": {
+          "if_any": ["minecraft:beach", "minecraft:ocean"]
+        }
+      },
+      {
+        "name": "abza:t1_marina_dark_r3",
+        "weight": 2,
+        "maxheightdiff": 30,
+        "biomes": {
+          "if_any": ["minecraft:beach", "minecraft:ocean"]
+        }
+      },
+      {
+        "name": "abza:t1_charging_station_dark",
+        "weight": 13,
+        "maxheightdiff": 12,
+        "biomes": {
+          "if_any": ["#abza:tier1"],
+          "excluding": ["#minecraft:is_ocean", "#minecraft:is_river", "#minecraft:is_beach"]
+        },
+        "nearhighway": true
+      }
+    ]
   },
   // City density by biome: none in the wilds, T2, T3, few on water
   "citybiomemultipliers": [

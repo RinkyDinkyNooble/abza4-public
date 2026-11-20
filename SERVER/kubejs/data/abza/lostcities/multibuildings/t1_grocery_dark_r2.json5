@@ -1,0 +1,10 @@
+// t1_grocery_dark_r2: t1_grocery_dark turned 180 degrees clockwise
+{
+  "dimx": 3,
+  "dimz": 3,
+  "buildings": [
+    ["abza:t1_grocery_dark_r2_00", "abza:t1_grocery_dark_r2_01", "abza:t1_grocery_dark_r2_02"],
+    ["abza:t1_grocery_dark_r2_10", "abza:t1_grocery_dark_r2_11", "abza:t1_grocery_dark_r2_12"],
+    ["abza:t1_grocery_dark_r2_20", "abza:t1_grocery_dark_r2_21", "abza:t1_grocery_dark_r2_22"]
+  ]
+}

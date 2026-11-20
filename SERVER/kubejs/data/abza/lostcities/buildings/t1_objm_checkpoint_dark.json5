@@ -1,0 +1,23 @@
+// t1_objm_checkpoint_dark: 1 storeys
+{
+  "refpalette": "abza:t1_objm_checkpoint_dark",
+  "filler": "љ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 1,
+  "maxfloors": 1,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "parts": [
+    {
+      "part": "abza:t1_objm_checkpoint_dark_ground",
+      "top": false,
+      "ground": true
+    },
+    {
+      "part": "abza:t1_objm_checkpoint_dark_top",
+      "top": true
+    }
+  ]
+}

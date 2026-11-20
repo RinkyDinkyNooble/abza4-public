@@ -1,21 +1,18 @@
 {
   "title": {
     "text": "Combat",
-    "color": "#FFA657",
+    "color": "#A3B1FF",
     "bold": true
   },
   "tip": {
     "text": "",
     "extra": [
       {
-        "text": "There's no anvil. "
-      },
-      {
         "text": "Gunsmiths",
         "color": "yellow"
       },
       {
-        "text": " repair your gear."
+        "text": " repair your gear for a price."
       }
     ]
   },

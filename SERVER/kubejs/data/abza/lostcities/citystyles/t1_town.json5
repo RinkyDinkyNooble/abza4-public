@@ -62,26 +62,310 @@
     ],
     "buildings": [
       {
-        "factor": 1.0,
+        "factor": 0.125,
         "value": "abza:t1_home_detached"
       },
       {
-        "factor": 1.0,
+        "factor": 0.125,
+        "value": "abza:t1_home_detached_r1"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_home_detached_r2"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_home_detached_r3"
+      },
+      {
+        "factor": 0.125,
         "value": "abza:t1_home_townhouse"
       },
       {
-        "factor": 1.0,
+        "factor": 0.125,
+        "value": "abza:t1_home_townhouse_r1"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_home_townhouse_r2"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_home_townhouse_r3"
+      },
+      {
+        "factor": 0.125,
         "value": "abza:t1_home_bungalow"
       },
       {
-        "factor": 0.4,
+        "factor": 0.125,
+        "value": "abza:t1_home_bungalow_r1"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_home_bungalow_r2"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_home_bungalow_r3"
+      },
+      {
+        "factor": 0.05,
         "value": "abza:t1_corner_shop"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_corner_shop_r1"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_corner_shop_r2"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_corner_shop_r3"
+      },
+      {
+        "factor": 0.015,
+        "value": "abza:t1_objm_survivor"
+      },
+      {
+        "factor": 0.015,
+        "value": "abza:t1_objm_survivor_r1"
+      },
+      {
+        "factor": 0.015,
+        "value": "abza:t1_objm_survivor_r2"
+      },
+      {
+        "factor": 0.015,
+        "value": "abza:t1_objm_survivor_r3"
+      },
+      {
+        "factor": 0.25,
+        "value": "abza:t1_park_playground"
+      },
+      {
+        "factor": 0.25,
+        "value": "abza:t1_park_playground_r1"
+      },
+      {
+        "factor": 0.25,
+        "value": "abza:t1_park_playground_r2"
+      },
+      {
+        "factor": 0.25,
+        "value": "abza:t1_park_playground_r3"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_home_detached_dark"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_home_detached_dark_r1"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_home_detached_dark_r2"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_home_detached_dark_r3"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_home_bungalow_dark"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_home_bungalow_dark_r1"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_home_bungalow_dark_r2"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_home_bungalow_dark_r3"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_corner_shop_dark"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_corner_shop_dark_r1"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_corner_shop_dark_r2"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_corner_shop_dark_r3"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_home_townhouse_dark"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_home_townhouse_dark_r1"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_home_townhouse_dark_r2"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_home_townhouse_dark_r3"
+      },
+      {
+        "factor": 0.015,
+        "value": "abza:t1_objm_survivor_dark"
+      },
+      {
+        "factor": 0.015,
+        "value": "abza:t1_objm_survivor_dark_r1"
+      },
+      {
+        "factor": 0.015,
+        "value": "abza:t1_objm_survivor_dark_r2"
+      },
+      {
+        "factor": 0.015,
+        "value": "abza:t1_objm_survivor_dark_r3"
       }
     ],
     "multibuildings": [
       {
-        "factor": 0.4,
-        "value": "abza:t1_car_park"
+        "factor": 0.05,
+        "value": "abza:t1_holdout"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_holdout_r1"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_holdout_r2"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_holdout_r3"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_emergency"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_emergency_r1"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_emergency_r2"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_emergency_r3"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_hardware"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_hardware_r1"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_hardware_r2"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_hardware_r3"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_grocery"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_grocery_r1"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_grocery_r2"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_grocery_r3"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_hardware_dark"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_hardware_dark_r1"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_hardware_dark_r2"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_hardware_dark_r3"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_grocery_dark"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_grocery_dark_r1"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_grocery_dark_r2"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_grocery_dark_r3"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_emergency_dark"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_emergency_dark_r1"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_emergency_dark_r2"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_emergency_dark_r3"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_holdout_dark"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_holdout_dark_r1"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_holdout_dark_r2"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_holdout_dark_r3"
       }
     ]
   }

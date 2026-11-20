@@ -1,0 +1,23 @@
+// t1_objm_survivor_r1: t1_objm_survivor turned 90 degrees clockwise
+{
+  "refpalette": "abza:t1_objm_survivor_r1",
+  "filler": "і",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 1,
+  "maxfloors": 1,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "parts": [
+    {
+      "part": "abza:t1_objm_survivor_r1_ground",
+      "top": false,
+      "ground": true
+    },
+    {
+      "part": "abza:t1_objm_survivor_r1_top",
+      "top": true
+    }
+  ]
+}

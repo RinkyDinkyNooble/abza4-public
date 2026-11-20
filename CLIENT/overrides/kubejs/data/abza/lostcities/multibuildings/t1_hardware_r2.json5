@@ -1,0 +1,10 @@
+// t1_hardware_r2: t1_hardware turned 180 degrees clockwise
+{
+  "dimx": 3,
+  "dimz": 2,
+  "buildings": [
+    ["abza:t1_hardware_r2_00", "abza:t1_hardware_r2_01"],
+    ["abza:t1_hardware_r2_10", "abza:t1_hardware_r2_11"],
+    ["abza:t1_hardware_r2_20", "abza:t1_hardware_r2_21"]
+  ]
+}

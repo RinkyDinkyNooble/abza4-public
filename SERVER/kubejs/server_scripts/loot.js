@@ -98,6 +98,8 @@ const ABZA_LOOT_KINDS = {
         'minecraft:diamond_shovel', 'minecraft:wooden_hoe', 'minecraft:stone_hoe', 'minecraft:iron_hoe', 'mekanism:configurator',
         'mekanism:gauge_dropper', 'superbwarfare:repair_tool', 'parcool:wooden_zipline_hook', 'parcool:iron_zipline_hook',
         'tacz:target'] },
+    // Grappling hooks
+    hooks: { from: ['gear'], only: ['grapplemod:grapplinghook'] },
     // Workshop consumables
     supplies: { from: ['gear'], only: ['minecraft:torch', 'parcool:zipline_rope'] },
     // Medicine but blood packs, and blood packs alone
@@ -113,10 +115,55 @@ const ABZA_LOOT_KINDS = {
     // Food on a shop's shelf: nothing raw
     shelffood: { from: ['food'], not: ['minecraft:beef', 'minecraft:chicken', 'minecraft:cod', 'minecraft:mutton',
         'minecraft:porkchop', 'minecraft:rabbit', 'minecraft:salmon', 'minecraft:pufferfish', 'minecraft:tropical_fish'] },
+    // Mercenary armour, the raiders' own set
+    mercenary: { from: ['armour'], only: ['trol_armor:lv_1c_helmet', 'trol_armor:lv_1c_chestplate',
+        'trol_armor:lv_1c_leggings', 'trol_armor:lv_1c_boots'] },
+    // Trauma Team armour, the medics' set, from the second tier's pool
+    trauma: { from: ['armour'], tier: 2, only: ['trol_armor:trauma_team_helmet', 'trol_armor:trauma_team_chestplate',
+        'trol_armor:trauma_team_leggings', 'trol_armor:trauma_team_boots'] },
+    // Police armour, the officers' set
+    police: { from: ['armour'], only: ['trol_armor:police_helmet', 'trol_armor:police_chestplate',
+        'trol_armor:police_leggings', 'trol_armor:police_boots'] },
+    // Light Tactical armour
+    tactical: { from: ['armour'], only: ['trol_armor:ltv_helmet', 'trol_armor:ltv_chestplate',
+        'trol_armor:ltv_leggings', 'trol_armor:ltv_boots'] },
+    // The flash shield
+    shield: { from: ['melee'], only: ['lrtactical:flash_shield'] },
+    // Flash and smoke grenades
+    riot: { from: ['explosives'], only: ['lrtactical:throwable{ThrowableId:"lrtactical:flash_grenade"}',
+        'lrtactical:throwable{ThrowableId:"lrtactical:smoke_grenade"}'] },
     // A pharmacy's stockroom: what medicine is made of
     dispensing: { from: ['materials'], only: ['minecraft:glass_bottle', 'minecraft:paper', 'minecraft:string',
         'minecraft:leather', 'minecraft:white_wool', 'minecraft:sugar'],
-        weights: { 'minecraft:glass_bottle': 4, 'minecraft:string': 4, 'minecraft:leather': 4 } }
+        weights: { 'minecraft:glass_bottle': 4, 'minecraft:string': 4, 'minecraft:leather': 4 } },
+    // Scuba gear
+    scuba: { from: ['armour'], only: ['mekanism:scuba_mask', 'mekanism:scuba_tank'] },
+    // Fish and what a harbour kiosk sells
+    seafood: { from: ['food'], only: ['minecraft:cod', 'minecraft:salmon', 'minecraft:cooked_cod',
+        'minecraft:cooked_salmon', 'minecraft:dried_kelp', 'farmersdelight:fish_stew', 'farmersdelight:grilled_salmon',
+        'farmersdelight:baked_cod_stew', 'farmersdelight:salmon_roll', 'farmersdelight:kelp_roll'] },
+    // Ordnance crates: vehicle machine gun belts most, mortar shells, rockets and missiles rarely
+    munitions: { from: ['ordnance'], weights: { 'superbwarfare:heavy_ammo': 8, 'superbwarfare:rifle_ammo': 4,
+        'superbwarfare:mortar_shell': 3, 'superbwarfare:mortar_shell_smoke': 3, 'superbwarfare:mortar_shell_wp': 1,
+        'superbwarfare:medium_rocket_he': 1, 'superbwarfare:medium_rocket_cm': 1, 'superbwarfare:medium_rocket_ap': 0.5,
+        'superbwarfare:small_rocket': 1, 'superbwarfare:medium_anti_ground_missile': 0.25 } },
+    // A museum's display cases: metals, stones and old books
+    exhibits: { from: ['materials'], only: ['minecraft:gold_ingot', 'minecraft:gold_nugget', 'minecraft:lapis_lazuli',
+        'minecraft:copper_ingot', 'minecraft:book', 'minecraft:bone', 'minecraft:flint', 'minecraft:brick',
+        'minecraft:clay_ball'], weights: { 'minecraft:gold_ingot': 3, 'minecraft:lapis_lazuli': 4, 'minecraft:clay_ball': 2 } },
+    // Lethal grenades and charges
+    breaching: { from: ['explosives'], only: ['lrtactical:throwable{ThrowableId:"lrtactical:m67"}',
+        'lrtactical:throwable{ThrowableId:"lrtactical:rgn"}', 'lrtactical:throwable{ThrowableId:"lrtactical:c4"}',
+        'lrtactical:throwable{ThrowableId:"lrtactical:molotov"}'] },
+    // Demolition charges
+    demolition: { from: ['explosives'], only: ['lrtactical:throwable{ThrowableId:"lrtactical:c4"}'] },
+    // EOD armour
+    eod: { from: ['armour'], only: ['trol_armor:eods_helmet', 'trol_armor:eods_chestplate', 'trol_armor:eods_leggings',
+        'trol_armor:eods_boots'] },
+    // A boss building's strongbox: one prize
+    prize: { from: ['gear'], only: ['sophisticatedbackpacks:backpack', 'tacz:ammo_box', 'dyairdrop:flaregun1',
+        'grapplemod:grapplinghook'], weights: { 'sophisticatedbackpacks:backpack': 4, 'tacz:ammo_box': 4,
+        'dyairdrop:flaregun1': 1, 'grapplemod:grapplinghook': 1 } }
 }
 
 // A source's entries in a tier: a category's pool, or a kind's items from its categories' pools
@@ -128,7 +175,7 @@ function abzaSourceEntries(source, tier) {
     var listed = (list, entry) => list.indexOf(entry[0]) >= 0 || list.indexOf(entry[0] + entry[1]) >= 0
     var entries = []
     ;(kind ? kind.from : [source]).forEach(category => {
-        ;(global.ABZA_LOOT[category + '_t' + tier] || []).forEach(entry => {
+        ;(global.ABZA_LOOT[category + '_t' + (kind && kind.tier ? Math.max(tier, kind.tier) : tier)] || []).forEach(entry => {
             if (kind && kind.only && !listed(kind.only, entry)) return
             if (kind && kind.not && listed(kind.not, entry)) return
             var weight = kind && kind.weights ? kind.weights[entry[0]] : undefined
@@ -277,13 +324,91 @@ const ABZA_BUILDING_LOOT_TABLES = [
     ['shop/dispensary', [['medicine', 1.25], ['toiletries', 2]]],
     ['shop/pharmacy_stock', [['dispensing', 5]]],
     ['shop/pharmacy_office', [['personal', 3], ['household', 1]], null, [['story', 'pharmacy_slip', 0.25, 1]]],
+    // The tech shop: the display shelves and the counter's cabinets, the workbenches and their drawers, the stockroom
+    ['shop/tech', [['parts', 1.5], ['workshop', 2], ['supplies', 0.5]]],
+    ['shop/bench', [['workshop', 4], ['parts', 1], ['supplies', 1], ['tools', 0.1]]],
+    ['shop/tech_stock', [['workshop', 3], ['parts', 1], ['supplies', 1]]],
+    // The grocery: the aisles' shelves, the back rooms, the seed and garden aisle, the staff lockers
+    ['grocery/shelf', [['shelffood', 0.2], ['household', 3], ['toiletries', 2], ['supplies', 1]]],
+    ['grocery/stock', [['shelffood', 0.08], ['household', 3], ['workshop', 2], ['supplies', 1], ['parts', 0.3]]],
+    ['shop/garden', [['farming', 6], ['gardening', 2], ['supplies', 0.5]]],
+    ['shop/locker', [['personal', 3], ['household', 1]], [1, 6, 0.2], [['note', 'safe', 0.33]]],
+    // The hardware store: the tool aisle, the building aisles and timber racks, the outdoor aisles, the office's safe
+    ['hardware/tools', [['workshop', 3], ['supplies', 1], ['homegear', 0.03], ['tools', 0.04]]],
+    ['hardware/build', [['workshop', 4], ['defence', 1.5]]],
+    ['hardware/outdoor', [['supplies', 1.5], ['household', 2], ['shelffood', 0.15], ['homegear', 0.03]]],
+    ['hardware/safe', [['ammo', 2], ['medicine', 1], ['homegear', 1]], [20, 50], [['pool', 'hooks', 0.3]]],
     // The car park: the attendant's office, the maintenance room, the decks' bins, cages and cabinets, the plant room
     ['carpark/office', [['household', 3], ['personal', 2], ['parts', 0.5], ['medicine', 0.2]], [1, 6, 0.2]],
     ['carpark/workshop', [['workshop', 4], ['parts', 1.5], ['supplies', 1], ['tools', 0.1]]],
     ['carpark/deck', [['household', 3], ['workshop', 2], ['supplies', 1], ['parts', 0.15], ['shelffood', 0.12]]],
     ['carpark/plant', [['workshop', 5], ['parts', 1], ['supplies', 1]]],
+    // The raider block: the armoury's racks and piles, the leader's cabinet, the taken goods on every floor, the bunks
+    // and lockers, the boxes by the barricades and the lookout
+    ['raider/armoury', [['ammo', 1.5], ['explosives', 0.5], ['supplies', 1.5], ['homegear', 0.1]], null, [['pool', 'guns', 0.08]]],
+    ['raider/cache', [['ammo', 2], ['medicine', 1.5], ['personal', 1]], [25, 60], [['pool', 'mercenary', 0.25]]],
+    ['raider/loot', [['household', 3], ['shelffood', 0.6], ['personal', 1.5], ['workshop', 1.5], ['medicine', 0.1], ['ammo', 0.05]], [1, 6, 0.2]],
+    ['raider/bunk', [['linen', 4], ['personal', 2], ['ammo', 0.1]], [1, 4, 0.15]],
+    ['raider/barricade', [['workshop', 3], ['defence', 2], ['explosives', 0.1]]],
+    // The emergency station: the drugs store behind its keypad door, the crew's lockers, the bays' racks and cabinets,
+    // the watch room's desk
+    ['emergency/drugs', [['medicine', 3], ['dispensing', 2]], null, [['pool', 'bloodpack', 0.05]]],
+    ['emergency/locker', [['personal', 3], ['toiletries', 1], ['linen', 1]], [1, 6, 0.3], [['pool', 'trauma', 0.05]]],
+    ['emergency/kit', [['supplies', 2], ['household', 1], ['workshop', 1], ['medicine', 0.3], ['defence', 0.5]], null, [['pool', 'melee', 0.09]]],
+    ['emergency/office', [['household', 3], ['personal', 2]], [5, 15]],
+    // The police station: the armoury's racks behind its keycard reader, the evidence vault's shelves behind its keypad,
+    // the officers' lockers, the desks, the cells and the custody desk
+    ['police/armoury', [['ammo', 2], ['attachments', 1], ['riot', 0.8], ['supplies', 0.5]], null, [['pool', 'guns', 0.08], ['pool', 'police', 0.1]]],
+    ['police/evidence', [['personal', 2], ['medicine', 0.5], ['homegear', 0.05], ['ammo', 0.3]], [10, 25, 0.6], [['pool', 'guns', 0.04]]],
+    ['police/locker', [['personal', 2], ['linen', 1], ['toiletries', 1], ['ammo', 0.1]], [1, 6, 0.3], [['pool', 'police', 0.04], ['pool', 'tactical', 0.02], ['pool', 'shield', 0.03]]],
+    ['police/office', [['household', 3], ['personal', 2], ['ammo', 0.05]], [1, 6, 0.2]],
+    ['police/custody', [['linen', 2], ['personal', 2]]],
+    ['police/stash', [['personal', 2], ['supplies', 1]]],
+    // The night's checkpoint: the ordnance crates, the officers' kit boxes
+    ['checkpoint/crate', [['munitions', 1]]],
+    ['checkpoint/kit', [['ammo', 1.2], ['personal', 1.5], ['riot', 0.4], ['supplies', 0.8], ['medicine', 0.3], ['shelffood', 0.4]], [1, 6, 0.3], [['pool', 'police', 0.06]]],
+    // The marina: the dive shop's racks and cabinets, the kiosk's coolers, the boathouse's racks, the berth holders'
+    // lockers
+    ['marina/dive', [['linen', 2], ['supplies', 1], ['toiletries', 1], ['medicine', 0.1], ['homegear', 0.08]], null, [['pool', 'scuba', 0.1]]],
+    ['marina/cooler', [['seafood', 3], ['shelffood', 1], ['kitchenware', 0.5]]],
+    ['marina/store', [['workshop', 3], ['supplies', 1.5], ['household', 1], ['parts', 0.3], ['homegear', 0.05]]],
+    ['marina/locker', [['personal', 2], ['linen', 1], ['toiletries', 1], ['medicine', 0.2]], [1, 6, 0.3]],
+    // The Survivors' holdout: the bunks and their boxes, the community's store room
+    ['holdout/bunk', [['linen', 5], ['personal', 2]], [1, 4, 0.1]],
+    ['holdout/store', [['household', 3], ['workshop', 2], ['supplies', 1], ['defence', 0.5], ['shelffood', 0.3]]],
+    // The Everwell clinic: the reception desk, the consulting and vaccination rooms, the cold room's fridges, the staff
+    // lockers, the offices and the nurses' station, the cellar's store; behind the records room's door its filing
+    // cabinets and the controlled-drug cabinet
+    ['clinic/reception', [['household', 3], ['personal', 2]], [4, 12, 0.6]],
+    ['clinic/consult', [['toiletries', 3], ['dispensing', 2], ['medicine', 0.45], ['household', 1]]],
+    ['clinic/cold', [['dispensing', 2], ['medicine', 0.4]], null, [['pool', 'bloodpack', 0.03]]],
+    ['clinic/locker', [['personal', 3], ['linen', 1], ['toiletries', 1]], [1, 6, 0.3]],
+    ['clinic/office', [['household', 3], ['personal', 2]], [1, 6, 0.2]],
+    ['clinic/store', [['dispensing', 3], ['linen', 1], ['household', 1], ['parts', 0.6], ['supplies', 0.5]]],
+    ['clinic/records', [['personal', 3], ['household', 1]], null, [['pool', 'intel', 0.1]]],
+    ['clinic/drugs', [['medicine', 3], ['dispensing', 1]], null, [['pool', 'bloodpack', 0.12]]],
+    // The museum: the galleries' display cases, the gift shop's shelves, the offices, the collection store, the
+    // guards' post; behind the sealed lab's door the security lockers, the weapons locker, the cold store, the lab's
+    // benches and its strongbox
+    ['museum/gallery', [['exhibits', 4], ['personal', 1]]],
+    ['museum/shop', [['household', 3], ['personal', 2], ['shelffood', 0.5]]],
+    ['museum/office', [['household', 3], ['personal', 2]], [1, 6, 0.4]],
+    ['museum/store', [['household', 2], ['workshop', 2], ['exhibits', 1], ['supplies', 1]]],
+    ['museum/guard', [['personal', 2], ['ammo', 1], ['supplies', 1], ['riot', 0.3], ['medicine', 0.3]], [1, 6, 0.3]],
+    ['museum/security', [['ammo', 0.8], ['breaching', 1], ['supplies', 1], ['personal', 1], ['medicine', 0.4]], null, [['pool', 'eod', 0.15]]],
+    ['museum/weapons', [['attachments', 2], ['ammo', 1]], null, [['pool', 'guns', 1]]],
+    ['museum/cold', [['medicine', 2], ['dispensing', 1]], null, [['pool', 'bloodpack', 0.15]]],
+    ['museum/lab', [['dispensing', 2], ['workshop', 1], ['parts', 1.5], ['supplies', 0.5]], null, [['pool', 'intel', 0.06]]],
+    ['museum/strongbox', [['personal', 2], ['medicine', 1], ['ammo', 0.5]], [40, 80], [['pool', 'prize', 1], ['pool', 'bloodpack', 0.2]]],
+    // The construction site: the floors' material stacks and site boxes, the welfare cabin's lockers, the blasting
+    // magazine
+    ['construction/site', [['workshop', 4], ['supplies', 1], ['defence', 0.5], ['parts', 0.2]]],
+    ['construction/locker', [['personal', 3], ['linen', 1], ['supplies', 0.5], ['medicine', 0.15]], [1, 6, 0.3]],
+    ['construction/magazine', [['supplies', 2], ['demolition', 1]]],
     // A stash off the main way, in any building: a Lootr chest, a roll for every player
     ['stash', [['ammo', 3], ['medicine', 1.5], ['shelffood', 1.5], ['personal', 1], ['supplies', 0.5]], [5, 15], [['pool', 'guns', 0.05]]],
+    // A stash in a shop whose prize is something else (the tech shop's machines): no gun
+    ['stash/shop', [['ammo', 3], ['medicine', 1.5], ['shelffood', 1.5], ['personal', 1], ['supplies', 0.5]], [5, 15]],
     // Prospero, the hub: the galley's and the bars' cupboards, the fridges, berths and wardrobes, nightstands, washbasins,
     // Ruth's cabinets, Bram's workshop and the engine room, the stores, everything else aboard
     ['hub/kitchen', [['kitchenware', 1]]],

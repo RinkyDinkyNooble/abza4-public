@@ -1,0 +1,7 @@
+// Marina, outside cities
+{
+  "multibuilding": "abza:t1_marina",
+  "terrainheight": "ocean",
+  "terrainfix": "repeatslice",
+  "heightoffset": -2
+}

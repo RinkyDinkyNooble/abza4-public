@@ -1,0 +1,31 @@
+// t1_car_park_dark: 4 by 4 chunks, 5 storeys and 1 cellar
+{
+  "dimx": 4,
+  "dimz": 4,
+  "buildings": [
+    [
+      "abza:t1_car_park_dark_00",
+      "abza:t1_car_park_dark_01",
+      "abza:t1_car_park_dark_02",
+      "abza:t1_car_park_dark_03"
+    ],
+    [
+      "abza:t1_car_park_dark_10",
+      "abza:t1_car_park_dark_11",
+      "abza:t1_car_park_dark_12",
+      "abza:t1_car_park_dark_13"
+    ],
+    [
+      "abza:t1_car_park_dark_20",
+      "abza:t1_car_park_dark_21",
+      "abza:t1_car_park_dark_22",
+      "abza:t1_car_park_dark_23"
+    ],
+    [
+      "abza:t1_car_park_dark_30",
+      "abza:t1_car_park_dark_31",
+      "abza:t1_car_park_dark_32",
+      "abza:t1_car_park_dark_33"
+    ]
+  ]
+}

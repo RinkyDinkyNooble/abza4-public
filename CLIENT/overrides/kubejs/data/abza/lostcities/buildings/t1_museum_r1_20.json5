@@ -1,0 +1,43 @@
+// t1_museum_r1_20: t1_museum turned 90 degrees clockwise
+{
+  "refpalette": "abza:t1_museum_r1",
+  "filler": "ӣ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 3,
+  "maxfloors": 3,
+  "mincellars": 2,
+  "maxcellars": 2,
+  "parts": [
+    {
+      "part": "abza:t1_museum_r1_20_c2",
+      "cellar": true,
+      "range": "-2,-2"
+    },
+    {
+      "part": "abza:t1_museum_r1_20_c1",
+      "cellar": true,
+      "range": "-1,-1"
+    },
+    {
+      "part": "abza:t1_museum_r1_20_ground",
+      "top": false,
+      "ground": true
+    },
+    {
+      "part": "abza:t1_museum_r1_20_l1",
+      "top": false,
+      "floor": 1
+    },
+    {
+      "part": "abza:t1_museum_r1_20_l2",
+      "top": false,
+      "floor": 2
+    },
+    {
+      "part": "abza:t1_museum_r1_20_top",
+      "top": true
+    }
+  ]
+}

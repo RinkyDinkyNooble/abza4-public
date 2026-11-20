@@ -1,0 +1,255 @@
+// t1_objm_survivor_dark_r2: t1_objm_survivor_dark turned 180 degrees clockwise
+{
+  "palette": [
+    {
+      "char": "а",
+      "block": "betterblockz:cyberlight_thin_0[facing=up]"
+    },
+    {
+      "char": "б",
+      "block": "betterblockz:zeno_orange_blockz_4[axis=y]"
+    },
+    {
+      "char": "в",
+      "block": "lathe:betterblockz__zeno_orange_blockz_4_stairs[facing=south,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "г",
+      "block": "lootr:lootr_chest[facing=north,type=single,waterlogged=false]",
+      "tag": {
+        "LootTable": "abza:chests/holdout/bunk"
+      }
+    },
+    {
+      "char": "д",
+      "block": "mdm:baskets[facing=south]"
+    },
+    {
+      "char": "е",
+      "block": "mdm:bedroom_set_1grey_single_bed[facing=north,part=front]",
+      "tag": {
+        "LootTable": "abza:chests/holdout/bunk"
+      }
+    },
+    {
+      "char": "ж",
+      "block": "mdm:bedroom_set_1grey_single_bed[facing=north,part=main]"
+    },
+    {
+      "char": "з",
+      "block": "mdm:black_armchair[facing=west,part=main]"
+    },
+    {
+      "char": "и",
+      "block": "mdm:black_armchair[facing=west,part=top]"
+    },
+    {
+      "char": "й",
+      "block": "mdm:black_modern_fridge_1[facing=east,part=main]",
+      "tag": {
+        "LootTable": "abza:chests/home/fridge"
+      }
+    },
+    {
+      "char": "к",
+      "block": "mdm:black_modern_fridge_1[facing=east,part=top]"
+    },
+    {
+      "char": "л",
+      "block": "mdm:boxes[facing=south]",
+      "tag": {
+        "LootTable": "abza:chests/holdout/store"
+      }
+    },
+    {
+      "char": "м",
+      "block": "mdm:coat_hanger[facing=north]"
+    },
+    {
+      "char": "н",
+      "block": "mdm:foyer_bench_white[facing=west]",
+      "tag": {
+        "LootTable": "abza:chests/holdout/store"
+      }
+    },
+    {
+      "char": "о",
+      "block": "mdm:lantern[facing=south]"
+    },
+    {
+      "char": "п",
+      "block": "mdm:mug[facing=south]"
+    },
+    {
+      "char": "р",
+      "block": "mdm:plate"
+    },
+    {
+      "char": "с",
+      "block": "mdm:set_1_chair[facing=east,part=main]"
+    },
+    {
+      "char": "т",
+      "block": "mdm:set_1_chair[facing=east,part=top]"
+    },
+    {
+      "char": "у",
+      "block": "mdm:set_1_coffe_table_1_tall[facing=north]"
+    },
+    {
+      "char": "ф",
+      "block": "mdm:small_table"
+    },
+    {
+      "char": "х",
+      "block": "minecraft:campfire[facing=south,lit=true,signal_fire=false,waterlogged=false]"
+    },
+    {
+      "char": "ц",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/setblock ~ ~ ~ minecraft:attached_melon_stem[facing=south]",
+        "auto": 1,
+        "conditionMet": 1
+      }
+    },
+    {
+      "char": "ч",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/setblock ~ ~ ~ minecraft:attached_melon_stem[facing=north]",
+        "auto": 1,
+        "conditionMet": 1
+      }
+    },
+    {
+      "char": "ш",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/spawnNPC 1 template_armed {skin:\"survivor\",name:\"random\",title:\"Trader\",faction:1,market:\"survivor_t1\",lines:\"survivor\",yaw:-180}",
+        "auto": 1,
+        "conditionMet": 1
+      }
+    },
+    {
+      "char": "щ",
+      "block": "minecraft:dirt"
+    },
+    {
+      "char": "ъ",
+      "block": "minecraft:melon"
+    },
+    {
+      "char": "ы",
+      "block": "minecraft:water[level=0]"
+    },
+    {
+      "char": "ь",
+      "block": "neoncraft:a_yellow[facing=south]"
+    },
+    {
+      "char": "э",
+      "block": "neoncraft:a_yellow[facing=north]"
+    },
+    {
+      "char": "ю",
+      "block": "neoncraft:d_yellow[facing=south]"
+    },
+    {
+      "char": "я",
+      "block": "neoncraft:d_yellow[facing=north]"
+    },
+    {
+      "char": "ѐ",
+      "block": "neoncraft:e_yellow[facing=south]"
+    },
+    {
+      "char": "ё",
+      "block": "neoncraft:e_yellow[facing=north]"
+    },
+    {
+      "char": "ђ",
+      "block": "neoncraft:r_yellow[facing=south]"
+    },
+    {
+      "char": "ѓ",
+      "block": "neoncraft:r_yellow[facing=north]"
+    },
+    {
+      "char": "є",
+      "block": "neoncraft:t_yellow[facing=south]"
+    },
+    {
+      "char": "ѕ",
+      "block": "neoncraft:t_yellow[facing=north]"
+    },
+    {
+      "char": "і",
+      "block": "betterblockz:myst_blockz_1"
+    },
+    {
+      "char": "ї",
+      "block": "lathe:betterblockz__lablink_blockz_0_slab[type=bottom]"
+    },
+    {
+      "char": "ј",
+      "block": "minecraft:spruce_door[facing=north,half=lower,hinge=left,open=false]"
+    },
+    {
+      "char": "љ",
+      "block": "minecraft:spruce_door[facing=north,half=lower,hinge=right,open=false]"
+    },
+    {
+      "char": "њ",
+      "block": "minecraft:spruce_door[facing=north,half=upper,hinge=left,open=false]"
+    },
+    {
+      "char": "ћ",
+      "block": "minecraft:spruce_door[facing=north,half=upper,hinge=right,open=false]"
+    },
+    {
+      "char": "ќ",
+      "block": "betterblockz:cyberlight_blockz_0"
+    },
+    {
+      "char": "ѝ",
+      "block": "betterblockz:mint_blockz_8"
+    },
+    {
+      "char": "ў",
+      "block": "betterblockz:zeno_orange_blockz_4"
+    },
+    {
+      "char": "џ",
+      "block": "lathe:betterblockz__zeno_orange_blockz_4_slab[type=bottom]"
+    },
+    {
+      "char": "А",
+      "block": "lathe:betterblockz__zeno_orange_blockz_4_stairs[facing=north,half=bottom,shape=straight]"
+    },
+    {
+      "char": "Б",
+      "block": "lathe:betterblockz__zeno_orange_blockz_4_vslab[facing=west,type=single]"
+    },
+    {
+      "char": "В",
+      "block": "lathe:betterblockz__zeno_orange_blockz_4_vslab[facing=south,type=single]"
+    },
+    {
+      "char": "Г",
+      "block": "lathe:betterblockz__zeno_orange_blockz_4_vslab[facing=north,type=single]"
+    },
+    {
+      "char": "Д",
+      "block": "lathe:betterblockz__zeno_orange_blockz_4_vslab[facing=east,type=single]"
+    },
+    {
+      "char": "Е",
+      "block": "betterblockz:vect_blockz_4"
+    },
+    {
+      "char": "Ж",
+      "block": "lathe:betterblockz__lablink_blockz_0_slab[type=top]"
+    }
+  ]
+}

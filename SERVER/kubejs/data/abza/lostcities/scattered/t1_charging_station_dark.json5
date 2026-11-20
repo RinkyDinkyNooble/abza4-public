@@ -1,0 +1,9 @@
+// Charging and fuel station, outside cities
+{
+  "buildings": ["abza:t1_charging_station_dark"],
+  "terrainheight": "highest",
+  "terrainfix": "repeatslice",
+  "heightoffset": -2,
+  "rotatable": false,
+  "clearhighwayrailing": true
+}

@@ -1,0 +1,808 @@
+// t1_home_bungalow_dark_r2: t1_home_bungalow_dark turned 180 degrees clockwise
+{
+  "palette": [
+    {
+      "char": "а",
+      "block": "betterblockz:cyberlight_blockz_0[lit=true]"
+    },
+    {
+      "char": "б",
+      "block": "betterblockz:cyberlight_thin_alt_0[facing=down]"
+    },
+    {
+      "char": "в",
+      "block": "betterblockz:ironslate_blockz_1"
+    },
+    {
+      "char": "г",
+      "block": "betterblockz:myst_blockz_1"
+    },
+    {
+      "char": "д",
+      "block": "betterblockz:myst_blockz_1"
+    },
+    {
+      "char": "е",
+      "block": "lathe:betterblockz__ironslate_blockz_1_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "ж",
+      "block": "lathe:betterblockz__ironslate_blockz_1_vslab[facing=east,type=single,waterlogged=false]"
+    },
+    {
+      "char": "з",
+      "block": "lathe:betterblockz__myst_blockz_1_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "и",
+      "block": "lathe:betterblockz__tintedglass_blockz_4_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "й",
+      "block": "lathe:betterblockz__tintedglass_blockz_4_vslab[facing=east,type=single,waterlogged=false]"
+    },
+    {
+      "char": "к",
+      "block": "lathe:betterblockz__zeno_orange_blockz_4_vslab[facing=east,type=single,waterlogged=false]"
+    },
+    {
+      "char": "л",
+      "block": "lootr:lootr_chest[facing=west,type=single,waterlogged=false]",
+      "tag": {
+        "LootTable": "abza:chests/home/keepsakes"
+      }
+    },
+    {
+      "char": "м",
+      "block": "lootr:lootr_chest[facing=west,type=single,waterlogged=false]",
+      "tag": {
+        "LootTable": "abza:chests/home/post"
+      }
+    },
+    {
+      "char": "н",
+      "block": "mdm:bathroom_mirror[facing=north,part=bottom]"
+    },
+    {
+      "char": "о",
+      "block": "mdm:bathroom_mirror[facing=north,part=main]"
+    },
+    {
+      "char": "п",
+      "block": "mdm:bathroom_radiator[facing=east,part=main]"
+    },
+    {
+      "char": "р",
+      "block": "mdm:bathroom_radiator[facing=east,part=top]"
+    },
+    {
+      "char": "с",
+      "block": "mdm:bathroom_sink_with_shelf[facing=north]",
+      "tag": {
+        "LootTable": "abza:chests/home/bathroom"
+      }
+    },
+    {
+      "char": "т",
+      "block": "mdm:bathroom_stand[facing=north,part=main]",
+      "tag": {
+        "LootTable": "abza:chests/home/bathroom"
+      }
+    },
+    {
+      "char": "у",
+      "block": "mdm:bathroom_stand[facing=north,part=top]"
+    },
+    {
+      "char": "ф",
+      "block": "mdm:bedroom_set_1white_doublebed[facing=east,part=front]",
+      "tag": {
+        "LootTable": "abza:chests/home/bedroom"
+      }
+    },
+    {
+      "char": "х",
+      "block": "mdm:bedroom_set_1white_doublebed[facing=east,part=front_right]"
+    },
+    {
+      "char": "ц",
+      "block": "mdm:bedroom_set_1white_doublebed[facing=east,part=main]"
+    },
+    {
+      "char": "ч",
+      "block": "mdm:bedroom_set_1white_doublebed[facing=east,part=right]"
+    },
+    {
+      "char": "ш",
+      "block": "mdm:bedroom_set_1whitedressermid[facing=west]",
+      "tag": {
+        "LootTable": "abza:chests/home/bedroom"
+      }
+    },
+    {
+      "char": "щ",
+      "block": "mdm:bedroom_set_1whitenightstand_1[facing=east]",
+      "tag": {
+        "LootTable": "abza:chests/home/nightstand"
+      }
+    },
+    {
+      "char": "ъ",
+      "block": "mdm:bedroom_set_1whitewardrobe[facing=west,part=main]",
+      "tag": {
+        "LootTable": "abza:chests/home/bedroom"
+      }
+    },
+    {
+      "char": "ы",
+      "block": "mdm:bedroom_set_1whitewardrobe[facing=west,part=top]"
+    },
+    {
+      "char": "ь",
+      "block": "mdm:big_ceiling_lamp[facing=south,part=left]"
+    },
+    {
+      "char": "э",
+      "block": "mdm:big_ceiling_lamp[facing=south,part=main]"
+    },
+    {
+      "char": "ю",
+      "block": "mdm:big_ceiling_lamp[facing=south,part=right]"
+    },
+    {
+      "char": "я",
+      "block": "mdm:big_ceiling_light[facing=south]"
+    },
+    {
+      "char": "ѐ",
+      "block": "mdm:bowl[facing=south]"
+    },
+    {
+      "char": "ё",
+      "block": "mdm:carpet_3[facing=west,part=front]"
+    },
+    {
+      "char": "ђ",
+      "block": "mdm:carpet_3[facing=west,part=front_left]"
+    },
+    {
+      "char": "ѓ",
+      "block": "mdm:carpet_3[facing=west,part=front_right]"
+    },
+    {
+      "char": "є",
+      "block": "mdm:carpet_3[facing=west,part=left]"
+    },
+    {
+      "char": "ѕ",
+      "block": "mdm:carpet_3[facing=west,part=main]"
+    },
+    {
+      "char": "і",
+      "block": "mdm:carpet_3[facing=west,part=right]"
+    },
+    {
+      "char": "ї",
+      "block": "mdm:chopping_board[facing=west]"
+    },
+    {
+      "char": "ј",
+      "block": "mdm:door_mat[facing=south]"
+    },
+    {
+      "char": "љ",
+      "block": "mdm:foyer_bench_white[facing=west]",
+      "tag": {
+        "LootTable": "abza:chests/home/odds"
+      }
+    },
+    {
+      "char": "њ",
+      "block": "mdm:gas_stove[facing=west]"
+    },
+    {
+      "char": "ћ",
+      "block": "mdm:grey_couch_corner[facing=south]"
+    },
+    {
+      "char": "ќ",
+      "block": "mdm:grey_couch_left[facing=south]"
+    },
+    {
+      "char": "ѝ",
+      "block": "mdm:grey_couch_middle[facing=west]"
+    },
+    {
+      "char": "ў",
+      "block": "mdm:grey_couch_right[facing=west]"
+    },
+    {
+      "char": "џ",
+      "block": "mdm:kitchen_set_3_bar_chair[facing=south]"
+    },
+    {
+      "char": "А",
+      "block": "mdm:kitchen_set_3_corner_counter_with_sink[facing=west,part=main]",
+      "tag": {
+        "LootTable": "abza:chests/home/kitchen"
+      }
+    },
+    {
+      "char": "Б",
+      "block": "mdm:kitchen_set_3_corner_counter_with_sink[facing=west,part=top]"
+    },
+    {
+      "char": "В",
+      "block": "mdm:kitchen_set_3_counter[facing=north]",
+      "tag": {
+        "LootTable": "abza:chests/home/kitchen"
+      }
+    },
+    {
+      "char": "Г",
+      "block": "mdm:kitchen_set_3_counter_2[facing=west]",
+      "tag": {
+        "LootTable": "abza:chests/home/kitchen"
+      }
+    },
+    {
+      "char": "Д",
+      "block": "mdm:kitchen_set_3_counter_3[facing=south]",
+      "tag": {
+        "LootTable": "abza:chests/home/kitchen"
+      }
+    },
+    {
+      "char": "Е",
+      "block": "mdm:kitchen_set_3_dishwasher[facing=north]",
+      "tag": {
+        "LootTable": "abza:chests/home/kitchen"
+      }
+    },
+    {
+      "char": "Ж",
+      "block": "mdm:kitchen_set_3_fridge_bottom[facing=west]",
+      "tag": {
+        "LootTable": "abza:chests/home/fridge"
+      }
+    },
+    {
+      "char": "З",
+      "block": "mdm:kitchen_set_3_fridge_top[facing=west]",
+      "tag": {
+        "LootTable": "abza:chests/home/fridge"
+      }
+    },
+    {
+      "char": "К",
+      "block": "mdm:kitchen_set_3_hanging_cabinet[facing=west]",
+      "tag": {
+        "LootTable": "abza:chests/home/kitchen"
+      }
+    },
+    {
+      "char": "Л",
+      "block": "mdm:kitchen_set_3_hanging_corner_cabinet[facing=west]",
+      "tag": {
+        "LootTable": "abza:chests/home/kitchen"
+      }
+    },
+    {
+      "char": "М",
+      "block": "mdm:kitchen_set_3_oven_bottom[facing=west]",
+      "tag": {
+        "LootTable": "abza:chests/home/kitchen"
+      }
+    },
+    {
+      "char": "Н",
+      "block": "mdm:kitchen_set_3_small_hanging_cabinet[facing=north]",
+      "tag": {
+        "LootTable": "abza:chests/home/kitchen"
+      }
+    },
+    {
+      "char": "О",
+      "block": "mdm:lantern[facing=south]"
+    },
+    {
+      "char": "Р",
+      "block": "mdm:modern_desk_lamp_1[facing=east]"
+    },
+    {
+      "char": "С",
+      "block": "mdm:modern_lamp_1[facing=south,part=main]"
+    },
+    {
+      "char": "Т",
+      "block": "mdm:modern_lamp_1[facing=south,part=top]"
+    },
+    {
+      "char": "У",
+      "block": "mdm:mug[facing=south]"
+    },
+    {
+      "char": "Х",
+      "block": "mdm:office_cabinet_1[facing=east]",
+      "tag": {
+        "LootTable": "abza:chests/home/nightstand"
+      }
+    },
+    {
+      "char": "Ч",
+      "block": "mdm:outdoor_couch[facing=west]"
+    },
+    {
+      "char": "Ъ",
+      "block": "mdm:outdoor_couch[facing=east]"
+    },
+    {
+      "char": "Ы",
+      "block": "mdm:painting_03[facing=east,part=left]"
+    },
+    {
+      "char": "Ь",
+      "block": "mdm:painting_03[facing=east,part=main]"
+    },
+    {
+      "char": "Э",
+      "block": "mdm:painting_03[facing=east,part=right]"
+    },
+    {
+      "char": "Ю",
+      "block": "mdm:potted_tree[facing=south,part=main]"
+    },
+    {
+      "char": "Я",
+      "block": "mdm:potted_tree[facing=south,part=top]"
+    },
+    {
+      "char": "Ѐ",
+      "block": "mdm:rain_shower[facing=west]"
+    },
+    {
+      "char": "Ё",
+      "block": "mdm:set_3_coffe_table_decorated[facing=east]",
+      "tag": {
+        "LootTable": "abza:chests/home/odds"
+      }
+    },
+    {
+      "char": "Ђ",
+      "block": "mdm:small_ceiling_lamp[facing=north]"
+    },
+    {
+      "char": "Ѓ",
+      "block": "mdm:small_table"
+    },
+    {
+      "char": "Є",
+      "block": "mdm:toilet[facing=east,part=main]"
+    },
+    {
+      "char": "Ѕ",
+      "block": "mdm:toilet[facing=east,part=top]"
+    },
+    {
+      "char": "І",
+      "block": "mdm:towel_set_1[facing=east]"
+    },
+    {
+      "char": "Ї",
+      "block": "mdm:tv_stand_left[facing=east]",
+      "tag": {
+        "LootTable": "abza:chests/home/odds"
+      }
+    },
+    {
+      "char": "Ј",
+      "block": "mdm:tv_stand_mid[facing=east]",
+      "tag": {
+        "LootTable": "abza:chests/home/odds"
+      }
+    },
+    {
+      "char": "Љ",
+      "block": "mdm:tv_stand_right[facing=east]",
+      "tag": {
+        "LootTable": "abza:chests/home/odds"
+      }
+    },
+    {
+      "char": "Њ",
+      "block": "mdm:wall_lamp[facing=west]"
+    },
+    {
+      "char": "Ћ",
+      "block": "mdm:wall_lamp[facing=south]"
+    },
+    {
+      "char": "Ќ",
+      "block": "mdm:wall_lamp[facing=north]"
+    },
+    {
+      "char": "Ѝ",
+      "block": "mdm:wall_lamp[facing=east]"
+    },
+    {
+      "char": "Ў",
+      "block": "mdm:wall_lamp_2[facing=north]"
+    },
+    {
+      "char": "Џ",
+      "block": "mdm:white_bathtub[facing=west,part=back]"
+    },
+    {
+      "char": "Ѡ",
+      "block": "mdm:white_bathtub[facing=west,part=main]"
+    },
+    {
+      "char": "ѡ",
+      "block": "mdm:white_wood_foyer_wall_unit[facing=west,part=main]",
+      "tag": {
+        "LootTable": "abza:chests/home/odds"
+      }
+    },
+    {
+      "char": "Ѣ",
+      "block": "mdm:white_wood_foyer_wall_unit[facing=west,part=right]"
+    },
+    {
+      "char": "ѣ",
+      "block": "mdm:white_wood_foyer_wall_unit_top[facing=west,part=bottom]"
+    },
+    {
+      "char": "Ѥ",
+      "block": "mdm:white_wood_foyer_wall_unit_top[facing=west,part=bottom_right]"
+    },
+    {
+      "char": "ѥ",
+      "block": "mdm:white_wood_foyer_wall_unit_top[facing=west,part=main]"
+    },
+    {
+      "char": "Ѧ",
+      "block": "mdm:white_wood_foyer_wall_unit_top[facing=west,part=right]"
+    },
+    {
+      "char": "ѧ",
+      "block": "mdm:white_wood_foyer_wall_unit_top[facing=west,part=top]"
+    },
+    {
+      "char": "Ѩ",
+      "block": "mdm:white_wood_foyer_wall_unit_top[facing=west,part=top_right]"
+    },
+    {
+      "char": "ѩ",
+      "block": "mdm:window_blinds[facing=south,part=bottom]"
+    },
+    {
+      "char": "Ѫ",
+      "block": "mdm:window_blinds[facing=south,part=main]"
+    },
+    {
+      "char": "ѫ",
+      "block": "mdm:window_blinds[facing=south,part=top]"
+    },
+    {
+      "char": "Ѭ",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/placeKeypad securitycraft:keypad_chest[facing=east]{LootTable:\"abza:chests/home/safe\"} safe 0.33",
+        "auto": 1,
+        "conditionMet": 1
+      }
+    },
+    {
+      "char": "ѭ",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/setblock ~ ~ ~ lathe:betterblockz__myst_blockz_1_stairs[facing=south,half=bottom,shape=outer_left]",
+        "auto": 1,
+        "conditionMet": 1
+      }
+    },
+    {
+      "char": "Ѯ",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/setblock ~ ~ ~ lathe:betterblockz__myst_blockz_1_stairs[facing=south,half=bottom,shape=outer_right]",
+        "auto": 1,
+        "conditionMet": 1
+      }
+    },
+    {
+      "char": "ѯ",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/setblock ~ ~ ~ lathe:betterblockz__myst_blockz_1_stairs[facing=north,half=bottom,shape=inner_left]",
+        "auto": 1,
+        "conditionMet": 1
+      }
+    },
+    {
+      "char": "Ѱ",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/setblock ~ ~ ~ lathe:betterblockz__myst_blockz_1_stairs[facing=north,half=bottom,shape=outer_left]",
+        "auto": 1,
+        "conditionMet": 1
+      }
+    },
+    {
+      "char": "ѱ",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/setblock ~ ~ ~ lathe:betterblockz__myst_blockz_1_stairs[facing=north,half=bottom,shape=outer_right]",
+        "auto": 1,
+        "conditionMet": 1
+      }
+    },
+    {
+      "char": "Ѳ",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/setblock ~ ~ ~ lathe:betterblockz__myst_blockz_1_stairs[facing=east,half=bottom,shape=inner_left]",
+        "auto": 1,
+        "conditionMet": 1
+      }
+    },
+    {
+      "char": "ѳ",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/spawnEntity common 1 {Chance:0.2d}",
+        "auto": 1,
+        "conditionMet": 1
+      }
+    },
+    {
+      "char": "Ѵ",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/spawnEntity common 1 {Chance:0.3d}",
+        "auto": 1,
+        "conditionMet": 1
+      }
+    },
+    {
+      "char": "ѵ",
+      "block": "betterblockz:myst_blockz_1"
+    },
+    {
+      "char": "Ѷ",
+      "block": "lathe:betterblockz__myst_blockz_1_vslab[facing=west,type=single]"
+    },
+    {
+      "char": "ѷ",
+      "block": "lathe:betterblockz__myst_blockz_1_vslab[facing=south,type=single]"
+    },
+    {
+      "char": "Ѹ",
+      "block": "lathe:betterblockz__myst_blockz_1_vslab[facing=north,type=single]"
+    },
+    {
+      "char": "ѹ",
+      "block": "lathe:betterblockz__myst_blockz_1_vslab[facing=east,type=single]"
+    },
+    {
+      "char": "Ѻ",
+      "block": "betterblockz:ironslate_blockz_1"
+    },
+    {
+      "char": "ѻ",
+      "block": "lathe:betterblockz__lablink_blockz_0_slab[type=bottom]"
+    },
+    {
+      "char": "Ѽ",
+      "block": "minecraft:oak_door[facing=south,half=lower,hinge=left,open=false]"
+    },
+    {
+      "char": "ѽ",
+      "block": "minecraft:oak_door[facing=south,half=upper,hinge=left,open=false]"
+    },
+    {
+      "char": "Ѿ",
+      "block": "minecraft:oak_door[facing=north,half=lower,hinge=left,open=false]"
+    },
+    {
+      "char": "ѿ",
+      "block": "minecraft:oak_door[facing=north,half=upper,hinge=left,open=false]"
+    },
+    {
+      "char": "Ҁ",
+      "block": "betterblockz:zeno_orange_blockz_4"
+    },
+    {
+      "char": "ҁ",
+      "block": "minecraft:oak_planks"
+    },
+    {
+      "char": "Ҋ",
+      "block": "lathe:betterblockz__tintedglass_blockz_4_vslab[facing=west,type=single]"
+    },
+    {
+      "char": "ҋ",
+      "block": "lathe:betterblockz__tintedglass_blockz_4_vslab[facing=south,type=single]"
+    },
+    {
+      "char": "Ҍ",
+      "block": "lathe:betterblockz__tintedglass_blockz_4_vslab[facing=north,type=single]"
+    },
+    {
+      "char": "ҍ",
+      "block": "lathe:betterblockz__tintedglass_blockz_4_vslab[facing=east,type=single]"
+    },
+    {
+      "char": "Ҏ",
+      "block": "minecraft:oak_leaves[persistent=true]"
+    },
+    {
+      "char": "ҏ",
+      "block": "minecraft:birch_door[facing=west,half=lower,hinge=left,open=false]"
+    },
+    {
+      "char": "Ґ",
+      "block": "minecraft:birch_door[facing=west,half=upper,hinge=left,open=false]"
+    },
+    {
+      "char": "ґ",
+      "block": "minecraft:birch_door[facing=south,half=lower,hinge=left,open=false]"
+    },
+    {
+      "char": "Ғ",
+      "block": "minecraft:birch_door[facing=south,half=upper,hinge=left,open=false]"
+    },
+    {
+      "char": "ғ",
+      "block": "minecraft:birch_door[facing=north,half=lower,hinge=left,open=false]"
+    },
+    {
+      "char": "Ҕ",
+      "block": "minecraft:birch_door[facing=north,half=upper,hinge=left,open=false]"
+    },
+    {
+      "char": "ҕ",
+      "block": "betterblockz:ironslate_blockz_1"
+    },
+    {
+      "char": "Җ",
+      "block": "betterblockz:cyberlight_blockz_0"
+    },
+    {
+      "char": "җ",
+      "block": "betterblockz:mint_blockz_8"
+    },
+    {
+      "char": "Ҙ",
+      "block": "betterblockz:ironslate_blockz_1"
+    },
+    {
+      "char": "ҙ",
+      "block": "lathe:betterblockz__ironslate_blockz_1_stairs[facing=west,half=bottom,shape=straight]"
+    },
+    {
+      "char": "Қ",
+      "block": "lathe:betterblockz__ironslate_blockz_1_stairs[facing=south,half=bottom,shape=straight]"
+    },
+    {
+      "char": "қ",
+      "block": "lathe:betterblockz__ironslate_blockz_1_stairs[facing=north,half=bottom,shape=straight]"
+    },
+    {
+      "char": "Ҝ",
+      "block": "lathe:betterblockz__ironslate_blockz_1_stairs[facing=east,half=bottom,shape=straight]"
+    },
+    {
+      "char": "ҝ",
+      "block": "lathe:betterblockz__ironslate_blockz_1_vslab[facing=west,type=single]"
+    },
+    {
+      "char": "Ҟ",
+      "block": "lathe:betterblockz__ironslate_blockz_1_vslab[facing=south,type=single]"
+    },
+    {
+      "char": "ҟ",
+      "block": "lathe:betterblockz__ironslate_blockz_1_vslab[facing=north,type=single]"
+    },
+    {
+      "char": "Ҡ",
+      "block": "lathe:betterblockz__ironslate_blockz_1_vslab[facing=east,type=single]"
+    },
+    {
+      "char": "ҡ",
+      "block": "betterblockz:myst_blockz_1"
+    },
+    {
+      "char": "Ң",
+      "block": "lathe:betterblockz__myst_blockz_1_stairs[facing=west,half=bottom,shape=straight]"
+    },
+    {
+      "char": "ң",
+      "block": "lathe:betterblockz__myst_blockz_1_stairs[facing=south,half=bottom,shape=straight]"
+    },
+    {
+      "char": "Ҥ",
+      "block": "lathe:betterblockz__myst_blockz_1_stairs[facing=north,half=bottom,shape=straight]"
+    },
+    {
+      "char": "ҥ",
+      "block": "lathe:betterblockz__myst_blockz_1_stairs[facing=east,half=bottom,shape=straight]"
+    },
+    {
+      "char": "Ҧ",
+      "block": "betterblockz:zeno_orange_blockz_4"
+    },
+    {
+      "char": "ҧ",
+      "block": "lathe:betterblockz__zeno_orange_blockz_4_stairs[facing=west,half=top,shape=straight]"
+    },
+    {
+      "char": "Ҩ",
+      "block": "betterblockz:tank_blockz_19"
+    },
+    {
+      "char": "ҩ",
+      "block": "betterblockz:lave_blockz_6"
+    },
+    {
+      "char": "Ҫ",
+      "blocks": [
+        {
+          "random": 72,
+          "block": "mdm:chlothesbin[facing=east]"
+        },
+        {
+          "random": 56,
+          "block": "minecraft:air"
+        }
+      ]
+    },
+    {
+      "char": "ҫ",
+      "blocks": [
+        {
+          "random": 56,
+          "block": "mdm:knife_stand[facing=north]"
+        },
+        {
+          "random": 40,
+          "block": "mdm:seasoning_rack[facing=north]"
+        },
+        {
+          "random": 32,
+          "block": "minecraft:air"
+        }
+      ]
+    },
+    {
+      "char": "Ҭ",
+      "blocks": [
+        {
+          "random": 48,
+          "block": "mdm:mug[facing=south]"
+        },
+        {
+          "random": 24,
+          "block": "mdm:bowl[facing=south]"
+        },
+        {
+          "random": 56,
+          "block": "minecraft:air"
+        }
+      ]
+    },
+    {
+      "char": "ҭ",
+      "blocks": [
+        {
+          "random": 48,
+          "block": "mdm:potted_cactus"
+        },
+        {
+          "random": 80,
+          "block": "minecraft:air"
+        }
+      ]
+    }
+  ]
+}

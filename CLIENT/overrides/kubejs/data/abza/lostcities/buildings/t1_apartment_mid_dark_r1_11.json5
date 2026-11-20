@@ -1,0 +1,43 @@
+// t1_apartment_mid_dark_r1_11: t1_apartment_mid_dark turned 90 degrees clockwise
+{
+  "refpalette": "abza:t1_apartment_mid_dark_r1",
+  "filler": "ӑ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 4,
+  "maxfloors": 5,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "parts": [
+    {
+      "part": "abza:t1_apartment_mid_dark_r1_11_ground",
+      "ground": true,
+      "top": false
+    },
+    {
+      "part": "abza:t1_apartment_mid_dark_r1_11_upper_a",
+      "floor": 1,
+      "top": false
+    },
+    {
+      "part": "abza:t1_apartment_mid_dark_r1_11_upper_b",
+      "floor": 2,
+      "top": false
+    },
+    {
+      "part": "abza:t1_apartment_mid_dark_r1_11_upper_a",
+      "floor": 3,
+      "top": false
+    },
+    {
+      "part": "abza:t1_apartment_mid_dark_r1_11_upper_b",
+      "floor": 4,
+      "top": false
+    },
+    {
+      "part": "abza:t1_apartment_mid_dark_r1_11_roof",
+      "top": true
+    }
+  ]
+}

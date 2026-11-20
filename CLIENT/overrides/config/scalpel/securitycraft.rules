@@ -48,14 +48,14 @@ hide any securitycraft:secret_crimson_*
 hide any securitycraft:secret_warped_*
 
 # Modules
-redact item securitycraft:speed_module
-redact item securitycraft:smart_module
-redact item securitycraft:harming_module
-redact item securitycraft:disguise_module
-redact item securitycraft:whitelist_module
-redact item securitycraft:blacklist_module
-redact item securitycraft:redstone_module
-redact item securitycraft:storage_module
+hide item securitycraft:speed_module
+hide item securitycraft:smart_module
+hide item securitycraft:harming_module
+hide item securitycraft:disguise_module
+hide item securitycraft:whitelist_module
+hide item securitycraft:blacklist_module
+hide item securitycraft:redstone_module
+hide item securitycraft:storage_module
 
 # Inventory scanner, claymore, IMS, track mine and bouncing betty
 redact any securitycraft:inventory_scanner

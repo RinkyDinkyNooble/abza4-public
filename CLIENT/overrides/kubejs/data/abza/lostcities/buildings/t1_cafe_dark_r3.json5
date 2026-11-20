@@ -1,0 +1,33 @@
+// t1_cafe_dark_r3: t1_cafe_dark turned 270 degrees clockwise
+{
+  "refpalette": "abza:t1_cafe_dark_r3",
+  "filler": "ѻ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 3,
+  "maxfloors": 3,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "parts": [
+    {
+      "part": "abza:t1_cafe_dark_r3_ground",
+      "top": false,
+      "ground": true
+    },
+    {
+      "part": "abza:t1_cafe_dark_r3_l1",
+      "top": false,
+      "floor": 1
+    },
+    {
+      "part": "abza:t1_cafe_dark_r3_l2",
+      "top": false,
+      "floor": 2
+    },
+    {
+      "part": "abza:t1_cafe_dark_r3_top",
+      "top": true
+    }
+  ]
+}

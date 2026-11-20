@@ -1,0 +1,121 @@
+// t1_park_playground_r2: t1_park_playground turned 180 degrees clockwise
+{
+  "palette": [
+    {
+      "char": "а",
+      "block": "betterblockz:cyberlight_thin_alt_0[facing=down]"
+    },
+    {
+      "char": "б",
+      "block": "lathe:betterblockz__vect_blockz_4_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "в",
+      "block": "lathe:betterblockz__vect_blockz_4_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "г",
+      "block": "lathe:betterblockz__vect_blockz_4_stairs[facing=west,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "д",
+      "block": "lathe:betterblockz__vect_blockz_4_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "е",
+      "block": "lathe:betterblockz__vect_blockz_4_stairs[facing=east,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "ж",
+      "block": "mdm:black_bench[facing=south,part=left]"
+    },
+    {
+      "char": "з",
+      "block": "mdm:black_bench[facing=south,part=main]"
+    },
+    {
+      "char": "и",
+      "block": "mdm:black_bench[facing=south,part=right]"
+    },
+    {
+      "char": "й",
+      "block": "minecraft:chain[axis=y,waterlogged=false]"
+    },
+    {
+      "char": "к",
+      "block": "minecraft:iron_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "л",
+      "block": "minecraft:iron_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "м",
+      "block": "minecraft:iron_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "char": "н",
+      "block": "minecraft:ladder[facing=north,waterlogged=false]"
+    },
+    {
+      "char": "о",
+      "block": "betterblockz:copper_blockz_0"
+    },
+    {
+      "char": "п",
+      "block": "lathe:betterblockz__copper_blockz_0_slab[type=bottom]"
+    },
+    {
+      "char": "р",
+      "block": "lathe:betterblockz__copper_blockz_0_stairs[facing=south,half=top,shape=straight]"
+    },
+    {
+      "char": "с",
+      "block": "lathe:betterblockz__copper_blockz_0_stairs[facing=north,half=bottom,shape=straight]"
+    },
+    {
+      "char": "т",
+      "block": "betterblockz:stone_blockz_0"
+    },
+    {
+      "char": "у",
+      "block": "lathe:betterblockz__stone_blockz_0_slab[type=bottom]"
+    },
+    {
+      "char": "ф",
+      "block": "betterblockz:fort_blockz_11"
+    },
+    {
+      "char": "х",
+      "block": "minecraft:oak_leaves[persistent=true]"
+    },
+    {
+      "char": "ц",
+      "block": "betterblockz:cyberlight_blockz_0"
+    },
+    {
+      "char": "ч",
+      "block": "betterblockz:mint_blockz_8"
+    },
+    {
+      "char": "ш",
+      "block": "betterblockz:zeno_brown_blockz_4"
+    },
+    {
+      "char": "щ",
+      "block": "lathe:betterblockz__zeno_brown_blockz_4_slab[type=top]"
+    },
+    {
+      "char": "ъ",
+      "block": "lathe:betterblockz__vect_blockz_4_slab[type=bottom]"
+    },
+    {
+      "char": "ы",
+      "block": "lathe:betterblockz__vect_blockz_4_vslab[facing=west,type=single]"
+    },
+    {
+      "char": "ь",
+      "block": "lathe:betterblockz__vect_blockz_4_vslab[facing=east,type=single]"
+    }
+  ]
+}

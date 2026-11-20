@@ -1,0 +1,38 @@
+// t1_emergency_dark_r3_11: t1_emergency_dark turned 270 degrees clockwise
+{
+  "refpalette": "abza:t1_emergency_dark_r3",
+  "filler": "ѷ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 4,
+  "maxfloors": 4,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "parts": [
+    {
+      "part": "abza:t1_emergency_dark_r3_11_ground",
+      "top": false,
+      "ground": true
+    },
+    {
+      "part": "abza:t1_emergency_dark_r3_11_l1",
+      "top": false,
+      "floor": 1
+    },
+    {
+      "part": "abza:t1_emergency_dark_r3_11_l2",
+      "top": false,
+      "floor": 2
+    },
+    {
+      "part": "abza:t1_emergency_dark_r3_11_l3",
+      "top": false,
+      "floor": 3
+    },
+    {
+      "part": "abza:t1_emergency_dark_r3_11_top",
+      "top": true
+    }
+  ]
+}

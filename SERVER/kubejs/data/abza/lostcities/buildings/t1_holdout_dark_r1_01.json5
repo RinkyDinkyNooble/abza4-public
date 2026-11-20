@@ -1,0 +1,28 @@
+// t1_holdout_dark_r1_01: t1_holdout_dark turned 90 degrees clockwise
+{
+  "refpalette": "abza:t1_holdout_dark_r1",
+  "filler": "ґ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 2,
+  "maxfloors": 2,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "parts": [
+    {
+      "part": "abza:t1_holdout_dark_r1_01_ground",
+      "top": false,
+      "ground": true
+    },
+    {
+      "part": "abza:t1_holdout_dark_r1_01_l1",
+      "top": false,
+      "floor": 1
+    },
+    {
+      "part": "abza:t1_holdout_dark_r1_01_top",
+      "top": true
+    }
+  ]
+}

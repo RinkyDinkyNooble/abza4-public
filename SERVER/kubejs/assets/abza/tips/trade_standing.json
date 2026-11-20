@@ -1,7 +1,7 @@
 {
   "title": {
     "text": "Trade",
-    "color": "#E3B341",
+    "color": "#A3B1FF",
     "bold": true
   },
   "tip": {
@@ -15,14 +15,7 @@
         "color": "yellow"
       },
       {
-        "text": " with a faction unlocks its traders' best stock and "
-      },
-      {
-        "text": "guards",
-        "color": "yellow"
-      },
-      {
-        "text": " for hire."
+        "text": " with a faction unlocks its traders' best stock and guards for hire."
       }
     ]
   },

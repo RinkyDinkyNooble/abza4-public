@@ -1,0 +1,26 @@
+// t1_marina_r2_00_cap: t1_marina turned 180 degrees clockwise
+{
+  "xsize": 16,
+  "zsize": 16,
+  "refpalette": "abza:t1_marina_r2",
+  "slices": [
+    [
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                ",
+      "                "
+    ]
+  ]
+}

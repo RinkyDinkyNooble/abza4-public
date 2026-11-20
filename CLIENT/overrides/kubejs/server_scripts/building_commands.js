@@ -11,7 +11,9 @@
 //                                               command), persistent unless the NBT says otherwise; a class (common,
 //                                               mini, boss, final) picks one of the region's mobs at random for each;
 //                                               a Chance in the NBT ({Chance:0.5d}) is the share of command blocks
-//                                               that spawn anything
+//                                               that spawn anything; a Drop ({Drop:"boss"}) is a lock whose keycard
+//                                               or note each mob carries, for the lock in the command block's chunk,
+//                                               and drops where it dies; a vehicle starts with 1 to 10% of its battery
 //   /spawnNPC <tab> <name> [options]            a CustomNPCs clone standing in the block, set up by its options
 //                                               (npcs.js), its death permanent unless they give it a respawn
 //   /growPlants [times]                         bone meal on the block under it, as a player's, times over (1 to
@@ -26,6 +28,10 @@ const $AbzaSpawnMob = Java.loadClass('net.minecraft.world.entity.Mob')
 const $AbzaSpawnType = Java.loadClass('net.minecraft.world.entity.MobSpawnType')
 const $AbzaSpawnEvents = Java.loadClass('net.minecraftforge.event.ForgeEventFactory')
 const $AbzaBonemealable = Java.loadClass('net.minecraft.world.level.block.BonemealableBlock')
+const $AbzaVehicle = Java.loadClass('com.atsuishio.superbwarfare.entity.vehicle.base.VehicleEntity')
+
+const ABZA_VEHICLE_CHARGE = [0.01, 0.1]
+const $AbzaDropStack = Java.loadClass('net.minecraft.world.item.ItemStack')
 
 const ABZA_MOB_CLASSES = ['common', 'mini', 'boss', 'final']
 
@@ -126,12 +132,19 @@ function abzaBlockRegion(level, pos) {
     return 0
 }
 
-// Spawns a mob in the middle of a block
+// A vehicle's battery charged to a random share of its capacity (ABZA_VEHICLE_CHARGE)
+function abzaChargeVehicle(vehicle) {
+    if (!vehicle.hasEnergyStorage()) return
+    var share = ABZA_VEHICLE_CHARGE[0] + Math.random() * (ABZA_VEHICLE_CHARGE[1] - ABZA_VEHICLE_CHARGE[0])
+    vehicle.setEnergy(Math.round(vehicle.getMaxEnergy() * share))
+}
+
+// Spawns a mob in the middle of a block; the mob, or null when it can't be made or is refused
 function abzaSpawnOne(level, pos, id, nbt) {
     var entity = $AbzaSpawnEntityType.byString(id).get().create(level)
     if (!entity) {
         console.error(`building_commands.js: ${id} can't be spawned`)
-        return
+        return null
     }
     entity.setPositionAndRotation(pos.getX() + 0.5, pos.getY(), pos.getZ() + 0.5, level.getRandom().nextFloat() * 360, 0)
     var mob = entity instanceof $AbzaSpawnMob
@@ -140,11 +153,14 @@ function abzaSpawnOne(level, pos, id, nbt) {
     }
     if (nbt) entity.mergeNbt(nbt)
     if (mob && !(nbt && nbt.contains('PersistenceRequired'))) entity.setPersistenceRequired()
+    if (entity instanceof $AbzaVehicle) abzaChargeVehicle(entity)
     level.addFreshEntityWithPassengers(entity)
     if (!entity.isAddedToWorld()) {
         console.warn(`building_commands.js: ${id} was refused (mob locking or a cap) at ${level.getDimension()} ` +
             `${pos.getX()} ${pos.getY()} ${pos.getZ()}`)
+        return null
     }
+    return entity
 }
 
 // /spawnEntity: count mobs of an id or class
@@ -165,6 +181,14 @@ function abzaSpawnEntities(source, id, count, nbt) {
     }
     if (count < 1) return abzaCommandFail(source, `count ${count} is under 1`)
     level.removeBlock(pos, false)
+    var drop = null
+    if (nbt && nbt.contains('Drop')) {
+        drop = String(nbt.getString('Drop'))
+        if (!ABZA_LOCKS[drop]) return abzaCommandFail(source, `no lock ${drop}`)
+        nbt = nbt.copy()
+        nbt.remove('Drop')
+        if (nbt.isEmpty()) nbt = null
+    }
     if (nbt && nbt.contains('Chance')) {
         var chance = nbt.getDouble('Chance')
         nbt = nbt.copy()
@@ -172,9 +196,23 @@ function abzaSpawnEntities(source, id, count, nbt) {
         if (nbt.isEmpty()) nbt = null
         if (Math.random() >= chance) return 1
     }
-    for (var i = 0; i < count; i++) abzaSpawnOne(level, pos, ids[Math.floor(Math.random() * ids.length)], nbt)
+    for (var i = 0; i < count; i++) {
+        var mob = abzaSpawnOne(level, pos, ids[Math.floor(Math.random() * ids.length)], nbt)
+        if (!drop) continue
+        var item = abzaLockItem(level, drop, pos)
+        if (mob) mob.getPersistentData().put('abza_drop', item.save(new $AbzaNbtCompound()))
+        else level.getBlock(pos).popItem(item)
+    }
     return count
 }
+
+// A mob carrying a lock's keycard or note (/spawnEntity's Drop) drops it where it dies
+EntityEvents.death(event => {
+    var data = event.entity.getPersistentData()
+    if (!data.contains('abza_drop')) return
+    event.entity.block.popItem($AbzaDropStack.of(data.getCompound('abza_drop')))
+    data.remove('abza_drop')
+})
 
 // /growPlants: bone meal on the block under the command block, until it takes no more
 function abzaGrowPlants(source, times) {

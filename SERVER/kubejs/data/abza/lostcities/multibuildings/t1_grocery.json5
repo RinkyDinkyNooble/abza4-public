@@ -1,0 +1,22 @@
+// t1_grocery: 3 by 3 chunks, 2 storeys
+{
+  "dimx": 3,
+  "dimz": 3,
+  "buildings": [
+    [
+      "abza:t1_grocery_00",
+      "abza:t1_grocery_01",
+      "abza:t1_grocery_02"
+    ],
+    [
+      "abza:t1_grocery_10",
+      "abza:t1_grocery_11",
+      "abza:t1_grocery_12"
+    ],
+    [
+      "abza:t1_grocery_20",
+      "abza:t1_grocery_21",
+      "abza:t1_grocery_22"
+    ]
+  ]
+}

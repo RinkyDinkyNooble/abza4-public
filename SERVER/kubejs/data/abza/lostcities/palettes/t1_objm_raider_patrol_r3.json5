@@ -1,0 +1,171 @@
+// t1_objm_raider_patrol_r3: t1_objm_raider_patrol turned 270 degrees clockwise
+{
+  "palette": [
+    {
+      "char": "а",
+      "block": "mdm:black_bench[facing=north,part=left]"
+    },
+    {
+      "char": "б",
+      "block": "mdm:black_bench[facing=north,part=main]"
+    },
+    {
+      "char": "в",
+      "block": "mdm:black_bench[facing=north,part=right]"
+    },
+    {
+      "char": "г",
+      "block": "mdm:black_bench[facing=east,part=left]"
+    },
+    {
+      "char": "д",
+      "block": "mdm:black_bench[facing=east,part=main]"
+    },
+    {
+      "char": "е",
+      "block": "mdm:black_bench[facing=east,part=right]"
+    },
+    {
+      "char": "ж",
+      "block": "mdm:boxes[facing=west]",
+      "tag": {
+        "LootTable": "abza:chests/raider/barricade"
+      }
+    },
+    {
+      "char": "з",
+      "block": "mdm:lantern[facing=west]"
+    },
+    {
+      "char": "и",
+      "block": "mdm:modern_desk_1[facing=west,part=left]"
+    },
+    {
+      "char": "й",
+      "block": "mdm:modern_desk_1[facing=west,part=main]"
+    },
+    {
+      "char": "к",
+      "block": "mdm:modern_desk_1[facing=west,part=right]"
+    },
+    {
+      "char": "л",
+      "block": "minecraft:campfire[facing=west,lit=true,signal_fire=false,waterlogged=false]"
+    },
+    {
+      "char": "м",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/spawnNPC 1 template_armed {skin:\"raider\",name:\"random\",faction:4,lines:\"raider\",kit:\"raider_brute\",wander:4}",
+        "auto": 1,
+        "conditionMet": 1
+      }
+    },
+    {
+      "char": "н",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/spawnNPC 1 template_armed {skin:\"raider\",name:\"random\",faction:4,lines:\"raider\",kit:\"raider_pistol\",wander:3}",
+        "auto": 1,
+        "conditionMet": 1
+      }
+    },
+    {
+      "char": "о",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/spawnNPC 1 template_armed {skin:\"raider\",name:\"random\",faction:4,lines:\"raider\",kit:\"raider_rifle\",yaw:-90}",
+        "auto": 1,
+        "conditionMet": 1
+      }
+    },
+    {
+      "char": "п",
+      "block": "neoncraft:l_red[facing=north]"
+    },
+    {
+      "char": "р",
+      "block": "neoncraft:l_red[facing=east]"
+    },
+    {
+      "char": "с",
+      "block": "neoncraft:l_red[facing=south]"
+    },
+    {
+      "char": "т",
+      "block": "neoncraft:o_red[facing=north]"
+    },
+    {
+      "char": "у",
+      "block": "neoncraft:o_red[facing=east]"
+    },
+    {
+      "char": "ф",
+      "block": "neoncraft:o_red[facing=south]"
+    },
+    {
+      "char": "х",
+      "block": "neoncraft:t_red[facing=north]"
+    },
+    {
+      "char": "ц",
+      "block": "neoncraft:t_red[facing=east]"
+    },
+    {
+      "char": "ч",
+      "block": "neoncraft:t_red[facing=south]"
+    },
+    {
+      "char": "ш",
+      "block": "betterblockz:stone_blockz_0"
+    },
+    {
+      "char": "щ",
+      "block": "minecraft:dark_oak_door[facing=east,half=lower,hinge=left,open=false]"
+    },
+    {
+      "char": "ъ",
+      "block": "minecraft:dark_oak_door[facing=east,half=lower,hinge=right,open=false]"
+    },
+    {
+      "char": "ы",
+      "block": "minecraft:dark_oak_door[facing=east,half=upper,hinge=left,open=false]"
+    },
+    {
+      "char": "ь",
+      "block": "minecraft:dark_oak_door[facing=east,half=upper,hinge=right,open=false]"
+    },
+    {
+      "char": "э",
+      "block": "minecraft:spruce_planks"
+    },
+    {
+      "char": "ю",
+      "block": "betterblockz:cyberlight_blockz_0"
+    },
+    {
+      "char": "я",
+      "block": "betterblockz:mint_blockz_8"
+    },
+    {
+      "char": "ѐ",
+      "block": "betterblockz:zeno_red_blockz_7"
+    },
+    {
+      "char": "ё",
+      "block": "superbwarfare:sandbag"
+    },
+    {
+      "char": "ђ",
+      "block": "lathe:superbwarfare__sandbag_slab[type=bottom]"
+    },
+    {
+      "char": "ѓ",
+      "block": "lathe:superbwarfare__sandbag_stairs[facing=east,half=bottom,shape=straight]"
+    },
+    {
+      "char": "є",
+      "block": "betterblockz:vect_blockz_4"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+// t1_hardware: 3 by 2 chunks, 2 storeys
+{
+  "dimx": 3,
+  "dimz": 2,
+  "buildings": [
+    [
+      "abza:t1_hardware_00",
+      "abza:t1_hardware_01"
+    ],
+    [
+      "abza:t1_hardware_10",
+      "abza:t1_hardware_11"
+    ],
+    [
+      "abza:t1_hardware_20",
+      "abza:t1_hardware_21"
+    ]
+  ]
+}

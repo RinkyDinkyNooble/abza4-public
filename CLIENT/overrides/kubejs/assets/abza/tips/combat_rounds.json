@@ -1,7 +1,7 @@
 {
   "title": {
     "text": "Combat",
-    "color": "#FFA657",
+    "color": "#A3B1FF",
     "bold": true
   },
   "tip": {
@@ -11,15 +11,11 @@
         "text": "Mobs drop "
       },
       {
-        "text": "ammo for your gun",
+        "text": "ammo for the gun that killed them",
         "color": "yellow"
       },
       {
-        "text": ". "
-      },
-      {
-        "text": "Explosion kills drop nothing.",
-        "color": "red"
+        "text": ". Explosion kills drop nothing."
       }
     ]
   },

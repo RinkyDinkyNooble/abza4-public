@@ -1,0 +1,28 @@
+// t1_grocery_r2_20: t1_grocery turned 180 degrees clockwise
+{
+  "refpalette": "abza:t1_grocery_r2",
+  "filler": "ҫ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 2,
+  "maxfloors": 2,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "parts": [
+    {
+      "part": "abza:t1_grocery_r2_20_ground",
+      "top": false,
+      "ground": true
+    },
+    {
+      "part": "abza:t1_grocery_r2_20_l1",
+      "top": false,
+      "floor": 1
+    },
+    {
+      "part": "abza:t1_grocery_r2_20_top",
+      "top": true
+    }
+  ]
+}

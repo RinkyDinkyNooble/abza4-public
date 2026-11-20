@@ -1,0 +1,22 @@
+// t1_museum: 3 by 3 chunks, 3 storeys and 2 cellars
+{
+  "dimx": 3,
+  "dimz": 3,
+  "buildings": [
+    [
+      "abza:t1_museum_00",
+      "abza:t1_museum_01",
+      "abza:t1_museum_02"
+    ],
+    [
+      "abza:t1_museum_10",
+      "abza:t1_museum_11",
+      "abza:t1_museum_12"
+    ],
+    [
+      "abza:t1_museum_20",
+      "abza:t1_museum_21",
+      "abza:t1_museum_22"
+    ]
+  ]
+}

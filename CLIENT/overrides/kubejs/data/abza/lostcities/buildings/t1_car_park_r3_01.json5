@@ -1,0 +1,48 @@
+// t1_car_park_r3_01: t1_car_park turned 270 degrees clockwise
+{
+  "refpalette": "abza:t1_car_park_r3",
+  "filler": "Ѥ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 5,
+  "maxfloors": 5,
+  "mincellars": 1,
+  "maxcellars": 1,
+  "parts": [
+    {
+      "part": "abza:t1_car_park_r3_01_c1",
+      "cellar": true,
+      "range": "-1,-1"
+    },
+    {
+      "part": "abza:t1_car_park_r3_01_ground",
+      "top": false,
+      "ground": true
+    },
+    {
+      "part": "abza:t1_car_park_r3_01_l1",
+      "top": false,
+      "floor": 1
+    },
+    {
+      "part": "abza:t1_car_park_r3_01_l2",
+      "top": false,
+      "floor": 2
+    },
+    {
+      "part": "abza:t1_car_park_r3_01_l3",
+      "top": false,
+      "floor": 3
+    },
+    {
+      "part": "abza:t1_car_park_r3_01_l4",
+      "top": false,
+      "floor": 4
+    },
+    {
+      "part": "abza:t1_car_park_r3_01_top",
+      "top": true
+    }
+  ]
+}

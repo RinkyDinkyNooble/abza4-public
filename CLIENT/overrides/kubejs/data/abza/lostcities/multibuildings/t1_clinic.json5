@@ -1,0 +1,15 @@
+// t1_clinic: 2 by 2 chunks, 3 storeys and 1 cellar
+{
+  "dimx": 2,
+  "dimz": 2,
+  "buildings": [
+    [
+      "abza:t1_clinic_00",
+      "abza:t1_clinic_01"
+    ],
+    [
+      "abza:t1_clinic_10",
+      "abza:t1_clinic_11"
+    ]
+  ]
+}

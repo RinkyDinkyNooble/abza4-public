@@ -1,0 +1,48 @@
+// t1_car_park_dark: one chunk of 4 by 4 chunks, 5 storeys and 1 cellar
+{
+  "refpalette": "abza:t1_car_park_dark",
+  "filler": "Ѥ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 5,
+  "maxfloors": 5,
+  "mincellars": 1,
+  "maxcellars": 1,
+  "parts": [
+    {
+      "part": "abza:t1_car_park_dark_03_c1",
+      "cellar": true,
+      "range": "-1,-1"
+    },
+    {
+      "part": "abza:t1_car_park_dark_03_ground",
+      "top": false,
+      "ground": true
+    },
+    {
+      "part": "abza:t1_car_park_dark_03_l1",
+      "top": false,
+      "floor": 1
+    },
+    {
+      "part": "abza:t1_car_park_dark_03_l2",
+      "top": false,
+      "floor": 2
+    },
+    {
+      "part": "abza:t1_car_park_dark_03_l3",
+      "top": false,
+      "floor": 3
+    },
+    {
+      "part": "abza:t1_car_park_dark_03_l4",
+      "top": false,
+      "floor": 4
+    },
+    {
+      "part": "abza:t1_car_park_dark_03_top",
+      "top": true
+    }
+  ]
+}

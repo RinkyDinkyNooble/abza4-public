@@ -1,0 +1,23 @@
+// t1_objm_survivor: 1 storeys
+{
+  "refpalette": "abza:t1_objm_survivor",
+  "filler": "і",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 1,
+  "maxfloors": 1,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "parts": [
+    {
+      "part": "abza:t1_objm_survivor_ground",
+      "top": false,
+      "ground": true
+    },
+    {
+      "part": "abza:t1_objm_survivor_top",
+      "top": true
+    }
+  ]
+}

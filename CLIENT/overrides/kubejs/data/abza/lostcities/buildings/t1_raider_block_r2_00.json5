@@ -1,0 +1,38 @@
+// t1_raider_block_r2_00: t1_raider_block turned 180 degrees clockwise
+{
+  "refpalette": "abza:t1_raider_block_r2",
+  "filler": "Ѝ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 4,
+  "maxfloors": 4,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "parts": [
+    {
+      "part": "abza:t1_raider_block_r2_00_ground",
+      "top": false,
+      "ground": true
+    },
+    {
+      "part": "abza:t1_raider_block_r2_00_l1",
+      "top": false,
+      "floor": 1
+    },
+    {
+      "part": "abza:t1_raider_block_r2_00_l2",
+      "top": false,
+      "floor": 2
+    },
+    {
+      "part": "abza:t1_raider_block_r2_00_l3",
+      "top": false,
+      "floor": 3
+    },
+    {
+      "part": "abza:t1_raider_block_r2_00_top",
+      "top": true
+    }
+  ]
+}

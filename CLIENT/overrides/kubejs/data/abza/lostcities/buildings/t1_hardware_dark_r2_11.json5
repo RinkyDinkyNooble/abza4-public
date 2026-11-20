@@ -1,0 +1,28 @@
+// t1_hardware_dark_r2_11: t1_hardware_dark turned 180 degrees clockwise
+{
+  "refpalette": "abza:t1_hardware_dark_r2",
+  "filler": "Ҕ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 2,
+  "maxfloors": 2,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "parts": [
+    {
+      "part": "abza:t1_hardware_dark_r2_11_ground",
+      "top": false,
+      "ground": true
+    },
+    {
+      "part": "abza:t1_hardware_dark_r2_11_l1",
+      "top": false,
+      "floor": 1
+    },
+    {
+      "part": "abza:t1_hardware_dark_r2_11_top",
+      "top": true
+    }
+  ]
+}

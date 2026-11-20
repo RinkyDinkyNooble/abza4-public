@@ -1,21 +1,21 @@
 {
   "title": {
     "text": "Combat",
-    "color": "#FFA657",
+    "color": "#A3B1FF",
     "bold": true
   },
   "tip": {
     "text": "",
     "extra": [
       {
-        "text": "Mobs take "
+        "text": "Mobs' health, damage and power "
       },
       {
-        "text": "2×",
+        "text": "double",
         "color": "yellow"
       },
       {
-        "text": " the shots from a gun one tier below them."
+        "text": " with each region."
       }
     ]
   },

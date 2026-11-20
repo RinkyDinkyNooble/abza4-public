@@ -29,6 +29,14 @@
     // Main roads every 10 chunks, so the largest lots fit between them
     "primaryRoadSpacingX": 10,
     "primaryRoadSpacingZ": 10,
+    // Highways in straight lines along chunk rows and columns (Lost Cities' older layout)
+    "highwayGenerationMode": "LEGACY",
+    // A highway row or column every 64 chunks
+    "highwayDistanceMask": 63,
+    // A row holds a highway where the noise is above this: about two thirds of its length
+    "highwayPerlinFactor": -2.0,
+    // A highway needs a city at one of its ends
+    "highwayRequiresTwoCities": false,
     // No doorways cut between buildings, and no corridors under the streets
     "buildingDoorwayChance": 0.0,
     "corridorChance": 0.0,

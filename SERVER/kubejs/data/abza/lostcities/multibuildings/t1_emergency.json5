@@ -1,0 +1,15 @@
+// t1_emergency: 2 by 2 chunks, 4 storeys
+{
+  "dimx": 2,
+  "dimz": 2,
+  "buildings": [
+    [
+      "abza:t1_emergency_00",
+      "abza:t1_emergency_01"
+    ],
+    [
+      "abza:t1_emergency_10",
+      "abza:t1_emergency_11"
+    ]
+  ]
+}

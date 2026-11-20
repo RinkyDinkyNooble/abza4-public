@@ -1,0 +1,284 @@
+// t1_objm_checkpoint_r3: t1_objm_checkpoint turned 270 degrees clockwise
+{
+  "palette": [
+    {
+      "char": "а",
+      "block": "betterblockz:mint_blockz_8"
+    },
+    {
+      "char": "б",
+      "block": "lathe:betterblockz__agon_blockz_0_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "в",
+      "block": "lathe:betterblockz__agon_blockz_0_stairs[facing=north,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "г",
+      "block": "lathe:betterblockz__agon_blockz_0_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "д",
+      "block": "lathe:betterblockz__agon_blockz_0_stairs[facing=south,half=top,shape=straight,waterlogged=false]"
+    },
+    {
+      "char": "е",
+      "block": "lathe:betterblockz__agon_blockz_0_vstairs[facing=north,waterlogged=false]"
+    },
+    {
+      "char": "ж",
+      "block": "lathe:betterblockz__agon_blockz_0_vstairs[facing=west,waterlogged=false]"
+    },
+    {
+      "char": "з",
+      "block": "lathe:betterblockz__agon_blockz_0_vstairs[facing=east,waterlogged=false]"
+    },
+    {
+      "char": "и",
+      "block": "lathe:betterblockz__agon_blockz_0_vstairs[facing=south,waterlogged=false]"
+    },
+    {
+      "char": "й",
+      "block": "lathe:betterblockz__vect_blockz_4_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "char": "к",
+      "block": "mdm:bedroom_set_1greywardrobe[facing=east,part=main]",
+      "tag": {
+        "LootTable": "abza:chests/checkpoint/kit"
+      }
+    },
+    {
+      "char": "л",
+      "block": "mdm:bedroom_set_1greywardrobe[facing=east,part=top]"
+    },
+    {
+      "char": "м",
+      "block": "mdm:black_bench[facing=east,part=left]"
+    },
+    {
+      "char": "н",
+      "block": "mdm:black_bench[facing=east,part=main]"
+    },
+    {
+      "char": "о",
+      "block": "mdm:black_bench[facing=east,part=right]"
+    },
+    {
+      "char": "п",
+      "block": "mdm:black_desk_lamp[facing=west]"
+    },
+    {
+      "char": "р",
+      "block": "mdm:black_office_desk[facing=west,part=left]",
+      "tag": {
+        "LootTable": "abza:chests/police/office"
+      }
+    },
+    {
+      "char": "с",
+      "block": "mdm:black_office_desk[facing=west,part=main]"
+    },
+    {
+      "char": "т",
+      "block": "mdm:black_office_desk[facing=west,part=right]"
+    },
+    {
+      "char": "у",
+      "block": "mdm:black_wall_clock[facing=east]"
+    },
+    {
+      "char": "ф",
+      "block": "mdm:boxes[facing=west]",
+      "tag": {
+        "LootTable": "abza:chests/checkpoint/crate"
+      }
+    },
+    {
+      "char": "х",
+      "block": "mdm:boxes[facing=west]",
+      "tag": {
+        "LootTable": "abza:chests/checkpoint/kit"
+      }
+    },
+    {
+      "char": "ц",
+      "block": "mdm:office_set_1_chair[facing=east,part=main]"
+    },
+    {
+      "char": "ч",
+      "block": "mdm:office_set_1_chair[facing=east,part=top]"
+    },
+    {
+      "char": "ш",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/spawnEntity common 1 {Chance:0.5d}",
+        "auto": 1,
+        "conditionMet": 1
+      }
+    },
+    {
+      "char": "щ",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/spawnEntity common 1",
+        "auto": 1,
+        "conditionMet": 1
+      }
+    },
+    {
+      "char": "ъ",
+      "block": "minecraft:command_block[conditional=false,facing=up]",
+      "tag": {
+        "Command": "/spawnEntity superbwarfare:sodayo_pick_up_hmg 1 {Chance:0.17d,Rotation:[-90f,0f]}",
+        "auto": 1,
+        "conditionMet": 1
+      }
+    },
+    {
+      "char": "ы",
+      "block": "neoncraft:c_white[facing=west]"
+    },
+    {
+      "char": "ь",
+      "block": "neoncraft:c_white[facing=east]"
+    },
+    {
+      "char": "э",
+      "block": "neoncraft:e_white[facing=west]"
+    },
+    {
+      "char": "ю",
+      "block": "neoncraft:e_white[facing=east]"
+    },
+    {
+      "char": "я",
+      "block": "neoncraft:i_white[facing=west]"
+    },
+    {
+      "char": "ѐ",
+      "block": "neoncraft:i_white[facing=east]"
+    },
+    {
+      "char": "ё",
+      "block": "neoncraft:l_white[facing=west]"
+    },
+    {
+      "char": "ђ",
+      "block": "neoncraft:l_white[facing=east]"
+    },
+    {
+      "char": "ѓ",
+      "block": "neoncraft:o_white[facing=west]"
+    },
+    {
+      "char": "є",
+      "block": "neoncraft:o_white[facing=east]"
+    },
+    {
+      "char": "ѕ",
+      "block": "neoncraft:p_white[facing=west]"
+    },
+    {
+      "char": "і",
+      "block": "neoncraft:p_white[facing=east]"
+    },
+    {
+      "char": "ї",
+      "block": "betterblockz:iszm_blockz_5"
+    },
+    {
+      "char": "ј",
+      "block": "betterblockz:eclipse_blockz_0"
+    },
+    {
+      "char": "љ",
+      "block": "betterblockz:agon_blockz_2"
+    },
+    {
+      "char": "њ",
+      "block": "lathe:betterblockz__agon_blockz_2_slab[type=bottom]"
+    },
+    {
+      "char": "ћ",
+      "block": "lathe:betterblockz__agon_blockz_2_stairs[facing=west,half=top,shape=straight]"
+    },
+    {
+      "char": "ќ",
+      "block": "lathe:betterblockz__agon_blockz_2_stairs[facing=east,half=top,shape=straight]"
+    },
+    {
+      "char": "ѝ",
+      "block": "betterblockz:lablink_blockz_0"
+    },
+    {
+      "char": "ў",
+      "block": "lathe:betterblockz__vect_blockz_4_slab[type=bottom]"
+    },
+    {
+      "char": "џ",
+      "block": "minecraft:dark_oak_door[facing=west,half=lower,hinge=left,open=false]"
+    },
+    {
+      "char": "А",
+      "block": "minecraft:dark_oak_door[facing=west,half=lower,hinge=right,open=false]"
+    },
+    {
+      "char": "Б",
+      "block": "minecraft:dark_oak_door[facing=west,half=upper,hinge=left,open=false]"
+    },
+    {
+      "char": "В",
+      "block": "minecraft:dark_oak_door[facing=west,half=upper,hinge=right,open=false]"
+    },
+    {
+      "char": "Г",
+      "block": "betterblockz:agon_blockz_1"
+    },
+    {
+      "char": "Д",
+      "block": "lathe:betterblockz__tintedglass_blockz_1_vslab[facing=north,type=single]"
+    },
+    {
+      "char": "Е",
+      "block": "lathe:betterblockz__tintedglass_blockz_1_vslab[facing=west,type=single]"
+    },
+    {
+      "char": "Ж",
+      "block": "lathe:betterblockz__tintedglass_blockz_1_vslab[facing=east,type=single]"
+    },
+    {
+      "char": "З",
+      "block": "lathe:betterblockz__tintedglass_blockz_1_vslab[facing=south,type=single]"
+    },
+    {
+      "char": "К",
+      "block": "betterblockz:cyberlight_blockz_0"
+    },
+    {
+      "char": "Л",
+      "block": "betterblockz:mint_blockz_8"
+    },
+    {
+      "char": "М",
+      "block": "betterblockz:agon_blockz_0"
+    },
+    {
+      "char": "Н",
+      "block": "betterblockz:iszm_blockz_2"
+    },
+    {
+      "char": "О",
+      "block": "lathe:betterblockz__iszm_blockz_2_slab[type=bottom]"
+    },
+    {
+      "char": "Р",
+      "block": "lathe:betterblockz__zeno_light_gray_blockz_2_vslab[facing=east,type=single]"
+    },
+    {
+      "char": "С",
+      "block": "lathe:betterblockz__vect_blockz_4_slab[type=bottom]"
+    }
+  ]
+}

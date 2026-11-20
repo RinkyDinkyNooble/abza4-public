@@ -1,0 +1,7 @@
+// Marina, outside cities, turned 90 degrees clockwise
+{
+  "multibuilding": "abza:t1_marina_r1",
+  "terrainheight": "ocean",
+  "terrainfix": "repeatslice",
+  "heightoffset": -2
+}

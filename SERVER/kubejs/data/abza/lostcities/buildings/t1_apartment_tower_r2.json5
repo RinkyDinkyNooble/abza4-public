@@ -1,0 +1,58 @@
+// t1_apartment_tower_r2: t1_apartment_tower turned 180 degrees clockwise
+{
+  "refpalette": "abza:t1_apartment_tower_r2",
+  "filler": "ҍ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 6,
+  "maxfloors": 8,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "parts": [
+    {
+      "part": "abza:t1_apartment_tower_r2_ground",
+      "ground": true,
+      "top": false
+    },
+    {
+      "part": "abza:t1_apartment_tower_r2_first",
+      "floor": 1,
+      "top": false
+    },
+    {
+      "part": "abza:t1_apartment_tower_r2_upper_b",
+      "floor": 2,
+      "top": false
+    },
+    {
+      "part": "abza:t1_apartment_tower_r2_upper_a",
+      "floor": 3,
+      "top": false
+    },
+    {
+      "part": "abza:t1_apartment_tower_r2_upper_b",
+      "floor": 4,
+      "top": false
+    },
+    {
+      "part": "abza:t1_apartment_tower_r2_upper_a",
+      "floor": 5,
+      "top": false
+    },
+    {
+      "part": "abza:t1_apartment_tower_r2_upper_b",
+      "floor": 6,
+      "top": false
+    },
+    {
+      "part": "abza:t1_apartment_tower_r2_upper_a",
+      "floor": 7,
+      "top": false
+    },
+    {
+      "part": "abza:t1_apartment_tower_r2_roof",
+      "top": true
+    }
+  ]
+}

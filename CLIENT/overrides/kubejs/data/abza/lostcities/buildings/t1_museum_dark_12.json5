@@ -1,0 +1,43 @@
+// t1_museum_dark: one chunk of 3 by 3 chunks, 3 storeys and 2 cellars
+{
+  "refpalette": "abza:t1_museum_dark",
+  "filler": "ӣ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 3,
+  "maxfloors": 3,
+  "mincellars": 2,
+  "maxcellars": 2,
+  "parts": [
+    {
+      "part": "abza:t1_museum_dark_12_c2",
+      "cellar": true,
+      "range": "-2,-2"
+    },
+    {
+      "part": "abza:t1_museum_dark_12_c1",
+      "cellar": true,
+      "range": "-1,-1"
+    },
+    {
+      "part": "abza:t1_museum_dark_12_ground",
+      "top": false,
+      "ground": true
+    },
+    {
+      "part": "abza:t1_museum_dark_12_l1",
+      "top": false,
+      "floor": 1
+    },
+    {
+      "part": "abza:t1_museum_dark_12_l2",
+      "top": false,
+      "floor": 2
+    },
+    {
+      "part": "abza:t1_museum_dark_12_top",
+      "top": true
+    }
+  ]
+}

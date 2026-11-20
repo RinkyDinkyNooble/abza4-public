@@ -1,0 +1,23 @@
+// t1_objm_survivor_dark_r2: t1_objm_survivor_dark turned 180 degrees clockwise
+{
+  "refpalette": "abza:t1_objm_survivor_dark_r2",
+  "filler": "і",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 1,
+  "maxfloors": 1,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "parts": [
+    {
+      "part": "abza:t1_objm_survivor_dark_r2_ground",
+      "top": false,
+      "ground": true
+    },
+    {
+      "part": "abza:t1_objm_survivor_dark_r2_top",
+      "top": true
+    }
+  ]
+}

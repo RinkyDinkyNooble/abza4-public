@@ -62,38 +62,470 @@
     ],
     "buildings": [
       {
-        "factor": 0.4,
+        "factor": 0.05,
         "value": "abza:t1_apartment_tower"
       },
       {
-        "factor": 1.0,
+        "factor": 0.05,
+        "value": "abza:t1_apartment_tower_r1"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_apartment_tower_r2"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_apartment_tower_r3"
+      },
+      {
+        "factor": 0.0938,
         "value": "abza:t1_pharmacy"
       },
       {
-        "factor": 1.0,
+        "factor": 0.0938,
+        "value": "abza:t1_pharmacy_r1"
+      },
+      {
+        "factor": 0.0938,
+        "value": "abza:t1_pharmacy_r2"
+      },
+      {
+        "factor": 0.0938,
+        "value": "abza:t1_pharmacy_r3"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_tech_shop"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_tech_shop_r1"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_tech_shop_r2"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_tech_shop_r3"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_cafe"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_cafe_r1"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_cafe_r2"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_cafe_r3"
+      },
+      {
+        "factor": 0.1,
+        "value": "abza:t1_objm_raider_patrol"
+      },
+      {
+        "factor": 0.1,
+        "value": "abza:t1_objm_raider_patrol_r1"
+      },
+      {
+        "factor": 0.1,
+        "value": "abza:t1_objm_raider_patrol_r2"
+      },
+      {
+        "factor": 0.1,
+        "value": "abza:t1_objm_raider_patrol_r3"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_objm_checkpoint"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_objm_checkpoint_r1"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_objm_checkpoint_r2"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_objm_checkpoint_r3"
+      },
+      {
+        "factor": 0.25,
         "value": "abza:t1_park_plaza"
       },
       {
-        "factor": 1.0,
-        "value": "abza:t1_home_detached"
+        "factor": 0.25,
+        "value": "abza:t1_park_plaza_r1"
       },
       {
-        "factor": 1.0,
-        "value": "abza:t1_home_townhouse"
+        "factor": 0.25,
+        "value": "abza:t1_park_plaza_r2"
       },
       {
-        "factor": 1.0,
-        "value": "abza:t1_home_bungalow"
+        "factor": 0.25,
+        "value": "abza:t1_park_plaza_r3"
       },
       {
-        "factor": 0.4,
-        "value": "abza:t1_corner_shop"
+        "factor": 0.1,
+        "value": "abza:t1_park_hydro"
+      },
+      {
+        "factor": 0.1,
+        "value": "abza:t1_park_hydro_r1"
+      },
+      {
+        "factor": 0.1,
+        "value": "abza:t1_park_hydro_r2"
+      },
+      {
+        "factor": 0.1,
+        "value": "abza:t1_park_hydro_r3"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_apartment_tower_dark"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_apartment_tower_dark_r1"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_apartment_tower_dark_r2"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_apartment_tower_dark_r3"
+      },
+      {
+        "factor": 0.0938,
+        "value": "abza:t1_pharmacy_dark"
+      },
+      {
+        "factor": 0.0938,
+        "value": "abza:t1_pharmacy_dark_r1"
+      },
+      {
+        "factor": 0.0938,
+        "value": "abza:t1_pharmacy_dark_r2"
+      },
+      {
+        "factor": 0.0938,
+        "value": "abza:t1_pharmacy_dark_r3"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_tech_shop_dark"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_tech_shop_dark_r1"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_tech_shop_dark_r2"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_tech_shop_dark_r3"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_objm_checkpoint_dark"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_objm_checkpoint_dark_r1"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_objm_checkpoint_dark_r2"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_objm_checkpoint_dark_r3"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_cafe_dark"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_cafe_dark_r1"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_cafe_dark_r2"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_cafe_dark_r3"
       }
     ],
     "multibuildings": [
       {
-        "factor": 0.4,
+        "factor": 0.125,
+        "value": "abza:t1_apartment_mid"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_apartment_mid_r1"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_apartment_mid_r2"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_apartment_mid_r3"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_clinic"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_clinic_r1"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_clinic_r2"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_clinic_r3"
+      },
+      {
+        "factor": 0.0225,
+        "value": "abza:t1_museum"
+      },
+      {
+        "factor": 0.0225,
+        "value": "abza:t1_museum_r1"
+      },
+      {
+        "factor": 0.0225,
+        "value": "abza:t1_museum_r2"
+      },
+      {
+        "factor": 0.0225,
+        "value": "abza:t1_museum_r3"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_raider_block"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_raider_block_r1"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_raider_block_r2"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_raider_block_r3"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_police"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_police_r1"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_police_r2"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_police_r3"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_emergency"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_emergency_r1"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_emergency_r2"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_emergency_r3"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_grocery"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_grocery_r1"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_grocery_r2"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_grocery_r3"
+      },
+      {
+        "factor": 0.1,
         "value": "abza:t1_car_park"
+      },
+      {
+        "factor": 0.1,
+        "value": "abza:t1_car_park_r1"
+      },
+      {
+        "factor": 0.1,
+        "value": "abza:t1_car_park_r2"
+      },
+      {
+        "factor": 0.1,
+        "value": "abza:t1_car_park_r3"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_grocery_dark"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_grocery_dark_r1"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_grocery_dark_r2"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_grocery_dark_r3"
+      },
+      {
+        "factor": 0.1,
+        "value": "abza:t1_car_park_dark"
+      },
+      {
+        "factor": 0.1,
+        "value": "abza:t1_car_park_dark_r1"
+      },
+      {
+        "factor": 0.1,
+        "value": "abza:t1_car_park_dark_r2"
+      },
+      {
+        "factor": 0.1,
+        "value": "abza:t1_car_park_dark_r3"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_raider_block_dark"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_raider_block_dark_r1"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_raider_block_dark_r2"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_raider_block_dark_r3"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_emergency_dark"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_emergency_dark_r1"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_emergency_dark_r2"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_emergency_dark_r3"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_police_dark"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_police_dark_r1"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_police_dark_r2"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_police_dark_r3"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_apartment_mid_dark"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_apartment_mid_dark_r1"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_apartment_mid_dark_r2"
+      },
+      {
+        "factor": 0.125,
+        "value": "abza:t1_apartment_mid_dark_r3"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_clinic_dark"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_clinic_dark_r1"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_clinic_dark_r2"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_clinic_dark_r3"
+      },
+      {
+        "factor": 0.0225,
+        "value": "abza:t1_museum_dark"
+      },
+      {
+        "factor": 0.0225,
+        "value": "abza:t1_museum_dark_r1"
+      },
+      {
+        "factor": 0.0225,
+        "value": "abza:t1_museum_dark_r2"
+      },
+      {
+        "factor": 0.0225,
+        "value": "abza:t1_museum_dark_r3"
       }
     ]
   }

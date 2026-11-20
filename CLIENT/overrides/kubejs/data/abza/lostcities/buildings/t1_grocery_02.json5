@@ -1,0 +1,28 @@
+// t1_grocery: one chunk of 3 by 3 chunks, 2 storeys
+{
+  "refpalette": "abza:t1_grocery",
+  "filler": "ҫ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 2,
+  "maxfloors": 2,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "parts": [
+    {
+      "part": "abza:t1_grocery_02_ground",
+      "top": false,
+      "ground": true
+    },
+    {
+      "part": "abza:t1_grocery_02_l1",
+      "top": false,
+      "floor": 1
+    },
+    {
+      "part": "abza:t1_grocery_02_top",
+      "top": true
+    }
+  ]
+}

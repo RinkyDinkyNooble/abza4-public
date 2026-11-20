@@ -1,0 +1,48 @@
+// t1_car_park_dark_r3_12: t1_car_park_dark turned 270 degrees clockwise
+{
+  "refpalette": "abza:t1_car_park_dark_r3",
+  "filler": "Ѥ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 5,
+  "maxfloors": 5,
+  "mincellars": 1,
+  "maxcellars": 1,
+  "parts": [
+    {
+      "part": "abza:t1_car_park_dark_r3_12_c1",
+      "cellar": true,
+      "range": "-1,-1"
+    },
+    {
+      "part": "abza:t1_car_park_dark_r3_12_ground",
+      "top": false,
+      "ground": true
+    },
+    {
+      "part": "abza:t1_car_park_dark_r3_12_l1",
+      "top": false,
+      "floor": 1
+    },
+    {
+      "part": "abza:t1_car_park_dark_r3_12_l2",
+      "top": false,
+      "floor": 2
+    },
+    {
+      "part": "abza:t1_car_park_dark_r3_12_l3",
+      "top": false,
+      "floor": 3
+    },
+    {
+      "part": "abza:t1_car_park_dark_r3_12_l4",
+      "top": false,
+      "floor": 4
+    },
+    {
+      "part": "abza:t1_car_park_dark_r3_12_top",
+      "top": true
+    }
+  ]
+}

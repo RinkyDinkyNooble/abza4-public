@@ -1,0 +1,10 @@
+// t1_museum_dark_r1: t1_museum_dark turned 90 degrees clockwise
+{
+  "dimx": 3,
+  "dimz": 3,
+  "buildings": [
+    ["abza:t1_museum_dark_r1_00", "abza:t1_museum_dark_r1_01", "abza:t1_museum_dark_r1_02"],
+    ["abza:t1_museum_dark_r1_10", "abza:t1_museum_dark_r1_11", "abza:t1_museum_dark_r1_12"],
+    ["abza:t1_museum_dark_r1_20", "abza:t1_museum_dark_r1_21", "abza:t1_museum_dark_r1_22"]
+  ]
+}

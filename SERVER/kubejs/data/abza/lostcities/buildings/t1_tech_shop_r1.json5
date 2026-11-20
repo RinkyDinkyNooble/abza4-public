@@ -1,0 +1,38 @@
+// t1_tech_shop_r1: t1_tech_shop turned 90 degrees clockwise
+{
+  "refpalette": "abza:t1_tech_shop_r1",
+  "filler": "Ҭ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 3,
+  "maxfloors": 4,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "parts": [
+    {
+      "part": "abza:t1_tech_shop_r1_ground",
+      "ground": true,
+      "top": false
+    },
+    {
+      "part": "abza:t1_tech_shop_r1_first",
+      "floor": 1,
+      "top": false
+    },
+    {
+      "part": "abza:t1_tech_shop_r1_upper",
+      "floor": 2,
+      "top": false
+    },
+    {
+      "part": "abza:t1_tech_shop_r1_upper",
+      "floor": 3,
+      "top": false
+    },
+    {
+      "part": "abza:t1_tech_shop_r1_roof",
+      "top": true
+    }
+  ]
+}

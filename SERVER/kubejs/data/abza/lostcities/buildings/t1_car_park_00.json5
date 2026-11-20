@@ -1,7 +1,7 @@
 // t1_car_park: one chunk of 4 by 4 chunks, 5 storeys and 1 cellar
 {
   "refpalette": "abza:t1_car_park",
-  "filler": "Ѣ",
+  "filler": "Ѥ",
   "allowDoors": false,
   "allowFillers": false,
   "overrideFloors": true,

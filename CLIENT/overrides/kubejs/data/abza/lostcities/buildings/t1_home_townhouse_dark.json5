@@ -1,0 +1,33 @@
+// t1_home_townhouse_dark: 2 or 3 storeys
+{
+  "refpalette": "abza:t1_home_townhouse_dark",
+  "filler": "Ғ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 2,
+  "maxfloors": 3,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "parts": [
+    {
+      "part": "abza:t1_home_townhouse_dark_ground",
+      "ground": true,
+      "top": false
+    },
+    {
+      "part": "abza:t1_home_townhouse_dark_upper_a",
+      "floor": 1,
+      "top": false
+    },
+    {
+      "part": "abza:t1_home_townhouse_dark_upper_b",
+      "floor": 2,
+      "top": false
+    },
+    {
+      "part": "abza:t1_home_townhouse_dark_roof",
+      "top": true
+    }
+  ]
+}

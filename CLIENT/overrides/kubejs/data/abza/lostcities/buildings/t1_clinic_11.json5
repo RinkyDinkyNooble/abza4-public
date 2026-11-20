@@ -1,0 +1,38 @@
+// t1_clinic: one chunk of 2 by 2 chunks, 3 storeys and 1 cellar
+{
+  "refpalette": "abza:t1_clinic",
+  "filler": "ҩ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 3,
+  "maxfloors": 3,
+  "mincellars": 1,
+  "maxcellars": 1,
+  "parts": [
+    {
+      "part": "abza:t1_clinic_11_c1",
+      "cellar": true,
+      "range": "-1,-1"
+    },
+    {
+      "part": "abza:t1_clinic_11_ground",
+      "top": false,
+      "ground": true
+    },
+    {
+      "part": "abza:t1_clinic_11_l1",
+      "top": false,
+      "floor": 1
+    },
+    {
+      "part": "abza:t1_clinic_11_l2",
+      "top": false,
+      "floor": 2
+    },
+    {
+      "part": "abza:t1_clinic_11_top",
+      "top": true
+    }
+  ]
+}

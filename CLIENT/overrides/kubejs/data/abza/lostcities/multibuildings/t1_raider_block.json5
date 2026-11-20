@@ -1,0 +1,13 @@
+// t1_raider_block: 2 by 1 chunks, 4 storeys
+{
+  "dimx": 2,
+  "dimz": 1,
+  "buildings": [
+    [
+      "abza:t1_raider_block_00"
+    ],
+    [
+      "abza:t1_raider_block_10"
+    ]
+  ]
+}

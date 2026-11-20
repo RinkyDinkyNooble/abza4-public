@@ -1,0 +1,9 @@
+// t1_emergency_dark_r1: t1_emergency_dark turned 90 degrees clockwise
+{
+  "dimx": 2,
+  "dimz": 2,
+  "buildings": [
+    ["abza:t1_emergency_dark_r1_00", "abza:t1_emergency_dark_r1_01"],
+    ["abza:t1_emergency_dark_r1_10", "abza:t1_emergency_dark_r1_11"]
+  ]
+}

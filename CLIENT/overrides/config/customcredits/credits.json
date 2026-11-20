@@ -28,6 +28,7 @@
                             "[ETF] Entity Texture Features  §7Traben",
                             "[QAPI] Quantified API",
                             "  §7Admany, BlackRiftStudios",
+                            "[SBW] Performance Fix  §7RinkyNooble",
                             "[SBW] Superb Warfare",
                             "  §7Mercurows,",
                             "  §7CrushedBiscuitsPralineCandy,",
@@ -189,7 +190,6 @@
                             "  §7qther",
                             "Necronomicon API  §7ElocinDev",
                             "NeonDeco  §7Ento",
-                            "No Chat Reports  §7Aizistral",
                             "No Experience  §7DxEVIL",
                             "Not Enough Recipe Book [NERB]  §7SSKirillSS",
                             "Obscure Tooltips  §7Obscuria",
@@ -244,8 +244,6 @@
                             "Sounds  §7IMB11",
                             "Starter Kit  §7Serilum",
                             "Stylish Effects  §7Fuzs",
-                            "Superb Warfare Performance Fix",
-                            "  §7RinkyNooble",
                             "SuperMartijn642's Config Lib",
                             "  §7SuperMartijn642",
                             "TaCZ Ad Astra Arm Fix  §7RinkyNooble",
@@ -292,6 +290,8 @@
                     {
                         "title": "",
                         "names": [
+                            "Apocalypse Begins [Sundial Lite Fork]",
+                            "  §7RinkyNooble",
                             "Apocalypse Begins [Sundial Lite Fork]",
                             "  §7RinkyNooble,",
                             "  §7Sundial Lite by GeForceLegend",

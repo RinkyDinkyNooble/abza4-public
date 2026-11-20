@@ -1,14 +1,14 @@
 {
   "title": {
     "text": "Scavenging",
-    "color": "#7EE787",
+    "color": "#A3B1FF",
     "bold": true
   },
   "tip": {
     "text": "",
     "extra": [
       {
-        "text": "A keypad's code is written down "
+        "text": "A keypad's code is usually written down "
       },
       {
         "text": "somewhere in the same building",

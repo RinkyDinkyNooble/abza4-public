@@ -1,0 +1,23 @@
+// t1_park_hydro_r3: t1_park_hydro turned 270 degrees clockwise
+{
+  "refpalette": "abza:t1_park_hydro_r3",
+  "filler": "ч",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 1,
+  "maxfloors": 1,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "parts": [
+    {
+      "part": "abza:t1_park_hydro_r3_ground",
+      "top": false,
+      "ground": true
+    },
+    {
+      "part": "abza:t1_park_hydro_r3_top",
+      "top": true
+    }
+  ]
+}

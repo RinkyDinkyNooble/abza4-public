@@ -1,0 +1,33 @@
+// t1_marina_dark: one chunk of 2 by 1 chunks, 2 storeys, outside cities
+{
+  "refpalette": "abza:t1_marina_dark",
+  "filler": "Њ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 3,
+  "maxfloors": 3,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "parts": [
+    {
+      "part": "abza:t1_marina_dark_10_ground",
+      "floor": 0,
+      "top": false
+    },
+    {
+      "part": "abza:t1_marina_dark_10_l1",
+      "floor": 1,
+      "top": false
+    },
+    {
+      "part": "abza:t1_marina_dark_10_top",
+      "floor": 2,
+      "top": false
+    },
+    {
+      "part": "abza:t1_marina_dark_10_cap",
+      "top": true
+    }
+  ]
+}

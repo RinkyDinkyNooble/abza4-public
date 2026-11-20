@@ -1,0 +1,137 @@
+// t1_park_hydro_r3: t1_park_hydro turned 270 degrees clockwise
+{
+  "palette": [
+    {
+      "char": "а",
+      "block": "betterblockz:cyberlight_thin_0[facing=up]"
+    },
+    {
+      "char": "б",
+      "block": "betterblockz:cyberlight_thin_alt_0[facing=down]"
+    },
+    {
+      "char": "в",
+      "block": "betterblockz:lablink_blockz_0"
+    },
+    {
+      "char": "г",
+      "block": "betterblockz:lablink_blockz_1"
+    },
+    {
+      "char": "д",
+      "block": "lathe:betterblockz__tintedglass_blockz_1_slab[type=top,waterlogged=false]"
+    },
+    {
+      "char": "е",
+      "block": "mdm:black_bench[facing=north,part=left]"
+    },
+    {
+      "char": "ж",
+      "block": "mdm:black_bench[facing=north,part=main]"
+    },
+    {
+      "char": "з",
+      "block": "mdm:black_bench[facing=north,part=right]"
+    },
+    {
+      "char": "и",
+      "block": "mdm:black_bench[facing=south,part=left]"
+    },
+    {
+      "char": "й",
+      "block": "mdm:black_bench[facing=south,part=main]"
+    },
+    {
+      "char": "к",
+      "block": "mdm:black_bench[facing=south,part=right]"
+    },
+    {
+      "char": "л",
+      "block": "minecraft:water[level=0]"
+    },
+    {
+      "char": "м",
+      "block": "neoncraft:e_white[facing=west]"
+    },
+    {
+      "char": "н",
+      "block": "neoncraft:e_white[facing=east]"
+    },
+    {
+      "char": "о",
+      "block": "neoncraft:l_white[facing=west]"
+    },
+    {
+      "char": "п",
+      "block": "neoncraft:l_white[facing=east]"
+    },
+    {
+      "char": "р",
+      "block": "neoncraft:r_white[facing=west]"
+    },
+    {
+      "char": "с",
+      "block": "neoncraft:r_white[facing=east]"
+    },
+    {
+      "char": "т",
+      "block": "neoncraft:v_white[facing=west]"
+    },
+    {
+      "char": "у",
+      "block": "neoncraft:v_white[facing=east]"
+    },
+    {
+      "char": "ф",
+      "block": "neoncraft:w_white[facing=west]"
+    },
+    {
+      "char": "х",
+      "block": "neoncraft:w_white[facing=east]"
+    },
+    {
+      "char": "ц",
+      "block": "betterblockz:myst_blockz_10"
+    },
+    {
+      "char": "ч",
+      "block": "betterblockz:ztyl_blockz_0"
+    },
+    {
+      "char": "ш",
+      "block": "betterblockz:lablink_blockz_0"
+    },
+    {
+      "char": "щ",
+      "block": "lathe:betterblockz__lablink_blockz_0_slab[type=top]"
+    },
+    {
+      "char": "ъ",
+      "block": "betterblockz:mint_blockz_8"
+    },
+    {
+      "char": "ы",
+      "block": "betterblockz:tintedglass_blockz_1"
+    },
+    {
+      "char": "ь",
+      "block": "minecraft:azalea_leaves[persistent=true]"
+    },
+    {
+      "char": "э",
+      "block": "betterblockz:cyberlight_blockz_0"
+    },
+    {
+      "char": "ю",
+      "block": "betterblockz:mint_blockz_8"
+    },
+    {
+      "char": "я",
+      "block": "betterblockz:lablink_blockz_0"
+    },
+    {
+      "char": "ѐ",
+      "block": "betterblockz:vect_blockz_4"
+    }
+  ]
+}

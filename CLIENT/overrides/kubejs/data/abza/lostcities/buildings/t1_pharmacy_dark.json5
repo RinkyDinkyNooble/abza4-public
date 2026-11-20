@@ -1,0 +1,28 @@
+// t1_pharmacy_dark: 3 or 4 storeys
+{
+  "refpalette": "abza:t1_pharmacy_dark",
+  "filler": "Ҳ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 3,
+  "maxfloors": 4,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "parts": [
+    {
+      "part": "abza:t1_pharmacy_dark_ground",
+      "ground": true,
+      "top": false
+    },
+    {
+      "part": "abza:t1_pharmacy_dark_upper",
+      "ground": false,
+      "top": false
+    },
+    {
+      "part": "abza:t1_pharmacy_dark_roof",
+      "top": true
+    }
+  ]
+}

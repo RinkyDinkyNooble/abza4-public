@@ -330,7 +330,7 @@
     },
     {
       "char": "Т",
-      "block": "mdm:office_cabinet_1[facing=north]",
+      "block": "mdm:office_cabinet_1[facing=west]",
       "tag": {
         "LootTable": "abza:chests/shop/pharmacy_stock"
       }

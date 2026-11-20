@@ -1,0 +1,26 @@
+{
+  "music.t1": {
+    "sounds": [
+      {
+        "name": "abza:music/t1_dead_city",
+        "stream": true
+      },
+      {
+        "name": "abza:music/t1_figure",
+        "stream": true
+      },
+      {
+        "name": "abza:music/t1_home",
+        "stream": true
+      }
+    ]
+  },
+  "music.other": {
+    "sounds": [
+      {
+        "name": "abza:music/other_adrift",
+        "stream": true
+      }
+    ]
+  }
+}
