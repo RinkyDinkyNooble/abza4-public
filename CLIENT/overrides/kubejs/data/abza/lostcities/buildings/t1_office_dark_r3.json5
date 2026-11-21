@@ -1,0 +1,48 @@
+// t1_office_dark_r3: t1_office_dark turned 270 degrees clockwise
+{
+  "refpalette": "abza:t1_office_dark_r3",
+  "filler": "Ѭ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 4,
+  "maxfloors": 6,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "parts": [
+    {
+      "part": "abza:t1_office_dark_r3_ground",
+      "ground": true,
+      "top": false
+    },
+    {
+      "part": "abza:t1_office_dark_r3_first",
+      "floor": 1,
+      "top": false
+    },
+    {
+      "part": "abza:t1_office_dark_r3_upper_b",
+      "floor": 2,
+      "top": false
+    },
+    {
+      "part": "abza:t1_office_dark_r3_upper_a",
+      "floor": 3,
+      "top": false
+    },
+    {
+      "part": "abza:t1_office_dark_r3_upper_b",
+      "floor": 4,
+      "top": false
+    },
+    {
+      "part": "abza:t1_office_dark_r3_upper_a",
+      "floor": 5,
+      "top": false
+    },
+    {
+      "part": "abza:t1_office_dark_r3_roof",
+      "top": true
+    }
+  ]
+}

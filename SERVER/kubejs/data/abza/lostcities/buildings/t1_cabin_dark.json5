@@ -1,0 +1,33 @@
+// t1_cabin_dark: 2 storeys, outside cities
+{
+  "refpalette": "abza:t1_cabin_dark",
+  "filler": "Р",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 3,
+  "maxfloors": 3,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "parts": [
+    {
+      "part": "abza:t1_cabin_dark_ground",
+      "floor": 0,
+      "top": false
+    },
+    {
+      "part": "abza:t1_cabin_dark_l1",
+      "floor": 1,
+      "top": false
+    },
+    {
+      "part": "abza:t1_cabin_dark_top",
+      "floor": 2,
+      "top": false
+    },
+    {
+      "part": "abza:t1_cabin_dark_cap",
+      "top": true
+    }
+  ]
+}

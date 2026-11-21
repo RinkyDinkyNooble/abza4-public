@@ -1,0 +1,38 @@
+// t1_bank_dark_r2_10: t1_bank_dark turned 180 degrees clockwise
+{
+  "refpalette": "abza:t1_bank_dark_r2",
+  "filler": "ѽ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 2,
+  "maxfloors": 2,
+  "mincellars": 2,
+  "maxcellars": 2,
+  "parts": [
+    {
+      "part": "abza:t1_bank_dark_r2_10_c2",
+      "cellar": true,
+      "range": "-2,-2"
+    },
+    {
+      "part": "abza:t1_bank_dark_r2_10_c1",
+      "cellar": true,
+      "range": "-1,-1"
+    },
+    {
+      "part": "abza:t1_bank_dark_r2_10_ground",
+      "top": false,
+      "ground": true
+    },
+    {
+      "part": "abza:t1_bank_dark_r2_10_l1",
+      "top": false,
+      "floor": 1
+    },
+    {
+      "part": "abza:t1_bank_dark_r2_10_top",
+      "top": true
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+// t1_greenhouse_diner_dark: 2 storeys
+{
+  "refpalette": "abza:t1_greenhouse_diner_dark",
+  "filler": "А",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 2,
+  "maxfloors": 2,
+  "mincellars": 0,
+  "maxcellars": 0,
+  "parts": [
+    {
+      "part": "abza:t1_greenhouse_diner_dark_ground",
+      "top": false,
+      "ground": true
+    },
+    {
+      "part": "abza:t1_greenhouse_diner_dark_l1",
+      "top": false,
+      "floor": 1
+    },
+    {
+      "part": "abza:t1_greenhouse_diner_dark_top",
+      "top": true
+    }
+  ]
+}

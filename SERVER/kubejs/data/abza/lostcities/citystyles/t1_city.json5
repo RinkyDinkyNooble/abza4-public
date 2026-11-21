@@ -126,19 +126,19 @@
         "value": "abza:t1_cafe_r3"
       },
       {
-        "factor": 0.1,
+        "factor": 0.05,
         "value": "abza:t1_office"
       },
       {
-        "factor": 0.1,
+        "factor": 0.05,
         "value": "abza:t1_office_r1"
       },
       {
-        "factor": 0.1,
+        "factor": 0.05,
         "value": "abza:t1_office_r2"
       },
       {
-        "factor": 0.1,
+        "factor": 0.05,
         "value": "abza:t1_office_r3"
       },
       {
@@ -264,6 +264,22 @@
       {
         "factor": 0.125,
         "value": "abza:t1_cafe_dark_r3"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_office_dark"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_office_dark_r1"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_office_dark_r2"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_office_dark_r3"
       }
     ],
     "multibuildings": [
@@ -380,27 +396,51 @@
         "value": "abza:t1_car_park_r3"
       },
       {
-        "factor": 0.12,
+        "factor": 0.015,
         "value": "abza:t1_office_everwell"
       },
       {
-        "factor": 0.4,
+        "factor": 0.015,
+        "value": "abza:t1_office_everwell_r1"
+      },
+      {
+        "factor": 0.015,
+        "value": "abza:t1_office_everwell_r2"
+      },
+      {
+        "factor": 0.015,
+        "value": "abza:t1_office_everwell_r3"
+      },
+      {
+        "factor": 0.05,
         "value": "abza:t1_bank"
       },
       {
-        "factor": 0.1,
+        "factor": 0.05,
+        "value": "abza:t1_bank_r1"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_bank_r2"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_bank_r3"
+      },
+      {
+        "factor": 0.05,
         "value": "abza:t1_construction"
       },
       {
-        "factor": 0.1,
+        "factor": 0.05,
         "value": "abza:t1_construction_r1"
       },
       {
-        "factor": 0.1,
+        "factor": 0.05,
         "value": "abza:t1_construction_r2"
       },
       {
-        "factor": 0.1,
+        "factor": 0.05,
         "value": "abza:t1_construction_r3"
       },
       {
@@ -514,6 +554,54 @@
       {
         "factor": 0.0225,
         "value": "abza:t1_museum_dark_r3"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_bank_dark"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_bank_dark_r1"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_bank_dark_r2"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_bank_dark_r3"
+      },
+      {
+        "factor": 0.015,
+        "value": "abza:t1_office_everwell_dark"
+      },
+      {
+        "factor": 0.015,
+        "value": "abza:t1_office_everwell_dark_r1"
+      },
+      {
+        "factor": 0.015,
+        "value": "abza:t1_office_everwell_dark_r2"
+      },
+      {
+        "factor": 0.015,
+        "value": "abza:t1_office_everwell_dark_r3"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_construction_dark"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_construction_dark_r1"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_construction_dark_r2"
+      },
+      {
+        "factor": 0.05,
+        "value": "abza:t1_construction_dark_r3"
       }
     ]
   }

@@ -1,0 +1,38 @@
+// t1_bank_dark: one chunk of 2 by 1 chunks, 2 storeys and 2 cellars
+{
+  "refpalette": "abza:t1_bank_dark",
+  "filler": "ѽ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 2,
+  "maxfloors": 2,
+  "mincellars": 2,
+  "maxcellars": 2,
+  "parts": [
+    {
+      "part": "abza:t1_bank_dark_00_c2",
+      "cellar": true,
+      "range": "-2,-2"
+    },
+    {
+      "part": "abza:t1_bank_dark_00_c1",
+      "cellar": true,
+      "range": "-1,-1"
+    },
+    {
+      "part": "abza:t1_bank_dark_00_ground",
+      "top": false,
+      "ground": true
+    },
+    {
+      "part": "abza:t1_bank_dark_00_l1",
+      "top": false,
+      "floor": 1
+    },
+    {
+      "part": "abza:t1_bank_dark_00_top",
+      "top": true
+    }
+  ]
+}

@@ -126,8 +126,12 @@
         "value": "abza:t1_corner_shop_r3"
       },
       {
-        "factor": 0.12,
+        "factor": 0.03,
         "value": "abza:t1_greenhouse_diner"
+      },
+      {
+        "factor": 0.03,
+        "value": "abza:t1_greenhouse_diner_r1"
       },
       {
         "factor": 0.015,
@@ -240,6 +244,14 @@
       {
         "factor": 0.015,
         "value": "abza:t1_objm_survivor_dark_r3"
+      },
+      {
+        "factor": 0.03,
+        "value": "abza:t1_greenhouse_diner_dark"
+      },
+      {
+        "factor": 0.03,
+        "value": "abza:t1_greenhouse_diner_dark_r1"
       }
     ],
     "multibuildings": [

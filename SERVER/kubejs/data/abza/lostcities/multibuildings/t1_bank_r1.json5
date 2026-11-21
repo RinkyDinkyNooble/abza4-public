@@ -1,0 +1,8 @@
+// t1_bank_r1: t1_bank turned 90 degrees clockwise
+{
+  "dimx": 1,
+  "dimz": 2,
+  "buildings": [
+    ["abza:t1_bank_r1_00", "abza:t1_bank_r1_01"]
+  ]
+}

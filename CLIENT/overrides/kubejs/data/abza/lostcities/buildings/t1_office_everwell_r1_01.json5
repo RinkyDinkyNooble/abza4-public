@@ -1,0 +1,63 @@
+// t1_office_everwell_r1_01: t1_office_everwell turned 90 degrees clockwise
+{
+  "refpalette": "abza:t1_office_everwell_r1",
+  "filler": "ӝ",
+  "allowDoors": false,
+  "allowFillers": false,
+  "overrideFloors": true,
+  "minfloors": 8,
+  "maxfloors": 8,
+  "mincellars": 1,
+  "maxcellars": 1,
+  "parts": [
+    {
+      "part": "abza:t1_office_everwell_r1_01_c1",
+      "cellar": true,
+      "range": "-1,-1"
+    },
+    {
+      "part": "abza:t1_office_everwell_r1_01_ground",
+      "top": false,
+      "ground": true
+    },
+    {
+      "part": "abza:t1_office_everwell_r1_01_l1",
+      "top": false,
+      "floor": 1
+    },
+    {
+      "part": "abza:t1_office_everwell_r1_01_l2",
+      "top": false,
+      "floor": 2
+    },
+    {
+      "part": "abza:t1_office_everwell_r1_01_l3",
+      "top": false,
+      "floor": 3
+    },
+    {
+      "part": "abza:t1_office_everwell_r1_01_l4",
+      "top": false,
+      "floor": 4
+    },
+    {
+      "part": "abza:t1_office_everwell_r1_01_l5",
+      "top": false,
+      "floor": 5
+    },
+    {
+      "part": "abza:t1_office_everwell_r1_01_l6",
+      "top": false,
+      "floor": 6
+    },
+    {
+      "part": "abza:t1_office_everwell_r1_01_l7",
+      "top": false,
+      "floor": 7
+    },
+    {
+      "part": "abza:t1_office_everwell_r1_01_top",
+      "top": true
+    }
+  ]
+}
