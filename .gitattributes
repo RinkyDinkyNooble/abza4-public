@@ -1,0 +1,2 @@
+SERVER/*.sh text eol=lf
+SERVER/variables.txt text eol=lf
