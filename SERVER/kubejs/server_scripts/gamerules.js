@@ -24,16 +24,26 @@ const ABZA_GAMERULES = {
     eyes: 10010
 }
 
-ServerEvents.loaded(event => {
-    var server = event.server
-    var data = server.persistentData
-    var applied = data.getCompound('abza_gamerules')
-    Object.keys(ABZA_GAMERULES).forEach(rule => {
-        var value = String(ABZA_GAMERULES[rule])
+// Dedicated servers only
+const ABZA_SERVER_GAMERULES = {
+    sendCommandFeedback: false
+}
+
+function abzaApplyGamerules(server, rules, applied) {
+    Object.keys(rules).forEach(rule => {
+        var value = String(rules[rule])
         if (applied.getString(rule) == value) return
         server.runCommandSilent('gamerule ' + rule + ' ' + value)
         applied.putString(rule, value)
     })
+}
+
+ServerEvents.loaded(event => {
+    var server = event.server
+    var data = server.persistentData
+    var applied = data.getCompound('abza_gamerules')
+    abzaApplyGamerules(server, ABZA_GAMERULES, applied)
+    if (server.isDedicated()) abzaApplyGamerules(server, ABZA_SERVER_GAMERULES, applied)
     data.put('abza_gamerules', applied)
 })
 

@@ -74,13 +74,13 @@ LEGACYFABRIC_INSTALLER_VERSION=1.1.1
 FABRIC_INSTALLER_VERSION=1.1.2
 QUILT_INSTALLER_VERSION=0.15.1
 RECOMMENDED_JAVA_VERSION=17
-WAIT_FOR_USER_INPUT=true
+WAIT_FOR_USER_INPUT=false
 JAVA="java"
 JAVA_ARGS="-Xmx4G -Xms4G"
 ADDITIONAL_ARGS="-Dlog4j2.formatMsgNoLookups=true"
 SSJ_FORGE_ARGS="-Djava.security.manager=allow"
 RESTART=false
-SKIP_JAVA_CHECK=false
+SKIP_JAVA_CHECK=true
 JDK_VENDOR=temurin
 JABBA_INSTALL_URL_SH=https://github.com/Jabba-Team/jabba/raw/main/install.sh
 JABBA_INSTALL_URL_PS=https://github.com/Jabba-Team/jabba/raw/main/install.ps1
