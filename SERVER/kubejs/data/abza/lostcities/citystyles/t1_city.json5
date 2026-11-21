@@ -127,6 +127,22 @@
       },
       {
         "factor": 0.1,
+        "value": "abza:t1_office"
+      },
+      {
+        "factor": 0.1,
+        "value": "abza:t1_office_r1"
+      },
+      {
+        "factor": 0.1,
+        "value": "abza:t1_office_r2"
+      },
+      {
+        "factor": 0.1,
+        "value": "abza:t1_office_r3"
+      },
+      {
+        "factor": 0.1,
         "value": "abza:t1_objm_raider_patrol"
       },
       {
@@ -158,36 +174,16 @@
         "value": "abza:t1_objm_checkpoint_r3"
       },
       {
-        "factor": 0.25,
+        "factor": 1.0,
         "value": "abza:t1_park_plaza"
       },
       {
-        "factor": 0.25,
-        "value": "abza:t1_park_plaza_r1"
-      },
-      {
-        "factor": 0.25,
-        "value": "abza:t1_park_plaza_r2"
-      },
-      {
-        "factor": 0.25,
-        "value": "abza:t1_park_plaza_r3"
-      },
-      {
-        "factor": 0.1,
+        "factor": 0.2,
         "value": "abza:t1_park_hydro"
       },
       {
-        "factor": 0.1,
+        "factor": 0.2,
         "value": "abza:t1_park_hydro_r1"
-      },
-      {
-        "factor": 0.1,
-        "value": "abza:t1_park_hydro_r2"
-      },
-      {
-        "factor": 0.1,
-        "value": "abza:t1_park_hydro_r3"
       },
       {
         "factor": 0.05,
@@ -272,20 +268,12 @@
     ],
     "multibuildings": [
       {
-        "factor": 0.125,
+        "factor": 0.25,
         "value": "abza:t1_apartment_mid"
       },
       {
-        "factor": 0.125,
+        "factor": 0.25,
         "value": "abza:t1_apartment_mid_r1"
-      },
-      {
-        "factor": 0.125,
-        "value": "abza:t1_apartment_mid_r2"
-      },
-      {
-        "factor": 0.125,
-        "value": "abza:t1_apartment_mid_r3"
       },
       {
         "factor": 0.05,
@@ -336,20 +324,12 @@
         "value": "abza:t1_raider_block_r3"
       },
       {
-        "factor": 0.05,
+        "factor": 0.1,
         "value": "abza:t1_police"
       },
       {
-        "factor": 0.05,
+        "factor": 0.1,
         "value": "abza:t1_police_r1"
-      },
-      {
-        "factor": 0.05,
-        "value": "abza:t1_police_r2"
-      },
-      {
-        "factor": 0.05,
-        "value": "abza:t1_police_r3"
       },
       {
         "factor": 0.05,
@@ -398,6 +378,30 @@
       {
         "factor": 0.1,
         "value": "abza:t1_car_park_r3"
+      },
+      {
+        "factor": 0.12,
+        "value": "abza:t1_office_everwell"
+      },
+      {
+        "factor": 0.4,
+        "value": "abza:t1_bank"
+      },
+      {
+        "factor": 0.1,
+        "value": "abza:t1_construction"
+      },
+      {
+        "factor": 0.1,
+        "value": "abza:t1_construction_r1"
+      },
+      {
+        "factor": 0.1,
+        "value": "abza:t1_construction_r2"
+      },
+      {
+        "factor": 0.1,
+        "value": "abza:t1_construction_r3"
       },
       {
         "factor": 0.125,
@@ -464,36 +468,20 @@
         "value": "abza:t1_emergency_dark_r3"
       },
       {
-        "factor": 0.05,
+        "factor": 0.1,
         "value": "abza:t1_police_dark"
       },
       {
-        "factor": 0.05,
+        "factor": 0.1,
         "value": "abza:t1_police_dark_r1"
       },
       {
-        "factor": 0.05,
-        "value": "abza:t1_police_dark_r2"
-      },
-      {
-        "factor": 0.05,
-        "value": "abza:t1_police_dark_r3"
-      },
-      {
-        "factor": 0.125,
+        "factor": 0.25,
         "value": "abza:t1_apartment_mid_dark"
       },
       {
-        "factor": 0.125,
+        "factor": 0.25,
         "value": "abza:t1_apartment_mid_dark_r1"
-      },
-      {
-        "factor": 0.125,
-        "value": "abza:t1_apartment_mid_dark_r2"
-      },
-      {
-        "factor": 0.125,
-        "value": "abza:t1_apartment_mid_dark_r3"
       },
       {
         "factor": 0.05,

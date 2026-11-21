@@ -3,7 +3,6 @@
 const ABZA_GAMERULES = {
     // Vanilla
     commandBlockOutput: false,
-    sendCommandFeedback: false,
     announceAdvancements: false,
     lavaSourceConversion: true,
     doPatrolSpawning: false,

@@ -126,6 +126,10 @@
         "value": "abza:t1_corner_shop_r3"
       },
       {
+        "factor": 0.12,
+        "value": "abza:t1_greenhouse_diner"
+      },
+      {
         "factor": 0.015,
         "value": "abza:t1_objm_survivor"
       },

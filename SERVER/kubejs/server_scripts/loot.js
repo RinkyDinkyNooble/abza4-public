@@ -405,6 +405,13 @@ const ABZA_BUILDING_LOOT_TABLES = [
     ['construction/site', [['workshop', 4], ['supplies', 1], ['defence', 0.5], ['parts', 0.2]]],
     ['construction/locker', [['personal', 3], ['linen', 1], ['supplies', 0.5], ['medicine', 0.15]], [1, 6, 0.3]],
     ['construction/magazine', [['supplies', 2], ['demolition', 1]]],
+    // The bank branch: the tellers' drawers, the managers' and staff desks, the guard's post, the safe-deposit boxes
+    // and the cash cage behind the vault's keypad door
+    ['bank/teller', [['personal', 1], ['household', 1]], [8, 20]],
+    ['bank/office', [['household', 3], ['personal', 2]], [1, 8, 0.3]],
+    ['bank/guard', [['ammo', 1.5], ['personal', 1], ['supplies', 0.5], ['medicine', 0.3]], [1, 6, 0.3], [['pool', 'guns', 0.1], ['pool', 'police', 0.05]]],
+    ['bank/deposit', [['personal', 3], ['homegear', 0.05], ['medicine', 0.1]], [5, 15, 0.5], [['pool', 'prize', 0.02], ['pool', 'guns', 0.01]]],
+    ['bank/cage', [['personal', 1]], [25, 45]],
     // A stash off the main way, in any building: a Lootr chest, a roll for every player
     ['stash', [['ammo', 3], ['medicine', 1.5], ['shelffood', 1.5], ['personal', 1], ['supplies', 0.5]], [5, 15], [['pool', 'guns', 0.05]]],
     // A stash in a shop whose prize is something else (the tech shop's machines): no gun

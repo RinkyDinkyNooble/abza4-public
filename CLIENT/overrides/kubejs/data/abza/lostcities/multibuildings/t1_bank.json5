@@ -1,0 +1,13 @@
+// t1_bank: 2 by 1 chunks, 2 storeys and 2 cellars
+{
+  "dimx": 2,
+  "dimz": 1,
+  "buildings": [
+    [
+      "abza:t1_bank_00"
+    ],
+    [
+      "abza:t1_bank_10"
+    ]
+  ]
+}

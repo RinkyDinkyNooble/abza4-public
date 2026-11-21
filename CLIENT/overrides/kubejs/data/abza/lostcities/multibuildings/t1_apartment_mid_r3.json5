@@ -1,9 +1,0 @@
-// t1_apartment_mid_r3: t1_apartment_mid turned 270 degrees clockwise
-{
-  "dimx": 2,
-  "dimz": 2,
-  "buildings": [
-    ["abza:t1_apartment_mid_r3_00", "abza:t1_apartment_mid_r3_01"],
-    ["abza:t1_apartment_mid_r3_10", "abza:t1_apartment_mid_r3_11"]
-  ]
-}

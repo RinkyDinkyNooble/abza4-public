@@ -1,0 +1,15 @@
+// t1_office_everwell: 2 by 2 chunks, 8 storeys and 1 cellar
+{
+  "dimx": 2,
+  "dimz": 2,
+  "buildings": [
+    [
+      "abza:t1_office_everwell_00",
+      "abza:t1_office_everwell_01"
+    ],
+    [
+      "abza:t1_office_everwell_10",
+      "abza:t1_office_everwell_11"
+    ]
+  ]
+}

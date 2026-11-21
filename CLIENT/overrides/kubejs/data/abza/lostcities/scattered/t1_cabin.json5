@@ -1,0 +1,7 @@
+// Cabin, outside cities
+{
+  "buildings": ["abza:t1_cabin"],
+  "terrainheight": "highest",
+  "terrainfix": "repeatslice",
+  "heightoffset": -3
+}
