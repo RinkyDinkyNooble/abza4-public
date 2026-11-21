@@ -2,7 +2,7 @@
 
 _Explore, Fight, & Conquer apocalyptic worlds with your friends._
 
-> <span style="color:#ff3347"><strong>Currently in alpha and unfinished.</strong></span> The cities are in development. Expect many changes between versions.
+> <span style="color:#5468ff"><strong>The Plains, the first tier, are complete.</strong></span> Every tier is playable; the later tiers' cities come in future versions.
 
 **Extreme PvE survival** on Minecraft 1.20.1 (Forge). The world is split into tiers: each region has its own climate, creatures, weapons and gear. Each tier gets harder the further you go, from <span style="color:#5468ff"><strong>Earth's cities</strong></span> to <span style="color:#5468ff"><strong>the Moon and four worlds beyond it</strong></span>.
 
@@ -10,8 +10,13 @@ _Explore, Fight, & Conquer apocalyptic worlds with your friends._
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <a href="https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/shot_04.jpg" rel="nofollow"><img src="https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/shot_04.jpg" alt="Everwell's neon sign over the city at night" width="400"></a> | <a href="https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/shot_08.jpg" rel="nofollow"><img src="https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/shot_08.jpg" alt="Zombies in a city street in the rain" width="400"></a>   |
 | <strong>Everwell</strong><br>One dose. Forever well.                                                                                                                                                                                                                                         | <strong>After Dark</strong><br>Stay indoors.                                                                                                                                                                                                                                            |
-| <a href="https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/shot_06.jpg" rel="nofollow"><img src="https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/shot_06.jpg" alt="The Plains' city by day" width="400"></a>                     | <a href="https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/shot_09.jpg" rel="nofollow"><img src="https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/shot_09.jpg" alt="Prospero, the traders' yacht, at night" width="400"></a> |
-| <strong>The Plains' City</strong><br>ABZA's own buildings                                                                                                                                                                                                                                    | <strong>Prospero</strong><br>The traders' yacht                                                                                                                                                                                                                                         |
+| <a href="https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/shot_18.jpg" rel="nofollow"><img src="https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/shot_18.jpg" alt="The Plains' city from the water" width="400"></a>                     | <a href="https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/shot_17.jpg" rel="nofollow"><img src="https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/shot_17.jpg" alt="Joao, a guard for hire" width="400"></a> |
+| <strong>The Plains' City</strong><br>ABZA's own buildings                                                                                                                                                                                                                                    | <strong>Guards for Hire</strong><br>Paid by the day, cash first.                                                                                                                                                                                                                                         |
+
+| |
+| --- |
+| <a href="https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/loop_raiders.webp" rel="nofollow"><img src="https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/loop_raiders.webp" alt="Raiders firing from their toll post in the rain" width="808"></a> |
+| <strong>Raiders</strong><br>They want a toll. |
 
 ***
 
@@ -20,25 +25,28 @@ _Explore, Fight, & Conquer apocalyptic worlds with your friends._
 *   **Eight tiers:** three tiers on Earth and five tiers in space (1 per planet). Each tier has its own **creatures, mini-bosses, bosses and a final boss**.
 *   **Survival:** <span style="color:#ff3347"><strong>no natural healing</strong></span>; each region's affliction and a **vaccine** made from its creatures. Temperature differs by tier. Food is found, bought or sometimes farmed, but not craftable/cookable.
 *   **Combat:** each tier has its own ammunition, vehicles, weapons, and armor. <span style="color:#5468ff"><strong>Hordes attack every fourth night</strong></span>.
-*   **Progression:** a modified **Mekanism** experience changed to integrate Ad Astra and other progression related content. 
-*   **Scavenging:** locked safes with codes written somewhere nearby, **air drops** called by flare guns, and more comming soon.
+*   **Progression:** a modified **Mekanism** experience changed to integrate Ad Astra and other progression related content.
+*   **Scavenging:** locked safes and doors with codes written somewhere nearby, keycard rooms, **air drops** called by flare guns, and more coming soon.
 *   **PvE Experience:** every player is on one team, with friendly fire off. A unified world map combined with QoL multiplayer mods will enhance cooperation.
 *   **FTB & NPC Quests** with tutorials, story and a bestiary.
 
 ***
 
-![02 // This Alpha](https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/header_this_alpha.png)
+![02 // This Version](https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/header_this_version.png)
 
-### Current City Related Progress
+### The Plains' cities
 
-*   **Tier 1 city:** detached houses, townhouses, bungalows, a corner shop, an apartment tower, a pharmacy, a car park and a plaza.
+*   **32 buildings of ABZA's own**, 28 of them also in a darker look: homes, shops and parks, a police station, a clinic, a bank, a marina, and a museum with a boss inside.
+*   **Keypad and keycard doors** lock the best rooms; the code or card is usually in the same building.
+*   **People live there:** the Survivors' holdout with its traders and guards, a lone trader on a vacant lot, and raiders taking a toll.
+*   **Highways** cross the land in long straight lines between the cities.
 *   **Prospero:** the yacht with the traders, on the ocean nearest spawn.
 
-### Termporary Features Until The Cities Are Complete
+### Until the later cities are built
 
 *   **Bosses come to you:** mini-bosses, bosses and final bosses find players in their region, and drop finds from its loot.
-*   **Camps:** the first time someone reaches a region past tier 1, its traders and guards for hire make camp nearby.
-*   **The Alien Navigation Core** drops from the Badlands' final boss and other bosses.
+*   **Camps:** the first time someone reaches a region, its traders make camp nearby, with guards for hire from the Snow on.
+*   **The Alien Navigation Core** drops from the Badlands' final boss and, sometimes, its bosses.
 
 ***
 
@@ -46,15 +54,15 @@ _Explore, Fight, & Conquer apocalyptic worlds with your friends._
 
 ## RAM Requirements
 
-| Category | Minimum | Recommended | Best Experience |
-|---|---:|---:|---:|
-| DRAM (System RAM) | 4GB | 8GB | 12GB |
+| Category          | Minimum | Recommended | Best Experience |
+| ----------------- | ------- | ----------- | --------------- |
+| DRAM (System RAM) | 4GB     | 8GB         | 12GB            |
 
 ## Shader Requirements
 
-| Category | Minimum | Recommended | Best Experience |
-|---|---:|---:|---:|
-| VRAM (Graphics Memory) | 4GB | 6GB | 8GB+ |
+| Category               | Minimum | Recommended | Best Experience |
+| ---------------------- | ------- | ----------- | --------------- |
+| VRAM (Graphics Memory) | 4GB     | 6GB         | 8GB+            |
 
 **Note:** A server requires a minimum of 4GB of RAM, but 8GB or more is recommended for the best experience.
 
@@ -70,4 +78,8 @@ You are **free** to copy, modify and distribute at your own discretion (BSD Zero
 
 ## Inspiration
 
-**Apocalypse Begins** is **originally** inspired by [DeceasedCraft](https://www.curseforge.com/minecraft/modpacks/deceasedcraft) (author [TqLxQuanZ](https://www.curseforge.com/members/tqlxquanz/projects)). 
+**Apocalypse Begins** is **originally** inspired by [DeceasedCraft](https://www.curseforge.com/minecraft/modpacks/deceasedcraft) (author [TqLxQuanZ](https://www.curseforge.com/members/tqlxquanz/projects)).
+
+## This repository
+
+`CLIENT/` is the CurseForge client pack and `SERVER/` the server pack, both at 4.1.0. `CHANGELOG.md` lists what changed in each version.

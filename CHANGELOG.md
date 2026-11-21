@@ -1,5 +1,29 @@
 # Changelog
 
+## [4.1.0] CLIENT and SERVER
+
+The Plains are complete. **A new world is recommended:** the new buildings only appear where the world hasn't been generated yet.
+
+### New since 4.0.1
+- 24 new buildings in the Plains, 32 in all: a café, a bank, offices, a police station, a clinic, a marina, a museum and more. 28 of them also come in a darker look, and buildings now stand turned every way, so streets repeat less.
+- The museum is a boss building: bosses on the way, and the Ancient Zombie in its sealed lab.
+- Keypad and keycard doors lock the best rooms; the code or card is usually in the same building.
+- People in the city: the Survivors' holdout with traders and guards, a lone trader on a vacant lot, and raiders taking a toll on others.
+- Some marinas have a speedboat, and some police checkpoints a pickup with a heavy machine gun.
+- Highways cross the land in long straight lines, about 1,000 blocks apart.
+- You start in a cherry grove, away from the cities.
+- ABZA's own music: a new menu theme, three tracks on the Plains and one for everywhere else.
+- ABZA Shader 1.1.0.
+- New title screen pictures and loading screen; fewer, clearer loading tips.
+- Chat can't be reported to Mojang. No Chat Reports is gone: a script in the pack does its job.
+- The server pack holds only the mods a server runs, so hosts that install from its manifest work. Its start scripts skip the Java check: set your host to Java 17.
+
+### Still a stand-in until the later cities
+- Mini-bosses, bosses and final bosses come to players in their region; they drop finds from the region's loot.
+- Outside the Plains, creatures drop finds from what a city's containers hold.
+- The first time someone reaches a region, its traders make camp nearby, with guards for hire from the Snow on.
+- The Alien Navigation Core drops from the Badlands' final boss and, sometimes, its bosses.
+
 ## [4.0.1] CLIENT and SERVER
 
 The first alpha. **Start a new world.** Version numbers are plain from now on: the major number is the tier (4 for the Plains).
