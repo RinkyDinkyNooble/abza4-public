@@ -13,11 +13,6 @@ _Explore, Fight, & Survive apocalyptic threats with your friends._
 | <a href="https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/shot_23.jpg" rel="nofollow"><img src="https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/shot_23.jpg" alt="A helicopter on a neon-lit city street at night" width="400"></a> | <a href="https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/shot_21.jpg" rel="nofollow"><img src="https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/shot_21.jpg" alt="An astronaut on the Moon under a bright sun" width="400"></a> |
 | <strong>Vehicles</strong><br>Each tier has its own. | <strong>Beyond Earth</strong><br>Five worlds, a tier each. |
 
-| |
-| --- |
-| <a href="https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/loop_raiders.webp" rel="nofollow"><img src="https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/loop_raiders.webp" alt="Raiders firing from their toll post in the rain" width="808"></a> |
-| <strong>Raiders</strong><br>They shoot on sight. |
-
 ***
 
 ![01 // What's In It](https://raw.githubusercontent.com/RinkyDinkyNooble/abza4-public/main/assets/cf/header_whats_in_it.png)
