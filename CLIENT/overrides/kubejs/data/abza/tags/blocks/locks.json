@@ -1,0 +1,8 @@
+{
+  "values": [
+    {"id": "securitycraft:keypad_chest", "required": false},
+    {"id": "securitycraft:keypad_door", "required": false},
+    {"id": "securitycraft:keypad", "required": false},
+    {"id": "securitycraft:keycard_reader", "required": false}
+  ]
+}

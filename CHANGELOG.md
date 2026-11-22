@@ -1,5 +1,21 @@
 # Changelog
 
+## [4.1.1] CLIENT and SERVER
+
+Carries on in a 4.1.0 world. A server needs the 4.1.1 server pack.
+
+### New since 4.1.0
+- A new questbook. Each tier is a map of three lines, Survive, Tech and Gear, from where you arrive to the tier's vaccine. Steps tick as you play, in any order.
+- Each tier lists its own ores; the Plains, the Snow and the Badlands show a chart of their heights.
+- Backpacks, armour sets, grappling hooks, vehicles, rockets and fuel each have steps in their tier.
+- Records: containers looted and horde nights survived.
+- Client Sort: sort, fill and move items with buttons on chests and loot containers.
+- Starter kits give stone tools instead of wooden ones. The Scavenger's kit no longer has a backpack.
+- Plazas, hydro gardens and playgrounds are rarer.
+- Hired guards sit higher in vehicle seats.
+- The Tier 2 Material Pack takes an emerald in place of one lead ingot.
+- Includes 4.1.0-hotfix's JEI fix for servers.
+
 ## [4.1.0-hotfix] CLIENT
 
 - On a server, JEI lists every item and its recipes again (only fluids showed). Singleplayer wasn't affected.

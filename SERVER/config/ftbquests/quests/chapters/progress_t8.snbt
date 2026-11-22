@@ -1,6 +1,7 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	autofocus_id: "5CB78D7ABEFAA63F"
+	default_hide_dependency_lines: true
+	default_quest_shape: "circle"
 	filename: "progress_t8"
 	group: "556BB4E0704CB043"
 	icon: {
@@ -11,8 +12,54 @@
 		}
 	}
 	id: "796CF4DDF3E98712"
+	images: [
+		{
+			alpha: 150
+			color: 5531903
+			height: 0.14d
+			image: "abza:textures/quests/track.png"
+			order: -1
+			rotation: 0.0d
+			width: 16.33d
+			x: 7.0d
+			y: -2.62d
+		}
+		{
+			alpha: 150
+			color: 5531903
+			height: 0.14d
+			image: "abza:textures/quests/track.png"
+			order: -1
+			rotation: 0.0d
+			width: 16.33d
+			x: 7.0d
+			y: 2.62d
+		}
+		{
+			alpha: 150
+			color: 5531903
+			height: 6.12d
+			image: "abza:textures/quests/track.png"
+			order: -1
+			rotation: 0.0d
+			width: 0.14d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			alpha: 150
+			color: 5531903
+			height: 6.12d
+			image: "abza:textures/quests/track.png"
+			order: -1
+			rotation: 0.0d
+			width: 0.14d
+			x: 14.0d
+			y: 0.0d
+		}
+	]
 	order_index: 7
-	images: [ ]
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -20,6 +67,8 @@
 				"{image:abza:textures/environment/interloper.png width:48 height:48}"
 				""
 				"A level 1 rocket reaches it. &cIt kills anyone who comes early.&r"
+				""
+				"Every ore of the Plains, the Snow and the Badlands, at &e2×&r Earth's rate. No metal of its own."
 			]
 			icon: {
 				id: "ftbquests:custom_icon"
@@ -29,8 +78,8 @@
 				}
 			}
 			id: "5CB78D7ABEFAA63F"
-			shape: "gear"
-			size: 1.5d
+			shape: "hexagon"
+			size: 1.75d
 			tasks: [
 				{
 					dimension: "abza:interloper"
@@ -51,14 +100,9 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"5CB78D7ABEFAA63F"
-			]
-			description: [
-				"Crafted from Spore's drops."
-			]
 			icon: "spore:living_core"
 			id: "51D6C5C7E8111A74"
+			shape: "circle"
 			tasks: [
 				{
 					id: "362EC5A9BB470858"
@@ -68,17 +112,15 @@
 			]
 			title: "Living Core"
 			x: 3.5d
-			y: 0.0d
+			y: -2.62d
 		}
 		{
-			dependencies: [
-				"51D6C5C7E8111A74"
-			]
 			description: [
-				"The &eSupercritical Phase Shifter&r turns polonium into antimatter. It needs fusion-scale power."
+				"Needs fusion-scale power."
 			]
 			icon: "mekanism:pellet_antimatter"
 			id: "1999C5B8381BFE38"
+			shape: "circle"
 			tasks: [
 				{
 					id: "49FBB0BBCA18ECE9"
@@ -88,7 +130,7 @@
 			]
 			title: "Antimatter"
 			x: 7.0d
-			y: -1.75d
+			y: -2.62d
 		}
 		{
 			dependencies: [
@@ -99,6 +141,8 @@
 			]
 			icon: "mekanism:quantum_entangloporter"
 			id: "22EA16AE5920D130"
+			shape: "hexagon"
+			size: 1.75d
 			tasks: [
 				{
 					id: "0BF7CB56D29C75F3"
@@ -107,8 +151,96 @@
 				}
 			]
 			title: "Linking Worlds"
-			x: 7.0d
-			y: 1.75d
+			x: 10.5d
+			y: -2.62d
+		}
+		{
+			description: [
+				"Ride one, or carry its crate."
+			]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "superbwarfare:textures/vehicle_icon/container/annihilator.png"
+				}
+			}
+			id: "07E7BB44001C19C8"
+			optional: true
+			shape: "circle"
+			size: 0.75d
+			tasks: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "superbwarfare:textures/vehicle_icon/container/annihilator.png"
+						}
+					}
+					id: "7E142FAC89697B3E"
+					stage: "abza_q_vehicle_t8"
+					title: "A Tier 8 vehicle or emplacement"
+					type: "gamestage"
+				}
+			]
+			title: "A Tier 8 Vehicle"
+			x: 4.67d
+			y: 2.62d
+		}
+		{
+			icon: "trol_armor:exo_chestplate"
+			id: "7ECB80017E5927A3"
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [
+				{
+					id: "6C49B48697E1F6E2"
+					item: "trol_armor:exo_helmet"
+					title: "Tier 8 E-X II Helmet"
+					type: "item"
+				}
+				{
+					id: "1F9D753877A0011D"
+					item: "trol_armor:exo_chestplate"
+					title: "Tier 8 E-X II Chestplate"
+					type: "item"
+				}
+				{
+					id: "26BE7E44E1FEAE0D"
+					item: "trol_armor:exo_leggings"
+					title: "Tier 8 E-X II Leggings"
+					type: "item"
+				}
+				{
+					id: "703B68E7A18317D8"
+					item: "trol_armor:exo_boots"
+					title: "Tier 8 E-X II Boots"
+					type: "item"
+				}
+			]
+			title: "E-X II"
+			x: 9.33d
+			y: 2.62d
+		}
+		{
+			description: [
+				"Ends &cSpore Lung&r in Interloper for you, &afor good&r."
+			]
+			icon: "abza:vaccine_t8"
+			id: "40D1D36FB89C5C32"
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [
+				{
+					id: "3EDD57CAB72D7E9B"
+					item: "abza:vaccine_t8"
+					type: "item"
+				}
+			]
+			title: "Spore Lung Vaccine"
+			x: 14.0d
+			y: 0.0d
 		}
 	]
 	title: "Tier 8: Interloper"

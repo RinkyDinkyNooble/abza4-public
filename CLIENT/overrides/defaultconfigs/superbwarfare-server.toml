@@ -201,7 +201,7 @@
 	#Format: "entity_registry_name, offset"
 	#格式: "entity_registry_name, offset"
 	#Example: ["touhou_little_maid:maid, 0.75", "minecraft:player, -0.2"]
-	passenger_y_offset = ["touhou_little_maid:maid, 0.75"]
+	passenger_y_offset = ["touhou_little_maid:maid, 0.75", "customnpcs:customnpc, 0.5", "customnpcs:customnpcalex, 0.5"]
 
 	[vehicle.collision]
 		#Allows vehicles to destroy soft blocks via collision

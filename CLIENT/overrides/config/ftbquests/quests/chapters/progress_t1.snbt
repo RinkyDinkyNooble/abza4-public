@@ -1,44 +1,466 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	autofocus_id: "48C34B41F94D9DD8"
+	default_hide_dependency_lines: true
+	default_quest_shape: "circle"
 	filename: "progress_t1"
 	group: "556BB4E0704CB043"
 	icon: "mekanism:enrichment_chamber"
 	id: "681AFB1BCA56DCD5"
-	order_index: 0
-	images: [ ]
-	quest_links: [ ]
-	quests: [
+	images: [
 		{
-			description: [
-				"Your tech is &eMekanism&r. This line teaches it: power, alloys, circuits, then &emore metal from each ore&r."
-			]
-			icon: "minecraft:grass_block"
-			id: "6AA7F1CCE70FA336"
-			shape: "gear"
-			size: 1.5d
-			tasks: [
-				{
-					icon: "minecraft:grass_block"
-					id: "1C42B3C616A7B085"
-					stage: "abza_reached_t1"
-					title: "Stand in the Plains"
-					type: "gamestage"
-				}
-			]
-			title: "The Plains"
+			alpha: 150
+			color: 5531903
+			height: 0.14d
+			image: "abza:textures/quests/track.png"
+			order: -1
+			rotation: 0.0d
+			width: 49.0d
+			x: 21.0d
+			y: -5.25d
+		}
+		{
+			alpha: 150
+			color: 5531903
+			height: 0.14d
+			image: "abza:textures/quests/track.png"
+			order: -1
+			rotation: 0.0d
+			width: 49.0d
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			alpha: 150
+			color: 5531903
+			height: 0.14d
+			image: "abza:textures/quests/track.png"
+			order: -1
+			rotation: 0.0d
+			width: 49.0d
+			x: 21.0d
+			y: 5.25d
+		}
+		{
+			alpha: 150
+			color: 5531903
+			height: 12.25d
+			image: "abza:textures/quests/track.png"
+			order: -1
+			rotation: 0.0d
+			width: 0.14d
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"6AA7F1CCE70FA336"
-			]
+			alpha: 150
+			color: 5531903
+			height: 12.25d
+			image: "abza:textures/quests/track.png"
+			order: -1
+			rotation: 0.0d
+			width: 0.14d
+			x: 42.0d
+			y: 0.0d
+		}
+		{
+			height: 9.08d
+			image: "abza:textures/quests/ores_t1.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 21.0d
+			y: 10.74d
+		}
+	]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
 			description: [
-				"In every machine. Smelt raw osmium."
+				"&cHealth doesn't regenerate.&r Only &emedicine&r heals."
+				""
+				"&cEvery 4th night&r of your play time, at midnight, a horde comes for you. &cThe first is tonight.&r Light won't stop it. &aWalls will.&r"
+				""
+				"Final bosses and the &eBestiary&r raise your max health for good. Each death costs &c5%&r of what you've earned, never below half; &eBlood Packs&r give it back."
+				"{@pagebreak}"
+				"An &eAmmo Box&r holds one round type. &aRight-click rounds&r with it to fill it, an &aempty slot&r to take rounds out."
+				""
+				"A &eNutritional Liquifier&r turns any food into paste for a &eCanteen&r."
+				""
+				"A destroyed vehicle &ckills everyone aboard&r. Helicopters take damage landing faster than &e8 m/s&r."
+			]
+			disable_toast: true
+			icon: "minecraft:compass"
+			id: "48C34B41F94D9DD8"
+			shape: "rsquare"
+			size: 1.75d
+			tasks: [
+				{
+					disable_toast: true
+					id: "4248C44A516C0164"
+					title: "Got it"
+					type: "checkmark"
+				}
+			]
+			title: "Welcome to ABZA"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&7No kit? Run &e/sk choose&7."
+			]
+			icon: "minecraft:stone_pickaxe"
+			id: "5ECE4E5868E23FB1"
+			shape: "circle"
+			tasks: [
+				{
+					id: "73AAA590B3C59488"
+					item: "minecraft:stone_pickaxe"
+					type: "item"
+				}
+			]
+			title: "Your Kit"
+			x: 3.5d
+			y: -5.25d
+		}
+		{
+			description: [
+				"&eInes's letter&r says where &eProspero&r is anchored."
+			]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "superbwarfare:textures/vehicle_icon/container/speedboat.png"
+				}
+			}
+			id: "6C462108ED49B199"
+			shape: "circle"
+			tasks: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "superbwarfare:textures/vehicle_icon/container/speedboat.png"
+						}
+					}
+					id: "49AAEF5C0E2C108E"
+					stage: "abza_q_prospero"
+					title: "Reach Prospero"
+					type: "gamestage"
+				}
+			]
+			title: "Come Aboard"
+			x: 7.0d
+			y: -5.25d
+		}
+		{
+			description: [
+				"Every container holds &eyour own loot&r: it &cnever refills&r, and &can explosion destroys it&r."
+				""
+				"&cNo recipe makes food.&r Find it, buy it, or farm it and eat it raw."
+			]
+			icon: "minecraft:chest"
+			id: "27D7FD0DABD66696"
+			shape: "circle"
+			tasks: [
+				{
+					icon: "minecraft:chest"
+					id: "410B804C93B04B3E"
+					stat: "lootr:looted_stat"
+					title: "Open 10 containers"
+					type: "stat"
+					value: 10
+				}
+			]
+			title: "Scavenge"
+			x: 10.5d
+			y: -5.25d
+		}
+		{
+			description: [
+				"Headshots do &e2×&r damage. A gun one tier behind needs &e2×&r the shots."
+				""
+				"Creatures drop rounds for &eyour gun&r first. &cExplosion kills drop nothing.&r"
+			]
+			icon: {
+				id: "tacz:modern_kinetic_gun"
+				Count: 1b
+				tag: {
+					GunId: "tacz:glock_17"
+				}
+			}
+			id: "0B17A9EB822A9ADF"
+			shape: "circle"
+			tasks: [
+				{
+					icon: {
+						id: "tacz:modern_kinetic_gun"
+						Count: 1b
+						tag: {
+							GunId: "tacz:glock_17"
+						}
+					}
+					id: "6F54E8389AC14523"
+					stage: "abza_q_kill"
+					title: "Kill a creature"
+					type: "gamestage"
+				}
+			]
+			title: "First Blood"
+			x: 14.0d
+			y: -5.25d
+		}
+		{
+			description: [
+				"Medicine turns up in bathrooms, pharmacies and clinics."
+			]
+			icon: {
+				id: "lrtactical:consumable"
+				Count: 1b
+				tag: {
+					ConsumableId: "abza:field_dressing"
+				}
+			}
+			id: "3248D3A46544C6FD"
+			shape: "circle"
+			tasks: [
+				{
+					icon: {
+						id: "lrtactical:consumable"
+						Count: 1b
+						tag: {
+							ConsumableId: "abza:field_dressing"
+						}
+					}
+					id: "70691736884C141D"
+					stage: "abza_q_heal"
+					title: "Use a medicine"
+					type: "gamestage"
+				}
+			]
+			title: "Patch Up"
+			x: 17.5d
+			y: -5.25d
+		}
+		{
+			description: [
+				"The next comes &e4 nights&r later, and each one in a region is &cbigger&r than the last."
+			]
+			icon: "minecraft:zombie_head"
+			id: "5FEB4744DC2F966D"
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [
+				{
+					icon: "minecraft:zombie_head"
+					id: "38EB343A154AD613"
+					stage: "abza_q_horde"
+					title: "Survive a horde night"
+					type: "gamestage"
+				}
+			]
+			title: "Hold the Night"
+			x: 21.0d
+			y: -5.25d
+		}
+		{
+			description: [
+				"Cash is in homes, shops and safes. Any notes and coins pay a price; traders give change."
+			]
+			icon: "saros__money_mod:euro_20"
+			id: "095B7393E3BD40C5"
+			shape: "circle"
+			tasks: [
+				{
+					icon: "saros__money_mod:euro_20"
+					id: "3B93AEEA0393FD31"
+					item: {
+						id: "ftbfiltersystem:smart_filter"
+						Count: 1b
+						tag: {
+							"ftbfiltersystem:filter": "or(item(saros__money_mod:euro_500)item(saros__money_mod:euro_200)item(saros__money_mod:euro_100)item(saros__money_mod:euro_50)item(saros__money_mod:euro_20)item(saros__money_mod:euro_10)item(saros__money_mod:euro_5)item(saros__money_mod:euro_2)item(saros__money_mod:euro_1)item(saros__money_mod:cent_50)item(saros__money_mod:cent_20)item(saros__money_mod:cent_10)item(saros__money_mod:cent_5)item(saros__money_mod:cent_2)item(saros__money_mod:cent_1))"
+						}
+					}
+					title: "Any cash"
+					type: "item"
+				}
+			]
+			title: "Dollars"
+			x: 24.5d
+			y: -5.25d
+		}
+		{
+			description: [
+				"Guns &cjam&r as they wear. There's no anvil: &eBram&r repairs gear."
+			]
+			icon: "minecraft:emerald"
+			id: "43ADAECF4579385B"
+			shape: "circle"
+			tasks: [
+				{
+					icon: "minecraft:emerald"
+					id: "10E38277E4ED6ECA"
+					stage: "abza_q_trade"
+					title: "Buy from a trader"
+					type: "gamestage"
+				}
+			]
+			title: "First Trade"
+			x: 28.0d
+			y: -5.25d
+		}
+		{
+			description: [
+				"A keypad's code is written down &esomewhere in the same building&r. Every building and every world has its own codes."
+				""
+				"A keycard reader takes its level &eor higher&r; its keycard lies in its building. The rare &eCodebreaker&r sometimes opens a keypad."
+			]
+			icon: "securitycraft:keypad_chest"
+			id: "3813309949AD75DA"
+			shape: "circle"
+			tasks: [
+				{
+					icon: "securitycraft:keypad_chest"
+					id: "2574D0B78A7A0B83"
+					observe_type: 1
+					timer: 0
+					title: "Look at a keypad or keycard reader"
+					to_observe: "abza:locks"
+					type: "observation"
+				}
+			]
+			title: "Locked Doors"
+			x: 31.5d
+			y: -5.25d
+		}
+		{
+			description: [
+				"Fire a flare gun into &eopen sky&r. Ines sells them."
+				""
+				"A crate left unopened for &c5 minutes&r with nobody within 32 blocks is &cstolen&r."
+			]
+			icon: "dyairdrop:flaregun1"
+			id: "65AE92392F73F824"
+			optional: true
+			shape: "circle"
+			size: 0.75d
+			tasks: [
+				{
+					id: "3AF4A67B7FBB0D63"
+					item: "dyairdrop:flaregun1"
+					type: "item"
+				}
+			]
+			title: "Air Drops"
+			x: 35.0d
+			y: -5.25d
+		}
+		{
+			description: [
+				"The Plains' boss building. The &cAncient Zombie&r waits inside: &e+5 max health&r for everyone who deals a tenth of its health."
+				""
+				"&cFinal bosses take 10% from plain bullets.&r Use &earmour-piercing rounds&r, &eexplosives&r or &evehicle weapons&r. Bosses &cheal&r when left alone."
+			]
+			icon: "minecraft:zombie_head"
+			id: "7D8E75D64CE6664E"
+			optional: true
+			shape: "hexagon"
+			size: 0.75d
+			tasks: [
+				{
+					icon: "minecraft:zombie_head"
+					id: "03B4F82B0028F556"
+					stage: "abza_final_t1"
+					title: "Defeat the Ancient Zombie"
+					type: "gamestage"
+				}
+			]
+			title: "The Museum"
+			x: 38.5d
+			y: -5.25d
+		}
+		{
+			description: [
+				"Ores grow only on &ecave surfaces&r in the &ewilds&r, never under cities. &cStrip-mining finds little.&r Each ore is richest in its home region and &cabsent from earlier ones&r."
+				""
+				"&eCoal&r: y 0 to 192"
+				"&eIron&r: y -24 to 128"
+				"&eCopper&r: y -16 to 112"
+				"&eTin&r: y -16 to 96"
+				"&eOsmium&r: y -24 to 96"
+				"&eRedstone&r: y -64 to 32"
+				"&eLapis&r: y -48 to 32"
+				"&eGold&r: y -48 to 32"
+				""
+				"The chart under the map shows each ore's heights. &6Gold frame&r: the signature ore."
+			]
+			icon: "mekanism:raw_osmium"
+			id: "4C9FAFC07B6539EF"
+			shape: "circle"
+			tasks: [
+				{
+					id: "22E0F2BC20115A15"
+					item: "minecraft:coal"
+					title: "Coal"
+					type: "item"
+				}
+				{
+					id: "07049945A0DE028E"
+					item: "minecraft:raw_iron"
+					title: "Iron"
+					type: "item"
+				}
+				{
+					id: "3870CB7FB1E16F68"
+					item: "minecraft:raw_copper"
+					title: "Copper"
+					type: "item"
+				}
+				{
+					id: "2B46F25E288F239D"
+					item: "mekanism:raw_tin"
+					title: "Tin"
+					type: "item"
+				}
+				{
+					id: "5E8A2995ADD43CC0"
+					item: "mekanism:raw_osmium"
+					title: "Osmium"
+					type: "item"
+				}
+				{
+					id: "4DFF2E1DD8E2BB95"
+					item: "minecraft:redstone"
+					title: "Redstone"
+					type: "item"
+				}
+				{
+					id: "43AD416C0A24CE93"
+					item: "minecraft:lapis_lazuli"
+					title: "Lapis"
+					type: "item"
+				}
+				{
+					id: "182FCC310BDD060E"
+					item: "minecraft:raw_gold"
+					title: "Gold"
+					type: "item"
+				}
+			]
+			title: "The Plains' Ores"
+			x: 3.82d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Your tech is &eMekanism&r. Osmium is in every machine."
 			]
 			icon: "mekanism:ingot_osmium"
 			id: "325D8F8FE18948C0"
+			shape: "circle"
 			tasks: [
 				{
 					id: "3772A9F4CE6200BB"
@@ -47,60 +469,16 @@
 				}
 			]
 			title: "Osmium"
-			x: 3.5d
+			x: 7.64d
 			y: 0.0d
 		}
 		{
 			dependencies: [
 				"325D8F8FE18948C0"
 			]
-			description: [
-				"Burns &ebio fuel&r: plants through a &eCrusher&r."
-				""
-				"Before it, &eredstone&r in a machine's energy slot runs that machine."
-			]
-			icon: "mekanismgenerators:bio_generator"
-			id: "3301065627A0F7D3"
-			tasks: [
-				{
-					id: "50E36DB3435750BB"
-					item: "mekanismgenerators:bio_generator"
-					type: "item"
-				}
-			]
-			title: "Bio-Generator"
-			x: 7.0d
-			y: -1.75d
-		}
-		{
-			dependencies: [
-				"3301065627A0F7D3"
-			]
-			description: [
-				"&eUniversal Cables&r carry power, &eLogistical Transporters&r items, &eMechanical Pipes&r fluids and &ePressurized Tubes&r gases. An &eEnergy Cube&r stores power."
-			]
-			icon: "mekanism:basic_energy_cube"
-			id: "11BF7A2FF76DE58C"
-			tasks: [
-				{
-					id: "6BB74E09DDD4D3E9"
-					item: "mekanism:basic_energy_cube"
-					type: "item"
-				}
-			]
-			title: "Cables and Storage"
-			x: 10.5d
-			y: -1.75d
-		}
-		{
-			dependencies: [
-				"325D8F8FE18948C0"
-			]
-			description: [
-				"Infuses &eredstone&r into metal: iron makes &eInfused Alloy&r, osmium the &eBasic Control Circuit&r."
-			]
 			icon: "mekanism:metallurgic_infuser"
 			id: "1075D3B4702B1142"
+			shape: "gear"
 			tasks: [
 				{
 					id: "3F5D59478D9CEBE0"
@@ -109,15 +487,13 @@
 				}
 			]
 			title: "Metallurgic Infuser"
-			x: 7.0d
-			y: 1.75d
+			x: 11.45d
+			y: 0.0d
 		}
 		{
-			dependencies: [
-				"1075D3B4702B1142"
-			]
 			icon: "mekanism:alloy_infused"
 			id: "7FD14F2B391DCC7D"
+			shape: "circle"
 			tasks: [
 				{
 					id: "6DBB897015F13DBC"
@@ -126,15 +502,13 @@
 				}
 			]
 			title: "Infused Alloy"
-			x: 10.5d
-			y: 1.75d
+			x: 15.27d
+			y: 0.0d
 		}
 		{
-			dependencies: [
-				"7FD14F2B391DCC7D"
-			]
 			icon: "mekanism:basic_control_circuit"
 			id: "55135B902D7FA1DD"
+			shape: "circle"
 			tasks: [
 				{
 					id: "2CE81F014D0D898D"
@@ -143,12 +517,48 @@
 				}
 			]
 			title: "Basic Control Circuit"
-			x: 14.0d
-			y: 1.75d
+			x: 19.09d
+			y: 0.0d
 		}
 		{
 			dependencies: [
-				"11BF7A2FF76DE58C"
+				"55135B902D7FA1DD"
+				"7FD14F2B391DCC7D"
+			]
+			description: [
+				"Before it, &eredstone&r in a machine's energy slot runs that machine."
+			]
+			icon: "mekanismgenerators:bio_generator"
+			id: "3301065627A0F7D3"
+			shape: "gear"
+			tasks: [
+				{
+					id: "50E36DB3435750BB"
+					item: "mekanismgenerators:bio_generator"
+					type: "item"
+				}
+			]
+			title: "Bio-Generator"
+			x: 22.91d
+			y: 0.0d
+		}
+		{
+			icon: "mekanism:basic_energy_cube"
+			id: "11BF7A2FF76DE58C"
+			shape: "gear"
+			tasks: [
+				{
+					id: "6BB74E09DDD4D3E9"
+					item: "mekanism:basic_energy_cube"
+					type: "item"
+				}
+			]
+			title: "Cables and Storage"
+			x: 26.73d
+			y: 0.0d
+		}
+		{
+			dependencies: [
 				"55135B902D7FA1DD"
 			]
 			description: [
@@ -158,6 +568,7 @@
 			]
 			icon: "mekanism:enrichment_chamber"
 			id: "5DACE37A97E924F1"
+			shape: "gear"
 			tasks: [
 				{
 					id: "001627B2E46E90EE"
@@ -166,19 +577,18 @@
 				}
 			]
 			title: "Enrichment Chamber"
-			x: 17.5d
+			x: 30.55d
 			y: 0.0d
 		}
 		{
 			dependencies: [
-				"5DACE37A97E924F1"
-			]
-			description: [
-				"A &eTier Installer&r turns a machine into a &eFactory&r: 3 jobs at once. &eSpeed&r and &eEnergy Upgrades&r fit any machine."
+				"55135B902D7FA1DD"
 			]
 			icon: "mekanism:basic_tier_installer"
 			id: "44205D5009DD0203"
 			optional: true
+			shape: "gear"
+			size: 0.75d
 			tasks: [
 				{
 					id: "41E1CB02D24D2A7A"
@@ -187,18 +597,16 @@
 				}
 			]
 			title: "Factories and Upgrades"
-			x: 21.0d
-			y: -1.75d
+			x: 34.36d
+			y: 0.0d
 		}
 		{
-			dependencies: [
-				"55135B902D7FA1DD"
-			]
 			description: [
 				"Every Tier 1 gun and vehicle needs some."
 			]
 			icon: "superbwarfare:common_material_pack"
 			id: "4E3FE1396CE556F0"
+			shape: "circle"
 			tasks: [
 				{
 					id: "260A3A74BFE7F716"
@@ -207,8 +615,196 @@
 				}
 			]
 			title: "Tier 1 Material Pack"
+			x: 38.18d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Find or craft one."
+			]
+			icon: "sophisticatedbackpacks:backpack"
+			id: "33739ED3744A6BED"
+			shape: "circle"
+			tasks: [
+				{
+					icon: "sophisticatedbackpacks:backpack"
+					id: "0060F8DFF990D412"
+					item: {
+						id: "ftbfiltersystem:smart_filter"
+						Count: 1b
+						tag: {
+							"ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:backpack)item(sophisticatedbackpacks:copper_backpack)item(sophisticatedbackpacks:iron_backpack)item(sophisticatedbackpacks:gold_backpack)item(sophisticatedbackpacks:diamond_backpack)item(sophisticatedbackpacks:netherite_backpack))"
+						}
+					}
+					title: "A Tier 1 backpack or better"
+					type: "item"
+				}
+			]
+			title: "A Backpack"
+			x: 7.0d
+			y: 5.25d
+		}
+		{
+			description: [
+				"A &eCrafting&r or &eMagnet Upgrade&r makes scavenging faster."
+			]
+			icon: "sophisticatedbackpacks:crafting_upgrade"
+			id: "793224149B6CDD5C"
+			optional: true
+			shape: "circle"
+			size: 0.75d
+			tasks: [
+				{
+					icon: "sophisticatedbackpacks:crafting_upgrade"
+					id: "5828FA6D876610EB"
+					item: {
+						id: "ftbfiltersystem:smart_filter"
+						Count: 1b
+						tag: {
+							"ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:crafting_upgrade)item(sophisticatedbackpacks:magnet_upgrade)item(sophisticatedbackpacks:pickup_upgrade)item(sophisticatedbackpacks:feeding_upgrade)item(sophisticatedbackpacks:refill_upgrade)item(sophisticatedbackpacks:restock_upgrade)item(sophisticatedbackpacks:deposit_upgrade)item(sophisticatedbackpacks:filter_upgrade)item(sophisticatedbackpacks:compacting_upgrade)item(sophisticatedbackpacks:smelting_upgrade)item(sophisticatedbackpacks:blasting_upgrade)item(sophisticatedbackpacks:battery_upgrade)item(sophisticatedbackpacks:pump_upgrade)item(sophisticatedbackpacks:tank_upgrade)item(sophisticatedbackpacks:tool_swapper_upgrade)item(sophisticatedbackpacks:stonecutter_upgrade))"
+						}
+					}
+					title: "Any backpack upgrade"
+					type: "item"
+				}
+			]
+			title: "Backpack Upgrades"
+			x: 14.0d
+			y: 5.25d
+		}
+		{
+			icon: {
+				id: "grapplemod:grapplinghook"
+				Count: 1b
+				tag: {
+					abza_hook: "abza:motor"
+				}
+			}
+			id: "299450520CD1548B"
+			optional: true
+			shape: "circle"
+			size: 0.75d
+			tasks: [
+				{
+					icon: {
+						id: "grapplemod:grapplinghook"
+						Count: 1b
+						tag: {
+							abza_hook: "abza:motor"
+						}
+					}
+					id: "1D54D33DE2010900"
+					item: {
+						id: "ftbfiltersystem:smart_filter"
+						Count: 1b
+						tag: {
+							"ftbfiltersystem:filter": "item(grapplemod:grapplinghook)or(nbt(fuzzy:{abza_hook:\"abza:bare\"})nbt(fuzzy:{abza_hook:\"abza:motor\"}))"
+						}
+					}
+					title: "Any Tier 1 grappling hook"
+					type: "item"
+				}
+			]
+			title: "A Grappling Hook"
 			x: 21.0d
-			y: 1.75d
+			y: 5.25d
+		}
+		{
+			description: [
+				"Ride one, or carry its crate."
+			]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "superbwarfare:textures/vehicle_icon/container/sodayo_pick_up.png"
+				}
+			}
+			id: "15670F1D7BDF857F"
+			optional: true
+			shape: "circle"
+			size: 0.75d
+			tasks: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "superbwarfare:textures/vehicle_icon/container/sodayo_pick_up.png"
+						}
+					}
+					id: "7CEA9F515F6BD25E"
+					stage: "abza_q_vehicle_t1"
+					title: "A Tier 1 vehicle or emplacement"
+					type: "gamestage"
+				}
+			]
+			title: "A Tier 1 Vehicle"
+			x: 28.0d
+			y: 5.25d
+		}
+		{
+			description: [
+				"Outside &e10 to 38 °C&r you take damage. The full &eEOD&r set holds to &e-5 °C&r, enough for the Snow."
+				""
+				"The Snow lies across the &ewater channel&r."
+			]
+			icon: "trol_armor:eods_chestplate"
+			id: "31F8B92354947DB1"
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [
+				{
+					id: "52A748AEF568FA8D"
+					item: "trol_armor:eods_helmet"
+					title: "Tier 1 EOD Helmet"
+					type: "item"
+				}
+				{
+					id: "621B3D19EB2CF204"
+					item: "trol_armor:eods_chestplate"
+					title: "Tier 1 EOD Chestplate"
+					type: "item"
+				}
+				{
+					id: "2129DFEA5EF49E61"
+					item: "trol_armor:eods_leggings"
+					title: "Tier 1 EOD Leggings"
+					type: "item"
+				}
+				{
+					id: "015C5DB3873B4D4B"
+					item: "trol_armor:eods_boots"
+					title: "Tier 1 EOD Boots"
+					type: "item"
+				}
+			]
+			title: "Cold Gear"
+			x: 35.0d
+			y: 5.25d
+		}
+		{
+			description: [
+				"Ends &cGrave Fever&r in the Plains for you, &afor good&r."
+				""
+				"Vaccinated, you heal by &aresting with 18+ food&r there. Its antigen comes from the region's &emini-bosses&r."
+				""
+				"&eRuth&r on Prospero wants to see one."
+			]
+			icon: "abza:vaccine_t1"
+			id: "6DD232F1C9634D89"
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [
+				{
+					id: "5C0FA53D789AE705"
+					item: "abza:vaccine_t1"
+					type: "item"
+				}
+			]
+			title: "Grave Fever Vaccine"
+			x: 42.0d
+			y: 0.0d
 		}
 	]
 	title: "Tier 1: The Plains"

@@ -1,12 +1,67 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	autofocus_id: "76E8C8629BD906D6"
+	default_hide_dependency_lines: true
+	default_quest_shape: "circle"
 	filename: "progress_t3"
 	group: "556BB4E0704CB043"
 	icon: "mekanism:chemical_injection_chamber"
 	id: "634B996130F0DEA2"
+	images: [
+		{
+			alpha: 150
+			color: 5531903
+			height: 0.14d
+			image: "abza:textures/quests/track.png"
+			order: -1
+			rotation: 0.0d
+			width: 44.92d
+			x: 19.25d
+			y: -2.62d
+		}
+		{
+			alpha: 150
+			color: 5531903
+			height: 0.14d
+			image: "abza:textures/quests/track.png"
+			order: -1
+			rotation: 0.0d
+			width: 44.92d
+			x: 19.25d
+			y: 2.62d
+		}
+		{
+			alpha: 150
+			color: 5531903
+			height: 6.12d
+			image: "abza:textures/quests/track.png"
+			order: -1
+			rotation: 0.0d
+			width: 0.14d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			alpha: 150
+			color: 5531903
+			height: 6.12d
+			image: "abza:textures/quests/track.png"
+			order: -1
+			rotation: 0.0d
+			width: 0.14d
+			x: 38.5d
+			y: 0.0d
+		}
+		{
+			height: 9.22d
+			image: "abza:textures/quests/ores_t3.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 19.25d
+			y: 8.18d
+		}
+	]
 	order_index: 2
-	images: [ ]
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -15,8 +70,8 @@
 			]
 			icon: "minecraft:red_sand"
 			id: "76E8C8629BD906D6"
-			shape: "gear"
-			size: 1.5d
+			shape: "hexagon"
+			size: 1.75d
 			tasks: [
 				{
 					icon: "minecraft:red_sand"
@@ -31,29 +86,239 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"76E8C8629BD906D6"
-			]
 			description: [
-				"Smelted from ancient debris."
+				"&6&lAncient debris&r: y -64 to -16"
+				"&6&lUranium&r: y -64 to 8"
+				"&eGlowstone&r: y -48 to 32"
+				"&eFluorite&r: y -48 to 16"
+				""
+				"The chart under the map shows each ore's heights. &6Gold frame&r: the signature ore."
 			]
 			icon: "minecraft:ancient_debris"
-			id: "7D1CF66FE524E5A3"
+			id: "6EAEEF8DEE8C78F4"
+			shape: "circle"
 			tasks: [
 				{
-					id: "09277D503865200E"
-					item: "minecraft:netherite_scrap"
+					id: "69697A24EB966D06"
+					item: "minecraft:ancient_debris"
+					title: "Ancient debris"
+					type: "item"
+				}
+				{
+					id: "7A11DA4A83A2BFA1"
+					item: "mekanism:raw_uranium"
+					title: "Uranium"
+					type: "item"
+				}
+				{
+					id: "28D7C247866CF889"
+					item: "minecraft:glowstone_dust"
+					title: "Glowstone"
+					type: "item"
+				}
+				{
+					id: "0D70F97B56839CA7"
+					item: "mekanism:fluorite_gem"
+					title: "Fluorite"
 					type: "item"
 				}
 			]
-			title: "Netherite Scrap"
+			title: "The Badlands' Ores"
 			x: 3.5d
-			y: 0.0d
+			y: -2.62d
+		}
+		{
+			icon: "mekanism:chemical_infuser"
+			id: "1CDE9DF8DFA620DF"
+			shape: "gear"
+			tasks: [
+				{
+					id: "49F6BA09F8F19BBD"
+					item: "mekanism:chemical_infuser"
+					type: "item"
+				}
+			]
+			title: "Hydrogen Chloride"
+			x: 7.0d
+			y: -2.62d
+		}
+		{
+			icon: "mekanism:alloy_atomic"
+			id: "7DF6F00B86F879E4"
+			shape: "circle"
+			tasks: [
+				{
+					id: "34ED085B06162F60"
+					item: "mekanism:alloy_atomic"
+					type: "item"
+				}
+			]
+			title: "Atomic Alloy"
+			x: 10.5d
+			y: -2.62d
+		}
+		{
+			icon: "mekanism:elite_control_circuit"
+			id: "538730CFCC1D4D1F"
+			shape: "circle"
+			tasks: [
+				{
+					id: "36B7FF3769607001"
+					item: "mekanism:elite_control_circuit"
+					type: "item"
+				}
+			]
+			title: "Elite Control Circuit"
+			x: 14.0d
+			y: -2.62d
 		}
 		{
 			dependencies: [
-				"76E8C8629BD906D6"
+				"538730CFCC1D4D1F"
 			]
+			description: [
+				"&aNearly 3× the metal&r of smelting from raw ore."
+				""
+				"An ore block gives 4."
+			]
+			icon: "mekanism:chemical_injection_chamber"
+			id: "701FAAEBB936CDC0"
+			shape: "gear"
+			tasks: [
+				{
+					id: "778A1DC19BBE94DC"
+					item: "mekanism:chemical_injection_chamber"
+					type: "item"
+				}
+			]
+			title: "Chemical Injection Chamber"
+			x: 17.5d
+			y: -2.62d
+		}
+		{
+			dependencies: [
+				"538730CFCC1D4D1F"
+			]
+			description: [
+				"Burns the Badlands' &euranium&r. &cWithout coolant it melts down and explodes."
+			]
+			icon: "mekanismgenerators:fission_reactor_port"
+			id: "76CE743608643EC4"
+			shape: "gear"
+			tasks: [
+				{
+					id: "163A8776F9E31500"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+			]
+			title: "Fission and Turbine"
+			x: 21.0d
+			y: -2.62d
+		}
+		{
+			dependencies: [
+				"7DF6F00B86F879E4"
+			]
+			description: [
+				"Mines whole areas. In &eSilk Touch&r mode it digs &eore blocks&r, which give the full 2×, 3× and 4× (5× from Tier 4), at &c12× the energy&r."
+			]
+			icon: "mekanism:digital_miner"
+			id: "495985744C788A84"
+			shape: "gear"
+			tasks: [
+				{
+					id: "4FA814EA85B1096A"
+					item: "mekanism:digital_miner"
+					type: "item"
+				}
+			]
+			title: "Digital Miner"
+			x: 24.5d
+			y: -2.62d
+		}
+		{
+			dependencies: [
+				"538730CFCC1D4D1F"
+			]
+			description: [
+				"Every stored item in one network. &cIt works only on Earth."
+			]
+			icon: "mekanism:qio_drive_array"
+			id: "4F0C3DA7E1A1A504"
+			optional: true
+			shape: "gear"
+			size: 0.75d
+			tasks: [
+				{
+					id: "79FCEDF4D090F17F"
+					item: "mekanism:qio_drive_array"
+					type: "item"
+				}
+			]
+			title: "QIO"
+			x: 28.0d
+			y: -2.62d
+		}
+		{
+			icon: "mekanism:elite_energy_cube"
+			id: "0CA0524AAFECE5B4"
+			optional: true
+			shape: "gear"
+			size: 0.75d
+			tasks: [
+				{
+					id: "41DE3E5DF44E2B08"
+					item: "mekanism:elite_energy_cube"
+					type: "item"
+				}
+			]
+			title: "Elite Energy Cube"
+			x: 31.5d
+			y: -2.62d
+		}
+		{
+			description: [
+				"Every Tier 3 gun and vehicle needs some."
+			]
+			icon: "superbwarfare:epic_material_pack"
+			id: "4D51FB4A634FF567"
+			shape: "circle"
+			tasks: [
+				{
+					id: "3F0645EC54B6C92E"
+					item: "superbwarfare:epic_material_pack"
+					type: "item"
+				}
+			]
+			title: "Tier 3 Material Pack"
+			x: 35.0d
+			y: -2.62d
+		}
+		{
+			icon: "sophisticatedbackpacks:iron_backpack"
+			id: "033A777194736812"
+			shape: "circle"
+			tasks: [
+				{
+					icon: "sophisticatedbackpacks:iron_backpack"
+					id: "596AD694EBF60389"
+					item: {
+						id: "ftbfiltersystem:smart_filter"
+						Count: 1b
+						tag: {
+							"ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:iron_backpack)item(sophisticatedbackpacks:gold_backpack)item(sophisticatedbackpacks:diamond_backpack)item(sophisticatedbackpacks:netherite_backpack))"
+						}
+					}
+					title: "A Tier 3 backpack or better"
+					type: "item"
+				}
+			]
+			title: "Tier 3 Backpack"
+			x: 4.28d
+			y: 2.62d
+		}
+		{
 			icon: {
 				id: "tacz:modern_kinetic_gun"
 				Count: 1b
@@ -63,6 +328,8 @@
 			}
 			id: "1569B72AC00DC5CB"
 			optional: true
+			shape: "circle"
+			size: 0.75d
 			tasks: [
 				{
 					icon: {
@@ -85,184 +352,87 @@
 				}
 			]
 			title: "A Tier 3 Gun"
-			x: 3.5d
-			y: 3.5d
+			x: 8.56d
+			y: 2.62d
 		}
 		{
-			dependencies: [
-				"7D1CF66FE524E5A3"
-			]
-			description: [
-				"A &eChemical Infuser&r joins hydrogen and &echlorine&r. Chlorine comes from &ebrine&r (a &eThermal Evaporation Plant&r) in the Electrolytic Separator."
-				""
-				"&7Salt in a Chemical Injection Chamber's gas slot also gives it."
-			]
-			icon: "mekanism:chemical_infuser"
-			id: "1CDE9DF8DFA620DF"
-			tasks: [
-				{
-					id: "49F6BA09F8F19BBD"
-					item: "mekanism:chemical_infuser"
-					type: "item"
+			icon: {
+				id: "grapplemod:grapplinghook"
+				Count: 1b
+				tag: {
+					abza_hook: "abza:rocket"
 				}
-			]
-			title: "Hydrogen Chloride"
-			x: 7.0d
-			y: -1.75d
-		}
-		{
-			dependencies: [
-				"7D1CF66FE524E5A3"
-			]
-			description: [
-				"Infused from &enetherite scrap&r."
-			]
-			icon: "mekanism:alloy_atomic"
-			id: "7DF6F00B86F879E4"
-			tasks: [
-				{
-					id: "34ED085B06162F60"
-					item: "mekanism:alloy_atomic"
-					type: "item"
-				}
-			]
-			title: "Atomic Alloy"
-			x: 7.0d
-			y: 1.75d
-		}
-		{
-			dependencies: [
-				"7DF6F00B86F879E4"
-			]
-			description: [
-				"An advanced circuit and &eatomic alloy&r."
-			]
-			icon: "mekanism:elite_control_circuit"
-			id: "538730CFCC1D4D1F"
-			tasks: [
-				{
-					id: "36B7FF3769607001"
-					item: "mekanism:elite_control_circuit"
-					type: "item"
-				}
-			]
-			title: "Elite Control Circuit"
-			x: 10.5d
-			y: 1.75d
-		}
-		{
-			dependencies: [
-				"7DF6F00B86F879E4"
-			]
-			description: [
-				"Every Tier 3 gun and vehicle needs some."
-			]
-			icon: "superbwarfare:epic_material_pack"
-			id: "4D51FB4A634FF567"
-			tasks: [
-				{
-					id: "3F0645EC54B6C92E"
-					item: "superbwarfare:epic_material_pack"
-					type: "item"
-				}
-			]
-			title: "Tier 3 Material Pack"
-			x: 10.5d
-			y: 4.38d
-		}
-		{
-			dependencies: [
-				"1CDE9DF8DFA620DF"
-				"538730CFCC1D4D1F"
-			]
-			description: [
-				"&e3 raw ores + hydrogen chloride → 8 shards&r. Shards go through the Purification Chamber, then the Tier 2 line: &anearly 3× the metal&r."
-				""
-				"An ore block gives 4."
-			]
-			icon: "mekanism:chemical_injection_chamber"
-			id: "701FAAEBB936CDC0"
-			tasks: [
-				{
-					id: "778A1DC19BBE94DC"
-					item: "mekanism:chemical_injection_chamber"
-					type: "item"
-				}
-			]
-			title: "Chemical Injection Chamber"
-			x: 14.0d
-			y: -1.75d
-		}
-		{
-			dependencies: [
-				"538730CFCC1D4D1F"
-			]
-			description: [
-				"The Badlands' &euranium&r becomes fuel through the &eChemical Oxidizer&r, &eChemical Infuser&r and &eIsotopic Centrifuge&r. An &eIndustrial Turbine&r turns its steam into power."
-				""
-				"&cWithout coolant it melts down and explodes."
-			]
-			icon: "mekanismgenerators:fission_reactor_port"
-			id: "76CE743608643EC4"
-			tasks: [
-				{
-					id: "163A8776F9E31500"
-					item: "mekanismgenerators:fission_reactor_port"
-					type: "item"
-				}
-			]
-			title: "Fission and Turbine"
-			x: 14.0d
-			y: 1.75d
-		}
-		{
-			dependencies: [
-				"701FAAEBB936CDC0"
-				"76CE743608643EC4"
-			]
-			description: [
-				"Mines whole areas. In &eSilk Touch&r mode it digs &eore blocks&r, which give the full 2×, 3× and 4× (5× from Tier 4), at &c12× the energy&r."
-			]
-			icon: "mekanism:digital_miner"
-			id: "495985744C788A84"
-			tasks: [
-				{
-					id: "4FA814EA85B1096A"
-					item: "mekanism:digital_miner"
-					type: "item"
-				}
-			]
-			title: "Digital Miner"
-			x: 17.5d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"76CE743608643EC4"
-			]
-			description: [
-				"Every stored item in one network. &cIt works only on Earth."
-			]
-			icon: "mekanism:qio_drive_array"
-			id: "4F0C3DA7E1A1A504"
+			}
+			id: "1EC1622B36B17D3F"
 			optional: true
+			shape: "circle"
+			size: 0.75d
 			tasks: [
 				{
-					id: "79FCEDF4D090F17F"
-					item: "mekanism:qio_drive_array"
+					icon: {
+						id: "grapplemod:grapplinghook"
+						Count: 1b
+						tag: {
+							abza_hook: "abza:dual_rocket"
+						}
+					}
+					id: "4CE8FB30AC37CC25"
+					item: {
+						id: "ftbfiltersystem:smart_filter"
+						Count: 1b
+						tag: {
+							"ftbfiltersystem:filter": "item(grapplemod:grapplinghook)or(nbt(fuzzy:{abza_hook:\"abza:rocket\"})nbt(fuzzy:{abza_hook:\"abza:dual_rocket\"}))"
+						}
+					}
+					title: "Any Tier 3 grappling hook"
 					type: "item"
 				}
 			]
-			title: "QIO"
-			x: 17.5d
-			y: 3.5d
+			title: "A Rocket Grappling Hook"
+			x: 12.83d
+			y: 2.62d
+		}
+		{
+			description: [
+				"Ride one, or carry its crate."
+			]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "superbwarfare:textures/vehicle_icon/container/m_1a_2.png"
+				}
+			}
+			id: "2A600C1DC692BD2D"
+			optional: true
+			shape: "circle"
+			size: 0.75d
+			tasks: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "superbwarfare:textures/vehicle_icon/container/m_1a_2.png"
+						}
+					}
+					id: "59A1B01E8C6A97D2"
+					stage: "abza_q_vehicle_t3"
+					title: "A Tier 3 vehicle or emplacement"
+					type: "gamestage"
+				}
+			]
+			title: "A Tier 3 Vehicle"
+			x: 17.11d
+			y: 2.62d
 		}
 		{
 			dependencies: [
-				"495985744C788A84"
+				"538730CFCC1D4D1F"
 			]
 			icon: "ad_astra:nasa_workbench"
 			id: "45DCD3A2D3A64478"
+			shape: "gear"
 			tasks: [
 				{
 					id: "779B7D4F1470965C"
@@ -271,40 +441,58 @@
 				}
 			]
 			title: "Rocket Workbench"
-			x: 21.0d
-			y: 0.0d
+			x: 21.39d
+			y: 2.62d
 		}
 		{
-			dependencies: [
-				"45DCD3A2D3A64478"
-			]
 			description: [
 				"Fill it at an &eOxygen Loader&r."
 			]
 			icon: "ad_astra:space_suit"
-			id: "3A5D9EA765A532C0"
+			id: "6DFC59188F6E9B53"
+			shape: "hexagon"
+			size: 1.75d
 			tasks: [
 				{
-					id: "6D587A884D309D4C"
+					id: "46A80C618C6D5B1D"
+					item: "ad_astra:space_helmet"
+					title: "Tier 3 Space Helmet"
+					type: "item"
+				}
+				{
+					id: "0BF85E9CAB84DF49"
 					item: "ad_astra:space_suit"
+					title: "Tier 3 Space Suit"
+					type: "item"
+				}
+				{
+					id: "688548F7038F2955"
+					item: "ad_astra:space_pants"
+					title: "Tier 3 Space Pants"
+					type: "item"
+				}
+				{
+					id: "00552E7B767F0101"
+					item: "ad_astra:space_boots"
+					title: "Tier 3 Space Boots"
 					type: "item"
 				}
 			]
 			title: "Space Suit"
-			x: 24.5d
-			y: -1.75d
+			x: 25.67d
+			y: 2.62d
 		}
 		{
 			dependencies: [
 				"45DCD3A2D3A64478"
 			]
 			description: [
-				"Burns &eliquid ethene&r: ethene through a &eRotary Condensentrator&r, 3 buckets a launch."
-				""
 				"Reaches the Moon, and Interloper."
 			]
 			icon: "ad_astra:tier_1_rocket"
 			id: "17B64AC131EE0A2E"
+			shape: "hexagon"
+			size: 1.75d
 			tasks: [
 				{
 					id: "4370DEEDE4D95357"
@@ -313,8 +501,46 @@
 				}
 			]
 			title: "Level 1 Rocket"
-			x: 24.5d
-			y: 1.75d
+			x: 29.94d
+			y: 2.62d
+		}
+		{
+			description: [
+				"&eLiquid ethene&r, 3 buckets a launch."
+			]
+			icon: "mekanism:ethene_bucket"
+			id: "4FA5ACEB8ECF436A"
+			shape: "circle"
+			tasks: [
+				{
+					count: 3
+					id: "52D436B2791FA8AC"
+					item: "mekanism:ethene_bucket"
+					type: "item"
+				}
+			]
+			title: "Rocket Fuel"
+			x: 34.22d
+			y: 2.62d
+		}
+		{
+			description: [
+				"Ends &cBrood Fever&r in the Badlands for you, &afor good&r."
+			]
+			icon: "abza:vaccine_t3"
+			id: "47A4227B7964D3EC"
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [
+				{
+					id: "04D1309E97932D6C"
+					item: "abza:vaccine_t3"
+					type: "item"
+				}
+			]
+			title: "Brood Fever Vaccine"
+			x: 38.5d
+			y: 0.0d
 		}
 	]
 	title: "Tier 3: The Badlands"

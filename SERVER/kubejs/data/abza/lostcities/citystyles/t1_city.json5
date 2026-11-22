@@ -174,15 +174,15 @@
         "value": "abza:t1_objm_checkpoint_r3"
       },
       {
-        "factor": 1.0,
+        "factor": 0.6,
         "value": "abza:t1_park_plaza"
       },
       {
-        "factor": 0.2,
+        "factor": 0.12,
         "value": "abza:t1_park_hydro"
       },
       {
-        "factor": 0.2,
+        "factor": 0.12,
         "value": "abza:t1_park_hydro_r1"
       },
       {

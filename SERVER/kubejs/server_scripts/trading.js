@@ -147,7 +147,10 @@ function abzaCashText(cents) {
 // A trade with the exact payment: refused when its rule says so
 global.abzaTradeChecked = event => {
     var refused = abzaTradeRefused(event.player, event.npc, event.sold.getMCItemStack(), true)
-    if (!refused) return
+    if (!refused) {
+        if (global.abzaQuestStage) global.abzaQuestStage(event.player.getMCEntity(), 'trade')
+        return
+    }
     event.setCanceled(true)
     event.player.getMCEntity().tell(Text.red(refused))
 }
@@ -206,6 +209,7 @@ global.abzaTradeFailed = event => {
     var held = player.containerMenu.getCarried()
     if (!held.isEmpty()) bought.grow(held.getCount())
     event.receiving = $AbzaTradeApi.Instance().getIItemStack(bought)
+    if (global.abzaQuestStage) global.abzaQuestStage(player, 'trade')
 }
 
 // A trader with a page of its own (a field or camp trader) gets the page's current trades whenever it's talked to

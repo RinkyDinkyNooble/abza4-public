@@ -8,5 +8,5 @@ JEIEvents.addItems(event => {
 })
 
 JEIEvents.hideItems(event => {
-    event.hide(Ingredient.custom('grapplemod:grapplinghook', stack => !stack.nbt || !stack.nbt.contains('abza_hook')))
+    event.hide(Ingredient.custom(stack => stack.id == 'grapplemod:grapplinghook' && (!stack.nbt || !stack.nbt.contains('abza_hook'))))
 })

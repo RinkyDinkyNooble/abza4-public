@@ -69,3 +69,22 @@ ForgeEvents.onEvent('net.smileycorp.hordes.common.event.HordeBuildSpawnDataEvent
     }
     abzaHordeApply(event.getSpawnData(), id)
 })
+
+// A horde's end with its player alive: the questbook's stages for a first horde night and for the nights survived,
+// counted by player in the world's data
+const ABZA_HORDE_RECORDS = [1, 3, 5, 10, 25, 50]
+
+ForgeEvents.onEvent('net.smileycorp.hordes.common.event.HordeEndEvent', event => {
+    var player = event.getPlayer()
+    if (!player.isAlive() || !global.abzaQuestStage) return
+    global.abzaQuestStage(player, 'horde')
+    var data = player.getServer().persistentData
+    var counts = data.getCompound('abza_hordes_survived')
+    var uuid = String(player.getStringUuid())
+    var survived = counts.getInt(uuid) + 1
+    counts.putInt(uuid, survived)
+    data.put('abza_hordes_survived', counts)
+    ABZA_HORDE_RECORDS.forEach(n => {
+        if (survived >= n) global.abzaQuestStage(player, 'hordes_' + n)
+    })
+})

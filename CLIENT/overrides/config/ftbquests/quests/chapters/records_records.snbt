@@ -1,0 +1,251 @@
+{
+	autofocus_id: "4DC0C883335AB05B"
+	default_hide_dependency_lines: true
+	default_quest_shape: "circle"
+	filename: "records_records"
+	group: "1403CC53F9A5C927"
+	icon: "minecraft:chest"
+	id: "0805BB91AF1CAFF4"
+	images: [
+		{
+			alpha: 150
+			color: 5531903
+			height: 0.14d
+			image: "abza:textures/quests/track.png"
+			order: -1
+			rotation: 0.0d
+			width: 20.42d
+			x: 8.75d
+			y: -2.62d
+		}
+		{
+			alpha: 150
+			color: 5531903
+			height: 0.14d
+			image: "abza:textures/quests/track.png"
+			order: -1
+			rotation: 0.0d
+			width: 20.42d
+			x: 8.75d
+			y: 2.62d
+		}
+	]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:chest"
+			id: "4DC0C883335AB05B"
+			shape: "circle"
+			tasks: [
+				{
+					icon: "minecraft:chest"
+					id: "44CACDED409B6BF5"
+					stat: "lootr:looted_stat"
+					title: "Open 10 containers"
+					type: "stat"
+					value: 10
+				}
+			]
+			title: "10 Containers"
+			x: 0.0d
+			y: -2.62d
+		}
+		{
+			icon: "minecraft:chest"
+			id: "6926004F143D3AE8"
+			shape: "circle"
+			tasks: [
+				{
+					icon: "minecraft:chest"
+					id: "1750FEC05798CA5A"
+					stat: "lootr:looted_stat"
+					title: "Open 50 containers"
+					type: "stat"
+					value: 50
+				}
+			]
+			title: "50 Containers"
+			x: 3.5d
+			y: -2.62d
+		}
+		{
+			icon: "minecraft:chest"
+			id: "18A59B7FE9C15E75"
+			shape: "circle"
+			tasks: [
+				{
+					icon: "minecraft:chest"
+					id: "119EC3953D928CDB"
+					stat: "lootr:looted_stat"
+					title: "Open 100 containers"
+					type: "stat"
+					value: 100
+				}
+			]
+			title: "100 Containers"
+			x: 7.0d
+			y: -2.62d
+		}
+		{
+			icon: "minecraft:chest"
+			id: "5D54A41296C59B25"
+			shape: "circle"
+			tasks: [
+				{
+					icon: "minecraft:chest"
+					id: "043DDDEE0DD283E2"
+					stat: "lootr:looted_stat"
+					title: "Open 200 containers"
+					type: "stat"
+					value: 200
+				}
+			]
+			title: "200 Containers"
+			x: 10.5d
+			y: -2.62d
+		}
+		{
+			icon: "minecraft:chest"
+			id: "2DECB209630CB2C0"
+			shape: "circle"
+			tasks: [
+				{
+					icon: "minecraft:chest"
+					id: "2B657969BB456B91"
+					stat: "lootr:looted_stat"
+					title: "Open 500 containers"
+					type: "stat"
+					value: 500
+				}
+			]
+			title: "500 Containers"
+			x: 14.0d
+			y: -2.62d
+		}
+		{
+			icon: "minecraft:chest"
+			id: "68C927D1C9FD5C13"
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [
+				{
+					icon: "minecraft:chest"
+					id: "39CF910D019BB124"
+					stat: "lootr:looted_stat"
+					title: "Open 1,000 containers"
+					type: "stat"
+					value: 1000
+				}
+			]
+			title: "1,000 Containers"
+			x: 17.5d
+			y: -2.62d
+		}
+		{
+			icon: "minecraft:zombie_head"
+			id: "1E610F151136F1FE"
+			shape: "circle"
+			tasks: [
+				{
+					icon: "minecraft:zombie_head"
+					id: "3D4AE55F95175EF1"
+					stage: "abza_q_hordes_1"
+					title: "Survive 1 horde night"
+					type: "gamestage"
+				}
+			]
+			title: "1 Horde Night"
+			x: 0.0d
+			y: 2.62d
+		}
+		{
+			icon: "minecraft:zombie_head"
+			id: "10341F83B1EC0A3D"
+			shape: "circle"
+			tasks: [
+				{
+					icon: "minecraft:zombie_head"
+					id: "6795CE34108FB89C"
+					stage: "abza_q_hordes_3"
+					title: "Survive 3 horde nights"
+					type: "gamestage"
+				}
+			]
+			title: "3 Horde Nights"
+			x: 3.5d
+			y: 2.62d
+		}
+		{
+			icon: "minecraft:zombie_head"
+			id: "2CB299F79CF0FA33"
+			shape: "circle"
+			tasks: [
+				{
+					icon: "minecraft:zombie_head"
+					id: "6F70DE4C21D4AF78"
+					stage: "abza_q_hordes_5"
+					title: "Survive 5 horde nights"
+					type: "gamestage"
+				}
+			]
+			title: "5 Horde Nights"
+			x: 7.0d
+			y: 2.62d
+		}
+		{
+			icon: "minecraft:zombie_head"
+			id: "5F4546E7E99D44AB"
+			shape: "circle"
+			tasks: [
+				{
+					icon: "minecraft:zombie_head"
+					id: "3CFAF1B2B2161505"
+					stage: "abza_q_hordes_10"
+					title: "Survive 10 horde nights"
+					type: "gamestage"
+				}
+			]
+			title: "10 Horde Nights"
+			x: 10.5d
+			y: 2.62d
+		}
+		{
+			icon: "minecraft:zombie_head"
+			id: "075EE71F303EFA15"
+			shape: "circle"
+			tasks: [
+				{
+					icon: "minecraft:zombie_head"
+					id: "44126FE7B78DD29B"
+					stage: "abza_q_hordes_25"
+					title: "Survive 25 horde nights"
+					type: "gamestage"
+				}
+			]
+			title: "25 Horde Nights"
+			x: 14.0d
+			y: 2.62d
+		}
+		{
+			icon: "minecraft:zombie_head"
+			id: "743BCA92D5E8CCE6"
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [
+				{
+					icon: "minecraft:zombie_head"
+					id: "59BF0712EA37D5E9"
+					stage: "abza_q_hordes_50"
+					title: "Survive 50 horde nights"
+					type: "gamestage"
+				}
+			]
+			title: "50 Horde Nights"
+			x: 17.5d
+			y: 2.62d
+		}
+	]
+	title: "Records"
+}

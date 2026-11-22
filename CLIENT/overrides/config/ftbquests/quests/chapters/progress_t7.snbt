@@ -1,6 +1,7 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	autofocus_id: "4E8A14F51FD78E1A"
+	default_hide_dependency_lines: true
+	default_quest_shape: "circle"
 	filename: "progress_t7"
 	group: "556BB4E0704CB043"
 	icon: {
@@ -11,8 +12,54 @@
 		}
 	}
 	id: "0DEC09554FBBF2DA"
+	images: [
+		{
+			alpha: 150
+			color: 5531903
+			height: 0.14d
+			image: "abza:textures/quests/track.png"
+			order: -1
+			rotation: 0.0d
+			width: 16.33d
+			x: 7.0d
+			y: -2.62d
+		}
+		{
+			alpha: 150
+			color: 5531903
+			height: 0.14d
+			image: "abza:textures/quests/track.png"
+			order: -1
+			rotation: 0.0d
+			width: 16.33d
+			x: 7.0d
+			y: 2.62d
+		}
+		{
+			alpha: 150
+			color: 5531903
+			height: 6.12d
+			image: "abza:textures/quests/track.png"
+			order: -1
+			rotation: 0.0d
+			width: 0.14d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			alpha: 150
+			color: 5531903
+			height: 6.12d
+			image: "abza:textures/quests/track.png"
+			order: -1
+			rotation: 0.0d
+			width: 0.14d
+			x: 14.0d
+			y: 0.0d
+		}
+	]
 	order_index: 6
-	images: [ ]
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -29,8 +76,8 @@
 				}
 			}
 			id: "4E8A14F51FD78E1A"
-			shape: "gear"
-			size: 1.5d
+			shape: "hexagon"
+			size: 1.75d
 			tasks: [
 				{
 					dimension: "abza:umbra"
@@ -51,34 +98,59 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"4E8A14F51FD78E1A"
-			]
 			description: [
-				"Unrefined dravarium: &eChemical Oxidizer&r, &eChemical Infuser&r (hydrofluoric acid), &eIsotopic Centrifuge&r, then crystallised."
+				"&6&lDravarium-495&r: y -64 to 8"
+				"&ePlutonium&r: y -48 to 64"
+				"&ePlasma&r: y -64 to 24"
+				"&eCrimsonscale&r: y -32 to 64"
+				"&eMeteoric rock&r: y -16 to 128"
 			]
-			icon: "phayriosisreborn:dravarium_495_ingot"
-			id: "3880F3DF18D02202"
+			icon: "phayriosisreborn:unrefined_dravarium_495"
+			id: "1B1AB8C790136105"
+			shape: "circle"
 			tasks: [
 				{
-					id: "61FC72127C5EB76B"
-					item: "phayriosisreborn:dravarium_495_ingot"
+					id: "0014BD824CDD7AE1"
+					item: "phayriosisreborn:unrefined_dravarium_495"
+					title: "Dravarium-495"
+					type: "item"
+				}
+				{
+					id: "12D984090D691C75"
+					item: "phayriosisreborn:raw_plutonium"
+					title: "Plutonium"
+					type: "item"
+				}
+				{
+					id: "477555A8BF3F0C3C"
+					item: "phayriosisreborn:unrefined_plasma"
+					title: "Plasma"
+					type: "item"
+				}
+				{
+					id: "1E2F2350D39E4116"
+					item: "phayriosisreborn:crimsonscale_fragment"
+					title: "Crimsonscale"
+					type: "item"
+				}
+				{
+					id: "4C0358162FE0377B"
+					item: "phayriosisreborn:meteoric_rock"
+					title: "Meteoric rock"
 					type: "item"
 				}
 			]
-			title: "Dravarium-495"
+			title: "Umbra's Ores"
 			x: 3.5d
-			y: 0.0d
+			y: -2.62d
 		}
 		{
-			dependencies: [
-				"3880F3DF18D02202"
-			]
 			description: [
-				"Its controller needs dravarium-495. Fuel: &edeuterium&r (heavy water, pumped with a Filter Upgrade, through the Electrolytic Separator) and &etritium&r (lithium in a &eSolar Neutron Activator&r, in sunlight)."
+				"Burns &edeuterium&r and &etritium&r."
 			]
 			icon: "mekanismgenerators:fusion_reactor_controller"
 			id: "471A8D073F790DD2"
+			shape: "gear"
 			tasks: [
 				{
 					id: "629F210E651F375C"
@@ -88,17 +160,15 @@
 			]
 			title: "Fusion Reactor"
 			x: 7.0d
-			y: -1.75d
+			y: -2.62d
 		}
 		{
-			dependencies: [
-				"3880F3DF18D02202"
-			]
 			description: [
 				"Applied Armorer's guns need it."
 			]
 			icon: "superbwarfare:superb_material_pack"
 			id: "5F9057BD3FA1AE4B"
+			shape: "circle"
 			tasks: [
 				{
 					id: "7C5455E8D30D6F5C"
@@ -107,15 +177,84 @@
 				}
 			]
 			title: "Tier 7 Material Pack"
-			x: 7.0d
-			y: 1.75d
+			x: 10.5d
+			y: -2.62d
 		}
 		{
-			dependencies: [
-				"5F9057BD3FA1AE4B"
-			]
 			description: [
-				"The last guns, crafted only: the &eTier 7 Material Pack&r, crystal gun parts and &erefined plasma&r."
+				"Ride one, or carry its crate."
+			]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "superbwarfare:textures/vehicle_icon/container/waveforce_tower.png"
+				}
+			}
+			id: "027B3B0101FEBA89"
+			optional: true
+			shape: "circle"
+			size: 0.75d
+			tasks: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "superbwarfare:textures/vehicle_icon/container/waveforce_tower.png"
+						}
+					}
+					id: "7CCF49A56FDC5764"
+					stage: "abza_q_vehicle_t7"
+					title: "A Tier 7 vehicle or emplacement"
+					type: "gamestage"
+				}
+			]
+			title: "A Tier 7 Vehicle"
+			x: 3.5d
+			y: 2.62d
+		}
+		{
+			description: [
+				"Endless air, and flight."
+			]
+			icon: "trol_armor:lowexo_chestplate"
+			id: "1B4E227F743AAE08"
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [
+				{
+					id: "34F52ED82EB6D8B3"
+					item: "trol_armor:lowexo_helmet"
+					title: "Tier 7 E-X I Helmet"
+					type: "item"
+				}
+				{
+					id: "6239CA17163EA243"
+					item: "trol_armor:lowexo_chestplate"
+					title: "Tier 7 E-X I Chestplate"
+					type: "item"
+				}
+				{
+					id: "448E44CF3A46D731"
+					item: "trol_armor:lowexo_leggings"
+					title: "Tier 7 E-X I Leggings"
+					type: "item"
+				}
+				{
+					id: "0C429BF7DC48CDA2"
+					item: "trol_armor:lowexo_boots"
+					title: "Tier 7 E-X I Boots"
+					type: "item"
+				}
+			]
+			title: "E-X I"
+			x: 7.0d
+			y: 2.62d
+		}
+		{
+			description: [
+				"The last guns, crafted only."
 			]
 			icon: {
 				id: "tacz:modern_kinetic_gun"
@@ -126,7 +265,7 @@
 			}
 			id: "672596C18551E6B2"
 			shape: "hexagon"
-			size: 1.25d
+			size: 1.75d
 			tasks: [
 				{
 					icon: {
@@ -150,7 +289,26 @@
 			]
 			title: "Applied Armorer"
 			x: 10.5d
-			y: 1.75d
+			y: 2.62d
+		}
+		{
+			description: [
+				"Ends &cUmbral Blight&r in Umbra for you, &afor good&r."
+			]
+			icon: "abza:vaccine_t7"
+			id: "665492608AFCEB10"
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [
+				{
+					id: "310DA207125BB117"
+					item: "abza:vaccine_t7"
+					type: "item"
+				}
+			]
+			title: "Umbral Blight Vaccine"
+			x: 14.0d
+			y: 0.0d
 		}
 	]
 	title: "Tier 7: Umbra"

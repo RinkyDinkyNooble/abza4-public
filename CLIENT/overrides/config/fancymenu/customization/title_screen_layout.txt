@@ -989,7 +989,7 @@ element {
   layer_hidden_in_editor = false
   animated_offset_x = 0
   animated_offset_y = 0
-  source = %#98A5B3%ABZA 4.1.0%#%   %#647386%Minecraft 1.20.1   {"placeholder":"loadedmods"} mods%#%
+  source = %#98A5B3%ABZA 4.1.1%#%   %#647386%Minecraft 1.20.1   {"placeholder":"loadedmods"} mods%#%
   source_mode = direct
   shadow = true
   enable_scrolling = false

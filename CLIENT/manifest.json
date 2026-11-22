@@ -13,7 +13,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Apocalypse Begins",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "author": "RinkyNooble",
   "overrides": "overrides",
   "files": [
@@ -1256,6 +1256,12 @@
     {
       "projectID": 1654265,
       "fileID": 9635380,
+      "required": true,
+      "isLocked": true
+    },
+    {
+      "projectID": 1049891,
+      "fileID": 8978776,
       "required": true,
       "isLocked": true
     }

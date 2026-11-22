@@ -40,9 +40,12 @@ StartupEvents.registry('item', event => {
     })
 })
 
-// A medicine used (LR Tactical's event, after its heal and effects): the blood pack restores max health lost to deaths
+// A medicine used (LR Tactical's event, after its heal and effects): the questbook's stage for a first medicine; the
+// blood pack restores max health lost to deaths
 ForgeEvents.onEvent('me.xjqsh.lrtactical.api.event.ConsumableUseEvent', event => {
     var user = event.getUser()
-    if (!user.isPlayer() || String(event.getConsumableId()) != global.ABZA_MEDICAL.bloodPack) return
+    if (!user.isPlayer() || user.level.isClientSide()) return
+    if (global.abzaQuestStage) global.abzaQuestStage(user, 'heal')
+    if (String(event.getConsumableId()) != global.ABZA_MEDICAL.bloodPack) return
     if (global.abzaBloodPack) global.abzaBloodPack(user)
 })

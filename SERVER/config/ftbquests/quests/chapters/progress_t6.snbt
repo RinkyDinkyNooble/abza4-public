@@ -1,6 +1,7 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	autofocus_id: "544A8D1764B9DC71"
+	default_hide_dependency_lines: true
+	default_quest_shape: "circle"
 	filename: "progress_t6"
 	group: "556BB4E0704CB043"
 	icon: {
@@ -11,8 +12,54 @@
 		}
 	}
 	id: "4B40F67A072EAECA"
+	images: [
+		{
+			alpha: 150
+			color: 5531903
+			height: 0.14d
+			image: "abza:textures/quests/track.png"
+			order: -1
+			rotation: 0.0d
+			width: 28.58d
+			x: 12.25d
+			y: -2.62d
+		}
+		{
+			alpha: 150
+			color: 5531903
+			height: 0.14d
+			image: "abza:textures/quests/track.png"
+			order: -1
+			rotation: 0.0d
+			width: 28.58d
+			x: 12.25d
+			y: 2.62d
+		}
+		{
+			alpha: 150
+			color: 5531903
+			height: 6.12d
+			image: "abza:textures/quests/track.png"
+			order: -1
+			rotation: 0.0d
+			width: 0.14d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			alpha: 150
+			color: 5531903
+			height: 6.12d
+			image: "abza:textures/quests/track.png"
+			order: -1
+			rotation: 0.0d
+			width: 0.14d
+			x: 24.5d
+			y: 0.0d
+		}
+	]
 	order_index: 5
-	images: [ ]
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -29,8 +76,8 @@
 				}
 			}
 			id: "544A8D1764B9DC71"
-			shape: "gear"
-			size: 1.5d
+			shape: "hexagon"
+			size: 1.75d
 			tasks: [
 				{
 					dimension: "abza:eden"
@@ -51,29 +98,73 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"544A8D1764B9DC71"
-			]
 			description: [
-				"Smelt raw calorite, or run it through &eDigestive Acid&r for the &eCalorite Crystal&r."
+				"&6&lCalorite&r: y -64 to 32"
+				"&eBiometal&r: y -48 to 96"
 			]
-			icon: "ad_astra:calorite_ingot"
-			id: "761777D44F1A81D1"
+			icon: "ad_astra:raw_calorite"
+			id: "405013BF615DA690"
+			shape: "circle"
 			tasks: [
 				{
-					id: "592066FA4BC51522"
-					item: "ad_astra:calorite_ingot"
+					id: "5B33FC1C5D6F2FF9"
+					item: "ad_astra:raw_calorite"
+					title: "Calorite"
+					type: "item"
+				}
+				{
+					id: "0237FC3C85E19C92"
+					item: "phayriosisreborn:biometal_nugget"
+					title: "Biometal"
 					type: "item"
 				}
 			]
-			title: "Calorite"
-			x: 3.5d
-			y: 0.0d
+			title: "Eden's Ores"
+			x: 8.17d
+			y: -2.62d
 		}
 		{
-			dependencies: [
-				"544A8D1764B9DC71"
+			description: [
+				"Every Tier 6 gun needs some."
 			]
+			icon: "superbwarfare:virtual_material_pack"
+			id: "52603129ECC01A6A"
+			shape: "circle"
+			tasks: [
+				{
+					id: "3EB007F6CED60595"
+					item: "superbwarfare:virtual_material_pack"
+					type: "item"
+				}
+			]
+			title: "Tier 6 Material Pack"
+			x: 16.33d
+			y: -2.62d
+		}
+		{
+			icon: "sophisticatedbackpacks:netherite_backpack"
+			id: "3196E8428DFC06B6"
+			shape: "circle"
+			tasks: [
+				{
+					icon: "sophisticatedbackpacks:netherite_backpack"
+					id: "6AA6F6A76878593F"
+					item: {
+						id: "ftbfiltersystem:smart_filter"
+						Count: 1b
+						tag: {
+							"ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:netherite_backpack))"
+						}
+					}
+					title: "A Tier 6 backpack or better"
+					type: "item"
+				}
+			]
+			title: "Tier 6 Backpack"
+			x: 3.5d
+			y: 2.62d
+		}
+		{
 			icon: {
 				id: "tacz:modern_kinetic_gun"
 				Count: 1b
@@ -83,6 +174,8 @@
 			}
 			id: "7125A6CA14A332EF"
 			optional: true
+			shape: "circle"
+			size: 0.75d
 			tasks: [
 				{
 					icon: {
@@ -105,58 +198,89 @@
 				}
 			]
 			title: "A Tier 6 Gun"
-			x: 3.5d
-			y: 3.5d
+			x: 7.0d
+			y: 2.62d
 		}
 		{
-			dependencies: [
-				"761777D44F1A81D1"
+			description: [
+				"Ride one, or carry its crate."
 			]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "superbwarfare:textures/vehicle_icon/container/laser_tower.png"
+				}
+			}
+			id: "607C2E8B94EE70AC"
+			optional: true
+			shape: "circle"
+			size: 0.75d
+			tasks: [
+				{
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "superbwarfare:textures/vehicle_icon/container/laser_tower.png"
+						}
+					}
+					id: "49E5A63ADABC5EE8"
+					stage: "abza_q_vehicle_t6"
+					title: "A Tier 6 vehicle or emplacement"
+					type: "gamestage"
+				}
+			]
+			title: "A Tier 6 Vehicle"
+			x: 10.5d
+			y: 2.62d
+		}
+		{
 			description: [
 				"Flies. &eCold protection 3&r: Umbra needs it."
 			]
 			icon: "ad_astra:jet_suit"
-			id: "13D55F7AF24FC798"
+			id: "1DA207E6839D2E79"
+			shape: "hexagon"
+			size: 1.75d
 			tasks: [
 				{
-					id: "5F0F0B3B8E174F47"
+					id: "30B59EDE06C995EA"
+					item: "ad_astra:jet_suit_helmet"
+					title: "Tier 6 Jet Suit Helmet"
+					type: "item"
+				}
+				{
+					id: "75E90745D92D135E"
 					item: "ad_astra:jet_suit"
+					title: "Tier 6 Jet Suit"
+					type: "item"
+				}
+				{
+					id: "7490F5DD3A14FEA0"
+					item: "ad_astra:jet_suit_pants"
+					title: "Tier 6 Jet Suit Pants"
+					type: "item"
+				}
+				{
+					id: "79FB186DD82DA9C4"
+					item: "ad_astra:jet_suit_boots"
+					title: "Tier 6 Jet Suit Boots"
 					type: "item"
 				}
 			]
 			title: "Jet Suit"
-			x: 7.0d
-			y: -1.75d
+			x: 14.0d
+			y: 2.62d
 		}
 		{
-			dependencies: [
-				"761777D44F1A81D1"
-			]
 			description: [
-				"Every Tier 6 gun needs some."
-			]
-			icon: "superbwarfare:virtual_material_pack"
-			id: "52603129ECC01A6A"
-			tasks: [
-				{
-					id: "3EB007F6CED60595"
-					item: "superbwarfare:virtual_material_pack"
-					type: "item"
-				}
-			]
-			title: "Tier 6 Material Pack"
-			x: 7.0d
-			y: 1.75d
-		}
-		{
-			dependencies: [
-				"761777D44F1A81D1"
-			]
-			description: [
-				"Built with calorite. Burns &eliquid superheated sodium&r: sodium from brine (Electrolytic Separator), heated in a &esodium-cooled&r fission reactor, then condensed. Reaches Umbra."
+				"Reaches Umbra."
 			]
 			icon: "ad_astra:tier_4_rocket"
 			id: "057D76DA20F904C1"
+			shape: "hexagon"
+			size: 1.75d
 			tasks: [
 				{
 					id: "1ECA40EA7F52699B"
@@ -165,7 +289,44 @@
 				}
 			]
 			title: "Level 4 Rocket"
-			x: 10.5d
+			x: 17.5d
+			y: 2.62d
+		}
+		{
+			description: [
+				"The Level 4 Rocket burns &eliquid superheated sodium&r."
+			]
+			icon: "mekanism:superheated_sodium_bucket"
+			id: "5D6FF5C52CDAFB7F"
+			shape: "circle"
+			tasks: [
+				{
+					id: "733B58F438CCF068"
+					item: "mekanism:superheated_sodium_bucket"
+					type: "item"
+				}
+			]
+			title: "Sodium Fuel"
+			x: 21.0d
+			y: 2.62d
+		}
+		{
+			description: [
+				"Ends &cFlesh Hunger&r in Eden for you, &afor good&r."
+			]
+			icon: "abza:vaccine_t6"
+			id: "5CC5E8AB46FB8E3C"
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [
+				{
+					id: "65E58B5154651793"
+					item: "abza:vaccine_t6"
+					type: "item"
+				}
+			]
+			title: "Flesh Hunger Vaccine"
+			x: 24.5d
 			y: 0.0d
 		}
 	]

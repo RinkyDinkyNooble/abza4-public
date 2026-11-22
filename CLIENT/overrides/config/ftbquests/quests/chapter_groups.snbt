@@ -1,12 +1,12 @@
 {
 	chapter_groups: [
 		{
-			id: "2823A29698F90E67"
-			title: "Survival Guide"
-		}
-		{
 			id: "556BB4E0704CB043"
 			title: "Progression"
+		}
+		{
+			id: "1403CC53F9A5C927"
+			title: "Records"
 		}
 		{
 			id: "182E303C40AEF1E1"

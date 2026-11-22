@@ -1,6 +1,7 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	autofocus_id: "556DB721E1EB3DAA"
+	default_hide_dependency_lines: true
+	default_quest_shape: "circle"
 	filename: "progress_t5"
 	group: "556BB4E0704CB043"
 	icon: {
@@ -11,8 +12,54 @@
 		}
 	}
 	id: "2A6C80E934AFE264"
+	images: [
+		{
+			alpha: 150
+			color: 5531903
+			height: 0.14d
+			image: "abza:textures/quests/track.png"
+			order: -1
+			rotation: 0.0d
+			width: 28.58d
+			x: 12.25d
+			y: -2.62d
+		}
+		{
+			alpha: 150
+			color: 5531903
+			height: 0.14d
+			image: "abza:textures/quests/track.png"
+			order: -1
+			rotation: 0.0d
+			width: 28.58d
+			x: 12.25d
+			y: 2.62d
+		}
+		{
+			alpha: 150
+			color: 5531903
+			height: 6.12d
+			image: "abza:textures/quests/track.png"
+			order: -1
+			rotation: 0.0d
+			width: 0.14d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			alpha: 150
+			color: 5531903
+			height: 6.12d
+			image: "abza:textures/quests/track.png"
+			order: -1
+			rotation: 0.0d
+			width: 0.14d
+			x: 24.5d
+			y: 0.0d
+		}
+	]
 	order_index: 4
-	images: [ ]
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -29,8 +76,8 @@
 				}
 			}
 			id: "556DB721E1EB3DAA"
-			shape: "gear"
-			size: 1.5d
+			shape: "hexagon"
+			size: 1.75d
 			tasks: [
 				{
 					dimension: "abza:cinder"
@@ -51,29 +98,88 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"556DB721E1EB3DAA"
-			]
 			description: [
-				"Smelt raw ostrum, or run it through &ehydrofluoric acid&r for the &eOstrum Crystal&r."
+				"&6&lOstrum&r: y -40 to 64"
+				"&eAmethyst&r: in geodes"
 			]
-			icon: "ad_astra:ostrum_ingot"
-			id: "17C1A3A1DE35FD1A"
+			icon: "ad_astra:raw_ostrum"
+			id: "6B0747472CF3DEEE"
+			shape: "circle"
 			tasks: [
 				{
-					id: "743F0F2C062FE1DA"
-					item: "ad_astra:ostrum_ingot"
+					id: "63D0FEBCB3E68A8E"
+					item: "ad_astra:raw_ostrum"
+					title: "Ostrum"
+					type: "item"
+				}
+				{
+					id: "792ACDAE8A6A34B0"
+					item: "minecraft:amethyst_shard"
+					title: "Amethyst"
 					type: "item"
 				}
 			]
-			title: "Ostrum"
-			x: 3.5d
-			y: 0.0d
+			title: "Cinder's Ores"
+			x: 6.12d
+			y: -2.62d
 		}
 		{
-			dependencies: [
-				"556DB721E1EB3DAA"
+			icon: "mekanism:thermal_evaporation_controller"
+			id: "11153C2ECF237C4E"
+			shape: "gear"
+			tasks: [
+				{
+					id: "06673C1B0B69D00B"
+					item: "mekanism:thermal_evaporation_controller"
+					type: "item"
+				}
 			]
+			title: "Liquid Lithium"
+			x: 12.25d
+			y: -2.62d
+		}
+		{
+			description: [
+				"Every Tier 5 gun needs some."
+			]
+			icon: "superbwarfare:legendary_material_pack"
+			id: "49FD07A18FE6D721"
+			shape: "circle"
+			tasks: [
+				{
+					id: "736A1159BE08DC2B"
+					item: "superbwarfare:legendary_material_pack"
+					type: "item"
+				}
+			]
+			title: "Tier 5 Material Pack"
+			x: 18.38d
+			y: -2.62d
+		}
+		{
+			icon: "sophisticatedbackpacks:diamond_backpack"
+			id: "7F314D26F013145F"
+			shape: "circle"
+			tasks: [
+				{
+					icon: "sophisticatedbackpacks:diamond_backpack"
+					id: "1BD0F5A81E792CF2"
+					item: {
+						id: "ftbfiltersystem:smart_filter"
+						Count: 1b
+						tag: {
+							"ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:diamond_backpack)item(sophisticatedbackpacks:netherite_backpack))"
+						}
+					}
+					title: "A Tier 5 backpack or better"
+					type: "item"
+				}
+			]
+			title: "Tier 5 Backpack"
+			x: 3.5d
+			y: 2.62d
+		}
+		{
 			icon: {
 				id: "tacz:modern_kinetic_gun"
 				Count: 1b
@@ -83,6 +189,8 @@
 			}
 			id: "4DC152D7CCEE2CA4"
 			optional: true
+			shape: "circle"
+			size: 0.75d
 			tasks: [
 				{
 					icon: {
@@ -105,58 +213,86 @@
 				}
 			]
 			title: "A Tier 5 Gun"
-			x: 3.5d
-			y: 3.5d
+			x: 7.0d
+			y: 2.62d
 		}
 		{
-			dependencies: [
-				"17C1A3A1DE35FD1A"
-			]
 			description: [
-				"A &eThermal Evaporation Plant&r turns water into brine and brine into lithium (100 water each); a Rotary Condensentrator makes it liquid."
+				"Ride one, or carry its crate."
 			]
-			icon: "mekanism:thermal_evaporation_controller"
-			id: "11153C2ECF237C4E"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "superbwarfare:textures/vehicle_icon/container/prism_tank.png"
+				}
+			}
+			id: "2D8FEADC3FFDD1DF"
+			optional: true
+			shape: "circle"
+			size: 0.75d
 			tasks: [
 				{
-					id: "06673C1B0B69D00B"
-					item: "mekanism:thermal_evaporation_controller"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "superbwarfare:textures/vehicle_icon/container/prism_tank.png"
+						}
+					}
+					id: "6283AE0B0D8CD3D1"
+					stage: "abza_q_vehicle_t5"
+					title: "A Tier 5 vehicle or emplacement"
+					type: "gamestage"
+				}
+			]
+			title: "A Tier 5 Vehicle"
+			x: 10.5d
+			y: 2.62d
+		}
+		{
+			icon: "trol_armor:mk_1_chestplate"
+			id: "4BCD6E22E75B9545"
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [
+				{
+					id: "34BD9D31DE93906A"
+					item: "trol_armor:mk_1_helmet"
+					title: "Tier 5 Super Earth Helmet"
+					type: "item"
+				}
+				{
+					id: "39E711EB8F71E206"
+					item: "trol_armor:mk_1_chestplate"
+					title: "Tier 5 Super Earth Chestplate"
+					type: "item"
+				}
+				{
+					id: "10335837D2F4750F"
+					item: "trol_armor:mk_1_leggings"
+					title: "Tier 5 Super Earth Leggings"
+					type: "item"
+				}
+				{
+					id: "4B99E53B7EB1FD86"
+					item: "trol_armor:mk_1_boots"
+					title: "Tier 5 Super Earth Boots"
 					type: "item"
 				}
 			]
-			title: "Liquid Lithium"
-			x: 7.0d
-			y: -1.75d
+			title: "Super Earth Armour"
+			x: 14.0d
+			y: 2.62d
 		}
 		{
-			dependencies: [
-				"17C1A3A1DE35FD1A"
-			]
 			description: [
-				"Every Tier 5 gun needs some."
-			]
-			icon: "superbwarfare:legendary_material_pack"
-			id: "49FD07A18FE6D721"
-			tasks: [
-				{
-					id: "736A1159BE08DC2B"
-					item: "superbwarfare:legendary_material_pack"
-					type: "item"
-				}
-			]
-			title: "Tier 5 Material Pack"
-			x: 7.0d
-			y: 1.75d
-		}
-		{
-			dependencies: [
-				"11153C2ECF237C4E"
-			]
-			description: [
-				"Built with ostrum. Burns &eliquid lithium&r, 1 bucket a launch. Reaches Eden."
+				"Reaches Eden."
 			]
 			icon: "ad_astra:tier_3_rocket"
 			id: "265B86E2566AF776"
+			shape: "hexagon"
+			size: 1.75d
 			tasks: [
 				{
 					id: "76BD8D5B452DD644"
@@ -165,7 +301,44 @@
 				}
 			]
 			title: "Level 3 Rocket"
-			x: 10.5d
+			x: 17.5d
+			y: 2.62d
+		}
+		{
+			description: [
+				"The Level 3 Rocket burns &e1 bucket&r a launch."
+			]
+			icon: "mekanism:lithium_bucket"
+			id: "069CF67890DD4E8B"
+			shape: "circle"
+			tasks: [
+				{
+					id: "2989BBA1732C074D"
+					item: "mekanism:lithium_bucket"
+					type: "item"
+				}
+			]
+			title: "Lithium Fuel"
+			x: 21.0d
+			y: 2.62d
+		}
+		{
+			description: [
+				"Ends &cAshen Gaze&r in Cinder for you, &afor good&r."
+			]
+			icon: "abza:vaccine_t5"
+			id: "2835C840EE1EF73C"
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [
+				{
+					id: "11A12A368CB310D7"
+					item: "abza:vaccine_t5"
+					type: "item"
+				}
+			]
+			title: "Ashen Gaze Vaccine"
+			x: 24.5d
 			y: 0.0d
 		}
 	]

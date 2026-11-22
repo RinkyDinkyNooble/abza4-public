@@ -1,12 +1,67 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	autofocus_id: "33903A3651FF43C2"
+	default_hide_dependency_lines: true
+	default_quest_shape: "circle"
 	filename: "progress_t2"
 	group: "556BB4E0704CB043"
 	icon: "mekanism:purification_chamber"
 	id: "3D3D8E34173B410B"
+	images: [
+		{
+			alpha: 150
+			color: 5531903
+			height: 0.14d
+			image: "abza:textures/quests/track.png"
+			order: -1
+			rotation: 0.0d
+			width: 36.75d
+			x: 15.75d
+			y: -2.62d
+		}
+		{
+			alpha: 150
+			color: 5531903
+			height: 0.14d
+			image: "abza:textures/quests/track.png"
+			order: -1
+			rotation: 0.0d
+			width: 36.75d
+			x: 15.75d
+			y: 2.62d
+		}
+		{
+			alpha: 150
+			color: 5531903
+			height: 6.12d
+			image: "abza:textures/quests/track.png"
+			order: -1
+			rotation: 0.0d
+			width: 0.14d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			alpha: 150
+			color: 5531903
+			height: 6.12d
+			image: "abza:textures/quests/track.png"
+			order: -1
+			rotation: 0.0d
+			width: 0.14d
+			x: 31.5d
+			y: 0.0d
+		}
+		{
+			height: 10.53d
+			image: "abza:textures/quests/ores_t2.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 15.75d
+			y: 8.74d
+		}
+	]
 	order_index: 1
-	images: [ ]
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -15,8 +70,8 @@
 			]
 			icon: "minecraft:snow_block"
 			id: "33903A3651FF43C2"
-			shape: "gear"
-			size: 1.5d
+			shape: "hexagon"
+			size: 1.75d
 			tasks: [
 				{
 					icon: "minecraft:snow_block"
@@ -31,29 +86,204 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"33903A3651FF43C2"
-			]
 			description: [
-				"Only in the Snow."
+				"&6&lDiamond&r: y -64 to 0"
+				"&eEmerald&r: y 32 to 256"
+				"&eLead&r: y -32 to 64"
+				"&eSilver&r: y -48 to 48"
+				"&eTungsten&r: y -48 to 48"
+				""
+				"The chart under the map shows each ore's heights. &6Gold frame&r: the signature ore."
 			]
 			icon: "minecraft:diamond"
-			id: "73838BAB15D08DC5"
+			id: "2E2C77148D9C6A1A"
+			shape: "circle"
 			tasks: [
 				{
-					id: "7C7B4432CBD4013A"
+					id: "7850528CDB5DB3EC"
 					item: "minecraft:diamond"
+					title: "Diamond"
+					type: "item"
+				}
+				{
+					id: "2FEB2B8486687F45"
+					item: "minecraft:emerald"
+					title: "Emerald"
+					type: "item"
+				}
+				{
+					id: "290932011B28A9FD"
+					item: "mekanism:raw_lead"
+					title: "Lead"
+					type: "item"
+				}
+				{
+					id: "2364E7513CC6B9D8"
+					item: "superbwarfare:raw_silver"
+					title: "Silver"
+					type: "item"
+				}
+				{
+					id: "5CDF163AB83975D3"
+					item: "superbwarfare:scheelite"
+					title: "Tungsten"
 					type: "item"
 				}
 			]
-			title: "Diamonds"
+			title: "The Snow's Ores"
 			x: 3.5d
-			y: 0.0d
+			y: -2.62d
+		}
+		{
+			icon: "mekanism:electrolytic_separator"
+			id: "7B4E80B2A21B4C79"
+			shape: "gear"
+			tasks: [
+				{
+					id: "360F5AA43BA89032"
+					item: "mekanism:electrolytic_separator"
+					type: "item"
+				}
+			]
+			title: "Electrolytic Separator"
+			x: 7.0d
+			y: -2.62d
+		}
+		{
+			icon: "mekanism:alloy_reinforced"
+			id: "234228675EC869F1"
+			shape: "circle"
+			tasks: [
+				{
+					id: "6E4B458EDD510A4F"
+					item: "mekanism:alloy_reinforced"
+					type: "item"
+				}
+			]
+			title: "Reinforced Alloy"
+			x: 10.5d
+			y: -2.62d
 		}
 		{
 			dependencies: [
-				"33903A3651FF43C2"
+				"234228675EC869F1"
 			]
+			description: [
+				"Burns &eethene&r."
+				""
+				"&eWind Generators&r give the most on high peaks."
+			]
+			icon: "mekanismgenerators:gas_burning_generator"
+			id: "2C78E5ED69EBBDA0"
+			shape: "gear"
+			tasks: [
+				{
+					id: "31F8014A218AB426"
+					item: "mekanismgenerators:gas_burning_generator"
+					type: "item"
+				}
+			]
+			title: "Gas-Burning Generator"
+			x: 14.0d
+			y: -2.62d
+		}
+		{
+			icon: "mekanism:advanced_control_circuit"
+			id: "477DF5445E014311"
+			shape: "circle"
+			tasks: [
+				{
+					id: "45528C7B216581AC"
+					item: "mekanism:advanced_control_circuit"
+					type: "item"
+				}
+			]
+			title: "Advanced Control Circuit"
+			x: 17.5d
+			y: -2.62d
+		}
+		{
+			dependencies: [
+				"477DF5445E014311"
+			]
+			description: [
+				"&aTwice the metal&r of smelting from raw ore."
+				""
+				"An ore block gives 3."
+			]
+			icon: "mekanism:purification_chamber"
+			id: "5FA48C7BBB968486"
+			shape: "gear"
+			tasks: [
+				{
+					id: "7F0D8C4D6E46EB8C"
+					item: "mekanism:purification_chamber"
+					type: "item"
+				}
+			]
+			title: "Purification Chamber"
+			x: 21.0d
+			y: -2.62d
+		}
+		{
+			icon: "mekanism:advanced_energy_cube"
+			id: "2B2E7812E72A4C4B"
+			optional: true
+			shape: "gear"
+			size: 0.75d
+			tasks: [
+				{
+					id: "069458F4FE0DA195"
+					item: "mekanism:advanced_energy_cube"
+					type: "item"
+				}
+			]
+			title: "Advanced Energy Cube"
+			x: 24.5d
+			y: -2.62d
+		}
+		{
+			description: [
+				"Every Tier 2 gun and vehicle needs some."
+			]
+			icon: "superbwarfare:rare_material_pack"
+			id: "35E1FF534EC93ABE"
+			shape: "circle"
+			tasks: [
+				{
+					id: "434D507CADC72150"
+					item: "superbwarfare:rare_material_pack"
+					type: "item"
+				}
+			]
+			title: "Tier 2 Material Pack"
+			x: 28.0d
+			y: -2.62d
+		}
+		{
+			icon: "sophisticatedbackpacks:copper_backpack"
+			id: "386614AC59AD4BAC"
+			shape: "circle"
+			tasks: [
+				{
+					icon: "sophisticatedbackpacks:copper_backpack"
+					id: "32EB80341C895B99"
+					item: {
+						id: "ftbfiltersystem:smart_filter"
+						Count: 1b
+						tag: {
+							"ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:copper_backpack)item(sophisticatedbackpacks:iron_backpack)item(sophisticatedbackpacks:gold_backpack)item(sophisticatedbackpacks:diamond_backpack)item(sophisticatedbackpacks:netherite_backpack))"
+						}
+					}
+					title: "A Tier 2 backpack or better"
+					type: "item"
+				}
+			]
+			title: "Tier 2 Backpack"
+			x: 5.25d
+			y: 2.62d
+		}
+		{
 			icon: {
 				id: "tacz:modern_kinetic_gun"
 				Count: 1b
@@ -63,6 +293,8 @@
 			}
 			id: "4D40AB7874C3FC4A"
 			optional: true
+			shape: "circle"
+			size: 0.75d
 			tasks: [
 				{
 					icon: {
@@ -85,135 +317,136 @@
 				}
 			]
 			title: "A Tier 2 Gun"
-			x: 3.5d
-			y: 3.5d
-		}
-		{
-			dependencies: [
-				"73838BAB15D08DC5"
-			]
-			description: [
-				"Splits water into &ehydrogen&r and &eoxygen&r. An &eElectric Pump&r on water feeds it; &eChemical Tanks&r store gases."
-				""
-				"&7Flint in a Purification Chamber's gas slot also gives oxygen."
-			]
-			icon: "mekanism:electrolytic_separator"
-			id: "7B4E80B2A21B4C79"
-			tasks: [
-				{
-					id: "360F5AA43BA89032"
-					item: "mekanism:electrolytic_separator"
-					type: "item"
-				}
-			]
-			title: "Electrolytic Separator"
-			x: 7.0d
-			y: -1.75d
-		}
-		{
-			dependencies: [
-				"7B4E80B2A21B4C79"
-			]
-			description: [
-				"Burns &eethene&r from a &ePressurized Reaction Chamber&r: bio fuel, water and hydrogen."
-				""
-				"&eWind Generators&r give the most on high peaks."
-			]
-			icon: "mekanismgenerators:gas_burning_generator"
-			id: "2C78E5ED69EBBDA0"
-			tasks: [
-				{
-					id: "31F8014A218AB426"
-					item: "mekanismgenerators:gas_burning_generator"
-					type: "item"
-				}
-			]
-			title: "Gas-Burning Generator"
 			x: 10.5d
-			y: -1.75d
+			y: 2.62d
 		}
 		{
-			dependencies: [
-				"73838BAB15D08DC5"
-			]
-			description: [
-				"Infused alloy with &ediamond&r."
-			]
-			icon: "mekanism:alloy_reinforced"
-			id: "234228675EC869F1"
+			icon: {
+				id: "grapplemod:grapplinghook"
+				Count: 1b
+				tag: {
+					abza_hook: "abza:dual"
+				}
+			}
+			id: "5E81C035C0497A99"
+			optional: true
+			shape: "circle"
+			size: 0.75d
 			tasks: [
 				{
-					id: "6E4B458EDD510A4F"
-					item: "mekanism:alloy_reinforced"
+					icon: {
+						id: "grapplemod:grapplinghook"
+						Count: 1b
+						tag: {
+							abza_hook: "abza:dual"
+						}
+					}
+					id: "06AFADE0786F4DAC"
+					item: {
+						id: "ftbfiltersystem:smart_filter"
+						Count: 1b
+						tag: {
+							"ftbfiltersystem:filter": "item(grapplemod:grapplinghook)or(nbt(fuzzy:{abza_hook:\"abza:dual\"}))"
+						}
+					}
+					title: "Any Tier 2 grappling hook"
 					type: "item"
 				}
 			]
-			title: "Reinforced Alloy"
-			x: 7.0d
-			y: 1.75d
+			title: "A Dual Grappling Hook"
+			x: 15.75d
+			y: 2.62d
 		}
 		{
-			dependencies: [
-				"234228675EC869F1"
-			]
 			description: [
-				"A basic circuit and &ereinforced alloy&r."
+				"Ride one, or carry its crate."
 			]
-			icon: "mekanism:advanced_control_circuit"
-			id: "477DF5445E014311"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "superbwarfare:textures/vehicle_icon/container/ah_6.png"
+				}
+			}
+			id: "783B5CACF1DE60A8"
+			optional: true
+			shape: "circle"
+			size: 0.75d
 			tasks: [
 				{
-					id: "45528C7B216581AC"
-					item: "mekanism:advanced_control_circuit"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "superbwarfare:textures/vehicle_icon/container/ah_6.png"
+						}
+					}
+					id: "5F5A079CB0950174"
+					stage: "abza_q_vehicle_t2"
+					title: "A Tier 2 vehicle or emplacement"
+					type: "gamestage"
+				}
+			]
+			title: "A Tier 2 Vehicle"
+			x: 21.0d
+			y: 2.62d
+		}
+		{
+			description: [
+				"The full &eRIG Hazard&r set gives &eheat protection 1&r: the Badlands need it."
+			]
+			icon: "trol_armor:rigmk_1_chestplate"
+			id: "4FCAB28E14F93C6F"
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [
+				{
+					id: "0218F9D114278143"
+					item: "trol_armor:rigmk_1_helmet"
+					title: "Tier 2 RIG Hazard Helmet"
+					type: "item"
+				}
+				{
+					id: "3CB8F9E95A50A697"
+					item: "trol_armor:rigmk_1_chestplate"
+					title: "Tier 2 RIG Hazard Chestplate"
+					type: "item"
+				}
+				{
+					id: "75A3869D2F392130"
+					item: "trol_armor:rigmk_1_leggings"
+					title: "Tier 2 RIG Hazard Leggings"
+					type: "item"
+				}
+				{
+					id: "579598DF4C4DE4F2"
+					item: "trol_armor:rigmk_1_boots"
+					title: "Tier 2 RIG Hazard Boots"
 					type: "item"
 				}
 			]
-			title: "Advanced Control Circuit"
-			x: 10.5d
-			y: 1.75d
+			title: "Heat Gear"
+			x: 26.25d
+			y: 2.62d
 		}
 		{
-			dependencies: [
-				"7B4E80B2A21B4C79"
-				"477DF5445E014311"
-			]
 			description: [
-				"&e1 raw ore + oxygen → 2 clumps&r. A &eCrusher&r makes them dirty dust, the &eEnrichment Chamber&r dust: &atwice the metal&r of smelting."
-				""
-				"An ore block gives 3."
+				"Ends &cWhispering Chill&r in the Snow for you, &afor good&r."
 			]
-			icon: "mekanism:purification_chamber"
-			id: "5FA48C7BBB968486"
+			icon: "abza:vaccine_t2"
+			id: "109D96944424023C"
+			shape: "hexagon"
+			size: 1.75d
 			tasks: [
 				{
-					id: "7F0D8C4D6E46EB8C"
-					item: "mekanism:purification_chamber"
+					id: "2A233BD41A8301A2"
+					item: "abza:vaccine_t2"
 					type: "item"
 				}
 			]
-			title: "Purification Chamber"
-			x: 14.0d
+			title: "Whispering Chill Vaccine"
+			x: 31.5d
 			y: 0.0d
-		}
-		{
-			dependencies: [
-				"477DF5445E014311"
-			]
-			description: [
-				"Every Tier 2 gun and vehicle needs some."
-			]
-			icon: "superbwarfare:rare_material_pack"
-			id: "35E1FF534EC93ABE"
-			tasks: [
-				{
-					id: "434D507CADC72150"
-					item: "superbwarfare:rare_material_pack"
-					type: "item"
-				}
-			]
-			title: "Tier 2 Material Pack"
-			x: 17.5d
-			y: 1.75d
 		}
 	]
 	title: "Tier 2: The Snow"

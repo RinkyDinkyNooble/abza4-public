@@ -26,7 +26,7 @@ _Explore, Fight, & Survive apocalyptic threats with your friends._
 *   **Progression:** a modified **Mekanism** experience changed to integrate Ad Astra and other progression-related content.
 *   **Scavenging:** locked safes and doors with codes written somewhere nearby, keycard rooms, **air drops** called by flare guns, and more coming soon.
 *   **PvE Experience:** every player is on one team, with friendly fire off. A unified world map combined with QoL multiplayer mods will enhance cooperation.
-*   **FTB & NPC Quests** with tutorials, story and a bestiary.
+*   **FTB & NPC Quests** with a map of each tier, story and a bestiary.
 
 ***
 
