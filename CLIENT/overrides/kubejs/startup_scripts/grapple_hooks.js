@@ -49,6 +49,6 @@ global.abzaGrappleHookIds = Object.keys(GRAPPLE_HOOKS)
 
 // The Grappling Hook tab shows each hook instead of the plain item
 StartupEvents.modifyCreativeTab('grapplemod:grapplemod', event => {
-    event.remove(Ingredient.custom('grapplemod:grapplinghook', stack => !stack.nbt || !stack.nbt.contains('abza_hook')))
+    event.remove(Ingredient.custom(stack => stack.id == 'grapplemod:grapplinghook' && (!stack.nbt || !stack.nbt.contains('abza_hook'))))
     event.add(Object.keys(GRAPPLE_HOOKS).map(id => abzaGrappleHookItem(id)))
 })

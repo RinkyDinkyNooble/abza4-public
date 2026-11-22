@@ -1,5 +1,10 @@
 # Changelog
 
+## [4.1.0-hotfix] CLIENT
+
+- On a server, JEI lists every item and its recipes again (only fluids showed). Singleplayer wasn't affected.
+- Joins any 4.1.0 server: the server pack is unchanged.
+
 ## [4.1.0] CLIENT and SERVER
 
 The Plains are complete. **A new world is recommended:** the new buildings only appear where the world hasn't been generated yet.
