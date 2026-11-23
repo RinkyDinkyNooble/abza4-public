@@ -14,6 +14,8 @@ Carries on in a 4.1.0 world. A server needs the 4.1.1 server pack.
 - Plazas, hydro gardens and playgrounds are rarer.
 - Hired guards sit higher in vehicle seats.
 - The Tier 2 Material Pack takes an emerald in place of one lead ingot.
+- ABZA Shader 2.0.0 and Shaders Companion 2.0.0.
+- New title screen pictures.
 - Includes 4.1.0-hotfix's JEI fix for servers.
 
 ## [4.1.0-hotfix] CLIENT
